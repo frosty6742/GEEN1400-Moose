@@ -3,8 +3,8 @@
 #ifndef GIT_INFO_H
 #define GIT_INFO_H
 
-#define GIT_BRANCH ""
-#define GIT_COMMIT_HASH ""
-#define GIT_COMMIT_MSG ""
+#define GIT_BRANCH "main"
+#define GIT_COMMIT_HASH "2536abf0ca99d6954ad8e7e0989f29778c71e196"
+#define GIT_COMMIT_MSG "upload "
 
 #endif // GIT_INFO_H

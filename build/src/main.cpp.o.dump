@@ -1,0 +1,212 @@
+
+build/./src/main.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 main.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata._Z10print_logov.str1.4	00000000 .rodata._Z10print_logov.str1.4
+00000000 l    d  .text._Z10print_logov	00000000 .text._Z10print_logov
+00000000 l    d  .rodata.main.str1.4	00000000 .rodata.main.str1.4
+00000000 l    d  .text.startup.main	00000000 .text.startup.main
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._Z10print_logov	000000d0 _Z10print_logov
+00000000         *UND*	00000000 yield
+00000000         *UND*	00000000 usb_serial_write
+00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000         *UND*	00000000 _ZN5Print6printfEPKcz
+00000000         *UND*	00000000 usb_configuration
+00000000         *UND*	00000000 usb_cdc_line_rtsdtr
+00000000         *UND*	00000000 systick_millis_count
+00000000         *UND*	00000000 usb_cdc_line_rtsdtr_millis
+00000000         *UND*	00000000 Serial
+00000000 g     F .text.startup.main	00000084 main
+00000000         *UND*	00000000 _ZN5Debug5beginEP6Stream
+00000000         *UND*	00000000 _ZN16usb_serial_class5writeEPKhj
+00000000         *UND*	00000000 SerialUSB1
+00000000         *UND*	00000000 debug
+
+
+Contents of section .rodata._Z10print_logov.str1.4:
+ 0000 1b5b306d 00000000 0a1b5b31 3b39326d  .[0m......[1;92m
+ 0010 46572056 65722e20 322e312e 30000000  FW Ver. 2.1.0...
+ 0020 31313a34 363a3037 00000000 46656220  11:46:07....Feb 
+ 0030 32352032 30323500 0a4c6173 74204275  25 2025..Last Bu
+ 0040 696c743a 20257320 61742025 73000000  ilt: %s at %s...
+ 0050 32353336 61626630 63613939 64363935  2536abf0ca99d695
+ 0060 34616438 65376530 39383966 32393737  4ad8e7e0989f2977
+ 0070 38633731 65313936 00000000 0a476974  8c71e196.....Git
+ 0080 20486173 683a2025 73000000 6d61696e   Hash: %s...main
+ 0090 00000000 0a476974 20427261 6e63683a  .....Git Branch:
+ 00a0 20257300 75706c6f 61642000 0a436f6d   %s.upload ..Com
+ 00b0 6d697420 4d657373 6167653a 20257300  mit Message: %s.
+ 00c0 0a52616e 646f6d20 4e756d3a 20257800  .Random Num: %x.
+ 00d0 1b5b306d 0a00                        .[0m..          
+Contents of section .text._Z10print_logov:
+ 0000 08b5fff7 feff1f4b 1b78002b 39d01e4b  .......K.x.+9..K
+ 0010 1b78db07 35d51d4b 1d4a1b68 12689b1a  .x..5..K.J.h.h..
+ 0020 0e2b2ed9 04211b48 fff7feff 15211a48  .+...!.H.....!.H
+ 0030 fff7feff 1948fff7 feff194b 194a1a49  .....H.....K.J.I
+ 0040 1648fff7 feff194a 19491448 fff7feff  .H.....J.I.H....
+ 0050 184a1949 1148fff7 feff184a 18490f48  .J.I.H.....J.I.H
+ 0060 fff7feff 174b1849 5a680c48 fff7feff  .....K.IZh.H....
+ 0070 05211648 fff7feff 0848bde8 0840fff7  .!.H.....H...@..
+ 0080 febf08bd 00000000 00000000 00000000  ................
+ 0090 00000000 00000000 08000000 00000000  ................
+ 00a0 20000000 2c000000 38000000 50000000   ...,...8...P...
+ 00b0 7c000000 8c000000 94000000 a4000000  |...............
+ 00c0 ac000000 001000e0 c0000000 d0000000  ................
+Contents of section .rodata.main.str1.4:
+ 0000 456e7465 72696e67 206d6169 6e206c6f  Entering main lo
+ 0010 6f702e2e 2e0a00                      op.....         
+Contents of section .text.startup.main:
+ 0000 184d40f2 ee28184c dff87490 2e6880b5  .M@..(.L..t..h..
+ 0010 164ffff7 feff2378 bbb13b78 db0714d5  .O....#x..;x....
+ 0020 2b68d9f8 00209b1a 0e2b0ed9 10491148  +h... ...+...I.H
+ 0030 fff7feff fff7feff 16220f49 0f48fff7  .........".I.H..
+ 0040 feff0e48 fff7feff fee72b68 22789b1b  ...H......+h"x..
+ 0050 2ab1b3f5 fa6fe9d8 fff7feff d9e74345  *....o........CE
+ 0060 fad9e3e7 00000000 00000000 00000000  ................
+ 0070 00000000 00000000 00000000 00000000  ................
+ 0080 00000000                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._Z10print_logov:
+
+00000000 <_Z10print_logov>:
+   0:	b508      	push	{r3, lr}
+   2:	f7ff fffe 	bl	0 <yield>
+   6:	4b1f      	ldr	r3, [pc, #124]	; (84 <_Z10print_logov+0x84>)
+   8:	781b      	ldrb	r3, [r3, #0]
+   a:	2b00      	cmp	r3, #0
+   c:	d039      	beq.n	82 <_Z10print_logov+0x82>
+   e:	4b1e      	ldr	r3, [pc, #120]	; (88 <_Z10print_logov+0x88>)
+  10:	781b      	ldrb	r3, [r3, #0]
+  12:	07db      	lsls	r3, r3, #31
+  14:	d535      	bpl.n	82 <_Z10print_logov+0x82>
+  16:	4b1d      	ldr	r3, [pc, #116]	; (8c <_Z10print_logov+0x8c>)
+  18:	4a1d      	ldr	r2, [pc, #116]	; (90 <_Z10print_logov+0x90>)
+  1a:	681b      	ldr	r3, [r3, #0]
+  1c:	6812      	ldr	r2, [r2, #0]
+  1e:	1a9b      	subs	r3, r3, r2
+  20:	2b0e      	cmp	r3, #14
+  22:	d92e      	bls.n	82 <_Z10print_logov+0x82>
+  24:	2104      	movs	r1, #4
+  26:	481b      	ldr	r0, [pc, #108]	; (94 <_Z10print_logov+0x94>)
+  28:	f7ff fffe 	bl	0 <usb_serial_write>
+  2c:	2115      	movs	r1, #21
+  2e:	481a      	ldr	r0, [pc, #104]	; (98 <_Z10print_logov+0x98>)
+  30:	f7ff fffe 	bl	0 <usb_serial_write>
+  34:	4819      	ldr	r0, [pc, #100]	; (9c <_Z10print_logov+0x9c>)
+  36:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  3a:	4b19      	ldr	r3, [pc, #100]	; (a0 <_Z10print_logov+0xa0>)
+  3c:	4a19      	ldr	r2, [pc, #100]	; (a4 <_Z10print_logov+0xa4>)
+  3e:	491a      	ldr	r1, [pc, #104]	; (a8 <_Z10print_logov+0xa8>)
+  40:	4816      	ldr	r0, [pc, #88]	; (9c <_Z10print_logov+0x9c>)
+  42:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  46:	4a19      	ldr	r2, [pc, #100]	; (ac <_Z10print_logov+0xac>)
+  48:	4919      	ldr	r1, [pc, #100]	; (b0 <_Z10print_logov+0xb0>)
+  4a:	4814      	ldr	r0, [pc, #80]	; (9c <_Z10print_logov+0x9c>)
+  4c:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  50:	4a18      	ldr	r2, [pc, #96]	; (b4 <_Z10print_logov+0xb4>)
+  52:	4919      	ldr	r1, [pc, #100]	; (b8 <_Z10print_logov+0xb8>)
+  54:	4811      	ldr	r0, [pc, #68]	; (9c <_Z10print_logov+0x9c>)
+  56:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  5a:	4a18      	ldr	r2, [pc, #96]	; (bc <_Z10print_logov+0xbc>)
+  5c:	4918      	ldr	r1, [pc, #96]	; (c0 <_Z10print_logov+0xc0>)
+  5e:	480f      	ldr	r0, [pc, #60]	; (9c <_Z10print_logov+0x9c>)
+  60:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  64:	4b17      	ldr	r3, [pc, #92]	; (c4 <_Z10print_logov+0xc4>)
+  66:	4918      	ldr	r1, [pc, #96]	; (c8 <_Z10print_logov+0xc8>)
+  68:	685a      	ldr	r2, [r3, #4]
+  6a:	480c      	ldr	r0, [pc, #48]	; (9c <_Z10print_logov+0x9c>)
+  6c:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  70:	2105      	movs	r1, #5
+  72:	4816      	ldr	r0, [pc, #88]	; (cc <_Z10print_logov+0xcc>)
+  74:	f7ff fffe 	bl	0 <usb_serial_write>
+  78:	4808      	ldr	r0, [pc, #32]	; (9c <_Z10print_logov+0x9c>)
+  7a:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  7e:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  82:	bd08      	pop	{r3, pc}
+  84:	00000000 	.word	0x00000000
+  88:	00000000 	.word	0x00000000
+  8c:	00000000 	.word	0x00000000
+  90:	00000000 	.word	0x00000000
+  94:	00000000 	.word	0x00000000
+  98:	00000008 	.word	0x00000008
+  9c:	00000000 	.word	0x00000000
+  a0:	00000020 	.word	0x00000020
+  a4:	0000002c 	.word	0x0000002c
+  a8:	00000038 	.word	0x00000038
+  ac:	00000050 	.word	0x00000050
+  b0:	0000007c 	.word	0x0000007c
+  b4:	0000008c 	.word	0x0000008c
+  b8:	00000094 	.word	0x00000094
+  bc:	000000a4 	.word	0x000000a4
+  c0:	000000ac 	.word	0x000000ac
+  c4:	e0001000 	.word	0xe0001000
+  c8:	000000c0 	.word	0x000000c0
+  cc:	000000d0 	.word	0x000000d0
+
+Disassembly of section .text.startup.main:
+
+00000000 <main>:
+   0:	4d18      	ldr	r5, [pc, #96]	; (64 <main+0x64>)
+   2:	f240 28ee 	movw	r8, #750	; 0x2ee
+   6:	4c18      	ldr	r4, [pc, #96]	; (68 <main+0x68>)
+   8:	f8df 9074 	ldr.w	r9, [pc, #116]	; 80 <main+0x80>
+   c:	682e      	ldr	r6, [r5, #0]
+   e:	b580      	push	{r7, lr}
+  10:	4f16      	ldr	r7, [pc, #88]	; (6c <main+0x6c>)
+  12:	f7ff fffe 	bl	0 <yield>
+  16:	7823      	ldrb	r3, [r4, #0]
+  18:	b1bb      	cbz	r3, 4a <main+0x4a>
+  1a:	783b      	ldrb	r3, [r7, #0]
+  1c:	07db      	lsls	r3, r3, #31
+  1e:	d514      	bpl.n	4a <main+0x4a>
+  20:	682b      	ldr	r3, [r5, #0]
+  22:	f8d9 2000 	ldr.w	r2, [r9]
+  26:	1a9b      	subs	r3, r3, r2
+  28:	2b0e      	cmp	r3, #14
+  2a:	d90e      	bls.n	4a <main+0x4a>
+  2c:	4910      	ldr	r1, [pc, #64]	; (70 <main+0x70>)
+  2e:	4811      	ldr	r0, [pc, #68]	; (74 <main+0x74>)
+  30:	f7ff fffe 	bl	0 <_ZN5Debug5beginEP6Stream>
+  34:	f7ff fffe 	bl	0 <main>
+  38:	2216      	movs	r2, #22
+  3a:	490f      	ldr	r1, [pc, #60]	; (78 <main+0x78>)
+  3c:	480f      	ldr	r0, [pc, #60]	; (7c <main+0x7c>)
+  3e:	f7ff fffe 	bl	0 <_ZN16usb_serial_class5writeEPKhj>
+  42:	480e      	ldr	r0, [pc, #56]	; (7c <main+0x7c>)
+  44:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  48:	e7fe      	b.n	48 <main+0x48>
+  4a:	682b      	ldr	r3, [r5, #0]
+  4c:	7822      	ldrb	r2, [r4, #0]
+  4e:	1b9b      	subs	r3, r3, r6
+  50:	b12a      	cbz	r2, 5e <main+0x5e>
+  52:	f5b3 6ffa 	cmp.w	r3, #2000	; 0x7d0
+  56:	d8e9      	bhi.n	2c <main+0x2c>
+  58:	f7ff fffe 	bl	0 <yield>
+  5c:	e7d9      	b.n	12 <main+0x12>
+  5e:	4543      	cmp	r3, r8
+  60:	d9fa      	bls.n	58 <main+0x58>
+  62:	e7e3      	b.n	2c <main+0x2c>
+  64:	00000000 	.word	0x00000000
+  68:	00000000 	.word	0x00000000
+  6c:	00000000 	.word	0x00000000
+  70:	00000000 	.word	0x00000000
+  74:	00000000 	.word	0x00000000
+  78:	00000000 	.word	0x00000000
+  7c:	00000000 	.word	0x00000000
+  80:	00000000 	.word	0x00000000
