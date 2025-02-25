@@ -1,0 +1,1243 @@
+
+build/./src/sensors/can/MG8016EI6.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 MG8016EI6.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN9MG8016EI6D2Ev	00000000 .text._ZN9MG8016EI6D2Ev
+00000000 l    d  .text._ZN9MG8016EI618write_motor_torqueEf	00000000 .text._ZN9MG8016EI618write_motor_torqueEf
+00000000 l    d  .text._ZN9MG8016EI610zero_motorEv	00000000 .text._ZN9MG8016EI610zero_motorEv
+00000000 l    d  .rodata._ZNK5Motor11print_stateEv.str1.4	00000000 .rodata._ZNK5Motor11print_stateEv.str1.4
+00000000 l    d  .text._ZNK5Motor11print_stateEv	00000000 .text._ZNK5Motor11print_stateEv
+00000000 l    d  .text._ZNK9MG8016EI65writeER13CAN_message_t	00000000 .text._ZNK9MG8016EI65writeER13CAN_message_t
+00000000 l    d  .text._ZN9MG8016EI6D0Ev	00000000 .text._ZN9MG8016EI6D0Ev
+00000000 l    d  .text._ZNK5Motor12check_msg_idERK13CAN_message_t	00000000 .text._ZNK5Motor12check_msg_idERK13CAN_message_t
+00000000 l    d  .rodata._ZN9MG8016EI64readER13CAN_message_t.str1.4	00000000 .rodata._ZN9MG8016EI64readER13CAN_message_t.str1.4
+00000000 l    d  .text._ZN9MG8016EI64readER13CAN_message_t	00000000 .text._ZN9MG8016EI64readER13CAN_message_t
+00000000 l    d  .text._ZN9MG8016EI617write_motor_speedEf	00000000 .text._ZN9MG8016EI617write_motor_speedEf
+00000000 l    d  .text._ZN9MG8016EI617write_motor_angleEff	00000000 .text._ZN9MG8016EI617write_motor_angleEff
+00000000 l    d  .text._ZN9MG8016EI615write_motor_offEv	00000000 .text._ZN9MG8016EI615write_motor_offEv
+00000000 l    d  .text._ZN9MG8016EI614write_motor_onEv	00000000 .text._ZN9MG8016EI614write_motor_onEv
+00000000 l    d  .text._ZN9MG8016EI64initEv	00000000 .text._ZN9MG8016EI64initEv
+00000000 l    d  .text._ZN9MG8016EI616write_motor_stopEv	00000000 .text._ZN9MG8016EI616write_motor_stopEv
+00000000 l    d  .text._ZN9MG8016EI620create_cmd_motor_offEPh	00000000 .text._ZN9MG8016EI620create_cmd_motor_offEPh
+00000000 l    d  .text._ZN9MG8016EI619create_cmd_motor_onEPh	00000000 .text._ZN9MG8016EI619create_cmd_motor_onEPh
+00000000 l    d  .text._ZN9MG8016EI621create_cmd_motor_stopEPh	00000000 .text._ZN9MG8016EI621create_cmd_motor_stopEPh
+00000000 l    d  .text._ZN9MG8016EI625create_cmd_torque_controlEPhs	00000000 .text._ZN9MG8016EI625create_cmd_torque_controlEPhs
+00000000 l    d  .text._ZN9MG8016EI624create_cmd_speed_controlEPhl	00000000 .text._ZN9MG8016EI624create_cmd_speed_controlEPhl
+00000000 l    d  .text._ZN9MG8016EI630create_cmd_multi_angle_controlEPhl	00000000 .text._ZN9MG8016EI630create_cmd_multi_angle_controlEPhl
+00000000 l    d  .text._ZN9MG8016EI644create_cmd_multi_angle_control_speed_limitedEPhlt	00000000 .text._ZN9MG8016EI644create_cmd_multi_angle_control_speed_limitedEPhlt
+00000000 l    d  .text._ZN9MG8016EI624create_cmd_angle_controlEPhmh	00000000 .text._ZN9MG8016EI624create_cmd_angle_controlEPhmh
+00000000 l    d  .text._ZN9MG8016EI638create_cmd_angle_control_speed_limitedEPhmht	00000000 .text._ZN9MG8016EI638create_cmd_angle_control_speed_limitedEPhmht
+00000000 l    d  .text._ZN9MG8016EI634create_cmd_angle_increment_controlEPhl	00000000 .text._ZN9MG8016EI634create_cmd_angle_increment_controlEPhl
+00000000 l    d  .text._ZN9MG8016EI648create_cmd_angle_increment_control_speed_limitedEPhlt	00000000 .text._ZN9MG8016EI648create_cmd_angle_increment_control_speed_limitedEPhlt
+00000000 l    d  .text._ZN9MG8016EI619create_cmd_read_pidEPh	00000000 .text._ZN9MG8016EI619create_cmd_read_pidEPh
+00000000 l    d  .text._ZN9MG8016EI620create_cmd_write_pidEPhhhhhhh	00000000 .text._ZN9MG8016EI620create_cmd_write_pidEPhhhhhhh
+00000000 l    d  .text._ZN9MG8016EI624create_cmd_write_pid_romEPhhhhhhh	00000000 .text._ZN9MG8016EI624create_cmd_write_pid_romEPhhhhhhh
+00000000 l    d  .text._ZN9MG8016EI628create_cmd_read_accelerationEPh	00000000 .text._ZN9MG8016EI628create_cmd_read_accelerationEPh
+00000000 l    d  .text._ZN9MG8016EI629create_cmd_write_accelerationEPhl	00000000 .text._ZN9MG8016EI629create_cmd_write_accelerationEPhl
+00000000 l    d  .text._ZN9MG8016EI623create_cmd_read_encoderEPh	00000000 .text._ZN9MG8016EI623create_cmd_read_encoderEPh
+00000000 l    d  .text._ZN9MG8016EI629create_cmd_write_encoder_zeroEPht	00000000 .text._ZN9MG8016EI629create_cmd_write_encoder_zeroEPht
+00000000 l    d  .text._ZN9MG8016EI633create_cmd_write_position_as_zeroEPh	00000000 .text._ZN9MG8016EI633create_cmd_write_position_as_zeroEPh
+00000000 l    d  .text._ZN9MG8016EI627create_cmd_read_multi_angleEPh	00000000 .text._ZN9MG8016EI627create_cmd_read_multi_angleEPh
+00000000 l    d  .text._ZN9MG8016EI621create_cmd_read_angleEPh	00000000 .text._ZN9MG8016EI621create_cmd_read_angleEPh
+00000000 l    d  .text._ZN9MG8016EI623create_cmd_read_state_1EPh	00000000 .text._ZN9MG8016EI623create_cmd_read_state_1EPh
+00000000 l    d  .text._ZN9MG8016EI622create_cmd_clear_errorEPh	00000000 .text._ZN9MG8016EI622create_cmd_clear_errorEPh
+00000000 l    d  .text._ZN9MG8016EI623create_cmd_read_state_2EPh	00000000 .text._ZN9MG8016EI623create_cmd_read_state_2EPh
+00000000 l    d  .text._ZN9MG8016EI623create_cmd_read_state_3EPh	00000000 .text._ZN9MG8016EI623create_cmd_read_state_3EPh
+00000000 l    d  .rodata._ZTV9MG8016EI6	00000000 .rodata._ZTV9MG8016EI6
+00000000 l       .group	00000000 _ZN9MG8016EI6D5Ev
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN9MG8016EI6D2Ev	00000002 _ZN9MG8016EI6D2Ev
+00000000  w    F .text._ZN9MG8016EI6D2Ev	00000002 _ZN9MG8016EI6D1Ev
+00000000 g     F .text._ZN9MG8016EI618write_motor_torqueEf	00000078 _ZN9MG8016EI618write_motor_torqueEf
+00000000 g     F .text._ZN9MG8016EI610zero_motorEv	00000010 _ZN9MG8016EI610zero_motorEv
+00000000  w    F .text._ZNK5Motor11print_stateEv	00000044 _ZNK5Motor11print_stateEv
+00000000         *UND*	00000000 _ZN5Print6printfEPKcz
+00000000         *UND*	00000000 Serial
+00000000 g     F .text._ZNK9MG8016EI65writeER13CAN_message_t	00000028 _ZNK9MG8016EI65writeER13CAN_message_t
+00000000  w    F .text._ZN9MG8016EI6D0Ev	0000000e _ZN9MG8016EI6D0Ev
+00000000         *UND*	00000000 _ZdlPvj
+00000000  w    F .text._ZNK5Motor12check_msg_idERK13CAN_message_t	0000002a _ZNK5Motor12check_msg_idERK13CAN_message_t
+00000000 g     F .text._ZN9MG8016EI64readER13CAN_message_t	000001e4 _ZN9MG8016EI64readER13CAN_message_t
+00000000 g     F .text._ZN9MG8016EI617write_motor_speedEf	00000064 _ZN9MG8016EI617write_motor_speedEf
+00000000 g     F .text._ZN9MG8016EI617write_motor_angleEff	000000d4 _ZN9MG8016EI617write_motor_angleEff
+00000000 g     F .text._ZN9MG8016EI615write_motor_offEv	0000003a _ZN9MG8016EI615write_motor_offEv
+00000000 g     F .text._ZN9MG8016EI614write_motor_onEv	0000003a _ZN9MG8016EI614write_motor_onEv
+00000000 g     F .text._ZN9MG8016EI64initEv	00000004 _ZN9MG8016EI64initEv
+00000000 g     F .text._ZN9MG8016EI616write_motor_stopEv	0000003a _ZN9MG8016EI616write_motor_stopEv
+00000000 g     F .text._ZN9MG8016EI620create_cmd_motor_offEPh	00000016 _ZN9MG8016EI620create_cmd_motor_offEPh
+00000000 g     F .text._ZN9MG8016EI619create_cmd_motor_onEPh	00000016 _ZN9MG8016EI619create_cmd_motor_onEPh
+00000000 g     F .text._ZN9MG8016EI621create_cmd_motor_stopEPh	00000016 _ZN9MG8016EI621create_cmd_motor_stopEPh
+00000000 g     F .text._ZN9MG8016EI625create_cmd_torque_controlEPhs	0000001e _ZN9MG8016EI625create_cmd_torque_controlEPhs
+00000000 g     F .text._ZN9MG8016EI624create_cmd_speed_controlEPhl	00000024 _ZN9MG8016EI624create_cmd_speed_controlEPhl
+00000000 g     F .text._ZN9MG8016EI630create_cmd_multi_angle_controlEPhl	00000024 _ZN9MG8016EI630create_cmd_multi_angle_controlEPhl
+00000000 g     F .text._ZN9MG8016EI644create_cmd_multi_angle_control_speed_limitedEPhlt	0000002c _ZN9MG8016EI644create_cmd_multi_angle_control_speed_limitedEPhlt
+00000000 g     F .text._ZN9MG8016EI624create_cmd_angle_controlEPhmh	0000002c _ZN9MG8016EI624create_cmd_angle_controlEPhmh
+00000000 g     F .text._ZN9MG8016EI638create_cmd_angle_control_speed_limitedEPhmht	0000002e _ZN9MG8016EI638create_cmd_angle_control_speed_limitedEPhmht
+00000000 g     F .text._ZN9MG8016EI634create_cmd_angle_increment_controlEPhl	00000024 _ZN9MG8016EI634create_cmd_angle_increment_controlEPhl
+00000000 g     F .text._ZN9MG8016EI648create_cmd_angle_increment_control_speed_limitedEPhlt	0000002c _ZN9MG8016EI648create_cmd_angle_increment_control_speed_limitedEPhlt
+00000000 g     F .text._ZN9MG8016EI619create_cmd_read_pidEPh	00000016 _ZN9MG8016EI619create_cmd_read_pidEPh
+00000000 g     F .text._ZN9MG8016EI620create_cmd_write_pidEPhhhhhhh	0000002e _ZN9MG8016EI620create_cmd_write_pidEPhhhhhhh
+00000000 g     F .text._ZN9MG8016EI624create_cmd_write_pid_romEPhhhhhhh	0000002e _ZN9MG8016EI624create_cmd_write_pid_romEPhhhhhhh
+00000000 g     F .text._ZN9MG8016EI628create_cmd_read_accelerationEPh	00000016 _ZN9MG8016EI628create_cmd_read_accelerationEPh
+00000000 g     F .text._ZN9MG8016EI629create_cmd_write_accelerationEPhl	00000024 _ZN9MG8016EI629create_cmd_write_accelerationEPhl
+00000000 g     F .text._ZN9MG8016EI623create_cmd_read_encoderEPh	00000016 _ZN9MG8016EI623create_cmd_read_encoderEPh
+00000000 g     F .text._ZN9MG8016EI629create_cmd_write_encoder_zeroEPht	0000001e _ZN9MG8016EI629create_cmd_write_encoder_zeroEPht
+00000000 g     F .text._ZN9MG8016EI633create_cmd_write_position_as_zeroEPh	00000016 _ZN9MG8016EI633create_cmd_write_position_as_zeroEPh
+00000000 g     F .text._ZN9MG8016EI627create_cmd_read_multi_angleEPh	00000016 _ZN9MG8016EI627create_cmd_read_multi_angleEPh
+00000000 g     F .text._ZN9MG8016EI621create_cmd_read_angleEPh	00000016 _ZN9MG8016EI621create_cmd_read_angleEPh
+00000000 g     F .text._ZN9MG8016EI623create_cmd_read_state_1EPh	00000016 _ZN9MG8016EI623create_cmd_read_state_1EPh
+00000000 g     F .text._ZN9MG8016EI622create_cmd_clear_errorEPh	00000016 _ZN9MG8016EI622create_cmd_clear_errorEPh
+00000000 g     F .text._ZN9MG8016EI623create_cmd_read_state_2EPh	00000016 _ZN9MG8016EI623create_cmd_read_state_2EPh
+00000000 g     F .text._ZN9MG8016EI623create_cmd_read_state_3EPh	00000016 _ZN9MG8016EI623create_cmd_read_state_3EPh
+00000000 g     O .rodata._ZTV9MG8016EI6	0000002c _ZTV9MG8016EI6
+
+
+Contents of section .group:
+ 0000 01000000 07000000 0e000000 0f000000  ................
+Contents of section .group:
+ 0000 01000000 0b000000 0c000000           ............    
+Contents of section .group:
+ 0000 01000000 10000000                    ........        
+Contents of section .text._ZN9MG8016EI6D2Ev:
+ 0000 704700bf                             pG..            
+Contents of section .text._ZN9MG8016EI618write_motor_torqueEf:
+ 0000 f7ee007a 10b4b4ee e70a83b0 f1ee10fa  ...z............
+ 0010 28ddb0ee 670ad0ed 167a0022 4369f8ee  (...g....z."Ci..
+ 0020 e77ac168 8df80120 5c18adf8 022067ee  .z.h... \.... g.
+ 0030 807a00f1 2703c461 6946adf8 06202f30  .z..'..aiF... /0
+ 0040 fdeee77a a12217ee 904aadf8 044001e0  ...z."...J...@..
+ 0050 11f8012f 03f8012f 8342f9d1 03b05df8  .../.../.B....].
+ 0060 044b7047 ffee007a b4ee670a f1ee10fa  .KpG...z..g.....
+ 0070 48bfb0ee 670acee7                    H...g...        
+Contents of section .text._ZN9MG8016EI610zero_motorEv:
+ 0000 03689fed 020a9b69 184700bf 00000000  .h.....i.G......
+Contents of section .rodata._ZNK5Motor11print_stateEv.str1.4:
+ 0000 4275733a 20257809 49443a20 25780954  Bus: %x.ID: %x.T
+ 0010 656d703a 20252e32 64630954 6f727175  emp: %.2dc.Torqu
+ 0020 653a2025 20342e33 66252509 53706565  e: % 4.3f%%.Spee
+ 0030 643a2025 20362e32 66726164 2f730950  d: % 6.2frad/s.P
+ 0040 6f733a20 25352e35 643f0a00           os: %5.5d?..    
+Contents of section .text._ZNK5Motor11print_stateEv:
+ 0000 02460e49 0e4892ed 146a92ed 137ab2f8  .F.I.H...j...z..
+ 0010 5430b7ee c66ab7ee c77a10b5 88b092f9  T0...j...z......
+ 0020 56400693 d2e90332 00948ded 046b8ded  V@.....2.....k..
+ 0030 027bfff7 feff08b0 10bd00bf 00000000  .{..............
+ 0040 00000000                             ....            
+Contents of section .text._ZNK9MG8016EI65writeER13CAN_message_t:
+ 0000 00b5c269 036ad0f8 24e0d0f8 28c00a60  ...i.j..$...(..`
+ 0010 4b60c1f8 08e0c1f8 0cc0c26a 036b0020  K`.........j.k. 
+ 0020 0a614b61 5df804fb                    .aKa]...        
+Contents of section .text._ZN9MG8016EI6D0Ev:
+ 0000 10b50446 9021fff7 feff2046 10bd00bf  ...F.!.... F....
+Contents of section .text._ZNK5Motor12check_msg_idERK13CAN_message_t:
+ 0000 43690a68 10b4c468 23449a42 09d14b7d  Ci.h...h#D.B..K}
+ 0010 0269581e 5df8044b 801ab0fa 80f04009  .iX.]..K......@.
+ 0020 70470020 5df8044b 704700bf           pG. ]..KpG..    
+Contents of section .rodata._ZN9MG8016EI64readER13CAN_message_t.str1.4:
+ 0000 556e6b6e 6f776e20 636f6d6d 616e6420  Unknown command 
+ 0010 62797465 3a203078 25303258 0a00      byte: 0x%02X..  
+Contents of section .text._ZN9MG8016EI64readER13CAN_message_t:
+ 0000 38b50368 0446744a 0d461b6a 934250d1  8..h.FtJ.F.j.BP.
+ 0010 4369c168 2a680b44 9a4201d0 002038bd  Ci.h*h.D.B... 8.
+ 0020 6b7d0269 013b9342 f8d12a7b a2f13003  k}.i.;.B..*{..0.
+ 0030 782b42d8 dfe803f0 926b6b8e 6b414141  x+B......kk.kAAA
+ 0040 41414141 41414141 41414141 41414141  AAAAAAAAAAAAAAAA
+ 0050 41414141 41414141 41414141 41414141  AAAAAAAAAAAAAAAA
+ 0060 41414141 41414141 41414141 41414141  AAAAAAAAAAAAAAAA
+ 0070 41414141 41414141 41414141 41414141  AAAAAAAAAAAAAAAA
+ 0080 41414141 41414141 6b6b4141 41414141  AAAAAAAAkkAAAAAA
+ 0090 6b414141 41414141 836bb641 b1414141  kAAAAAAA.k.A.AAA
+ 00a0 41416d6d 47a64141 41474747 47474747  AAmmG.AAAGGGGGGG
+ 00b0 47009847 0028b8d1 b0e74849 4848fff7  G..G.(....HIHH..
+ 00c0 feff0120 38bd6b7b 0120d4ed 167a84f8  ... 8.k{. ...z..
+ 00d0 5630b5f9 0e30f8ee e77a07ee 103ab8ee  V0...0...z...:..
+ 00e0 c77a9fed 3b6bc7ee 275ac4ed 135ab5f9  .z..;k..'Z...Z..
+ 00f0 103007ee 103ab8ee c77b27ee 067bb7ee  .0...:...{'..{..
+ 0100 c77b84ed 147a6b8a a4f85430 38bd0120  .{...zk...T08.. 
+ 0110 38bdb5f8 0f200120 94f88630 a4f88420  8.... . ...0... 
+ 0120 ea7c62f3 000384f8 8630eb7c 94f88620  .|b......0.|... 
+ 0130 c3f3c003 63f3c302 84f88620 38bdeb89  ....c...... 8...
+ 0140 0120a4f8 6c302b8a a4f86e30 6b8aa4f8  . ..l0+...n0k...
+ 0150 703038bd 2b690120 a36638bd ab7b0120  p08.+i. .f8..{. 
+ 0160 84f86030 eb7b84f8 61302b7c 84f86230  ..`0.{..a0+|..b0
+ 0170 6b7c84f8 6330ab7c 84f86430 eb7c84f8  k|..c0.|..d0.|..
+ 0180 653038bd eb890120 a4f88830 2b8aa4f8  e08.... ...0+...
+ 0190 8a306b8a a4f88c30 38bd2b69 0120c4f8  .0k....08.+i. ..
+ 01a0 803038bd 05f10c03 04f17702 05f11300  .08.......w.....
+ 01b0 13f8011f 834202f8 011ff9d1 95f91330  .....B.........0
+ 01c0 0120002b b4bfff23 002384f8 7f3038bd  . .+...#.#...08.
+ 01d0 399d52a2 46df913f 00000000 00000000  9.R.F..?........
+ 01e0 00000000                             ....            
+Contents of section .text._ZN9MG8016EI617write_motor_speedEf:
+ 0000 9fed156b b7eec00a dfed157a 4369a222  ...k.......zCi."
+ 0010 20ee060b 10b4b7ee c00b83b0 00246946   ............$iF
+ 0020 20ee270a 8df80140 adf80240 c468bdee   .'....@...@.h..
+ 0030 c00a1c44 00f12703 2f3040f8 134c8ded  ...D..'./0@..L..
+ 0040 010a01e0 11f8012f 03f8012f 8342f9d1  ......./.../.B..
+ 0050 03b05df8 044b7047 f8c1631a dca54c40  ..]..KpG..c...L@
+ 0060 0000c842                             ...B            
+Contents of section .text._ZN9MG8016EI617write_motor_angleEff:
+ 0000 9fed316b b7eec05a dfed317a b0ee607a  ..1k...Z..1z..`z
+ 0010 25ee060b b5eec07a 9fed2b6b b7eec00b  %......z..+k....
+ 0020 f1ee10fa 20ee270a 48bfb1ee 477afdee  .... .'.H...Gz..
+ 0030 c07a30b5 17ee903a b7eec77a 83b027ee  .z0....:...z..'.
+ 0040 067bb7ee c77bb5ee 407af1ee 10fa2ad1  .{...{..@z....*.
+ 0050 4ff0000c ddb2c3f3 0724c3f3 074ea322  O........$...N."
+ 0060 1b0e6146 8df80310 8df80540 4169c468  ..aF.......@Ai.h
+ 0070 8df802c0 4ff0000c 21448df8 07308df8  ....O...!D...0..
+ 0080 045000f1 2703c161 69462f30 8df806e0  .P..'..aiF/0....
+ 0090 8df801c0 01e011f8 012f03f8 012f8342  ........./.../.B
+ 00a0 f9d103b0 30bdfcee c77addb2 c3f30724  ....0....z.....$
+ 00b0 c3f3074e a4221b0e 17ee901a 5ffa81fc  ...N."......_...
+ 00c0 c1f30721 cee700bf f8c1631a dca54c40  ...!......c...L@
+ 00d0 0000c842                             ...B            
+Contents of section .text._ZN9MG8016EI615write_motor_offEv:
+ 0000 10b40023 83b0c468 80228df8 01306946  ...#...h."...0iF
+ 0010 adf80230 01934369 1c4400f1 27032f30  ...0..Ci.D..'./0
+ 0020 40f8134c 01e011f8 012f03f8 012f8342  @..L...../.../.B
+ 0030 f9d103b0 5df8044b 704700bf           ....]..KpG..    
+Contents of section .text._ZN9MG8016EI614write_motor_onEv:
+ 0000 10b40023 83b0c468 88228df8 01306946  ...#...h."...0iF
+ 0010 adf80230 01934369 1c4400f1 27032f30  ...0..Ci.D..'./0
+ 0020 40f8134c 01e011f8 012f03f8 012f8342  @..L...../.../.B
+ 0030 f9d103b0 5df8044b 704700bf           ....]..KpG..    
+Contents of section .text._ZN9MG8016EI64initEv:
+ 0000 fff7febf                             ....            
+Contents of section .text._ZN9MG8016EI616write_motor_stopEv:
+ 0000 10b40023 83b0c468 81228df8 01306946  ...#...h."...0iF
+ 0010 adf80230 01934369 1c4400f1 27032f30  ...0..Ci.D..'./0
+ 0020 40f8134c 01e011f8 012f03f8 012f8342  @..L...../.../.B
+ 0030 f9d103b0 5df8044b 704700bf           ....]..KpG..    
+Contents of section .text._ZN9MG8016EI620create_cmd_motor_offEPh:
+ 0000 00238022 4b700a70 8b70cb70 0b714b71  .#."Kp.p.p.p.qKq
+ 0010 8b71cb71 704700bf                    .q.qpG..        
+Contents of section .text._ZN9MG8016EI619create_cmd_motor_onEPh:
+ 0000 00238822 4b700a70 8b70cb70 0b714b71  .#."Kp.p.p.p.qKq
+ 0010 8b71cb71 704700bf                    .q.qpG..        
+Contents of section .text._ZN9MG8016EI621create_cmd_motor_stopEPh:
+ 0000 00238122 4b700a70 8b70cb70 0b714b71  .#."Kp.p.p.p.qKq
+ 0010 8b71cb71 704700bf                    .q.qpG..        
+Contents of section .text._ZN9MG8016EI625create_cmd_torque_controlEPhs:
+ 0000 00234ff0 a10cc2f3 07200a71 81f800c0  .#O...... .q....
+ 0010 4b708b70 cb704871 8b71cb71 704700bf  Kp.p.pHq.q.qpG..
+Contents of section .text._ZN9MG8016EI624create_cmd_speed_controlEPhl:
+ 0000 0023a220 c2f3072c 0a710870 c2f30740  .#. ...,.q.p...@
+ 0010 4b708b70 cb70c2f3 076381f8 05c08871  Kp.p.p...c.....q
+ 0020 cb717047                             .qpG            
+Contents of section .text._ZN9MG8016EI630create_cmd_multi_angle_controlEPhl:
+ 0000 0023a320 c2f3072c 0a710870 c2f30740  .#. ...,.q.p...@
+ 0010 4b708b70 cb70c2f3 076381f8 05c08871  Kp.p.p...c.....q
+ 0020 cb717047                             .qpG            
+Contents of section .text._ZN9MG8016EI644create_cmd_multi_angle_control_speed_limitedEPhlt:
+ 0000 4ff0a40c 00208b70 81f800c0 c3f3072c  O.... .p.......,
+ 0010 4870c2f3 0743c2f3 07200a71 c2f30762  Hp...C... .q...b
+ 0020 81f803c0 48718b71 ca717047           ....Hq.q.qpG    
+Contents of section .text._ZN9MG8016EI624create_cmd_angle_controlEPhmh:
+ 0000 0020c2f3 072c4b70 c2f30763 8870c870  . ...,Kp...c.p.p
+ 0010 c2f30740 0a7181f8 05c08871 cb7100b5  ...@.q.....q.q..
+ 0020 4ff0a50e 81f800e0 5df804fb           O.......]...    
+Contents of section .text._ZN9MG8016EI638create_cmd_angle_control_speed_limitedEPhmht:
+ 0000 bdf80000 4ff0a60c 4b70c2f3 074381f8  ....O...Kp...C..
+ 0010 00c0c0f3 072c8870 c2f30720 0a71c2f3  .....,.p... .q..
+ 0020 076281f8 03c04871 8b71ca71 704700bf  .b....Hq.q.qpG..
+Contents of section .text._ZN9MG8016EI634create_cmd_angle_increment_controlEPhl:
+ 0000 0023a720 c2f3072c 0a710870 c2f30740  .#. ...,.q.p...@
+ 0010 4b708b70 cb70c2f3 076381f8 05c08871  Kp.p.p...c.....q
+ 0020 cb717047                             .qpG            
+Contents of section .text._ZN9MG8016EI648create_cmd_angle_increment_control_speed_limitedEPhlt:
+ 0000 4ff0a80c 00208b70 81f800c0 c3f3072c  O.... .p.......,
+ 0010 4870c2f3 0743c2f3 07200a71 c2f30762  Hp...C... .q...b
+ 0020 81f803c0 48718b71 ca717047           ....Hq.q.qpG    
+Contents of section .text._ZN9MG8016EI619create_cmd_read_pidEPh:
+ 0000 00233022 4b700a70 8b70cb70 0b714b71  .#0"Kp.p.p.p.qKq
+ 0010 8b71cb71 704700bf                    .q.qpG..        
+Contents of section .text._ZN9MG8016EI620create_cmd_write_pidEPhhhhhhh:
+ 0000 cb703123 8a700b70 002300b5 9df804e0  .p1#.p.p.#......
+ 0010 9df808c0 9df80c00 9df81020 81f804e0  ........... ....
+ 0020 81f805c0 8871ca71 4b705df8 04fb00bf  .....q.qKp].....
+Contents of section .text._ZN9MG8016EI624create_cmd_write_pid_romEPhhhhhhh:
+ 0000 cb703223 8a700b70 002300b5 9df804e0  .p2#.p.p.#......
+ 0010 9df808c0 9df80c00 9df81020 81f804e0  ........... ....
+ 0020 81f805c0 8871ca71 4b705df8 04fb00bf  .....q.qKp].....
+Contents of section .text._ZN9MG8016EI628create_cmd_read_accelerationEPh:
+ 0000 00233322 4b700a70 8b70cb70 0b714b71  .#3"Kp.p.p.p.qKq
+ 0010 8b71cb71 704700bf                    .q.qpG..        
+Contents of section .text._ZN9MG8016EI629create_cmd_write_accelerationEPhl:
+ 0000 00233420 c2f3072c 0a710870 c2f30740  .#4 ...,.q.p...@
+ 0010 4b708b70 cb70c2f3 076381f8 05c08871  Kp.p.p...c.....q
+ 0020 cb717047                             .qpG            
+Contents of section .text._ZN9MG8016EI623create_cmd_read_encoderEPh:
+ 0000 00239022 4b700a70 8b70cb70 0b714b71  .#."Kp.p.p.p.qKq
+ 0010 8b71cb71 704700bf                    .q.qpG..        
+Contents of section .text._ZN9MG8016EI629create_cmd_write_encoder_zeroEPht:
+ 0000 00234ff0 910cc2f3 07208a71 81f800c0  .#O...... .q....
+ 0010 4b708b70 cb700b71 4b71c871 704700bf  Kp.p.p.qKq.qpG..
+Contents of section .text._ZN9MG8016EI633create_cmd_write_position_as_zeroEPh:
+ 0000 00231922 4b700a70 8b70cb70 0b714b71  .#."Kp.p.p.p.qKq
+ 0010 8b71cb71 704700bf                    .q.qpG..        
+Contents of section .text._ZN9MG8016EI627create_cmd_read_multi_angleEPh:
+ 0000 00239222 4b700a70 8b70cb70 0b714b71  .#."Kp.p.p.p.qKq
+ 0010 8b71cb71 704700bf                    .q.qpG..        
+Contents of section .text._ZN9MG8016EI621create_cmd_read_angleEPh:
+ 0000 00239422 4b700a70 8b70cb70 0b714b71  .#."Kp.p.p.p.qKq
+ 0010 8b71cb71 704700bf                    .q.qpG..        
+Contents of section .text._ZN9MG8016EI623create_cmd_read_state_1EPh:
+ 0000 00239a22 4b700a70 8b70cb70 0b714b71  .#."Kp.p.p.p.qKq
+ 0010 8b71cb71 704700bf                    .q.qpG..        
+Contents of section .text._ZN9MG8016EI622create_cmd_clear_errorEPh:
+ 0000 00239b22 4b700a70 8b70cb70 0b714b71  .#."Kp.p.p.p.qKq
+ 0010 8b71cb71 704700bf                    .q.qpG..        
+Contents of section .text._ZN9MG8016EI623create_cmd_read_state_2EPh:
+ 0000 00239c22 4b700a70 8b70cb70 0b714b71  .#."Kp.p.p.p.qKq
+ 0010 8b71cb71 704700bf                    .q.qpG..        
+Contents of section .text._ZN9MG8016EI623create_cmd_read_state_3EPh:
+ 0000 00239d22 4b700a70 8b70cb70 0b714b71  .#."Kp.p.p.p.qKq
+ 0010 8b71cb71 704700bf                    .q.qpG..        
+Contents of section .rodata._ZTV9MG8016EI6:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000 00000000 00000000 00000000  ................
+ 0020 00000000 00000000 00000000           ............    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN9MG8016EI6D2Ev:
+
+00000000 <_ZN9MG8016EI6D1Ev>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI618write_motor_torqueEf:
+
+00000000 <_ZN9MG8016EI618write_motor_torqueEf>:
+   0:	eef7 7a00 	vmov.f32	s15, #112	; 0x3f800000  1.0
+   4:	b410      	push	{r4}
+   6:	eeb4 0ae7 	vcmpe.f32	s0, s15
+   a:	b083      	sub	sp, #12
+   c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  10:	dd28      	ble.n	64 <_ZN9MG8016EI618write_motor_torqueEf+0x64>
+  12:	eeb0 0a67 	vmov.f32	s0, s15
+  16:	edd0 7a16 	vldr	s15, [r0, #88]	; 0x58
+  1a:	2200      	movs	r2, #0
+  1c:	6943      	ldr	r3, [r0, #20]
+  1e:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+  22:	68c1      	ldr	r1, [r0, #12]
+  24:	f88d 2001 	strb.w	r2, [sp, #1]
+  28:	185c      	adds	r4, r3, r1
+  2a:	f8ad 2002 	strh.w	r2, [sp, #2]
+  2e:	ee67 7a80 	vmul.f32	s15, s15, s0
+  32:	f100 0327 	add.w	r3, r0, #39	; 0x27
+  36:	61c4      	str	r4, [r0, #28]
+  38:	4669      	mov	r1, sp
+  3a:	f8ad 2006 	strh.w	r2, [sp, #6]
+  3e:	302f      	adds	r0, #47	; 0x2f
+  40:	eefd 7ae7 	vcvt.s32.f32	s15, s15
+  44:	22a1      	movs	r2, #161	; 0xa1
+  46:	ee17 4a90 	vmov	r4, s15
+  4a:	f8ad 4004 	strh.w	r4, [sp, #4]
+  4e:	e001      	b.n	54 <_ZN9MG8016EI618write_motor_torqueEf+0x54>
+  50:	f811 2f01 	ldrb.w	r2, [r1, #1]!
+  54:	f803 2f01 	strb.w	r2, [r3, #1]!
+  58:	4283      	cmp	r3, r0
+  5a:	d1f9      	bne.n	50 <_ZN9MG8016EI618write_motor_torqueEf+0x50>
+  5c:	b003      	add	sp, #12
+  5e:	f85d 4b04 	ldr.w	r4, [sp], #4
+  62:	4770      	bx	lr
+  64:	eeff 7a00 	vmov.f32	s15, #240	; 0xbf800000 -1.0
+  68:	eeb4 0a67 	vcmp.f32	s0, s15
+  6c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  70:	bf48      	it	mi
+  72:	eeb0 0a67 	vmovmi.f32	s0, s15
+  76:	e7ce      	b.n	16 <_ZN9MG8016EI618write_motor_torqueEf+0x16>
+
+Disassembly of section .text._ZN9MG8016EI610zero_motorEv:
+
+00000000 <_ZN9MG8016EI610zero_motorEv>:
+   0:	6803      	ldr	r3, [r0, #0]
+   2:	ed9f 0a02 	vldr	s0, [pc, #8]	; c <_ZN9MG8016EI610zero_motorEv+0xc>
+   6:	699b      	ldr	r3, [r3, #24]
+   8:	4718      	bx	r3
+   a:	bf00      	nop
+   c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZNK5Motor11print_stateEv:
+
+00000000 <_ZNK5Motor11print_stateEv>:
+   0:	4602      	mov	r2, r0
+   2:	490e      	ldr	r1, [pc, #56]	; (3c <_ZNK5Motor11print_stateEv+0x3c>)
+   4:	480e      	ldr	r0, [pc, #56]	; (40 <_ZNK5Motor11print_stateEv+0x40>)
+   6:	ed92 6a14 	vldr	s12, [r2, #80]	; 0x50
+   a:	ed92 7a13 	vldr	s14, [r2, #76]	; 0x4c
+   e:	f8b2 3054 	ldrh.w	r3, [r2, #84]	; 0x54
+  12:	eeb7 6ac6 	vcvt.f64.f32	d6, s12
+  16:	eeb7 7ac7 	vcvt.f64.f32	d7, s14
+  1a:	b510      	push	{r4, lr}
+  1c:	b088      	sub	sp, #32
+  1e:	f992 4056 	ldrsb.w	r4, [r2, #86]	; 0x56
+  22:	9306      	str	r3, [sp, #24]
+  24:	e9d2 3203 	ldrd	r3, r2, [r2, #12]
+  28:	9400      	str	r4, [sp, #0]
+  2a:	ed8d 6b04 	vstr	d6, [sp, #16]
+  2e:	ed8d 7b02 	vstr	d7, [sp, #8]
+  32:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  36:	b008      	add	sp, #32
+  38:	bd10      	pop	{r4, pc}
+  3a:	bf00      	nop
+  3c:	00000000 	.word	0x00000000
+  40:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZNK9MG8016EI65writeER13CAN_message_t:
+
+00000000 <_ZNK9MG8016EI65writeER13CAN_message_t>:
+   0:	b500      	push	{lr}
+   2:	69c2      	ldr	r2, [r0, #28]
+   4:	6a03      	ldr	r3, [r0, #32]
+   6:	f8d0 e024 	ldr.w	lr, [r0, #36]	; 0x24
+   a:	f8d0 c028 	ldr.w	ip, [r0, #40]	; 0x28
+   e:	600a      	str	r2, [r1, #0]
+  10:	604b      	str	r3, [r1, #4]
+  12:	f8c1 e008 	str.w	lr, [r1, #8]
+  16:	f8c1 c00c 	str.w	ip, [r1, #12]
+  1a:	6ac2      	ldr	r2, [r0, #44]	; 0x2c
+  1c:	6b03      	ldr	r3, [r0, #48]	; 0x30
+  1e:	2000      	movs	r0, #0
+  20:	610a      	str	r2, [r1, #16]
+  22:	614b      	str	r3, [r1, #20]
+  24:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text._ZN9MG8016EI6D0Ev:
+
+00000000 <_ZN9MG8016EI6D0Ev>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	2190      	movs	r1, #144	; 0x90
+   6:	f7ff fffe 	bl	0 <_ZdlPvj>
+   a:	4620      	mov	r0, r4
+   c:	bd10      	pop	{r4, pc}
+   e:	bf00      	nop
+
+Disassembly of section .text._ZNK5Motor12check_msg_idERK13CAN_message_t:
+
+00000000 <_ZNK5Motor12check_msg_idERK13CAN_message_t>:
+   0:	6943      	ldr	r3, [r0, #20]
+   2:	680a      	ldr	r2, [r1, #0]
+   4:	b410      	push	{r4}
+   6:	68c4      	ldr	r4, [r0, #12]
+   8:	4423      	add	r3, r4
+   a:	429a      	cmp	r2, r3
+   c:	d109      	bne.n	22 <_ZNK5Motor12check_msg_idERK13CAN_message_t+0x22>
+   e:	7d4b      	ldrb	r3, [r1, #21]
+  10:	6902      	ldr	r2, [r0, #16]
+  12:	1e58      	subs	r0, r3, #1
+  14:	f85d 4b04 	ldr.w	r4, [sp], #4
+  18:	1a80      	subs	r0, r0, r2
+  1a:	fab0 f080 	clz	r0, r0
+  1e:	0940      	lsrs	r0, r0, #5
+  20:	4770      	bx	lr
+  22:	2000      	movs	r0, #0
+  24:	f85d 4b04 	ldr.w	r4, [sp], #4
+  28:	4770      	bx	lr
+  2a:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI64readER13CAN_message_t:
+
+00000000 <_ZN9MG8016EI64readER13CAN_message_t>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	6803      	ldr	r3, [r0, #0]
+   4:	4604      	mov	r4, r0
+   6:	4a74      	ldr	r2, [pc, #464]	; (1d8 <_ZN9MG8016EI64readER13CAN_message_t+0x1d8>)
+   8:	460d      	mov	r5, r1
+   a:	6a1b      	ldr	r3, [r3, #32]
+   c:	4293      	cmp	r3, r2
+   e:	d150      	bne.n	b2 <_ZN9MG8016EI64readER13CAN_message_t+0xb2>
+  10:	6943      	ldr	r3, [r0, #20]
+  12:	68c1      	ldr	r1, [r0, #12]
+  14:	682a      	ldr	r2, [r5, #0]
+  16:	440b      	add	r3, r1
+  18:	429a      	cmp	r2, r3
+  1a:	d001      	beq.n	20 <_ZN9MG8016EI64readER13CAN_message_t+0x20>
+  1c:	2000      	movs	r0, #0
+  1e:	bd38      	pop	{r3, r4, r5, pc}
+  20:	7d6b      	ldrb	r3, [r5, #21]
+  22:	6902      	ldr	r2, [r0, #16]
+  24:	3b01      	subs	r3, #1
+  26:	4293      	cmp	r3, r2
+  28:	d1f8      	bne.n	1c <_ZN9MG8016EI64readER13CAN_message_t+0x1c>
+  2a:	7b2a      	ldrb	r2, [r5, #12]
+  2c:	f1a2 0330 	sub.w	r3, r2, #48	; 0x30
+  30:	2b78      	cmp	r3, #120	; 0x78
+  32:	d842      	bhi.n	ba <_ZN9MG8016EI64readER13CAN_message_t+0xba>
+  34:	e8df f003 	tbb	[pc, r3]
+  38:	8e6b6b92 	.word	0x8e6b6b92
+  3c:	4141416b 	.word	0x4141416b
+  40:	41414141 	.word	0x41414141
+  44:	41414141 	.word	0x41414141
+  48:	41414141 	.word	0x41414141
+  4c:	41414141 	.word	0x41414141
+  50:	41414141 	.word	0x41414141
+  54:	41414141 	.word	0x41414141
+  58:	41414141 	.word	0x41414141
+  5c:	41414141 	.word	0x41414141
+  60:	41414141 	.word	0x41414141
+  64:	41414141 	.word	0x41414141
+  68:	41414141 	.word	0x41414141
+  6c:	41414141 	.word	0x41414141
+  70:	41414141 	.word	0x41414141
+  74:	41414141 	.word	0x41414141
+  78:	41414141 	.word	0x41414141
+  7c:	41414141 	.word	0x41414141
+  80:	41414141 	.word	0x41414141
+  84:	41414141 	.word	0x41414141
+  88:	41416b6b 	.word	0x41416b6b
+  8c:	41414141 	.word	0x41414141
+  90:	4141416b 	.word	0x4141416b
+  94:	41414141 	.word	0x41414141
+  98:	41b66b83 	.word	0x41b66b83
+  9c:	414141b1 	.word	0x414141b1
+  a0:	6d6d4141 	.word	0x6d6d4141
+  a4:	4141a647 	.word	0x4141a647
+  a8:	47474741 	.word	0x47474741
+  ac:	47474747 	.word	0x47474747
+  b0:	47          	.byte	0x47
+  b1:	00          	.byte	0x00
+  b2:	4798      	blx	r3
+  b4:	2800      	cmp	r0, #0
+  b6:	d1b8      	bne.n	2a <_ZN9MG8016EI64readER13CAN_message_t+0x2a>
+  b8:	e7b0      	b.n	1c <_ZN9MG8016EI64readER13CAN_message_t+0x1c>
+  ba:	4948      	ldr	r1, [pc, #288]	; (1dc <_ZN9MG8016EI64readER13CAN_message_t+0x1dc>)
+  bc:	4848      	ldr	r0, [pc, #288]	; (1e0 <_ZN9MG8016EI64readER13CAN_message_t+0x1e0>)
+  be:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  c2:	2001      	movs	r0, #1
+  c4:	bd38      	pop	{r3, r4, r5, pc}
+  c6:	7b6b      	ldrb	r3, [r5, #13]
+  c8:	2001      	movs	r0, #1
+  ca:	edd4 7a16 	vldr	s15, [r4, #88]	; 0x58
+  ce:	f884 3056 	strb.w	r3, [r4, #86]	; 0x56
+  d2:	f9b5 300e 	ldrsh.w	r3, [r5, #14]
+  d6:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+  da:	ee07 3a10 	vmov	s14, r3
+  de:	eeb8 7ac7 	vcvt.f32.s32	s14, s14
+  e2:	ed9f 6b3b 	vldr	d6, [pc, #236]	; 1d0 <_ZN9MG8016EI64readER13CAN_message_t+0x1d0>
+  e6:	eec7 5a27 	vdiv.f32	s11, s14, s15
+  ea:	edc4 5a13 	vstr	s11, [r4, #76]	; 0x4c
+  ee:	f9b5 3010 	ldrsh.w	r3, [r5, #16]
+  f2:	ee07 3a10 	vmov	s14, r3
+  f6:	eeb8 7bc7 	vcvt.f64.s32	d7, s14
+  fa:	ee27 7b06 	vmul.f64	d7, d7, d6
+  fe:	eeb7 7bc7 	vcvt.f32.f64	s14, d7
+ 102:	ed84 7a14 	vstr	s14, [r4, #80]	; 0x50
+ 106:	8a6b      	ldrh	r3, [r5, #18]
+ 108:	f8a4 3054 	strh.w	r3, [r4, #84]	; 0x54
+ 10c:	bd38      	pop	{r3, r4, r5, pc}
+ 10e:	2001      	movs	r0, #1
+ 110:	bd38      	pop	{r3, r4, r5, pc}
+ 112:	f8b5 200f 	ldrh.w	r2, [r5, #15]
+ 116:	2001      	movs	r0, #1
+ 118:	f894 3086 	ldrb.w	r3, [r4, #134]	; 0x86
+ 11c:	f8a4 2084 	strh.w	r2, [r4, #132]	; 0x84
+ 120:	7cea      	ldrb	r2, [r5, #19]
+ 122:	f362 0300 	bfi	r3, r2, #0, #1
+ 126:	f884 3086 	strb.w	r3, [r4, #134]	; 0x86
+ 12a:	7ceb      	ldrb	r3, [r5, #19]
+ 12c:	f894 2086 	ldrb.w	r2, [r4, #134]	; 0x86
+ 130:	f3c3 03c0 	ubfx	r3, r3, #3, #1
+ 134:	f363 02c3 	bfi	r2, r3, #3, #1
+ 138:	f884 2086 	strb.w	r2, [r4, #134]	; 0x86
+ 13c:	bd38      	pop	{r3, r4, r5, pc}
+ 13e:	89eb      	ldrh	r3, [r5, #14]
+ 140:	2001      	movs	r0, #1
+ 142:	f8a4 306c 	strh.w	r3, [r4, #108]	; 0x6c
+ 146:	8a2b      	ldrh	r3, [r5, #16]
+ 148:	f8a4 306e 	strh.w	r3, [r4, #110]	; 0x6e
+ 14c:	8a6b      	ldrh	r3, [r5, #18]
+ 14e:	f8a4 3070 	strh.w	r3, [r4, #112]	; 0x70
+ 152:	bd38      	pop	{r3, r4, r5, pc}
+ 154:	692b      	ldr	r3, [r5, #16]
+ 156:	2001      	movs	r0, #1
+ 158:	66a3      	str	r3, [r4, #104]	; 0x68
+ 15a:	bd38      	pop	{r3, r4, r5, pc}
+ 15c:	7bab      	ldrb	r3, [r5, #14]
+ 15e:	2001      	movs	r0, #1
+ 160:	f884 3060 	strb.w	r3, [r4, #96]	; 0x60
+ 164:	7beb      	ldrb	r3, [r5, #15]
+ 166:	f884 3061 	strb.w	r3, [r4, #97]	; 0x61
+ 16a:	7c2b      	ldrb	r3, [r5, #16]
+ 16c:	f884 3062 	strb.w	r3, [r4, #98]	; 0x62
+ 170:	7c6b      	ldrb	r3, [r5, #17]
+ 172:	f884 3063 	strb.w	r3, [r4, #99]	; 0x63
+ 176:	7cab      	ldrb	r3, [r5, #18]
+ 178:	f884 3064 	strb.w	r3, [r4, #100]	; 0x64
+ 17c:	7ceb      	ldrb	r3, [r5, #19]
+ 17e:	f884 3065 	strb.w	r3, [r4, #101]	; 0x65
+ 182:	bd38      	pop	{r3, r4, r5, pc}
+ 184:	89eb      	ldrh	r3, [r5, #14]
+ 186:	2001      	movs	r0, #1
+ 188:	f8a4 3088 	strh.w	r3, [r4, #136]	; 0x88
+ 18c:	8a2b      	ldrh	r3, [r5, #16]
+ 18e:	f8a4 308a 	strh.w	r3, [r4, #138]	; 0x8a
+ 192:	8a6b      	ldrh	r3, [r5, #18]
+ 194:	f8a4 308c 	strh.w	r3, [r4, #140]	; 0x8c
+ 198:	bd38      	pop	{r3, r4, r5, pc}
+ 19a:	692b      	ldr	r3, [r5, #16]
+ 19c:	2001      	movs	r0, #1
+ 19e:	f8c4 3080 	str.w	r3, [r4, #128]	; 0x80
+ 1a2:	bd38      	pop	{r3, r4, r5, pc}
+ 1a4:	f105 030c 	add.w	r3, r5, #12
+ 1a8:	f104 0277 	add.w	r2, r4, #119	; 0x77
+ 1ac:	f105 0013 	add.w	r0, r5, #19
+ 1b0:	f813 1f01 	ldrb.w	r1, [r3, #1]!
+ 1b4:	4283      	cmp	r3, r0
+ 1b6:	f802 1f01 	strb.w	r1, [r2, #1]!
+ 1ba:	d1f9      	bne.n	1b0 <_ZN9MG8016EI64readER13CAN_message_t+0x1b0>
+ 1bc:	f995 3013 	ldrsb.w	r3, [r5, #19]
+ 1c0:	2001      	movs	r0, #1
+ 1c2:	2b00      	cmp	r3, #0
+ 1c4:	bfb4      	ite	lt
+ 1c6:	23ff      	movlt	r3, #255	; 0xff
+ 1c8:	2300      	movge	r3, #0
+ 1ca:	f884 307f 	strb.w	r3, [r4, #127]	; 0x7f
+ 1ce:	bd38      	pop	{r3, r4, r5, pc}
+ 1d0:	a2529d39 	.word	0xa2529d39
+ 1d4:	3f91df46 	.word	0x3f91df46
+ 1d8:	00000000 	.word	0x00000000
+ 1dc:	00000000 	.word	0x00000000
+ 1e0:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN9MG8016EI617write_motor_speedEf:
+
+00000000 <_ZN9MG8016EI617write_motor_speedEf>:
+   0:	ed9f 6b15 	vldr	d6, [pc, #84]	; 58 <_ZN9MG8016EI617write_motor_speedEf+0x58>
+   4:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+   8:	eddf 7a15 	vldr	s15, [pc, #84]	; 60 <_ZN9MG8016EI617write_motor_speedEf+0x60>
+   c:	6943      	ldr	r3, [r0, #20]
+   e:	22a2      	movs	r2, #162	; 0xa2
+  10:	ee20 0b06 	vmul.f64	d0, d0, d6
+  14:	b410      	push	{r4}
+  16:	eeb7 0bc0 	vcvt.f32.f64	s0, d0
+  1a:	b083      	sub	sp, #12
+  1c:	2400      	movs	r4, #0
+  1e:	4669      	mov	r1, sp
+  20:	ee20 0a27 	vmul.f32	s0, s0, s15
+  24:	f88d 4001 	strb.w	r4, [sp, #1]
+  28:	f8ad 4002 	strh.w	r4, [sp, #2]
+  2c:	68c4      	ldr	r4, [r0, #12]
+  2e:	eebd 0ac0 	vcvt.s32.f32	s0, s0
+  32:	441c      	add	r4, r3
+  34:	f100 0327 	add.w	r3, r0, #39	; 0x27
+  38:	302f      	adds	r0, #47	; 0x2f
+  3a:	f840 4c13 	str.w	r4, [r0, #-19]
+  3e:	ed8d 0a01 	vstr	s0, [sp, #4]
+  42:	e001      	b.n	48 <_ZN9MG8016EI617write_motor_speedEf+0x48>
+  44:	f811 2f01 	ldrb.w	r2, [r1, #1]!
+  48:	f803 2f01 	strb.w	r2, [r3, #1]!
+  4c:	4283      	cmp	r3, r0
+  4e:	d1f9      	bne.n	44 <_ZN9MG8016EI617write_motor_speedEf+0x44>
+  50:	b003      	add	sp, #12
+  52:	f85d 4b04 	ldr.w	r4, [sp], #4
+  56:	4770      	bx	lr
+  58:	1a63c1f8 	.word	0x1a63c1f8
+  5c:	404ca5dc 	.word	0x404ca5dc
+  60:	42c80000 	.word	0x42c80000
+
+Disassembly of section .text._ZN9MG8016EI617write_motor_angleEff:
+
+00000000 <_ZN9MG8016EI617write_motor_angleEff>:
+   0:	ed9f 6b31 	vldr	d6, [pc, #196]	; c8 <_ZN9MG8016EI617write_motor_angleEff+0xc8>
+   4:	eeb7 5ac0 	vcvt.f64.f32	d5, s0
+   8:	eddf 7a31 	vldr	s15, [pc, #196]	; d0 <_ZN9MG8016EI617write_motor_angleEff+0xd0>
+   c:	eeb0 7a60 	vmov.f32	s14, s1
+  10:	ee25 0b06 	vmul.f64	d0, d5, d6
+  14:	eeb5 7ac0 	vcmpe.f32	s14, #0.0
+  18:	ed9f 6b2b 	vldr	d6, [pc, #172]	; c8 <_ZN9MG8016EI617write_motor_angleEff+0xc8>
+  1c:	eeb7 0bc0 	vcvt.f32.f64	s0, d0
+  20:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  24:	ee20 0a27 	vmul.f32	s0, s0, s15
+  28:	bf48      	it	mi
+  2a:	eeb1 7a47 	vnegmi.f32	s14, s14
+  2e:	eefd 7ac0 	vcvt.s32.f32	s15, s0
+  32:	b530      	push	{r4, r5, lr}
+  34:	ee17 3a90 	vmov	r3, s15
+  38:	eeb7 7ac7 	vcvt.f64.f32	d7, s14
+  3c:	b083      	sub	sp, #12
+  3e:	ee27 7b06 	vmul.f64	d7, d7, d6
+  42:	eeb7 7bc7 	vcvt.f32.f64	s14, d7
+  46:	eeb5 7a40 	vcmp.f32	s14, #0.0
+  4a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  4e:	d12a      	bne.n	a6 <_ZN9MG8016EI617write_motor_angleEff+0xa6>
+  50:	f04f 0c00 	mov.w	ip, #0
+  54:	b2dd      	uxtb	r5, r3
+  56:	f3c3 2407 	ubfx	r4, r3, #8, #8
+  5a:	f3c3 4e07 	ubfx	lr, r3, #16, #8
+  5e:	22a3      	movs	r2, #163	; 0xa3
+  60:	0e1b      	lsrs	r3, r3, #24
+  62:	4661      	mov	r1, ip
+  64:	f88d 1003 	strb.w	r1, [sp, #3]
+  68:	f88d 4005 	strb.w	r4, [sp, #5]
+  6c:	6941      	ldr	r1, [r0, #20]
+  6e:	68c4      	ldr	r4, [r0, #12]
+  70:	f88d c002 	strb.w	ip, [sp, #2]
+  74:	f04f 0c00 	mov.w	ip, #0
+  78:	4421      	add	r1, r4
+  7a:	f88d 3007 	strb.w	r3, [sp, #7]
+  7e:	f88d 5004 	strb.w	r5, [sp, #4]
+  82:	f100 0327 	add.w	r3, r0, #39	; 0x27
+  86:	61c1      	str	r1, [r0, #28]
+  88:	4669      	mov	r1, sp
+  8a:	302f      	adds	r0, #47	; 0x2f
+  8c:	f88d e006 	strb.w	lr, [sp, #6]
+  90:	f88d c001 	strb.w	ip, [sp, #1]
+  94:	e001      	b.n	9a <_ZN9MG8016EI617write_motor_angleEff+0x9a>
+  96:	f811 2f01 	ldrb.w	r2, [r1, #1]!
+  9a:	f803 2f01 	strb.w	r2, [r3, #1]!
+  9e:	4283      	cmp	r3, r0
+  a0:	d1f9      	bne.n	96 <_ZN9MG8016EI617write_motor_angleEff+0x96>
+  a2:	b003      	add	sp, #12
+  a4:	bd30      	pop	{r4, r5, pc}
+  a6:	eefc 7ac7 	vcvt.u32.f32	s15, s14
+  aa:	b2dd      	uxtb	r5, r3
+  ac:	f3c3 2407 	ubfx	r4, r3, #8, #8
+  b0:	f3c3 4e07 	ubfx	lr, r3, #16, #8
+  b4:	22a4      	movs	r2, #164	; 0xa4
+  b6:	0e1b      	lsrs	r3, r3, #24
+  b8:	ee17 1a90 	vmov	r1, s15
+  bc:	fa5f fc81 	uxtb.w	ip, r1
+  c0:	f3c1 2107 	ubfx	r1, r1, #8, #8
+  c4:	e7ce      	b.n	64 <_ZN9MG8016EI617write_motor_angleEff+0x64>
+  c6:	bf00      	nop
+  c8:	1a63c1f8 	.word	0x1a63c1f8
+  cc:	404ca5dc 	.word	0x404ca5dc
+  d0:	42c80000 	.word	0x42c80000
+
+Disassembly of section .text._ZN9MG8016EI615write_motor_offEv:
+
+00000000 <_ZN9MG8016EI615write_motor_offEv>:
+   0:	b410      	push	{r4}
+   2:	2300      	movs	r3, #0
+   4:	b083      	sub	sp, #12
+   6:	68c4      	ldr	r4, [r0, #12]
+   8:	2280      	movs	r2, #128	; 0x80
+   a:	f88d 3001 	strb.w	r3, [sp, #1]
+   e:	4669      	mov	r1, sp
+  10:	f8ad 3002 	strh.w	r3, [sp, #2]
+  14:	9301      	str	r3, [sp, #4]
+  16:	6943      	ldr	r3, [r0, #20]
+  18:	441c      	add	r4, r3
+  1a:	f100 0327 	add.w	r3, r0, #39	; 0x27
+  1e:	302f      	adds	r0, #47	; 0x2f
+  20:	f840 4c13 	str.w	r4, [r0, #-19]
+  24:	e001      	b.n	2a <_ZN9MG8016EI615write_motor_offEv+0x2a>
+  26:	f811 2f01 	ldrb.w	r2, [r1, #1]!
+  2a:	f803 2f01 	strb.w	r2, [r3, #1]!
+  2e:	4283      	cmp	r3, r0
+  30:	d1f9      	bne.n	26 <_ZN9MG8016EI615write_motor_offEv+0x26>
+  32:	b003      	add	sp, #12
+  34:	f85d 4b04 	ldr.w	r4, [sp], #4
+  38:	4770      	bx	lr
+  3a:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI614write_motor_onEv:
+
+00000000 <_ZN9MG8016EI614write_motor_onEv>:
+   0:	b410      	push	{r4}
+   2:	2300      	movs	r3, #0
+   4:	b083      	sub	sp, #12
+   6:	68c4      	ldr	r4, [r0, #12]
+   8:	2288      	movs	r2, #136	; 0x88
+   a:	f88d 3001 	strb.w	r3, [sp, #1]
+   e:	4669      	mov	r1, sp
+  10:	f8ad 3002 	strh.w	r3, [sp, #2]
+  14:	9301      	str	r3, [sp, #4]
+  16:	6943      	ldr	r3, [r0, #20]
+  18:	441c      	add	r4, r3
+  1a:	f100 0327 	add.w	r3, r0, #39	; 0x27
+  1e:	302f      	adds	r0, #47	; 0x2f
+  20:	f840 4c13 	str.w	r4, [r0, #-19]
+  24:	e001      	b.n	2a <_ZN9MG8016EI614write_motor_onEv+0x2a>
+  26:	f811 2f01 	ldrb.w	r2, [r1, #1]!
+  2a:	f803 2f01 	strb.w	r2, [r3, #1]!
+  2e:	4283      	cmp	r3, r0
+  30:	d1f9      	bne.n	26 <_ZN9MG8016EI614write_motor_onEv+0x26>
+  32:	b003      	add	sp, #12
+  34:	f85d 4b04 	ldr.w	r4, [sp], #4
+  38:	4770      	bx	lr
+  3a:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI64initEv:
+
+00000000 <_ZN9MG8016EI64initEv>:
+   0:	f7ff bffe 	b.w	0 <_ZN9MG8016EI64initEv>
+
+Disassembly of section .text._ZN9MG8016EI616write_motor_stopEv:
+
+00000000 <_ZN9MG8016EI616write_motor_stopEv>:
+   0:	b410      	push	{r4}
+   2:	2300      	movs	r3, #0
+   4:	b083      	sub	sp, #12
+   6:	68c4      	ldr	r4, [r0, #12]
+   8:	2281      	movs	r2, #129	; 0x81
+   a:	f88d 3001 	strb.w	r3, [sp, #1]
+   e:	4669      	mov	r1, sp
+  10:	f8ad 3002 	strh.w	r3, [sp, #2]
+  14:	9301      	str	r3, [sp, #4]
+  16:	6943      	ldr	r3, [r0, #20]
+  18:	441c      	add	r4, r3
+  1a:	f100 0327 	add.w	r3, r0, #39	; 0x27
+  1e:	302f      	adds	r0, #47	; 0x2f
+  20:	f840 4c13 	str.w	r4, [r0, #-19]
+  24:	e001      	b.n	2a <_ZN9MG8016EI616write_motor_stopEv+0x2a>
+  26:	f811 2f01 	ldrb.w	r2, [r1, #1]!
+  2a:	f803 2f01 	strb.w	r2, [r3, #1]!
+  2e:	4283      	cmp	r3, r0
+  30:	d1f9      	bne.n	26 <_ZN9MG8016EI616write_motor_stopEv+0x26>
+  32:	b003      	add	sp, #12
+  34:	f85d 4b04 	ldr.w	r4, [sp], #4
+  38:	4770      	bx	lr
+  3a:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI620create_cmd_motor_offEPh:
+
+00000000 <_ZN9MG8016EI620create_cmd_motor_offEPh>:
+   0:	2300      	movs	r3, #0
+   2:	2280      	movs	r2, #128	; 0x80
+   4:	704b      	strb	r3, [r1, #1]
+   6:	700a      	strb	r2, [r1, #0]
+   8:	708b      	strb	r3, [r1, #2]
+   a:	70cb      	strb	r3, [r1, #3]
+   c:	710b      	strb	r3, [r1, #4]
+   e:	714b      	strb	r3, [r1, #5]
+  10:	718b      	strb	r3, [r1, #6]
+  12:	71cb      	strb	r3, [r1, #7]
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI619create_cmd_motor_onEPh:
+
+00000000 <_ZN9MG8016EI619create_cmd_motor_onEPh>:
+   0:	2300      	movs	r3, #0
+   2:	2288      	movs	r2, #136	; 0x88
+   4:	704b      	strb	r3, [r1, #1]
+   6:	700a      	strb	r2, [r1, #0]
+   8:	708b      	strb	r3, [r1, #2]
+   a:	70cb      	strb	r3, [r1, #3]
+   c:	710b      	strb	r3, [r1, #4]
+   e:	714b      	strb	r3, [r1, #5]
+  10:	718b      	strb	r3, [r1, #6]
+  12:	71cb      	strb	r3, [r1, #7]
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI621create_cmd_motor_stopEPh:
+
+00000000 <_ZN9MG8016EI621create_cmd_motor_stopEPh>:
+   0:	2300      	movs	r3, #0
+   2:	2281      	movs	r2, #129	; 0x81
+   4:	704b      	strb	r3, [r1, #1]
+   6:	700a      	strb	r2, [r1, #0]
+   8:	708b      	strb	r3, [r1, #2]
+   a:	70cb      	strb	r3, [r1, #3]
+   c:	710b      	strb	r3, [r1, #4]
+   e:	714b      	strb	r3, [r1, #5]
+  10:	718b      	strb	r3, [r1, #6]
+  12:	71cb      	strb	r3, [r1, #7]
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI625create_cmd_torque_controlEPhs:
+
+00000000 <_ZN9MG8016EI625create_cmd_torque_controlEPhs>:
+   0:	2300      	movs	r3, #0
+   2:	f04f 0ca1 	mov.w	ip, #161	; 0xa1
+   6:	f3c2 2007 	ubfx	r0, r2, #8, #8
+   a:	710a      	strb	r2, [r1, #4]
+   c:	f881 c000 	strb.w	ip, [r1]
+  10:	704b      	strb	r3, [r1, #1]
+  12:	708b      	strb	r3, [r1, #2]
+  14:	70cb      	strb	r3, [r1, #3]
+  16:	7148      	strb	r0, [r1, #5]
+  18:	718b      	strb	r3, [r1, #6]
+  1a:	71cb      	strb	r3, [r1, #7]
+  1c:	4770      	bx	lr
+  1e:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI624create_cmd_speed_controlEPhl:
+
+00000000 <_ZN9MG8016EI624create_cmd_speed_controlEPhl>:
+   0:	2300      	movs	r3, #0
+   2:	20a2      	movs	r0, #162	; 0xa2
+   4:	f3c2 2c07 	ubfx	ip, r2, #8, #8
+   8:	710a      	strb	r2, [r1, #4]
+   a:	7008      	strb	r0, [r1, #0]
+   c:	f3c2 4007 	ubfx	r0, r2, #16, #8
+  10:	704b      	strb	r3, [r1, #1]
+  12:	708b      	strb	r3, [r1, #2]
+  14:	70cb      	strb	r3, [r1, #3]
+  16:	f3c2 6307 	ubfx	r3, r2, #24, #8
+  1a:	f881 c005 	strb.w	ip, [r1, #5]
+  1e:	7188      	strb	r0, [r1, #6]
+  20:	71cb      	strb	r3, [r1, #7]
+  22:	4770      	bx	lr
+
+Disassembly of section .text._ZN9MG8016EI630create_cmd_multi_angle_controlEPhl:
+
+00000000 <_ZN9MG8016EI630create_cmd_multi_angle_controlEPhl>:
+   0:	2300      	movs	r3, #0
+   2:	20a3      	movs	r0, #163	; 0xa3
+   4:	f3c2 2c07 	ubfx	ip, r2, #8, #8
+   8:	710a      	strb	r2, [r1, #4]
+   a:	7008      	strb	r0, [r1, #0]
+   c:	f3c2 4007 	ubfx	r0, r2, #16, #8
+  10:	704b      	strb	r3, [r1, #1]
+  12:	708b      	strb	r3, [r1, #2]
+  14:	70cb      	strb	r3, [r1, #3]
+  16:	f3c2 6307 	ubfx	r3, r2, #24, #8
+  1a:	f881 c005 	strb.w	ip, [r1, #5]
+  1e:	7188      	strb	r0, [r1, #6]
+  20:	71cb      	strb	r3, [r1, #7]
+  22:	4770      	bx	lr
+
+Disassembly of section .text._ZN9MG8016EI644create_cmd_multi_angle_control_speed_limitedEPhlt:
+
+00000000 <_ZN9MG8016EI644create_cmd_multi_angle_control_speed_limitedEPhlt>:
+   0:	f04f 0ca4 	mov.w	ip, #164	; 0xa4
+   4:	2000      	movs	r0, #0
+   6:	708b      	strb	r3, [r1, #2]
+   8:	f881 c000 	strb.w	ip, [r1]
+   c:	f3c3 2c07 	ubfx	ip, r3, #8, #8
+  10:	7048      	strb	r0, [r1, #1]
+  12:	f3c2 4307 	ubfx	r3, r2, #16, #8
+  16:	f3c2 2007 	ubfx	r0, r2, #8, #8
+  1a:	710a      	strb	r2, [r1, #4]
+  1c:	f3c2 6207 	ubfx	r2, r2, #24, #8
+  20:	f881 c003 	strb.w	ip, [r1, #3]
+  24:	7148      	strb	r0, [r1, #5]
+  26:	718b      	strb	r3, [r1, #6]
+  28:	71ca      	strb	r2, [r1, #7]
+  2a:	4770      	bx	lr
+
+Disassembly of section .text._ZN9MG8016EI624create_cmd_angle_controlEPhmh:
+
+00000000 <_ZN9MG8016EI624create_cmd_angle_controlEPhmh>:
+   0:	2000      	movs	r0, #0
+   2:	f3c2 2c07 	ubfx	ip, r2, #8, #8
+   6:	704b      	strb	r3, [r1, #1]
+   8:	f3c2 6307 	ubfx	r3, r2, #24, #8
+   c:	7088      	strb	r0, [r1, #2]
+   e:	70c8      	strb	r0, [r1, #3]
+  10:	f3c2 4007 	ubfx	r0, r2, #16, #8
+  14:	710a      	strb	r2, [r1, #4]
+  16:	f881 c005 	strb.w	ip, [r1, #5]
+  1a:	7188      	strb	r0, [r1, #6]
+  1c:	71cb      	strb	r3, [r1, #7]
+  1e:	b500      	push	{lr}
+  20:	f04f 0ea5 	mov.w	lr, #165	; 0xa5
+  24:	f881 e000 	strb.w	lr, [r1]
+  28:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text._ZN9MG8016EI638create_cmd_angle_control_speed_limitedEPhmht:
+
+00000000 <_ZN9MG8016EI638create_cmd_angle_control_speed_limitedEPhmht>:
+   0:	f8bd 0000 	ldrh.w	r0, [sp]
+   4:	f04f 0ca6 	mov.w	ip, #166	; 0xa6
+   8:	704b      	strb	r3, [r1, #1]
+   a:	f3c2 4307 	ubfx	r3, r2, #16, #8
+   e:	f881 c000 	strb.w	ip, [r1]
+  12:	f3c0 2c07 	ubfx	ip, r0, #8, #8
+  16:	7088      	strb	r0, [r1, #2]
+  18:	f3c2 2007 	ubfx	r0, r2, #8, #8
+  1c:	710a      	strb	r2, [r1, #4]
+  1e:	f3c2 6207 	ubfx	r2, r2, #24, #8
+  22:	f881 c003 	strb.w	ip, [r1, #3]
+  26:	7148      	strb	r0, [r1, #5]
+  28:	718b      	strb	r3, [r1, #6]
+  2a:	71ca      	strb	r2, [r1, #7]
+  2c:	4770      	bx	lr
+  2e:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI634create_cmd_angle_increment_controlEPhl:
+
+00000000 <_ZN9MG8016EI634create_cmd_angle_increment_controlEPhl>:
+   0:	2300      	movs	r3, #0
+   2:	20a7      	movs	r0, #167	; 0xa7
+   4:	f3c2 2c07 	ubfx	ip, r2, #8, #8
+   8:	710a      	strb	r2, [r1, #4]
+   a:	7008      	strb	r0, [r1, #0]
+   c:	f3c2 4007 	ubfx	r0, r2, #16, #8
+  10:	704b      	strb	r3, [r1, #1]
+  12:	708b      	strb	r3, [r1, #2]
+  14:	70cb      	strb	r3, [r1, #3]
+  16:	f3c2 6307 	ubfx	r3, r2, #24, #8
+  1a:	f881 c005 	strb.w	ip, [r1, #5]
+  1e:	7188      	strb	r0, [r1, #6]
+  20:	71cb      	strb	r3, [r1, #7]
+  22:	4770      	bx	lr
+
+Disassembly of section .text._ZN9MG8016EI648create_cmd_angle_increment_control_speed_limitedEPhlt:
+
+00000000 <_ZN9MG8016EI648create_cmd_angle_increment_control_speed_limitedEPhlt>:
+   0:	f04f 0ca8 	mov.w	ip, #168	; 0xa8
+   4:	2000      	movs	r0, #0
+   6:	708b      	strb	r3, [r1, #2]
+   8:	f881 c000 	strb.w	ip, [r1]
+   c:	f3c3 2c07 	ubfx	ip, r3, #8, #8
+  10:	7048      	strb	r0, [r1, #1]
+  12:	f3c2 4307 	ubfx	r3, r2, #16, #8
+  16:	f3c2 2007 	ubfx	r0, r2, #8, #8
+  1a:	710a      	strb	r2, [r1, #4]
+  1c:	f3c2 6207 	ubfx	r2, r2, #24, #8
+  20:	f881 c003 	strb.w	ip, [r1, #3]
+  24:	7148      	strb	r0, [r1, #5]
+  26:	718b      	strb	r3, [r1, #6]
+  28:	71ca      	strb	r2, [r1, #7]
+  2a:	4770      	bx	lr
+
+Disassembly of section .text._ZN9MG8016EI619create_cmd_read_pidEPh:
+
+00000000 <_ZN9MG8016EI619create_cmd_read_pidEPh>:
+   0:	2300      	movs	r3, #0
+   2:	2230      	movs	r2, #48	; 0x30
+   4:	704b      	strb	r3, [r1, #1]
+   6:	700a      	strb	r2, [r1, #0]
+   8:	708b      	strb	r3, [r1, #2]
+   a:	70cb      	strb	r3, [r1, #3]
+   c:	710b      	strb	r3, [r1, #4]
+   e:	714b      	strb	r3, [r1, #5]
+  10:	718b      	strb	r3, [r1, #6]
+  12:	71cb      	strb	r3, [r1, #7]
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI620create_cmd_write_pidEPhhhhhhh:
+
+00000000 <_ZN9MG8016EI620create_cmd_write_pidEPhhhhhhh>:
+   0:	70cb      	strb	r3, [r1, #3]
+   2:	2331      	movs	r3, #49	; 0x31
+   4:	708a      	strb	r2, [r1, #2]
+   6:	700b      	strb	r3, [r1, #0]
+   8:	2300      	movs	r3, #0
+   a:	b500      	push	{lr}
+   c:	f89d e004 	ldrb.w	lr, [sp, #4]
+  10:	f89d c008 	ldrb.w	ip, [sp, #8]
+  14:	f89d 000c 	ldrb.w	r0, [sp, #12]
+  18:	f89d 2010 	ldrb.w	r2, [sp, #16]
+  1c:	f881 e004 	strb.w	lr, [r1, #4]
+  20:	f881 c005 	strb.w	ip, [r1, #5]
+  24:	7188      	strb	r0, [r1, #6]
+  26:	71ca      	strb	r2, [r1, #7]
+  28:	704b      	strb	r3, [r1, #1]
+  2a:	f85d fb04 	ldr.w	pc, [sp], #4
+  2e:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI624create_cmd_write_pid_romEPhhhhhhh:
+
+00000000 <_ZN9MG8016EI624create_cmd_write_pid_romEPhhhhhhh>:
+   0:	70cb      	strb	r3, [r1, #3]
+   2:	2332      	movs	r3, #50	; 0x32
+   4:	708a      	strb	r2, [r1, #2]
+   6:	700b      	strb	r3, [r1, #0]
+   8:	2300      	movs	r3, #0
+   a:	b500      	push	{lr}
+   c:	f89d e004 	ldrb.w	lr, [sp, #4]
+  10:	f89d c008 	ldrb.w	ip, [sp, #8]
+  14:	f89d 000c 	ldrb.w	r0, [sp, #12]
+  18:	f89d 2010 	ldrb.w	r2, [sp, #16]
+  1c:	f881 e004 	strb.w	lr, [r1, #4]
+  20:	f881 c005 	strb.w	ip, [r1, #5]
+  24:	7188      	strb	r0, [r1, #6]
+  26:	71ca      	strb	r2, [r1, #7]
+  28:	704b      	strb	r3, [r1, #1]
+  2a:	f85d fb04 	ldr.w	pc, [sp], #4
+  2e:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI628create_cmd_read_accelerationEPh:
+
+00000000 <_ZN9MG8016EI628create_cmd_read_accelerationEPh>:
+   0:	2300      	movs	r3, #0
+   2:	2233      	movs	r2, #51	; 0x33
+   4:	704b      	strb	r3, [r1, #1]
+   6:	700a      	strb	r2, [r1, #0]
+   8:	708b      	strb	r3, [r1, #2]
+   a:	70cb      	strb	r3, [r1, #3]
+   c:	710b      	strb	r3, [r1, #4]
+   e:	714b      	strb	r3, [r1, #5]
+  10:	718b      	strb	r3, [r1, #6]
+  12:	71cb      	strb	r3, [r1, #7]
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI629create_cmd_write_accelerationEPhl:
+
+00000000 <_ZN9MG8016EI629create_cmd_write_accelerationEPhl>:
+   0:	2300      	movs	r3, #0
+   2:	2034      	movs	r0, #52	; 0x34
+   4:	f3c2 2c07 	ubfx	ip, r2, #8, #8
+   8:	710a      	strb	r2, [r1, #4]
+   a:	7008      	strb	r0, [r1, #0]
+   c:	f3c2 4007 	ubfx	r0, r2, #16, #8
+  10:	704b      	strb	r3, [r1, #1]
+  12:	708b      	strb	r3, [r1, #2]
+  14:	70cb      	strb	r3, [r1, #3]
+  16:	f3c2 6307 	ubfx	r3, r2, #24, #8
+  1a:	f881 c005 	strb.w	ip, [r1, #5]
+  1e:	7188      	strb	r0, [r1, #6]
+  20:	71cb      	strb	r3, [r1, #7]
+  22:	4770      	bx	lr
+
+Disassembly of section .text._ZN9MG8016EI623create_cmd_read_encoderEPh:
+
+00000000 <_ZN9MG8016EI623create_cmd_read_encoderEPh>:
+   0:	2300      	movs	r3, #0
+   2:	2290      	movs	r2, #144	; 0x90
+   4:	704b      	strb	r3, [r1, #1]
+   6:	700a      	strb	r2, [r1, #0]
+   8:	708b      	strb	r3, [r1, #2]
+   a:	70cb      	strb	r3, [r1, #3]
+   c:	710b      	strb	r3, [r1, #4]
+   e:	714b      	strb	r3, [r1, #5]
+  10:	718b      	strb	r3, [r1, #6]
+  12:	71cb      	strb	r3, [r1, #7]
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI629create_cmd_write_encoder_zeroEPht:
+
+00000000 <_ZN9MG8016EI629create_cmd_write_encoder_zeroEPht>:
+   0:	2300      	movs	r3, #0
+   2:	f04f 0c91 	mov.w	ip, #145	; 0x91
+   6:	f3c2 2007 	ubfx	r0, r2, #8, #8
+   a:	718a      	strb	r2, [r1, #6]
+   c:	f881 c000 	strb.w	ip, [r1]
+  10:	704b      	strb	r3, [r1, #1]
+  12:	708b      	strb	r3, [r1, #2]
+  14:	70cb      	strb	r3, [r1, #3]
+  16:	710b      	strb	r3, [r1, #4]
+  18:	714b      	strb	r3, [r1, #5]
+  1a:	71c8      	strb	r0, [r1, #7]
+  1c:	4770      	bx	lr
+  1e:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI633create_cmd_write_position_as_zeroEPh:
+
+00000000 <_ZN9MG8016EI633create_cmd_write_position_as_zeroEPh>:
+   0:	2300      	movs	r3, #0
+   2:	2219      	movs	r2, #25
+   4:	704b      	strb	r3, [r1, #1]
+   6:	700a      	strb	r2, [r1, #0]
+   8:	708b      	strb	r3, [r1, #2]
+   a:	70cb      	strb	r3, [r1, #3]
+   c:	710b      	strb	r3, [r1, #4]
+   e:	714b      	strb	r3, [r1, #5]
+  10:	718b      	strb	r3, [r1, #6]
+  12:	71cb      	strb	r3, [r1, #7]
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI627create_cmd_read_multi_angleEPh:
+
+00000000 <_ZN9MG8016EI627create_cmd_read_multi_angleEPh>:
+   0:	2300      	movs	r3, #0
+   2:	2292      	movs	r2, #146	; 0x92
+   4:	704b      	strb	r3, [r1, #1]
+   6:	700a      	strb	r2, [r1, #0]
+   8:	708b      	strb	r3, [r1, #2]
+   a:	70cb      	strb	r3, [r1, #3]
+   c:	710b      	strb	r3, [r1, #4]
+   e:	714b      	strb	r3, [r1, #5]
+  10:	718b      	strb	r3, [r1, #6]
+  12:	71cb      	strb	r3, [r1, #7]
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI621create_cmd_read_angleEPh:
+
+00000000 <_ZN9MG8016EI621create_cmd_read_angleEPh>:
+   0:	2300      	movs	r3, #0
+   2:	2294      	movs	r2, #148	; 0x94
+   4:	704b      	strb	r3, [r1, #1]
+   6:	700a      	strb	r2, [r1, #0]
+   8:	708b      	strb	r3, [r1, #2]
+   a:	70cb      	strb	r3, [r1, #3]
+   c:	710b      	strb	r3, [r1, #4]
+   e:	714b      	strb	r3, [r1, #5]
+  10:	718b      	strb	r3, [r1, #6]
+  12:	71cb      	strb	r3, [r1, #7]
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI623create_cmd_read_state_1EPh:
+
+00000000 <_ZN9MG8016EI623create_cmd_read_state_1EPh>:
+   0:	2300      	movs	r3, #0
+   2:	229a      	movs	r2, #154	; 0x9a
+   4:	704b      	strb	r3, [r1, #1]
+   6:	700a      	strb	r2, [r1, #0]
+   8:	708b      	strb	r3, [r1, #2]
+   a:	70cb      	strb	r3, [r1, #3]
+   c:	710b      	strb	r3, [r1, #4]
+   e:	714b      	strb	r3, [r1, #5]
+  10:	718b      	strb	r3, [r1, #6]
+  12:	71cb      	strb	r3, [r1, #7]
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI622create_cmd_clear_errorEPh:
+
+00000000 <_ZN9MG8016EI622create_cmd_clear_errorEPh>:
+   0:	2300      	movs	r3, #0
+   2:	229b      	movs	r2, #155	; 0x9b
+   4:	704b      	strb	r3, [r1, #1]
+   6:	700a      	strb	r2, [r1, #0]
+   8:	708b      	strb	r3, [r1, #2]
+   a:	70cb      	strb	r3, [r1, #3]
+   c:	710b      	strb	r3, [r1, #4]
+   e:	714b      	strb	r3, [r1, #5]
+  10:	718b      	strb	r3, [r1, #6]
+  12:	71cb      	strb	r3, [r1, #7]
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI623create_cmd_read_state_2EPh:
+
+00000000 <_ZN9MG8016EI623create_cmd_read_state_2EPh>:
+   0:	2300      	movs	r3, #0
+   2:	229c      	movs	r2, #156	; 0x9c
+   4:	704b      	strb	r3, [r1, #1]
+   6:	700a      	strb	r2, [r1, #0]
+   8:	708b      	strb	r3, [r1, #2]
+   a:	70cb      	strb	r3, [r1, #3]
+   c:	710b      	strb	r3, [r1, #4]
+   e:	714b      	strb	r3, [r1, #5]
+  10:	718b      	strb	r3, [r1, #6]
+  12:	71cb      	strb	r3, [r1, #7]
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN9MG8016EI623create_cmd_read_state_3EPh:
+
+00000000 <_ZN9MG8016EI623create_cmd_read_state_3EPh>:
+   0:	2300      	movs	r3, #0
+   2:	229d      	movs	r2, #157	; 0x9d
+   4:	704b      	strb	r3, [r1, #1]
+   6:	700a      	strb	r2, [r1, #0]
+   8:	708b      	strb	r3, [r1, #2]
+   a:	70cb      	strb	r3, [r1, #3]
+   c:	710b      	strb	r3, [r1, #4]
+   e:	714b      	strb	r3, [r1, #5]
+  10:	718b      	strb	r3, [r1, #6]
+  12:	71cb      	strb	r3, [r1, #7]
+  14:	4770      	bx	lr
+  16:	bf00      	nop

@@ -1,0 +1,386 @@
+
+build/./src/sensors/can/C620.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 C620.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN4C620D2Ev	00000000 .text._ZN4C620D2Ev
+00000000 l    d  .text._ZNK4C6205writeER13CAN_message_t	00000000 .text._ZNK4C6205writeER13CAN_message_t
+00000000 l    d  .text._ZN4C62018write_motor_torqueEf	00000000 .text._ZN4C62018write_motor_torqueEf
+00000000 l    d  .rodata._ZNK5Motor11print_stateEv.str1.4	00000000 .rodata._ZNK5Motor11print_stateEv.str1.4
+00000000 l    d  .text._ZNK5Motor11print_stateEv	00000000 .text._ZNK5Motor11print_stateEv
+00000000 l    d  .text._ZN4C620D0Ev	00000000 .text._ZN4C620D0Ev
+00000000 l    d  .text._ZNK5Motor12check_msg_idERK13CAN_message_t	00000000 .text._ZNK5Motor12check_msg_idERK13CAN_message_t
+00000000 l    d  .text._ZN4C6204readER13CAN_message_t	00000000 .text._ZN4C6204readER13CAN_message_t
+00000000 l    d  .text._ZN4C62010zero_motorEv	00000000 .text._ZN4C62010zero_motorEv
+00000000 l    d  .text._ZN4C6204initEv	00000000 .text._ZN4C6204initEv
+00000000 l    d  .rodata._ZTV4C620	00000000 .rodata._ZTV4C620
+00000000 l       .group	00000000 _ZN4C620D5Ev
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN4C620D2Ev	00000002 _ZN4C620D2Ev
+00000000  w    F .text._ZN4C620D2Ev	00000002 _ZN4C620D1Ev
+00000000 g     F .text._ZNK4C6205writeER13CAN_message_t	0000002e _ZNK4C6205writeER13CAN_message_t
+00000000 g     F .text._ZN4C62018write_motor_torqueEf	00000062 _ZN4C62018write_motor_torqueEf
+00000000  w    F .text._ZNK5Motor11print_stateEv	00000044 _ZNK5Motor11print_stateEv
+00000000         *UND*	00000000 _ZN5Print6printfEPKcz
+00000000         *UND*	00000000 Serial
+00000000  w    F .text._ZN4C620D0Ev	0000000e _ZN4C620D0Ev
+00000000         *UND*	00000000 _ZdlPvj
+00000000  w    F .text._ZNK5Motor12check_msg_idERK13CAN_message_t	0000002a _ZNK5Motor12check_msg_idERK13CAN_message_t
+00000000 g     F .text._ZN4C6204readER13CAN_message_t	000000ac _ZN4C6204readER13CAN_message_t
+00000000 g     F .text._ZN4C62010zero_motorEv	0000005c _ZN4C62010zero_motorEv
+00000000 g     F .text._ZN4C6204initEv	00000078 _ZN4C6204initEv
+00000000 g     O .rodata._ZTV4C620	0000002c _ZTV4C620
+
+
+Contents of section .group:
+ 0000 01000000 07000000 0d000000 0e000000  ................
+Contents of section .group:
+ 0000 01000000 0b000000 0c000000           ............    
+Contents of section .group:
+ 0000 01000000 0f000000                    ........        
+Contents of section .text._ZN4C620D2Ev:
+ 0000 704700bf                             pG..            
+Contents of section .text._ZNK4C6205writeER13CAN_message_t:
+ 0000 c3690246 0b60c368 013b03f0 030302eb  .i.F.`.h.;......
+ 0010 430c5800 9cf828c0 01eb4303 83f80cc0  C.X...(...C.....
+ 0020 431c1a44 194492f8 28300b73 704700bf  C..D.D..(0.spG..
+Contents of section .text._ZN4C62018write_motor_torqueEf:
+ 0000 ffee007a b4eee70a f1ee10fa 26d4f7ee  ...z........&...
+ 0010 007ab4ee 670af1ee 10fa37fe 800ad0ed  .z..g.....7.....
+ 0020 167a40f2 ff11c368 f8eee77a 013b27ee  .z@....h...z.;'.
+ 0030 800a13f4 7f7f03f0 030308bf 4ff40071  ............O..q
+ 0040 fdeec07a 00eb4303 c16117ee 902ac2f3  ...z..C..a...*..
+ 0050 072183f8 292083f8 28107047 b0ee670a  .!..) ..(.pG..g.
+ 0060 dde700bf                             ....            
+Contents of section .rodata._ZNK5Motor11print_stateEv.str1.4:
+ 0000 4275733a 20257809 49443a20 25780954  Bus: %x.ID: %x.T
+ 0010 656d703a 20252e32 64630954 6f727175  emp: %.2dc.Torqu
+ 0020 653a2025 20342e33 66252509 53706565  e: % 4.3f%%.Spee
+ 0030 643a2025 20362e32 66726164 2f730950  d: % 6.2frad/s.P
+ 0040 6f733a20 25352e35 643f0a00           os: %5.5d?..    
+Contents of section .text._ZNK5Motor11print_stateEv:
+ 0000 02460e49 0e4892ed 146a92ed 137ab2f8  .F.I.H...j...z..
+ 0010 5430b7ee c66ab7ee c77a10b5 88b092f9  T0...j...z......
+ 0020 56400693 d2e90332 00948ded 046b8ded  V@.....2.....k..
+ 0030 027bfff7 feff08b0 10bd00bf 00000000  .{..............
+ 0040 00000000                             ....            
+Contents of section .text._ZN4C620D0Ev:
+ 0000 10b50446 6021fff7 feff2046 10bd00bf  ...F`!.... F....
+Contents of section .text._ZNK5Motor12check_msg_idERK13CAN_message_t:
+ 0000 43690a68 10b4c468 23449a42 09d14b7d  Ci.h...h#D.B..K}
+ 0010 0269581e 5df8044b 801ab0fa 80f04009  .iX.]..K......@.
+ 0020 70470020 5df8044b 704700bf           pG. ]..KpG..    
+Contents of section .text._ZN4C6204readER13CAN_message_t:
+ 0000 38b50368 0446284a 0d461b6a 934241d1  8..h.F(J.F.j.BA.
+ 0010 4369c168 2a680b44 9a4201d0 002038bd  Ci.h*h.D.B... 8.
+ 0020 6b7d0269 013b9342 f8d12b68 6868a968  k}.i.;.B..+hhh.h
+ 0030 ea68e163 22646363 a0632b69 68696364  .h.c"dcc.c+ihicd
+ 0040 b4f84420 d4ed167a d2bab4f8 4230b8ee  ..D ...z....B0..
+ 0050 e76ab4f8 401007ee 902adbba 94f84620  .j..@....*....F 
+ 0060 f8eee76a 07ee103a 4bbaa064 b8eec77b  ...j...:K..d...{
+ 0070 0120c6ee 865aa4f8 543084f8 56209fed  . ...Z..T0..V ..
+ 0080 084b27ee 047bb7ee c77bc4ed 135a84ed  .K'..{...{...Z..
+ 0090 147a38bd 98470028 c7d1bfe7 aff30080  .z8..G.(........
+ 00a0 d5eb7bf3 e9ceba3f 00000000           ..{....?....    
+Contents of section .text._ZN4C62010zero_motorEv:
+ 0000 02680346 13499269 8a4220d1 d3ed167a  .h.F.I.i.B ....z
+ 0010 9fed117a f8eee77a c26840f2 ff10013a  ...z...z.h@....:
+ 0020 67ee877a 12f47f7f 02f00301 fdeee77a  g..z...........z
+ 0030 08bf4ff4 0070d861 03eb4103 17ee902a  ..O..p.a..A....*
+ 0040 c2f30721 83f82920 83f82810 70479fed  ...!..) ..(.pG..
+ 0050 020a1047 00000000 00000000           ...G........    
+Contents of section .text._ZN4C6204initEv:
+ 0000 026810b4 5169194c a14227d1 92691849  .h..Qi.L.B'..i.I
+ 0010 8a4226d1 03469fed 177ac268 40f2ff10  .B&..F...z.h@...
+ 0020 d3ed167a 013af8ee e77a12f4 7f7f02f0  ...z.:...z......
+ 0030 030167ee 877a08bf 4ff40070 d86103eb  ..g..z..O..p.a..
+ 0040 4103fdee e77a17ee 902ac2f3 072183f8  A....z...*...!..
+ 0050 292083f8 28105df8 044b7047 5df8044b  ) ..(.]..KpG]..K
+ 0060 08479fed 040a5df8 044b1047 00000000  .G....]..K.G....
+ 0070 00000000 00000000                    ........        
+Contents of section .rodata._ZTV4C620:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000 00000000 00000000 00000000  ................
+ 0020 00000000 00000000 00000000           ............    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN4C620D2Ev:
+
+00000000 <_ZN4C620D1Ev>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZNK4C6205writeER13CAN_message_t:
+
+00000000 <_ZNK4C6205writeER13CAN_message_t>:
+   0:	69c3      	ldr	r3, [r0, #28]
+   2:	4602      	mov	r2, r0
+   4:	600b      	str	r3, [r1, #0]
+   6:	68c3      	ldr	r3, [r0, #12]
+   8:	3b01      	subs	r3, #1
+   a:	f003 0303 	and.w	r3, r3, #3
+   e:	eb02 0c43 	add.w	ip, r2, r3, lsl #1
+  12:	0058      	lsls	r0, r3, #1
+  14:	f89c c028 	ldrb.w	ip, [ip, #40]	; 0x28
+  18:	eb01 0343 	add.w	r3, r1, r3, lsl #1
+  1c:	f883 c00c 	strb.w	ip, [r3, #12]
+  20:	1c43      	adds	r3, r0, #1
+  22:	441a      	add	r2, r3
+  24:	4419      	add	r1, r3
+  26:	f892 3028 	ldrb.w	r3, [r2, #40]	; 0x28
+  2a:	730b      	strb	r3, [r1, #12]
+  2c:	4770      	bx	lr
+  2e:	bf00      	nop
+
+Disassembly of section .text._ZN4C62018write_motor_torqueEf:
+
+00000000 <_ZN4C62018write_motor_torqueEf>:
+   0:	eeff 7a00 	vmov.f32	s15, #240	; 0xbf800000 -1.0
+   4:	eeb4 0ae7 	vcmpe.f32	s0, s15
+   8:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+   c:	d426      	bmi.n	5c <_ZN4C62018write_motor_torqueEf+0x5c>
+   e:	eef7 7a00 	vmov.f32	s15, #112	; 0x3f800000  1.0
+  12:	eeb4 0a67 	vcmp.f32	s0, s15
+  16:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  1a:	fe37 0a80 	vselgt.f32	s0, s15, s0
+  1e:	edd0 7a16 	vldr	s15, [r0, #88]	; 0x58
+  22:	f240 11ff 	movw	r1, #511	; 0x1ff
+  26:	68c3      	ldr	r3, [r0, #12]
+  28:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+  2c:	3b01      	subs	r3, #1
+  2e:	ee27 0a80 	vmul.f32	s0, s15, s0
+  32:	f413 7f7f 	tst.w	r3, #1020	; 0x3fc
+  36:	f003 0303 	and.w	r3, r3, #3
+  3a:	bf08      	it	eq
+  3c:	f44f 7100 	moveq.w	r1, #512	; 0x200
+  40:	eefd 7ac0 	vcvt.s32.f32	s15, s0
+  44:	eb00 0343 	add.w	r3, r0, r3, lsl #1
+  48:	61c1      	str	r1, [r0, #28]
+  4a:	ee17 2a90 	vmov	r2, s15
+  4e:	f3c2 2107 	ubfx	r1, r2, #8, #8
+  52:	f883 2029 	strb.w	r2, [r3, #41]	; 0x29
+  56:	f883 1028 	strb.w	r1, [r3, #40]	; 0x28
+  5a:	4770      	bx	lr
+  5c:	eeb0 0a67 	vmov.f32	s0, s15
+  60:	e7dd      	b.n	1e <_ZN4C62018write_motor_torqueEf+0x1e>
+  62:	bf00      	nop
+
+Disassembly of section .text._ZNK5Motor11print_stateEv:
+
+00000000 <_ZNK5Motor11print_stateEv>:
+   0:	4602      	mov	r2, r0
+   2:	490e      	ldr	r1, [pc, #56]	; (3c <_ZNK5Motor11print_stateEv+0x3c>)
+   4:	480e      	ldr	r0, [pc, #56]	; (40 <_ZNK5Motor11print_stateEv+0x40>)
+   6:	ed92 6a14 	vldr	s12, [r2, #80]	; 0x50
+   a:	ed92 7a13 	vldr	s14, [r2, #76]	; 0x4c
+   e:	f8b2 3054 	ldrh.w	r3, [r2, #84]	; 0x54
+  12:	eeb7 6ac6 	vcvt.f64.f32	d6, s12
+  16:	eeb7 7ac7 	vcvt.f64.f32	d7, s14
+  1a:	b510      	push	{r4, lr}
+  1c:	b088      	sub	sp, #32
+  1e:	f992 4056 	ldrsb.w	r4, [r2, #86]	; 0x56
+  22:	9306      	str	r3, [sp, #24]
+  24:	e9d2 3203 	ldrd	r3, r2, [r2, #12]
+  28:	9400      	str	r4, [sp, #0]
+  2a:	ed8d 6b04 	vstr	d6, [sp, #16]
+  2e:	ed8d 7b02 	vstr	d7, [sp, #8]
+  32:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  36:	b008      	add	sp, #32
+  38:	bd10      	pop	{r4, pc}
+  3a:	bf00      	nop
+  3c:	00000000 	.word	0x00000000
+  40:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN4C620D0Ev:
+
+00000000 <_ZN4C620D0Ev>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	2160      	movs	r1, #96	; 0x60
+   6:	f7ff fffe 	bl	0 <_ZdlPvj>
+   a:	4620      	mov	r0, r4
+   c:	bd10      	pop	{r4, pc}
+   e:	bf00      	nop
+
+Disassembly of section .text._ZNK5Motor12check_msg_idERK13CAN_message_t:
+
+00000000 <_ZNK5Motor12check_msg_idERK13CAN_message_t>:
+   0:	6943      	ldr	r3, [r0, #20]
+   2:	680a      	ldr	r2, [r1, #0]
+   4:	b410      	push	{r4}
+   6:	68c4      	ldr	r4, [r0, #12]
+   8:	4423      	add	r3, r4
+   a:	429a      	cmp	r2, r3
+   c:	d109      	bne.n	22 <_ZNK5Motor12check_msg_idERK13CAN_message_t+0x22>
+   e:	7d4b      	ldrb	r3, [r1, #21]
+  10:	6902      	ldr	r2, [r0, #16]
+  12:	1e58      	subs	r0, r3, #1
+  14:	f85d 4b04 	ldr.w	r4, [sp], #4
+  18:	1a80      	subs	r0, r0, r2
+  1a:	fab0 f080 	clz	r0, r0
+  1e:	0940      	lsrs	r0, r0, #5
+  20:	4770      	bx	lr
+  22:	2000      	movs	r0, #0
+  24:	f85d 4b04 	ldr.w	r4, [sp], #4
+  28:	4770      	bx	lr
+  2a:	bf00      	nop
+
+Disassembly of section .text._ZN4C6204readER13CAN_message_t:
+
+00000000 <_ZN4C6204readER13CAN_message_t>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	6803      	ldr	r3, [r0, #0]
+   4:	4604      	mov	r4, r0
+   6:	4a28      	ldr	r2, [pc, #160]	; (a8 <_ZN4C6204readER13CAN_message_t+0xa8>)
+   8:	460d      	mov	r5, r1
+   a:	6a1b      	ldr	r3, [r3, #32]
+   c:	4293      	cmp	r3, r2
+   e:	d141      	bne.n	94 <_ZN4C6204readER13CAN_message_t+0x94>
+  10:	6943      	ldr	r3, [r0, #20]
+  12:	68c1      	ldr	r1, [r0, #12]
+  14:	682a      	ldr	r2, [r5, #0]
+  16:	440b      	add	r3, r1
+  18:	429a      	cmp	r2, r3
+  1a:	d001      	beq.n	20 <_ZN4C6204readER13CAN_message_t+0x20>
+  1c:	2000      	movs	r0, #0
+  1e:	bd38      	pop	{r3, r4, r5, pc}
+  20:	7d6b      	ldrb	r3, [r5, #21]
+  22:	6902      	ldr	r2, [r0, #16]
+  24:	3b01      	subs	r3, #1
+  26:	4293      	cmp	r3, r2
+  28:	d1f8      	bne.n	1c <_ZN4C6204readER13CAN_message_t+0x1c>
+  2a:	682b      	ldr	r3, [r5, #0]
+  2c:	6868      	ldr	r0, [r5, #4]
+  2e:	68a9      	ldr	r1, [r5, #8]
+  30:	68ea      	ldr	r2, [r5, #12]
+  32:	63e1      	str	r1, [r4, #60]	; 0x3c
+  34:	6422      	str	r2, [r4, #64]	; 0x40
+  36:	6363      	str	r3, [r4, #52]	; 0x34
+  38:	63a0      	str	r0, [r4, #56]	; 0x38
+  3a:	692b      	ldr	r3, [r5, #16]
+  3c:	6968      	ldr	r0, [r5, #20]
+  3e:	6463      	str	r3, [r4, #68]	; 0x44
+  40:	f8b4 2044 	ldrh.w	r2, [r4, #68]	; 0x44
+  44:	edd4 7a16 	vldr	s15, [r4, #88]	; 0x58
+  48:	bad2      	revsh	r2, r2
+  4a:	f8b4 3042 	ldrh.w	r3, [r4, #66]	; 0x42
+  4e:	eeb8 6ae7 	vcvt.f32.s32	s12, s15
+  52:	f8b4 1040 	ldrh.w	r1, [r4, #64]	; 0x40
+  56:	ee07 2a90 	vmov	s15, r2
+  5a:	badb      	revsh	r3, r3
+  5c:	f894 2046 	ldrb.w	r2, [r4, #70]	; 0x46
+  60:	eef8 6ae7 	vcvt.f32.s32	s13, s15
+  64:	ee07 3a10 	vmov	s14, r3
+  68:	ba4b      	rev16	r3, r1
+  6a:	64a0      	str	r0, [r4, #72]	; 0x48
+  6c:	eeb8 7bc7 	vcvt.f64.s32	d7, s14
+  70:	2001      	movs	r0, #1
+  72:	eec6 5a86 	vdiv.f32	s11, s13, s12
+  76:	f8a4 3054 	strh.w	r3, [r4, #84]	; 0x54
+  7a:	f884 2056 	strb.w	r2, [r4, #86]	; 0x56
+  7e:	ed9f 4b08 	vldr	d4, [pc, #32]	; a0 <_ZN4C6204readER13CAN_message_t+0xa0>
+  82:	ee27 7b04 	vmul.f64	d7, d7, d4
+  86:	eeb7 7bc7 	vcvt.f32.f64	s14, d7
+  8a:	edc4 5a13 	vstr	s11, [r4, #76]	; 0x4c
+  8e:	ed84 7a14 	vstr	s14, [r4, #80]	; 0x50
+  92:	bd38      	pop	{r3, r4, r5, pc}
+  94:	4798      	blx	r3
+  96:	2800      	cmp	r0, #0
+  98:	d1c7      	bne.n	2a <_ZN4C6204readER13CAN_message_t+0x2a>
+  9a:	e7bf      	b.n	1c <_ZN4C6204readER13CAN_message_t+0x1c>
+  9c:	f3af 8000 	nop.w
+  a0:	f37bebd5 	.word	0xf37bebd5
+  a4:	3fbacee9 	.word	0x3fbacee9
+  a8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN4C62010zero_motorEv:
+
+00000000 <_ZN4C62010zero_motorEv>:
+   0:	6802      	ldr	r2, [r0, #0]
+   2:	4603      	mov	r3, r0
+   4:	4913      	ldr	r1, [pc, #76]	; (54 <_ZN4C62010zero_motorEv+0x54>)
+   6:	6992      	ldr	r2, [r2, #24]
+   8:	428a      	cmp	r2, r1
+   a:	d120      	bne.n	4e <_ZN4C62010zero_motorEv+0x4e>
+   c:	edd3 7a16 	vldr	s15, [r3, #88]	; 0x58
+  10:	ed9f 7a11 	vldr	s14, [pc, #68]	; 58 <_ZN4C62010zero_motorEv+0x58>
+  14:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+  18:	68c2      	ldr	r2, [r0, #12]
+  1a:	f240 10ff 	movw	r0, #511	; 0x1ff
+  1e:	3a01      	subs	r2, #1
+  20:	ee67 7a87 	vmul.f32	s15, s15, s14
+  24:	f412 7f7f 	tst.w	r2, #1020	; 0x3fc
+  28:	f002 0103 	and.w	r1, r2, #3
+  2c:	eefd 7ae7 	vcvt.s32.f32	s15, s15
+  30:	bf08      	it	eq
+  32:	f44f 7000 	moveq.w	r0, #512	; 0x200
+  36:	61d8      	str	r0, [r3, #28]
+  38:	eb03 0341 	add.w	r3, r3, r1, lsl #1
+  3c:	ee17 2a90 	vmov	r2, s15
+  40:	f3c2 2107 	ubfx	r1, r2, #8, #8
+  44:	f883 2029 	strb.w	r2, [r3, #41]	; 0x29
+  48:	f883 1028 	strb.w	r1, [r3, #40]	; 0x28
+  4c:	4770      	bx	lr
+  4e:	ed9f 0a02 	vldr	s0, [pc, #8]	; 58 <_ZN4C62010zero_motorEv+0x58>
+  52:	4710      	bx	r2
+  54:	00000000 	.word	0x00000000
+  58:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN4C6204initEv:
+
+00000000 <_ZN4C6204initEv>:
+   0:	6802      	ldr	r2, [r0, #0]
+   2:	b410      	push	{r4}
+   4:	6951      	ldr	r1, [r2, #20]
+   6:	4c19      	ldr	r4, [pc, #100]	; (6c <_ZN4C6204initEv+0x6c>)
+   8:	42a1      	cmp	r1, r4
+   a:	d127      	bne.n	5c <_ZN4C6204initEv+0x5c>
+   c:	6992      	ldr	r2, [r2, #24]
+   e:	4918      	ldr	r1, [pc, #96]	; (70 <_ZN4C6204initEv+0x70>)
+  10:	428a      	cmp	r2, r1
+  12:	d126      	bne.n	62 <_ZN4C6204initEv+0x62>
+  14:	4603      	mov	r3, r0
+  16:	ed9f 7a17 	vldr	s14, [pc, #92]	; 74 <_ZN4C6204initEv+0x74>
+  1a:	68c2      	ldr	r2, [r0, #12]
+  1c:	f240 10ff 	movw	r0, #511	; 0x1ff
+  20:	edd3 7a16 	vldr	s15, [r3, #88]	; 0x58
+  24:	3a01      	subs	r2, #1
+  26:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+  2a:	f412 7f7f 	tst.w	r2, #1020	; 0x3fc
+  2e:	f002 0103 	and.w	r1, r2, #3
+  32:	ee67 7a87 	vmul.f32	s15, s15, s14
+  36:	bf08      	it	eq
+  38:	f44f 7000 	moveq.w	r0, #512	; 0x200
+  3c:	61d8      	str	r0, [r3, #28]
+  3e:	eb03 0341 	add.w	r3, r3, r1, lsl #1
+  42:	eefd 7ae7 	vcvt.s32.f32	s15, s15
+  46:	ee17 2a90 	vmov	r2, s15
+  4a:	f3c2 2107 	ubfx	r1, r2, #8, #8
+  4e:	f883 2029 	strb.w	r2, [r3, #41]	; 0x29
+  52:	f883 1028 	strb.w	r1, [r3, #40]	; 0x28
+  56:	f85d 4b04 	ldr.w	r4, [sp], #4
+  5a:	4770      	bx	lr
+  5c:	f85d 4b04 	ldr.w	r4, [sp], #4
+  60:	4708      	bx	r1
+  62:	ed9f 0a04 	vldr	s0, [pc, #16]	; 74 <_ZN4C6204initEv+0x74>
+  66:	f85d 4b04 	ldr.w	r4, [sp], #4
+  6a:	4710      	bx	r2
+  6c:	00000000 	.word	0x00000000
+  70:	00000000 	.word	0x00000000
+  74:	00000000 	.word	0x00000000

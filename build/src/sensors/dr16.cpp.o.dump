@@ -1,0 +1,823 @@
+
+build/./src/sensors/dr16.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 dr16.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN4DR16C2Ev	00000000 .text._ZN4DR16C2Ev
+00000000 l    d  .text._ZN4DR164zeroEv	00000000 .text._ZN4DR164zeroEv
+00000000 l    d  .text._ZN4DR169get_inputEv	00000000 .text._ZN4DR169get_inputEv
+00000000 l    d  .rodata._ZN4DR165printEv.str1.4	00000000 .rodata._ZN4DR165printEv.str1.4
+00000000 l    d  .text._ZN4DR165printEv	00000000 .text._ZN4DR165printEv
+00000000 l    d  .rodata._ZN4DR169print_rawEv.str1.4	00000000 .rodata._ZN4DR169print_rawEv.str1.4
+00000000 l    d  .text._ZN4DR169print_rawEv	00000000 .text._ZN4DR169print_rawEv
+00000000 l    d  .text._ZN4DR1611bounded_mapEiiiii	00000000 .text._ZN4DR1611bounded_mapEiiiii
+00000000 l    d  .text._ZN4DR1613is_data_validEv	00000000 .text._ZN4DR1613is_data_validEv
+00000000 l    d  .text._ZN4DR1613get_r_stick_xEv	00000000 .text._ZN4DR1613get_r_stick_xEv
+00000000 l    d  .text._ZN4DR1613get_r_stick_yEv	00000000 .text._ZN4DR1613get_r_stick_yEv
+00000000 l    d  .text._ZN4DR1613get_l_stick_xEv	00000000 .text._ZN4DR1613get_l_stick_xEv
+00000000 l    d  .text._ZN4DR1613get_l_stick_yEv	00000000 .text._ZN4DR1613get_l_stick_yEv
+00000000 l    d  .text._ZN4DR169get_wheelEv	00000000 .text._ZN4DR169get_wheelEv
+00000000 l    d  .text._ZN4DR1612get_r_switchEv	00000000 .text._ZN4DR1612get_r_switchEv
+00000000 l    d  .text._ZN4DR1612get_l_switchEv	00000000 .text._ZN4DR1612get_l_switchEv
+00000000 l    d  .text._ZN4DR1611get_mouse_yEv	00000000 .text._ZN4DR1611get_mouse_yEv
+00000000 l    d  .text._ZN4DR1611get_mouse_xEv	00000000 .text._ZN4DR1611get_mouse_xEv
+00000000 l    d  .text._ZN4DR1618get_l_mouse_buttonEv	00000000 .text._ZN4DR1618get_l_mouse_buttonEv
+00000000 l    d  .text._ZN4DR1618get_r_mouse_buttonEv	00000000 .text._ZN4DR1618get_r_mouse_buttonEv
+00000000 l    d  .text._ZN4DR164initEv	00000000 .text._ZN4DR164initEv
+00000000 l    d  .rodata._ZN4DR164readEv.str1.4	00000000 .rodata._ZN4DR164readEv.str1.4
+00000000 l    d  .text._ZN4DR164readEv	00000000 .text._ZN4DR164readEv
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN4DR16C2Ev	00000036 _ZN4DR16C2Ev
+00000000 g     F .text._ZN4DR16C2Ev	00000036 _ZN4DR16C1Ev
+00000000 g     F .text._ZN4DR164zeroEv	00000016 _ZN4DR164zeroEv
+00000000 g     F .text._ZN4DR169get_inputEv	00000004 _ZN4DR169get_inputEv
+00000000 g     F .text._ZN4DR165printEv	00000070 _ZN4DR165printEv
+00000000         *UND*	00000000 _ZN5Print6printfEPKcz
+00000000         *UND*	00000000 Serial
+00000000 g     F .text._ZN4DR169print_rawEv	00000030 _ZN4DR169print_rawEv
+00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000 g     F .text._ZN4DR1611bounded_mapEiiiii	00000034 _ZN4DR1611bounded_mapEiiiii
+00000000 g     F .text._ZN4DR1613is_data_validEv	0000003c _ZN4DR1613is_data_validEv
+00000000 g     F .text._ZN4DR1613get_r_stick_xEv	00000006 _ZN4DR1613get_r_stick_xEv
+00000000 g     F .text._ZN4DR1613get_r_stick_yEv	00000006 _ZN4DR1613get_r_stick_yEv
+00000000 g     F .text._ZN4DR1613get_l_stick_xEv	00000006 _ZN4DR1613get_l_stick_xEv
+00000000 g     F .text._ZN4DR1613get_l_stick_yEv	00000006 _ZN4DR1613get_l_stick_yEv
+00000000 g     F .text._ZN4DR169get_wheelEv	00000006 _ZN4DR169get_wheelEv
+00000000 g     F .text._ZN4DR1612get_r_switchEv	00000006 _ZN4DR1612get_r_switchEv
+00000000 g     F .text._ZN4DR1612get_l_switchEv	00000006 _ZN4DR1612get_l_switchEv
+00000000 g     F .text._ZN4DR1611get_mouse_yEv	00000006 _ZN4DR1611get_mouse_yEv
+00000000 g     F .text._ZN4DR1611get_mouse_xEv	00000006 _ZN4DR1611get_mouse_xEv
+00000000 g     F .text._ZN4DR1618get_l_mouse_buttonEv	00000004 _ZN4DR1618get_l_mouse_buttonEv
+00000000 g     F .text._ZN4DR1618get_r_mouse_buttonEv	00000004 _ZN4DR1618get_r_mouse_buttonEv
+00000000 g     F .text._ZN4DR164initEv	00000044 _ZN4DR164initEv
+00000000         *UND*	00000000 _ZN19HardwareSerialIMXRT5beginEmt
+00000000         *UND*	00000000 _ZN19HardwareSerialIMXRT5flushEv
+00000000         *UND*	00000000 _ZN19HardwareSerialIMXRT5clearEv
+00000000         *UND*	00000000 Serial8
+00000000 g     F .text._ZN4DR164readEv	0000045c _ZN4DR164readEv
+00000000         *UND*	00000000 _ZN19HardwareSerialIMXRT9availableEv
+00000000         *UND*	00000000 _ZN6Stream9readBytesEPcj
+00000000         *UND*	00000000 micros
+00000000         *UND*	00000000 systick_millis_count
+
+
+Contents of section .text._ZN4DR16C2Ev:
+ 0000 0023c0e9 0633c0e9 0833c0e9 0a33c0e9  .#...3...3...3..
+ 0010 0c33c0e9 0e33c0e9 1033c0e9 1233c0e9  .3...3...3...3..
+ 0020 1433c0e9 1633a0f8 6030a0f8 6c300367  .3...3..`0..l0.g
+ 0030 c0e91933 704700bf                    ...3pG..        
+Contents of section .text._ZN4DR164zeroEv:
+ 0000 00234ff0 7e528361 c3610362 43628362  .#O.~R.a.a.bCb.b
+ 0010 c2620263 704700bf                    .b.cpG..        
+Contents of section .text._ZN4DR169get_inputEv:
+ 0000 18307047                             .0pG            
+Contents of section .rodata._ZN4DR165printEv.str1.4:
+ 0000 52537469 636b2058 3a20252e 32660952  RStick X: %.2f.R
+ 0010 53746963 6b20593a 20252e32 66094c53  Stick Y: %.2f.LS
+ 0020 7469636b 20583a20 252e3266 094c5374  tick X: %.2f.LSt
+ 0030 69636b20 593a2025 2e326609 57686565  ick Y: %.2f.Whee
+ 0040 6c3a2025 2e326609 52537769 7463683a  l: %.2f.RSwitch:
+ 0050 20252e32 66094c53 77697463 683a2025   %.2f.LSwitch: %
+ 0060 2e32660a 00                          .2f..           
+Contents of section .text._ZN4DR165printEv:
+ 0000 03461949 194893ed 0a4ad3ed 061ab7ee  .F.I.H...J......
+ 0010 c44a93ed 0c2a93ed 0b3a93ed 095ab7ee  .J...*...:...Z..
+ 0020 c22a93ed 086ab7ee c33a93ed 077ab7ee  .*...j...:...z..
+ 0030 c55ab7ee c66ab7ee c77a00b5 8db08ded  .Z...j...z......
+ 0040 064bb7ee e14a8ded 0a2b53ec 142b8ded  .K...J...+S..+..
+ 0050 083b8ded 045b8ded 026b8ded 007bfff7  .;...[...k...{..
+ 0060 feff0db0 5df804fb 00000000 00000000  ....]...........
+Contents of section .rodata._ZN4DR169print_rawEv.str1.4:
+ 0000 252e3278 0900                        %.2x..          
+Contents of section .text._ZN4DR169print_rawEv:
+ 0000 f8b5094f 00f14f04 084e00f1 610514f8  ...O..O..N..a...
+ 0010 012f3946 3046fff7 feffac42 f7d10348  ./9F0F.....B...H
+ 0020 bde8f840 fff7febf 00000000 00000000  ...@............
+Contents of section .text._ZN4DR1611bounded_mapEiiiii:
+ 0000 994210b4 a8bf1946 9b1adde9 01409142  .B.....F.....@.B
+ 0010 acbfc2eb 0102c2eb 0202001b 00fb02f2  ................
+ 0020 92fbf3f2 13195df8 044b00ee 103ab8ee  ......]..K...:..
+ 0030 c00a7047                             ..pG            
+Contents of section .text._ZN4DR1613is_data_validEv:
+ 0000 00f13403 9fed0b7a dfed0b6a 4830f3ec  ..4....z...jH0..
+ 0010 017af4ee c77af1ee 10fa08d4 f4eee67a  .z...z.........z
+ 0020 f1ee10fa 03dc8342 f1d10120 70470020  .......B... pG. 
+ 0030 704700bf 0000b643 0080d244           pG.....C...D    
+Contents of section .text._ZN4DR1613get_r_stick_xEv:
+ 0000 90ed060a 704700bf                    ....pG..        
+Contents of section .text._ZN4DR1613get_r_stick_yEv:
+ 0000 90ed070a 704700bf                    ....pG..        
+Contents of section .text._ZN4DR1613get_l_stick_xEv:
+ 0000 90ed080a 704700bf                    ....pG..        
+Contents of section .text._ZN4DR1613get_l_stick_yEv:
+ 0000 90ed090a 704700bf                    ....pG..        
+Contents of section .text._ZN4DR169get_wheelEv:
+ 0000 90ed0a0a 704700bf                    ....pG..        
+Contents of section .text._ZN4DR1612get_r_switchEv:
+ 0000 90ed0b0a 704700bf                    ....pG..        
+Contents of section .text._ZN4DR1612get_l_switchEv:
+ 0000 90ed0c0a 704700bf                    ....pG..        
+Contents of section .text._ZN4DR1611get_mouse_yEv:
+ 0000 b0f90200 704700bf                    ....pG..        
+Contents of section .text._ZN4DR1611get_mouse_xEv:
+ 0000 b0f90000 704700bf                    ....pG..        
+Contents of section .text._ZN4DR1618get_l_mouse_buttonEv:
+ 0000 00797047                             .ypG            
+Contents of section .text._ZN4DR1618get_r_mouse_buttonEv:
+ 0000 40797047                             @ypG            
+Contents of section .text._ZN4DR164initEv:
+ 0000 38b50e4d 04463622 0d492846 fff7feff  8..M.F6".I(F....
+ 0010 2846fff7 feff2846 fff7feff 00230022  (F....(F.....#."
+ 0020 a3612265 6265a265 e265a4f8 6020e361  .a"ebe.e.e..` .a
+ 0030 23626362 a362e362 236338bd 00000000  #bcb.b.b#c8.....
+ 0040 a0860100                             ....            
+Contents of section .rodata._ZN4DR164readEv.str1.4:
+ 0000 44523136 3a205374 696c6c20 616c6967  DR16: Still alig
+ 0010 6e696e67 20282564 290a0000 44523136  ning (%d)...DR16
+ 0020 3a20416c 69676e6d 656e7420 74696d65  : Alignment time
+ 0030 64206f75 742c2074 7279696e 67206167  d out, trying ag
+ 0040 61696e20 6e657874 206c6f6f 700a0a00  ain next loop...
+ 0050 44523136 3a20416c 69676e65 64207375  DR16: Aligned su
+ 0060 63636573 7366756c 6c790a00 44523136  ccessfully..DR16
+ 0070 3a20416c 69676e6d 656e7420 746f6f6b  : Alignment took
+ 0080 2025666d 730a0a00                     %fms...        
+Contents of section .text._ZN4DR164readEv:
+ 0000 2de9f84f 0746dc48 fff7feff 482800f3  -..O.F.H....H(..
+ 0010 5a81d948 fff7feff 1128d84b 09dc3a6f  Z..H.....(.K..:o
+ 0020 1b689b1a fa2b02d9 002387f8 6d30bde8  .h...+...#..m0..
+ 0030 f88f1b68 01201222 07f15001 87f86d00  ...h. ."..P...m.
+ 0040 3b67cd48 fff7feff 97f85180 97f850c0  ;g.H......Q...P.
+ 0050 4fea0820 97f85220 97f85310 00f4e060  O.. ..R ..S....`
+ 0060 94095201 97f854e0 4cea0009 44ea8104  ..R...T.L...D...
+ 0070 02f4fc61 4fea8e22 07ee909a 97f85530  ...aO.."......U0
+ 0080 41ead800 02f48062 f8ee677a de011443  A......b..gz...C
+ 0090 97f86150 06f4f066 97f86020 c7ed0d7a  ..aP...f..` ...z
+ 00a0 07ee900a a1b2dfed b66af8ee 677a2d02  .........j..gz-.
+ 00b0 dfedb45a cc4605f4 e065c7ed 0e7a07ee  ...Z.F...e...z..
+ 00c0 901a46ea 5e01f8ee 677a0e46 c7ed0f7a  ..F.^...gz.F...z
+ 00d0 07ee901a 42ea0501 07f14805 f8ee677a  ....B.....H...gz
+ 00e0 0a46c7ed 107a07ee 901ac3f3 01119b09  .F...z..........
+ 00f0 f8ee677a 06ee101a 97f85e10 c7ed117a  ..gz......^....z
+ 0100 07ee903a 97f85c30 b8ee466a b8ee677a  ...:..\0..Fj..gz
+ 0110 003b87ed 126a18bf 012387ed 137a3b71  .;...j...#...z;q
+ 0120 97f85d30 003b18bf 01237b71 b7f85630  ..]0.;...#{q..V0
+ 0130 3b80b7f8 58307b80 07f13403 f3ec017a  ;...X0{...4....z
+ 0140 f4eee67a f1ee10fa 00f16d81 f4eee57a  ...z......m....z
+ 0150 f1ee10fa 00f36781 9d42efd1 002387f8  ......g..B...#..
+ 0160 6c30bb66 40f29363 9c4540f3 198140f2  l0.f@..c.E@...@.
+ 0170 9363f7ee 006a9842 c7ed066a 00f33081  .c...j.B...j..0.
+ 0180 b0f5b67f dfed855a b8bf4ff4 b670a0f5  .......Z..O..p..
+ 0190 b6734ff4 fa6000fb 03f37b48 a0fb0303  .sO..`....{H....
+ 01a0 5b0aa3f5 7a7307ee 903a40f2 9363f8ee  [...zs...:@..c..
+ 01b0 e77a9c42 c7eea56a c7ed076a 00f31981  .z.B...j...j....
+ 01c0 b4f5b67f 4ff4fa60 dfed745a b8bf4ff4  ....O..`..tZ..O.
+ 01d0 b674a4f5 b67300fb 03f36b48 a0fb0303  .t...s....kH....
+ 01e0 5b0aa3f5 7a7307ee 903a40f2 9363f8ee  [...zs...:@..c..
+ 01f0 e77a9e42 c7eea56a c7ed086a 00f30281  .z.B...j...j....
+ 0200 b6f5b67f 4ff4fa60 dfed645a b8bf4ff4  ....O..`..dZ..O.
+ 0210 b676a6f5 b67300fb 03f35b48 a0fb0303  .v...s....[H....
+ 0220 5b0aa3f5 7a7307ee 903a40f2 9363f8ee  [...zs...:@..c..
+ 0230 e77a9a42 c7eea56a c7ed096a 00f3eb80  .z.B...j...j....
+ 0240 b2f5b67f 4ff4fa64 4f48b8bf 4ff4b672  ....O..dOH..O..r
+ 0250 dfed525a a2f5b673 04fb03f3 a0fb0303  ..RZ...s........
+ 0260 5b0aa3f5 7a7307ee 903af8ee e77ac7ee  [...zs...:...z..
+ 0270 a56ac1f3 800301f0 0100c1f3 4002c7ed  .j..........@...
+ 0280 0a6a3b72 3b74c1f3 4013b871 b873c1f3  .j;r;t..@..q.s..
+ 0290 c000fa71 fa73c1f3 0012fb72 fb74c1f3  ...q.s.....r.t..
+ 02a0 8013c909 87ed0b6a 87ed0c7a 78727874  .......j...zxrxt
+ 02b0 ba72ba74 3b737973 3b757975 fff7feff  .r.t;sys;uyu....
+ 02c0 7866bde8 f88ffff7 feff8346 2a484ff0  xf.........F*HO.
+ 02d0 0008fff7 feff284e fff7feff dff8b8a0  ......(N........
+ 02e0 8146fff7 feff46f2 a713a0eb 09009842  .F....F........B
+ 02f0 00f29480 fff7feff 04463046 08f10108  .........F0F....
+ 0300 fff7feff 054605e0 fff7feff 001bb0f5  .....F..........
+ 0310 7a7f04d2 3046fff7 feffa842 f4d0fff7  z...0F.....B....
+ 0320 feff0546 42465146 2d1b1848 fff7feff  ...FBFQF-..H....
+ 0330 b5f57a7f d5d3fff7 feff0446 1449a4eb  ..z........F.I..
+ 0340 0b041248 fff7feff dfed146a 07ee904a  ...H.......j...J
+ 0350 10490e48 f8ee677a 87eea67a b7eec77a  .I.H..gz...z...z
+ 0360 53ec172b fff7feff 0348fff7 feff0023  S..+.....H.....#
+ 0370 87f86d30 bde8f88f 00000000 00000000  ..m0............
+ 0380 0000b643 0080d244 35064c63 00000000  ...C...D5.Lc....
+ 0390 50000000 6c000000 00000000 00007a44  P...l.........zD
+ 03a0 bcf5b67f 4ff4fa65 5fed045a b8bf4ff4  ....O..e_..Z..O.
+ 03b0 b67cacf5 b67305fb 03f3244d a5fb0353  .|...s....$M...S
+ 03c0 5b0aa3f5 7a7307ee 903a40f2 9363f8ee  [...zs...:@..c..
+ 03d0 e77a9842 c7eea56a c7ed066a 7ff7d0ae  .z.B...j...j....
+ 03e0 40f29363 f7ee006a 9c42c7ed 076a7ff7  @..c...j.B...j..
+ 03f0 e7ae40f2 9363f7ee 006a9e42 c7ed086a  ..@..c...j.B...j
+ 0400 7ff7feae 40f29363 f7ee006a 9a42c7ed  ....@..c...j.B..
+ 0410 096a7ff7 15aff7ee 006a2ae7 0c490d48  .j.......j*..I.H
+ 0420 fff7feff a0e7fff7 feff0b4a d7e91913  ...........J....
+ 0430 5b1a1844 9042b866 03d90123 87f86c30  [..D.B.f...#..l0
+ 0440 3ce70023 87f86c30 38e700bf 35064c63  <..#..l08...5.Lc
+ 0450 1c000000 00000000 90d00300           ............    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN4DR16C2Ev:
+
+00000000 <_ZN4DR16C1Ev>:
+   0:	2300      	movs	r3, #0
+   2:	e9c0 3306 	strd	r3, r3, [r0, #24]
+   6:	e9c0 3308 	strd	r3, r3, [r0, #32]
+   a:	e9c0 330a 	strd	r3, r3, [r0, #40]	; 0x28
+   e:	e9c0 330c 	strd	r3, r3, [r0, #48]	; 0x30
+  12:	e9c0 330e 	strd	r3, r3, [r0, #56]	; 0x38
+  16:	e9c0 3310 	strd	r3, r3, [r0, #64]	; 0x40
+  1a:	e9c0 3312 	strd	r3, r3, [r0, #72]	; 0x48
+  1e:	e9c0 3314 	strd	r3, r3, [r0, #80]	; 0x50
+  22:	e9c0 3316 	strd	r3, r3, [r0, #88]	; 0x58
+  26:	f8a0 3060 	strh.w	r3, [r0, #96]	; 0x60
+  2a:	f8a0 306c 	strh.w	r3, [r0, #108]	; 0x6c
+  2e:	6703      	str	r3, [r0, #112]	; 0x70
+  30:	e9c0 3319 	strd	r3, r3, [r0, #100]	; 0x64
+  34:	4770      	bx	lr
+  36:	bf00      	nop
+
+Disassembly of section .text._ZN4DR164zeroEv:
+
+00000000 <_ZN4DR164zeroEv>:
+   0:	2300      	movs	r3, #0
+   2:	f04f 527e 	mov.w	r2, #1065353216	; 0x3f800000
+   6:	6183      	str	r3, [r0, #24]
+   8:	61c3      	str	r3, [r0, #28]
+   a:	6203      	str	r3, [r0, #32]
+   c:	6243      	str	r3, [r0, #36]	; 0x24
+   e:	6283      	str	r3, [r0, #40]	; 0x28
+  10:	62c2      	str	r2, [r0, #44]	; 0x2c
+  12:	6302      	str	r2, [r0, #48]	; 0x30
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN4DR169get_inputEv:
+
+00000000 <_ZN4DR169get_inputEv>:
+   0:	3018      	adds	r0, #24
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN4DR165printEv:
+
+00000000 <_ZN4DR165printEv>:
+   0:	4603      	mov	r3, r0
+   2:	4919      	ldr	r1, [pc, #100]	; (68 <_ZN4DR165printEv+0x68>)
+   4:	4819      	ldr	r0, [pc, #100]	; (6c <_ZN4DR165printEv+0x6c>)
+   6:	ed93 4a0a 	vldr	s8, [r3, #40]	; 0x28
+   a:	edd3 1a06 	vldr	s3, [r3, #24]
+   e:	eeb7 4ac4 	vcvt.f64.f32	d4, s8
+  12:	ed93 2a0c 	vldr	s4, [r3, #48]	; 0x30
+  16:	ed93 3a0b 	vldr	s6, [r3, #44]	; 0x2c
+  1a:	ed93 5a09 	vldr	s10, [r3, #36]	; 0x24
+  1e:	eeb7 2ac2 	vcvt.f64.f32	d2, s4
+  22:	ed93 6a08 	vldr	s12, [r3, #32]
+  26:	eeb7 3ac3 	vcvt.f64.f32	d3, s6
+  2a:	ed93 7a07 	vldr	s14, [r3, #28]
+  2e:	eeb7 5ac5 	vcvt.f64.f32	d5, s10
+  32:	eeb7 6ac6 	vcvt.f64.f32	d6, s12
+  36:	eeb7 7ac7 	vcvt.f64.f32	d7, s14
+  3a:	b500      	push	{lr}
+  3c:	b08d      	sub	sp, #52	; 0x34
+  3e:	ed8d 4b06 	vstr	d4, [sp, #24]
+  42:	eeb7 4ae1 	vcvt.f64.f32	d4, s3
+  46:	ed8d 2b0a 	vstr	d2, [sp, #40]	; 0x28
+  4a:	ec53 2b14 	vmov	r2, r3, d4
+  4e:	ed8d 3b08 	vstr	d3, [sp, #32]
+  52:	ed8d 5b04 	vstr	d5, [sp, #16]
+  56:	ed8d 6b02 	vstr	d6, [sp, #8]
+  5a:	ed8d 7b00 	vstr	d7, [sp]
+  5e:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  62:	b00d      	add	sp, #52	; 0x34
+  64:	f85d fb04 	ldr.w	pc, [sp], #4
+  68:	00000000 	.word	0x00000000
+  6c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN4DR169print_rawEv:
+
+00000000 <_ZN4DR169print_rawEv>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4f09      	ldr	r7, [pc, #36]	; (28 <_ZN4DR169print_rawEv+0x28>)
+   4:	f100 044f 	add.w	r4, r0, #79	; 0x4f
+   8:	4e08      	ldr	r6, [pc, #32]	; (2c <_ZN4DR169print_rawEv+0x2c>)
+   a:	f100 0561 	add.w	r5, r0, #97	; 0x61
+   e:	f814 2f01 	ldrb.w	r2, [r4, #1]!
+  12:	4639      	mov	r1, r7
+  14:	4630      	mov	r0, r6
+  16:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  1a:	42ac      	cmp	r4, r5
+  1c:	d1f7      	bne.n	e <_ZN4DR169print_rawEv+0xe>
+  1e:	4803      	ldr	r0, [pc, #12]	; (2c <_ZN4DR169print_rawEv+0x2c>)
+  20:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  24:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  28:	00000000 	.word	0x00000000
+  2c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN4DR1611bounded_mapEiiiii:
+
+00000000 <_ZN4DR1611bounded_mapEiiiii>:
+   0:	4299      	cmp	r1, r3
+   2:	b410      	push	{r4}
+   4:	bfa8      	it	ge
+   6:	4619      	movge	r1, r3
+   8:	1a9b      	subs	r3, r3, r2
+   a:	e9dd 4001 	ldrd	r4, r0, [sp, #4]
+   e:	4291      	cmp	r1, r2
+  10:	bfac      	ite	ge
+  12:	ebc2 0201 	rsbge	r2, r2, r1
+  16:	ebc2 0202 	rsblt	r2, r2, r2
+  1a:	1b00      	subs	r0, r0, r4
+  1c:	fb00 f202 	mul.w	r2, r0, r2
+  20:	fb92 f2f3 	sdiv	r2, r2, r3
+  24:	1913      	adds	r3, r2, r4
+  26:	f85d 4b04 	ldr.w	r4, [sp], #4
+  2a:	ee00 3a10 	vmov	s0, r3
+  2e:	eeb8 0ac0 	vcvt.f32.s32	s0, s0
+  32:	4770      	bx	lr
+
+Disassembly of section .text._ZN4DR1613is_data_validEv:
+
+00000000 <_ZN4DR1613is_data_validEv>:
+   0:	f100 0334 	add.w	r3, r0, #52	; 0x34
+   4:	ed9f 7a0b 	vldr	s14, [pc, #44]	; 34 <_ZN4DR1613is_data_validEv+0x34>
+   8:	eddf 6a0b 	vldr	s13, [pc, #44]	; 38 <_ZN4DR1613is_data_validEv+0x38>
+   c:	3048      	adds	r0, #72	; 0x48
+   e:	ecf3 7a01 	vldmia	r3!, {s15}
+  12:	eef4 7ac7 	vcmpe.f32	s15, s14
+  16:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  1a:	d408      	bmi.n	2e <_ZN4DR1613is_data_validEv+0x2e>
+  1c:	eef4 7ae6 	vcmpe.f32	s15, s13
+  20:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  24:	dc03      	bgt.n	2e <_ZN4DR1613is_data_validEv+0x2e>
+  26:	4283      	cmp	r3, r0
+  28:	d1f1      	bne.n	e <_ZN4DR1613is_data_validEv+0xe>
+  2a:	2001      	movs	r0, #1
+  2c:	4770      	bx	lr
+  2e:	2000      	movs	r0, #0
+  30:	4770      	bx	lr
+  32:	bf00      	nop
+  34:	43b60000 	.word	0x43b60000
+  38:	44d28000 	.word	0x44d28000
+
+Disassembly of section .text._ZN4DR1613get_r_stick_xEv:
+
+00000000 <_ZN4DR1613get_r_stick_xEv>:
+   0:	ed90 0a06 	vldr	s0, [r0, #24]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN4DR1613get_r_stick_yEv:
+
+00000000 <_ZN4DR1613get_r_stick_yEv>:
+   0:	ed90 0a07 	vldr	s0, [r0, #28]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN4DR1613get_l_stick_xEv:
+
+00000000 <_ZN4DR1613get_l_stick_xEv>:
+   0:	ed90 0a08 	vldr	s0, [r0, #32]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN4DR1613get_l_stick_yEv:
+
+00000000 <_ZN4DR1613get_l_stick_yEv>:
+   0:	ed90 0a09 	vldr	s0, [r0, #36]	; 0x24
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN4DR169get_wheelEv:
+
+00000000 <_ZN4DR169get_wheelEv>:
+   0:	ed90 0a0a 	vldr	s0, [r0, #40]	; 0x28
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN4DR1612get_r_switchEv:
+
+00000000 <_ZN4DR1612get_r_switchEv>:
+   0:	ed90 0a0b 	vldr	s0, [r0, #44]	; 0x2c
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN4DR1612get_l_switchEv:
+
+00000000 <_ZN4DR1612get_l_switchEv>:
+   0:	ed90 0a0c 	vldr	s0, [r0, #48]	; 0x30
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN4DR1611get_mouse_yEv:
+
+00000000 <_ZN4DR1611get_mouse_yEv>:
+   0:	f9b0 0002 	ldrsh.w	r0, [r0, #2]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN4DR1611get_mouse_xEv:
+
+00000000 <_ZN4DR1611get_mouse_xEv>:
+   0:	f9b0 0000 	ldrsh.w	r0, [r0]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN4DR1618get_l_mouse_buttonEv:
+
+00000000 <_ZN4DR1618get_l_mouse_buttonEv>:
+   0:	7900      	ldrb	r0, [r0, #4]
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN4DR1618get_r_mouse_buttonEv:
+
+00000000 <_ZN4DR1618get_r_mouse_buttonEv>:
+   0:	7940      	ldrb	r0, [r0, #5]
+   2:	4770      	bx	lr
+
+Disassembly of section .text._ZN4DR164initEv:
+
+00000000 <_ZN4DR164initEv>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4d0e      	ldr	r5, [pc, #56]	; (3c <_ZN4DR164initEv+0x3c>)
+   4:	4604      	mov	r4, r0
+   6:	2236      	movs	r2, #54	; 0x36
+   8:	490d      	ldr	r1, [pc, #52]	; (40 <_ZN4DR164initEv+0x40>)
+   a:	4628      	mov	r0, r5
+   c:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT5beginEmt>
+  10:	4628      	mov	r0, r5
+  12:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT5flushEv>
+  16:	4628      	mov	r0, r5
+  18:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT5clearEv>
+  1c:	2300      	movs	r3, #0
+  1e:	2200      	movs	r2, #0
+  20:	61a3      	str	r3, [r4, #24]
+  22:	6522      	str	r2, [r4, #80]	; 0x50
+  24:	6562      	str	r2, [r4, #84]	; 0x54
+  26:	65a2      	str	r2, [r4, #88]	; 0x58
+  28:	65e2      	str	r2, [r4, #92]	; 0x5c
+  2a:	f8a4 2060 	strh.w	r2, [r4, #96]	; 0x60
+  2e:	61e3      	str	r3, [r4, #28]
+  30:	6223      	str	r3, [r4, #32]
+  32:	6263      	str	r3, [r4, #36]	; 0x24
+  34:	62a3      	str	r3, [r4, #40]	; 0x28
+  36:	62e3      	str	r3, [r4, #44]	; 0x2c
+  38:	6323      	str	r3, [r4, #48]	; 0x30
+  3a:	bd38      	pop	{r3, r4, r5, pc}
+  3c:	00000000 	.word	0x00000000
+  40:	000186a0 	.word	0x000186a0
+
+Disassembly of section .text._ZN4DR164readEv:
+
+00000000 <_ZN4DR164readEv>:
+   0:	e92d 4ff8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	4607      	mov	r7, r0
+   6:	48dc      	ldr	r0, [pc, #880]	; (378 <_ZN4DR164readEv+0x378>)
+   8:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT9availableEv>
+   c:	2848      	cmp	r0, #72	; 0x48
+   e:	f300 815a 	bgt.w	2c6 <_ZN4DR164readEv+0x2c6>
+  12:	48d9      	ldr	r0, [pc, #868]	; (378 <_ZN4DR164readEv+0x378>)
+  14:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT9availableEv>
+  18:	2811      	cmp	r0, #17
+  1a:	4bd8      	ldr	r3, [pc, #864]	; (37c <_ZN4DR164readEv+0x37c>)
+  1c:	dc09      	bgt.n	32 <_ZN4DR164readEv+0x32>
+  1e:	6f3a      	ldr	r2, [r7, #112]	; 0x70
+  20:	681b      	ldr	r3, [r3, #0]
+  22:	1a9b      	subs	r3, r3, r2
+  24:	2bfa      	cmp	r3, #250	; 0xfa
+  26:	d902      	bls.n	2e <_ZN4DR164readEv+0x2e>
+  28:	2300      	movs	r3, #0
+  2a:	f887 306d 	strb.w	r3, [r7, #109]	; 0x6d
+  2e:	e8bd 8ff8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  32:	681b      	ldr	r3, [r3, #0]
+  34:	2001      	movs	r0, #1
+  36:	2212      	movs	r2, #18
+  38:	f107 0150 	add.w	r1, r7, #80	; 0x50
+  3c:	f887 006d 	strb.w	r0, [r7, #109]	; 0x6d
+  40:	673b      	str	r3, [r7, #112]	; 0x70
+  42:	48cd      	ldr	r0, [pc, #820]	; (378 <_ZN4DR164readEv+0x378>)
+  44:	f7ff fffe 	bl	0 <_ZN6Stream9readBytesEPcj>
+  48:	f897 8051 	ldrb.w	r8, [r7, #81]	; 0x51
+  4c:	f897 c050 	ldrb.w	ip, [r7, #80]	; 0x50
+  50:	ea4f 2008 	mov.w	r0, r8, lsl #8
+  54:	f897 2052 	ldrb.w	r2, [r7, #82]	; 0x52
+  58:	f897 1053 	ldrb.w	r1, [r7, #83]	; 0x53
+  5c:	f400 60e0 	and.w	r0, r0, #1792	; 0x700
+  60:	0994      	lsrs	r4, r2, #6
+  62:	0152      	lsls	r2, r2, #5
+  64:	f897 e054 	ldrb.w	lr, [r7, #84]	; 0x54
+  68:	ea4c 0900 	orr.w	r9, ip, r0
+  6c:	ea44 0481 	orr.w	r4, r4, r1, lsl #2
+  70:	f402 61fc 	and.w	r1, r2, #2016	; 0x7e0
+  74:	ea4f 228e 	mov.w	r2, lr, lsl #10
+  78:	ee07 9a90 	vmov	s15, r9
+  7c:	f897 3055 	ldrb.w	r3, [r7, #85]	; 0x55
+  80:	ea41 00d8 	orr.w	r0, r1, r8, lsr #3
+  84:	f402 6280 	and.w	r2, r2, #1024	; 0x400
+  88:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  8c:	01de      	lsls	r6, r3, #7
+  8e:	4314      	orrs	r4, r2
+  90:	f897 5061 	ldrb.w	r5, [r7, #97]	; 0x61
+  94:	f406 66f0 	and.w	r6, r6, #1920	; 0x780
+  98:	f897 2060 	ldrb.w	r2, [r7, #96]	; 0x60
+  9c:	edc7 7a0d 	vstr	s15, [r7, #52]	; 0x34
+  a0:	ee07 0a90 	vmov	s15, r0
+  a4:	b2a1      	uxth	r1, r4
+  a6:	eddf 6ab6 	vldr	s13, [pc, #728]	; 380 <_ZN4DR164readEv+0x380>
+  aa:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  ae:	022d      	lsls	r5, r5, #8
+  b0:	eddf 5ab4 	vldr	s11, [pc, #720]	; 384 <_ZN4DR164readEv+0x384>
+  b4:	46cc      	mov	ip, r9
+  b6:	f405 65e0 	and.w	r5, r5, #1792	; 0x700
+  ba:	edc7 7a0e 	vstr	s15, [r7, #56]	; 0x38
+  be:	ee07 1a90 	vmov	s15, r1
+  c2:	ea46 015e 	orr.w	r1, r6, lr, lsr #1
+  c6:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  ca:	460e      	mov	r6, r1
+  cc:	edc7 7a0f 	vstr	s15, [r7, #60]	; 0x3c
+  d0:	ee07 1a90 	vmov	s15, r1
+  d4:	ea42 0105 	orr.w	r1, r2, r5
+  d8:	f107 0548 	add.w	r5, r7, #72	; 0x48
+  dc:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  e0:	460a      	mov	r2, r1
+  e2:	edc7 7a10 	vstr	s15, [r7, #64]	; 0x40
+  e6:	ee07 1a90 	vmov	s15, r1
+  ea:	f3c3 1101 	ubfx	r1, r3, #4, #2
+  ee:	099b      	lsrs	r3, r3, #6
+  f0:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  f4:	ee06 1a10 	vmov	s12, r1
+  f8:	f897 105e 	ldrb.w	r1, [r7, #94]	; 0x5e
+  fc:	edc7 7a11 	vstr	s15, [r7, #68]	; 0x44
+ 100:	ee07 3a90 	vmov	s15, r3
+ 104:	f897 305c 	ldrb.w	r3, [r7, #92]	; 0x5c
+ 108:	eeb8 6a46 	vcvt.f32.u32	s12, s12
+ 10c:	eeb8 7a67 	vcvt.f32.u32	s14, s15
+ 110:	3b00      	subs	r3, #0
+ 112:	ed87 6a12 	vstr	s12, [r7, #72]	; 0x48
+ 116:	bf18      	it	ne
+ 118:	2301      	movne	r3, #1
+ 11a:	ed87 7a13 	vstr	s14, [r7, #76]	; 0x4c
+ 11e:	713b      	strb	r3, [r7, #4]
+ 120:	f897 305d 	ldrb.w	r3, [r7, #93]	; 0x5d
+ 124:	3b00      	subs	r3, #0
+ 126:	bf18      	it	ne
+ 128:	2301      	movne	r3, #1
+ 12a:	717b      	strb	r3, [r7, #5]
+ 12c:	f8b7 3056 	ldrh.w	r3, [r7, #86]	; 0x56
+ 130:	803b      	strh	r3, [r7, #0]
+ 132:	f8b7 3058 	ldrh.w	r3, [r7, #88]	; 0x58
+ 136:	807b      	strh	r3, [r7, #2]
+ 138:	f107 0334 	add.w	r3, r7, #52	; 0x34
+ 13c:	ecf3 7a01 	vldmia	r3!, {s15}
+ 140:	eef4 7ae6 	vcmpe.f32	s15, s13
+ 144:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 148:	f100 816d 	bmi.w	426 <_ZN4DR164readEv+0x426>
+ 14c:	eef4 7ae5 	vcmpe.f32	s15, s11
+ 150:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 154:	f300 8167 	bgt.w	426 <_ZN4DR164readEv+0x426>
+ 158:	429d      	cmp	r5, r3
+ 15a:	d1ef      	bne.n	13c <_ZN4DR164readEv+0x13c>
+ 15c:	2300      	movs	r3, #0
+ 15e:	f887 306c 	strb.w	r3, [r7, #108]	; 0x6c
+ 162:	66bb      	str	r3, [r7, #104]	; 0x68
+ 164:	f240 6393 	movw	r3, #1683	; 0x693
+ 168:	459c      	cmp	ip, r3
+ 16a:	f340 8119 	ble.w	3a0 <_ZN4DR164readEv+0x3a0>
+ 16e:	f240 6393 	movw	r3, #1683	; 0x693
+ 172:	eef7 6a00 	vmov.f32	s13, #112	; 0x3f800000  1.0
+ 176:	4298      	cmp	r0, r3
+ 178:	edc7 6a06 	vstr	s13, [r7, #24]
+ 17c:	f300 8130 	bgt.w	3e0 <_ZN4DR164readEv+0x3e0>
+ 180:	f5b0 7fb6 	cmp.w	r0, #364	; 0x16c
+ 184:	eddf 5a85 	vldr	s11, [pc, #532]	; 39c <_ZN4DR164readEv+0x39c>
+ 188:	bfb8      	it	lt
+ 18a:	f44f 70b6 	movlt.w	r0, #364	; 0x16c
+ 18e:	f5a0 73b6 	sub.w	r3, r0, #364	; 0x16c
+ 192:	f44f 60fa 	mov.w	r0, #2000	; 0x7d0
+ 196:	fb00 f303 	mul.w	r3, r0, r3
+ 19a:	487b      	ldr	r0, [pc, #492]	; (388 <_ZN4DR164readEv+0x388>)
+ 19c:	fba0 0303 	umull	r0, r3, r0, r3
+ 1a0:	0a5b      	lsrs	r3, r3, #9
+ 1a2:	f5a3 737a 	sub.w	r3, r3, #1000	; 0x3e8
+ 1a6:	ee07 3a90 	vmov	s15, r3
+ 1aa:	f240 6393 	movw	r3, #1683	; 0x693
+ 1ae:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ 1b2:	429c      	cmp	r4, r3
+ 1b4:	eec7 6aa5 	vdiv.f32	s13, s15, s11
+ 1b8:	edc7 6a07 	vstr	s13, [r7, #28]
+ 1bc:	f300 8119 	bgt.w	3f2 <_ZN4DR164readEv+0x3f2>
+ 1c0:	f5b4 7fb6 	cmp.w	r4, #364	; 0x16c
+ 1c4:	f44f 60fa 	mov.w	r0, #2000	; 0x7d0
+ 1c8:	eddf 5a74 	vldr	s11, [pc, #464]	; 39c <_ZN4DR164readEv+0x39c>
+ 1cc:	bfb8      	it	lt
+ 1ce:	f44f 74b6 	movlt.w	r4, #364	; 0x16c
+ 1d2:	f5a4 73b6 	sub.w	r3, r4, #364	; 0x16c
+ 1d6:	fb00 f303 	mul.w	r3, r0, r3
+ 1da:	486b      	ldr	r0, [pc, #428]	; (388 <_ZN4DR164readEv+0x388>)
+ 1dc:	fba0 0303 	umull	r0, r3, r0, r3
+ 1e0:	0a5b      	lsrs	r3, r3, #9
+ 1e2:	f5a3 737a 	sub.w	r3, r3, #1000	; 0x3e8
+ 1e6:	ee07 3a90 	vmov	s15, r3
+ 1ea:	f240 6393 	movw	r3, #1683	; 0x693
+ 1ee:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ 1f2:	429e      	cmp	r6, r3
+ 1f4:	eec7 6aa5 	vdiv.f32	s13, s15, s11
+ 1f8:	edc7 6a08 	vstr	s13, [r7, #32]
+ 1fc:	f300 8102 	bgt.w	404 <_ZN4DR164readEv+0x404>
+ 200:	f5b6 7fb6 	cmp.w	r6, #364	; 0x16c
+ 204:	f44f 60fa 	mov.w	r0, #2000	; 0x7d0
+ 208:	eddf 5a64 	vldr	s11, [pc, #400]	; 39c <_ZN4DR164readEv+0x39c>
+ 20c:	bfb8      	it	lt
+ 20e:	f44f 76b6 	movlt.w	r6, #364	; 0x16c
+ 212:	f5a6 73b6 	sub.w	r3, r6, #364	; 0x16c
+ 216:	fb00 f303 	mul.w	r3, r0, r3
+ 21a:	485b      	ldr	r0, [pc, #364]	; (388 <_ZN4DR164readEv+0x388>)
+ 21c:	fba0 0303 	umull	r0, r3, r0, r3
+ 220:	0a5b      	lsrs	r3, r3, #9
+ 222:	f5a3 737a 	sub.w	r3, r3, #1000	; 0x3e8
+ 226:	ee07 3a90 	vmov	s15, r3
+ 22a:	f240 6393 	movw	r3, #1683	; 0x693
+ 22e:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ 232:	429a      	cmp	r2, r3
+ 234:	eec7 6aa5 	vdiv.f32	s13, s15, s11
+ 238:	edc7 6a09 	vstr	s13, [r7, #36]	; 0x24
+ 23c:	f300 80eb 	bgt.w	416 <_ZN4DR164readEv+0x416>
+ 240:	f5b2 7fb6 	cmp.w	r2, #364	; 0x16c
+ 244:	f44f 64fa 	mov.w	r4, #2000	; 0x7d0
+ 248:	484f      	ldr	r0, [pc, #316]	; (388 <_ZN4DR164readEv+0x388>)
+ 24a:	bfb8      	it	lt
+ 24c:	f44f 72b6 	movlt.w	r2, #364	; 0x16c
+ 250:	eddf 5a52 	vldr	s11, [pc, #328]	; 39c <_ZN4DR164readEv+0x39c>
+ 254:	f5a2 73b6 	sub.w	r3, r2, #364	; 0x16c
+ 258:	fb04 f303 	mul.w	r3, r4, r3
+ 25c:	fba0 0303 	umull	r0, r3, r0, r3
+ 260:	0a5b      	lsrs	r3, r3, #9
+ 262:	f5a3 737a 	sub.w	r3, r3, #1000	; 0x3e8
+ 266:	ee07 3a90 	vmov	s15, r3
+ 26a:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ 26e:	eec7 6aa5 	vdiv.f32	s13, s15, s11
+ 272:	f3c1 0380 	ubfx	r3, r1, #2, #1
+ 276:	f001 0001 	and.w	r0, r1, #1
+ 27a:	f3c1 0240 	ubfx	r2, r1, #1, #1
+ 27e:	edc7 6a0a 	vstr	s13, [r7, #40]	; 0x28
+ 282:	723b      	strb	r3, [r7, #8]
+ 284:	743b      	strb	r3, [r7, #16]
+ 286:	f3c1 1340 	ubfx	r3, r1, #5, #1
+ 28a:	71b8      	strb	r0, [r7, #6]
+ 28c:	73b8      	strb	r0, [r7, #14]
+ 28e:	f3c1 00c0 	ubfx	r0, r1, #3, #1
+ 292:	71fa      	strb	r2, [r7, #7]
+ 294:	73fa      	strb	r2, [r7, #15]
+ 296:	f3c1 1200 	ubfx	r2, r1, #4, #1
+ 29a:	72fb      	strb	r3, [r7, #11]
+ 29c:	74fb      	strb	r3, [r7, #19]
+ 29e:	f3c1 1380 	ubfx	r3, r1, #6, #1
+ 2a2:	09c9      	lsrs	r1, r1, #7
+ 2a4:	ed87 6a0b 	vstr	s12, [r7, #44]	; 0x2c
+ 2a8:	ed87 7a0c 	vstr	s14, [r7, #48]	; 0x30
+ 2ac:	7278      	strb	r0, [r7, #9]
+ 2ae:	7478      	strb	r0, [r7, #17]
+ 2b0:	72ba      	strb	r2, [r7, #10]
+ 2b2:	74ba      	strb	r2, [r7, #18]
+ 2b4:	733b      	strb	r3, [r7, #12]
+ 2b6:	7379      	strb	r1, [r7, #13]
+ 2b8:	753b      	strb	r3, [r7, #20]
+ 2ba:	7579      	strb	r1, [r7, #21]
+ 2bc:	f7ff fffe 	bl	0 <micros>
+ 2c0:	6678      	str	r0, [r7, #100]	; 0x64
+ 2c2:	e8bd 8ff8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 2c6:	f7ff fffe 	bl	0 <micros>
+ 2ca:	4683      	mov	fp, r0
+ 2cc:	482a      	ldr	r0, [pc, #168]	; (378 <_ZN4DR164readEv+0x378>)
+ 2ce:	f04f 0800 	mov.w	r8, #0
+ 2d2:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT5clearEv>
+ 2d6:	4e28      	ldr	r6, [pc, #160]	; (378 <_ZN4DR164readEv+0x378>)
+ 2d8:	f7ff fffe 	bl	0 <micros>
+ 2dc:	f8df a0b8 	ldr.w	sl, [pc, #184]	; 398 <_ZN4DR164readEv+0x398>
+ 2e0:	4681      	mov	r9, r0
+ 2e2:	f7ff fffe 	bl	0 <micros>
+ 2e6:	f246 13a7 	movw	r3, #24999	; 0x61a7
+ 2ea:	eba0 0009 	sub.w	r0, r0, r9
+ 2ee:	4298      	cmp	r0, r3
+ 2f0:	f200 8094 	bhi.w	41c <_ZN4DR164readEv+0x41c>
+ 2f4:	f7ff fffe 	bl	0 <micros>
+ 2f8:	4604      	mov	r4, r0
+ 2fa:	4630      	mov	r0, r6
+ 2fc:	f108 0801 	add.w	r8, r8, #1
+ 300:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT9availableEv>
+ 304:	4605      	mov	r5, r0
+ 306:	e005      	b.n	314 <_ZN4DR164readEv+0x314>
+ 308:	f7ff fffe 	bl	0 <micros>
+ 30c:	1b00      	subs	r0, r0, r4
+ 30e:	f5b0 7f7a 	cmp.w	r0, #1000	; 0x3e8
+ 312:	d204      	bcs.n	31e <_ZN4DR164readEv+0x31e>
+ 314:	4630      	mov	r0, r6
+ 316:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT9availableEv>
+ 31a:	42a8      	cmp	r0, r5
+ 31c:	d0f4      	beq.n	308 <_ZN4DR164readEv+0x308>
+ 31e:	f7ff fffe 	bl	0 <micros>
+ 322:	4605      	mov	r5, r0
+ 324:	4642      	mov	r2, r8
+ 326:	4651      	mov	r1, sl
+ 328:	1b2d      	subs	r5, r5, r4
+ 32a:	4818      	ldr	r0, [pc, #96]	; (38c <_ZN4DR164readEv+0x38c>)
+ 32c:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+ 330:	f5b5 7f7a 	cmp.w	r5, #1000	; 0x3e8
+ 334:	d3d5      	bcc.n	2e2 <_ZN4DR164readEv+0x2e2>
+ 336:	f7ff fffe 	bl	0 <micros>
+ 33a:	4604      	mov	r4, r0
+ 33c:	4914      	ldr	r1, [pc, #80]	; (390 <_ZN4DR164readEv+0x390>)
+ 33e:	eba4 040b 	sub.w	r4, r4, fp
+ 342:	4812      	ldr	r0, [pc, #72]	; (38c <_ZN4DR164readEv+0x38c>)
+ 344:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+ 348:	eddf 6a14 	vldr	s13, [pc, #80]	; 39c <_ZN4DR164readEv+0x39c>
+ 34c:	ee07 4a90 	vmov	s15, r4
+ 350:	4910      	ldr	r1, [pc, #64]	; (394 <_ZN4DR164readEv+0x394>)
+ 352:	480e      	ldr	r0, [pc, #56]	; (38c <_ZN4DR164readEv+0x38c>)
+ 354:	eef8 7a67 	vcvt.f32.u32	s15, s15
+ 358:	ee87 7aa6 	vdiv.f32	s14, s15, s13
+ 35c:	eeb7 7ac7 	vcvt.f64.f32	d7, s14
+ 360:	ec53 2b17 	vmov	r2, r3, d7
+ 364:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+ 368:	4803      	ldr	r0, [pc, #12]	; (378 <_ZN4DR164readEv+0x378>)
+ 36a:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT5clearEv>
+ 36e:	2300      	movs	r3, #0
+ 370:	f887 306d 	strb.w	r3, [r7, #109]	; 0x6d
+ 374:	e8bd 8ff8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 378:	00000000 	.word	0x00000000
+ 37c:	00000000 	.word	0x00000000
+ 380:	43b60000 	.word	0x43b60000
+ 384:	44d28000 	.word	0x44d28000
+ 388:	634c0635 	.word	0x634c0635
+ 38c:	00000000 	.word	0x00000000
+ 390:	00000050 	.word	0x00000050
+ 394:	0000006c 	.word	0x0000006c
+ 398:	00000000 	.word	0x00000000
+ 39c:	447a0000 	.word	0x447a0000
+ 3a0:	f5bc 7fb6 	cmp.w	ip, #364	; 0x16c
+ 3a4:	f44f 65fa 	mov.w	r5, #2000	; 0x7d0
+ 3a8:	ed5f 5a04 	vldr	s11, [pc, #-16]	; 39c <_ZN4DR164readEv+0x39c>
+ 3ac:	bfb8      	it	lt
+ 3ae:	f44f 7cb6 	movlt.w	ip, #364	; 0x16c
+ 3b2:	f5ac 73b6 	sub.w	r3, ip, #364	; 0x16c
+ 3b6:	fb05 f303 	mul.w	r3, r5, r3
+ 3ba:	4d24      	ldr	r5, [pc, #144]	; (44c <_ZN4DR164readEv+0x44c>)
+ 3bc:	fba5 5303 	umull	r5, r3, r5, r3
+ 3c0:	0a5b      	lsrs	r3, r3, #9
+ 3c2:	f5a3 737a 	sub.w	r3, r3, #1000	; 0x3e8
+ 3c6:	ee07 3a90 	vmov	s15, r3
+ 3ca:	f240 6393 	movw	r3, #1683	; 0x693
+ 3ce:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+ 3d2:	4298      	cmp	r0, r3
+ 3d4:	eec7 6aa5 	vdiv.f32	s13, s15, s11
+ 3d8:	edc7 6a06 	vstr	s13, [r7, #24]
+ 3dc:	f77f aed0 	ble.w	180 <_ZN4DR164readEv+0x180>
+ 3e0:	f240 6393 	movw	r3, #1683	; 0x693
+ 3e4:	eef7 6a00 	vmov.f32	s13, #112	; 0x3f800000  1.0
+ 3e8:	429c      	cmp	r4, r3
+ 3ea:	edc7 6a07 	vstr	s13, [r7, #28]
+ 3ee:	f77f aee7 	ble.w	1c0 <_ZN4DR164readEv+0x1c0>
+ 3f2:	f240 6393 	movw	r3, #1683	; 0x693
+ 3f6:	eef7 6a00 	vmov.f32	s13, #112	; 0x3f800000  1.0
+ 3fa:	429e      	cmp	r6, r3
+ 3fc:	edc7 6a08 	vstr	s13, [r7, #32]
+ 400:	f77f aefe 	ble.w	200 <_ZN4DR164readEv+0x200>
+ 404:	f240 6393 	movw	r3, #1683	; 0x693
+ 408:	eef7 6a00 	vmov.f32	s13, #112	; 0x3f800000  1.0
+ 40c:	429a      	cmp	r2, r3
+ 40e:	edc7 6a09 	vstr	s13, [r7, #36]	; 0x24
+ 412:	f77f af15 	ble.w	240 <_ZN4DR164readEv+0x240>
+ 416:	eef7 6a00 	vmov.f32	s13, #112	; 0x3f800000  1.0
+ 41a:	e72a      	b.n	272 <_ZN4DR164readEv+0x272>
+ 41c:	490c      	ldr	r1, [pc, #48]	; (450 <_ZN4DR164readEv+0x450>)
+ 41e:	480d      	ldr	r0, [pc, #52]	; (454 <_ZN4DR164readEv+0x454>)
+ 420:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+ 424:	e7a0      	b.n	368 <_ZN4DR164readEv+0x368>
+ 426:	f7ff fffe 	bl	0 <micros>
+ 42a:	4a0b      	ldr	r2, [pc, #44]	; (458 <_ZN4DR164readEv+0x458>)
+ 42c:	e9d7 1319 	ldrd	r1, r3, [r7, #100]	; 0x64
+ 430:	1a5b      	subs	r3, r3, r1
+ 432:	4418      	add	r0, r3
+ 434:	4290      	cmp	r0, r2
+ 436:	66b8      	str	r0, [r7, #104]	; 0x68
+ 438:	d903      	bls.n	442 <_ZN4DR164readEv+0x442>
+ 43a:	2301      	movs	r3, #1
+ 43c:	f887 306c 	strb.w	r3, [r7, #108]	; 0x6c
+ 440:	e73c      	b.n	2bc <_ZN4DR164readEv+0x2bc>
+ 442:	2300      	movs	r3, #0
+ 444:	f887 306c 	strb.w	r3, [r7, #108]	; 0x6c
+ 448:	e738      	b.n	2bc <_ZN4DR164readEv+0x2bc>
+ 44a:	bf00      	nop
+ 44c:	634c0635 	.word	0x634c0635
+ 450:	0000001c 	.word	0x0000001c
+ 454:	00000000 	.word	0x00000000
+ 458:	0003d090 	.word	0x0003d090

@@ -1,0 +1,10 @@
+// THIS IS AN AUTO-GENERATED FILE, DO NOT EDIT
+
+#ifndef GIT_INFO_H
+#define GIT_INFO_H
+
+#define GIT_BRANCH ""
+#define GIT_COMMIT_HASH ""
+#define GIT_COMMIT_MSG ""
+
+#endif // GIT_INFO_H

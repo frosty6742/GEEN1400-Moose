@@ -1,0 +1,300 @@
+
+build/./src/sensors/ICM20649.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 ICM20649.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN8ICM206494readEv	00000000 .text._ZN8ICM206494readEv
+00000000 l    d  .text._ZN8ICM20649D2Ev	00000000 .text._ZN8ICM20649D2Ev
+00000000 l    d  .text._ZN8ICM20649D0Ev	00000000 .text._ZN8ICM20649D0Ev
+00000000 l    d  .rodata._ZN8ICM206494initENS_21CommunicationProtocolE.str1.4	00000000 .rodata._ZN8ICM206494initENS_21CommunicationProtocolE.str1.4
+00000000 l    d  .text._ZN8ICM206494initENS_21CommunicationProtocolE	00000000 .text._ZN8ICM206494initENS_21CommunicationProtocolE
+00000000 l    d  .text._ZN8ICM2064919get_accel_data_rateEv	00000000 .text._ZN8ICM2064919get_accel_data_rateEv
+00000000 l    d  .text._ZN8ICM2064918get_gyro_data_rateEv	00000000 .text._ZN8ICM2064918get_gyro_data_rateEv
+00000000 l    d  .text._ZN8ICM2064914set_gyro_rangeEi	00000000 .text._ZN8ICM2064914set_gyro_rangeEi
+00000000 l    d  .rodata._ZTV8ICM20649	00000000 .rodata._ZTV8ICM20649
+00000000 l       .group	00000000 _ZN8ICM20649D5Ev
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 g     F .text._ZN8ICM206494readEv	00000062 _ZN8ICM206494readEv
+00000000         *UND*	00000000 _ZN15Adafruit_ICM20X8getEventEP15sensors_event_tS1_S1_S1_
+00000000  w    F .text._ZN8ICM20649D2Ev	00000020 _ZN8ICM20649D2Ev
+00000000         *UND*	00000000 _ZN15Adafruit_ICM20XD2Ev
+00000000         *UND*	00000000 _ZTV17Adafruit_ICM20649
+00000000  w    F .text._ZN8ICM20649D2Ev	00000020 _ZN8ICM20649D1Ev
+00000000  w    F .text._ZN8ICM20649D0Ev	00000028 _ZN8ICM20649D0Ev
+00000000         *UND*	00000000 _ZdlPvj
+00000000 g     F .text._ZN8ICM206494initENS_21CommunicationProtocolE	0000007c _ZN8ICM206494initENS_21CommunicationProtocolE
+00000000         *UND*	00000000 _ZN15Adafruit_ICM20X9begin_SPIEaaaal
+00000000         *UND*	00000000 _ZN17Adafruit_ICM206499begin_I2CEhP7TwoWirel
+00000000         *UND*	00000000 usb_serial_write
+00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000         *UND*	00000000 __assert_func
+00000000         *UND*	00000000 Wire
+00000000         *UND*	00000000 Serial
+00000000 g     F .text._ZN8ICM2064919get_accel_data_rateEv	00000030 _ZN8ICM2064919get_accel_data_rateEv
+00000000         *UND*	00000000 _ZN15Adafruit_ICM20X19getAccelRateDivisorEv
+00000000 g     F .text._ZN8ICM2064918get_gyro_data_rateEv	00000038 _ZN8ICM2064918get_gyro_data_rateEv
+00000000         *UND*	00000000 _ZN15Adafruit_ICM20X18getGyroRateDivisorEv
+00000000 g     F .text._ZN8ICM2064914set_gyro_rangeEi	00000032 _ZN8ICM2064914set_gyro_rangeEi
+00000000         *UND*	00000000 _ZN17Adafruit_ICM2064912setGyroRangeE21icm20649_gyro_range_t
+00000000 g     O .rodata._ZTV8ICM20649	00000014 _ZTV8ICM20649
+
+
+Contents of section .group:
+ 0000 01000000 07000000 08000000 09000000  ................
+ 0010 0a000000                             ....            
+Contents of section .text._ZN8ICM206494readEv:
+ 0000 10b50023 82b00446 00f12c02 00f10801  ...#...F..,.....
+ 0010 009300f1 50039c30 fff7feff e069216a  ....P..0.....i!j
+ 0020 626a236c 6067c4f8 10010120 a167e267  bj#l`g..... .g.g
+ 0030 c4f88030 c4f81411 c4f81821 616ca26c  ...0.......!al.l
+ 0040 c4f81c31 636ec4f8 8410c4f8 8820c4f8  ...1cn....... ..
+ 0050 9830c4f8 2011c4f8 2421c4f8 283102b0  .0.. ...$!..(1..
+ 0060 10bd00bf                             ....            
+Contents of section .text._ZN8ICM20649D2Ev:
+ 0000 054a064b 10b50446 026040f8 9c3ffff7  .J.K...F.`@..?..
+ 0010 feff2046 10bd00bf 08000000 08000000  .. F............
+Contents of section .text._ZN8ICM20649D0Ev:
+ 0000 074a084b 10b50446 026040f8 9c3ffff7  .J.K...F.`@..?..
+ 0010 feff2046 4ff49671 fff7feff 204610bd  .. FO..q.... F..
+ 0020 08000000 08000000                    ........        
+Contents of section .rodata._ZN8ICM206494initENS_21CommunicationProtocolE.str1.4:
+ 0000 49434d3a 20466169 6c656420 746f2062  ICM: Failed to b
+ 0010 6567696e 20493243 00000000 49434d3a  egin I2C....ICM:
+ 0020 20466169 6c656420 746f2062 6567696e   Failed to begin
+ 0030 20535049 00000000 66616c73 65202626   SPI....false &&
+ 0040 2022496e 76616c69 64204943 4d323036   "Invalid ICM206
+ 0050 34392070 726f746f 636f6c20 73656c65  49 protocol sele
+ 0060 63746564 21204578 70656374 73206f6e  cted! Expects on
+ 0070 6c792049 3243206f 72205350 492e2200  ly I2C or SPI.".
+ 0080 766f6964 2049434d 32303634 393a3a69  void ICM20649::i
+ 0090 6e697428 49434d32 30363439 3a3a436f  nit(ICM20649::Co
+ 00a0 6d6d756e 69636174 696f6e50 726f746f  mmunicationProto
+ 00b0 636f6c29 00000000 7372632f 73656e73  col)....src/sens
+ 00c0 6f72732f 49434d32 30363439 2e637070  ors/ICM20649.cpp
+ 00d0 00                                   .               
+Contents of section .text._ZN8ICM206494initENS_21CommunicationProtocolE:
+ 0000 10b580f8 081182b0 71b10129 21d11a21  ........q..)!..!
+ 0010 00242723 1b229c30 cde90014 0a21fff7  .$'#.".0.....!..
+ 0020 feff98b1 02b010bd 0b460d4a 68219c30  .........F.Jh!.0
+ 0030 fff7feff 0028f5d1 18210a48 fff7feff  .....(...!.H....
+ 0040 094802b0 bde81040 fff7febf 18210748  .H.....@.....!.H
+ 0050 f4e7074b 1e21074a 0748fff7 feff00bf  ...K.!.J.H......
+ 0060 00000000 00000000 00000000 1c000000  ................
+ 0070 38000000 80000000 b8000000           8...........    
+Contents of section .text._ZN8ICM2064919get_accel_data_rateEv:
+ 0000 08b59c30 fff7feff 07ee900a b7ee005b  ...0...........[
+ 0010 b8eee77b 9fed046b 37ee057b 86ee070b  ...{...k7..{....
+ 0020 b7eec00b 08bd00bf 00000000 00949140  ...............@
+Contents of section .text._ZN8ICM2064918get_gyro_data_rateEv:
+ 0000 10b50446 9c30fff7 feff07ee 900ab7ee  ...F.0..........
+ 0010 005bb8ee e77b9fed 066b37ee 057b86ee  .[...{...k7..{..
+ 0020 070bb7ee c00b84ed 410a10bd aff30080  ........A.......
+ 0030 00000000 00309140                    .....0.@        
+Contents of section .text._ZN8ICM2064914set_gyro_rangeEi:
+ 0000 b1f5fa6f 09d0b1f5 7a6f0ed0 b1f57a7f  ...o....zo....z.
+ 0010 07d00021 9c30fff7 febf0221 9c30fff7  ...!.0.....!.0..
+ 0020 febf0121 9c30fff7 febf0321 9c30fff7  ...!.0.....!.0..
+ 0030 febf00bf                             ....            
+Contents of section .rodata._ZTV8ICM20649:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN8ICM206494readEv:
+
+00000000 <_ZN8ICM206494readEv>:
+   0:	b510      	push	{r4, lr}
+   2:	2300      	movs	r3, #0
+   4:	b082      	sub	sp, #8
+   6:	4604      	mov	r4, r0
+   8:	f100 022c 	add.w	r2, r0, #44	; 0x2c
+   c:	f100 0108 	add.w	r1, r0, #8
+  10:	9300      	str	r3, [sp, #0]
+  12:	f100 0350 	add.w	r3, r0, #80	; 0x50
+  16:	309c      	adds	r0, #156	; 0x9c
+  18:	f7ff fffe 	bl	0 <_ZN15Adafruit_ICM20X8getEventEP15sensors_event_tS1_S1_S1_>
+  1c:	69e0      	ldr	r0, [r4, #28]
+  1e:	6a21      	ldr	r1, [r4, #32]
+  20:	6a62      	ldr	r2, [r4, #36]	; 0x24
+  22:	6c23      	ldr	r3, [r4, #64]	; 0x40
+  24:	6760      	str	r0, [r4, #116]	; 0x74
+  26:	f8c4 0110 	str.w	r0, [r4, #272]	; 0x110
+  2a:	2001      	movs	r0, #1
+  2c:	67a1      	str	r1, [r4, #120]	; 0x78
+  2e:	67e2      	str	r2, [r4, #124]	; 0x7c
+  30:	f8c4 3080 	str.w	r3, [r4, #128]	; 0x80
+  34:	f8c4 1114 	str.w	r1, [r4, #276]	; 0x114
+  38:	f8c4 2118 	str.w	r2, [r4, #280]	; 0x118
+  3c:	6c61      	ldr	r1, [r4, #68]	; 0x44
+  3e:	6ca2      	ldr	r2, [r4, #72]	; 0x48
+  40:	f8c4 311c 	str.w	r3, [r4, #284]	; 0x11c
+  44:	6e63      	ldr	r3, [r4, #100]	; 0x64
+  46:	f8c4 1084 	str.w	r1, [r4, #132]	; 0x84
+  4a:	f8c4 2088 	str.w	r2, [r4, #136]	; 0x88
+  4e:	f8c4 3098 	str.w	r3, [r4, #152]	; 0x98
+  52:	f8c4 1120 	str.w	r1, [r4, #288]	; 0x120
+  56:	f8c4 2124 	str.w	r2, [r4, #292]	; 0x124
+  5a:	f8c4 3128 	str.w	r3, [r4, #296]	; 0x128
+  5e:	b002      	add	sp, #8
+  60:	bd10      	pop	{r4, pc}
+  62:	bf00      	nop
+
+Disassembly of section .text._ZN8ICM20649D2Ev:
+
+00000000 <_ZN8ICM20649D1Ev>:
+   0:	4a05      	ldr	r2, [pc, #20]	; (18 <_ZN8ICM20649D1Ev+0x18>)
+   2:	4b06      	ldr	r3, [pc, #24]	; (1c <_ZN8ICM20649D1Ev+0x1c>)
+   4:	b510      	push	{r4, lr}
+   6:	4604      	mov	r4, r0
+   8:	6002      	str	r2, [r0, #0]
+   a:	f840 3f9c 	str.w	r3, [r0, #156]!
+   e:	f7ff fffe 	bl	0 <_ZN15Adafruit_ICM20XD2Ev>
+  12:	4620      	mov	r0, r4
+  14:	bd10      	pop	{r4, pc}
+  16:	bf00      	nop
+  18:	00000008 	.word	0x00000008
+  1c:	00000008 	.word	0x00000008
+
+Disassembly of section .text._ZN8ICM20649D0Ev:
+
+00000000 <_ZN8ICM20649D0Ev>:
+   0:	4a07      	ldr	r2, [pc, #28]	; (20 <_ZN8ICM20649D0Ev+0x20>)
+   2:	4b08      	ldr	r3, [pc, #32]	; (24 <_ZN8ICM20649D0Ev+0x24>)
+   4:	b510      	push	{r4, lr}
+   6:	4604      	mov	r4, r0
+   8:	6002      	str	r2, [r0, #0]
+   a:	f840 3f9c 	str.w	r3, [r0, #156]!
+   e:	f7ff fffe 	bl	0 <_ZN15Adafruit_ICM20XD2Ev>
+  12:	4620      	mov	r0, r4
+  14:	f44f 7196 	mov.w	r1, #300	; 0x12c
+  18:	f7ff fffe 	bl	0 <_ZdlPvj>
+  1c:	4620      	mov	r0, r4
+  1e:	bd10      	pop	{r4, pc}
+  20:	00000008 	.word	0x00000008
+  24:	00000008 	.word	0x00000008
+
+Disassembly of section .text._ZN8ICM206494initENS_21CommunicationProtocolE:
+
+00000000 <_ZN8ICM206494initENS_21CommunicationProtocolE>:
+   0:	b510      	push	{r4, lr}
+   2:	f880 1108 	strb.w	r1, [r0, #264]	; 0x108
+   6:	b082      	sub	sp, #8
+   8:	b171      	cbz	r1, 28 <_ZN8ICM206494initENS_21CommunicationProtocolE+0x28>
+   a:	2901      	cmp	r1, #1
+   c:	d121      	bne.n	52 <_ZN8ICM206494initENS_21CommunicationProtocolE+0x52>
+   e:	211a      	movs	r1, #26
+  10:	2400      	movs	r4, #0
+  12:	2327      	movs	r3, #39	; 0x27
+  14:	221b      	movs	r2, #27
+  16:	309c      	adds	r0, #156	; 0x9c
+  18:	e9cd 1400 	strd	r1, r4, [sp]
+  1c:	210a      	movs	r1, #10
+  1e:	f7ff fffe 	bl	0 <_ZN15Adafruit_ICM20X9begin_SPIEaaaal>
+  22:	b198      	cbz	r0, 4c <_ZN8ICM206494initENS_21CommunicationProtocolE+0x4c>
+  24:	b002      	add	sp, #8
+  26:	bd10      	pop	{r4, pc}
+  28:	460b      	mov	r3, r1
+  2a:	4a0d      	ldr	r2, [pc, #52]	; (60 <_ZN8ICM206494initENS_21CommunicationProtocolE+0x60>)
+  2c:	2168      	movs	r1, #104	; 0x68
+  2e:	309c      	adds	r0, #156	; 0x9c
+  30:	f7ff fffe 	bl	0 <_ZN17Adafruit_ICM206499begin_I2CEhP7TwoWirel>
+  34:	2800      	cmp	r0, #0
+  36:	d1f5      	bne.n	24 <_ZN8ICM206494initENS_21CommunicationProtocolE+0x24>
+  38:	2118      	movs	r1, #24
+  3a:	480a      	ldr	r0, [pc, #40]	; (64 <_ZN8ICM206494initENS_21CommunicationProtocolE+0x64>)
+  3c:	f7ff fffe 	bl	0 <usb_serial_write>
+  40:	4809      	ldr	r0, [pc, #36]	; (68 <_ZN8ICM206494initENS_21CommunicationProtocolE+0x68>)
+  42:	b002      	add	sp, #8
+  44:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  48:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  4c:	2118      	movs	r1, #24
+  4e:	4807      	ldr	r0, [pc, #28]	; (6c <_ZN8ICM206494initENS_21CommunicationProtocolE+0x6c>)
+  50:	e7f4      	b.n	3c <_ZN8ICM206494initENS_21CommunicationProtocolE+0x3c>
+  52:	4b07      	ldr	r3, [pc, #28]	; (70 <_ZN8ICM206494initENS_21CommunicationProtocolE+0x70>)
+  54:	211e      	movs	r1, #30
+  56:	4a07      	ldr	r2, [pc, #28]	; (74 <_ZN8ICM206494initENS_21CommunicationProtocolE+0x74>)
+  58:	4807      	ldr	r0, [pc, #28]	; (78 <_ZN8ICM206494initENS_21CommunicationProtocolE+0x78>)
+  5a:	f7ff fffe 	bl	0 <__assert_func>
+  5e:	bf00      	nop
+  60:	00000000 	.word	0x00000000
+  64:	00000000 	.word	0x00000000
+  68:	00000000 	.word	0x00000000
+  6c:	0000001c 	.word	0x0000001c
+  70:	00000038 	.word	0x00000038
+  74:	00000080 	.word	0x00000080
+  78:	000000b8 	.word	0x000000b8
+
+Disassembly of section .text._ZN8ICM2064919get_accel_data_rateEv:
+
+00000000 <_ZN8ICM2064919get_accel_data_rateEv>:
+   0:	b508      	push	{r3, lr}
+   2:	309c      	adds	r0, #156	; 0x9c
+   4:	f7ff fffe 	bl	0 <_ZN15Adafruit_ICM20X19getAccelRateDivisorEv>
+   8:	ee07 0a90 	vmov	s15, r0
+   c:	eeb7 5b00 	vmov.f64	d5, #112	; 0x3f800000  1.0
+  10:	eeb8 7be7 	vcvt.f64.s32	d7, s15
+  14:	ed9f 6b04 	vldr	d6, [pc, #16]	; 28 <_ZN8ICM2064919get_accel_data_rateEv+0x28>
+  18:	ee37 7b05 	vadd.f64	d7, d7, d5
+  1c:	ee86 0b07 	vdiv.f64	d0, d6, d7
+  20:	eeb7 0bc0 	vcvt.f32.f64	s0, d0
+  24:	bd08      	pop	{r3, pc}
+  26:	bf00      	nop
+  28:	00000000 	.word	0x00000000
+  2c:	40919400 	.word	0x40919400
+
+Disassembly of section .text._ZN8ICM2064918get_gyro_data_rateEv:
+
+00000000 <_ZN8ICM2064918get_gyro_data_rateEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	309c      	adds	r0, #156	; 0x9c
+   6:	f7ff fffe 	bl	0 <_ZN15Adafruit_ICM20X18getGyroRateDivisorEv>
+   a:	ee07 0a90 	vmov	s15, r0
+   e:	eeb7 5b00 	vmov.f64	d5, #112	; 0x3f800000  1.0
+  12:	eeb8 7be7 	vcvt.f64.s32	d7, s15
+  16:	ed9f 6b06 	vldr	d6, [pc, #24]	; 30 <_ZN8ICM2064918get_gyro_data_rateEv+0x30>
+  1a:	ee37 7b05 	vadd.f64	d7, d7, d5
+  1e:	ee86 0b07 	vdiv.f64	d0, d6, d7
+  22:	eeb7 0bc0 	vcvt.f32.f64	s0, d0
+  26:	ed84 0a41 	vstr	s0, [r4, #260]	; 0x104
+  2a:	bd10      	pop	{r4, pc}
+  2c:	f3af 8000 	nop.w
+  30:	00000000 	.word	0x00000000
+  34:	40913000 	.word	0x40913000
+
+Disassembly of section .text._ZN8ICM2064914set_gyro_rangeEi:
+
+00000000 <_ZN8ICM2064914set_gyro_rangeEi>:
+   0:	f5b1 6ffa 	cmp.w	r1, #2000	; 0x7d0
+   4:	d009      	beq.n	1a <_ZN8ICM2064914set_gyro_rangeEi+0x1a>
+   6:	f5b1 6f7a 	cmp.w	r1, #4000	; 0xfa0
+   a:	d00e      	beq.n	2a <_ZN8ICM2064914set_gyro_rangeEi+0x2a>
+   c:	f5b1 7f7a 	cmp.w	r1, #1000	; 0x3e8
+  10:	d007      	beq.n	22 <_ZN8ICM2064914set_gyro_rangeEi+0x22>
+  12:	2100      	movs	r1, #0
+  14:	309c      	adds	r0, #156	; 0x9c
+  16:	f7ff bffe 	b.w	0 <_ZN17Adafruit_ICM2064912setGyroRangeE21icm20649_gyro_range_t>
+  1a:	2102      	movs	r1, #2
+  1c:	309c      	adds	r0, #156	; 0x9c
+  1e:	f7ff bffe 	b.w	0 <_ZN17Adafruit_ICM2064912setGyroRangeE21icm20649_gyro_range_t>
+  22:	2101      	movs	r1, #1
+  24:	309c      	adds	r0, #156	; 0x9c
+  26:	f7ff bffe 	b.w	0 <_ZN17Adafruit_ICM2064912setGyroRangeE21icm20649_gyro_range_t>
+  2a:	2103      	movs	r1, #3
+  2c:	309c      	adds	r0, #156	; 0x9c
+  2e:	f7ff bffe 	b.w	0 <_ZN17Adafruit_ICM2064912setGyroRangeE21icm20649_gyro_range_t>
+  32:	bf00      	nop

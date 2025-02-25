@@ -1,0 +1,1656 @@
+
+build/./src/sensors/SensorManager.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 SensorManager.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN8VL53L4CDD2Ev	00000000 .text._ZN8VL53L4CDD2Ev
+00000000 l    d  .text._ZN9TOFSensorD2Ev	00000000 .text._ZN9TOFSensorD2Ev
+00000000 l    d  .text._ZN8VL53L4CD3endEv	00000000 .text._ZN8VL53L4CD3endEv
+00000000 l    d  .text._ZN8VL53L4CD5beginEv	00000000 .text._ZN8VL53L4CD5beginEv
+00000000 l    d  .text._ZN8VL53L4CDD0Ev	00000000 .text._ZN8VL53L4CDD0Ev
+00000000 l    d  .text._ZN9TOFSensorD0Ev	00000000 .text._ZN9TOFSensorD0Ev
+00000000 l    d  .text._ZN8VL53L4CD12VL53L4CD_OffEv	00000000 .text._ZN8VL53L4CD12VL53L4CD_OffEv
+00000000 l    d  .text._ZN8VL53L4CD11VL53L4CD_OnEv	00000000 .text._ZN8VL53L4CD11VL53L4CD_OnEv
+00000000 l    d  .text._ZN9TOFSensor4readEv	00000000 .text._ZN9TOFSensor4readEv
+00000000 l    d  .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0	00000000 .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0
+00000000 l     F .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0	000001c6 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0
+00000000 l    d  .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev	00000000 .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev
+00000000 l    d  .text._ZN13SensorManagerC2Ev	00000000 .text._ZN13SensorManagerC2Ev
+00000000 l    d  .text._ZN13SensorManagerD2Ev	00000000 .text._ZN13SensorManagerD2Ev
+00000000 l    d  .rodata._ZN13SensorManager4readEv.str1.4	00000000 .rodata._ZN13SensorManager4readEv.str1.4
+00000000 l    d  .text._ZN13SensorManager4readEv	00000000 .text._ZN13SensorManager4readEv
+00000000 l    d  .text._ZN13SensorManager16get_buff_encoderEi	00000000 .text._ZN13SensorManager16get_buff_encoderEi
+00000000 l    d  .text._ZN13SensorManager14get_icm_sensorEi	00000000 .text._ZN13SensorManager14get_icm_sensorEi
+00000000 l    d  .text._ZN13SensorManager14get_rev_sensorEi	00000000 .text._ZN13SensorManager14get_rev_sensorEi
+00000000 l    d  .text._ZN13SensorManager14get_tof_sensorEi	00000000 .text._ZN13SensorManager14get_tof_sensorEi
+00000000 l    d  .text._ZN13SensorManager16get_lidar_sensorEi	00000000 .text._ZN13SensorManager16get_lidar_sensorEi
+00000000 l    d  .rodata._ZN13SensorManager14calibrate_imusEv.str1.4	00000000 .rodata._ZN13SensorManager14calibrate_imusEv.str1.4
+00000000 l    d  .text._ZN13SensorManager14calibrate_imusEv	00000000 .text._ZN13SensorManager14calibrate_imusEv
+00000000 l    d  .rodata._ZN13SensorManager4initEPK6Config.str1.4	00000000 .rodata._ZN13SensorManager4initEPK6Config.str1.4
+00000000 l    d  .text._ZN13SensorManager4initEPK6Config	00000000 .text._ZN13SensorManager4initEPK6Config
+00000000 l    d  .text._ZN13SensorManager15get_num_sensorsE10SensorType	00000000 .text._ZN13SensorManager15get_num_sensorsE10SensorType
+00000000 l    d  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.str1.4	00000000 .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.str1.4
+00000000 l    d  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_	00000000 .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
+00000000 l    d  .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_	00000000 .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_
+00000000 l    d  .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_	00000000 .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_
+00000000 l    d  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4	00000000 .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
+00000000 l    d  .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0	00000000 .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0
+00000000 l     F .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0	000000fc _Z41__static_initialization_and_destruction_0ii.constprop.0
+00000000 l    d  .text.startup._GLOBAL__sub_I__ZN13SensorManagerC2Ev	00000000 .text.startup._GLOBAL__sub_I__ZN13SensorManagerC2Ev
+00000000 l     F .text.startup._GLOBAL__sub_I__ZN13SensorManagerC2Ev	00000004 _GLOBAL__sub_I__ZN13SensorManagerC2Ev
+00000000 l    d  .init_array	00000000 .init_array
+00000000 l    d  .rodata._ZTV8VL53L4CD	00000000 .rodata._ZTV8VL53L4CD
+00000000 l    d  .rodata._ZTV9TOFSensor	00000000 .rodata._ZTV9TOFSensor
+00000000 l    d  .bss._ZL24yaml_section_id_mappings	00000000 .bss._ZL24yaml_section_id_mappings
+00000000 l     O .bss._ZL24yaml_section_id_mappings	00000018 _ZL24yaml_section_id_mappings
+00000000 l       .group	00000000 _ZN8VL53L4CDD5Ev
+00000000 l       .group	00000000 _ZN9TOFSensorD5Ev
+00000000 l       .group	00000000 _ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED5Ev
+00000000 l       .group	00000000 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC5IS3_EEPKcRKS3_
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN8VL53L4CDD2Ev	00000002 _ZN8VL53L4CDD2Ev
+00000000  w    F .text._ZN8VL53L4CDD2Ev	00000002 _ZN8VL53L4CDD1Ev
+00000000  w    F .text._ZN9TOFSensorD2Ev	00000002 _ZN9TOFSensorD2Ev
+00000000  w    F .text._ZN9TOFSensorD2Ev	00000002 _ZN9TOFSensorD1Ev
+00000000  w    F .text._ZN8VL53L4CD3endEv	00000018 _ZN8VL53L4CD3endEv
+00000000         *UND*	00000000 pinMode
+00000000  w    F .text._ZN8VL53L4CD5beginEv	0000001e _ZN8VL53L4CD5beginEv
+00000000         *UND*	00000000 digitalWrite
+00000000  w    F .text._ZN8VL53L4CDD0Ev	0000000e _ZN8VL53L4CDD0Ev
+00000000         *UND*	00000000 _ZdlPvj
+00000000  w    F .text._ZN9TOFSensorD0Ev	0000000e _ZN9TOFSensorD0Ev
+00000000  w    F .text._ZN8VL53L4CD12VL53L4CD_OffEv	00000020 _ZN8VL53L4CD12VL53L4CD_OffEv
+00000000         *UND*	00000000 delay
+00000000  w    F .text._ZN8VL53L4CD11VL53L4CD_OnEv	00000020 _ZN8VL53L4CD11VL53L4CD_OnEv
+00000000  w    F .text._ZN9TOFSensor4readEv	00000042 _ZN9TOFSensor4readEv
+00000000         *UND*	00000000 _ZN8VL53L4CD18VL53L4CD_GetResultEP17VL53L4CD_Result_t
+00000000         *UND*	00000000 _ZN8VL53L4CD23VL53L4CD_ClearInterruptEv
+00000000  w    F .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev	00000034 _ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev
+00000000  w    F .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev	00000034 _ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED1Ev
+00000000 g     F .text._ZN13SensorManagerC2Ev	00000020 _ZN13SensorManagerC2Ev
+00000000         *UND*	00000000 _Znwj
+00000000         *UND*	00000000 _ZN9RefSystemC1Ev
+00000000         *UND*	00000000 _ZN9RefSystem4initEv
+00000000 g     F .text._ZN13SensorManagerC2Ev	00000020 _ZN13SensorManagerC1Ev
+00000000 g     F .text._ZN13SensorManagerD2Ev	00000002 _ZN13SensorManagerD2Ev
+00000000 g     F .text._ZN13SensorManagerD2Ev	00000002 _ZN13SensorManagerD1Ev
+00000000 g     F .text._ZN13SensorManager4readEv	0000012c _ZN13SensorManager4readEv
+00000000         *UND*	00000000 _ZN11BuffEncoder5printEv
+00000000         *UND*	00000000 _ZN9IMUSensor5printEv
+00000000         *UND*	00000000 _ZN10RevEncoder5printEv
+00000000         *UND*	00000000 _ZN9RefSystem4readEv
+00000000         *UND*	00000000 usb_serial_write
+00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000         *UND*	00000000 _ZN5Print6printfEPKcz
+00000000         *UND*	00000000 Serial
+00000000 g     F .text._ZN13SensorManager16get_buff_encoderEi	0000000a _ZN13SensorManager16get_buff_encoderEi
+00000000 g     F .text._ZN13SensorManager14get_icm_sensorEi	00000008 _ZN13SensorManager14get_icm_sensorEi
+00000000 g     F .text._ZN13SensorManager14get_rev_sensorEi	0000000a _ZN13SensorManager14get_rev_sensorEi
+00000000 g     F .text._ZN13SensorManager14get_tof_sensorEi	0000000a _ZN13SensorManager14get_tof_sensorEi
+00000000 g     F .text._ZN13SensorManager16get_lidar_sensorEi	00000014 _ZN13SensorManager16get_lidar_sensorEi
+00000000 g     F .text._ZN13SensorManager14calibrate_imusEv	000000c0 _ZN13SensorManager14calibrate_imusEv
+00000000 g     F .text._ZN13SensorManager4initEPK6Config	00000330 _ZN13SensorManager4initEPK6Config
+00000000         *UND*	00000000 _ZN8SPIClass5beginEv
+00000000         *UND*	00000000 _ZN17Adafruit_ICM20649C1Ev
+00000000         *UND*	00000000 _ZN8ICM206494initENS_21CommunicationProtocolE
+00000000         *UND*	00000000 _ZN8ICM2064914set_gyro_rangeEi
+00000000         *UND*	00000000 _ZN10RevEncoder4initEhb
+00000000         *UND*	00000000 _ZN8VL53L4CD22VL53L4CD_SetI2CAddressEh
+00000000         *UND*	00000000 _ZN8VL53L4CD20VL53L4CD_GetSensorIdEPt
+00000000         *UND*	00000000 _ZN8VL53L4CD19VL53L4CD_SensorInitEv
+00000000         *UND*	00000000 _ZN8VL53L4CD23VL53L4CD_SetRangeTimingEmm
+00000000         *UND*	00000000 _ZN8VL53L4CD21VL53L4CD_StartRangingEv
+00000000         *UND*	00000000 _ZN7TwoWire5beginEv
+00000000         *UND*	00000000 _ZN9D200LD14PC1EP14HardwareSerialh
+00000000         *UND*	00000000 _ZN6Sensor8next_id_E
+00000000         *UND*	00000000 _ZTV11BuffEncoder
+00000000         *UND*	00000000 SPI
+00000000  w    O .rodata._ZTV9TOFSensor	00000014 _ZTV9TOFSensor
+00000000  w    O .rodata._ZTV8VL53L4CD	00000020 _ZTV8VL53L4CD
+00000000         *UND*	00000000 Serial4
+00000000         *UND*	00000000 Serial5
+00000000         *UND*	00000000 _ZTV8ICM20649
+00000000         *UND*	00000000 _ZTV10RevEncoder
+00000000         *UND*	00000000 Wire2
+00000000 g     F .text._ZN13SensorManager15get_num_sensorsE10SensorType	00000026 _ZN13SensorManager15get_num_sensorsE10SensorType
+00000000  w    F .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_	00000064 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
+00000000         *UND*	00000000 strlen
+00000000         *UND*	00000000 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 _ZSt19__throw_logic_errorPKc
+00000000  w    F .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_	00000064 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_
+00000000  w    F .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_	000000b0 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_
+00000000         *UND*	00000000 memcmp
+00000000         *UND*	00000000 _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
+00000000  w    F .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_	00000128 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_
+00000000         *UND*	00000000 _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
+00000000         *UND*	00000000 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
+00000000         *UND*	00000000 __aeabi_atexit
+00000000         *UND*	00000000 .hidden __dso_handle
+
+
+Contents of section .group:
+ 0000 01000000 11000000 17000000 18000000  ................
+Contents of section .group:
+ 0000 01000000 12000000 19000000 1a000000  ................
+Contents of section .group:
+ 0000 01000000 13000000 14000000           ............    
+Contents of section .group:
+ 0000 01000000 15000000 16000000           ............    
+Contents of section .group:
+ 0000 01000000 1b000000 1c000000           ............    
+Contents of section .group:
+ 0000 01000000 1d000000 1e000000           ............    
+Contents of section .group:
+ 0000 01000000 1f000000 20000000           ........ ...    
+Contents of section .group:
+ 0000 01000000 21000000 22000000 23000000  ....!..."...#...
+ 0010 24000000                             $...            
+Contents of section .group:
+ 0000 01000000 38000000 39000000           ....8...9...    
+Contents of section .group:
+ 0000 01000000 3a000000 3b000000           ....:...;...    
+Contents of section .group:
+ 0000 01000000 3c000000 3d000000           ....<...=...    
+Contents of section .group:
+ 0000 01000000 45000000 46000000           ....E...F...    
+Contents of section .group:
+ 0000 01000000 47000000 48000000           ....G...H...    
+Contents of section .text._ZN8VL53L4CDD2Ev:
+ 0000 704700bf                             pG..            
+Contents of section .text._ZN9TOFSensorD2Ev:
+ 0000 704700bf                             pG..            
+Contents of section .text._ZN8VL53L4CD3endEv:
+ 0000 80680028 01da0020 70470021 c0b208b5  .h.(... pG.!....
+ 0010 fff7feff 002008bd                    ..... ..        
+Contents of section .text._ZN8VL53L4CD5beginEv:
+ 0000 10b50446 80680028 07db0121 c0b2fff7  ...F.h.(...!....
+ 0010 feff0021 207afff7 feff0020 10bd00bf  ...! z..... ....
+Contents of section .text._ZN8VL53L4CDD0Ev:
+ 0000 10b50446 1021fff7 feff2046 10bd00bf  ...F.!.... F....
+Contents of section .text._ZN9TOFSensorD0Ev:
+ 0000 10b50446 2421fff7 feff2046 10bd00bf  ...F$!.... F....
+Contents of section .text._ZN8VL53L4CD12VL53L4CD_OffEv:
+ 0000 80680028 02da0a20 fff7febf c0b20021  .h.(... .......!
+ 0010 08b5fff7 feff0a20 bde80840 fff7febf  ....... ...@....
+Contents of section .text._ZN8VL53L4CD11VL53L4CD_OnEv:
+ 0000 80680028 02da0a20 fff7febf c0b20121  .h.(... .......!
+ 0010 08b5fff7 feff0a20 bde80840 fff7febf  ....... ...@....
+Contents of section .text._ZN9TOFSensor4readEv:
+ 0000 30b5057f 85b00446 8db16946 0c30fff7  0......F..iF.0..
+ 0010 feff237f bdf80220 28466179 83f00103  ..#.... (Fay....
+ 0020 e28384f8 20106284 237705b0 30bd0c30  .... .b.#w..0..0
+ 0030 fff7feff 237f2846 83f00103 237705b0  ....#.(F....#w..
+ 0040 30bd00bf                             0...            
+Contents of section .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0:
+ 0000 2de9f04f 83b00090 002800f0 c680009b  -..O.....(......
+ 0010 d3f80c90 b9f1000f 00f0c280 d9f80ca0  ................
+ 0020 baf1000f 00f0a580 daf80cb0 bbf1000f  ................
+ 0030 00f08b80 dbf80c40 002c5ed0 e568002d  .......@.,^..h.-
+ 0040 38d0ee68 002e46d0 f768002f 69d0d7f8  8..h..F..h./i...
+ 0050 0c80b8f1 000f19d0 d8f80c00 cdf80480  ................
+ 0060 fff7ceff 019ad8f8 08801069 02f11801  ...........i....
+ 0070 884204d0 91690131 fff7feff 019a2c21  .B...i.1......,!
+ 0080 1046fff7 feffb8f1 000fe5d1 386907f1  .F..........8i..
+ 0090 1802d7f8 08809042 03d0b969 0131fff7  .......B...i.1..
+ 00a0 feff2c21 3846fff7 feffb8f1 000f38d0  ..,!8F........8.
+ 00b0 4746cce7 206904f1 1803a568 984203d0  GF.. i.....h.B..
+ 00c0 a1690131 fff7feff 2c212046 fff7feff  .i.1....,! F....
+ 00d0 9db12c46 b2e72869 05f11803 ae689842  ..,F..(i.....h.B
+ 00e0 03d0a969 0131fff7 feff2c21 2846fff7  ...i.1....,!(F..
+ 00f0 feff002e ded03546 a3e7dbf8 10000bf1  ......5F........
+ 0100 1803dbf8 08409842 04d0dbf8 18100131  .....@.B.......1
+ 0110 fff7feff 2c215846 fff7feff acb1a346  ....,!XF.......F
+ 0120 88e73069 06f11803 d6f80880 984203d0  ..0i.........B..
+ 0130 b1690131 fff7feff 2c213046 fff7feff  .i.1....,!0F....
+ 0140 b8f1000f c7d04646 7ee7daf8 10000af1  ......FF~.......
+ 0150 1803daf8 08409842 04d0daf8 18100131  .....@.B.......1
+ 0160 fff7feff 2c215046 fff7feff 0cb1a246  ....,!PF.......F
+ 0170 5ae7d9f8 100009f1 1803d9f8 08409842  Z............@.B
+ 0180 04d0d9f8 18100131 fff7feff 2c214846  .......1....,!HF
+ 0190 fff7feff 24b1a146 40e703b0 bde8f08f  ....$..F@.......
+ 01a0 009a1069 02f11803 94689842 03d09169  ...i.....h.B...i
+ 01b0 0131fff7 feff2c21 0098fff7 feff002c  .1....,!.......,
+ 01c0 ebd00094 23e700bf                    ....#...        
+Contents of section .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev:
+ 0000 70b58468 06469cb1 2546e068 fff7feff  p..h.F..%F.h....
+ 0010 a4682869 05f11803 984203d0 a9690131  .h(i.....B...i.1
+ 0020 fff7feff 2c212846 fff7feff 002cebd1  ....,!(F.....,..
+ 0030 304670bd                             0Fp.            
+Contents of section .text._ZN13SensorManagerC2Ev:
+ 0000 38b50446 41f2e830 fff7feff 0546fff7  8..FA..0.....F..
+ 0010 feff2846 c4f86051 fff7feff 204638bd  ..(F..`Q.... F8.
+Contents of section .text._ZN13SensorManagerD2Ev:
+ 0000 704700bf                             pG..            
+Contents of section .rodata._ZN13SensorManager4readEv.str1.4:
+ 0000 544f4620 53656e73 6f723a00 09446973  TOF Sensor:..Dis
+ 0010 74616e63 653a2025 75206d6d 0a00      tance: %u mm..  
+Contents of section .text._ZN13SensorManager4readEv:
+ 0000 0368002b 2de9f04f 054685b0 0edd00f1  .h.+-..O.F......
+ 0010 90060024 56f8040f 01340368 9b689847  ...$V....4.h.h.G
+ 0020 3068fff7 feff2b68 a342f3dc 6b68002b  0h....+h.B..kh.+
+ 0030 0edd05f1 50060024 56f8040f 01340368  ....P..$V....4.h
+ 0040 9b689847 3068fff7 feff6b68 a342f3dc  .h.G0h....kh.B..
+ 0050 ab68002b 0edd05f1 d0060024 56f8040f  .h.+.......$V...
+ 0060 01340368 9b689847 3068fff7 feffab68  .4.h.h.G0h.....h
+ 0070 a342f3dc 2b69002b 09ddd5f8 54010368  .B..+i.+....T..h
+ 0080 9b689847 d5f85801 03689b68 9847d5f8  .h.G..X..h.h.G..
+ 0090 6001fff7 feffeb68 002b33dd 05f58877  `......h.+3....w
+ 00a0 0026dff8 78b0dff8 78a0dff8 7880dff8  .&..x...x...x...
+ 00b0 789057f8 044f6946 236804f1 0c009b68  x.W..OiF#h.....h
+ 00c0 5b4528d1 237f03b3 fff7feff 237fbdf8  [E(.#.......#...
+ 00d0 02206179 83f00103 e28384f8 20106284  . ay........ .b.
+ 00e0 23770b21 3c685046 0136fff7 feff4046  #w.!<hPF.6....@F
+ 00f0 fff7feff e28b4946 4046fff7 feffeb68  ......IF@F.....h
+ 0100 b342d6dc 05b0bde8 f08ffff7 feff237f  .B............#.
+ 0110 83f00103 e4e72046 9847e2e7 00000000  ...... F.G......
+ 0120 00000000 00000000 0c000000           ............    
+Contents of section .text._ZN13SensorManager16get_buff_encoderEi:
+ 0000 00eb8101 d1f89400 704700bf           ........pG..    
+Contents of section .text._ZN13SensorManager14get_icm_sensorEi:
+ 0000 00eb8101 486d7047                    ....HmpG        
+Contents of section .text._ZN13SensorManager14get_rev_sensorEi:
+ 0000 00eb8101 d1f8d400 704700bf           ........pG..    
+Contents of section .text._ZN13SensorManager14get_tof_sensorEi:
+ 0000 00eb8101 d1f81401 704700bf           ........pG..    
+Contents of section .text._ZN13SensorManager16get_lidar_sensorEi:
+ 0000 29b10129 0cbfd0f8 58010020 7047d0f8  )..)....X.. pG..
+ 0010 54017047                             T.pG            
+Contents of section .rodata._ZN13SensorManager14calibrate_imusEv.str1.4:
+ 0000 43616c69 62726174 696e6720 494d5527  Calibrating IMU'
+ 0010 732e2e2e 00000000 43616c69 62726174  s.......Calibrat
+ 0020 6564206f 66667365 74733a20 25662c20  ed offsets: %f, 
+ 0030 25662c20 25660a00                    %f, %f..        
+Contents of section .text._ZN13SensorManager14calibrate_imusEv:
+ 0000 30b52ded 048b9fed 298a85b0 05461421  0.-.....)....F.!
+ 0010 2748b0ee 489afff7 fefff0ee 488a2548  'H..H.......H.%H
+ 0020 4cf25034 fff7feff 686d0368 9b689847  L.P4....hm.h.h.G
+ 0030 686d013c d0ed206a 90ed235a 90ed217a  hm.<.. j..#Z..!z
+ 0040 d0ed245a 76eec56a d0ed227a 90ed256a  ..$Zv..j.."z..%j
+ 0050 37ee657a 78eea68a 77eec67a 39ee079a  7.ezx...w..z9...
+ 0060 38ee278a e1d1dfed 147a1449 c9ee279a  8.'......z.I..'.
+ 0070 104888ee 279a88ee a78ab7ee e97a8ded  .H..'........z..
+ 0080 007bb7ee c96a8ded 026bb7ee c85a53ec  .{...j...k...ZS.
+ 0090 152bfff7 feff6b6d 83ed238a c3ed249a  .+....km..#...$.
+ 00a0 83ed259a 05b0bdec 048b30bd 00000000  ..%.......0.....
+ 00b0 00000000 00000000 00504347 18000000  .........PCG....
+Contents of section .rodata._ZN13SensorManager4initEPK6Config.str1.4:
+ 0000 53746172 74696e67 20535049 00        Starting SPI.   
+Contents of section .text._ZN13SensorManager4initEPK6Config:
+ 0000 2de9f04f d1f84c33 0546d1f8 444385b0  -..O..L3.F..DC..
+ 0010 0e46c0e9 0043d1f8 48338360 d1e9d423  .F...C..H3.`...#
+ 0020 c26001f5 50700a46 2b61d2ed 017a3432  .`..Pp.F+a...z42
+ 0030 fdeee77a 17ee903a 05eb8301 013302d0  ...z...:.....3..
+ 0040 4b690133 4b618242 efd1002c 36dd05f1  Ki.3Ka.B...,6...
+ 0050 90094ff0 0008aa4c 4ff0000a a94fd6ed  ..O....LO....O..
+ 0060 027a0121 3436fcee e77a8844 cded017a  .z.!46...z.D...z
+ 0070 9df80400 fff7feff 56ed0b7a 0121fcee  ........V..z.!..
+ 0080 e77acded 017a9df8 0400fff7 feff1820  .z...z......... 
+ 0090 fff7feff 237856ed 0b7a0021 5a1c4371  ....#xV..z.!Z.Cq
+ 00a0 fdeee77a 01712270 2b680760 4345c0ed  ...z.q"p+h.`CE..
+ 00b0 027ac0f8 0ca049f8 040fd0dc 01210a20  .z....I......!. 
+ 00c0 fff7feff 01210a20 fff7feff 0c218e48  .....!. .....!.H
+ 00d0 fff7feff 8d48fff7 feff8d48 fff7feff  .....H.....H....
+ 00e0 6b68002b 3add05f1 50084ff0 000b844c  kh.+:...P.O....L
+ 00f0 4ff00109 dff82ca2 00274ff4 96700bf1  O.....,..'O..p..
+ 0100 010bfff7 feff2378 064680f8 04905a1c  ......#x.F....Z.
+ 0110 43714767 8767c767 c0f88070 c0f88470  CqGg.g.g...p...p
+ 0120 c0f88870 c0f88c70 c0f89070 c0f89470  ...p...p...p...p
+ 0130 c0f89870 40f89cab 2270fff7 feff0121  ...p@..."p.....!
+ 0140 304648f8 046ffff7 feff4ff4 7a61d8f8  0FH..o....O.za..
+ 0150 0000fff7 feff6b68 5b45cedc 2846fff7  ......kh[E..(F..
+ 0160 feffab68 002b2add 05f1d007 0026644c  ...h.+*......&dL
+ 0170 4ff00208 dff8b091 4ff0000a fc20fff7  O.......O.... ..
+ 0180 feff94f8 00e04ff0 000cb11c 0ef10102  ......O.........
+ 0190 80f80480 c9b280f8 05e02270 012247f8  .........."p."G.
+ 01a0 040fc0f8 00901644 c0f8d4c0 a0f8e0c0  .......D........
+ 01b0 c0f8eca0 fff7feff ab68b342 dedceb68  .........h.B...h
+ 01c0 002b40f3 81800027 05f5887a 4c4cdff8  .+@....'...zLL..
+ 01d0 5c81b946 3ce00a20 fff7feff dbf81400  \..F<.. ........
+ 01e0 002803db c0b20021 fff7feff 0a20fff7  .(.....!..... ..
+ 01f0 feffdbf8 14000028 03dbc0b2 0121fff7  .......(.....!..
+ 0200 feff0a20 fff7feff bbf81830 522b04d0  ... .......0R+..
+ 0210 52213046 fff7feff 70b90df1 0e013046  R!0F....p.....0F
+ 0220 fff7feff 28b14ef6 aa33bdf8 0e209a42  ....(.N..3... .B
+ 0230 02d13046 fff7feff 0022c821 30460137  ..0F.....".!0F.7
+ 0240 fff7feff 3046fff7 feffeb68 bb423bdd  ....0F.....h.B;.
+ 0250 24204ff0 ff36fff7 feff2278 83460321  $ O..6...."x.F.!
+ 0260 2c4b501c 8bf80410 5221cbf8 00302a4b  ,KP.....R!...0*K
+ 0270 20704046 cbf81460 0bf10c06 4af804bf   p@F...`....J...
+ 0280 8bf80520 cbf80880 abf81810 8bf81c90  ... ............
+ 0290 abf81e90 cbe90338 fff7feff dbf81400  .......8........
+ 02a0 002898db c0b20121 fff7feff 9bf81400  .(.....!........
+ 02b0 0021fff7 feffdbf8 14000028 8bdbc0b2  .!.........(....
+ 02c0 0021fff7 feff86e7 2b69002b 15dd4ff4  .!......+i.+..O.
+ 02d0 0270fff7 feff0446 00221049 fff7feff  .p.....F.".I....
+ 02e0 c5f85441 4ff40270 fff7feff 04460122  ..TAO..p.....F."
+ 02f0 0b49fff7 feffc5f8 584105b0 bde8f08f  .I......XA......
+ 0300 00000000 08000000 00000000 00000000  ................
+ 0310 00000000 08000000 08000000 00000000  ................
+ 0320 00000000 08000000 08000000 00000000  ................
+Contents of section .text._ZN13SensorManager15get_num_sensorsE10SensorType:
+ 0000 04290ed8 dfe801f0 0507090b 03000069  .).............i
+ 0010 70470068 70474068 70478068 7047c068  pG.hpG@hpG.hpG.h
+ 0020 70470020 704700bf                    pG. pG..        
+Contents of section .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.str1.4:
+ 0000 62617369 635f7374 72696e67 3a3a5f4d  basic_string::_M
+ 0010 5f636f6e 73747275 6374206e 756c6c20  _construct null 
+ 0020 6e6f7420 76616c69 6400               not valid.      
+Contents of section .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_:
+ 0000 f0b500f1 080783b0 076031b3 04460846  .........`1..F.F
+ 0010 0e46fff7 feff0f28 05460190 0cd80128  .F.....(.F.....(
+ 0020 07d13378 23720023 20466560 7b5503b0  ..3x#r.# Fe`{U..
+ 0030 f0bd0028 f7d008e0 002201a9 2046fff7  ...(.....".. F..
+ 0040 feff019b 07462060 a3602a46 38463146  .....F `.`*F8F1F
+ 0050 fff7feff 019d2768 e5e70148 fff7feff  ......'h...H....
+ 0060 00000000                             ....            
+Contents of section .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_:
+ 0000 2de9f04f 8c6883b0 8b468146 0192a4b3  -..O.h...F.F....
+ 0010 019bd3e9 00a800e0 14466669 45462769  .........FfiEF'i
+ 0020 5046b045 394628bf 35462a46 15b1fff7  PF.E9F(.5F*F....
+ 0030 feff08b9 a8eb0600 0028d4e9 0212aebf  .........(......
+ 0040 00210a46 0121002a e6d1b9b9 a3468db1  .!.F.!.*.....F..
+ 0050 2a465146 3846fff7 feff58b1 00284ff0  *FQF8F....X..(O.
+ 0060 00034846 b4bfc9e9 003bc9e9 004303b0  ..HF.....;...C..
+ 0070 bde8f08f a6eb0800 f0e70c1d dbf80c30  ...............0
+ 0080 a3420ed0 2046a346 fff7feff 019b0446  .B.. F.F.......F
+ 0090 d0e90476 d3e900a8 35464645 28bf4546  ...v....5FFE(.EF
+ 00a0 d5e70023 4846c9e9 003403b0 bde8f08f  ...#HF...4......
+Contents of section .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_:
+ 0000 914200f0 8b802de9 f04f9246 87b08046  .B....-..O.F...F
+ 0010 00f1040b 01f11c04 d8f81430 a4f11c05  ...........0....
+ 0020 83b1d8f8 109054e9 0716d9e9 0407b742  ......T........B
+ 0030 3a4628bf 324612b1 fff7feff 00b9b81b  :F(.2F..........
+ 0040 002869db 2a464146 04a8fff7 feffdde9  .(i.*FAF........
+ 0050 0469b9f1 000f2ed0 003e18bf 0126cb45  .i.......>...&.E
+ 0060 08bf46f0 0106002e 40d02c20 fff7feff  ..F.....@., ....
+ 0070 05461830 54e90737 2861fb42 01d0002b  .F.0T..7(a.B...+
+ 0080 4dd00f2f 03971fd8 012f1ad1 1b782b76  M../...../...x+v
+ 0090 4ff00003 6f614a46 c3555b46 14f8041c  O...oaJF.U[F....
+ 00a0 304685f8 28102946 fff7feff d8f81430  0F..(.)F.......0
+ 00b0 0133c8f8 1430a245 04f11c03 29d01c46  .3...0.E....)..F
+ 00c0 aae7002f e4d00ae0 002203a9 05f11000  .../....."......
+ 00d0 0193fff7 feff039a 019b2861 aa613a46  ..........(a.a:F
+ 00e0 1946fff7 feff039f 2869d1e7 54f8186c  .F......(i..T..l
+ 00f0 d9f81450 3246ae42 28bf2a46 32b1d9f8  ...P2F.B(.*F2...
+ 0100 101054f8 1c0cfff7 feff00b9 701bc60f  ..T.........p...
+ 0110 abe707b0 bde8f08f 0026a0e7 70470148  .........&..pG.H
+ 0120 fff7feff 00000000                    ........        
+Contents of section .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4:
+ 0000 726f626f 74000000 65737469 6d61746f  robot...estimato
+ 0010 725f696e 666f0000 636f6e74 726f6c6c  r_info..controll
+ 0020 65725f69 6e666f00 6761696e 73000000  er_info.gains...
+ 0030 6d6f746f 725f696e 666f0000 67656172  motor_info..gear
+ 0040 5f726174 696f7300 73656e73 6f725f69  _ratios.sensor_i
+ 0050 6e666f00 72656665 72656e63 655f6c69  nfo.reference_li
+ 0060 6d697473 00000000 676f7665 726e6f72  mits....governor
+ 0070 5f747970 657300                      _types.         
+Contents of section .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0:
+ 0000 30b5c1b0 00243149 01ad6a46 2846fff7  0....$1I..jF(F..
+ 0010 feff6a46 2e4908a8 8df81c40 fff7feff  ..jF.I.....@....
+ 0020 01236a46 2b490fa8 8df83830 fff7feff  .#jF+I....80....
+ 0030 02236a46 284916a8 8df85430 fff7feff  .#jF(I....T0....
+ 0040 03236a46 25491da8 8df87030 fff7feff  .#jF%I....p0....
+ 0050 04236a46 224924a8 8df88c30 fff7feff  .#jF"I$....0....
+ 0060 05236a46 1f492ba8 8df8a830 fff7feff  .#jF.I+....0....
+ 0070 06236a46 1c4932a8 8df8c430 fff7feff  .#jF.I2....0....
+ 0080 07236a46 194939a8 8df8e030 fff7feff  .#jF.I9....0....
+ 0090 17480821 40aa031d 04714461 8df8fc10  .H.!@....qDa....
+ 00a0 29460361 c0e90243 40acfff7 feff1c3c  )F.a...C@......<
+ 00b0 2046fff7 feffac42 f9d10e4a 0e490c48   F.....B...J.I.H
+ 00c0 41b0bde8 3040fff7 febf00bf 00000000  A...0@..........
+ 00d0 08000000 18000000 28000000 30000000  ........(...0...
+ 00e0 3c000000 48000000 54000000 68000000  <...H...T...h...
+ 00f0 00000000 00000000 00000000           ............    
+Contents of section .text.startup._GLOBAL__sub_I__ZN13SensorManagerC2Ev:
+ 0000 fff7febf                             ....            
+Contents of section .init_array:
+ 0000 00000000                             ....            
+Contents of section .rodata._ZTV8VL53L4CD:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000 00000000 00000000 00000000  ................
+Contents of section .rodata._ZTV9TOFSensor:
+ 0000 00000000 00000000 00000000 00000000  ................
+ 0010 00000000                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN8VL53L4CDD2Ev:
+
+00000000 <_ZN8VL53L4CDD1Ev>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZN9TOFSensorD2Ev:
+
+00000000 <_ZN9TOFSensorD1Ev>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZN8VL53L4CD3endEv:
+
+00000000 <_ZN8VL53L4CD3endEv>:
+   0:	6880      	ldr	r0, [r0, #8]
+   2:	2800      	cmp	r0, #0
+   4:	da01      	bge.n	a <_ZN8VL53L4CD3endEv+0xa>
+   6:	2000      	movs	r0, #0
+   8:	4770      	bx	lr
+   a:	2100      	movs	r1, #0
+   c:	b2c0      	uxtb	r0, r0
+   e:	b508      	push	{r3, lr}
+  10:	f7ff fffe 	bl	0 <pinMode>
+  14:	2000      	movs	r0, #0
+  16:	bd08      	pop	{r3, pc}
+
+Disassembly of section .text._ZN8VL53L4CD5beginEv:
+
+00000000 <_ZN8VL53L4CD5beginEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	6880      	ldr	r0, [r0, #8]
+   6:	2800      	cmp	r0, #0
+   8:	db07      	blt.n	1a <_ZN8VL53L4CD5beginEv+0x1a>
+   a:	2101      	movs	r1, #1
+   c:	b2c0      	uxtb	r0, r0
+   e:	f7ff fffe 	bl	0 <pinMode>
+  12:	2100      	movs	r1, #0
+  14:	7a20      	ldrb	r0, [r4, #8]
+  16:	f7ff fffe 	bl	0 <digitalWrite>
+  1a:	2000      	movs	r0, #0
+  1c:	bd10      	pop	{r4, pc}
+  1e:	bf00      	nop
+
+Disassembly of section .text._ZN8VL53L4CDD0Ev:
+
+00000000 <_ZN8VL53L4CDD0Ev>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	2110      	movs	r1, #16
+   6:	f7ff fffe 	bl	0 <_ZdlPvj>
+   a:	4620      	mov	r0, r4
+   c:	bd10      	pop	{r4, pc}
+   e:	bf00      	nop
+
+Disassembly of section .text._ZN9TOFSensorD0Ev:
+
+00000000 <_ZN9TOFSensorD0Ev>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	2124      	movs	r1, #36	; 0x24
+   6:	f7ff fffe 	bl	0 <_ZdlPvj>
+   a:	4620      	mov	r0, r4
+   c:	bd10      	pop	{r4, pc}
+   e:	bf00      	nop
+
+Disassembly of section .text._ZN8VL53L4CD12VL53L4CD_OffEv:
+
+00000000 <_ZN8VL53L4CD12VL53L4CD_OffEv>:
+   0:	6880      	ldr	r0, [r0, #8]
+   2:	2800      	cmp	r0, #0
+   4:	da02      	bge.n	c <_ZN8VL53L4CD12VL53L4CD_OffEv+0xc>
+   6:	200a      	movs	r0, #10
+   8:	f7ff bffe 	b.w	0 <delay>
+   c:	b2c0      	uxtb	r0, r0
+   e:	2100      	movs	r1, #0
+  10:	b508      	push	{r3, lr}
+  12:	f7ff fffe 	bl	0 <digitalWrite>
+  16:	200a      	movs	r0, #10
+  18:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  1c:	f7ff bffe 	b.w	0 <delay>
+
+Disassembly of section .text._ZN8VL53L4CD11VL53L4CD_OnEv:
+
+00000000 <_ZN8VL53L4CD11VL53L4CD_OnEv>:
+   0:	6880      	ldr	r0, [r0, #8]
+   2:	2800      	cmp	r0, #0
+   4:	da02      	bge.n	c <_ZN8VL53L4CD11VL53L4CD_OnEv+0xc>
+   6:	200a      	movs	r0, #10
+   8:	f7ff bffe 	b.w	0 <delay>
+   c:	b2c0      	uxtb	r0, r0
+   e:	2101      	movs	r1, #1
+  10:	b508      	push	{r3, lr}
+  12:	f7ff fffe 	bl	0 <digitalWrite>
+  16:	200a      	movs	r0, #10
+  18:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  1c:	f7ff bffe 	b.w	0 <delay>
+
+Disassembly of section .text._ZN9TOFSensor4readEv:
+
+00000000 <_ZN9TOFSensor4readEv>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	7f05      	ldrb	r5, [r0, #28]
+   4:	b085      	sub	sp, #20
+   6:	4604      	mov	r4, r0
+   8:	b18d      	cbz	r5, 2e <_ZN9TOFSensor4readEv+0x2e>
+   a:	4669      	mov	r1, sp
+   c:	300c      	adds	r0, #12
+   e:	f7ff fffe 	bl	0 <_ZN8VL53L4CD18VL53L4CD_GetResultEP17VL53L4CD_Result_t>
+  12:	7f23      	ldrb	r3, [r4, #28]
+  14:	f8bd 2002 	ldrh.w	r2, [sp, #2]
+  18:	4628      	mov	r0, r5
+  1a:	7961      	ldrb	r1, [r4, #5]
+  1c:	f083 0301 	eor.w	r3, r3, #1
+  20:	83e2      	strh	r2, [r4, #30]
+  22:	f884 1020 	strb.w	r1, [r4, #32]
+  26:	8462      	strh	r2, [r4, #34]	; 0x22
+  28:	7723      	strb	r3, [r4, #28]
+  2a:	b005      	add	sp, #20
+  2c:	bd30      	pop	{r4, r5, pc}
+  2e:	300c      	adds	r0, #12
+  30:	f7ff fffe 	bl	0 <_ZN8VL53L4CD23VL53L4CD_ClearInterruptEv>
+  34:	7f23      	ldrb	r3, [r4, #28]
+  36:	4628      	mov	r0, r5
+  38:	f083 0301 	eor.w	r3, r3, #1
+  3c:	7723      	strb	r3, [r4, #28]
+  3e:	b005      	add	sp, #20
+  40:	bd30      	pop	{r4, r5, pc}
+  42:	bf00      	nop
+
+Disassembly of section .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0:
+
+00000000 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	b083      	sub	sp, #12
+   6:	9000      	str	r0, [sp, #0]
+   8:	2800      	cmp	r0, #0
+   a:	f000 80c6 	beq.w	19a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x19a>
+   e:	9b00      	ldr	r3, [sp, #0]
+  10:	f8d3 900c 	ldr.w	r9, [r3, #12]
+  14:	f1b9 0f00 	cmp.w	r9, #0
+  18:	f000 80c2 	beq.w	1a0 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x1a0>
+  1c:	f8d9 a00c 	ldr.w	sl, [r9, #12]
+  20:	f1ba 0f00 	cmp.w	sl, #0
+  24:	f000 80a5 	beq.w	172 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x172>
+  28:	f8da b00c 	ldr.w	fp, [sl, #12]
+  2c:	f1bb 0f00 	cmp.w	fp, #0
+  30:	f000 808b 	beq.w	14a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x14a>
+  34:	f8db 400c 	ldr.w	r4, [fp, #12]
+  38:	2c00      	cmp	r4, #0
+  3a:	d05e      	beq.n	fa <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xfa>
+  3c:	68e5      	ldr	r5, [r4, #12]
+  3e:	2d00      	cmp	r5, #0
+  40:	d038      	beq.n	b4 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xb4>
+  42:	68ee      	ldr	r6, [r5, #12]
+  44:	2e00      	cmp	r6, #0
+  46:	d046      	beq.n	d6 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xd6>
+  48:	68f7      	ldr	r7, [r6, #12]
+  4a:	2f00      	cmp	r7, #0
+  4c:	d069      	beq.n	122 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x122>
+  4e:	f8d7 800c 	ldr.w	r8, [r7, #12]
+  52:	f1b8 0f00 	cmp.w	r8, #0
+  56:	d019      	beq.n	8c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x8c>
+  58:	f8d8 000c 	ldr.w	r0, [r8, #12]
+  5c:	f8cd 8004 	str.w	r8, [sp, #4]
+  60:	f7ff ffce 	bl	0 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0>
+  64:	9a01      	ldr	r2, [sp, #4]
+  66:	f8d8 8008 	ldr.w	r8, [r8, #8]
+  6a:	6910      	ldr	r0, [r2, #16]
+  6c:	f102 0118 	add.w	r1, r2, #24
+  70:	4288      	cmp	r0, r1
+  72:	d004      	beq.n	7e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x7e>
+  74:	6991      	ldr	r1, [r2, #24]
+  76:	3101      	adds	r1, #1
+  78:	f7ff fffe 	bl	0 <_ZdlPvj>
+  7c:	9a01      	ldr	r2, [sp, #4]
+  7e:	212c      	movs	r1, #44	; 0x2c
+  80:	4610      	mov	r0, r2
+  82:	f7ff fffe 	bl	0 <_ZdlPvj>
+  86:	f1b8 0f00 	cmp.w	r8, #0
+  8a:	d1e5      	bne.n	58 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x58>
+  8c:	6938      	ldr	r0, [r7, #16]
+  8e:	f107 0218 	add.w	r2, r7, #24
+  92:	f8d7 8008 	ldr.w	r8, [r7, #8]
+  96:	4290      	cmp	r0, r2
+  98:	d003      	beq.n	a2 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xa2>
+  9a:	69b9      	ldr	r1, [r7, #24]
+  9c:	3101      	adds	r1, #1
+  9e:	f7ff fffe 	bl	0 <_ZdlPvj>
+  a2:	212c      	movs	r1, #44	; 0x2c
+  a4:	4638      	mov	r0, r7
+  a6:	f7ff fffe 	bl	0 <_ZdlPvj>
+  aa:	f1b8 0f00 	cmp.w	r8, #0
+  ae:	d038      	beq.n	122 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x122>
+  b0:	4647      	mov	r7, r8
+  b2:	e7cc      	b.n	4e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x4e>
+  b4:	6920      	ldr	r0, [r4, #16]
+  b6:	f104 0318 	add.w	r3, r4, #24
+  ba:	68a5      	ldr	r5, [r4, #8]
+  bc:	4298      	cmp	r0, r3
+  be:	d003      	beq.n	c8 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xc8>
+  c0:	69a1      	ldr	r1, [r4, #24]
+  c2:	3101      	adds	r1, #1
+  c4:	f7ff fffe 	bl	0 <_ZdlPvj>
+  c8:	212c      	movs	r1, #44	; 0x2c
+  ca:	4620      	mov	r0, r4
+  cc:	f7ff fffe 	bl	0 <_ZdlPvj>
+  d0:	b19d      	cbz	r5, fa <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xfa>
+  d2:	462c      	mov	r4, r5
+  d4:	e7b2      	b.n	3c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x3c>
+  d6:	6928      	ldr	r0, [r5, #16]
+  d8:	f105 0318 	add.w	r3, r5, #24
+  dc:	68ae      	ldr	r6, [r5, #8]
+  de:	4298      	cmp	r0, r3
+  e0:	d003      	beq.n	ea <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xea>
+  e2:	69a9      	ldr	r1, [r5, #24]
+  e4:	3101      	adds	r1, #1
+  e6:	f7ff fffe 	bl	0 <_ZdlPvj>
+  ea:	212c      	movs	r1, #44	; 0x2c
+  ec:	4628      	mov	r0, r5
+  ee:	f7ff fffe 	bl	0 <_ZdlPvj>
+  f2:	2e00      	cmp	r6, #0
+  f4:	d0de      	beq.n	b4 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xb4>
+  f6:	4635      	mov	r5, r6
+  f8:	e7a3      	b.n	42 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x42>
+  fa:	f8db 0010 	ldr.w	r0, [fp, #16]
+  fe:	f10b 0318 	add.w	r3, fp, #24
+ 102:	f8db 4008 	ldr.w	r4, [fp, #8]
+ 106:	4298      	cmp	r0, r3
+ 108:	d004      	beq.n	114 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x114>
+ 10a:	f8db 1018 	ldr.w	r1, [fp, #24]
+ 10e:	3101      	adds	r1, #1
+ 110:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 114:	212c      	movs	r1, #44	; 0x2c
+ 116:	4658      	mov	r0, fp
+ 118:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 11c:	b1ac      	cbz	r4, 14a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x14a>
+ 11e:	46a3      	mov	fp, r4
+ 120:	e788      	b.n	34 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x34>
+ 122:	6930      	ldr	r0, [r6, #16]
+ 124:	f106 0318 	add.w	r3, r6, #24
+ 128:	f8d6 8008 	ldr.w	r8, [r6, #8]
+ 12c:	4298      	cmp	r0, r3
+ 12e:	d003      	beq.n	138 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x138>
+ 130:	69b1      	ldr	r1, [r6, #24]
+ 132:	3101      	adds	r1, #1
+ 134:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 138:	212c      	movs	r1, #44	; 0x2c
+ 13a:	4630      	mov	r0, r6
+ 13c:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 140:	f1b8 0f00 	cmp.w	r8, #0
+ 144:	d0c7      	beq.n	d6 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xd6>
+ 146:	4646      	mov	r6, r8
+ 148:	e77e      	b.n	48 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x48>
+ 14a:	f8da 0010 	ldr.w	r0, [sl, #16]
+ 14e:	f10a 0318 	add.w	r3, sl, #24
+ 152:	f8da 4008 	ldr.w	r4, [sl, #8]
+ 156:	4298      	cmp	r0, r3
+ 158:	d004      	beq.n	164 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x164>
+ 15a:	f8da 1018 	ldr.w	r1, [sl, #24]
+ 15e:	3101      	adds	r1, #1
+ 160:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 164:	212c      	movs	r1, #44	; 0x2c
+ 166:	4650      	mov	r0, sl
+ 168:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 16c:	b10c      	cbz	r4, 172 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x172>
+ 16e:	46a2      	mov	sl, r4
+ 170:	e75a      	b.n	28 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x28>
+ 172:	f8d9 0010 	ldr.w	r0, [r9, #16]
+ 176:	f109 0318 	add.w	r3, r9, #24
+ 17a:	f8d9 4008 	ldr.w	r4, [r9, #8]
+ 17e:	4298      	cmp	r0, r3
+ 180:	d004      	beq.n	18c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x18c>
+ 182:	f8d9 1018 	ldr.w	r1, [r9, #24]
+ 186:	3101      	adds	r1, #1
+ 188:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 18c:	212c      	movs	r1, #44	; 0x2c
+ 18e:	4648      	mov	r0, r9
+ 190:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 194:	b124      	cbz	r4, 1a0 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x1a0>
+ 196:	46a1      	mov	r9, r4
+ 198:	e740      	b.n	1c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x1c>
+ 19a:	b003      	add	sp, #12
+ 19c:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 1a0:	9a00      	ldr	r2, [sp, #0]
+ 1a2:	6910      	ldr	r0, [r2, #16]
+ 1a4:	f102 0318 	add.w	r3, r2, #24
+ 1a8:	6894      	ldr	r4, [r2, #8]
+ 1aa:	4298      	cmp	r0, r3
+ 1ac:	d003      	beq.n	1b6 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x1b6>
+ 1ae:	6991      	ldr	r1, [r2, #24]
+ 1b0:	3101      	adds	r1, #1
+ 1b2:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 1b6:	212c      	movs	r1, #44	; 0x2c
+ 1b8:	9800      	ldr	r0, [sp, #0]
+ 1ba:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 1be:	2c00      	cmp	r4, #0
+ 1c0:	d0eb      	beq.n	19a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x19a>
+ 1c2:	9400      	str	r4, [sp, #0]
+ 1c4:	e723      	b.n	e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xe>
+ 1c6:	bf00      	nop
+
+Disassembly of section .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev:
+
+00000000 <_ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED1Ev>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	6884      	ldr	r4, [r0, #8]
+   4:	4606      	mov	r6, r0
+   6:	b19c      	cbz	r4, 30 <_ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED1Ev+0x30>
+   8:	4625      	mov	r5, r4
+   a:	68e0      	ldr	r0, [r4, #12]
+   c:	f7ff fffe 	bl	0 <_ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED1Ev>
+  10:	68a4      	ldr	r4, [r4, #8]
+  12:	6928      	ldr	r0, [r5, #16]
+  14:	f105 0318 	add.w	r3, r5, #24
+  18:	4298      	cmp	r0, r3
+  1a:	d003      	beq.n	24 <_ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED1Ev+0x24>
+  1c:	69a9      	ldr	r1, [r5, #24]
+  1e:	3101      	adds	r1, #1
+  20:	f7ff fffe 	bl	0 <_ZdlPvj>
+  24:	212c      	movs	r1, #44	; 0x2c
+  26:	4628      	mov	r0, r5
+  28:	f7ff fffe 	bl	0 <_ZdlPvj>
+  2c:	2c00      	cmp	r4, #0
+  2e:	d1eb      	bne.n	8 <_ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED1Ev+0x8>
+  30:	4630      	mov	r0, r6
+  32:	bd70      	pop	{r4, r5, r6, pc}
+
+Disassembly of section .text._ZN13SensorManagerC2Ev:
+
+00000000 <_ZN13SensorManagerC1Ev>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4604      	mov	r4, r0
+   4:	f241 30e8 	movw	r0, #5096	; 0x13e8
+   8:	f7ff fffe 	bl	0 <_Znwj>
+   c:	4605      	mov	r5, r0
+   e:	f7ff fffe 	bl	0 <_ZN9RefSystemC1Ev>
+  12:	4628      	mov	r0, r5
+  14:	f8c4 5160 	str.w	r5, [r4, #352]	; 0x160
+  18:	f7ff fffe 	bl	0 <_ZN9RefSystem4initEv>
+  1c:	4620      	mov	r0, r4
+  1e:	bd38      	pop	{r3, r4, r5, pc}
+
+Disassembly of section .text._ZN13SensorManagerD2Ev:
+
+00000000 <_ZN13SensorManagerD1Ev>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZN13SensorManager4readEv:
+
+00000000 <_ZN13SensorManager4readEv>:
+   0:	6803      	ldr	r3, [r0, #0]
+   2:	2b00      	cmp	r3, #0
+   4:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   8:	4605      	mov	r5, r0
+   a:	b085      	sub	sp, #20
+   c:	dd0e      	ble.n	2c <_ZN13SensorManager4readEv+0x2c>
+   e:	f100 0690 	add.w	r6, r0, #144	; 0x90
+  12:	2400      	movs	r4, #0
+  14:	f856 0f04 	ldr.w	r0, [r6, #4]!
+  18:	3401      	adds	r4, #1
+  1a:	6803      	ldr	r3, [r0, #0]
+  1c:	689b      	ldr	r3, [r3, #8]
+  1e:	4798      	blx	r3
+  20:	6830      	ldr	r0, [r6, #0]
+  22:	f7ff fffe 	bl	0 <_ZN11BuffEncoder5printEv>
+  26:	682b      	ldr	r3, [r5, #0]
+  28:	42a3      	cmp	r3, r4
+  2a:	dcf3      	bgt.n	14 <_ZN13SensorManager4readEv+0x14>
+  2c:	686b      	ldr	r3, [r5, #4]
+  2e:	2b00      	cmp	r3, #0
+  30:	dd0e      	ble.n	50 <_ZN13SensorManager4readEv+0x50>
+  32:	f105 0650 	add.w	r6, r5, #80	; 0x50
+  36:	2400      	movs	r4, #0
+  38:	f856 0f04 	ldr.w	r0, [r6, #4]!
+  3c:	3401      	adds	r4, #1
+  3e:	6803      	ldr	r3, [r0, #0]
+  40:	689b      	ldr	r3, [r3, #8]
+  42:	4798      	blx	r3
+  44:	6830      	ldr	r0, [r6, #0]
+  46:	f7ff fffe 	bl	0 <_ZN9IMUSensor5printEv>
+  4a:	686b      	ldr	r3, [r5, #4]
+  4c:	42a3      	cmp	r3, r4
+  4e:	dcf3      	bgt.n	38 <_ZN13SensorManager4readEv+0x38>
+  50:	68ab      	ldr	r3, [r5, #8]
+  52:	2b00      	cmp	r3, #0
+  54:	dd0e      	ble.n	74 <_ZN13SensorManager4readEv+0x74>
+  56:	f105 06d0 	add.w	r6, r5, #208	; 0xd0
+  5a:	2400      	movs	r4, #0
+  5c:	f856 0f04 	ldr.w	r0, [r6, #4]!
+  60:	3401      	adds	r4, #1
+  62:	6803      	ldr	r3, [r0, #0]
+  64:	689b      	ldr	r3, [r3, #8]
+  66:	4798      	blx	r3
+  68:	6830      	ldr	r0, [r6, #0]
+  6a:	f7ff fffe 	bl	0 <_ZN10RevEncoder5printEv>
+  6e:	68ab      	ldr	r3, [r5, #8]
+  70:	42a3      	cmp	r3, r4
+  72:	dcf3      	bgt.n	5c <_ZN13SensorManager4readEv+0x5c>
+  74:	692b      	ldr	r3, [r5, #16]
+  76:	2b00      	cmp	r3, #0
+  78:	dd09      	ble.n	8e <_ZN13SensorManager4readEv+0x8e>
+  7a:	f8d5 0154 	ldr.w	r0, [r5, #340]	; 0x154
+  7e:	6803      	ldr	r3, [r0, #0]
+  80:	689b      	ldr	r3, [r3, #8]
+  82:	4798      	blx	r3
+  84:	f8d5 0158 	ldr.w	r0, [r5, #344]	; 0x158
+  88:	6803      	ldr	r3, [r0, #0]
+  8a:	689b      	ldr	r3, [r3, #8]
+  8c:	4798      	blx	r3
+  8e:	f8d5 0160 	ldr.w	r0, [r5, #352]	; 0x160
+  92:	f7ff fffe 	bl	0 <_ZN9RefSystem4readEv>
+  96:	68eb      	ldr	r3, [r5, #12]
+  98:	2b00      	cmp	r3, #0
+  9a:	dd33      	ble.n	104 <_ZN13SensorManager4readEv+0x104>
+  9c:	f505 7788 	add.w	r7, r5, #272	; 0x110
+  a0:	2600      	movs	r6, #0
+  a2:	f8df b078 	ldr.w	fp, [pc, #120]	; 11c <_ZN13SensorManager4readEv+0x11c>
+  a6:	f8df a078 	ldr.w	sl, [pc, #120]	; 120 <_ZN13SensorManager4readEv+0x120>
+  aa:	f8df 8078 	ldr.w	r8, [pc, #120]	; 124 <_ZN13SensorManager4readEv+0x124>
+  ae:	f8df 9078 	ldr.w	r9, [pc, #120]	; 128 <_ZN13SensorManager4readEv+0x128>
+  b2:	f857 4f04 	ldr.w	r4, [r7, #4]!
+  b6:	4669      	mov	r1, sp
+  b8:	6823      	ldr	r3, [r4, #0]
+  ba:	f104 000c 	add.w	r0, r4, #12
+  be:	689b      	ldr	r3, [r3, #8]
+  c0:	455b      	cmp	r3, fp
+  c2:	d128      	bne.n	116 <_ZN13SensorManager4readEv+0x116>
+  c4:	7f23      	ldrb	r3, [r4, #28]
+  c6:	b303      	cbz	r3, 10a <_ZN13SensorManager4readEv+0x10a>
+  c8:	f7ff fffe 	bl	0 <_ZN8VL53L4CD18VL53L4CD_GetResultEP17VL53L4CD_Result_t>
+  cc:	7f23      	ldrb	r3, [r4, #28]
+  ce:	f8bd 2002 	ldrh.w	r2, [sp, #2]
+  d2:	7961      	ldrb	r1, [r4, #5]
+  d4:	f083 0301 	eor.w	r3, r3, #1
+  d8:	83e2      	strh	r2, [r4, #30]
+  da:	f884 1020 	strb.w	r1, [r4, #32]
+  de:	8462      	strh	r2, [r4, #34]	; 0x22
+  e0:	7723      	strb	r3, [r4, #28]
+  e2:	210b      	movs	r1, #11
+  e4:	683c      	ldr	r4, [r7, #0]
+  e6:	4650      	mov	r0, sl
+  e8:	3601      	adds	r6, #1
+  ea:	f7ff fffe 	bl	0 <usb_serial_write>
+  ee:	4640      	mov	r0, r8
+  f0:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  f4:	8be2      	ldrh	r2, [r4, #30]
+  f6:	4649      	mov	r1, r9
+  f8:	4640      	mov	r0, r8
+  fa:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  fe:	68eb      	ldr	r3, [r5, #12]
+ 100:	42b3      	cmp	r3, r6
+ 102:	dcd6      	bgt.n	b2 <_ZN13SensorManager4readEv+0xb2>
+ 104:	b005      	add	sp, #20
+ 106:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 10a:	f7ff fffe 	bl	0 <_ZN8VL53L4CD23VL53L4CD_ClearInterruptEv>
+ 10e:	7f23      	ldrb	r3, [r4, #28]
+ 110:	f083 0301 	eor.w	r3, r3, #1
+ 114:	e7e4      	b.n	e0 <_ZN13SensorManager4readEv+0xe0>
+ 116:	4620      	mov	r0, r4
+ 118:	4798      	blx	r3
+ 11a:	e7e2      	b.n	e2 <_ZN13SensorManager4readEv+0xe2>
+ 11c:	00000000 	.word	0x00000000
+ 120:	00000000 	.word	0x00000000
+ 124:	00000000 	.word	0x00000000
+ 128:	0000000c 	.word	0x0000000c
+
+Disassembly of section .text._ZN13SensorManager16get_buff_encoderEi:
+
+00000000 <_ZN13SensorManager16get_buff_encoderEi>:
+   0:	eb00 0181 	add.w	r1, r0, r1, lsl #2
+   4:	f8d1 0094 	ldr.w	r0, [r1, #148]	; 0x94
+   8:	4770      	bx	lr
+   a:	bf00      	nop
+
+Disassembly of section .text._ZN13SensorManager14get_icm_sensorEi:
+
+00000000 <_ZN13SensorManager14get_icm_sensorEi>:
+   0:	eb00 0181 	add.w	r1, r0, r1, lsl #2
+   4:	6d48      	ldr	r0, [r1, #84]	; 0x54
+   6:	4770      	bx	lr
+
+Disassembly of section .text._ZN13SensorManager14get_rev_sensorEi:
+
+00000000 <_ZN13SensorManager14get_rev_sensorEi>:
+   0:	eb00 0181 	add.w	r1, r0, r1, lsl #2
+   4:	f8d1 00d4 	ldr.w	r0, [r1, #212]	; 0xd4
+   8:	4770      	bx	lr
+   a:	bf00      	nop
+
+Disassembly of section .text._ZN13SensorManager14get_tof_sensorEi:
+
+00000000 <_ZN13SensorManager14get_tof_sensorEi>:
+   0:	eb00 0181 	add.w	r1, r0, r1, lsl #2
+   4:	f8d1 0114 	ldr.w	r0, [r1, #276]	; 0x114
+   8:	4770      	bx	lr
+   a:	bf00      	nop
+
+Disassembly of section .text._ZN13SensorManager16get_lidar_sensorEi:
+
+00000000 <_ZN13SensorManager16get_lidar_sensorEi>:
+   0:	b129      	cbz	r1, e <_ZN13SensorManager16get_lidar_sensorEi+0xe>
+   2:	2901      	cmp	r1, #1
+   4:	bf0c      	ite	eq
+   6:	f8d0 0158 	ldreq.w	r0, [r0, #344]	; 0x158
+   a:	2000      	movne	r0, #0
+   c:	4770      	bx	lr
+   e:	f8d0 0154 	ldr.w	r0, [r0, #340]	; 0x154
+  12:	4770      	bx	lr
+
+Disassembly of section .text._ZN13SensorManager14calibrate_imusEv:
+
+00000000 <_ZN13SensorManager14calibrate_imusEv>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	ed2d 8b04 	vpush	{d8-d9}
+   6:	ed9f 8a29 	vldr	s16, [pc, #164]	; ac <_ZN13SensorManager14calibrate_imusEv+0xac>
+   a:	b085      	sub	sp, #20
+   c:	4605      	mov	r5, r0
+   e:	2114      	movs	r1, #20
+  10:	4827      	ldr	r0, [pc, #156]	; (b0 <_ZN13SensorManager14calibrate_imusEv+0xb0>)
+  12:	eeb0 9a48 	vmov.f32	s18, s16
+  16:	f7ff fffe 	bl	0 <usb_serial_write>
+  1a:	eef0 8a48 	vmov.f32	s17, s16
+  1e:	4825      	ldr	r0, [pc, #148]	; (b4 <_ZN13SensorManager14calibrate_imusEv+0xb4>)
+  20:	f24c 3450 	movw	r4, #50000	; 0xc350
+  24:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  28:	6d68      	ldr	r0, [r5, #84]	; 0x54
+  2a:	6803      	ldr	r3, [r0, #0]
+  2c:	689b      	ldr	r3, [r3, #8]
+  2e:	4798      	blx	r3
+  30:	6d68      	ldr	r0, [r5, #84]	; 0x54
+  32:	3c01      	subs	r4, #1
+  34:	edd0 6a20 	vldr	s13, [r0, #128]	; 0x80
+  38:	ed90 5a23 	vldr	s10, [r0, #140]	; 0x8c
+  3c:	ed90 7a21 	vldr	s14, [r0, #132]	; 0x84
+  40:	edd0 5a24 	vldr	s11, [r0, #144]	; 0x90
+  44:	ee76 6ac5 	vsub.f32	s13, s13, s10
+  48:	edd0 7a22 	vldr	s15, [r0, #136]	; 0x88
+  4c:	ed90 6a25 	vldr	s12, [r0, #148]	; 0x94
+  50:	ee37 7a65 	vsub.f32	s14, s14, s11
+  54:	ee78 8aa6 	vadd.f32	s17, s17, s13
+  58:	ee77 7ac6 	vsub.f32	s15, s15, s12
+  5c:	ee39 9a07 	vadd.f32	s18, s18, s14
+  60:	ee38 8a27 	vadd.f32	s16, s16, s15
+  64:	d1e1      	bne.n	2a <_ZN13SensorManager14calibrate_imusEv+0x2a>
+  66:	eddf 7a14 	vldr	s15, [pc, #80]	; b8 <_ZN13SensorManager14calibrate_imusEv+0xb8>
+  6a:	4914      	ldr	r1, [pc, #80]	; (bc <_ZN13SensorManager14calibrate_imusEv+0xbc>)
+  6c:	eec9 9a27 	vdiv.f32	s19, s18, s15
+  70:	4810      	ldr	r0, [pc, #64]	; (b4 <_ZN13SensorManager14calibrate_imusEv+0xb4>)
+  72:	ee88 9a27 	vdiv.f32	s18, s16, s15
+  76:	ee88 8aa7 	vdiv.f32	s16, s17, s15
+  7a:	eeb7 7ae9 	vcvt.f64.f32	d7, s19
+  7e:	ed8d 7b00 	vstr	d7, [sp]
+  82:	eeb7 6ac9 	vcvt.f64.f32	d6, s18
+  86:	ed8d 6b02 	vstr	d6, [sp, #8]
+  8a:	eeb7 5ac8 	vcvt.f64.f32	d5, s16
+  8e:	ec53 2b15 	vmov	r2, r3, d5
+  92:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  96:	6d6b      	ldr	r3, [r5, #84]	; 0x54
+  98:	ed83 8a23 	vstr	s16, [r3, #140]	; 0x8c
+  9c:	edc3 9a24 	vstr	s19, [r3, #144]	; 0x90
+  a0:	ed83 9a25 	vstr	s18, [r3, #148]	; 0x94
+  a4:	b005      	add	sp, #20
+  a6:	ecbd 8b04 	vpop	{d8-d9}
+  aa:	bd30      	pop	{r4, r5, pc}
+  ac:	00000000 	.word	0x00000000
+  b0:	00000000 	.word	0x00000000
+  b4:	00000000 	.word	0x00000000
+  b8:	47435000 	.word	0x47435000
+  bc:	00000018 	.word	0x00000018
+
+Disassembly of section .text._ZN13SensorManager4initEPK6Config:
+
+00000000 <_ZN13SensorManager4initEPK6Config>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	f8d1 334c 	ldr.w	r3, [r1, #844]	; 0x34c
+   8:	4605      	mov	r5, r0
+   a:	f8d1 4344 	ldr.w	r4, [r1, #836]	; 0x344
+   e:	b085      	sub	sp, #20
+  10:	460e      	mov	r6, r1
+  12:	e9c0 4300 	strd	r4, r3, [r0]
+  16:	f8d1 3348 	ldr.w	r3, [r1, #840]	; 0x348
+  1a:	6083      	str	r3, [r0, #8]
+  1c:	e9d1 23d4 	ldrd	r2, r3, [r1, #848]	; 0x350
+  20:	60c2      	str	r2, [r0, #12]
+  22:	f501 7050 	add.w	r0, r1, #832	; 0x340
+  26:	460a      	mov	r2, r1
+  28:	612b      	str	r3, [r5, #16]
+  2a:	edd2 7a01 	vldr	s15, [r2, #4]
+  2e:	3234      	adds	r2, #52	; 0x34
+  30:	eefd 7ae7 	vcvt.s32.f32	s15, s15
+  34:	ee17 3a90 	vmov	r3, s15
+  38:	eb05 0183 	add.w	r1, r5, r3, lsl #2
+  3c:	3301      	adds	r3, #1
+  3e:	d002      	beq.n	46 <_ZN13SensorManager4initEPK6Config+0x46>
+  40:	694b      	ldr	r3, [r1, #20]
+  42:	3301      	adds	r3, #1
+  44:	614b      	str	r3, [r1, #20]
+  46:	4282      	cmp	r2, r0
+  48:	d1ef      	bne.n	2a <_ZN13SensorManager4initEPK6Config+0x2a>
+  4a:	2c00      	cmp	r4, #0
+  4c:	dd36      	ble.n	bc <_ZN13SensorManager4initEPK6Config+0xbc>
+  4e:	f105 0990 	add.w	r9, r5, #144	; 0x90
+  52:	f04f 0800 	mov.w	r8, #0
+  56:	4caa      	ldr	r4, [pc, #680]	; (300 <_ZN13SensorManager4initEPK6Config+0x300>)
+  58:	f04f 0a00 	mov.w	sl, #0
+  5c:	4fa9      	ldr	r7, [pc, #676]	; (304 <_ZN13SensorManager4initEPK6Config+0x304>)
+  5e:	edd6 7a02 	vldr	s15, [r6, #8]
+  62:	2101      	movs	r1, #1
+  64:	3634      	adds	r6, #52	; 0x34
+  66:	eefc 7ae7 	vcvt.u32.f32	s15, s15
+  6a:	4488      	add	r8, r1
+  6c:	edcd 7a01 	vstr	s15, [sp, #4]
+  70:	f89d 0004 	ldrb.w	r0, [sp, #4]
+  74:	f7ff fffe 	bl	0 <pinMode>
+  78:	ed56 7a0b 	vldr	s15, [r6, #-44]	; 0xffffffd4
+  7c:	2101      	movs	r1, #1
+  7e:	eefc 7ae7 	vcvt.u32.f32	s15, s15
+  82:	edcd 7a01 	vstr	s15, [sp, #4]
+  86:	f89d 0004 	ldrb.w	r0, [sp, #4]
+  8a:	f7ff fffe 	bl	0 <digitalWrite>
+  8e:	2018      	movs	r0, #24
+  90:	f7ff fffe 	bl	0 <_Znwj>
+  94:	7823      	ldrb	r3, [r4, #0]
+  96:	ed56 7a0b 	vldr	s15, [r6, #-44]	; 0xffffffd4
+  9a:	2100      	movs	r1, #0
+  9c:	1c5a      	adds	r2, r3, #1
+  9e:	7143      	strb	r3, [r0, #5]
+  a0:	eefd 7ae7 	vcvt.s32.f32	s15, s15
+  a4:	7101      	strb	r1, [r0, #4]
+  a6:	7022      	strb	r2, [r4, #0]
+  a8:	682b      	ldr	r3, [r5, #0]
+  aa:	6007      	str	r7, [r0, #0]
+  ac:	4543      	cmp	r3, r8
+  ae:	edc0 7a02 	vstr	s15, [r0, #8]
+  b2:	f8c0 a00c 	str.w	sl, [r0, #12]
+  b6:	f849 0f04 	str.w	r0, [r9, #4]!
+  ba:	dcd0      	bgt.n	5e <_ZN13SensorManager4initEPK6Config+0x5e>
+  bc:	2101      	movs	r1, #1
+  be:	200a      	movs	r0, #10
+  c0:	f7ff fffe 	bl	0 <pinMode>
+  c4:	2101      	movs	r1, #1
+  c6:	200a      	movs	r0, #10
+  c8:	f7ff fffe 	bl	0 <digitalWrite>
+  cc:	210c      	movs	r1, #12
+  ce:	488e      	ldr	r0, [pc, #568]	; (308 <_ZN13SensorManager4initEPK6Config+0x308>)
+  d0:	f7ff fffe 	bl	0 <usb_serial_write>
+  d4:	488d      	ldr	r0, [pc, #564]	; (30c <_ZN13SensorManager4initEPK6Config+0x30c>)
+  d6:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  da:	488d      	ldr	r0, [pc, #564]	; (310 <_ZN13SensorManager4initEPK6Config+0x310>)
+  dc:	f7ff fffe 	bl	0 <_ZN8SPIClass5beginEv>
+  e0:	686b      	ldr	r3, [r5, #4]
+  e2:	2b00      	cmp	r3, #0
+  e4:	dd3a      	ble.n	15c <_ZN13SensorManager4initEPK6Config+0x15c>
+  e6:	f105 0850 	add.w	r8, r5, #80	; 0x50
+  ea:	f04f 0b00 	mov.w	fp, #0
+  ee:	4c84      	ldr	r4, [pc, #528]	; (300 <_ZN13SensorManager4initEPK6Config+0x300>)
+  f0:	f04f 0901 	mov.w	r9, #1
+  f4:	f8df a22c 	ldr.w	sl, [pc, #556]	; 324 <_ZN13SensorManager4initEPK6Config+0x324>
+  f8:	2700      	movs	r7, #0
+  fa:	f44f 7096 	mov.w	r0, #300	; 0x12c
+  fe:	f10b 0b01 	add.w	fp, fp, #1
+ 102:	f7ff fffe 	bl	0 <_Znwj>
+ 106:	7823      	ldrb	r3, [r4, #0]
+ 108:	4606      	mov	r6, r0
+ 10a:	f880 9004 	strb.w	r9, [r0, #4]
+ 10e:	1c5a      	adds	r2, r3, #1
+ 110:	7143      	strb	r3, [r0, #5]
+ 112:	6747      	str	r7, [r0, #116]	; 0x74
+ 114:	6787      	str	r7, [r0, #120]	; 0x78
+ 116:	67c7      	str	r7, [r0, #124]	; 0x7c
+ 118:	f8c0 7080 	str.w	r7, [r0, #128]	; 0x80
+ 11c:	f8c0 7084 	str.w	r7, [r0, #132]	; 0x84
+ 120:	f8c0 7088 	str.w	r7, [r0, #136]	; 0x88
+ 124:	f8c0 708c 	str.w	r7, [r0, #140]	; 0x8c
+ 128:	f8c0 7090 	str.w	r7, [r0, #144]	; 0x90
+ 12c:	f8c0 7094 	str.w	r7, [r0, #148]	; 0x94
+ 130:	f8c0 7098 	str.w	r7, [r0, #152]	; 0x98
+ 134:	f840 ab9c 	str.w	sl, [r0], #156
+ 138:	7022      	strb	r2, [r4, #0]
+ 13a:	f7ff fffe 	bl	0 <_ZN17Adafruit_ICM20649C1Ev>
+ 13e:	2101      	movs	r1, #1
+ 140:	4630      	mov	r0, r6
+ 142:	f848 6f04 	str.w	r6, [r8, #4]!
+ 146:	f7ff fffe 	bl	0 <_ZN8ICM206494initENS_21CommunicationProtocolE>
+ 14a:	f44f 617a 	mov.w	r1, #4000	; 0xfa0
+ 14e:	f8d8 0000 	ldr.w	r0, [r8]
+ 152:	f7ff fffe 	bl	0 <_ZN8ICM2064914set_gyro_rangeEi>
+ 156:	686b      	ldr	r3, [r5, #4]
+ 158:	455b      	cmp	r3, fp
+ 15a:	dcce      	bgt.n	fa <_ZN13SensorManager4initEPK6Config+0xfa>
+ 15c:	4628      	mov	r0, r5
+ 15e:	f7ff fffe 	bl	0 <_ZN13SensorManager4initEPK6Config>
+ 162:	68ab      	ldr	r3, [r5, #8]
+ 164:	2b00      	cmp	r3, #0
+ 166:	dd2a      	ble.n	1be <_ZN13SensorManager4initEPK6Config+0x1be>
+ 168:	f105 07d0 	add.w	r7, r5, #208	; 0xd0
+ 16c:	2600      	movs	r6, #0
+ 16e:	4c64      	ldr	r4, [pc, #400]	; (300 <_ZN13SensorManager4initEPK6Config+0x300>)
+ 170:	f04f 0802 	mov.w	r8, #2
+ 174:	f8df 91b0 	ldr.w	r9, [pc, #432]	; 328 <_ZN13SensorManager4initEPK6Config+0x328>
+ 178:	f04f 0a00 	mov.w	sl, #0
+ 17c:	20fc      	movs	r0, #252	; 0xfc
+ 17e:	f7ff fffe 	bl	0 <_Znwj>
+ 182:	f894 e000 	ldrb.w	lr, [r4]
+ 186:	f04f 0c00 	mov.w	ip, #0
+ 18a:	1cb1      	adds	r1, r6, #2
+ 18c:	f10e 0201 	add.w	r2, lr, #1
+ 190:	f880 8004 	strb.w	r8, [r0, #4]
+ 194:	b2c9      	uxtb	r1, r1
+ 196:	f880 e005 	strb.w	lr, [r0, #5]
+ 19a:	7022      	strb	r2, [r4, #0]
+ 19c:	2201      	movs	r2, #1
+ 19e:	f847 0f04 	str.w	r0, [r7, #4]!
+ 1a2:	f8c0 9000 	str.w	r9, [r0]
+ 1a6:	4416      	add	r6, r2
+ 1a8:	f8c0 c0d4 	str.w	ip, [r0, #212]	; 0xd4
+ 1ac:	f8a0 c0e0 	strh.w	ip, [r0, #224]	; 0xe0
+ 1b0:	f8c0 a0ec 	str.w	sl, [r0, #236]	; 0xec
+ 1b4:	f7ff fffe 	bl	0 <_ZN10RevEncoder4initEhb>
+ 1b8:	68ab      	ldr	r3, [r5, #8]
+ 1ba:	42b3      	cmp	r3, r6
+ 1bc:	dcde      	bgt.n	17c <_ZN13SensorManager4initEPK6Config+0x17c>
+ 1be:	68eb      	ldr	r3, [r5, #12]
+ 1c0:	2b00      	cmp	r3, #0
+ 1c2:	f340 8081 	ble.w	2c8 <_ZN13SensorManager4initEPK6Config+0x2c8>
+ 1c6:	2700      	movs	r7, #0
+ 1c8:	f505 7a88 	add.w	sl, r5, #272	; 0x110
+ 1cc:	4c4c      	ldr	r4, [pc, #304]	; (300 <_ZN13SensorManager4initEPK6Config+0x300>)
+ 1ce:	f8df 815c 	ldr.w	r8, [pc, #348]	; 32c <_ZN13SensorManager4initEPK6Config+0x32c>
+ 1d2:	46b9      	mov	r9, r7
+ 1d4:	e03c      	b.n	250 <_ZN13SensorManager4initEPK6Config+0x250>
+ 1d6:	200a      	movs	r0, #10
+ 1d8:	f7ff fffe 	bl	0 <delay>
+ 1dc:	f8db 0014 	ldr.w	r0, [fp, #20]
+ 1e0:	2800      	cmp	r0, #0
+ 1e2:	db03      	blt.n	1ec <_ZN13SensorManager4initEPK6Config+0x1ec>
+ 1e4:	b2c0      	uxtb	r0, r0
+ 1e6:	2100      	movs	r1, #0
+ 1e8:	f7ff fffe 	bl	0 <digitalWrite>
+ 1ec:	200a      	movs	r0, #10
+ 1ee:	f7ff fffe 	bl	0 <delay>
+ 1f2:	f8db 0014 	ldr.w	r0, [fp, #20]
+ 1f6:	2800      	cmp	r0, #0
+ 1f8:	db03      	blt.n	202 <_ZN13SensorManager4initEPK6Config+0x202>
+ 1fa:	b2c0      	uxtb	r0, r0
+ 1fc:	2101      	movs	r1, #1
+ 1fe:	f7ff fffe 	bl	0 <digitalWrite>
+ 202:	200a      	movs	r0, #10
+ 204:	f7ff fffe 	bl	0 <delay>
+ 208:	f8bb 3018 	ldrh.w	r3, [fp, #24]
+ 20c:	2b52      	cmp	r3, #82	; 0x52
+ 20e:	d004      	beq.n	21a <_ZN13SensorManager4initEPK6Config+0x21a>
+ 210:	2152      	movs	r1, #82	; 0x52
+ 212:	4630      	mov	r0, r6
+ 214:	f7ff fffe 	bl	0 <_ZN8VL53L4CD22VL53L4CD_SetI2CAddressEh>
+ 218:	b970      	cbnz	r0, 238 <_ZN13SensorManager4initEPK6Config+0x238>
+ 21a:	f10d 010e 	add.w	r1, sp, #14
+ 21e:	4630      	mov	r0, r6
+ 220:	f7ff fffe 	bl	0 <_ZN8VL53L4CD20VL53L4CD_GetSensorIdEPt>
+ 224:	b128      	cbz	r0, 232 <_ZN13SensorManager4initEPK6Config+0x232>
+ 226:	f64e 33aa 	movw	r3, #60330	; 0xebaa
+ 22a:	f8bd 200e 	ldrh.w	r2, [sp, #14]
+ 22e:	429a      	cmp	r2, r3
+ 230:	d102      	bne.n	238 <_ZN13SensorManager4initEPK6Config+0x238>
+ 232:	4630      	mov	r0, r6
+ 234:	f7ff fffe 	bl	0 <_ZN8VL53L4CD19VL53L4CD_SensorInitEv>
+ 238:	2200      	movs	r2, #0
+ 23a:	21c8      	movs	r1, #200	; 0xc8
+ 23c:	4630      	mov	r0, r6
+ 23e:	3701      	adds	r7, #1
+ 240:	f7ff fffe 	bl	0 <_ZN8VL53L4CD23VL53L4CD_SetRangeTimingEmm>
+ 244:	4630      	mov	r0, r6
+ 246:	f7ff fffe 	bl	0 <_ZN8VL53L4CD21VL53L4CD_StartRangingEv>
+ 24a:	68eb      	ldr	r3, [r5, #12]
+ 24c:	42bb      	cmp	r3, r7
+ 24e:	dd3b      	ble.n	2c8 <_ZN13SensorManager4initEPK6Config+0x2c8>
+ 250:	2024      	movs	r0, #36	; 0x24
+ 252:	f04f 36ff 	mov.w	r6, #4294967295	; 0xffffffff
+ 256:	f7ff fffe 	bl	0 <_Znwj>
+ 25a:	7822      	ldrb	r2, [r4, #0]
+ 25c:	4683      	mov	fp, r0
+ 25e:	2103      	movs	r1, #3
+ 260:	4b2c      	ldr	r3, [pc, #176]	; (314 <_ZN13SensorManager4initEPK6Config+0x314>)
+ 262:	1c50      	adds	r0, r2, #1
+ 264:	f88b 1004 	strb.w	r1, [fp, #4]
+ 268:	2152      	movs	r1, #82	; 0x52
+ 26a:	f8cb 3000 	str.w	r3, [fp]
+ 26e:	4b2a      	ldr	r3, [pc, #168]	; (318 <_ZN13SensorManager4initEPK6Config+0x318>)
+ 270:	7020      	strb	r0, [r4, #0]
+ 272:	4640      	mov	r0, r8
+ 274:	f8cb 6014 	str.w	r6, [fp, #20]
+ 278:	f10b 060c 	add.w	r6, fp, #12
+ 27c:	f84a bf04 	str.w	fp, [sl, #4]!
+ 280:	f88b 2005 	strb.w	r2, [fp, #5]
+ 284:	f8cb 8008 	str.w	r8, [fp, #8]
+ 288:	f8ab 1018 	strh.w	r1, [fp, #24]
+ 28c:	f88b 901c 	strb.w	r9, [fp, #28]
+ 290:	f8ab 901e 	strh.w	r9, [fp, #30]
+ 294:	e9cb 3803 	strd	r3, r8, [fp, #12]
+ 298:	f7ff fffe 	bl	0 <_ZN7TwoWire5beginEv>
+ 29c:	f8db 0014 	ldr.w	r0, [fp, #20]
+ 2a0:	2800      	cmp	r0, #0
+ 2a2:	db98      	blt.n	1d6 <_ZN13SensorManager4initEPK6Config+0x1d6>
+ 2a4:	b2c0      	uxtb	r0, r0
+ 2a6:	2101      	movs	r1, #1
+ 2a8:	f7ff fffe 	bl	0 <pinMode>
+ 2ac:	f89b 0014 	ldrb.w	r0, [fp, #20]
+ 2b0:	2100      	movs	r1, #0
+ 2b2:	f7ff fffe 	bl	0 <digitalWrite>
+ 2b6:	f8db 0014 	ldr.w	r0, [fp, #20]
+ 2ba:	2800      	cmp	r0, #0
+ 2bc:	db8b      	blt.n	1d6 <_ZN13SensorManager4initEPK6Config+0x1d6>
+ 2be:	b2c0      	uxtb	r0, r0
+ 2c0:	2100      	movs	r1, #0
+ 2c2:	f7ff fffe 	bl	0 <digitalWrite>
+ 2c6:	e786      	b.n	1d6 <_ZN13SensorManager4initEPK6Config+0x1d6>
+ 2c8:	692b      	ldr	r3, [r5, #16]
+ 2ca:	2b00      	cmp	r3, #0
+ 2cc:	dd15      	ble.n	2fa <_ZN13SensorManager4initEPK6Config+0x2fa>
+ 2ce:	f44f 7002 	mov.w	r0, #520	; 0x208
+ 2d2:	f7ff fffe 	bl	0 <_Znwj>
+ 2d6:	4604      	mov	r4, r0
+ 2d8:	2200      	movs	r2, #0
+ 2da:	4910      	ldr	r1, [pc, #64]	; (31c <_ZN13SensorManager4initEPK6Config+0x31c>)
+ 2dc:	f7ff fffe 	bl	0 <_ZN9D200LD14PC1EP14HardwareSerialh>
+ 2e0:	f8c5 4154 	str.w	r4, [r5, #340]	; 0x154
+ 2e4:	f44f 7002 	mov.w	r0, #520	; 0x208
+ 2e8:	f7ff fffe 	bl	0 <_Znwj>
+ 2ec:	4604      	mov	r4, r0
+ 2ee:	2201      	movs	r2, #1
+ 2f0:	490b      	ldr	r1, [pc, #44]	; (320 <_ZN13SensorManager4initEPK6Config+0x320>)
+ 2f2:	f7ff fffe 	bl	0 <_ZN9D200LD14PC1EP14HardwareSerialh>
+ 2f6:	f8c5 4158 	str.w	r4, [r5, #344]	; 0x158
+ 2fa:	b005      	add	sp, #20
+ 2fc:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 300:	00000000 	.word	0x00000000
+ 304:	00000008 	.word	0x00000008
+ 308:	00000000 	.word	0x00000000
+ 30c:	00000000 	.word	0x00000000
+ 310:	00000000 	.word	0x00000000
+ 314:	00000008 	.word	0x00000008
+ 318:	00000008 	.word	0x00000008
+ 31c:	00000000 	.word	0x00000000
+ 320:	00000000 	.word	0x00000000
+ 324:	00000008 	.word	0x00000008
+ 328:	00000008 	.word	0x00000008
+ 32c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN13SensorManager15get_num_sensorsE10SensorType:
+
+00000000 <_ZN13SensorManager15get_num_sensorsE10SensorType>:
+   0:	2904      	cmp	r1, #4
+   2:	d80e      	bhi.n	22 <_ZN13SensorManager15get_num_sensorsE10SensorType+0x22>
+   4:	e8df f001 	tbb	[pc, r1]
+   8:	0b090705 	.word	0x0b090705
+   c:	03          	.byte	0x03
+   d:	00          	.byte	0x00
+   e:	6900      	ldr	r0, [r0, #16]
+  10:	4770      	bx	lr
+  12:	6800      	ldr	r0, [r0, #0]
+  14:	4770      	bx	lr
+  16:	6840      	ldr	r0, [r0, #4]
+  18:	4770      	bx	lr
+  1a:	6880      	ldr	r0, [r0, #8]
+  1c:	4770      	bx	lr
+  1e:	68c0      	ldr	r0, [r0, #12]
+  20:	4770      	bx	lr
+  22:	2000      	movs	r0, #0
+  24:	4770      	bx	lr
+  26:	bf00      	nop
+
+Disassembly of section .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_:
+
+00000000 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	f100 0708 	add.w	r7, r0, #8
+   6:	b083      	sub	sp, #12
+   8:	6007      	str	r7, [r0, #0]
+   a:	b331      	cbz	r1, 5a <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x5a>
+   c:	4604      	mov	r4, r0
+   e:	4608      	mov	r0, r1
+  10:	460e      	mov	r6, r1
+  12:	f7ff fffe 	bl	0 <strlen>
+  16:	280f      	cmp	r0, #15
+  18:	4605      	mov	r5, r0
+  1a:	9001      	str	r0, [sp, #4]
+  1c:	d80c      	bhi.n	38 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x38>
+  1e:	2801      	cmp	r0, #1
+  20:	d107      	bne.n	32 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x32>
+  22:	7833      	ldrb	r3, [r6, #0]
+  24:	7223      	strb	r3, [r4, #8]
+  26:	2300      	movs	r3, #0
+  28:	4620      	mov	r0, r4
+  2a:	6065      	str	r5, [r4, #4]
+  2c:	557b      	strb	r3, [r7, r5]
+  2e:	b003      	add	sp, #12
+  30:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  32:	2800      	cmp	r0, #0
+  34:	d0f7      	beq.n	26 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x26>
+  36:	e008      	b.n	4a <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x4a>
+  38:	2200      	movs	r2, #0
+  3a:	a901      	add	r1, sp, #4
+  3c:	4620      	mov	r0, r4
+  3e:	f7ff fffe 	bl	0 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj>
+  42:	9b01      	ldr	r3, [sp, #4]
+  44:	4607      	mov	r7, r0
+  46:	6020      	str	r0, [r4, #0]
+  48:	60a3      	str	r3, [r4, #8]
+  4a:	462a      	mov	r2, r5
+  4c:	4638      	mov	r0, r7
+  4e:	4631      	mov	r1, r6
+  50:	f7ff fffe 	bl	0 <memcpy>
+  54:	9d01      	ldr	r5, [sp, #4]
+  56:	6827      	ldr	r7, [r4, #0]
+  58:	e7e5      	b.n	26 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x26>
+  5a:	4801      	ldr	r0, [pc, #4]	; (60 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x60>)
+  5c:	f7ff fffe 	bl	0 <_ZSt19__throw_logic_errorPKc>
+  60:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_:
+
+00000000 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	688c      	ldr	r4, [r1, #8]
+   6:	b083      	sub	sp, #12
+   8:	468b      	mov	fp, r1
+   a:	4681      	mov	r9, r0
+   c:	9201      	str	r2, [sp, #4]
+   e:	b3a4      	cbz	r4, 7a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x7a>
+  10:	9b01      	ldr	r3, [sp, #4]
+  12:	e9d3 a800 	ldrd	sl, r8, [r3]
+  16:	e000      	b.n	1a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x1a>
+  18:	4614      	mov	r4, r2
+  1a:	6966      	ldr	r6, [r4, #20]
+  1c:	4645      	mov	r5, r8
+  1e:	6927      	ldr	r7, [r4, #16]
+  20:	4650      	mov	r0, sl
+  22:	45b0      	cmp	r8, r6
+  24:	4639      	mov	r1, r7
+  26:	bf28      	it	cs
+  28:	4635      	movcs	r5, r6
+  2a:	462a      	mov	r2, r5
+  2c:	b115      	cbz	r5, 34 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x34>
+  2e:	f7ff fffe 	bl	0 <memcmp>
+  32:	b908      	cbnz	r0, 38 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x38>
+  34:	eba8 0006 	sub.w	r0, r8, r6
+  38:	2800      	cmp	r0, #0
+  3a:	e9d4 1202 	ldrd	r1, r2, [r4, #8]
+  3e:	bfae      	itee	ge
+  40:	2100      	movge	r1, #0
+  42:	460a      	movlt	r2, r1
+  44:	2101      	movlt	r1, #1
+  46:	2a00      	cmp	r2, #0
+  48:	d1e6      	bne.n	18 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x18>
+  4a:	b9b9      	cbnz	r1, 7c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x7c>
+  4c:	46a3      	mov	fp, r4
+  4e:	b18d      	cbz	r5, 74 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x74>
+  50:	462a      	mov	r2, r5
+  52:	4651      	mov	r1, sl
+  54:	4638      	mov	r0, r7
+  56:	f7ff fffe 	bl	0 <memcmp>
+  5a:	b158      	cbz	r0, 74 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x74>
+  5c:	2800      	cmp	r0, #0
+  5e:	f04f 0300 	mov.w	r3, #0
+  62:	4648      	mov	r0, r9
+  64:	bfb4      	ite	lt
+  66:	e9c9 3b00 	strdlt	r3, fp, [r9]
+  6a:	e9c9 4300 	strdge	r4, r3, [r9]
+  6e:	b003      	add	sp, #12
+  70:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  74:	eba6 0008 	sub.w	r0, r6, r8
+  78:	e7f0      	b.n	5c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x5c>
+  7a:	1d0c      	adds	r4, r1, #4
+  7c:	f8db 300c 	ldr.w	r3, [fp, #12]
+  80:	42a3      	cmp	r3, r4
+  82:	d00e      	beq.n	a2 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0xa2>
+  84:	4620      	mov	r0, r4
+  86:	46a3      	mov	fp, r4
+  88:	f7ff fffe 	bl	0 <_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base>
+  8c:	9b01      	ldr	r3, [sp, #4]
+  8e:	4604      	mov	r4, r0
+  90:	e9d0 7604 	ldrd	r7, r6, [r0, #16]
+  94:	e9d3 a800 	ldrd	sl, r8, [r3]
+  98:	4635      	mov	r5, r6
+  9a:	4546      	cmp	r6, r8
+  9c:	bf28      	it	cs
+  9e:	4645      	movcs	r5, r8
+  a0:	e7d5      	b.n	4e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x4e>
+  a2:	2300      	movs	r3, #0
+  a4:	4648      	mov	r0, r9
+  a6:	e9c9 3400 	strd	r3, r4, [r9]
+  aa:	b003      	add	sp, #12
+  ac:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+
+Disassembly of section .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_:
+
+00000000 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_>:
+   0:	4291      	cmp	r1, r2
+   2:	f000 808b 	beq.w	11c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x11c>
+   6:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   a:	4692      	mov	sl, r2
+   c:	b087      	sub	sp, #28
+   e:	4680      	mov	r8, r0
+  10:	f100 0b04 	add.w	fp, r0, #4
+  14:	f101 041c 	add.w	r4, r1, #28
+  18:	f8d8 3014 	ldr.w	r3, [r8, #20]
+  1c:	f1a4 051c 	sub.w	r5, r4, #28
+  20:	b183      	cbz	r3, 44 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x44>
+  22:	f8d8 9010 	ldr.w	r9, [r8, #16]
+  26:	e954 1607 	ldrd	r1, r6, [r4, #-28]
+  2a:	e9d9 0704 	ldrd	r0, r7, [r9, #16]
+  2e:	42b7      	cmp	r7, r6
+  30:	463a      	mov	r2, r7
+  32:	bf28      	it	cs
+  34:	4632      	movcs	r2, r6
+  36:	b112      	cbz	r2, 3e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x3e>
+  38:	f7ff fffe 	bl	0 <memcmp>
+  3c:	b900      	cbnz	r0, 40 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x40>
+  3e:	1bb8      	subs	r0, r7, r6
+  40:	2800      	cmp	r0, #0
+  42:	db69      	blt.n	118 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x118>
+  44:	462a      	mov	r2, r5
+  46:	4641      	mov	r1, r8
+  48:	a804      	add	r0, sp, #16
+  4a:	f7ff fffe 	bl	0 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_>
+  4e:	e9dd 6904 	ldrd	r6, r9, [sp, #16]
+  52:	f1b9 0f00 	cmp.w	r9, #0
+  56:	d02e      	beq.n	b6 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0xb6>
+  58:	3e00      	subs	r6, #0
+  5a:	bf18      	it	ne
+  5c:	2601      	movne	r6, #1
+  5e:	45cb      	cmp	fp, r9
+  60:	bf08      	it	eq
+  62:	f046 0601 	orreq.w	r6, r6, #1
+  66:	2e00      	cmp	r6, #0
+  68:	d040      	beq.n	ec <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0xec>
+  6a:	202c      	movs	r0, #44	; 0x2c
+  6c:	f7ff fffe 	bl	0 <_Znwj>
+  70:	4605      	mov	r5, r0
+  72:	3018      	adds	r0, #24
+  74:	e954 3707 	ldrd	r3, r7, [r4, #-28]
+  78:	6128      	str	r0, [r5, #16]
+  7a:	42fb      	cmn	r3, r7
+  7c:	d001      	beq.n	82 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x82>
+  7e:	2b00      	cmp	r3, #0
+  80:	d04d      	beq.n	11e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x11e>
+  82:	2f0f      	cmp	r7, #15
+  84:	9703      	str	r7, [sp, #12]
+  86:	d81f      	bhi.n	c8 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0xc8>
+  88:	2f01      	cmp	r7, #1
+  8a:	d11a      	bne.n	c2 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0xc2>
+  8c:	781b      	ldrb	r3, [r3, #0]
+  8e:	762b      	strb	r3, [r5, #24]
+  90:	f04f 0300 	mov.w	r3, #0
+  94:	616f      	str	r7, [r5, #20]
+  96:	464a      	mov	r2, r9
+  98:	55c3      	strb	r3, [r0, r7]
+  9a:	465b      	mov	r3, fp
+  9c:	f814 1c04 	ldrb.w	r1, [r4, #-4]
+  a0:	4630      	mov	r0, r6
+  a2:	f885 1028 	strb.w	r1, [r5, #40]	; 0x28
+  a6:	4629      	mov	r1, r5
+  a8:	f7ff fffe 	bl	0 <_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_>
+  ac:	f8d8 3014 	ldr.w	r3, [r8, #20]
+  b0:	3301      	adds	r3, #1
+  b2:	f8c8 3014 	str.w	r3, [r8, #20]
+  b6:	45a2      	cmp	sl, r4
+  b8:	f104 031c 	add.w	r3, r4, #28
+  bc:	d029      	beq.n	112 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x112>
+  be:	461c      	mov	r4, r3
+  c0:	e7aa      	b.n	18 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x18>
+  c2:	2f00      	cmp	r7, #0
+  c4:	d0e4      	beq.n	90 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x90>
+  c6:	e00a      	b.n	de <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0xde>
+  c8:	2200      	movs	r2, #0
+  ca:	a903      	add	r1, sp, #12
+  cc:	f105 0010 	add.w	r0, r5, #16
+  d0:	9301      	str	r3, [sp, #4]
+  d2:	f7ff fffe 	bl	0 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj>
+  d6:	9a03      	ldr	r2, [sp, #12]
+  d8:	9b01      	ldr	r3, [sp, #4]
+  da:	6128      	str	r0, [r5, #16]
+  dc:	61aa      	str	r2, [r5, #24]
+  de:	463a      	mov	r2, r7
+  e0:	4619      	mov	r1, r3
+  e2:	f7ff fffe 	bl	0 <memcpy>
+  e6:	9f03      	ldr	r7, [sp, #12]
+  e8:	6928      	ldr	r0, [r5, #16]
+  ea:	e7d1      	b.n	90 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x90>
+  ec:	f854 6c18 	ldr.w	r6, [r4, #-24]
+  f0:	f8d9 5014 	ldr.w	r5, [r9, #20]
+  f4:	4632      	mov	r2, r6
+  f6:	42ae      	cmp	r6, r5
+  f8:	bf28      	it	cs
+  fa:	462a      	movcs	r2, r5
+  fc:	b132      	cbz	r2, 10c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x10c>
+  fe:	f8d9 1010 	ldr.w	r1, [r9, #16]
+ 102:	f854 0c1c 	ldr.w	r0, [r4, #-28]
+ 106:	f7ff fffe 	bl	0 <memcmp>
+ 10a:	b900      	cbnz	r0, 10e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x10e>
+ 10c:	1b70      	subs	r0, r6, r5
+ 10e:	0fc6      	lsrs	r6, r0, #31
+ 110:	e7ab      	b.n	6a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x6a>
+ 112:	b007      	add	sp, #28
+ 114:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 118:	2600      	movs	r6, #0
+ 11a:	e7a0      	b.n	5e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x5e>
+ 11c:	4770      	bx	lr
+ 11e:	4801      	ldr	r0, [pc, #4]	; (124 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x124>)
+ 120:	f7ff fffe 	bl	0 <_ZSt19__throw_logic_errorPKc>
+ 124:	00000000 	.word	0x00000000
+
+Disassembly of section .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0:
+
+00000000 <_Z41__static_initialization_and_destruction_0ii.constprop.0>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	b0c1      	sub	sp, #260	; 0x104
+   4:	2400      	movs	r4, #0
+   6:	4931      	ldr	r1, [pc, #196]	; (cc <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xcc>)
+   8:	ad01      	add	r5, sp, #4
+   a:	466a      	mov	r2, sp
+   c:	4628      	mov	r0, r5
+   e:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  12:	466a      	mov	r2, sp
+  14:	492e      	ldr	r1, [pc, #184]	; (d0 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xd0>)
+  16:	a808      	add	r0, sp, #32
+  18:	f88d 401c 	strb.w	r4, [sp, #28]
+  1c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  20:	2301      	movs	r3, #1
+  22:	466a      	mov	r2, sp
+  24:	492b      	ldr	r1, [pc, #172]	; (d4 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xd4>)
+  26:	a80f      	add	r0, sp, #60	; 0x3c
+  28:	f88d 3038 	strb.w	r3, [sp, #56]	; 0x38
+  2c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  30:	2302      	movs	r3, #2
+  32:	466a      	mov	r2, sp
+  34:	4928      	ldr	r1, [pc, #160]	; (d8 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xd8>)
+  36:	a816      	add	r0, sp, #88	; 0x58
+  38:	f88d 3054 	strb.w	r3, [sp, #84]	; 0x54
+  3c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  40:	2303      	movs	r3, #3
+  42:	466a      	mov	r2, sp
+  44:	4925      	ldr	r1, [pc, #148]	; (dc <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xdc>)
+  46:	a81d      	add	r0, sp, #116	; 0x74
+  48:	f88d 3070 	strb.w	r3, [sp, #112]	; 0x70
+  4c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  50:	2304      	movs	r3, #4
+  52:	466a      	mov	r2, sp
+  54:	4922      	ldr	r1, [pc, #136]	; (e0 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xe0>)
+  56:	a824      	add	r0, sp, #144	; 0x90
+  58:	f88d 308c 	strb.w	r3, [sp, #140]	; 0x8c
+  5c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  60:	2305      	movs	r3, #5
+  62:	466a      	mov	r2, sp
+  64:	491f      	ldr	r1, [pc, #124]	; (e4 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xe4>)
+  66:	a82b      	add	r0, sp, #172	; 0xac
+  68:	f88d 30a8 	strb.w	r3, [sp, #168]	; 0xa8
+  6c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  70:	2306      	movs	r3, #6
+  72:	466a      	mov	r2, sp
+  74:	491c      	ldr	r1, [pc, #112]	; (e8 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xe8>)
+  76:	a832      	add	r0, sp, #200	; 0xc8
+  78:	f88d 30c4 	strb.w	r3, [sp, #196]	; 0xc4
+  7c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  80:	2307      	movs	r3, #7
+  82:	466a      	mov	r2, sp
+  84:	4919      	ldr	r1, [pc, #100]	; (ec <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xec>)
+  86:	a839      	add	r0, sp, #228	; 0xe4
+  88:	f88d 30e0 	strb.w	r3, [sp, #224]	; 0xe0
+  8c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  90:	4817      	ldr	r0, [pc, #92]	; (f0 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xf0>)
+  92:	2108      	movs	r1, #8
+  94:	aa40      	add	r2, sp, #256	; 0x100
+  96:	1d03      	adds	r3, r0, #4
+  98:	7104      	strb	r4, [r0, #4]
+  9a:	6144      	str	r4, [r0, #20]
+  9c:	f88d 10fc 	strb.w	r1, [sp, #252]	; 0xfc
+  a0:	4629      	mov	r1, r5
+  a2:	6103      	str	r3, [r0, #16]
+  a4:	e9c0 4302 	strd	r4, r3, [r0, #8]
+  a8:	ac40      	add	r4, sp, #256	; 0x100
+  aa:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  ae:	3c1c      	subs	r4, #28
+  b0:	4620      	mov	r0, r4
+  b2:	f7ff fffe 	bl	0 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv>
+  b6:	42ac      	cmp	r4, r5
+  b8:	d1f9      	bne.n	ae <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xae>
+  ba:	4a0e      	ldr	r2, [pc, #56]	; (f4 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xf4>)
+  bc:	490e      	ldr	r1, [pc, #56]	; (f8 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xf8>)
+  be:	480c      	ldr	r0, [pc, #48]	; (f0 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xf0>)
+  c0:	b041      	add	sp, #260	; 0x104
+  c2:	e8bd 4030 	ldmia.w	sp!, {r4, r5, lr}
+  c6:	f7ff bffe 	b.w	0 <__aeabi_atexit>
+  ca:	bf00      	nop
+  cc:	00000000 	.word	0x00000000
+  d0:	00000008 	.word	0x00000008
+  d4:	00000018 	.word	0x00000018
+  d8:	00000028 	.word	0x00000028
+  dc:	00000030 	.word	0x00000030
+  e0:	0000003c 	.word	0x0000003c
+  e4:	00000048 	.word	0x00000048
+  e8:	00000054 	.word	0x00000054
+  ec:	00000068 	.word	0x00000068
+  f0:	00000000 	.word	0x00000000
+  f4:	00000000 	.word	0x00000000
+  f8:	00000000 	.word	0x00000000
+
+Disassembly of section .text.startup._GLOBAL__sub_I__ZN13SensorManagerC2Ev:
+
+00000000 <_GLOBAL__sub_I__ZN13SensorManagerC2Ev>:
+   0:	f7ff bffe 	b.w	0 <_GLOBAL__sub_I__ZN13SensorManagerC2Ev>

@@ -1,0 +1,1215 @@
+
+build/./src/controls/controller_manager.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 controller_manager.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN10Controller4stepEPA3_fS1_S1_Pf	00000000 .text._ZN10Controller4stepEPA3_fS1_S1_Pf
+00000000 l    d  .text._ZN14NullController4stepEPA3_fS1_S1_Pf	00000000 .text._ZN14NullController4stepEPA3_fS1_S1_Pf
+00000000 l    d  .text._ZN10Controller5resetEv	00000000 .text._ZN10Controller5resetEv
+00000000 l    d  .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0	00000000 .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0
+00000000 l     F .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0	000001c6 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0
+00000000 l    d  .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev	00000000 .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev
+00000000 l    d  .text._ZN17ControllerManager15init_controllerEiPKfS1_	00000000 .text._ZN17ControllerManager15init_controllerEiPKfS1_
+00000000 l    d  .rodata._ZN17ControllerManager4initEP10CANManagerPK6Config.str1.4	00000000 .rodata._ZN17ControllerManager4initEP10CANManagerPK6Config.str1.4
+00000000 l    d  .text._ZN17ControllerManager4initEP10CANManagerPK6Config	00000000 .text._ZN17ControllerManager4initEP10CANManagerPK6Config
+00000000 l    d  .rodata._ZN17ControllerManager4stepEPA3_fS1_S1_.str1.4	00000000 .rodata._ZN17ControllerManager4stepEPA3_fS1_S1_.str1.4
+00000000 l    d  .text._ZN17ControllerManager4stepEPA3_fS1_S1_	00000000 .text._ZN17ControllerManager4stepEPA3_fS1_S1_
+00000000 l    d  .text._ZN17ControllerManager14actuator_writeEif	00000000 .text._ZN17ControllerManager14actuator_writeEif
+00000000 l    d  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.str1.4	00000000 .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.str1.4
+00000000 l    d  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_	00000000 .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
+00000000 l    d  .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_	00000000 .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_
+00000000 l    d  .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_	00000000 .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_
+00000000 l    d  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4	00000000 .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
+00000000 l    d  .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0	00000000 .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0
+00000000 l     F .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0	000000fc _Z41__static_initialization_and_destruction_0ii.constprop.0
+00000000 l    d  .text.startup._GLOBAL__sub_I__ZN17ControllerManager4initEP10CANManagerPK6Config	00000000 .text.startup._GLOBAL__sub_I__ZN17ControllerManager4initEP10CANManagerPK6Config
+00000000 l     F .text.startup._GLOBAL__sub_I__ZN17ControllerManager4initEP10CANManagerPK6Config	00000004 _GLOBAL__sub_I__ZN17ControllerManager4initEP10CANManagerPK6Config
+00000000 l    d  .init_array	00000000 .init_array
+00000000 l    d  .rodata._ZTV10Controller	00000000 .rodata._ZTV10Controller
+00000000 l    d  .rodata._ZTV14NullController	00000000 .rodata._ZTV14NullController
+00000000 l    d  .bss._ZL24yaml_section_id_mappings	00000000 .bss._ZL24yaml_section_id_mappings
+00000000 l     O .bss._ZL24yaml_section_id_mappings	00000018 _ZL24yaml_section_id_mappings
+00000000 l       .group	00000000 _ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED5Ev
+00000000 l       .group	00000000 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC5IS3_EEPKcRKS3_
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN10Controller4stepEPA3_fS1_S1_Pf	00000002 _ZN10Controller4stepEPA3_fS1_S1_Pf
+00000000  w    F .text._ZN14NullController4stepEPA3_fS1_S1_Pf	00000002 _ZN14NullController4stepEPA3_fS1_S1_Pf
+00000000  w    F .text._ZN10Controller5resetEv	0000000e _ZN10Controller5resetEv
+00000000         *UND*	00000000 micros
+00000000         *UND*	00000000 _ZdlPvj
+00000000  w    F .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev	00000034 _ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev
+00000000  w    F .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev	00000034 _ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED1Ev
+00000000 g     F .text._ZN17ControllerManager15init_controllerEiPKfS1_	00000270 _ZN17ControllerManager15init_controllerEiPKfS1_
+00000000         *UND*	00000000 _Znwj
+00000000         *UND*	00000000 memset
+00000000  w    O .rodata._ZTV10Controller	00000010 _ZTV10Controller
+00000000  w    O .rodata._ZTV14NullController	00000010 _ZTV14NullController
+00000000         *UND*	00000000 _ZTV24XDrivePositionController
+00000000         *UND*	00000000 _ZTV24XDriveVelocityController
+00000000         *UND*	00000000 _ZTV16FeederController
+00000000         *UND*	00000000 _ZTV18SwitcherController
+00000000         *UND*	00000000 _ZTV13YawController
+00000000         *UND*	00000000 _ZTV15PitchController
+00000000         *UND*	00000000 _ZTV18FlywheelController
+00000000 g     F .text._ZN17ControllerManager4initEP10CANManagerPK6Config	0000005c _ZN17ControllerManager4initEP10CANManagerPK6Config
+00000000         *UND*	00000000 _ZN5Print6printfEPKcz
+00000000         *UND*	00000000 Serial
+00000000 g     F .text._ZN17ControllerManager4stepEPA3_fS1_S1_	00000118 _ZN17ControllerManager4stepEPA3_fS1_S1_
+00000000         *UND*	00000000 _ZN10CANManager18write_motor_torqueEmmf
+00000000 g     F .text._ZN17ControllerManager14actuator_writeEif	00000034 _ZN17ControllerManager14actuator_writeEif
+00000000  w    F .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_	00000064 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
+00000000         *UND*	00000000 strlen
+00000000         *UND*	00000000 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 _ZSt19__throw_logic_errorPKc
+00000000  w    F .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_	00000064 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_
+00000000  w    F .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_	000000b0 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_
+00000000         *UND*	00000000 memcmp
+00000000         *UND*	00000000 _ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
+00000000  w    F .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_	00000128 _ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_
+00000000         *UND*	00000000 _ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
+00000000         *UND*	00000000 _ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
+00000000         *UND*	00000000 __aeabi_atexit
+00000000         *UND*	00000000 .hidden __dso_handle
+
+
+Contents of section .group:
+ 0000 01000000 0d000000                    ........        
+Contents of section .group:
+ 0000 01000000 0e000000                    ........        
+Contents of section .group:
+ 0000 01000000 0f000000 10000000           ............    
+Contents of section .group:
+ 0000 01000000 11000000 12000000 13000000  ................
+ 0010 14000000                             ....            
+Contents of section .group:
+ 0000 01000000 20000000 21000000           .... ...!...    
+Contents of section .group:
+ 0000 01000000 22000000 23000000           ...."...#...    
+Contents of section .group:
+ 0000 01000000 24000000 25000000           ....$...%...    
+Contents of section .group:
+ 0000 01000000 2d000000 2e000000           ....-.......    
+Contents of section .group:
+ 0000 01000000 2f000000 30000000           ..../...0...    
+Contents of section .text._ZN10Controller4stepEPA3_fS1_S1_Pf:
+ 0000 704700bf                             pG..            
+Contents of section .text._ZN14NullController4stepEPA3_fS1_S1_Pf:
+ 0000 704700bf                             pG..            
+Contents of section .text._ZN10Controller5resetEv:
+ 0000 10b50446 fff7feff c4f8c400 10bd00bf  ...F............
+Contents of section .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0:
+ 0000 2de9f04f 83b00090 002800f0 c680009b  -..O.....(......
+ 0010 d3f80c90 b9f1000f 00f0c280 d9f80ca0  ................
+ 0020 baf1000f 00f0a580 daf80cb0 bbf1000f  ................
+ 0030 00f08b80 dbf80c40 002c5ed0 e568002d  .......@.,^..h.-
+ 0040 38d0ee68 002e46d0 f768002f 69d0d7f8  8..h..F..h./i...
+ 0050 0c80b8f1 000f19d0 d8f80c00 cdf80480  ................
+ 0060 fff7ceff 019ad8f8 08801069 02f11801  ...........i....
+ 0070 884204d0 91690131 fff7feff 019a2c21  .B...i.1......,!
+ 0080 1046fff7 feffb8f1 000fe5d1 386907f1  .F..........8i..
+ 0090 1802d7f8 08809042 03d0b969 0131fff7  .......B...i.1..
+ 00a0 feff2c21 3846fff7 feffb8f1 000f38d0  ..,!8F........8.
+ 00b0 4746cce7 206904f1 1803a568 984203d0  GF.. i.....h.B..
+ 00c0 a1690131 fff7feff 2c212046 fff7feff  .i.1....,! F....
+ 00d0 9db12c46 b2e72869 05f11803 ae689842  ..,F..(i.....h.B
+ 00e0 03d0a969 0131fff7 feff2c21 2846fff7  ...i.1....,!(F..
+ 00f0 feff002e ded03546 a3e7dbf8 10000bf1  ......5F........
+ 0100 1803dbf8 08409842 04d0dbf8 18100131  .....@.B.......1
+ 0110 fff7feff 2c215846 fff7feff acb1a346  ....,!XF.......F
+ 0120 88e73069 06f11803 d6f80880 984203d0  ..0i.........B..
+ 0130 b1690131 fff7feff 2c213046 fff7feff  .i.1....,!0F....
+ 0140 b8f1000f c7d04646 7ee7daf8 10000af1  ......FF~.......
+ 0150 1803daf8 08409842 04d0daf8 18100131  .....@.B.......1
+ 0160 fff7feff 2c215046 fff7feff 0cb1a246  ....,!PF.......F
+ 0170 5ae7d9f8 100009f1 1803d9f8 08409842  Z............@.B
+ 0180 04d0d9f8 18100131 fff7feff 2c214846  .......1....,!HF
+ 0190 fff7feff 24b1a146 40e703b0 bde8f08f  ....$..F@.......
+ 01a0 009a1069 02f11803 94689842 03d09169  ...i.....h.B...i
+ 01b0 0131fff7 feff2c21 0098fff7 feff002c  .1....,!.......,
+ 01c0 ebd00094 23e700bf                    ....#...        
+Contents of section .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev:
+ 0000 70b58468 06469cb1 2546e068 fff7feff  p..h.F..%F.h....
+ 0010 a4682869 05f11803 984203d0 a9690131  .h(i.....B...i.1
+ 0020 fff7feff 2c212846 fff7feff 002cebd1  ....,!(F.....,..
+ 0030 304670bd                             0Fp.            
+Contents of section .text._ZN17ControllerManager15init_controllerEiPKfS1_:
+ 0000 2de9f041 0f468046 15461c46 072961d8  -..A.F.F.F.F.)a.
+ 0010 dfe811f0 60009000 b700ce00 e8000201  ....`...........
+ 0020 08007b00 4ff48870 fff7feff 4ff48872  ..{.O..p....O..r
+ 0030 00210646 fff7feff 844b3360 fff7feff  .!.F.....K3`....
+ 0040 c6f8c400 fff7feff 00230022 3146dff8  .........#."1F..
+ 0050 0cc2c6f8 c40041f8 c8cbd8f8 30c0c6f8  ......A.....0...
+ 0060 c820ca60 c1e90122 c6f8d830 c6f8dc30  . .`..."...0...0
+ 0070 c6f8e030 c6f8e430 c6f8e830 c6f8fc30  ...0...0...0...0
+ 0080 c6f80031 c6f80431 c6f80831 c6f80c31  ...1...1...1...1
+ 0090 c6e93b22 c6e93d22 48f82c60 2a46331d  ..;"..="H.,`*F3.
+ 00a0 05f16000 52f8041b 904243f8 041bf9d1  ..`.R....BC.....
+ 00b0 234606f1 640204f1 600053f8 041b8342  #F..d...`.S....B
+ 00c0 42f8041b f9d11fb1 0cf10103 c8f83030  B.............00
+ 00d0 bde8f081 d0f830c0 50f82c60 002eddd1  ......0.P.,`....
+ 00e0 c820fff7 feff594b 06460360 fff7feff  . ....YK.F.`....
+ 00f0 c6f8c400 fff7feff 554bd8f8 30c0c6f8  ........UK..0...
+ 0100 c4003360 48f82c60 c8e74ff4 8870fff7  ..3`H.,`..O..p..
+ 0110 feff4e4b 06460360 fff7feff c6f8c400  ..NK.F.`........
+ 0120 fff7feff 00230022 3146dff8 34c1c6f8  .....#."1F..4...
+ 0130 c40090e7 4ff4f070 fff7feff 4ff4f072  ....O..p....O..r
+ 0140 00210646 fff7feff 404b3360 fff7feff  .!.F....@K3`....
+ 0150 c6f8c400 fff7feff 3e4bc6f8 c4003046  ........>K....0F
+ 0160 6c220021 40f8c83b fff7feff 6c220021  l".!@..;....l".!
+ 0170 06f59a70 fff7feff d8f830c0 48f82c60  ...p......0.H.,`
+ 0180 8ce74ff4 f070fff7 feff4ff4 f0720021  ..O..p....O..r.!
+ 0190 0646fff7 feff2d4b 3360fff7 feffc6f8  .F....-K3`......
+ 01a0 c400fff7 feff2c4b c6f8c400 3046d7e7  ......,K....0F..
+ 01b0 4ff48870 fff7feff 4ff48872 00210646  O..p....O..r.!.F
+ 01c0 fff7feff 214b3360 fff7feff c6f8c400  ....!K3`........
+ 01d0 fff7feff 00230022 3146dff8 88c0c6f8  .....#."1F......
+ 01e0 c40038e7 4ff48870 fff7feff 4ff48872  ..8.O..p....O..r
+ 01f0 00210646 fff7feff 144b3360 fff7feff  .!.F.....K3`....
+ 0200 c6f8c400 fff7feff 00230022 3146dff8  .........#."1F..
+ 0210 58c0c6f8 c4001ee7 4ff48870 fff7feff  X.......O..p....
+ 0220 4ff48872 00210646 fff7feff 074b3360  O..r.!.F.....K3`
+ 0230 fff7feff c6f8c400 fff7feff 00230022  .............#."
+ 0240 3146dff8 28c0c6f8 c40004e7 08000000  1F..(...........
+ 0250 08000000 08000000 08000000 08000000  ................
+ 0260 08000000 08000000 08000000 08000000  ................
+Contents of section .rodata._ZN17ControllerManager4initEP10CANManagerPK6Config.str1.4:
+ 0000 6e756d20 636f6e74 726f6c6c 6572733a  num controllers:
+ 0010 2025640a 00                           %d..           
+Contents of section .text._ZN17ControllerManager4initEP10CANManagerPK6Config:
+ 0000 f8b50024 05466427 41f25c66 c0e92521  ...$.Fd'A.\f..%!
+ 0010 01e0d5f8 942007fb 042c04eb 44010134  ..... ...,..D..4
+ 0020 2846b444 4901dced 007a01f2 dc7301f5  (F.DI....z...s..
+ 0030 5771fdee e77a1344 0a4417ee 901afff7  Wq...z.D.D......
+ 0040 feff0c2c e5d12a6b 02490348 bde8f840  ...,..*k.I.H...@
+ 0050 fff7febf 00000000 00000000           ............    
+Contents of section .rodata._ZN17ControllerManager4stepEPA3_fS1_S1_.str1.4:
+ 0000 436f6e74 726f6c6c 65722025 640a0000  Controller %d...
+ 0010 094d6f74 6f722025 643a2025 660a00    .Motor %d: %f.. 
+Contents of section .text._ZN17ControllerManager4stepEPA3_fS1_S1_:
+ 0000 2de9f04f 2ded028b 08ee903a 036b9bb0  -..O-......:.k..
+ 0010 002b75dd 05468b46 08ee102a 4ff0000a  .+u..F.F...*O...
+ 0020 dff8ec80 dff8ec90 55f82a00 02ae18ee  ........U.*.....
+ 0030 903a18ee 102a0468 59460096 2468a047  .:...*.hYF..$h.G
+ 0040 52463249 4046fff7 feffd5f8 94306422  RF2I@F.......0d"
+ 0050 02fb0a33 03f5b353 d3ed006a f5eec06a  ...3...S...j...j
+ 0060 f1ee10fa 47d40aeb 8a070124 07eb8707  ....G......$....
+ 0070 96ed007a 49464046 b7eec77a 8ded007b  ...zIF@F...z...{
+ 0080 b7eee67a 53ec172b fff7feff 3b19d5f8  ...zS..+....;...
+ 0090 94200134 03f29653 b6ec010a d5f89800  . .4...S........
+ 00a0 02eb8303 d3ed017a fdeee77a 17ee903a  .......z...z...:
+ 00b0 02eb0311 c63302eb 031201f5 466392ed  .....3......Fc..
+ 00c0 017ad3ed 007abcee c77afcee e77a17ee  .z...z...z...z..
+ 00d0 101a17ee 902afff7 feff3a19 d5f89430  .....*....:....0
+ 00e0 02f29652 03eb8203 d3ed016a f5eec06a  ...R.......j...j
+ 00f0 f1ee10fa bcd50af1 010a2b6b 534593dc  ..........+kSE..
+ 0100 1bb0bdec 028bbde8 f08f00bf 00000000  ................
+ 0110 00000000 10000000                    ........        
+Contents of section .text._ZN17ControllerManager14actuator_writeEif:
+ 0000 d0f89430 01f1c602 d0f89800 03eb0111  ...0............
+ 0010 03eb0213 01f54661 93ed017a d1ed007a  ......Fa...z...z
+ 0020 bceec77a fceee77a 17ee101a 17ee902a  ...z...z.......*
+ 0030 fff7febf                             ....            
+Contents of section .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.str1.4:
+ 0000 62617369 635f7374 72696e67 3a3a5f4d  basic_string::_M
+ 0010 5f636f6e 73747275 6374206e 756c6c20  _construct null 
+ 0020 6e6f7420 76616c69 6400               not valid.      
+Contents of section .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_:
+ 0000 f0b500f1 080783b0 076031b3 04460846  .........`1..F.F
+ 0010 0e46fff7 feff0f28 05460190 0cd80128  .F.....(.F.....(
+ 0020 07d13378 23720023 20466560 7b5503b0  ..3x#r.# Fe`{U..
+ 0030 f0bd0028 f7d008e0 002201a9 2046fff7  ...(.....".. F..
+ 0040 feff019b 07462060 a3602a46 38463146  .....F `.`*F8F1F
+ 0050 fff7feff 019d2768 e5e70148 fff7feff  ......'h...H....
+ 0060 00000000                             ....            
+Contents of section .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_:
+ 0000 2de9f04f 8c6883b0 8b468146 0192a4b3  -..O.h...F.F....
+ 0010 019bd3e9 00a800e0 14466669 45462769  .........FfiEF'i
+ 0020 5046b045 394628bf 35462a46 15b1fff7  PF.E9F(.5F*F....
+ 0030 feff08b9 a8eb0600 0028d4e9 0212aebf  .........(......
+ 0040 00210a46 0121002a e6d1b9b9 a3468db1  .!.F.!.*.....F..
+ 0050 2a465146 3846fff7 feff58b1 00284ff0  *FQF8F....X..(O.
+ 0060 00034846 b4bfc9e9 003bc9e9 004303b0  ..HF.....;...C..
+ 0070 bde8f08f a6eb0800 f0e70c1d dbf80c30  ...............0
+ 0080 a3420ed0 2046a346 fff7feff 019b0446  .B.. F.F.......F
+ 0090 d0e90476 d3e900a8 35464645 28bf4546  ...v....5FFE(.EF
+ 00a0 d5e70023 4846c9e9 003403b0 bde8f08f  ...#HF...4......
+Contents of section .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_:
+ 0000 914200f0 8b802de9 f04f9246 87b08046  .B....-..O.F...F
+ 0010 00f1040b 01f11c04 d8f81430 a4f11c05  ...........0....
+ 0020 83b1d8f8 109054e9 0716d9e9 0407b742  ......T........B
+ 0030 3a4628bf 324612b1 fff7feff 00b9b81b  :F(.2F..........
+ 0040 002869db 2a464146 04a8fff7 feffdde9  .(i.*FAF........
+ 0050 0469b9f1 000f2ed0 003e18bf 0126cb45  .i.......>...&.E
+ 0060 08bf46f0 0106002e 40d02c20 fff7feff  ..F.....@., ....
+ 0070 05461830 54e90737 2861fb42 01d0002b  .F.0T..7(a.B...+
+ 0080 4dd00f2f 03971fd8 012f1ad1 1b782b76  M../...../...x+v
+ 0090 4ff00003 6f614a46 c3555b46 14f8041c  O...oaJF.U[F....
+ 00a0 304685f8 28102946 fff7feff d8f81430  0F..(.)F.......0
+ 00b0 0133c8f8 1430a245 04f11c03 29d01c46  .3...0.E....)..F
+ 00c0 aae7002f e4d00ae0 002203a9 05f11000  .../....."......
+ 00d0 0193fff7 feff039a 019b2861 aa613a46  ..........(a.a:F
+ 00e0 1946fff7 feff039f 2869d1e7 54f8186c  .F......(i..T..l
+ 00f0 d9f81450 3246ae42 28bf2a46 32b1d9f8  ...P2F.B(.*F2...
+ 0100 101054f8 1c0cfff7 feff00b9 701bc60f  ..T.........p...
+ 0110 abe707b0 bde8f08f 0026a0e7 70470148  .........&..pG.H
+ 0120 fff7feff 00000000                    ........        
+Contents of section .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4:
+ 0000 726f626f 74000000 65737469 6d61746f  robot...estimato
+ 0010 725f696e 666f0000 636f6e74 726f6c6c  r_info..controll
+ 0020 65725f69 6e666f00 6761696e 73000000  er_info.gains...
+ 0030 6d6f746f 725f696e 666f0000 67656172  motor_info..gear
+ 0040 5f726174 696f7300 73656e73 6f725f69  _ratios.sensor_i
+ 0050 6e666f00 72656665 72656e63 655f6c69  nfo.reference_li
+ 0060 6d697473 00000000 676f7665 726e6f72  mits....governor
+ 0070 5f747970 657300                      _types.         
+Contents of section .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0:
+ 0000 30b5c1b0 00243149 01ad6a46 2846fff7  0....$1I..jF(F..
+ 0010 feff6a46 2e4908a8 8df81c40 fff7feff  ..jF.I.....@....
+ 0020 01236a46 2b490fa8 8df83830 fff7feff  .#jF+I....80....
+ 0030 02236a46 284916a8 8df85430 fff7feff  .#jF(I....T0....
+ 0040 03236a46 25491da8 8df87030 fff7feff  .#jF%I....p0....
+ 0050 04236a46 224924a8 8df88c30 fff7feff  .#jF"I$....0....
+ 0060 05236a46 1f492ba8 8df8a830 fff7feff  .#jF.I+....0....
+ 0070 06236a46 1c4932a8 8df8c430 fff7feff  .#jF.I2....0....
+ 0080 07236a46 194939a8 8df8e030 fff7feff  .#jF.I9....0....
+ 0090 17480821 40aa031d 04714461 8df8fc10  .H.!@....qDa....
+ 00a0 29460361 c0e90243 40acfff7 feff1c3c  )F.a...C@......<
+ 00b0 2046fff7 feffac42 f9d10e4a 0e490c48   F.....B...J.I.H
+ 00c0 41b0bde8 3040fff7 febf00bf 00000000  A...0@..........
+ 00d0 08000000 18000000 28000000 30000000  ........(...0...
+ 00e0 3c000000 48000000 54000000 68000000  <...H...T...h...
+ 00f0 00000000 00000000 00000000           ............    
+Contents of section .text.startup._GLOBAL__sub_I__ZN17ControllerManager4initEP10CANManagerPK6Config:
+ 0000 fff7febf                             ....            
+Contents of section .init_array:
+ 0000 00000000                             ....            
+Contents of section .rodata._ZTV10Controller:
+ 0000 00000000 00000000 00000000 00000000  ................
+Contents of section .rodata._ZTV14NullController:
+ 0000 00000000 00000000 00000000 00000000  ................
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN10Controller4stepEPA3_fS1_S1_Pf:
+
+00000000 <_ZN10Controller4stepEPA3_fS1_S1_Pf>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZN14NullController4stepEPA3_fS1_S1_Pf:
+
+00000000 <_ZN14NullController4stepEPA3_fS1_S1_Pf>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZN10Controller5resetEv:
+
+00000000 <_ZN10Controller5resetEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <micros>
+   8:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+   c:	bd10      	pop	{r4, pc}
+   e:	bf00      	nop
+
+Disassembly of section .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0:
+
+00000000 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	b083      	sub	sp, #12
+   6:	9000      	str	r0, [sp, #0]
+   8:	2800      	cmp	r0, #0
+   a:	f000 80c6 	beq.w	19a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x19a>
+   e:	9b00      	ldr	r3, [sp, #0]
+  10:	f8d3 900c 	ldr.w	r9, [r3, #12]
+  14:	f1b9 0f00 	cmp.w	r9, #0
+  18:	f000 80c2 	beq.w	1a0 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x1a0>
+  1c:	f8d9 a00c 	ldr.w	sl, [r9, #12]
+  20:	f1ba 0f00 	cmp.w	sl, #0
+  24:	f000 80a5 	beq.w	172 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x172>
+  28:	f8da b00c 	ldr.w	fp, [sl, #12]
+  2c:	f1bb 0f00 	cmp.w	fp, #0
+  30:	f000 808b 	beq.w	14a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x14a>
+  34:	f8db 400c 	ldr.w	r4, [fp, #12]
+  38:	2c00      	cmp	r4, #0
+  3a:	d05e      	beq.n	fa <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xfa>
+  3c:	68e5      	ldr	r5, [r4, #12]
+  3e:	2d00      	cmp	r5, #0
+  40:	d038      	beq.n	b4 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xb4>
+  42:	68ee      	ldr	r6, [r5, #12]
+  44:	2e00      	cmp	r6, #0
+  46:	d046      	beq.n	d6 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xd6>
+  48:	68f7      	ldr	r7, [r6, #12]
+  4a:	2f00      	cmp	r7, #0
+  4c:	d069      	beq.n	122 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x122>
+  4e:	f8d7 800c 	ldr.w	r8, [r7, #12]
+  52:	f1b8 0f00 	cmp.w	r8, #0
+  56:	d019      	beq.n	8c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x8c>
+  58:	f8d8 000c 	ldr.w	r0, [r8, #12]
+  5c:	f8cd 8004 	str.w	r8, [sp, #4]
+  60:	f7ff ffce 	bl	0 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0>
+  64:	9a01      	ldr	r2, [sp, #4]
+  66:	f8d8 8008 	ldr.w	r8, [r8, #8]
+  6a:	6910      	ldr	r0, [r2, #16]
+  6c:	f102 0118 	add.w	r1, r2, #24
+  70:	4288      	cmp	r0, r1
+  72:	d004      	beq.n	7e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x7e>
+  74:	6991      	ldr	r1, [r2, #24]
+  76:	3101      	adds	r1, #1
+  78:	f7ff fffe 	bl	0 <_ZdlPvj>
+  7c:	9a01      	ldr	r2, [sp, #4]
+  7e:	212c      	movs	r1, #44	; 0x2c
+  80:	4610      	mov	r0, r2
+  82:	f7ff fffe 	bl	0 <_ZdlPvj>
+  86:	f1b8 0f00 	cmp.w	r8, #0
+  8a:	d1e5      	bne.n	58 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x58>
+  8c:	6938      	ldr	r0, [r7, #16]
+  8e:	f107 0218 	add.w	r2, r7, #24
+  92:	f8d7 8008 	ldr.w	r8, [r7, #8]
+  96:	4290      	cmp	r0, r2
+  98:	d003      	beq.n	a2 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xa2>
+  9a:	69b9      	ldr	r1, [r7, #24]
+  9c:	3101      	adds	r1, #1
+  9e:	f7ff fffe 	bl	0 <_ZdlPvj>
+  a2:	212c      	movs	r1, #44	; 0x2c
+  a4:	4638      	mov	r0, r7
+  a6:	f7ff fffe 	bl	0 <_ZdlPvj>
+  aa:	f1b8 0f00 	cmp.w	r8, #0
+  ae:	d038      	beq.n	122 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x122>
+  b0:	4647      	mov	r7, r8
+  b2:	e7cc      	b.n	4e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x4e>
+  b4:	6920      	ldr	r0, [r4, #16]
+  b6:	f104 0318 	add.w	r3, r4, #24
+  ba:	68a5      	ldr	r5, [r4, #8]
+  bc:	4298      	cmp	r0, r3
+  be:	d003      	beq.n	c8 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xc8>
+  c0:	69a1      	ldr	r1, [r4, #24]
+  c2:	3101      	adds	r1, #1
+  c4:	f7ff fffe 	bl	0 <_ZdlPvj>
+  c8:	212c      	movs	r1, #44	; 0x2c
+  ca:	4620      	mov	r0, r4
+  cc:	f7ff fffe 	bl	0 <_ZdlPvj>
+  d0:	b19d      	cbz	r5, fa <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xfa>
+  d2:	462c      	mov	r4, r5
+  d4:	e7b2      	b.n	3c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x3c>
+  d6:	6928      	ldr	r0, [r5, #16]
+  d8:	f105 0318 	add.w	r3, r5, #24
+  dc:	68ae      	ldr	r6, [r5, #8]
+  de:	4298      	cmp	r0, r3
+  e0:	d003      	beq.n	ea <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xea>
+  e2:	69a9      	ldr	r1, [r5, #24]
+  e4:	3101      	adds	r1, #1
+  e6:	f7ff fffe 	bl	0 <_ZdlPvj>
+  ea:	212c      	movs	r1, #44	; 0x2c
+  ec:	4628      	mov	r0, r5
+  ee:	f7ff fffe 	bl	0 <_ZdlPvj>
+  f2:	2e00      	cmp	r6, #0
+  f4:	d0de      	beq.n	b4 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xb4>
+  f6:	4635      	mov	r5, r6
+  f8:	e7a3      	b.n	42 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x42>
+  fa:	f8db 0010 	ldr.w	r0, [fp, #16]
+  fe:	f10b 0318 	add.w	r3, fp, #24
+ 102:	f8db 4008 	ldr.w	r4, [fp, #8]
+ 106:	4298      	cmp	r0, r3
+ 108:	d004      	beq.n	114 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x114>
+ 10a:	f8db 1018 	ldr.w	r1, [fp, #24]
+ 10e:	3101      	adds	r1, #1
+ 110:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 114:	212c      	movs	r1, #44	; 0x2c
+ 116:	4658      	mov	r0, fp
+ 118:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 11c:	b1ac      	cbz	r4, 14a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x14a>
+ 11e:	46a3      	mov	fp, r4
+ 120:	e788      	b.n	34 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x34>
+ 122:	6930      	ldr	r0, [r6, #16]
+ 124:	f106 0318 	add.w	r3, r6, #24
+ 128:	f8d6 8008 	ldr.w	r8, [r6, #8]
+ 12c:	4298      	cmp	r0, r3
+ 12e:	d003      	beq.n	138 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x138>
+ 130:	69b1      	ldr	r1, [r6, #24]
+ 132:	3101      	adds	r1, #1
+ 134:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 138:	212c      	movs	r1, #44	; 0x2c
+ 13a:	4630      	mov	r0, r6
+ 13c:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 140:	f1b8 0f00 	cmp.w	r8, #0
+ 144:	d0c7      	beq.n	d6 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xd6>
+ 146:	4646      	mov	r6, r8
+ 148:	e77e      	b.n	48 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x48>
+ 14a:	f8da 0010 	ldr.w	r0, [sl, #16]
+ 14e:	f10a 0318 	add.w	r3, sl, #24
+ 152:	f8da 4008 	ldr.w	r4, [sl, #8]
+ 156:	4298      	cmp	r0, r3
+ 158:	d004      	beq.n	164 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x164>
+ 15a:	f8da 1018 	ldr.w	r1, [sl, #24]
+ 15e:	3101      	adds	r1, #1
+ 160:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 164:	212c      	movs	r1, #44	; 0x2c
+ 166:	4650      	mov	r0, sl
+ 168:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 16c:	b10c      	cbz	r4, 172 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x172>
+ 16e:	46a2      	mov	sl, r4
+ 170:	e75a      	b.n	28 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x28>
+ 172:	f8d9 0010 	ldr.w	r0, [r9, #16]
+ 176:	f109 0318 	add.w	r3, r9, #24
+ 17a:	f8d9 4008 	ldr.w	r4, [r9, #8]
+ 17e:	4298      	cmp	r0, r3
+ 180:	d004      	beq.n	18c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x18c>
+ 182:	f8d9 1018 	ldr.w	r1, [r9, #24]
+ 186:	3101      	adds	r1, #1
+ 188:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 18c:	212c      	movs	r1, #44	; 0x2c
+ 18e:	4648      	mov	r0, r9
+ 190:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 194:	b124      	cbz	r4, 1a0 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x1a0>
+ 196:	46a1      	mov	r9, r4
+ 198:	e740      	b.n	1c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x1c>
+ 19a:	b003      	add	sp, #12
+ 19c:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 1a0:	9a00      	ldr	r2, [sp, #0]
+ 1a2:	6910      	ldr	r0, [r2, #16]
+ 1a4:	f102 0318 	add.w	r3, r2, #24
+ 1a8:	6894      	ldr	r4, [r2, #8]
+ 1aa:	4298      	cmp	r0, r3
+ 1ac:	d003      	beq.n	1b6 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x1b6>
+ 1ae:	6991      	ldr	r1, [r2, #24]
+ 1b0:	3101      	adds	r1, #1
+ 1b2:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 1b6:	212c      	movs	r1, #44	; 0x2c
+ 1b8:	9800      	ldr	r0, [sp, #0]
+ 1ba:	f7ff fffe 	bl	0 <_ZdlPvj>
+ 1be:	2c00      	cmp	r4, #0
+ 1c0:	d0eb      	beq.n	19a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0x19a>
+ 1c2:	9400      	str	r4, [sp, #0]
+ 1c4:	e723      	b.n	e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0+0xe>
+ 1c6:	bf00      	nop
+
+Disassembly of section .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev:
+
+00000000 <_ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED1Ev>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	6884      	ldr	r4, [r0, #8]
+   4:	4606      	mov	r6, r0
+   6:	b19c      	cbz	r4, 30 <_ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED1Ev+0x30>
+   8:	4625      	mov	r5, r4
+   a:	68e0      	ldr	r0, [r4, #12]
+   c:	f7ff fffe 	bl	0 <_ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED1Ev>
+  10:	68a4      	ldr	r4, [r4, #8]
+  12:	6928      	ldr	r0, [r5, #16]
+  14:	f105 0318 	add.w	r3, r5, #24
+  18:	4298      	cmp	r0, r3
+  1a:	d003      	beq.n	24 <_ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED1Ev+0x24>
+  1c:	69a9      	ldr	r1, [r5, #24]
+  1e:	3101      	adds	r1, #1
+  20:	f7ff fffe 	bl	0 <_ZdlPvj>
+  24:	212c      	movs	r1, #44	; 0x2c
+  26:	4628      	mov	r0, r5
+  28:	f7ff fffe 	bl	0 <_ZdlPvj>
+  2c:	2c00      	cmp	r4, #0
+  2e:	d1eb      	bne.n	8 <_ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED1Ev+0x8>
+  30:	4630      	mov	r0, r6
+  32:	bd70      	pop	{r4, r5, r6, pc}
+
+Disassembly of section .text._ZN17ControllerManager15init_controllerEiPKfS1_:
+
+00000000 <_ZN17ControllerManager15init_controllerEiPKfS1_>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	460f      	mov	r7, r1
+   6:	4680      	mov	r8, r0
+   8:	4615      	mov	r5, r2
+   a:	461c      	mov	r4, r3
+   c:	2907      	cmp	r1, #7
+   e:	d861      	bhi.n	d4 <_ZN17ControllerManager15init_controllerEiPKfS1_+0xd4>
+  10:	e8df f011 	tbh	[pc, r1, lsl #1]
+  14:	00900060 	.word	0x00900060
+  18:	00ce00b7 	.word	0x00ce00b7
+  1c:	010200e8 	.word	0x010200e8
+  20:	007b0008 	.word	0x007b0008
+  24:	f44f 7088 	mov.w	r0, #272	; 0x110
+  28:	f7ff fffe 	bl	0 <_Znwj>
+  2c:	f44f 7288 	mov.w	r2, #272	; 0x110
+  30:	2100      	movs	r1, #0
+  32:	4606      	mov	r6, r0
+  34:	f7ff fffe 	bl	0 <memset>
+  38:	4b84      	ldr	r3, [pc, #528]	; (24c <_ZN17ControllerManager15init_controllerEiPKfS1_+0x24c>)
+  3a:	6033      	str	r3, [r6, #0]
+  3c:	f7ff fffe 	bl	0 <micros>
+  40:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+  44:	f7ff fffe 	bl	0 <micros>
+  48:	2300      	movs	r3, #0
+  4a:	2200      	movs	r2, #0
+  4c:	4631      	mov	r1, r6
+  4e:	f8df c20c 	ldr.w	ip, [pc, #524]	; 25c <_ZN17ControllerManager15init_controllerEiPKfS1_+0x25c>
+  52:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+  56:	f841 cbc8 	str.w	ip, [r1], #200
+  5a:	f8d8 c030 	ldr.w	ip, [r8, #48]	; 0x30
+  5e:	f8c6 20c8 	str.w	r2, [r6, #200]	; 0xc8
+  62:	60ca      	str	r2, [r1, #12]
+  64:	e9c1 2201 	strd	r2, r2, [r1, #4]
+  68:	f8c6 30d8 	str.w	r3, [r6, #216]	; 0xd8
+  6c:	f8c6 30dc 	str.w	r3, [r6, #220]	; 0xdc
+  70:	f8c6 30e0 	str.w	r3, [r6, #224]	; 0xe0
+  74:	f8c6 30e4 	str.w	r3, [r6, #228]	; 0xe4
+  78:	f8c6 30e8 	str.w	r3, [r6, #232]	; 0xe8
+  7c:	f8c6 30fc 	str.w	r3, [r6, #252]	; 0xfc
+  80:	f8c6 3100 	str.w	r3, [r6, #256]	; 0x100
+  84:	f8c6 3104 	str.w	r3, [r6, #260]	; 0x104
+  88:	f8c6 3108 	str.w	r3, [r6, #264]	; 0x108
+  8c:	f8c6 310c 	str.w	r3, [r6, #268]	; 0x10c
+  90:	e9c6 223b 	strd	r2, r2, [r6, #236]	; 0xec
+  94:	e9c6 223d 	strd	r2, r2, [r6, #244]	; 0xf4
+  98:	f848 602c 	str.w	r6, [r8, ip, lsl #2]
+  9c:	462a      	mov	r2, r5
+  9e:	1d33      	adds	r3, r6, #4
+  a0:	f105 0060 	add.w	r0, r5, #96	; 0x60
+  a4:	f852 1b04 	ldr.w	r1, [r2], #4
+  a8:	4290      	cmp	r0, r2
+  aa:	f843 1b04 	str.w	r1, [r3], #4
+  ae:	d1f9      	bne.n	a4 <_ZN17ControllerManager15init_controllerEiPKfS1_+0xa4>
+  b0:	4623      	mov	r3, r4
+  b2:	f106 0264 	add.w	r2, r6, #100	; 0x64
+  b6:	f104 0060 	add.w	r0, r4, #96	; 0x60
+  ba:	f853 1b04 	ldr.w	r1, [r3], #4
+  be:	4283      	cmp	r3, r0
+  c0:	f842 1b04 	str.w	r1, [r2], #4
+  c4:	d1f9      	bne.n	ba <_ZN17ControllerManager15init_controllerEiPKfS1_+0xba>
+  c6:	b11f      	cbz	r7, d0 <_ZN17ControllerManager15init_controllerEiPKfS1_+0xd0>
+  c8:	f10c 0301 	add.w	r3, ip, #1
+  cc:	f8c8 3030 	str.w	r3, [r8, #48]	; 0x30
+  d0:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  d4:	f8d0 c030 	ldr.w	ip, [r0, #48]	; 0x30
+  d8:	f850 602c 	ldr.w	r6, [r0, ip, lsl #2]
+  dc:	2e00      	cmp	r6, #0
+  de:	d1dd      	bne.n	9c <_ZN17ControllerManager15init_controllerEiPKfS1_+0x9c>
+  e0:	20c8      	movs	r0, #200	; 0xc8
+  e2:	f7ff fffe 	bl	0 <_Znwj>
+  e6:	4b59      	ldr	r3, [pc, #356]	; (24c <_ZN17ControllerManager15init_controllerEiPKfS1_+0x24c>)
+  e8:	4606      	mov	r6, r0
+  ea:	6003      	str	r3, [r0, #0]
+  ec:	f7ff fffe 	bl	0 <micros>
+  f0:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+  f4:	f7ff fffe 	bl	0 <micros>
+  f8:	4b55      	ldr	r3, [pc, #340]	; (250 <_ZN17ControllerManager15init_controllerEiPKfS1_+0x250>)
+  fa:	f8d8 c030 	ldr.w	ip, [r8, #48]	; 0x30
+  fe:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+ 102:	6033      	str	r3, [r6, #0]
+ 104:	f848 602c 	str.w	r6, [r8, ip, lsl #2]
+ 108:	e7c8      	b.n	9c <_ZN17ControllerManager15init_controllerEiPKfS1_+0x9c>
+ 10a:	f44f 7088 	mov.w	r0, #272	; 0x110
+ 10e:	f7ff fffe 	bl	0 <_Znwj>
+ 112:	4b4e      	ldr	r3, [pc, #312]	; (24c <_ZN17ControllerManager15init_controllerEiPKfS1_+0x24c>)
+ 114:	4606      	mov	r6, r0
+ 116:	6003      	str	r3, [r0, #0]
+ 118:	f7ff fffe 	bl	0 <micros>
+ 11c:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+ 120:	f7ff fffe 	bl	0 <micros>
+ 124:	2300      	movs	r3, #0
+ 126:	2200      	movs	r2, #0
+ 128:	4631      	mov	r1, r6
+ 12a:	f8df c134 	ldr.w	ip, [pc, #308]	; 260 <_ZN17ControllerManager15init_controllerEiPKfS1_+0x260>
+ 12e:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+ 132:	e790      	b.n	56 <_ZN17ControllerManager15init_controllerEiPKfS1_+0x56>
+ 134:	f44f 70f0 	mov.w	r0, #480	; 0x1e0
+ 138:	f7ff fffe 	bl	0 <_Znwj>
+ 13c:	f44f 72f0 	mov.w	r2, #480	; 0x1e0
+ 140:	2100      	movs	r1, #0
+ 142:	4606      	mov	r6, r0
+ 144:	f7ff fffe 	bl	0 <memset>
+ 148:	4b40      	ldr	r3, [pc, #256]	; (24c <_ZN17ControllerManager15init_controllerEiPKfS1_+0x24c>)
+ 14a:	6033      	str	r3, [r6, #0]
+ 14c:	f7ff fffe 	bl	0 <micros>
+ 150:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+ 154:	f7ff fffe 	bl	0 <micros>
+ 158:	4b3e      	ldr	r3, [pc, #248]	; (254 <_ZN17ControllerManager15init_controllerEiPKfS1_+0x254>)
+ 15a:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+ 15e:	4630      	mov	r0, r6
+ 160:	226c      	movs	r2, #108	; 0x6c
+ 162:	2100      	movs	r1, #0
+ 164:	f840 3bc8 	str.w	r3, [r0], #200
+ 168:	f7ff fffe 	bl	0 <memset>
+ 16c:	226c      	movs	r2, #108	; 0x6c
+ 16e:	2100      	movs	r1, #0
+ 170:	f506 709a 	add.w	r0, r6, #308	; 0x134
+ 174:	f7ff fffe 	bl	0 <memset>
+ 178:	f8d8 c030 	ldr.w	ip, [r8, #48]	; 0x30
+ 17c:	f848 602c 	str.w	r6, [r8, ip, lsl #2]
+ 180:	e78c      	b.n	9c <_ZN17ControllerManager15init_controllerEiPKfS1_+0x9c>
+ 182:	f44f 70f0 	mov.w	r0, #480	; 0x1e0
+ 186:	f7ff fffe 	bl	0 <_Znwj>
+ 18a:	f44f 72f0 	mov.w	r2, #480	; 0x1e0
+ 18e:	2100      	movs	r1, #0
+ 190:	4606      	mov	r6, r0
+ 192:	f7ff fffe 	bl	0 <memset>
+ 196:	4b2d      	ldr	r3, [pc, #180]	; (24c <_ZN17ControllerManager15init_controllerEiPKfS1_+0x24c>)
+ 198:	6033      	str	r3, [r6, #0]
+ 19a:	f7ff fffe 	bl	0 <micros>
+ 19e:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+ 1a2:	f7ff fffe 	bl	0 <micros>
+ 1a6:	4b2c      	ldr	r3, [pc, #176]	; (258 <_ZN17ControllerManager15init_controllerEiPKfS1_+0x258>)
+ 1a8:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+ 1ac:	4630      	mov	r0, r6
+ 1ae:	e7d7      	b.n	160 <_ZN17ControllerManager15init_controllerEiPKfS1_+0x160>
+ 1b0:	f44f 7088 	mov.w	r0, #272	; 0x110
+ 1b4:	f7ff fffe 	bl	0 <_Znwj>
+ 1b8:	f44f 7288 	mov.w	r2, #272	; 0x110
+ 1bc:	2100      	movs	r1, #0
+ 1be:	4606      	mov	r6, r0
+ 1c0:	f7ff fffe 	bl	0 <memset>
+ 1c4:	4b21      	ldr	r3, [pc, #132]	; (24c <_ZN17ControllerManager15init_controllerEiPKfS1_+0x24c>)
+ 1c6:	6033      	str	r3, [r6, #0]
+ 1c8:	f7ff fffe 	bl	0 <micros>
+ 1cc:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+ 1d0:	f7ff fffe 	bl	0 <micros>
+ 1d4:	2300      	movs	r3, #0
+ 1d6:	2200      	movs	r2, #0
+ 1d8:	4631      	mov	r1, r6
+ 1da:	f8df c088 	ldr.w	ip, [pc, #136]	; 264 <_ZN17ControllerManager15init_controllerEiPKfS1_+0x264>
+ 1de:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+ 1e2:	e738      	b.n	56 <_ZN17ControllerManager15init_controllerEiPKfS1_+0x56>
+ 1e4:	f44f 7088 	mov.w	r0, #272	; 0x110
+ 1e8:	f7ff fffe 	bl	0 <_Znwj>
+ 1ec:	f44f 7288 	mov.w	r2, #272	; 0x110
+ 1f0:	2100      	movs	r1, #0
+ 1f2:	4606      	mov	r6, r0
+ 1f4:	f7ff fffe 	bl	0 <memset>
+ 1f8:	4b14      	ldr	r3, [pc, #80]	; (24c <_ZN17ControllerManager15init_controllerEiPKfS1_+0x24c>)
+ 1fa:	6033      	str	r3, [r6, #0]
+ 1fc:	f7ff fffe 	bl	0 <micros>
+ 200:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+ 204:	f7ff fffe 	bl	0 <micros>
+ 208:	2300      	movs	r3, #0
+ 20a:	2200      	movs	r2, #0
+ 20c:	4631      	mov	r1, r6
+ 20e:	f8df c058 	ldr.w	ip, [pc, #88]	; 268 <_ZN17ControllerManager15init_controllerEiPKfS1_+0x268>
+ 212:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+ 216:	e71e      	b.n	56 <_ZN17ControllerManager15init_controllerEiPKfS1_+0x56>
+ 218:	f44f 7088 	mov.w	r0, #272	; 0x110
+ 21c:	f7ff fffe 	bl	0 <_Znwj>
+ 220:	f44f 7288 	mov.w	r2, #272	; 0x110
+ 224:	2100      	movs	r1, #0
+ 226:	4606      	mov	r6, r0
+ 228:	f7ff fffe 	bl	0 <memset>
+ 22c:	4b07      	ldr	r3, [pc, #28]	; (24c <_ZN17ControllerManager15init_controllerEiPKfS1_+0x24c>)
+ 22e:	6033      	str	r3, [r6, #0]
+ 230:	f7ff fffe 	bl	0 <micros>
+ 234:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+ 238:	f7ff fffe 	bl	0 <micros>
+ 23c:	2300      	movs	r3, #0
+ 23e:	2200      	movs	r2, #0
+ 240:	4631      	mov	r1, r6
+ 242:	f8df c028 	ldr.w	ip, [pc, #40]	; 26c <_ZN17ControllerManager15init_controllerEiPKfS1_+0x26c>
+ 246:	f8c6 00c4 	str.w	r0, [r6, #196]	; 0xc4
+ 24a:	e704      	b.n	56 <_ZN17ControllerManager15init_controllerEiPKfS1_+0x56>
+ 24c:	00000008 	.word	0x00000008
+ 250:	00000008 	.word	0x00000008
+ 254:	00000008 	.word	0x00000008
+ 258:	00000008 	.word	0x00000008
+ 25c:	00000008 	.word	0x00000008
+ 260:	00000008 	.word	0x00000008
+ 264:	00000008 	.word	0x00000008
+ 268:	00000008 	.word	0x00000008
+ 26c:	00000008 	.word	0x00000008
+
+Disassembly of section .text._ZN17ControllerManager4initEP10CANManagerPK6Config:
+
+00000000 <_ZN17ControllerManager4initEP10CANManagerPK6Config>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	2400      	movs	r4, #0
+   4:	4605      	mov	r5, r0
+   6:	2764      	movs	r7, #100	; 0x64
+   8:	f241 665c 	movw	r6, #5724	; 0x165c
+   c:	e9c0 2125 	strd	r2, r1, [r0, #148]	; 0x94
+  10:	e001      	b.n	16 <_ZN17ControllerManager4initEP10CANManagerPK6Config+0x16>
+  12:	f8d5 2094 	ldr.w	r2, [r5, #148]	; 0x94
+  16:	fb07 2c04 	mla	ip, r7, r4, r2
+  1a:	eb04 0144 	add.w	r1, r4, r4, lsl #1
+  1e:	3401      	adds	r4, #1
+  20:	4628      	mov	r0, r5
+  22:	44b4      	add	ip, r6
+  24:	0149      	lsls	r1, r1, #5
+  26:	eddc 7a00 	vldr	s15, [ip]
+  2a:	f201 73dc 	addw	r3, r1, #2012	; 0x7dc
+  2e:	f501 7157 	add.w	r1, r1, #860	; 0x35c
+  32:	eefd 7ae7 	vcvt.s32.f32	s15, s15
+  36:	4413      	add	r3, r2
+  38:	440a      	add	r2, r1
+  3a:	ee17 1a90 	vmov	r1, s15
+  3e:	f7ff fffe 	bl	0 <_ZN17ControllerManager4initEP10CANManagerPK6Config>
+  42:	2c0c      	cmp	r4, #12
+  44:	d1e5      	bne.n	12 <_ZN17ControllerManager4initEP10CANManagerPK6Config+0x12>
+  46:	6b2a      	ldr	r2, [r5, #48]	; 0x30
+  48:	4902      	ldr	r1, [pc, #8]	; (54 <_ZN17ControllerManager4initEP10CANManagerPK6Config+0x54>)
+  4a:	4803      	ldr	r0, [pc, #12]	; (58 <_ZN17ControllerManager4initEP10CANManagerPK6Config+0x58>)
+  4c:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  50:	f7ff bffe 	b.w	0 <_ZN5Print6printfEPKcz>
+  54:	00000000 	.word	0x00000000
+  58:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN17ControllerManager4stepEPA3_fS1_S1_:
+
+00000000 <_ZN17ControllerManager4stepEPA3_fS1_S1_>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	ed2d 8b02 	vpush	{d8}
+   8:	ee08 3a90 	vmov	s17, r3
+   c:	6b03      	ldr	r3, [r0, #48]	; 0x30
+   e:	b09b      	sub	sp, #108	; 0x6c
+  10:	2b00      	cmp	r3, #0
+  12:	dd75      	ble.n	100 <_ZN17ControllerManager4stepEPA3_fS1_S1_+0x100>
+  14:	4605      	mov	r5, r0
+  16:	468b      	mov	fp, r1
+  18:	ee08 2a10 	vmov	s16, r2
+  1c:	f04f 0a00 	mov.w	sl, #0
+  20:	f8df 80ec 	ldr.w	r8, [pc, #236]	; 110 <_ZN17ControllerManager4stepEPA3_fS1_S1_+0x110>
+  24:	f8df 90ec 	ldr.w	r9, [pc, #236]	; 114 <_ZN17ControllerManager4stepEPA3_fS1_S1_+0x114>
+  28:	f855 002a 	ldr.w	r0, [r5, sl, lsl #2]
+  2c:	ae02      	add	r6, sp, #8
+  2e:	ee18 3a90 	vmov	r3, s17
+  32:	ee18 2a10 	vmov	r2, s16
+  36:	6804      	ldr	r4, [r0, #0]
+  38:	4659      	mov	r1, fp
+  3a:	9600      	str	r6, [sp, #0]
+  3c:	6824      	ldr	r4, [r4, #0]
+  3e:	47a0      	blx	r4
+  40:	4652      	mov	r2, sl
+  42:	4932      	ldr	r1, [pc, #200]	; (10c <_ZN17ControllerManager4stepEPA3_fS1_S1_+0x10c>)
+  44:	4640      	mov	r0, r8
+  46:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  4a:	f8d5 3094 	ldr.w	r3, [r5, #148]	; 0x94
+  4e:	2264      	movs	r2, #100	; 0x64
+  50:	fb02 330a 	mla	r3, r2, sl, r3
+  54:	f503 53b3 	add.w	r3, r3, #5728	; 0x1660
+  58:	edd3 6a00 	vldr	s13, [r3]
+  5c:	eef5 6ac0 	vcmpe.f32	s13, #0.0
+  60:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  64:	d447      	bmi.n	f6 <_ZN17ControllerManager4stepEPA3_fS1_S1_+0xf6>
+  66:	eb0a 078a 	add.w	r7, sl, sl, lsl #2
+  6a:	2401      	movs	r4, #1
+  6c:	eb07 0787 	add.w	r7, r7, r7, lsl #2
+  70:	ed96 7a00 	vldr	s14, [r6]
+  74:	4649      	mov	r1, r9
+  76:	4640      	mov	r0, r8
+  78:	eeb7 7ac7 	vcvt.f64.f32	d7, s14
+  7c:	ed8d 7b00 	vstr	d7, [sp]
+  80:	eeb7 7ae6 	vcvt.f64.f32	d7, s13
+  84:	ec53 2b17 	vmov	r2, r3, d7
+  88:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  8c:	193b      	adds	r3, r7, r4
+  8e:	f8d5 2094 	ldr.w	r2, [r5, #148]	; 0x94
+  92:	3401      	adds	r4, #1
+  94:	f203 5396 	addw	r3, r3, #1430	; 0x596
+  98:	ecb6 0a01 	vldmia	r6!, {s0}
+  9c:	f8d5 0098 	ldr.w	r0, [r5, #152]	; 0x98
+  a0:	eb02 0383 	add.w	r3, r2, r3, lsl #2
+  a4:	edd3 7a01 	vldr	s15, [r3, #4]
+  a8:	eefd 7ae7 	vcvt.s32.f32	s15, s15
+  ac:	ee17 3a90 	vmov	r3, s15
+  b0:	eb02 1103 	add.w	r1, r2, r3, lsl #4
+  b4:	33c6      	adds	r3, #198	; 0xc6
+  b6:	eb02 1203 	add.w	r2, r2, r3, lsl #4
+  ba:	f501 6346 	add.w	r3, r1, #3168	; 0xc60
+  be:	ed92 7a01 	vldr	s14, [r2, #4]
+  c2:	edd3 7a00 	vldr	s15, [r3]
+  c6:	eebc 7ac7 	vcvt.u32.f32	s14, s14
+  ca:	eefc 7ae7 	vcvt.u32.f32	s15, s15
+  ce:	ee17 1a10 	vmov	r1, s14
+  d2:	ee17 2a90 	vmov	r2, s15
+  d6:	f7ff fffe 	bl	0 <_ZN10CANManager18write_motor_torqueEmmf>
+  da:	193a      	adds	r2, r7, r4
+  dc:	f8d5 3094 	ldr.w	r3, [r5, #148]	; 0x94
+  e0:	f202 5296 	addw	r2, r2, #1430	; 0x596
+  e4:	eb03 0382 	add.w	r3, r3, r2, lsl #2
+  e8:	edd3 6a01 	vldr	s13, [r3, #4]
+  ec:	eef5 6ac0 	vcmpe.f32	s13, #0.0
+  f0:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  f4:	d5bc      	bpl.n	70 <_ZN17ControllerManager4stepEPA3_fS1_S1_+0x70>
+  f6:	f10a 0a01 	add.w	sl, sl, #1
+  fa:	6b2b      	ldr	r3, [r5, #48]	; 0x30
+  fc:	4553      	cmp	r3, sl
+  fe:	dc93      	bgt.n	28 <_ZN17ControllerManager4stepEPA3_fS1_S1_+0x28>
+ 100:	b01b      	add	sp, #108	; 0x6c
+ 102:	ecbd 8b02 	vpop	{d8}
+ 106:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 10a:	bf00      	nop
+ 10c:	00000000 	.word	0x00000000
+ 110:	00000000 	.word	0x00000000
+ 114:	00000010 	.word	0x00000010
+
+Disassembly of section .text._ZN17ControllerManager14actuator_writeEif:
+
+00000000 <_ZN17ControllerManager14actuator_writeEif>:
+   0:	f8d0 3094 	ldr.w	r3, [r0, #148]	; 0x94
+   4:	f101 02c6 	add.w	r2, r1, #198	; 0xc6
+   8:	f8d0 0098 	ldr.w	r0, [r0, #152]	; 0x98
+   c:	eb03 1101 	add.w	r1, r3, r1, lsl #4
+  10:	eb03 1302 	add.w	r3, r3, r2, lsl #4
+  14:	f501 6146 	add.w	r1, r1, #3168	; 0xc60
+  18:	ed93 7a01 	vldr	s14, [r3, #4]
+  1c:	edd1 7a00 	vldr	s15, [r1]
+  20:	eebc 7ac7 	vcvt.u32.f32	s14, s14
+  24:	eefc 7ae7 	vcvt.u32.f32	s15, s15
+  28:	ee17 1a10 	vmov	r1, s14
+  2c:	ee17 2a90 	vmov	r2, s15
+  30:	f7ff bffe 	b.w	0 <_ZN10CANManager18write_motor_torqueEmmf>
+
+Disassembly of section .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_:
+
+00000000 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	f100 0708 	add.w	r7, r0, #8
+   6:	b083      	sub	sp, #12
+   8:	6007      	str	r7, [r0, #0]
+   a:	b331      	cbz	r1, 5a <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x5a>
+   c:	4604      	mov	r4, r0
+   e:	4608      	mov	r0, r1
+  10:	460e      	mov	r6, r1
+  12:	f7ff fffe 	bl	0 <strlen>
+  16:	280f      	cmp	r0, #15
+  18:	4605      	mov	r5, r0
+  1a:	9001      	str	r0, [sp, #4]
+  1c:	d80c      	bhi.n	38 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x38>
+  1e:	2801      	cmp	r0, #1
+  20:	d107      	bne.n	32 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x32>
+  22:	7833      	ldrb	r3, [r6, #0]
+  24:	7223      	strb	r3, [r4, #8]
+  26:	2300      	movs	r3, #0
+  28:	4620      	mov	r0, r4
+  2a:	6065      	str	r5, [r4, #4]
+  2c:	557b      	strb	r3, [r7, r5]
+  2e:	b003      	add	sp, #12
+  30:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  32:	2800      	cmp	r0, #0
+  34:	d0f7      	beq.n	26 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x26>
+  36:	e008      	b.n	4a <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x4a>
+  38:	2200      	movs	r2, #0
+  3a:	a901      	add	r1, sp, #4
+  3c:	4620      	mov	r0, r4
+  3e:	f7ff fffe 	bl	0 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj>
+  42:	9b01      	ldr	r3, [sp, #4]
+  44:	4607      	mov	r7, r0
+  46:	6020      	str	r0, [r4, #0]
+  48:	60a3      	str	r3, [r4, #8]
+  4a:	462a      	mov	r2, r5
+  4c:	4638      	mov	r0, r7
+  4e:	4631      	mov	r1, r6
+  50:	f7ff fffe 	bl	0 <memcpy>
+  54:	9d01      	ldr	r5, [sp, #4]
+  56:	6827      	ldr	r7, [r4, #0]
+  58:	e7e5      	b.n	26 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x26>
+  5a:	4801      	ldr	r0, [pc, #4]	; (60 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1IS3_EEPKcRKS3_+0x60>)
+  5c:	f7ff fffe 	bl	0 <_ZSt19__throw_logic_errorPKc>
+  60:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_:
+
+00000000 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	688c      	ldr	r4, [r1, #8]
+   6:	b083      	sub	sp, #12
+   8:	468b      	mov	fp, r1
+   a:	4681      	mov	r9, r0
+   c:	9201      	str	r2, [sp, #4]
+   e:	b3a4      	cbz	r4, 7a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x7a>
+  10:	9b01      	ldr	r3, [sp, #4]
+  12:	e9d3 a800 	ldrd	sl, r8, [r3]
+  16:	e000      	b.n	1a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x1a>
+  18:	4614      	mov	r4, r2
+  1a:	6966      	ldr	r6, [r4, #20]
+  1c:	4645      	mov	r5, r8
+  1e:	6927      	ldr	r7, [r4, #16]
+  20:	4650      	mov	r0, sl
+  22:	45b0      	cmp	r8, r6
+  24:	4639      	mov	r1, r7
+  26:	bf28      	it	cs
+  28:	4635      	movcs	r5, r6
+  2a:	462a      	mov	r2, r5
+  2c:	b115      	cbz	r5, 34 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x34>
+  2e:	f7ff fffe 	bl	0 <memcmp>
+  32:	b908      	cbnz	r0, 38 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x38>
+  34:	eba8 0006 	sub.w	r0, r8, r6
+  38:	2800      	cmp	r0, #0
+  3a:	e9d4 1202 	ldrd	r1, r2, [r4, #8]
+  3e:	bfae      	itee	ge
+  40:	2100      	movge	r1, #0
+  42:	460a      	movlt	r2, r1
+  44:	2101      	movlt	r1, #1
+  46:	2a00      	cmp	r2, #0
+  48:	d1e6      	bne.n	18 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x18>
+  4a:	b9b9      	cbnz	r1, 7c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x7c>
+  4c:	46a3      	mov	fp, r4
+  4e:	b18d      	cbz	r5, 74 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x74>
+  50:	462a      	mov	r2, r5
+  52:	4651      	mov	r1, sl
+  54:	4638      	mov	r0, r7
+  56:	f7ff fffe 	bl	0 <memcmp>
+  5a:	b158      	cbz	r0, 74 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x74>
+  5c:	2800      	cmp	r0, #0
+  5e:	f04f 0300 	mov.w	r3, #0
+  62:	4648      	mov	r0, r9
+  64:	bfb4      	ite	lt
+  66:	e9c9 3b00 	strdlt	r3, fp, [r9]
+  6a:	e9c9 4300 	strdge	r4, r3, [r9]
+  6e:	b003      	add	sp, #12
+  70:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  74:	eba6 0008 	sub.w	r0, r6, r8
+  78:	e7f0      	b.n	5c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x5c>
+  7a:	1d0c      	adds	r4, r1, #4
+  7c:	f8db 300c 	ldr.w	r3, [fp, #12]
+  80:	42a3      	cmp	r3, r4
+  82:	d00e      	beq.n	a2 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0xa2>
+  84:	4620      	mov	r0, r4
+  86:	46a3      	mov	fp, r4
+  88:	f7ff fffe 	bl	0 <_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base>
+  8c:	9b01      	ldr	r3, [sp, #4]
+  8e:	4604      	mov	r4, r0
+  90:	e9d0 7604 	ldrd	r7, r6, [r0, #16]
+  94:	e9d3 a800 	ldrd	sl, r8, [r3]
+  98:	4635      	mov	r5, r6
+  9a:	4546      	cmp	r6, r8
+  9c:	bf28      	it	cs
+  9e:	4645      	movcs	r5, r8
+  a0:	e7d5      	b.n	4e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_+0x4e>
+  a2:	2300      	movs	r3, #0
+  a4:	4648      	mov	r0, r9
+  a6:	e9c9 3400 	strd	r3, r4, [r9]
+  aa:	b003      	add	sp, #12
+  ac:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+
+Disassembly of section .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_:
+
+00000000 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_>:
+   0:	4291      	cmp	r1, r2
+   2:	f000 808b 	beq.w	11c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x11c>
+   6:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   a:	4692      	mov	sl, r2
+   c:	b087      	sub	sp, #28
+   e:	4680      	mov	r8, r0
+  10:	f100 0b04 	add.w	fp, r0, #4
+  14:	f101 041c 	add.w	r4, r1, #28
+  18:	f8d8 3014 	ldr.w	r3, [r8, #20]
+  1c:	f1a4 051c 	sub.w	r5, r4, #28
+  20:	b183      	cbz	r3, 44 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x44>
+  22:	f8d8 9010 	ldr.w	r9, [r8, #16]
+  26:	e954 1607 	ldrd	r1, r6, [r4, #-28]
+  2a:	e9d9 0704 	ldrd	r0, r7, [r9, #16]
+  2e:	42b7      	cmp	r7, r6
+  30:	463a      	mov	r2, r7
+  32:	bf28      	it	cs
+  34:	4632      	movcs	r2, r6
+  36:	b112      	cbz	r2, 3e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x3e>
+  38:	f7ff fffe 	bl	0 <memcmp>
+  3c:	b900      	cbnz	r0, 40 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x40>
+  3e:	1bb8      	subs	r0, r7, r6
+  40:	2800      	cmp	r0, #0
+  42:	db69      	blt.n	118 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x118>
+  44:	462a      	mov	r2, r5
+  46:	4641      	mov	r1, r8
+  48:	a804      	add	r0, sp, #16
+  4a:	f7ff fffe 	bl	0 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_>
+  4e:	e9dd 6904 	ldrd	r6, r9, [sp, #16]
+  52:	f1b9 0f00 	cmp.w	r9, #0
+  56:	d02e      	beq.n	b6 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0xb6>
+  58:	3e00      	subs	r6, #0
+  5a:	bf18      	it	ne
+  5c:	2601      	movne	r6, #1
+  5e:	45cb      	cmp	fp, r9
+  60:	bf08      	it	eq
+  62:	f046 0601 	orreq.w	r6, r6, #1
+  66:	2e00      	cmp	r6, #0
+  68:	d040      	beq.n	ec <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0xec>
+  6a:	202c      	movs	r0, #44	; 0x2c
+  6c:	f7ff fffe 	bl	0 <_Znwj>
+  70:	4605      	mov	r5, r0
+  72:	3018      	adds	r0, #24
+  74:	e954 3707 	ldrd	r3, r7, [r4, #-28]
+  78:	6128      	str	r0, [r5, #16]
+  7a:	42fb      	cmn	r3, r7
+  7c:	d001      	beq.n	82 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x82>
+  7e:	2b00      	cmp	r3, #0
+  80:	d04d      	beq.n	11e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x11e>
+  82:	2f0f      	cmp	r7, #15
+  84:	9703      	str	r7, [sp, #12]
+  86:	d81f      	bhi.n	c8 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0xc8>
+  88:	2f01      	cmp	r7, #1
+  8a:	d11a      	bne.n	c2 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0xc2>
+  8c:	781b      	ldrb	r3, [r3, #0]
+  8e:	762b      	strb	r3, [r5, #24]
+  90:	f04f 0300 	mov.w	r3, #0
+  94:	616f      	str	r7, [r5, #20]
+  96:	464a      	mov	r2, r9
+  98:	55c3      	strb	r3, [r0, r7]
+  9a:	465b      	mov	r3, fp
+  9c:	f814 1c04 	ldrb.w	r1, [r4, #-4]
+  a0:	4630      	mov	r0, r6
+  a2:	f885 1028 	strb.w	r1, [r5, #40]	; 0x28
+  a6:	4629      	mov	r1, r5
+  a8:	f7ff fffe 	bl	0 <_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_>
+  ac:	f8d8 3014 	ldr.w	r3, [r8, #20]
+  b0:	3301      	adds	r3, #1
+  b2:	f8c8 3014 	str.w	r3, [r8, #20]
+  b6:	45a2      	cmp	sl, r4
+  b8:	f104 031c 	add.w	r3, r4, #28
+  bc:	d029      	beq.n	112 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x112>
+  be:	461c      	mov	r4, r3
+  c0:	e7aa      	b.n	18 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x18>
+  c2:	2f00      	cmp	r7, #0
+  c4:	d0e4      	beq.n	90 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x90>
+  c6:	e00a      	b.n	de <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0xde>
+  c8:	2200      	movs	r2, #0
+  ca:	a903      	add	r1, sp, #12
+  cc:	f105 0010 	add.w	r0, r5, #16
+  d0:	9301      	str	r3, [sp, #4]
+  d2:	f7ff fffe 	bl	0 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj>
+  d6:	9a03      	ldr	r2, [sp, #12]
+  d8:	9b01      	ldr	r3, [sp, #4]
+  da:	6128      	str	r0, [r5, #16]
+  dc:	61aa      	str	r2, [r5, #24]
+  de:	463a      	mov	r2, r7
+  e0:	4619      	mov	r1, r3
+  e2:	f7ff fffe 	bl	0 <memcpy>
+  e6:	9f03      	ldr	r7, [sp, #12]
+  e8:	6928      	ldr	r0, [r5, #16]
+  ea:	e7d1      	b.n	90 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x90>
+  ec:	f854 6c18 	ldr.w	r6, [r4, #-24]
+  f0:	f8d9 5014 	ldr.w	r5, [r9, #20]
+  f4:	4632      	mov	r2, r6
+  f6:	42ae      	cmp	r6, r5
+  f8:	bf28      	it	cs
+  fa:	462a      	movcs	r2, r5
+  fc:	b132      	cbz	r2, 10c <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x10c>
+  fe:	f8d9 1010 	ldr.w	r1, [r9, #16]
+ 102:	f854 0c1c 	ldr.w	r0, [r4, #-28]
+ 106:	f7ff fffe 	bl	0 <memcmp>
+ 10a:	b900      	cbnz	r0, 10e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x10e>
+ 10c:	1b70      	subs	r0, r6, r5
+ 10e:	0fc6      	lsrs	r6, r0, #31
+ 110:	e7ab      	b.n	6a <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x6a>
+ 112:	b007      	add	sp, #28
+ 114:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 118:	2600      	movs	r6, #0
+ 11a:	e7a0      	b.n	5e <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x5e>
+ 11c:	4770      	bx	lr
+ 11e:	4801      	ldr	r0, [pc, #4]	; (124 <_ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_+0x124>)
+ 120:	f7ff fffe 	bl	0 <_ZSt19__throw_logic_errorPKc>
+ 124:	00000000 	.word	0x00000000
+
+Disassembly of section .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0:
+
+00000000 <_Z41__static_initialization_and_destruction_0ii.constprop.0>:
+   0:	b530      	push	{r4, r5, lr}
+   2:	b0c1      	sub	sp, #260	; 0x104
+   4:	2400      	movs	r4, #0
+   6:	4931      	ldr	r1, [pc, #196]	; (cc <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xcc>)
+   8:	ad01      	add	r5, sp, #4
+   a:	466a      	mov	r2, sp
+   c:	4628      	mov	r0, r5
+   e:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  12:	466a      	mov	r2, sp
+  14:	492e      	ldr	r1, [pc, #184]	; (d0 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xd0>)
+  16:	a808      	add	r0, sp, #32
+  18:	f88d 401c 	strb.w	r4, [sp, #28]
+  1c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  20:	2301      	movs	r3, #1
+  22:	466a      	mov	r2, sp
+  24:	492b      	ldr	r1, [pc, #172]	; (d4 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xd4>)
+  26:	a80f      	add	r0, sp, #60	; 0x3c
+  28:	f88d 3038 	strb.w	r3, [sp, #56]	; 0x38
+  2c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  30:	2302      	movs	r3, #2
+  32:	466a      	mov	r2, sp
+  34:	4928      	ldr	r1, [pc, #160]	; (d8 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xd8>)
+  36:	a816      	add	r0, sp, #88	; 0x58
+  38:	f88d 3054 	strb.w	r3, [sp, #84]	; 0x54
+  3c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  40:	2303      	movs	r3, #3
+  42:	466a      	mov	r2, sp
+  44:	4925      	ldr	r1, [pc, #148]	; (dc <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xdc>)
+  46:	a81d      	add	r0, sp, #116	; 0x74
+  48:	f88d 3070 	strb.w	r3, [sp, #112]	; 0x70
+  4c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  50:	2304      	movs	r3, #4
+  52:	466a      	mov	r2, sp
+  54:	4922      	ldr	r1, [pc, #136]	; (e0 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xe0>)
+  56:	a824      	add	r0, sp, #144	; 0x90
+  58:	f88d 308c 	strb.w	r3, [sp, #140]	; 0x8c
+  5c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  60:	2305      	movs	r3, #5
+  62:	466a      	mov	r2, sp
+  64:	491f      	ldr	r1, [pc, #124]	; (e4 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xe4>)
+  66:	a82b      	add	r0, sp, #172	; 0xac
+  68:	f88d 30a8 	strb.w	r3, [sp, #168]	; 0xa8
+  6c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  70:	2306      	movs	r3, #6
+  72:	466a      	mov	r2, sp
+  74:	491c      	ldr	r1, [pc, #112]	; (e8 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xe8>)
+  76:	a832      	add	r0, sp, #200	; 0xc8
+  78:	f88d 30c4 	strb.w	r3, [sp, #196]	; 0xc4
+  7c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  80:	2307      	movs	r3, #7
+  82:	466a      	mov	r2, sp
+  84:	4919      	ldr	r1, [pc, #100]	; (ec <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xec>)
+  86:	a839      	add	r0, sp, #228	; 0xe4
+  88:	f88d 30e0 	strb.w	r3, [sp, #224]	; 0xe0
+  8c:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  90:	4817      	ldr	r0, [pc, #92]	; (f0 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xf0>)
+  92:	2108      	movs	r1, #8
+  94:	aa40      	add	r2, sp, #256	; 0x100
+  96:	1d03      	adds	r3, r0, #4
+  98:	7104      	strb	r4, [r0, #4]
+  9a:	6144      	str	r4, [r0, #20]
+  9c:	f88d 10fc 	strb.w	r1, [sp, #252]	; 0xfc
+  a0:	4629      	mov	r1, r5
+  a2:	6103      	str	r3, [r0, #16]
+  a4:	e9c0 4302 	strd	r4, r3, [r0, #8]
+  a8:	ac40      	add	r4, sp, #256	; 0x100
+  aa:	f7ff fffe 	bl	0 <_Z41__static_initialization_and_destruction_0ii.constprop.0>
+  ae:	3c1c      	subs	r4, #28
+  b0:	4620      	mov	r0, r4
+  b2:	f7ff fffe 	bl	0 <_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv>
+  b6:	42ac      	cmp	r4, r5
+  b8:	d1f9      	bne.n	ae <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xae>
+  ba:	4a0e      	ldr	r2, [pc, #56]	; (f4 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xf4>)
+  bc:	490e      	ldr	r1, [pc, #56]	; (f8 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xf8>)
+  be:	480c      	ldr	r0, [pc, #48]	; (f0 <_Z41__static_initialization_and_destruction_0ii.constprop.0+0xf0>)
+  c0:	b041      	add	sp, #260	; 0x104
+  c2:	e8bd 4030 	ldmia.w	sp!, {r4, r5, lr}
+  c6:	f7ff bffe 	b.w	0 <__aeabi_atexit>
+  ca:	bf00      	nop
+  cc:	00000000 	.word	0x00000000
+  d0:	00000008 	.word	0x00000008
+  d4:	00000018 	.word	0x00000018
+  d8:	00000028 	.word	0x00000028
+  dc:	00000030 	.word	0x00000030
+  e0:	0000003c 	.word	0x0000003c
+  e4:	00000048 	.word	0x00000048
+  e8:	00000054 	.word	0x00000054
+  ec:	00000068 	.word	0x00000068
+  f0:	00000000 	.word	0x00000000
+  f4:	00000000 	.word	0x00000000
+  f8:	00000000 	.word	0x00000000
+
+Disassembly of section .text.startup._GLOBAL__sub_I__ZN17ControllerManager4initEP10CANManagerPK6Config:
+
+00000000 <_GLOBAL__sub_I__ZN17ControllerManager4initEP10CANManagerPK6Config>:
+   0:	f7ff bffe 	b.w	0 <_GLOBAL__sub_I__ZN17ControllerManager4initEP10CANManagerPK6Config>

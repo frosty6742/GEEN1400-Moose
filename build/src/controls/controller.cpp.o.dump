@@ -1,0 +1,1416 @@
+
+build/./src/controls/controller.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 controller.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN18SwitcherController5resetEv	00000000 .text._ZN18SwitcherController5resetEv
+00000000 l    d  .text._ZN16FeederController5resetEv	00000000 .text._ZN16FeederController5resetEv
+00000000 l    d  .text._ZN18FlywheelController5resetEv	00000000 .text._ZN18FlywheelController5resetEv
+00000000 l    d  .text._ZN15PitchController5resetEv	00000000 .text._ZN15PitchController5resetEv
+00000000 l    d  .text._ZN13YawController5resetEv	00000000 .text._ZN13YawController5resetEv
+00000000 l    d  .text._ZN24XDriveVelocityController5resetEv	00000000 .text._ZN24XDriveVelocityController5resetEv
+00000000 l    d  .text._ZN24XDrivePositionController5resetEv	00000000 .text._ZN24XDrivePositionController5resetEv
+00000000 l    d  .text._ZN16FeederController4stepEPA3_fS1_S1_Pf	00000000 .text._ZN16FeederController4stepEPA3_fS1_S1_Pf
+00000000 l    d  .text._ZN18FlywheelController4stepEPA3_fS1_S1_Pf	00000000 .text._ZN18FlywheelController4stepEPA3_fS1_S1_Pf
+00000000 l    d  .text._ZN13YawController4stepEPA3_fS1_S1_Pf	00000000 .text._ZN13YawController4stepEPA3_fS1_S1_Pf
+00000000 l    d  .text._ZN18SwitcherController4stepEPA3_fS1_S1_Pf	00000000 .text._ZN18SwitcherController4stepEPA3_fS1_S1_Pf
+00000000 l    d  .text._ZN15PitchController4stepEPA3_fS1_S1_Pf	00000000 .text._ZN15PitchController4stepEPA3_fS1_S1_Pf
+00000000 l    d  .text._ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf	00000000 .text._ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf
+00000000 l    d  .text._ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf	00000000 .text._ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf
+00000000 l    d  .rodata._ZTV13YawController	00000000 .rodata._ZTV13YawController
+00000000 l    d  .rodata._ZTV15PitchController	00000000 .rodata._ZTV15PitchController
+00000000 l    d  .rodata._ZTV16FeederController	00000000 .rodata._ZTV16FeederController
+00000000 l    d  .rodata._ZTV18FlywheelController	00000000 .rodata._ZTV18FlywheelController
+00000000 l    d  .rodata._ZTV18SwitcherController	00000000 .rodata._ZTV18SwitcherController
+00000000 l    d  .rodata._ZTV24XDrivePositionController	00000000 .rodata._ZTV24XDrivePositionController
+00000000 l    d  .rodata._ZTV24XDriveVelocityController	00000000 .rodata._ZTV24XDriveVelocityController
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN18SwitcherController5resetEv	00000018 _ZN18SwitcherController5resetEv
+00000000         *UND*	00000000 micros
+00000000  w    F .text._ZN16FeederController5resetEv	00000018 _ZN16FeederController5resetEv
+00000000  w    F .text._ZN18FlywheelController5resetEv	00000018 _ZN18FlywheelController5resetEv
+00000000  w    F .text._ZN15PitchController5resetEv	00000018 _ZN15PitchController5resetEv
+00000000  w    F .text._ZN13YawController5resetEv	00000018 _ZN13YawController5resetEv
+00000000  w    F .text._ZN24XDriveVelocityController5resetEv	00000028 _ZN24XDriveVelocityController5resetEv
+00000000  w    F .text._ZN24XDrivePositionController5resetEv	00000028 _ZN24XDrivePositionController5resetEv
+00000000 g     F .text._ZN16FeederController4stepEPA3_fS1_S1_Pf	00000114 _ZN16FeederController4stepEPA3_fS1_S1_Pf
+00000000 g     F .text._ZN18FlywheelController4stepEPA3_fS1_S1_Pf	00000128 _ZN18FlywheelController4stepEPA3_fS1_S1_Pf
+00000000 g     F .text._ZN13YawController4stepEPA3_fS1_S1_Pf	000001c8 _ZN13YawController4stepEPA3_fS1_S1_Pf
+00000000 g     F .text._ZN18SwitcherController4stepEPA3_fS1_S1_Pf	000001bc _ZN18SwitcherController4stepEPA3_fS1_S1_Pf
+00000000 g     F .text._ZN15PitchController4stepEPA3_fS1_S1_Pf	000001c8 _ZN15PitchController4stepEPA3_fS1_S1_Pf
+00000000         *UND*	00000000 sinf
+00000000 g     F .text._ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf	000002d4 _ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf
+00000000         *UND*	00000000 cosf
+00000000         *UND*	00000000 ref
+00000000 g     F .text._ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf	00000338 _ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf
+00000000 g     O .rodata._ZTV24XDrivePositionController	00000010 _ZTV24XDrivePositionController
+00000000 g     O .rodata._ZTV24XDriveVelocityController	00000010 _ZTV24XDriveVelocityController
+00000000 g     O .rodata._ZTV13YawController	00000010 _ZTV13YawController
+00000000 g     O .rodata._ZTV15PitchController	00000010 _ZTV15PitchController
+00000000 g     O .rodata._ZTV18FlywheelController	00000010 _ZTV18FlywheelController
+00000000 g     O .rodata._ZTV16FeederController	00000010 _ZTV16FeederController
+00000000 g     O .rodata._ZTV18SwitcherController	00000010 _ZTV18SwitcherController
+
+
+Contents of section .group:
+ 0000 01000000 0b000000 0c000000           ............    
+Contents of section .group:
+ 0000 01000000 0d000000 0e000000           ............    
+Contents of section .group:
+ 0000 01000000 0f000000 10000000           ............    
+Contents of section .group:
+ 0000 01000000 11000000 12000000           ............    
+Contents of section .group:
+ 0000 01000000 13000000 14000000           ............    
+Contents of section .group:
+ 0000 01000000 15000000 16000000           ............    
+Contents of section .group:
+ 0000 01000000 17000000 18000000           ............    
+Contents of section .text._ZN18SwitcherController5resetEv:
+ 0000 10b50446 fff7feff 0023c4f8 c400c4f8  ...F.....#......
+ 0010 d830c4f8 fc3010bd                    .0...0..        
+Contents of section .text._ZN16FeederController5resetEv:
+ 0000 10b50446 fff7feff 0023c4f8 c400c4f8  ...F.....#......
+ 0010 d830c4f8 fc3010bd                    .0...0..        
+Contents of section .text._ZN18FlywheelController5resetEv:
+ 0000 10b50446 fff7feff 0023c4f8 c400c4f8  ...F.....#......
+ 0010 d830c4f8 fc3010bd                    .0...0..        
+Contents of section .text._ZN15PitchController5resetEv:
+ 0000 10b50446 fff7feff 0023c4f8 c400c4f8  ...F.....#......
+ 0010 d830c4f8 fc3010bd                    .0...0..        
+Contents of section .text._ZN13YawController5resetEv:
+ 0000 10b50446 fff7feff 0023c4f8 c400c4f8  ...F.....#......
+ 0010 d830c4f8 fc3010bd                    .0...0..        
+Contents of section .text._ZN24XDriveVelocityController5resetEv:
+ 0000 10b50446 fff7feff 0023c4f8 c400c4f8  ...F.....#......
+ 0010 d830c4f8 4431c4f8 fc30c4f8 6831c4f8  .0..D1...0..h1..
+ 0020 2031c4f8 8c3110bd                     1...1..        
+Contents of section .text._ZN24XDrivePositionController5resetEv:
+ 0000 10b50446 fff7feff 0023c4f8 c400c4f8  ...F.....#......
+ 0010 d830c4f8 4431c4f8 fc30c4f8 6831c4f8  .0..D1...0..h1..
+ 0020 2031c4f8 8c3110bd                     1...1..        
+Contents of section .text._ZN16FeederController4stepEPA3_fS1_S1_Pf:
+ 0000 f8b50446 0f461646 1d462ded 028bfff7  ...F.F.F.F-.....
+ 0010 feffd4f8 c4309fed 3e7ac01a 07ee900a  .....0..>z......
+ 0020 f8ee677a 87ee878a fff7feff d4ed012a  ..gz...........*
+ 0030 94ed032a a368c4ed 322ac4f8 cc30f7ee  ...*.h..2*...0..
+ 0040 001a84ed 342ad7ed 137a94ed 374ac4ed  ....4*...z..7J..
+ 0050 357ac4ed 387ad6ed 136ad4ed 364a37ee  5z..8z...j..6J7.
+ 0060 e66ac4ed 396a94ed 191a94ed 1a7a36ee  .j..9j.......z6.
+ 0070 444ad4ed 043ae6ee 084a94ed 063a6369  DJ...:...J...:ci
+ 0080 c4ee086a 84ed376a c4ed3b3a c4f8f030  ...j..7j..;:...0
+ 0090 84ed3d3a c4ed364a 94ed405a d4ed3f5a  ..=:..6J..@Z..?Z
+ 00a0 c4f8c400 66ee826a e2ee866a b0ee656a  ....f..j...j..ej
+ 00b0 77eea67a 67ee817a 27ee877a c4ed417a  w..zg..z'..z..Az
+ 00c0 84ed3e7a d5ed256a 77eee67a c4ed426a  ..>z..%jw..z..Bj
+ 00d0 37eec55a c4ed407a a7ee886a c5ee086a  7..Z..@z...j...j
+ 00e0 84ed3f6a 089bbdec 028b66ee 836ae3ee  ..?j......f..j..
+ 00f0 a76a77ee 267ab0ee e77ab4ee e17af1ee  .jw.&z...z...z..
+ 0100 10fac8bf c7ee877a c3ed007a f8bd00bf  .......z...z....
+ 0110 00247449                             .$tI            
+Contents of section .text._ZN18FlywheelController4stepEPA3_fS1_S1_Pf:
+ 0000 f8b50446 0f461646 1d462ded 028bfff7  ...F.F.F.F-.....
+ 0010 feffd4f8 c4309fed 427ac01a 07ee900a  .....0..Bz......
+ 0020 f8ee677a 87ee878a fff7feff 94ed015a  ..gz...........Z
+ 0030 2b46d4ed 034aa268 84ed325a c4ed344a  +F...J.h..2Z..4J
+ 0040 b7ee003a c4f8cc20 d7ed107a d4ed375a  ...:... ...z..7Z
+ 0050 c4ed357a c4ed387a 96ed107a 94ed366a  ..5z..8z...z..6j
+ 0060 77eec76a 84ed397a d4ed193a c4f8c400  w..j..9z...:....
+ 0070 002076ee e55ac4ed 376aa6ee 886a9fed  . v..Z..7j...j..
+ 0080 294a0899 85ee887a 84ed366a 27ee247a  )J.....z..6j'.$z
+ 0090 a5ee267a 77ee877a 67eea36a f1ee663a  ..&zw..zg..j..f:
+ 00a0 94ed055a 0128d4ed 074a03f1 0c03a269  ...Z.(...J.....i
+ 00b0 06fea37a 84ed3b5a 84ed417a c4ed3d4a  ...z..;Z..Az..=J
+ 00c0 c4f8f020 84ed3e4a d3ed1c7a d4ed405a  ... ..>J...z..@Z
+ 00d0 37ee677a c4ed427a 94ed3f6a 77ee655a  7.gz..Bz..?jw.eZ
+ 00e0 84ed407a a8ee076a c5ee887a 84ed3f6a  ..@z...j...z..?j
+ 00f0 67eea47a e5ee077a 77ee847a b0eee77a  g..z...zw..z...z
+ 0100 b4eec37a f1ee10fa c8bfc7ee 877ae1ec  ...z.........z..
+ 0110 017a10b1 bdec028b f8bd0120 c0e700bf  .z......... ....
+ 0120 00247449 00000000                    .$tI....        
+Contents of section .text._ZN13YawController4stepEPA3_fS1_S1_Pf:
+ 0000 f8b50446 0e461546 2ded028b 089ffff7  ...F.F.F-.......
+ 0010 feffd4f8 c4309fed 6a7ac01a 07ee900a  .....0..jz......
+ 0020 f8ee677a 87ee878a fff7feff a36894ed  ..gz.........h..
+ 0030 013ac4f8 cc30d4ed 032ad4ed 044a94ed  .:...0...*...J..
+ 0040 064a6369 84ed323a c4ed342a c4ed3b4a  .Jci..2:..4*..;J
+ 0050 84ed3d4a c4f8f030 96ed097a c4f8c400  ..=J...0...z....
+ 0060 84ed387a d5ed097a 37ee677a c4ed397a  ..8z...z7.gz..9z
+ 0070 d6ed0a6a 9fed4c1b b7eec75a c4ed416a  ...j..L....Z..Aj
+ 0080 d5ed0a3a b4eec15b c4ed423a f1ee10fa  ...:...[..B:....
+ 0090 07dd9fed 477b35ee 477bb7ee c77bb7ee  ....G{5.G{...{..
+ 00a0 c75a9fed 451bb4ee c15bf1ee 10fa05d5  .Z..E....[......
+ 00b0 9fed3f7b 35ee077b b7eec77b d4ed375a  ..?{5..{...{..7Z
+ 00c0 b7ee005a 94ed352a 76eee36a 77ee655a  ...Z..5*v..jw.eZ
+ 00d0 94ed366a 84ed377a a7ee086a d4ed3e3a  ..6j..7z...j..>:
+ 00e0 c5ee887a d4ed405a c4ed406a 76eee55a  ...z..@Z..@jv..Z
+ 00f0 84ed366a 94ed3f6a a6ee886a 84ed3f6a  ..6j..?j...j..?j
+ 0100 67eea27a e3ee077a 77ee827a b0eee77a  g..z...zw..z...z
+ 0110 b4eec57a b7ee005a f1ee10fa c8bfc7ee  ...z...Z........
+ 0120 877a9fed 287a77ee 877a85ee 887a27ee  .z..(zw..z...z'.
+ 0130 047aa4ee a67a37ee 237af0ee c76af4ee  .z...z7.#z...j..
+ 0140 c56af1ee 10fac8bf 87ee267a 77ee877a  .j........&zw..z
+ 0150 bfee007a f4eec77a f1ee10fa 18d4f7ee  ...z...z........
+ 0160 006af4ee e67af1ee 10fa08dd f0ee477a  .j...z........Gz
+ 0170 bdec028b c7ed007a c7ed017a f8bdf1ee  .......z...z....
+ 0180 677abdec 028bc7ed 007ac7ed 017af8bd  gz.......z...z..
+ 0190 f7ee007a bdec028b c7ed007a c7ed017a  ...z.......z...z
+ 01a0 f8bd00bf aff30080 182d4454 fb210940  .........-DT.!.@
+ 01b0 182d4454 fb211940 182d4454 fb2109c0  .-DT.!.@.-DT.!..
+ 01c0 00247449 00000000                    .$tI....        
+Contents of section .text._ZN18SwitcherController4stepEPA3_fS1_S1_Pf:
+ 0000 70b50446 0e461546 2ded028b fff7feff  p..F.F.F-.......
+ 0010 d4f8c430 9fed677a c01a07ee 900af8ee  ...0..gz........
+ 0020 677a87ee 878afff7 feffa368 d4ed014a  gz.........h...J
+ 0030 c4f8cc30 d4ed032a 9fed5f6a 94ed054a  ...0...*.._j...J
+ 0040 d4ed073a a36994ed 087ac4ed 324ac4ed  ...:.i...z..2J..
+ 0050 342af1ee 475a84ed 356a84ed 3b4ac4ed  4*..GZ..5j..;J..
+ 0060 3d3ac4f8 f030d5ed 156ad6ed 157af4ee  =:...0...j...z..
+ 0070 c76ac4f8 c400f1ee 10fa19dd f4eee57a  .j.............z
+ 0080 f1ee10fa 14ddb4ee e77af1ee 10fa00f3  .........z......
+ 0090 8d80d4ed 046af0ee 464a84ed 326ab0ee  .....j..FJ..2j..
+ 00a0 464a84ed 3b6ac4ed 356ad6ed 157a06e0  FJ..;j..5j...z..
+ 00b0 f4eee56a f1ee10fa 5bd4dfed 3f6ac4ed  ...j....[...?j..
+ 00c0 387ab7ee 002a95ed 157a94ed 375a77ee  8z...*...z..7Zw.
+ 00d0 c77ad4ed 365a84ed 397a96ed 167a37ee  .z..6Z..9z...z7.
+ 00e0 c55a069b e8ee275a 84ed417a 95ed163a  .Z....'Z..Az...:
+ 00f0 85ee086a c4ed377a 84ed423a c4ed365a  ...j..7z..B:..6Z
+ 0100 37ee437a d4ed405a b7ee005a 77ee655a  7.Cz..@Z...Zw.eZ
+ 0110 84ed407a 26ee226a a7eea46a d4ed3e4a  ..@z&."j...j..>J
+ 0120 76ee866a 94ed3f6a a8ee076a f0eee67a  v..j..?j...j...z
+ 0130 f4eec27a 84ed3f6a f1ee10fa c8bfc6ee  ...z..?j........
+ 0140 a76ac5ee 887abdec 028b67ee a37ae7ee  .j...z....g..z..
+ 0150 047a77ee a47ab0ee e77ab4ee c57af1ee  .zw..z...z...z..
+ 0160 10fac8bf c7ee877a 77eea67a c3ed007a  .......zw..z...z
+ 0170 70bdb4ee e77af1ee 10fa9edd f4eee75a  p....z.........Z
+ 0180 f1ee10fa 99d4d4ed 046adfed 0b7af1ee  .........j...z..
+ 0190 666af0ee 674ac4ed 327ab0ee 674ac4ed  fj..gJ..2z..gJ..
+ 01a0 3b7ac4ed 356ad6ed 157a88e7 f0ee466a  ;z..5j...z....Fj
+ 01b0 85e700bf 00247449 00000000           .....$tI....    
+Contents of section .text._ZN15PitchController4stepEPA3_fS1_S1_Pf:
+ 0000 f8b50446 0d461646 2ded048b 0a9ffff7  ...F.F.F-.......
+ 0010 feffd4f8 c4309fed 6a7ac01a 07ee900a  .....0..jz......
+ 0020 f8ee677a 87ee878a fff7feff a368d4ed  ..gz.........h..
+ 0030 018a94ed 039ac4f8 cc30c4ed 328a84ed  .........0..2...
+ 0040 349ac4f8 c40095ed 0c0afff7 feffd4ed  4...............
+ 0050 047a94ed 055a20ee 270ad4ed 074aa369  .z...Z .'....J.i
+ 0060 84ed3b5a c4ed3d4a c4f8f030 84ed350a  ..;Z..=J...0..5.
+ 0070 d5ed0c7a c4ed387a 96ed0c7a 77eec77a  ...z..8z...zw..z
+ 0080 84ed397a 95ed0d7a 9fed473b b7eee76a  ..9z...z..G;...j
+ 0090 84ed417a 96ed0d4a b4eec36b 84ed424a  ..Az...J...k..BJ
+ 00a0 f1ee10fa 07dd9fed 423b36ee 436bf7ee  ........B;6.Ck..
+ 00b0 c67bb7ee e76a9fed 403bb4ee c36bf1ee  .{...j..@;...k..
+ 00c0 10fa05d5 9fed3a3b 36ee036b f7eec67b  ......:;6..k...{
+ 00d0 d4ed375a f7ee003a 94ed366a 37ee447a  ..7Z...:..6j7.Dz
+ 00e0 77eee55a c4ed377a a7ee886a 94ed3e4a  w..Z..7z...j..>J
+ 00f0 c5ee886a 84ed366a 94ed406a f7ee005a  ...j..6j..@j...Z
+ 0100 84ed407a 37ee466a 66ee896a e8eea76a  ..@z7.Fjf..j...j
+ 0110 30ee260a d4ed3f6a e7ee086a f0eec07a  0.&...?j...j...z
+ 0120 f4eee37a c4ed3f6a f1ee10fa c8bf80ee  ...z..?j........
+ 0130 270adfed 247a30ee 270ac6ee 087a67ee  '...$z0.'....zg.
+ 0140 a47ae5ee 077a77ee 847ab0ee e77ab4ee  .z...zw..z...z..
+ 0150 e57af1ee 10fac8bf c7ee877a 30ee270a  .z.........z0.'.
+ 0160 ffee007a b4eee70a f1ee10fa 16d4f7ee  ...z............
+ 0170 007ab4ee 670af1ee 10fa37fe 800ad4ed  .z..g.....7.....
+ 0180 197a67ee 807abdec 048bc7ed 007ad4ed  .zg..z.......z..
+ 0190 1a7a67ee 807ac7ed 017af8bd b0ee670a  .zg..z...z....g.
+ 01a0 ede700bf aff30080 182d4454 fb210940  .........-DT.!.@
+ 01b0 182d4454 fb211940 182d4454 fb2109c0  .-DT.!.@.-DT.!..
+ 01c0 00247449 00000000                    .$tI....        
+Contents of section .text._ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf:
+ 0000 f8b50446 0f461646 1d462ded 068bfff7  ...F.F.F.F-.....
+ 0010 feffd4f8 c4309fed ac7ac01a 07ee900a  .....0...z......
+ 0020 f8ee677a 87ee878a fff7feff d4ed014a  ..gz...........J
+ 0030 3946c4f8 c4003246 94ed035a 04f16403  9F....2F...Z..d.
+ 0040 d4ed045a 04f1480c d4f808e0 2046c0ed  ...Z..H..... F..
+ 0050 4d4a2430 c0f814e1 0c3180ed 465a0c32  MJ$0.....1..FZ.2
+ 0060 c0ed475a 11ed027a 90ed496a 80ed4a7a  ..GZ...z..Ij..Jz
+ 0070 52ed027a d0ed486a 37ee677a c0ed4b7a  R..z..Hj7.gz..Kz
+ 0080 37ee466a 80ed497a e8ee076a c6ee087a  7.Fj..Iz...j...z
+ 0090 c0ed486a 8445f3ec 016a67ee 857ae4ee  ..Hj.E...jg..z..
+ 00a0 877a75ee a77a67ee a67ac3ed 567aced1  .zu..zg..z..Vz..
+ 00b0 97ed066a b7ee005a 84ed4a6a 96ed067a  ...j...Z..Jj...z
+ 00c0 84ed4b7a d7ed076a c4ed656a d6ed077a  ..Kz...j..ej...z
+ 00d0 c4ed667a d7ed085a f4ee455a f1ee10fa  ..fz...Z..EZ....
+ 00e0 40f0a780 d4ed052a a26994ed 074a94ed  @......*.i...J..
+ 00f0 083a636a d4ed0a3a c4ed442a c4f81421  .:cj...:..D*...!
+ 0100 84ed464a 84ed5f3a c4f88031 36ee476a  ..FJ.._:...16.Gj
+ 0110 d4ed644a 76eee76a d4ed497a d4ed471a  ..dJv..j..Iz..G.
+ 0120 76ee677a 9fed69aa 76eee44a 94ed485a  v.gz..i.v..J..HZ
+ 0130 d4ed635a 87ee887a 94ed1b2a 84ed496a  ..cZ...z...*..Ij
+ 0140 c4ed646a c4ed613a 84ed62aa c4ee887a  ..dj..a:..b....z
+ 0150 d4ed70aa a8ee065a e8ee265a 27ee047a  ..p....Z..&Z'..z
+ 0160 84ed485a c4ed635a a6ee227a 67eea37a  ..HZ..cZ.."zg..z
+ 0170 e3ee267a 37ee217a 84ed6a7a 77ee8a7a  ..&z7.!z..jzw..z
+ 0180 77ee878a c4ed6e7a 68ee828a c4ed728a  w.....nzh.....r.
+ 0190 96ed069a b0ee490a fff7feff f0ee409a  ......I.......@.
+ 01a0 b0ee490a 94ed719a fff7feff 484b69ee  ..I...q.....HKi.
+ 01b0 297a94ed 0e5a29ee 009a1b68 b3f81438  )z...Z)....h...8
+ 01c0 b0ee676a b0ee497a 06ee903a eaeec07a  ..gj..Iz...:...z
+ 01d0 9aee806a aaeea97a 9aeee99a f8ee666a  ...j...z......fj
+ 01e0 78eea77a f4eec56a 38ee866a 38ee877a  x..z...j8..j8..z
+ 01f0 c4ed777a 78ee898a f1ee10fa 84ed756a  ..wzx.........uj
+ 0200 84ed747a c4ed768a 28d5d4ed 0f7a76ee  ..tz..v.(....zv.
+ 0210 e76ac6ee 855af4ee ca5af1ee 10fa4fd4  .j...Z...Z....O.
+ 0220 f7ee007a f4ee675a f1ee10fa 77fea55a  ...z..gZ....w..Z
+ 0230 16e0dfed 265ab0ee 453a84ed 5f5ab0ee  ....&Z..E:.._Z..
+ 0240 654ac4ed 445af0ee 652ac4ed 455af0ee  eJ..DZ..e*..EZ..
+ 0250 653ac4ed 465ac4ed 605a57e7 f7ee005a  e:..FZ..`ZW....Z
+ 0260 f7ee004a 2b4604f5 ea710c9a 04f5f070  ...J+F...q.....p
+ 0270 9fed165a d3ed017a 0c3394ed 0d6a37ee  ...Z...z.3...j7.
+ 0280 677ad4ed 0b6ac7ee 087a67ee 867ae6ee  gz...j...zg..z..
+ 0290 877a77ee 857ab0ee e77ab4ee e47af1ee  .zw..z...z...z..
+ 02a0 10fac8bf c7ee877a 884265ee a77ae2ec  .......z.Be..z..
+ 02b0 017a02d0 b1ec017a dce7bdec 068bf8bd  .z.....z........
+ 02c0 f0ee4a5a cce700bf 00247449 00000000  ..JZ.....$tI....
+ 02d0 00000000                             ....            
+Contents of section .text._ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf:
+ 0000 f8b50446 0f461646 1d462ded 068bfff7  ...F.F.F.F-.....
+ 0010 feffd4f8 c4309fed c57ac01a 07ee900a  .....0...z......
+ 0020 f8ee677a 87ee878a fff7feff 94ed013a  ..gz...........:
+ 0030 be46c4f8 c400b446 d4ed033a 04f16403  .F.....F...:..d.
+ 0040 94ed044a 06f11801 d4ed064a 2046d4ed  ...J.......J F..
+ 0050 021a94ed 052a9eed 007a0cf1 0c0cd0ed  .....*...z......
+ 0060 375a0433 80ed387a 0ef10c0e 5ced037a  7Z.3..8z....\..z
+ 0070 243090ed 2d6a37ee 677ac0ed 307a80ed  $0..-j7.gz..0z..
+ 0080 293ac0ed 2a1a77ee 655ac0ed 2b3aa8ee  ):..*.w.eZ..+:..
+ 0090 076a5eed 026ad0ed 2c2ac5ee 887ac0ed  .j^..j..,*...z..
+ 00a0 4a6a1ced 025a8c45 80ed2e7a 80ed4b5a  Jj...Z.E...z..KZ
+ 00b0 80ed2d6a 76eec56a 80ed444a 80ed452a  ..-jv..j..DJ..E*
+ 00c0 c0ed464a 67eea37a e3ee077a 77eea27a  ..FJg..z...zw..z
+ 00d0 c3ed4e7a d0ed495a 90ed486a 76eee55a  ..Nz..IZ..Hjv..Z
+ 00e0 90ed475a a8ee266a c0ed496a 85ee887a  ..GZ..&j..Ij...z
+ 00f0 80ed486a 27ee247a a4ee267a 37ee057a  ..Hj'.$z..&z7..z
+ 0100 77ee277a 83ed527a 13ed017a 67ee877a  w.'z..Rz...zg..z
+ 0110 c3ed567a 9fd197ed 066ab7ee 005a84ed  ..Vz.....j...Z..
+ 0120 4a6a96ed 067a84ed 4b7ad7ed 076ac4ed  Jj...z..Kz...j..
+ 0130 656ad6ed 077ac4ed 667ad7ed 085af4ee  ej...z..fz...Z..
+ 0140 455af1ee 10fa40f0 a780d4ed 072a226a  EZ....@......*"j
+ 0150 94ed094a 94ed0a3a e36ad4ed 0c3ac4ed  ...J...:.j...:..
+ 0160 442ac4f8 142184ed 464a84ed 5f3ac4f8  D*...!..FJ.._:..
+ 0170 803136ee 476ad4ed 644a76ee e76ad4ed  .16.Gj..dJv..j..
+ 0180 497ad4ed 471a76ee 677adfed 69aa76ee  Iz..G.v.gz..i.v.
+ 0190 e44a94ed 485ad4ed 635a87ee 887a94ed  .J..HZ..cZ...z..
+ 01a0 1b2a84ed 496ac4ed 646ac4ed 613ac4ed  .*..Ij..dj..a:..
+ 01b0 62aac4ee 887a94ed 70aaa8ee 065ae8ee  b....z..p....Z..
+ 01c0 265a27ee 047a84ed 485ac4ed 635aa2ee  &Z'..z..HZ..cZ..
+ 01d0 867a67ee a37ae3ee 267a37ee 217a84ed  .zg..z..&z7.!z..
+ 01e0 6a7a77ee aa7a77ee 878ac4ed 6e7a68ee  jzw..zw.....nzh.
+ 01f0 828ac4ed 728a96ed 069ab0ee 490afff7  ....r.......I...
+ 0200 fefff0ee 409ab0ee 490a94ed 719afff7  ....@...I...q...
+ 0210 feff484b 29ee297a 94ed105a 29ee009a  ..HK).)z...Z)...
+ 0220 1b68b3f8 1438b0ee 476af0ee 496a07ee  .h...8..Gj..Ij..
+ 0230 903aaaee 407a9aee 006aeaee 296a9aee  .:..@z...j..)j..
+ 0240 699af8ee 677a38ee 877af4ee c57a38ee  i...gz8..z...z8.
+ 0250 866a78ee a66a84ed 747a78ee 898af1ee  .jx..j..tzx.....
+ 0260 10fa84ed 766ac4ed 756ac4ed 778a28d5  ....vj..uj..w.(.
+ 0270 d4ed116a 77eee67a c7ee855a f4eeea5a  ...jw..z...Z...Z
+ 0280 f1ee10fa 4fd4f7ee 007af4ee 675af1ee  ....O....z..gZ..
+ 0290 10fa77fe a55a16e0 dfed255a b0ee453a  ..w..Z....%Z..E:
+ 02a0 84ed5f5a b0ee654a c4ed445a f0ee652a  .._Z..eJ..DZ..e*
+ 02b0 c4ed455a f0ee653a c4ed465a c4ed605a  ..EZ..e:..FZ..`Z
+ 02c0 57e7f7ee 005af7ee 004a2b46 04f5ea71  W....Z...J+F...q
+ 02d0 0c9a04f5 f0709fed 165ad3ed 017a0c33  .....p...Z...z.3
+ 02e0 94ed0f6a 37ee677a d4ed0d6a c7ee087a  ...j7.gz...j...z
+ 02f0 67ee867a e6ee877a 77ee857a b0eee77a  g..z...zw..z...z
+ 0300 b4eee47a f1ee10fa c8bfc7ee 877a8842  ...z.........z.B
+ 0310 65eea77a e2ec017a 02d0b1ec 017adce7  e..z...z.....z..
+ 0320 bdec068b f8bdf0ee 6a5acce7 00247449  ........jZ...$tI
+ 0330 00000000 00000000                    ........        
+Contents of section .rodata._ZTV13YawController:
+ 0000 00000000 00000000 00000000 00000000  ................
+Contents of section .rodata._ZTV15PitchController:
+ 0000 00000000 00000000 00000000 00000000  ................
+Contents of section .rodata._ZTV16FeederController:
+ 0000 00000000 00000000 00000000 00000000  ................
+Contents of section .rodata._ZTV18FlywheelController:
+ 0000 00000000 00000000 00000000 00000000  ................
+Contents of section .rodata._ZTV18SwitcherController:
+ 0000 00000000 00000000 00000000 00000000  ................
+Contents of section .rodata._ZTV24XDrivePositionController:
+ 0000 00000000 00000000 00000000 00000000  ................
+Contents of section .rodata._ZTV24XDriveVelocityController:
+ 0000 00000000 00000000 00000000 00000000  ................
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN18SwitcherController5resetEv:
+
+00000000 <_ZN18SwitcherController5resetEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <micros>
+   8:	2300      	movs	r3, #0
+   a:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+   e:	f8c4 30d8 	str.w	r3, [r4, #216]	; 0xd8
+  12:	f8c4 30fc 	str.w	r3, [r4, #252]	; 0xfc
+  16:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN16FeederController5resetEv:
+
+00000000 <_ZN16FeederController5resetEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <micros>
+   8:	2300      	movs	r3, #0
+   a:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+   e:	f8c4 30d8 	str.w	r3, [r4, #216]	; 0xd8
+  12:	f8c4 30fc 	str.w	r3, [r4, #252]	; 0xfc
+  16:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN18FlywheelController5resetEv:
+
+00000000 <_ZN18FlywheelController5resetEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <micros>
+   8:	2300      	movs	r3, #0
+   a:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+   e:	f8c4 30d8 	str.w	r3, [r4, #216]	; 0xd8
+  12:	f8c4 30fc 	str.w	r3, [r4, #252]	; 0xfc
+  16:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN15PitchController5resetEv:
+
+00000000 <_ZN15PitchController5resetEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <micros>
+   8:	2300      	movs	r3, #0
+   a:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+   e:	f8c4 30d8 	str.w	r3, [r4, #216]	; 0xd8
+  12:	f8c4 30fc 	str.w	r3, [r4, #252]	; 0xfc
+  16:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN13YawController5resetEv:
+
+00000000 <_ZN13YawController5resetEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <micros>
+   8:	2300      	movs	r3, #0
+   a:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+   e:	f8c4 30d8 	str.w	r3, [r4, #216]	; 0xd8
+  12:	f8c4 30fc 	str.w	r3, [r4, #252]	; 0xfc
+  16:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN24XDriveVelocityController5resetEv:
+
+00000000 <_ZN24XDriveVelocityController5resetEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <micros>
+   8:	2300      	movs	r3, #0
+   a:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+   e:	f8c4 30d8 	str.w	r3, [r4, #216]	; 0xd8
+  12:	f8c4 3144 	str.w	r3, [r4, #324]	; 0x144
+  16:	f8c4 30fc 	str.w	r3, [r4, #252]	; 0xfc
+  1a:	f8c4 3168 	str.w	r3, [r4, #360]	; 0x168
+  1e:	f8c4 3120 	str.w	r3, [r4, #288]	; 0x120
+  22:	f8c4 318c 	str.w	r3, [r4, #396]	; 0x18c
+  26:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN24XDrivePositionController5resetEv:
+
+00000000 <_ZN24XDrivePositionController5resetEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <micros>
+   8:	2300      	movs	r3, #0
+   a:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+   e:	f8c4 30d8 	str.w	r3, [r4, #216]	; 0xd8
+  12:	f8c4 3144 	str.w	r3, [r4, #324]	; 0x144
+  16:	f8c4 30fc 	str.w	r3, [r4, #252]	; 0xfc
+  1a:	f8c4 3168 	str.w	r3, [r4, #360]	; 0x168
+  1e:	f8c4 3120 	str.w	r3, [r4, #288]	; 0x120
+  22:	f8c4 318c 	str.w	r3, [r4, #396]	; 0x18c
+  26:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN16FeederController4stepEPA3_fS1_S1_Pf:
+
+00000000 <_ZN16FeederController4stepEPA3_fS1_S1_Pf>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4604      	mov	r4, r0
+   4:	460f      	mov	r7, r1
+   6:	4616      	mov	r6, r2
+   8:	461d      	mov	r5, r3
+   a:	ed2d 8b02 	vpush	{d8}
+   e:	f7ff fffe 	bl	0 <micros>
+  12:	f8d4 30c4 	ldr.w	r3, [r4, #196]	; 0xc4
+  16:	ed9f 7a3e 	vldr	s14, [pc, #248]	; 110 <_ZN16FeederController4stepEPA3_fS1_S1_Pf+0x110>
+  1a:	1ac0      	subs	r0, r0, r3
+  1c:	ee07 0a90 	vmov	s15, r0
+  20:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  24:	ee87 8a87 	vdiv.f32	s16, s15, s14
+  28:	f7ff fffe 	bl	0 <micros>
+  2c:	edd4 2a01 	vldr	s5, [r4, #4]
+  30:	ed94 2a03 	vldr	s4, [r4, #12]
+  34:	68a3      	ldr	r3, [r4, #8]
+  36:	edc4 2a32 	vstr	s5, [r4, #200]	; 0xc8
+  3a:	f8c4 30cc 	str.w	r3, [r4, #204]	; 0xcc
+  3e:	eef7 1a00 	vmov.f32	s3, #112	; 0x3f800000  1.0
+  42:	ed84 2a34 	vstr	s4, [r4, #208]	; 0xd0
+  46:	edd7 7a13 	vldr	s15, [r7, #76]	; 0x4c
+  4a:	ed94 4a37 	vldr	s8, [r4, #220]	; 0xdc
+  4e:	edc4 7a35 	vstr	s15, [r4, #212]	; 0xd4
+  52:	edc4 7a38 	vstr	s15, [r4, #224]	; 0xe0
+  56:	edd6 6a13 	vldr	s13, [r6, #76]	; 0x4c
+  5a:	edd4 4a36 	vldr	s9, [r4, #216]	; 0xd8
+  5e:	ee37 6ae6 	vsub.f32	s12, s15, s13
+  62:	edc4 6a39 	vstr	s13, [r4, #228]	; 0xe4
+  66:	ed94 1a19 	vldr	s2, [r4, #100]	; 0x64
+  6a:	ed94 7a1a 	vldr	s14, [r4, #104]	; 0x68
+  6e:	ee36 4a44 	vsub.f32	s8, s12, s8
+  72:	edd4 3a04 	vldr	s7, [r4, #16]
+  76:	eee6 4a08 	vfma.f32	s9, s12, s16
+  7a:	ed94 3a06 	vldr	s6, [r4, #24]
+  7e:	6963      	ldr	r3, [r4, #20]
+  80:	eec4 6a08 	vdiv.f32	s13, s8, s16
+  84:	ed84 6a37 	vstr	s12, [r4, #220]	; 0xdc
+  88:	edc4 3a3b 	vstr	s7, [r4, #236]	; 0xec
+  8c:	f8c4 30f0 	str.w	r3, [r4, #240]	; 0xf0
+  90:	ed84 3a3d 	vstr	s6, [r4, #244]	; 0xf4
+  94:	edc4 4a36 	vstr	s9, [r4, #216]	; 0xd8
+  98:	ed94 5a40 	vldr	s10, [r4, #256]	; 0x100
+  9c:	edd4 5a3f 	vldr	s11, [r4, #252]	; 0xfc
+  a0:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+  a4:	ee66 6a82 	vmul.f32	s13, s13, s4
+  a8:	eee2 6a86 	vfma.f32	s13, s5, s12
+  ac:	eeb0 6a65 	vmov.f32	s12, s11
+  b0:	ee77 7aa6 	vadd.f32	s15, s15, s13
+  b4:	ee67 7a81 	vmul.f32	s15, s15, s2
+  b8:	ee27 7a87 	vmul.f32	s14, s15, s14
+  bc:	edc4 7a41 	vstr	s15, [r4, #260]	; 0x104
+  c0:	ed84 7a3e 	vstr	s14, [r4, #248]	; 0xf8
+  c4:	edd5 6a25 	vldr	s13, [r5, #148]	; 0x94
+  c8:	ee77 7ae6 	vsub.f32	s15, s15, s13
+  cc:	edc4 6a42 	vstr	s13, [r4, #264]	; 0x108
+  d0:	ee37 5ac5 	vsub.f32	s10, s15, s10
+  d4:	edc4 7a40 	vstr	s15, [r4, #256]	; 0x100
+  d8:	eea7 6a88 	vfma.f32	s12, s15, s16
+  dc:	eec5 6a08 	vdiv.f32	s13, s10, s16
+  e0:	ed84 6a3f 	vstr	s12, [r4, #252]	; 0xfc
+  e4:	9b08      	ldr	r3, [sp, #32]
+  e6:	ecbd 8b02 	vpop	{d8}
+  ea:	ee66 6a83 	vmul.f32	s13, s13, s6
+  ee:	eee3 6aa7 	vfma.f32	s13, s7, s15
+  f2:	ee77 7a26 	vadd.f32	s15, s14, s13
+  f6:	eeb0 7ae7 	vabs.f32	s14, s15
+  fa:	eeb4 7ae1 	vcmpe.f32	s14, s3
+  fe:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 102:	bfc8      	it	gt
+ 104:	eec7 7a87 	vdivgt.f32	s15, s15, s14
+ 108:	edc3 7a00 	vstr	s15, [r3]
+ 10c:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+ 10e:	bf00      	nop
+ 110:	49742400 	.word	0x49742400
+
+Disassembly of section .text._ZN18FlywheelController4stepEPA3_fS1_S1_Pf:
+
+00000000 <_ZN18FlywheelController4stepEPA3_fS1_S1_Pf>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4604      	mov	r4, r0
+   4:	460f      	mov	r7, r1
+   6:	4616      	mov	r6, r2
+   8:	461d      	mov	r5, r3
+   a:	ed2d 8b02 	vpush	{d8}
+   e:	f7ff fffe 	bl	0 <micros>
+  12:	f8d4 30c4 	ldr.w	r3, [r4, #196]	; 0xc4
+  16:	ed9f 7a42 	vldr	s14, [pc, #264]	; 120 <_ZN18FlywheelController4stepEPA3_fS1_S1_Pf+0x120>
+  1a:	1ac0      	subs	r0, r0, r3
+  1c:	ee07 0a90 	vmov	s15, r0
+  20:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  24:	ee87 8a87 	vdiv.f32	s16, s15, s14
+  28:	f7ff fffe 	bl	0 <micros>
+  2c:	ed94 5a01 	vldr	s10, [r4, #4]
+  30:	462b      	mov	r3, r5
+  32:	edd4 4a03 	vldr	s9, [r4, #12]
+  36:	68a2      	ldr	r2, [r4, #8]
+  38:	ed84 5a32 	vstr	s10, [r4, #200]	; 0xc8
+  3c:	edc4 4a34 	vstr	s9, [r4, #208]	; 0xd0
+  40:	eeb7 3a00 	vmov.f32	s6, #112	; 0x3f800000  1.0
+  44:	f8c4 20cc 	str.w	r2, [r4, #204]	; 0xcc
+  48:	edd7 7a10 	vldr	s15, [r7, #64]	; 0x40
+  4c:	edd4 5a37 	vldr	s11, [r4, #220]	; 0xdc
+  50:	edc4 7a35 	vstr	s15, [r4, #212]	; 0xd4
+  54:	edc4 7a38 	vstr	s15, [r4, #224]	; 0xe0
+  58:	ed96 7a10 	vldr	s14, [r6, #64]	; 0x40
+  5c:	ed94 6a36 	vldr	s12, [r4, #216]	; 0xd8
+  60:	ee77 6ac7 	vsub.f32	s13, s15, s14
+  64:	ed84 7a39 	vstr	s14, [r4, #228]	; 0xe4
+  68:	edd4 3a19 	vldr	s7, [r4, #100]	; 0x64
+  6c:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+  70:	2000      	movs	r0, #0
+  72:	ee76 5ae5 	vsub.f32	s11, s13, s11
+  76:	edc4 6a37 	vstr	s13, [r4, #220]	; 0xdc
+  7a:	eea6 6a88 	vfma.f32	s12, s13, s16
+  7e:	ed9f 4a29 	vldr	s8, [pc, #164]	; 124 <_ZN18FlywheelController4stepEPA3_fS1_S1_Pf+0x124>
+  82:	9908      	ldr	r1, [sp, #32]
+  84:	ee85 7a88 	vdiv.f32	s14, s11, s16
+  88:	ed84 6a36 	vstr	s12, [r4, #216]	; 0xd8
+  8c:	ee27 7a24 	vmul.f32	s14, s14, s9
+  90:	eea5 7a26 	vfma.f32	s14, s10, s13
+  94:	ee77 7a87 	vadd.f32	s15, s15, s14
+  98:	ee67 6aa3 	vmul.f32	s13, s15, s7
+  9c:	eef1 3a66 	vneg.f32	s7, s13
+  a0:	ed94 5a05 	vldr	s10, [r4, #20]
+  a4:	2801      	cmp	r0, #1
+  a6:	edd4 4a07 	vldr	s9, [r4, #28]
+  aa:	f103 030c 	add.w	r3, r3, #12
+  ae:	69a2      	ldr	r2, [r4, #24]
+  b0:	fe06 7aa3 	vseleq.f32	s14, s13, s7
+  b4:	ed84 5a3b 	vstr	s10, [r4, #236]	; 0xec
+  b8:	ed84 7a41 	vstr	s14, [r4, #260]	; 0x104
+  bc:	edc4 4a3d 	vstr	s9, [r4, #244]	; 0xf4
+  c0:	f8c4 20f0 	str.w	r2, [r4, #240]	; 0xf0
+  c4:	ed84 4a3e 	vstr	s8, [r4, #248]	; 0xf8
+  c8:	edd3 7a1c 	vldr	s15, [r3, #112]	; 0x70
+  cc:	edd4 5a40 	vldr	s11, [r4, #256]	; 0x100
+  d0:	ee37 7a67 	vsub.f32	s14, s14, s15
+  d4:	edc4 7a42 	vstr	s15, [r4, #264]	; 0x108
+  d8:	ed94 6a3f 	vldr	s12, [r4, #252]	; 0xfc
+  dc:	ee77 5a65 	vsub.f32	s11, s14, s11
+  e0:	ed84 7a40 	vstr	s14, [r4, #256]	; 0x100
+  e4:	eea8 6a07 	vfma.f32	s12, s16, s14
+  e8:	eec5 7a88 	vdiv.f32	s15, s11, s16
+  ec:	ed84 6a3f 	vstr	s12, [r4, #252]	; 0xfc
+  f0:	ee67 7aa4 	vmul.f32	s15, s15, s9
+  f4:	eee5 7a07 	vfma.f32	s15, s10, s14
+  f8:	ee77 7a84 	vadd.f32	s15, s15, s8
+  fc:	eeb0 7ae7 	vabs.f32	s14, s15
+ 100:	eeb4 7ac3 	vcmpe.f32	s14, s6
+ 104:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 108:	bfc8      	it	gt
+ 10a:	eec7 7a87 	vdivgt.f32	s15, s15, s14
+ 10e:	ece1 7a01 	vstmia	r1!, {s15}
+ 112:	b110      	cbz	r0, 11a <_ZN18FlywheelController4stepEPA3_fS1_S1_Pf+0x11a>
+ 114:	ecbd 8b02 	vpop	{d8}
+ 118:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+ 11a:	2001      	movs	r0, #1
+ 11c:	e7c0      	b.n	a0 <_ZN18FlywheelController4stepEPA3_fS1_S1_Pf+0xa0>
+ 11e:	bf00      	nop
+ 120:	49742400 	.word	0x49742400
+ 124:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN13YawController4stepEPA3_fS1_S1_Pf:
+
+00000000 <_ZN13YawController4stepEPA3_fS1_S1_Pf>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4604      	mov	r4, r0
+   4:	460e      	mov	r6, r1
+   6:	4615      	mov	r5, r2
+   8:	ed2d 8b02 	vpush	{d8}
+   c:	9f08      	ldr	r7, [sp, #32]
+   e:	f7ff fffe 	bl	0 <micros>
+  12:	f8d4 30c4 	ldr.w	r3, [r4, #196]	; 0xc4
+  16:	ed9f 7a6a 	vldr	s14, [pc, #424]	; 1c0 <_ZN13YawController4stepEPA3_fS1_S1_Pf+0x1c0>
+  1a:	1ac0      	subs	r0, r0, r3
+  1c:	ee07 0a90 	vmov	s15, r0
+  20:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  24:	ee87 8a87 	vdiv.f32	s16, s15, s14
+  28:	f7ff fffe 	bl	0 <micros>
+  2c:	68a3      	ldr	r3, [r4, #8]
+  2e:	ed94 3a01 	vldr	s6, [r4, #4]
+  32:	f8c4 30cc 	str.w	r3, [r4, #204]	; 0xcc
+  36:	edd4 2a03 	vldr	s5, [r4, #12]
+  3a:	edd4 4a04 	vldr	s9, [r4, #16]
+  3e:	ed94 4a06 	vldr	s8, [r4, #24]
+  42:	6963      	ldr	r3, [r4, #20]
+  44:	ed84 3a32 	vstr	s6, [r4, #200]	; 0xc8
+  48:	edc4 2a34 	vstr	s5, [r4, #208]	; 0xd0
+  4c:	edc4 4a3b 	vstr	s9, [r4, #236]	; 0xec
+  50:	ed84 4a3d 	vstr	s8, [r4, #244]	; 0xf4
+  54:	f8c4 30f0 	str.w	r3, [r4, #240]	; 0xf0
+  58:	ed96 7a09 	vldr	s14, [r6, #36]	; 0x24
+  5c:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+  60:	ed84 7a38 	vstr	s14, [r4, #224]	; 0xe0
+  64:	edd5 7a09 	vldr	s15, [r5, #36]	; 0x24
+  68:	ee37 7a67 	vsub.f32	s14, s14, s15
+  6c:	edc4 7a39 	vstr	s15, [r4, #228]	; 0xe4
+  70:	edd6 6a0a 	vldr	s13, [r6, #40]	; 0x28
+  74:	ed9f 1b4c 	vldr	d1, [pc, #304]	; 1a8 <_ZN13YawController4stepEPA3_fS1_S1_Pf+0x1a8>
+  78:	eeb7 5ac7 	vcvt.f64.f32	d5, s14
+  7c:	edc4 6a41 	vstr	s13, [r4, #260]	; 0x104
+  80:	edd5 3a0a 	vldr	s7, [r5, #40]	; 0x28
+  84:	eeb4 5bc1 	vcmpe.f64	d5, d1
+  88:	edc4 3a42 	vstr	s7, [r4, #264]	; 0x108
+  8c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  90:	dd07      	ble.n	a2 <_ZN13YawController4stepEPA3_fS1_S1_Pf+0xa2>
+  92:	ed9f 7b47 	vldr	d7, [pc, #284]	; 1b0 <_ZN13YawController4stepEPA3_fS1_S1_Pf+0x1b0>
+  96:	ee35 7b47 	vsub.f64	d7, d5, d7
+  9a:	eeb7 7bc7 	vcvt.f32.f64	s14, d7
+  9e:	eeb7 5ac7 	vcvt.f64.f32	d5, s14
+  a2:	ed9f 1b45 	vldr	d1, [pc, #276]	; 1b8 <_ZN13YawController4stepEPA3_fS1_S1_Pf+0x1b8>
+  a6:	eeb4 5bc1 	vcmpe.f64	d5, d1
+  aa:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  ae:	d505      	bpl.n	bc <_ZN13YawController4stepEPA3_fS1_S1_Pf+0xbc>
+  b0:	ed9f 7b3f 	vldr	d7, [pc, #252]	; 1b0 <_ZN13YawController4stepEPA3_fS1_S1_Pf+0x1b0>
+  b4:	ee35 7b07 	vadd.f64	d7, d5, d7
+  b8:	eeb7 7bc7 	vcvt.f32.f64	s14, d7
+  bc:	edd4 5a37 	vldr	s11, [r4, #220]	; 0xdc
+  c0:	eeb7 5a00 	vmov.f32	s10, #112	; 0x3f800000  1.0
+  c4:	ed94 2a35 	vldr	s4, [r4, #212]	; 0xd4
+  c8:	ee76 6ae3 	vsub.f32	s13, s13, s7
+  cc:	ee77 5a65 	vsub.f32	s11, s14, s11
+  d0:	ed94 6a36 	vldr	s12, [r4, #216]	; 0xd8
+  d4:	ed84 7a37 	vstr	s14, [r4, #220]	; 0xdc
+  d8:	eea7 6a08 	vfma.f32	s12, s14, s16
+  dc:	edd4 3a3e 	vldr	s7, [r4, #248]	; 0xf8
+  e0:	eec5 7a88 	vdiv.f32	s15, s11, s16
+  e4:	edd4 5a40 	vldr	s11, [r4, #256]	; 0x100
+  e8:	edc4 6a40 	vstr	s13, [r4, #256]	; 0x100
+  ec:	ee76 5ae5 	vsub.f32	s11, s13, s11
+  f0:	ed84 6a36 	vstr	s12, [r4, #216]	; 0xd8
+  f4:	ed94 6a3f 	vldr	s12, [r4, #252]	; 0xfc
+  f8:	eea6 6a88 	vfma.f32	s12, s13, s16
+  fc:	ed84 6a3f 	vstr	s12, [r4, #252]	; 0xfc
+ 100:	ee67 7aa2 	vmul.f32	s15, s15, s5
+ 104:	eee3 7a07 	vfma.f32	s15, s6, s14
+ 108:	ee77 7a82 	vadd.f32	s15, s15, s4
+ 10c:	eeb0 7ae7 	vabs.f32	s14, s15
+ 110:	eeb4 7ac5 	vcmpe.f32	s14, s10
+ 114:	eeb7 5a00 	vmov.f32	s10, #112	; 0x3f800000  1.0
+ 118:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 11c:	bfc8      	it	gt
+ 11e:	eec7 7a87 	vdivgt.f32	s15, s15, s14
+ 122:	ed9f 7a28 	vldr	s14, [pc, #160]	; 1c4 <_ZN13YawController4stepEPA3_fS1_S1_Pf+0x1c4>
+ 126:	ee77 7a87 	vadd.f32	s15, s15, s14
+ 12a:	ee85 7a88 	vdiv.f32	s14, s11, s16
+ 12e:	ee27 7a04 	vmul.f32	s14, s14, s8
+ 132:	eea4 7aa6 	vfma.f32	s14, s9, s13
+ 136:	ee37 7a23 	vadd.f32	s14, s14, s7
+ 13a:	eef0 6ac7 	vabs.f32	s13, s14
+ 13e:	eef4 6ac5 	vcmpe.f32	s13, s10
+ 142:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 146:	bfc8      	it	gt
+ 148:	ee87 7a26 	vdivgt.f32	s14, s14, s13
+ 14c:	ee77 7a87 	vadd.f32	s15, s15, s14
+ 150:	eebf 7a00 	vmov.f32	s14, #240	; 0xbf800000 -1.0
+ 154:	eef4 7ac7 	vcmpe.f32	s15, s14
+ 158:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 15c:	d418      	bmi.n	190 <_ZN13YawController4stepEPA3_fS1_S1_Pf+0x190>
+ 15e:	eef7 6a00 	vmov.f32	s13, #112	; 0x3f800000  1.0
+ 162:	eef4 7ae6 	vcmpe.f32	s15, s13
+ 166:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 16a:	dd08      	ble.n	17e <_ZN13YawController4stepEPA3_fS1_S1_Pf+0x17e>
+ 16c:	eef0 7a47 	vmov.f32	s15, s14
+ 170:	ecbd 8b02 	vpop	{d8}
+ 174:	edc7 7a00 	vstr	s15, [r7]
+ 178:	edc7 7a01 	vstr	s15, [r7, #4]
+ 17c:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+ 17e:	eef1 7a67 	vneg.f32	s15, s15
+ 182:	ecbd 8b02 	vpop	{d8}
+ 186:	edc7 7a00 	vstr	s15, [r7]
+ 18a:	edc7 7a01 	vstr	s15, [r7, #4]
+ 18e:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+ 190:	eef7 7a00 	vmov.f32	s15, #112	; 0x3f800000  1.0
+ 194:	ecbd 8b02 	vpop	{d8}
+ 198:	edc7 7a00 	vstr	s15, [r7]
+ 19c:	edc7 7a01 	vstr	s15, [r7, #4]
+ 1a0:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+ 1a2:	bf00      	nop
+ 1a4:	f3af 8000 	nop.w
+ 1a8:	54442d18 	.word	0x54442d18
+ 1ac:	400921fb 	.word	0x400921fb
+ 1b0:	54442d18 	.word	0x54442d18
+ 1b4:	401921fb 	.word	0x401921fb
+ 1b8:	54442d18 	.word	0x54442d18
+ 1bc:	c00921fb 	.word	0xc00921fb
+ 1c0:	49742400 	.word	0x49742400
+ 1c4:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN18SwitcherController4stepEPA3_fS1_S1_Pf:
+
+00000000 <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4604      	mov	r4, r0
+   4:	460e      	mov	r6, r1
+   6:	4615      	mov	r5, r2
+   8:	ed2d 8b02 	vpush	{d8}
+   c:	f7ff fffe 	bl	0 <micros>
+  10:	f8d4 30c4 	ldr.w	r3, [r4, #196]	; 0xc4
+  14:	ed9f 7a67 	vldr	s14, [pc, #412]	; 1b4 <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf+0x1b4>
+  18:	1ac0      	subs	r0, r0, r3
+  1a:	ee07 0a90 	vmov	s15, r0
+  1e:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  22:	ee87 8a87 	vdiv.f32	s16, s15, s14
+  26:	f7ff fffe 	bl	0 <micros>
+  2a:	68a3      	ldr	r3, [r4, #8]
+  2c:	edd4 4a01 	vldr	s9, [r4, #4]
+  30:	f8c4 30cc 	str.w	r3, [r4, #204]	; 0xcc
+  34:	edd4 2a03 	vldr	s5, [r4, #12]
+  38:	ed9f 6a5f 	vldr	s12, [pc, #380]	; 1b8 <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf+0x1b8>
+  3c:	ed94 4a05 	vldr	s8, [r4, #20]
+  40:	edd4 3a07 	vldr	s7, [r4, #28]
+  44:	69a3      	ldr	r3, [r4, #24]
+  46:	ed94 7a08 	vldr	s14, [r4, #32]
+  4a:	edc4 4a32 	vstr	s9, [r4, #200]	; 0xc8
+  4e:	edc4 2a34 	vstr	s5, [r4, #208]	; 0xd0
+  52:	eef1 5a47 	vneg.f32	s11, s14
+  56:	ed84 6a35 	vstr	s12, [r4, #212]	; 0xd4
+  5a:	ed84 4a3b 	vstr	s8, [r4, #236]	; 0xec
+  5e:	edc4 3a3d 	vstr	s7, [r4, #244]	; 0xf4
+  62:	f8c4 30f0 	str.w	r3, [r4, #240]	; 0xf0
+  66:	edd5 6a15 	vldr	s13, [r5, #84]	; 0x54
+  6a:	edd6 7a15 	vldr	s15, [r6, #84]	; 0x54
+  6e:	eef4 6ac7 	vcmpe.f32	s13, s14
+  72:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+  76:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  7a:	dd19      	ble.n	b0 <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf+0xb0>
+  7c:	eef4 7ae5 	vcmpe.f32	s15, s11
+  80:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  84:	dd14      	ble.n	b0 <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf+0xb0>
+  86:	eeb4 7ae7 	vcmpe.f32	s14, s15
+  8a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  8e:	f300 808d 	bgt.w	1ac <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf+0x1ac>
+  92:	edd4 6a04 	vldr	s13, [r4, #16]
+  96:	eef0 4a46 	vmov.f32	s9, s12
+  9a:	ed84 6a32 	vstr	s12, [r4, #200]	; 0xc8
+  9e:	eeb0 4a46 	vmov.f32	s8, s12
+  a2:	ed84 6a3b 	vstr	s12, [r4, #236]	; 0xec
+  a6:	edc4 6a35 	vstr	s13, [r4, #212]	; 0xd4
+  aa:	edd6 7a15 	vldr	s15, [r6, #84]	; 0x54
+  ae:	e006      	b.n	be <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf+0xbe>
+  b0:	eef4 6ae5 	vcmpe.f32	s13, s11
+  b4:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  b8:	d45b      	bmi.n	172 <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf+0x172>
+  ba:	eddf 6a3f 	vldr	s13, [pc, #252]	; 1b8 <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf+0x1b8>
+  be:	edc4 7a38 	vstr	s15, [r4, #224]	; 0xe0
+  c2:	eeb7 2a00 	vmov.f32	s4, #112	; 0x3f800000  1.0
+  c6:	ed95 7a15 	vldr	s14, [r5, #84]	; 0x54
+  ca:	ed94 5a37 	vldr	s10, [r4, #220]	; 0xdc
+  ce:	ee77 7ac7 	vsub.f32	s15, s15, s14
+  d2:	edd4 5a36 	vldr	s11, [r4, #216]	; 0xd8
+  d6:	ed84 7a39 	vstr	s14, [r4, #228]	; 0xe4
+  da:	ed96 7a16 	vldr	s14, [r6, #88]	; 0x58
+  de:	ee37 5ac5 	vsub.f32	s10, s15, s10
+  e2:	9b06      	ldr	r3, [sp, #24]
+  e4:	eee8 5a27 	vfma.f32	s11, s16, s15
+  e8:	ed84 7a41 	vstr	s14, [r4, #260]	; 0x104
+  ec:	ed95 3a16 	vldr	s6, [r5, #88]	; 0x58
+  f0:	ee85 6a08 	vdiv.f32	s12, s10, s16
+  f4:	edc4 7a37 	vstr	s15, [r4, #220]	; 0xdc
+  f8:	ed84 3a42 	vstr	s6, [r4, #264]	; 0x108
+  fc:	edc4 5a36 	vstr	s11, [r4, #216]	; 0xd8
+ 100:	ee37 7a43 	vsub.f32	s14, s14, s6
+ 104:	edd4 5a40 	vldr	s11, [r4, #256]	; 0x100
+ 108:	eeb7 5a00 	vmov.f32	s10, #112	; 0x3f800000  1.0
+ 10c:	ee77 5a65 	vsub.f32	s11, s14, s11
+ 110:	ed84 7a40 	vstr	s14, [r4, #256]	; 0x100
+ 114:	ee26 6a22 	vmul.f32	s12, s12, s5
+ 118:	eea7 6aa4 	vfma.f32	s12, s15, s9
+ 11c:	edd4 4a3e 	vldr	s9, [r4, #248]	; 0xf8
+ 120:	ee76 6a86 	vadd.f32	s13, s13, s12
+ 124:	ed94 6a3f 	vldr	s12, [r4, #252]	; 0xfc
+ 128:	eea8 6a07 	vfma.f32	s12, s16, s14
+ 12c:	eef0 7ae6 	vabs.f32	s15, s13
+ 130:	eef4 7ac2 	vcmpe.f32	s15, s4
+ 134:	ed84 6a3f 	vstr	s12, [r4, #252]	; 0xfc
+ 138:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 13c:	bfc8      	it	gt
+ 13e:	eec6 6aa7 	vdivgt.f32	s13, s13, s15
+ 142:	eec5 7a88 	vdiv.f32	s15, s11, s16
+ 146:	ecbd 8b02 	vpop	{d8}
+ 14a:	ee67 7aa3 	vmul.f32	s15, s15, s7
+ 14e:	eee7 7a04 	vfma.f32	s15, s14, s8
+ 152:	ee77 7aa4 	vadd.f32	s15, s15, s9
+ 156:	eeb0 7ae7 	vabs.f32	s14, s15
+ 15a:	eeb4 7ac5 	vcmpe.f32	s14, s10
+ 15e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 162:	bfc8      	it	gt
+ 164:	eec7 7a87 	vdivgt.f32	s15, s15, s14
+ 168:	ee77 7aa6 	vadd.f32	s15, s15, s13
+ 16c:	edc3 7a00 	vstr	s15, [r3]
+ 170:	bd70      	pop	{r4, r5, r6, pc}
+ 172:	eeb4 7ae7 	vcmpe.f32	s14, s15
+ 176:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 17a:	dd9e      	ble.n	ba <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf+0xba>
+ 17c:	eef4 5ae7 	vcmpe.f32	s11, s15
+ 180:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 184:	d499      	bmi.n	ba <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf+0xba>
+ 186:	edd4 6a04 	vldr	s13, [r4, #16]
+ 18a:	eddf 7a0b 	vldr	s15, [pc, #44]	; 1b8 <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf+0x1b8>
+ 18e:	eef1 6a66 	vneg.f32	s13, s13
+ 192:	eef0 4a67 	vmov.f32	s9, s15
+ 196:	edc4 7a32 	vstr	s15, [r4, #200]	; 0xc8
+ 19a:	eeb0 4a67 	vmov.f32	s8, s15
+ 19e:	edc4 7a3b 	vstr	s15, [r4, #236]	; 0xec
+ 1a2:	edc4 6a35 	vstr	s13, [r4, #212]	; 0xd4
+ 1a6:	edd6 7a15 	vldr	s15, [r6, #84]	; 0x54
+ 1aa:	e788      	b.n	be <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf+0xbe>
+ 1ac:	eef0 6a46 	vmov.f32	s13, s12
+ 1b0:	e785      	b.n	be <_ZN18SwitcherController4stepEPA3_fS1_S1_Pf+0xbe>
+ 1b2:	bf00      	nop
+ 1b4:	49742400 	.word	0x49742400
+ 1b8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN15PitchController4stepEPA3_fS1_S1_Pf:
+
+00000000 <_ZN15PitchController4stepEPA3_fS1_S1_Pf>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4604      	mov	r4, r0
+   4:	460d      	mov	r5, r1
+   6:	4616      	mov	r6, r2
+   8:	ed2d 8b04 	vpush	{d8-d9}
+   c:	9f0a      	ldr	r7, [sp, #40]	; 0x28
+   e:	f7ff fffe 	bl	0 <micros>
+  12:	f8d4 30c4 	ldr.w	r3, [r4, #196]	; 0xc4
+  16:	ed9f 7a6a 	vldr	s14, [pc, #424]	; 1c0 <_ZN15PitchController4stepEPA3_fS1_S1_Pf+0x1c0>
+  1a:	1ac0      	subs	r0, r0, r3
+  1c:	ee07 0a90 	vmov	s15, r0
+  20:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  24:	ee87 8a87 	vdiv.f32	s16, s15, s14
+  28:	f7ff fffe 	bl	0 <micros>
+  2c:	68a3      	ldr	r3, [r4, #8]
+  2e:	edd4 8a01 	vldr	s17, [r4, #4]
+  32:	ed94 9a03 	vldr	s18, [r4, #12]
+  36:	f8c4 30cc 	str.w	r3, [r4, #204]	; 0xcc
+  3a:	edc4 8a32 	vstr	s17, [r4, #200]	; 0xc8
+  3e:	ed84 9a34 	vstr	s18, [r4, #208]	; 0xd0
+  42:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+  46:	ed95 0a0c 	vldr	s0, [r5, #48]	; 0x30
+  4a:	f7ff fffe 	bl	0 <sinf>
+  4e:	edd4 7a04 	vldr	s15, [r4, #16]
+  52:	ed94 5a05 	vldr	s10, [r4, #20]
+  56:	ee20 0a27 	vmul.f32	s0, s0, s15
+  5a:	edd4 4a07 	vldr	s9, [r4, #28]
+  5e:	69a3      	ldr	r3, [r4, #24]
+  60:	ed84 5a3b 	vstr	s10, [r4, #236]	; 0xec
+  64:	edc4 4a3d 	vstr	s9, [r4, #244]	; 0xf4
+  68:	f8c4 30f0 	str.w	r3, [r4, #240]	; 0xf0
+  6c:	ed84 0a35 	vstr	s0, [r4, #212]	; 0xd4
+  70:	edd5 7a0c 	vldr	s15, [r5, #48]	; 0x30
+  74:	edc4 7a38 	vstr	s15, [r4, #224]	; 0xe0
+  78:	ed96 7a0c 	vldr	s14, [r6, #48]	; 0x30
+  7c:	ee77 7ac7 	vsub.f32	s15, s15, s14
+  80:	ed84 7a39 	vstr	s14, [r4, #228]	; 0xe4
+  84:	ed95 7a0d 	vldr	s14, [r5, #52]	; 0x34
+  88:	ed9f 3b47 	vldr	d3, [pc, #284]	; 1a8 <_ZN15PitchController4stepEPA3_fS1_S1_Pf+0x1a8>
+  8c:	eeb7 6ae7 	vcvt.f64.f32	d6, s15
+  90:	ed84 7a41 	vstr	s14, [r4, #260]	; 0x104
+  94:	ed96 4a0d 	vldr	s8, [r6, #52]	; 0x34
+  98:	eeb4 6bc3 	vcmpe.f64	d6, d3
+  9c:	ed84 4a42 	vstr	s8, [r4, #264]	; 0x108
+  a0:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  a4:	dd07      	ble.n	b6 <_ZN15PitchController4stepEPA3_fS1_S1_Pf+0xb6>
+  a6:	ed9f 3b42 	vldr	d3, [pc, #264]	; 1b0 <_ZN15PitchController4stepEPA3_fS1_S1_Pf+0x1b0>
+  aa:	ee36 6b43 	vsub.f64	d6, d6, d3
+  ae:	eef7 7bc6 	vcvt.f32.f64	s15, d6
+  b2:	eeb7 6ae7 	vcvt.f64.f32	d6, s15
+  b6:	ed9f 3b40 	vldr	d3, [pc, #256]	; 1b8 <_ZN15PitchController4stepEPA3_fS1_S1_Pf+0x1b8>
+  ba:	eeb4 6bc3 	vcmpe.f64	d6, d3
+  be:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  c2:	d505      	bpl.n	d0 <_ZN15PitchController4stepEPA3_fS1_S1_Pf+0xd0>
+  c4:	ed9f 3b3a 	vldr	d3, [pc, #232]	; 1b0 <_ZN15PitchController4stepEPA3_fS1_S1_Pf+0x1b0>
+  c8:	ee36 6b03 	vadd.f64	d6, d6, d3
+  cc:	eef7 7bc6 	vcvt.f32.f64	s15, d6
+  d0:	edd4 5a37 	vldr	s11, [r4, #220]	; 0xdc
+  d4:	eef7 3a00 	vmov.f32	s7, #112	; 0x3f800000  1.0
+  d8:	ed94 6a36 	vldr	s12, [r4, #216]	; 0xd8
+  dc:	ee37 7a44 	vsub.f32	s14, s14, s8
+  e0:	ee77 5ae5 	vsub.f32	s11, s15, s11
+  e4:	edc4 7a37 	vstr	s15, [r4, #220]	; 0xdc
+  e8:	eea7 6a88 	vfma.f32	s12, s15, s16
+  ec:	ed94 4a3e 	vldr	s8, [r4, #248]	; 0xf8
+  f0:	eec5 6a88 	vdiv.f32	s13, s11, s16
+  f4:	ed84 6a36 	vstr	s12, [r4, #216]	; 0xd8
+  f8:	ed94 6a40 	vldr	s12, [r4, #256]	; 0x100
+  fc:	eef7 5a00 	vmov.f32	s11, #112	; 0x3f800000  1.0
+ 100:	ed84 7a40 	vstr	s14, [r4, #256]	; 0x100
+ 104:	ee37 6a46 	vsub.f32	s12, s14, s12
+ 108:	ee66 6a89 	vmul.f32	s13, s13, s18
+ 10c:	eee8 6aa7 	vfma.f32	s13, s17, s15
+ 110:	ee30 0a26 	vadd.f32	s0, s0, s13
+ 114:	edd4 6a3f 	vldr	s13, [r4, #252]	; 0xfc
+ 118:	eee7 6a08 	vfma.f32	s13, s14, s16
+ 11c:	eef0 7ac0 	vabs.f32	s15, s0
+ 120:	eef4 7ae3 	vcmpe.f32	s15, s7
+ 124:	edc4 6a3f 	vstr	s13, [r4, #252]	; 0xfc
+ 128:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 12c:	bfc8      	it	gt
+ 12e:	ee80 0a27 	vdivgt.f32	s0, s0, s15
+ 132:	eddf 7a24 	vldr	s15, [pc, #144]	; 1c4 <_ZN15PitchController4stepEPA3_fS1_S1_Pf+0x1c4>
+ 136:	ee30 0a27 	vadd.f32	s0, s0, s15
+ 13a:	eec6 7a08 	vdiv.f32	s15, s12, s16
+ 13e:	ee67 7aa4 	vmul.f32	s15, s15, s9
+ 142:	eee5 7a07 	vfma.f32	s15, s10, s14
+ 146:	ee77 7a84 	vadd.f32	s15, s15, s8
+ 14a:	eeb0 7ae7 	vabs.f32	s14, s15
+ 14e:	eeb4 7ae5 	vcmpe.f32	s14, s11
+ 152:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 156:	bfc8      	it	gt
+ 158:	eec7 7a87 	vdivgt.f32	s15, s15, s14
+ 15c:	ee30 0a27 	vadd.f32	s0, s0, s15
+ 160:	eeff 7a00 	vmov.f32	s15, #240	; 0xbf800000 -1.0
+ 164:	eeb4 0ae7 	vcmpe.f32	s0, s15
+ 168:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 16c:	d416      	bmi.n	19c <_ZN15PitchController4stepEPA3_fS1_S1_Pf+0x19c>
+ 16e:	eef7 7a00 	vmov.f32	s15, #112	; 0x3f800000  1.0
+ 172:	eeb4 0a67 	vcmp.f32	s0, s15
+ 176:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 17a:	fe37 0a80 	vselgt.f32	s0, s15, s0
+ 17e:	edd4 7a19 	vldr	s15, [r4, #100]	; 0x64
+ 182:	ee67 7a80 	vmul.f32	s15, s15, s0
+ 186:	ecbd 8b04 	vpop	{d8-d9}
+ 18a:	edc7 7a00 	vstr	s15, [r7]
+ 18e:	edd4 7a1a 	vldr	s15, [r4, #104]	; 0x68
+ 192:	ee67 7a80 	vmul.f32	s15, s15, s0
+ 196:	edc7 7a01 	vstr	s15, [r7, #4]
+ 19a:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+ 19c:	eeb0 0a67 	vmov.f32	s0, s15
+ 1a0:	e7ed      	b.n	17e <_ZN15PitchController4stepEPA3_fS1_S1_Pf+0x17e>
+ 1a2:	bf00      	nop
+ 1a4:	f3af 8000 	nop.w
+ 1a8:	54442d18 	.word	0x54442d18
+ 1ac:	400921fb 	.word	0x400921fb
+ 1b0:	54442d18 	.word	0x54442d18
+ 1b4:	401921fb 	.word	0x401921fb
+ 1b8:	54442d18 	.word	0x54442d18
+ 1bc:	c00921fb 	.word	0xc00921fb
+ 1c0:	49742400 	.word	0x49742400
+ 1c4:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf:
+
+00000000 <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4604      	mov	r4, r0
+   4:	460f      	mov	r7, r1
+   6:	4616      	mov	r6, r2
+   8:	461d      	mov	r5, r3
+   a:	ed2d 8b06 	vpush	{d8-d10}
+   e:	f7ff fffe 	bl	0 <micros>
+  12:	f8d4 30c4 	ldr.w	r3, [r4, #196]	; 0xc4
+  16:	ed9f 7aac 	vldr	s14, [pc, #688]	; 2c8 <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x2c8>
+  1a:	1ac0      	subs	r0, r0, r3
+  1c:	ee07 0a90 	vmov	s15, r0
+  20:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  24:	ee87 8a87 	vdiv.f32	s16, s15, s14
+  28:	f7ff fffe 	bl	0 <micros>
+  2c:	edd4 4a01 	vldr	s9, [r4, #4]
+  30:	4639      	mov	r1, r7
+  32:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+  36:	4632      	mov	r2, r6
+  38:	ed94 5a03 	vldr	s10, [r4, #12]
+  3c:	f104 0364 	add.w	r3, r4, #100	; 0x64
+  40:	edd4 5a04 	vldr	s11, [r4, #16]
+  44:	f104 0c48 	add.w	ip, r4, #72	; 0x48
+  48:	f8d4 e008 	ldr.w	lr, [r4, #8]
+  4c:	4620      	mov	r0, r4
+  4e:	edc0 4a4d 	vstr	s9, [r0, #308]	; 0x134
+  52:	3024      	adds	r0, #36	; 0x24
+  54:	f8c0 e114 	str.w	lr, [r0, #276]	; 0x114
+  58:	310c      	adds	r1, #12
+  5a:	ed80 5a46 	vstr	s10, [r0, #280]	; 0x118
+  5e:	320c      	adds	r2, #12
+  60:	edc0 5a47 	vstr	s11, [r0, #284]	; 0x11c
+  64:	ed11 7a02 	vldr	s14, [r1, #-8]
+  68:	ed90 6a49 	vldr	s12, [r0, #292]	; 0x124
+  6c:	ed80 7a4a 	vstr	s14, [r0, #296]	; 0x128
+  70:	ed52 7a02 	vldr	s15, [r2, #-8]
+  74:	edd0 6a48 	vldr	s13, [r0, #288]	; 0x120
+  78:	ee37 7a67 	vsub.f32	s14, s14, s15
+  7c:	edc0 7a4b 	vstr	s15, [r0, #300]	; 0x12c
+  80:	ee37 6a46 	vsub.f32	s12, s14, s12
+  84:	ed80 7a49 	vstr	s14, [r0, #292]	; 0x124
+  88:	eee8 6a07 	vfma.f32	s13, s16, s14
+  8c:	eec6 7a08 	vdiv.f32	s15, s12, s16
+  90:	edc0 6a48 	vstr	s13, [r0, #288]	; 0x120
+  94:	4584      	cmp	ip, r0
+  96:	ecf3 6a01 	vldmia	r3!, {s13}
+  9a:	ee67 7a85 	vmul.f32	s15, s15, s10
+  9e:	eee4 7a87 	vfma.f32	s15, s9, s14
+  a2:	ee75 7aa7 	vadd.f32	s15, s11, s15
+  a6:	ee67 7aa6 	vmul.f32	s15, s15, s13
+  aa:	edc3 7a56 	vstr	s15, [r3, #344]	; 0x158
+  ae:	d1ce      	bne.n	4e <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x4e>
+  b0:	ed97 6a06 	vldr	s12, [r7, #24]
+  b4:	eeb7 5a00 	vmov.f32	s10, #112	; 0x3f800000  1.0
+  b8:	ed84 6a4a 	vstr	s12, [r4, #296]	; 0x128
+  bc:	ed96 7a06 	vldr	s14, [r6, #24]
+  c0:	ed84 7a4b 	vstr	s14, [r4, #300]	; 0x12c
+  c4:	edd7 6a07 	vldr	s13, [r7, #28]
+  c8:	edc4 6a65 	vstr	s13, [r4, #404]	; 0x194
+  cc:	edd6 7a07 	vldr	s15, [r6, #28]
+  d0:	edc4 7a66 	vstr	s15, [r4, #408]	; 0x198
+  d4:	edd7 5a08 	vldr	s11, [r7, #32]
+  d8:	eef4 5a45 	vcmp.f32	s11, s10
+  dc:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  e0:	f040 80a7 	bne.w	232 <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x232>
+  e4:	edd4 2a05 	vldr	s5, [r4, #20]
+  e8:	69a2      	ldr	r2, [r4, #24]
+  ea:	ed94 4a07 	vldr	s8, [r4, #28]
+  ee:	ed94 3a08 	vldr	s6, [r4, #32]
+  f2:	6a63      	ldr	r3, [r4, #36]	; 0x24
+  f4:	edd4 3a0a 	vldr	s7, [r4, #40]	; 0x28
+  f8:	edc4 2a44 	vstr	s5, [r4, #272]	; 0x110
+  fc:	f8c4 2114 	str.w	r2, [r4, #276]	; 0x114
+ 100:	ed84 4a46 	vstr	s8, [r4, #280]	; 0x118
+ 104:	ed84 3a5f 	vstr	s6, [r4, #380]	; 0x17c
+ 108:	f8c4 3180 	str.w	r3, [r4, #384]	; 0x180
+ 10c:	ee36 6a47 	vsub.f32	s12, s12, s14
+ 110:	edd4 4a64 	vldr	s9, [r4, #400]	; 0x190
+ 114:	ee76 6ae7 	vsub.f32	s13, s13, s15
+ 118:	edd4 7a49 	vldr	s15, [r4, #292]	; 0x124
+ 11c:	edd4 1a47 	vldr	s3, [r4, #284]	; 0x11c
+ 120:	ee76 7a67 	vsub.f32	s15, s12, s15
+ 124:	ed9f aa69 	vldr	s20, [pc, #420]	; 2cc <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x2cc>
+ 128:	ee76 4ae4 	vsub.f32	s9, s13, s9
+ 12c:	ed94 5a48 	vldr	s10, [r4, #288]	; 0x120
+ 130:	edd4 5a63 	vldr	s11, [r4, #396]	; 0x18c
+ 134:	ee87 7a88 	vdiv.f32	s14, s15, s16
+ 138:	ed94 2a1b 	vldr	s4, [r4, #108]	; 0x6c
+ 13c:	ed84 6a49 	vstr	s12, [r4, #292]	; 0x124
+ 140:	edc4 6a64 	vstr	s13, [r4, #400]	; 0x190
+ 144:	edc4 3a61 	vstr	s7, [r4, #388]	; 0x184
+ 148:	ed84 aa62 	vstr	s20, [r4, #392]	; 0x188
+ 14c:	eec4 7a88 	vdiv.f32	s15, s9, s16
+ 150:	edd4 aa70 	vldr	s21, [r4, #448]	; 0x1c0
+ 154:	eea8 5a06 	vfma.f32	s10, s16, s12
+ 158:	eee8 5a26 	vfma.f32	s11, s16, s13
+ 15c:	ee27 7a04 	vmul.f32	s14, s14, s8
+ 160:	ed84 5a48 	vstr	s10, [r4, #288]	; 0x120
+ 164:	edc4 5a63 	vstr	s11, [r4, #396]	; 0x18c
+ 168:	eea6 7a22 	vfma.f32	s14, s12, s5
+ 16c:	ee67 7aa3 	vmul.f32	s15, s15, s7
+ 170:	eee3 7a26 	vfma.f32	s15, s6, s13
+ 174:	ee37 7a21 	vadd.f32	s14, s14, s3
+ 178:	ed84 7a6a 	vstr	s14, [r4, #424]	; 0x1a8
+ 17c:	ee77 7a8a 	vadd.f32	s15, s15, s20
+ 180:	ee77 8a87 	vadd.f32	s17, s15, s14
+ 184:	edc4 7a6e 	vstr	s15, [r4, #440]	; 0x1b8
+ 188:	ee68 8a82 	vmul.f32	s17, s17, s4
+ 18c:	edc4 8a72 	vstr	s17, [r4, #456]	; 0x1c8
+ 190:	ed96 9a06 	vldr	s18, [r6, #24]
+ 194:	eeb0 0a49 	vmov.f32	s0, s18
+ 198:	f7ff fffe 	bl	0 <cosf>
+ 19c:	eef0 9a40 	vmov.f32	s19, s0
+ 1a0:	eeb0 0a49 	vmov.f32	s0, s18
+ 1a4:	ed94 9a71 	vldr	s18, [r4, #452]	; 0x1c4
+ 1a8:	f7ff fffe 	bl	0 <sinf>
+ 1ac:	4b48      	ldr	r3, [pc, #288]	; (2d0 <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x2d0>)
+ 1ae:	ee69 7a29 	vmul.f32	s15, s18, s19
+ 1b2:	ed94 5a0e 	vldr	s10, [r4, #56]	; 0x38
+ 1b6:	ee29 9a00 	vmul.f32	s18, s18, s0
+ 1ba:	681b      	ldr	r3, [r3, #0]
+ 1bc:	f8b3 3814 	ldrh.w	r3, [r3, #2068]	; 0x814
+ 1c0:	eeb0 6a67 	vmov.f32	s12, s15
+ 1c4:	eeb0 7a49 	vmov.f32	s14, s18
+ 1c8:	ee06 3a90 	vmov	s13, r3
+ 1cc:	eeea 7ac0 	vfms.f32	s15, s21, s0
+ 1d0:	ee9a 6a80 	vfnms.f32	s12, s21, s0
+ 1d4:	eeaa 7aa9 	vfma.f32	s14, s21, s19
+ 1d8:	ee9a 9ae9 	vfnma.f32	s18, s21, s19
+ 1dc:	eef8 6a66 	vcvt.f32.u32	s13, s13
+ 1e0:	ee78 7aa7 	vadd.f32	s15, s17, s15
+ 1e4:	eef4 6ac5 	vcmpe.f32	s13, s10
+ 1e8:	ee38 6a86 	vadd.f32	s12, s17, s12
+ 1ec:	ee38 7a87 	vadd.f32	s14, s17, s14
+ 1f0:	edc4 7a77 	vstr	s15, [r4, #476]	; 0x1dc
+ 1f4:	ee78 8a89 	vadd.f32	s17, s17, s18
+ 1f8:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 1fc:	ed84 6a75 	vstr	s12, [r4, #468]	; 0x1d4
+ 200:	ed84 7a74 	vstr	s14, [r4, #464]	; 0x1d0
+ 204:	edc4 8a76 	vstr	s17, [r4, #472]	; 0x1d8
+ 208:	d528      	bpl.n	25c <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x25c>
+ 20a:	edd4 7a0f 	vldr	s15, [r4, #60]	; 0x3c
+ 20e:	ee76 6ae7 	vsub.f32	s13, s13, s15
+ 212:	eec6 5a85 	vdiv.f32	s11, s13, s10
+ 216:	eef4 5aca 	vcmpe.f32	s11, s20
+ 21a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 21e:	d44f      	bmi.n	2c0 <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x2c0>
+ 220:	eef7 7a00 	vmov.f32	s15, #112	; 0x3f800000  1.0
+ 224:	eef4 5a67 	vcmp.f32	s11, s15
+ 228:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 22c:	fe77 5aa5 	vselgt.f32	s11, s15, s11
+ 230:	e016      	b.n	260 <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x260>
+ 232:	eddf 5a26 	vldr	s11, [pc, #152]	; 2cc <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x2cc>
+ 236:	eeb0 3a45 	vmov.f32	s6, s10
+ 23a:	ed84 5a5f 	vstr	s10, [r4, #380]	; 0x17c
+ 23e:	eeb0 4a65 	vmov.f32	s8, s11
+ 242:	edc4 5a44 	vstr	s11, [r4, #272]	; 0x110
+ 246:	eef0 2a65 	vmov.f32	s5, s11
+ 24a:	edc4 5a45 	vstr	s11, [r4, #276]	; 0x114
+ 24e:	eef0 3a65 	vmov.f32	s7, s11
+ 252:	edc4 5a46 	vstr	s11, [r4, #280]	; 0x118
+ 256:	edc4 5a60 	vstr	s11, [r4, #384]	; 0x180
+ 25a:	e757      	b.n	10c <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x10c>
+ 25c:	eef7 5a00 	vmov.f32	s11, #112	; 0x3f800000  1.0
+ 260:	eef7 4a00 	vmov.f32	s9, #112	; 0x3f800000  1.0
+ 264:	462b      	mov	r3, r5
+ 266:	f504 71ea 	add.w	r1, r4, #468	; 0x1d4
+ 26a:	9a0c      	ldr	r2, [sp, #48]	; 0x30
+ 26c:	f504 70f0 	add.w	r0, r4, #480	; 0x1e0
+ 270:	ed9f 5a16 	vldr	s10, [pc, #88]	; 2cc <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x2cc>
+ 274:	edd3 7a01 	vldr	s15, [r3, #4]
+ 278:	330c      	adds	r3, #12
+ 27a:	ed94 6a0d 	vldr	s12, [r4, #52]	; 0x34
+ 27e:	ee37 7a67 	vsub.f32	s14, s14, s15
+ 282:	edd4 6a0b 	vldr	s13, [r4, #44]	; 0x2c
+ 286:	eec7 7a08 	vdiv.f32	s15, s14, s16
+ 28a:	ee67 7a86 	vmul.f32	s15, s15, s12
+ 28e:	eee6 7a87 	vfma.f32	s15, s13, s14
+ 292:	ee77 7a85 	vadd.f32	s15, s15, s10
+ 296:	eeb0 7ae7 	vabs.f32	s14, s15
+ 29a:	eeb4 7ae4 	vcmpe.f32	s14, s9
+ 29e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 2a2:	bfc8      	it	gt
+ 2a4:	eec7 7a87 	vdivgt.f32	s15, s15, s14
+ 2a8:	4288      	cmp	r0, r1
+ 2aa:	ee65 7aa7 	vmul.f32	s15, s11, s15
+ 2ae:	ece2 7a01 	vstmia	r2!, {s15}
+ 2b2:	d002      	beq.n	2ba <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x2ba>
+ 2b4:	ecb1 7a01 	vldmia	r1!, {s14}
+ 2b8:	e7dc      	b.n	274 <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x274>
+ 2ba:	ecbd 8b06 	vpop	{d8-d10}
+ 2be:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+ 2c0:	eef0 5a4a 	vmov.f32	s11, s20
+ 2c4:	e7cc      	b.n	260 <_ZN24XDriveVelocityController4stepEPA3_fS1_S1_Pf+0x260>
+ 2c6:	bf00      	nop
+ 2c8:	49742400 	.word	0x49742400
+ 2cc:	00000000 	.word	0x00000000
+ 2d0:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf:
+
+00000000 <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4604      	mov	r4, r0
+   4:	460f      	mov	r7, r1
+   6:	4616      	mov	r6, r2
+   8:	461d      	mov	r5, r3
+   a:	ed2d 8b06 	vpush	{d8-d10}
+   e:	f7ff fffe 	bl	0 <micros>
+  12:	f8d4 30c4 	ldr.w	r3, [r4, #196]	; 0xc4
+  16:	ed9f 7ac5 	vldr	s14, [pc, #788]	; 32c <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x32c>
+  1a:	1ac0      	subs	r0, r0, r3
+  1c:	ee07 0a90 	vmov	s15, r0
+  20:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  24:	ee87 8a87 	vdiv.f32	s16, s15, s14
+  28:	f7ff fffe 	bl	0 <micros>
+  2c:	ed94 3a01 	vldr	s6, [r4, #4]
+  30:	46be      	mov	lr, r7
+  32:	f8c4 00c4 	str.w	r0, [r4, #196]	; 0xc4
+  36:	46b4      	mov	ip, r6
+  38:	edd4 3a03 	vldr	s7, [r4, #12]
+  3c:	f104 0364 	add.w	r3, r4, #100	; 0x64
+  40:	ed94 4a04 	vldr	s8, [r4, #16]
+  44:	f106 0118 	add.w	r1, r6, #24
+  48:	edd4 4a06 	vldr	s9, [r4, #24]
+  4c:	4620      	mov	r0, r4
+  4e:	edd4 1a02 	vldr	s3, [r4, #8]
+  52:	ed94 2a05 	vldr	s4, [r4, #20]
+  56:	ed9e 7a00 	vldr	s14, [lr]
+  5a:	f10c 0c0c 	add.w	ip, ip, #12
+  5e:	edd0 5a37 	vldr	s11, [r0, #220]	; 0xdc
+  62:	3304      	adds	r3, #4
+  64:	ed80 7a38 	vstr	s14, [r0, #224]	; 0xe0
+  68:	f10e 0e0c 	add.w	lr, lr, #12
+  6c:	ed5c 7a03 	vldr	s15, [ip, #-12]
+  70:	3024      	adds	r0, #36	; 0x24
+  72:	ed90 6a2d 	vldr	s12, [r0, #180]	; 0xb4
+  76:	ee37 7a67 	vsub.f32	s14, s14, s15
+  7a:	edc0 7a30 	vstr	s15, [r0, #192]	; 0xc0
+  7e:	ed80 3a29 	vstr	s6, [r0, #164]	; 0xa4
+  82:	edc0 1a2a 	vstr	s3, [r0, #168]	; 0xa8
+  86:	ee77 5a65 	vsub.f32	s11, s14, s11
+  8a:	edc0 3a2b 	vstr	s7, [r0, #172]	; 0xac
+  8e:	eea8 6a07 	vfma.f32	s12, s16, s14
+  92:	ed5e 6a02 	vldr	s13, [lr, #-8]
+  96:	edd0 2a2c 	vldr	s5, [r0, #176]	; 0xb0
+  9a:	eec5 7a88 	vdiv.f32	s15, s11, s16
+  9e:	edc0 6a4a 	vstr	s13, [r0, #296]	; 0x128
+  a2:	ed1c 5a02 	vldr	s10, [ip, #-8]
+  a6:	458c      	cmp	ip, r1
+  a8:	ed80 7a2e 	vstr	s14, [r0, #184]	; 0xb8
+  ac:	ed80 5a4b 	vstr	s10, [r0, #300]	; 0x12c
+  b0:	ed80 6a2d 	vstr	s12, [r0, #180]	; 0xb4
+  b4:	ee76 6ac5 	vsub.f32	s13, s13, s10
+  b8:	ed80 4a44 	vstr	s8, [r0, #272]	; 0x110
+  bc:	ed80 2a45 	vstr	s4, [r0, #276]	; 0x114
+  c0:	edc0 4a46 	vstr	s9, [r0, #280]	; 0x118
+  c4:	ee67 7aa3 	vmul.f32	s15, s15, s7
+  c8:	eee3 7a07 	vfma.f32	s15, s6, s14
+  cc:	ee77 7aa2 	vadd.f32	s15, s15, s5
+  d0:	edc3 7a4e 	vstr	s15, [r3, #312]	; 0x138
+  d4:	edd0 5a49 	vldr	s11, [r0, #292]	; 0x124
+  d8:	ed90 6a48 	vldr	s12, [r0, #288]	; 0x120
+  dc:	ee76 5ae5 	vsub.f32	s11, s13, s11
+  e0:	ed90 5a47 	vldr	s10, [r0, #284]	; 0x11c
+  e4:	eea8 6a26 	vfma.f32	s12, s16, s13
+  e8:	edc0 6a49 	vstr	s13, [r0, #292]	; 0x124
+  ec:	ee85 7a88 	vdiv.f32	s14, s11, s16
+  f0:	ed80 6a48 	vstr	s12, [r0, #288]	; 0x120
+  f4:	ee27 7a24 	vmul.f32	s14, s14, s9
+  f8:	eea4 7a26 	vfma.f32	s14, s8, s13
+  fc:	ee37 7a05 	vadd.f32	s14, s14, s10
+ 100:	ee77 7a27 	vadd.f32	s15, s14, s15
+ 104:	ed83 7a52 	vstr	s14, [r3, #328]	; 0x148
+ 108:	ed13 7a01 	vldr	s14, [r3, #-4]
+ 10c:	ee67 7a87 	vmul.f32	s15, s15, s14
+ 110:	edc3 7a56 	vstr	s15, [r3, #344]	; 0x158
+ 114:	d19f      	bne.n	56 <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x56>
+ 116:	ed97 6a06 	vldr	s12, [r7, #24]
+ 11a:	eeb7 5a00 	vmov.f32	s10, #112	; 0x3f800000  1.0
+ 11e:	ed84 6a4a 	vstr	s12, [r4, #296]	; 0x128
+ 122:	ed96 7a06 	vldr	s14, [r6, #24]
+ 126:	ed84 7a4b 	vstr	s14, [r4, #300]	; 0x12c
+ 12a:	edd7 6a07 	vldr	s13, [r7, #28]
+ 12e:	edc4 6a65 	vstr	s13, [r4, #404]	; 0x194
+ 132:	edd6 7a07 	vldr	s15, [r6, #28]
+ 136:	edc4 7a66 	vstr	s15, [r4, #408]	; 0x198
+ 13a:	edd7 5a08 	vldr	s11, [r7, #32]
+ 13e:	eef4 5a45 	vcmp.f32	s11, s10
+ 142:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 146:	f040 80a7 	bne.w	298 <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x298>
+ 14a:	edd4 2a07 	vldr	s5, [r4, #28]
+ 14e:	6a22      	ldr	r2, [r4, #32]
+ 150:	ed94 4a09 	vldr	s8, [r4, #36]	; 0x24
+ 154:	ed94 3a0a 	vldr	s6, [r4, #40]	; 0x28
+ 158:	6ae3      	ldr	r3, [r4, #44]	; 0x2c
+ 15a:	edd4 3a0c 	vldr	s7, [r4, #48]	; 0x30
+ 15e:	edc4 2a44 	vstr	s5, [r4, #272]	; 0x110
+ 162:	f8c4 2114 	str.w	r2, [r4, #276]	; 0x114
+ 166:	ed84 4a46 	vstr	s8, [r4, #280]	; 0x118
+ 16a:	ed84 3a5f 	vstr	s6, [r4, #380]	; 0x17c
+ 16e:	f8c4 3180 	str.w	r3, [r4, #384]	; 0x180
+ 172:	ee36 6a47 	vsub.f32	s12, s12, s14
+ 176:	edd4 4a64 	vldr	s9, [r4, #400]	; 0x190
+ 17a:	ee76 6ae7 	vsub.f32	s13, s13, s15
+ 17e:	edd4 7a49 	vldr	s15, [r4, #292]	; 0x124
+ 182:	edd4 1a47 	vldr	s3, [r4, #284]	; 0x11c
+ 186:	ee76 7a67 	vsub.f32	s15, s12, s15
+ 18a:	eddf aa69 	vldr	s21, [pc, #420]	; 330 <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x330>
+ 18e:	ee76 4ae4 	vsub.f32	s9, s13, s9
+ 192:	ed94 5a48 	vldr	s10, [r4, #288]	; 0x120
+ 196:	edd4 5a63 	vldr	s11, [r4, #396]	; 0x18c
+ 19a:	ee87 7a88 	vdiv.f32	s14, s15, s16
+ 19e:	ed94 2a1b 	vldr	s4, [r4, #108]	; 0x6c
+ 1a2:	ed84 6a49 	vstr	s12, [r4, #292]	; 0x124
+ 1a6:	edc4 6a64 	vstr	s13, [r4, #400]	; 0x190
+ 1aa:	edc4 3a61 	vstr	s7, [r4, #388]	; 0x184
+ 1ae:	edc4 aa62 	vstr	s21, [r4, #392]	; 0x188
+ 1b2:	eec4 7a88 	vdiv.f32	s15, s9, s16
+ 1b6:	ed94 aa70 	vldr	s20, [r4, #448]	; 0x1c0
+ 1ba:	eea8 5a06 	vfma.f32	s10, s16, s12
+ 1be:	eee8 5a26 	vfma.f32	s11, s16, s13
+ 1c2:	ee27 7a04 	vmul.f32	s14, s14, s8
+ 1c6:	ed84 5a48 	vstr	s10, [r4, #288]	; 0x120
+ 1ca:	edc4 5a63 	vstr	s11, [r4, #396]	; 0x18c
+ 1ce:	eea2 7a86 	vfma.f32	s14, s5, s12
+ 1d2:	ee67 7aa3 	vmul.f32	s15, s15, s7
+ 1d6:	eee3 7a26 	vfma.f32	s15, s6, s13
+ 1da:	ee37 7a21 	vadd.f32	s14, s14, s3
+ 1de:	ed84 7a6a 	vstr	s14, [r4, #424]	; 0x1a8
+ 1e2:	ee77 7aaa 	vadd.f32	s15, s15, s21
+ 1e6:	ee77 8a87 	vadd.f32	s17, s15, s14
+ 1ea:	edc4 7a6e 	vstr	s15, [r4, #440]	; 0x1b8
+ 1ee:	ee68 8a82 	vmul.f32	s17, s17, s4
+ 1f2:	edc4 8a72 	vstr	s17, [r4, #456]	; 0x1c8
+ 1f6:	ed96 9a06 	vldr	s18, [r6, #24]
+ 1fa:	eeb0 0a49 	vmov.f32	s0, s18
+ 1fe:	f7ff fffe 	bl	0 <cosf>
+ 202:	eef0 9a40 	vmov.f32	s19, s0
+ 206:	eeb0 0a49 	vmov.f32	s0, s18
+ 20a:	ed94 9a71 	vldr	s18, [r4, #452]	; 0x1c4
+ 20e:	f7ff fffe 	bl	0 <sinf>
+ 212:	4b48      	ldr	r3, [pc, #288]	; (334 <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x334>)
+ 214:	ee29 7a29 	vmul.f32	s14, s18, s19
+ 218:	ed94 5a10 	vldr	s10, [r4, #64]	; 0x40
+ 21c:	ee29 9a00 	vmul.f32	s18, s18, s0
+ 220:	681b      	ldr	r3, [r3, #0]
+ 222:	f8b3 3814 	ldrh.w	r3, [r3, #2068]	; 0x814
+ 226:	eeb0 6a47 	vmov.f32	s12, s14
+ 22a:	eef0 6a49 	vmov.f32	s13, s18
+ 22e:	ee07 3a90 	vmov	s15, r3
+ 232:	eeaa 7a40 	vfms.f32	s14, s20, s0
+ 236:	ee9a 6a00 	vfnms.f32	s12, s20, s0
+ 23a:	eeea 6a29 	vfma.f32	s13, s20, s19
+ 23e:	ee9a 9a69 	vfnma.f32	s18, s20, s19
+ 242:	eef8 7a67 	vcvt.f32.u32	s15, s15
+ 246:	ee38 7a87 	vadd.f32	s14, s17, s14
+ 24a:	eef4 7ac5 	vcmpe.f32	s15, s10
+ 24e:	ee38 6a86 	vadd.f32	s12, s17, s12
+ 252:	ee78 6aa6 	vadd.f32	s13, s17, s13
+ 256:	ed84 7a74 	vstr	s14, [r4, #464]	; 0x1d0
+ 25a:	ee78 8a89 	vadd.f32	s17, s17, s18
+ 25e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 262:	ed84 6a76 	vstr	s12, [r4, #472]	; 0x1d8
+ 266:	edc4 6a75 	vstr	s13, [r4, #468]	; 0x1d4
+ 26a:	edc4 8a77 	vstr	s17, [r4, #476]	; 0x1dc
+ 26e:	d528      	bpl.n	2c2 <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x2c2>
+ 270:	edd4 6a11 	vldr	s13, [r4, #68]	; 0x44
+ 274:	ee77 7ae6 	vsub.f32	s15, s15, s13
+ 278:	eec7 5a85 	vdiv.f32	s11, s15, s10
+ 27c:	eef4 5aea 	vcmpe.f32	s11, s21
+ 280:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 284:	d44f      	bmi.n	326 <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x326>
+ 286:	eef7 7a00 	vmov.f32	s15, #112	; 0x3f800000  1.0
+ 28a:	eef4 5a67 	vcmp.f32	s11, s15
+ 28e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 292:	fe77 5aa5 	vselgt.f32	s11, s15, s11
+ 296:	e016      	b.n	2c6 <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x2c6>
+ 298:	eddf 5a25 	vldr	s11, [pc, #148]	; 330 <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x330>
+ 29c:	eeb0 3a45 	vmov.f32	s6, s10
+ 2a0:	ed84 5a5f 	vstr	s10, [r4, #380]	; 0x17c
+ 2a4:	eeb0 4a65 	vmov.f32	s8, s11
+ 2a8:	edc4 5a44 	vstr	s11, [r4, #272]	; 0x110
+ 2ac:	eef0 2a65 	vmov.f32	s5, s11
+ 2b0:	edc4 5a45 	vstr	s11, [r4, #276]	; 0x114
+ 2b4:	eef0 3a65 	vmov.f32	s7, s11
+ 2b8:	edc4 5a46 	vstr	s11, [r4, #280]	; 0x118
+ 2bc:	edc4 5a60 	vstr	s11, [r4, #384]	; 0x180
+ 2c0:	e757      	b.n	172 <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x172>
+ 2c2:	eef7 5a00 	vmov.f32	s11, #112	; 0x3f800000  1.0
+ 2c6:	eef7 4a00 	vmov.f32	s9, #112	; 0x3f800000  1.0
+ 2ca:	462b      	mov	r3, r5
+ 2cc:	f504 71ea 	add.w	r1, r4, #468	; 0x1d4
+ 2d0:	9a0c      	ldr	r2, [sp, #48]	; 0x30
+ 2d2:	f504 70f0 	add.w	r0, r4, #480	; 0x1e0
+ 2d6:	ed9f 5a16 	vldr	s10, [pc, #88]	; 330 <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x330>
+ 2da:	edd3 7a01 	vldr	s15, [r3, #4]
+ 2de:	330c      	adds	r3, #12
+ 2e0:	ed94 6a0f 	vldr	s12, [r4, #60]	; 0x3c
+ 2e4:	ee37 7a67 	vsub.f32	s14, s14, s15
+ 2e8:	edd4 6a0d 	vldr	s13, [r4, #52]	; 0x34
+ 2ec:	eec7 7a08 	vdiv.f32	s15, s14, s16
+ 2f0:	ee67 7a86 	vmul.f32	s15, s15, s12
+ 2f4:	eee6 7a87 	vfma.f32	s15, s13, s14
+ 2f8:	ee77 7a85 	vadd.f32	s15, s15, s10
+ 2fc:	eeb0 7ae7 	vabs.f32	s14, s15
+ 300:	eeb4 7ae4 	vcmpe.f32	s14, s9
+ 304:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+ 308:	bfc8      	it	gt
+ 30a:	eec7 7a87 	vdivgt.f32	s15, s15, s14
+ 30e:	4288      	cmp	r0, r1
+ 310:	ee65 7aa7 	vmul.f32	s15, s11, s15
+ 314:	ece2 7a01 	vstmia	r2!, {s15}
+ 318:	d002      	beq.n	320 <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x320>
+ 31a:	ecb1 7a01 	vldmia	r1!, {s14}
+ 31e:	e7dc      	b.n	2da <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x2da>
+ 320:	ecbd 8b06 	vpop	{d8-d10}
+ 324:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+ 326:	eef0 5a6a 	vmov.f32	s11, s21
+ 32a:	e7cc      	b.n	2c6 <_ZN24XDrivePositionController4stepEPA3_fS1_S1_Pf+0x2c6>
+ 32c:	49742400 	.word	0x49742400
+ 330:	00000000 	.word	0x00000000
+ 334:	00000000 	.word	0x00000000

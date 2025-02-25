@@ -1,0 +1,155 @@
+
+build/./src/sensors/IMUSensor.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 IMUSensor.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata._ZN9IMUSensor5printEv.str1.4	00000000 .rodata._ZN9IMUSensor5printEv.str1.4
+00000000 l    d  .text._ZN9IMUSensor5printEv	00000000 .text._ZN9IMUSensor5printEv
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN9IMUSensor5printEv	00000124 _ZN9IMUSensor5printEv
+00000000         *UND*	00000000 usb_serial_write
+00000000         *UND*	00000000 _ZN5Print10printFloatEdh
+00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000         *UND*	00000000 Serial
+
+
+Contents of section .rodata._ZN9IMUSensor5printEv.str1.4:
+ 0000 09095465 6d706572 61747572 65200000  ..Temperature ..
+ 0010 20646567 20430000 09094163 63656c20   deg C....Accel 
+ 0020 583a2000 2009593a 20000000 20095a3a  X: . .Y: ... .Z:
+ 0030 20000000 206d2f73 5e322000 09094779   ... m/s^2 ...Gy
+ 0040 726f2058 3a200000 20726164 69616e73  ro X: .. radians
+ 0050 2f732000                             /s .            
+Contents of section .text._ZN9IMUSensor5printEv:
+ 0000 f8b50446 0e213e48 3e4dfff7 feff94ed  ...F.!>H>M......
+ 0010 260a0221 28463c4f b7eec00a 3b4efff7  &..!(F<O....;N..
+ 0020 feff0621 3a48fff7 feff2846 fff7feff  ...!:H....(F....
+ 0030 0b213848 fff7feff 94ed1d0a 02212846  .!8H.........!(F
+ 0040 b7eec00a fff7feff 05213846 fff7feff  .........!8F....
+ 0050 94ed1e0a 02212846 b7eec00a fff7feff  .....!(F........
+ 0060 05213046 fff7feff 94ed1f0a 02212846  .!0F.........!(F
+ 0070 b7eec00a fff7feff 07212748 fff7feff  .........!'H....
+ 0080 2846fff7 feff0a21 2448fff7 feffd4ed  (F.....!$H......
+ 0090 237a94ed 200a0221 284630ee 670ab7ee  #z.. ..!(F0.g...
+ 00a0 c00afff7 feff0521 3846fff7 feffd4ed  .......!8F......
+ 00b0 247a94ed 210a0221 284630ee 670ab7ee  $z..!..!(F0.g...
+ 00c0 c00afff7 feff0521 3046fff7 feffd4ed  .......!0F......
+ 00d0 257a94ed 220a0221 284630ee 670ab7ee  %z.."..!(F0.g...
+ 00e0 c00afff7 feff0b21 0d48fff7 feff2846  .......!.H....(F
+ 00f0 fff7feff 2846bde8 f840fff7 febf00bf  ....(F...@......
+ 0100 00000000 00000000 24000000 2c000000  ........$...,...
+ 0110 10000000 18000000 34000000 3c000000  ........4...<...
+ 0120 48000000                             H...            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN9IMUSensor5printEv:
+
+00000000 <_ZN9IMUSensor5printEv>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4604      	mov	r4, r0
+   4:	210e      	movs	r1, #14
+   6:	483e      	ldr	r0, [pc, #248]	; (100 <_ZN9IMUSensor5printEv+0x100>)
+   8:	4d3e      	ldr	r5, [pc, #248]	; (104 <_ZN9IMUSensor5printEv+0x104>)
+   a:	f7ff fffe 	bl	0 <usb_serial_write>
+   e:	ed94 0a26 	vldr	s0, [r4, #152]	; 0x98
+  12:	2102      	movs	r1, #2
+  14:	4628      	mov	r0, r5
+  16:	4f3c      	ldr	r7, [pc, #240]	; (108 <_ZN9IMUSensor5printEv+0x108>)
+  18:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+  1c:	4e3b      	ldr	r6, [pc, #236]	; (10c <_ZN9IMUSensor5printEv+0x10c>)
+  1e:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
+  22:	2106      	movs	r1, #6
+  24:	483a      	ldr	r0, [pc, #232]	; (110 <_ZN9IMUSensor5printEv+0x110>)
+  26:	f7ff fffe 	bl	0 <usb_serial_write>
+  2a:	4628      	mov	r0, r5
+  2c:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  30:	210b      	movs	r1, #11
+  32:	4838      	ldr	r0, [pc, #224]	; (114 <_ZN9IMUSensor5printEv+0x114>)
+  34:	f7ff fffe 	bl	0 <usb_serial_write>
+  38:	ed94 0a1d 	vldr	s0, [r4, #116]	; 0x74
+  3c:	2102      	movs	r1, #2
+  3e:	4628      	mov	r0, r5
+  40:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+  44:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
+  48:	2105      	movs	r1, #5
+  4a:	4638      	mov	r0, r7
+  4c:	f7ff fffe 	bl	0 <usb_serial_write>
+  50:	ed94 0a1e 	vldr	s0, [r4, #120]	; 0x78
+  54:	2102      	movs	r1, #2
+  56:	4628      	mov	r0, r5
+  58:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+  5c:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
+  60:	2105      	movs	r1, #5
+  62:	4630      	mov	r0, r6
+  64:	f7ff fffe 	bl	0 <usb_serial_write>
+  68:	ed94 0a1f 	vldr	s0, [r4, #124]	; 0x7c
+  6c:	2102      	movs	r1, #2
+  6e:	4628      	mov	r0, r5
+  70:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+  74:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
+  78:	2107      	movs	r1, #7
+  7a:	4827      	ldr	r0, [pc, #156]	; (118 <_ZN9IMUSensor5printEv+0x118>)
+  7c:	f7ff fffe 	bl	0 <usb_serial_write>
+  80:	4628      	mov	r0, r5
+  82:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  86:	210a      	movs	r1, #10
+  88:	4824      	ldr	r0, [pc, #144]	; (11c <_ZN9IMUSensor5printEv+0x11c>)
+  8a:	f7ff fffe 	bl	0 <usb_serial_write>
+  8e:	edd4 7a23 	vldr	s15, [r4, #140]	; 0x8c
+  92:	ed94 0a20 	vldr	s0, [r4, #128]	; 0x80
+  96:	2102      	movs	r1, #2
+  98:	4628      	mov	r0, r5
+  9a:	ee30 0a67 	vsub.f32	s0, s0, s15
+  9e:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+  a2:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
+  a6:	2105      	movs	r1, #5
+  a8:	4638      	mov	r0, r7
+  aa:	f7ff fffe 	bl	0 <usb_serial_write>
+  ae:	edd4 7a24 	vldr	s15, [r4, #144]	; 0x90
+  b2:	ed94 0a21 	vldr	s0, [r4, #132]	; 0x84
+  b6:	2102      	movs	r1, #2
+  b8:	4628      	mov	r0, r5
+  ba:	ee30 0a67 	vsub.f32	s0, s0, s15
+  be:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+  c2:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
+  c6:	2105      	movs	r1, #5
+  c8:	4630      	mov	r0, r6
+  ca:	f7ff fffe 	bl	0 <usb_serial_write>
+  ce:	edd4 7a25 	vldr	s15, [r4, #148]	; 0x94
+  d2:	ed94 0a22 	vldr	s0, [r4, #136]	; 0x88
+  d6:	2102      	movs	r1, #2
+  d8:	4628      	mov	r0, r5
+  da:	ee30 0a67 	vsub.f32	s0, s0, s15
+  de:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+  e2:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
+  e6:	210b      	movs	r1, #11
+  e8:	480d      	ldr	r0, [pc, #52]	; (120 <_ZN9IMUSensor5printEv+0x120>)
+  ea:	f7ff fffe 	bl	0 <usb_serial_write>
+  ee:	4628      	mov	r0, r5
+  f0:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  f4:	4628      	mov	r0, r5
+  f6:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  fa:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  fe:	bf00      	nop
+ 100:	00000000 	.word	0x00000000
+ 104:	00000000 	.word	0x00000000
+ 108:	00000024 	.word	0x00000024
+ 10c:	0000002c 	.word	0x0000002c
+ 110:	00000010 	.word	0x00000010
+ 114:	00000018 	.word	0x00000018
+ 118:	00000034 	.word	0x00000034
+ 11c:	0000003c 	.word	0x0000003c
+ 120:	00000048 	.word	0x00000048

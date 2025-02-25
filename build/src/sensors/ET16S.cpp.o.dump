@@ -1,0 +1,1246 @@
+
+build/./src/sensors/ET16S.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 ET16S.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN5ET16SC2Ev	00000000 .text._ZN5ET16SC2Ev
+00000000 l    d  .rodata._ZN5ET16S5printEv.str1.4	00000000 .rodata._ZN5ET16S5printEv.str1.4
+00000000 l    d  .text._ZN5ET16S5printEv	00000000 .text._ZN5ET16S5printEv
+00000000 l    d  .rodata._ZN5ET16S9print_rawEv.str1.4	00000000 .rodata._ZN5ET16S9print_rawEv.str1.4
+00000000 l    d  .text._ZN5ET16S9print_rawEv	00000000 .text._ZN5ET16S9print_rawEv
+00000000 l    d  .rodata._ZN5ET16S13print_raw_binEPh.str1.4	00000000 .rodata._ZN5ET16S13print_raw_binEPh.str1.4
+00000000 l    d  .text._ZN5ET16S13print_raw_binEPh	00000000 .text._ZN5ET16S13print_raw_binEPh
+00000000 l    d  .rodata._ZN5ET16S16print_format_binEi.str1.4	00000000 .rodata._ZN5ET16S16print_format_binEi.str1.4
+00000000 l    d  .text._ZN5ET16S16print_format_binEi	00000000 .text._ZN5ET16S16print_format_binEi
+00000000 l    d  .text._ZN5ET16S10format_rawEPh	00000000 .text._ZN5ET16S10format_rawEPh
+00000000 l    d  .text._ZN5ET16S7map_rawE12InputChannel	00000000 .text._ZN5ET16S7map_rawE12InputChannel
+00000000 l    d  .text._ZN5ET16S8map_mathEfff	00000000 .text._ZN5ET16S8map_mathEfff
+00000000 l    d  .text._ZN5ET16S10set_configEv	00000000 .text._ZN5ET16S10set_configEv
+00000000 l    d  .text._ZN5ET16S16set_channel_dataEv	00000000 .text._ZN5ET16S16set_channel_dataEv
+00000000 l    d  .text._ZN5ET16S15test_connectionEv	00000000 .text._ZN5ET16S15test_connectionEv
+00000000 l    d  .text._ZN5ET16S17get_safety_switchEv	00000000 .text._ZN5ET16S17get_safety_switchEv
+00000000 l    d  .text._ZN5ET16S13get_r_stick_xEv	00000000 .text._ZN5ET16S13get_r_stick_xEv
+00000000 l    d  .text._ZN5ET16S13get_r_stick_yEv	00000000 .text._ZN5ET16S13get_r_stick_yEv
+00000000 l    d  .text._ZN5ET16S13get_l_stick_xEv	00000000 .text._ZN5ET16S13get_l_stick_xEv
+00000000 l    d  .text._ZN5ET16S13get_l_stick_yEv	00000000 .text._ZN5ET16S13get_l_stick_yEv
+00000000 l    d  .text._ZN5ET16S12get_switch_bEv	00000000 .text._ZN5ET16S12get_switch_bEv
+00000000 l    d  .text._ZN5ET16S12get_switch_cEv	00000000 .text._ZN5ET16S12get_switch_cEv
+00000000 l    d  .text._ZN5ET16S12get_switch_dEv	00000000 .text._ZN5ET16S12get_switch_dEv
+00000000 l    d  .text._ZN5ET16S12get_switch_eEv	00000000 .text._ZN5ET16S12get_switch_eEv
+00000000 l    d  .text._ZN5ET16S12get_switch_fEv	00000000 .text._ZN5ET16S12get_switch_fEv
+00000000 l    d  .text._ZN5ET16S12get_switch_gEv	00000000 .text._ZN5ET16S12get_switch_gEv
+00000000 l    d  .text._ZN5ET16S12get_switch_hEv	00000000 .text._ZN5ET16S12get_switch_hEv
+00000000 l    d  .text._ZN5ET16S12get_l_sliderEv	00000000 .text._ZN5ET16S12get_l_sliderEv
+00000000 l    d  .text._ZN5ET16S12get_r_sliderEv	00000000 .text._ZN5ET16S12get_r_sliderEv
+00000000 l    d  .text._ZN5ET16S12get_trim_oneEv	00000000 .text._ZN5ET16S12get_trim_oneEv
+00000000 l    d  .text._ZN5ET16S12get_trim_twoEv	00000000 .text._ZN5ET16S12get_trim_twoEv
+00000000 l    d  .text._ZN5ET16S14get_trim_threeEv	00000000 .text._ZN5ET16S14get_trim_threeEv
+00000000 l    d  .text._ZN5ET16S13get_trim_fourEv	00000000 .text._ZN5ET16S13get_trim_fourEv
+00000000 l    d  .text._ZN5ET16S13get_trim_fiveEv	00000000 .text._ZN5ET16S13get_trim_fiveEv
+00000000 l    d  .text._ZN5ET16S12get_trim_sixEv	00000000 .text._ZN5ET16S12get_trim_sixEv
+00000000 l    d  .text._ZN5ET16S10get_l_dialEv	00000000 .text._ZN5ET16S10get_l_dialEv
+00000000 l    d  .text._ZN5ET16S10get_r_dialEv	00000000 .text._ZN5ET16S10get_r_dialEv
+00000000 l    d  .text._ZN5ET16S16get_channel_dataEi	00000000 .text._ZN5ET16S16get_channel_dataEi
+00000000 l    d  .text._ZN5ET16S21get_connection_statusEv	00000000 .text._ZN5ET16S21get_connection_statusEv
+00000000 l    d  .text._ZN5ET16S4initEv	00000000 .text._ZN5ET16S4initEv
+00000000 l    d  .text._ZN5ET16S4readEv	00000000 .text._ZN5ET16S4readEv
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN5ET16SC2Ev	0000009a _ZN5ET16SC2Ev
+00000000         *UND*	00000000 memset
+00000000 g     F .text._ZN5ET16SC2Ev	0000009a _ZN5ET16SC1Ev
+00000000 g     F .text._ZN5ET16S5printEv	00000040 _ZN5ET16S5printEv
+00000000         *UND*	00000000 _ZN5Print10printFloatEdh
+00000000         *UND*	00000000 usb_serial_write
+00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000         *UND*	00000000 Serial
+00000000 g     F .text._ZN5ET16S9print_rawEv	00000030 _ZN5ET16S9print_rawEv
+00000000         *UND*	00000000 _ZN5Print6printfEPKcz
+00000000 g     F .text._ZN5ET16S13print_raw_binEPh	00000058 _ZN5ET16S13print_raw_binEPh
+00000000 g     F .text._ZN5ET16S16print_format_binEi	00000058 _ZN5ET16S16print_format_binEi
+00000000 g     F .text._ZN5ET16S10format_rawEPh	00000158 _ZN5ET16S10format_rawEPh
+00000000 g     F .text._ZN5ET16S7map_rawE12InputChannel	00000104 _ZN5ET16S7map_rawE12InputChannel
+00000000 g     F .text._ZN5ET16S8map_mathEfff	00000044 _ZN5ET16S8map_mathEfff
+00000000 g     F .text._ZN5ET16S10set_configEv	000000c6 _ZN5ET16S10set_configEv
+00000000 g     F .text._ZN5ET16S16set_channel_dataEv	0000002c _ZN5ET16S16set_channel_dataEv
+00000000 g     F .text._ZN5ET16S15test_connectionEv	0000001c _ZN5ET16S15test_connectionEv
+00000000 g     F .text._ZN5ET16S17get_safety_switchEv	00000016 _ZN5ET16S17get_safety_switchEv
+00000000 g     F .text._ZN5ET16S13get_r_stick_xEv	00000006 _ZN5ET16S13get_r_stick_xEv
+00000000 g     F .text._ZN5ET16S13get_r_stick_yEv	00000006 _ZN5ET16S13get_r_stick_yEv
+00000000 g     F .text._ZN5ET16S13get_l_stick_xEv	00000006 _ZN5ET16S13get_l_stick_xEv
+00000000 g     F .text._ZN5ET16S13get_l_stick_yEv	00000006 _ZN5ET16S13get_l_stick_yEv
+00000000 g     F .text._ZN5ET16S12get_switch_bEv	0000001c _ZN5ET16S12get_switch_bEv
+00000000 g     F .text._ZN5ET16S12get_switch_cEv	0000001c _ZN5ET16S12get_switch_cEv
+00000000 g     F .text._ZN5ET16S12get_switch_dEv	0000001c _ZN5ET16S12get_switch_dEv
+00000000 g     F .text._ZN5ET16S12get_switch_eEv	0000001c _ZN5ET16S12get_switch_eEv
+00000000 g     F .text._ZN5ET16S12get_switch_fEv	0000001c _ZN5ET16S12get_switch_fEv
+00000000 g     F .text._ZN5ET16S12get_switch_gEv	0000001c _ZN5ET16S12get_switch_gEv
+00000000 g     F .text._ZN5ET16S12get_switch_hEv	0000001c _ZN5ET16S12get_switch_hEv
+00000000 g     F .text._ZN5ET16S12get_l_sliderEv	0000001c _ZN5ET16S12get_l_sliderEv
+00000000 g     F .text._ZN5ET16S12get_r_sliderEv	0000001c _ZN5ET16S12get_r_sliderEv
+00000000 g     F .text._ZN5ET16S12get_trim_oneEv	0000001c _ZN5ET16S12get_trim_oneEv
+00000000 g     F .text._ZN5ET16S12get_trim_twoEv	0000001c _ZN5ET16S12get_trim_twoEv
+00000000 g     F .text._ZN5ET16S14get_trim_threeEv	0000001c _ZN5ET16S14get_trim_threeEv
+00000000 g     F .text._ZN5ET16S13get_trim_fourEv	0000001c _ZN5ET16S13get_trim_fourEv
+00000000 g     F .text._ZN5ET16S13get_trim_fiveEv	0000001c _ZN5ET16S13get_trim_fiveEv
+00000000 g     F .text._ZN5ET16S12get_trim_sixEv	0000001c _ZN5ET16S12get_trim_sixEv
+00000000 g     F .text._ZN5ET16S10get_l_dialEv	0000001c _ZN5ET16S10get_l_dialEv
+00000000 g     F .text._ZN5ET16S10get_r_dialEv	0000001c _ZN5ET16S10get_r_dialEv
+00000000 g     F .text._ZN5ET16S16get_channel_dataEi	00000018 _ZN5ET16S16get_channel_dataEi
+00000000 g     F .text._ZN5ET16S21get_connection_statusEv	00000006 _ZN5ET16S21get_connection_statusEv
+00000000 g     F .text._ZN5ET16S4initEv	00000044 _ZN5ET16S4initEv
+00000000         *UND*	00000000 _ZN19HardwareSerialIMXRT5beginEmt
+00000000         *UND*	00000000 _ZN19HardwareSerialIMXRT5flushEv
+00000000         *UND*	00000000 _ZN19HardwareSerialIMXRT5clearEv
+00000000         *UND*	00000000 Serial8
+00000000 g     F .text._ZN5ET16S4readEv	000000b8 _ZN5ET16S4readEv
+00000000         *UND*	00000000 _ZN19HardwareSerialIMXRT9availableEv
+00000000         *UND*	00000000 _ZN19HardwareSerialIMXRT4readEv
+00000000         *UND*	00000000 _ZN19HardwareSerialIMXRT4peekEv
+
+
+Contents of section .text._ZN5ET16SC2Ev:
+ 0000 10b54ff4 88720021 0446fff7 feff0520  ..O..r.!.F..... 
+ 0010 06210123 0022c4f8 14010720 c4f81c11  .!.#."..... ....
+ 0020 0821c4f8 24010920 c4f82c11 0a21c4f8  .!..$.. ..,..!..
+ 0030 34010b20 c4f83c11 0c21c4f8 44010e20  4.. ..<..!..D.. 
+ 0040 c4f84c11 0d21c4f8 54012046 84f81021  ..L..!..T. F...!
+ 0050 84f81831 84f82031 84f82831 84f83031  ...1.. 1..(1..01
+ 0060 84f83831 84f84031 84f84831 84f85031  ..81..@1..H1..P1
+ 0070 84f85831 c4f85c11 84f86031 84f86821  ..X1..\...`1..h!
+ 0080 84f87021 84f87821 84f88021 84f88821  ..p!..x!...!...!
+ 0090 84f89021 84f89821 10bd00bf           ...!...!....    
+Contents of section .rodata._ZN5ET16S5printEv.str1.4:
+ 0000 2000                                  .              
+Contents of section .text._ZN5ET16S5printEv:
+ 0000 f8b50d4f 04460d4e 00f58875 23460221  ...O.F.N...u#F.!
+ 0010 10343846 93ed000a b7eec00a fff7feff  .48F............
+ 0020 01213046 fff7feff ac42efd1 0248bde8  .!0F.....B...H..
+ 0030 f840fff7 febf00bf 00000000 00000000  .@..............
+Contents of section .rodata._ZN5ET16S9print_rawEv.str1.4:
+ 0000 252e3375 2000                        %.3u .          
+Contents of section .text._ZN5ET16S9print_rawEv:
+ 0000 f8b5094f 0446094e 00f58875 a2881034  ...O.F.N...u...4
+ 0010 39463046 fff7feff ac42f7d1 0348bde8  9F0F.....B...H..
+ 0020 f840fff7 febf00bf 00000000 00000000  .@..............
+Contents of section .rodata._ZN5ET16S13print_raw_binEPh.str1.4:
+ 0000 31000000 3000                        1...0.          
+Contents of section .text._ZN5ET16S13print_raw_binEPh:
+ 0000 2de9f843 104f0d46 104e01f1 1909dff8  -..C.O.F.N......
+ 0010 44800024 2b780121 30462341 0134db07  D..$+x.!0F#A.4..
+ 0020 5cbf0121 3846fff7 feff082c f2d10135  \..!8F.....,...5
+ 0030 41460748 fff7feff a945ead1 0448bde8  AF.H.....E...H..
+ 0040 f843fff7 febf00bf 04000000 00000000  .C..............
+ 0050 00000000 00000000                    ........        
+Contents of section .rodata._ZN5ET16S16print_format_binEi.str1.4:
+ 0000 496e7661 6c696420 6368616e 6e656c20  Invalid channel 
+ 0010 75736564 20666f72 20707269 6e745f66  used for print_f
+ 0020 6f726d61 745f6269 6e2e204d 75737420  ormat_bin. Must 
+ 0030 62652030 2d313600                    be 0-16.        
+Contents of section .text._ZN5ET16S16print_format_binEi:
+ 0000 11291bd8 f8b50024 00eb0115 0d4f0e4e  .).....$.....O.N
+ 0010 ab880121 30462341 0134db07 5cbf0121  ...!0F#A.4..\..!
+ 0020 3846fff7 feff112c f2d10849 0848fff7  8F.....,...I.H..
+ 0030 feff0748 bde8f840 fff7febf 37210548  ...H...@....7!.H
+ 0040 fff7febf 04000000 00000000 00000000  ................
+ 0050 00000000 00000000                    ........        
+Contents of section .text._ZN5ET16S10format_rawEPh:
+ 0000 4b788a78 5b0143ea 4233c3f3 4a138380  Kx.x[.C.B3..J...
+ 0010 8a78cb78 d2089b02 43ea4213 c3f34a13  .x.x....C.B...J.
+ 0020 8382ca78 0b799209 91f805c0 db0143ea  ...x.y........C.
+ 0030 421343ea cc33c3f3 4a138384 4a798b79  B.C..3..J...Jy.y
+ 0040 52081b03 43ea4213 c3f34a13 83868a79  R...C.B...J....y
+ 0050 cb791209 5b0243ea 4213c3f3 4a13a0f8  .y..[.C.B...J...
+ 0060 4430ca79 0b7ad209 91f809c0 9b0143ea  D0.y.z........C.
+ 0070 421343ea 8c33c3f3 4a13a0f8 54304a7a  B.C..3..J...T0Jz
+ 0080 8b7a9208 db0243ea 4213c3f3 4a13a0f8  .z....C.B...J...
+ 0090 64308b7a ca7a03f0 e00343ea 02235b09  d0.z.z....C..#[.
+ 00a0 a0f87430 0b7b4a7b 5b0143ea 4233c3f3  ..t0.{J{[.C.B3..
+ 00b0 4a13a0f8 84304a7b 8b7bd208 9b0243ea  J....0J{.{....C.
+ 00c0 4213c3f3 4a13a0f8 94308a7b cb7b9209  B...J....0.{.{..
+ 00d0 91f810c0 db0143ea 421343ea cc33c3f3  ......C.B.C..3..
+ 00e0 4a13a0f8 a4300a7c 4b7c5208 1b0343ea  J....0.|K|R...C.
+ 00f0 4213c3f3 4a13a0f8 b4304a7c 8b7c1209  B...J....0J|.|..
+ 0100 5b0243ea 4213c3f3 4a13a0f8 c4308a7c  [.C.B...J....0.|
+ 0110 cb7cd209 91f814c0 9b0143ea 421343ea  .|........C.B.C.
+ 0120 8c33c3f3 4a13a0f8 d4300a7d 4b7d9208  .3..J....0.}K}..
+ 0130 db0243ea 4213c3f3 4a13a0f8 e4304b7d  ..C.B...J....0K}
+ 0140 8a7d03f0 e00343ea 02235b09 a0f8f430  .}....C..#[....0
+ 0150 cb7da0f8 04317047                    .}...1pG        
+Contents of section .text._ZN5ET16S7map_rawE12InputChannel:
+ 0000 84b001a8 80e80e00 bdf80820 013b07ee  ........... .;..
+ 0010 902ab8ee 670a042b 0bd8dfe8 03f03754  .*..g..+......7T
+ 0020 290c0c00 f5ee407a f1ee10fa 60d19fed  ).....@z....`...
+ 0030 320a04b0 7047dfed 317ab7ee 007adfed  2...pG..1z...z..
+ 0040 306a30ee 670a30ee 000ac0ee 267a77ee  0j0.g.0.....&zw.
+ 0050 c77af4ee c77af1ee 10fa3fdc ffee006a  .z...z....?....j
+ 0060 f4eee67a f1ee10fa dcd5b0ee 470ae0e7  ...z........G...
+ 0070 40f29f63 9a4238d0 b0ee000a b2f5b07f  @..c.B8.........
+ 0080 f7ee007a 04b007fe 800a7047 9fed1b7a  ...z......pG...z
+ 0090 f7ee007a dfed1a6a 30ee470a 30ee000a  ...z...j0.G.0...
+ 00a0 80ee267a 37ee670a b4eee70a f1ee10fa  ..&z7.g.........
+ 00b0 18dcffee 007ab4ee 670af1ee 10fa48bf  .....z..g.....H.
+ 00c0 b0ee670a b5e740f2 9f63b7ee 000af0ee  ..g...@..c......
+ 00d0 087a04b0 9a4207fe 800a7047 bfee000a  .z...B....pG....
+ 00e0 04b07047 b0ee670a a3e7b0ee 080aa0e7  ..pG..g.........
+ 00f0 b1ee670a 9de700bf 00000000 0000b043  ..g............C
+ 0100 00e0a744                             ...D            
+Contents of section .text._ZN5ET16S8map_mathEfff:
+ 0000 dfed0e7a 9fed0e7a 30ee670a 71ee607a  ...z...z0.g.q.`z
+ 0010 60ee277a 87ee870a 30ee200a b4eec01a  `.'z....0. .....
+ 0020 f1ee10fa 06d4f4ee 400af1ee 10fa30fe  ........@.....0.
+ 0030 800a7047 b0ee410a 704700bf 0000b043  ..pG..A.pG.....C
+ 0040 00e0a744                             ...D            
+Contents of section .text._ZN5ET16S10set_configEv:
+ 0000 09214ff0 040c0822 03462de9 f043c166  .!O....".F-..C.f
+ 0010 0a210325 0227c167 0b210126 4ff00708  .!.%.'.g.!.&O...
+ 0020 c0f88c10 0c210624 4ff0000e c0f89c10  .....!.$O.......
+ 0030 0d214ff0 0509c560 c0f8ac10 0e21c0f8  .!O....`.....!..
+ 0040 1cc0c0f8 bc101021 c762c0f8 cc100f21  .......!.b.....!
+ 0050 c663c0f8 ec101721 c265c0f8 0c1100f1  .c.....!.e......
+ 0060 c001c0f8 4c80c0f8 dc40c0f8 fce0172a  ....L....@.....*
+ 0070 0ed8dfe8 02f02518 1818181f 1f121212  ......%.........
+ 0080 12121d12 1d1a1a0c 0c0c0c0c 0c229c65  .............".e
+ 0090 10338b42 05d0da6d e9e79d65 10338b42  .3.B...m...e.3.B
+ 00a0 f9d1bde8 f0839e65 f2e7c3f8 5890efe7  .......e....X...
+ 00b0 9f65ede7 c3f858c0 eae7c3f8 5880e7e7  .e....X.....X...
+ 00c0 c3f858e0 e4e700bf                    ..X.....        
+Contents of section .text._ZN5ET16S16set_channel_dataEv:
+ 0000 f0b50024 83b00546 064605eb 04130134  ...$...F.F.....4
+ 0010 28468ecb 0097fff7 feff3346 112c06f1  (F........3F.,..
+ 0020 100683ed 000af0d1 03b0f0bd           ............    
+Contents of section .text._ZN5ET16S15test_connectionEv:
+ 0000 d0ed407a fceee77a 17ee903a 13f00c0f  ..@z...z...:....
+ 0010 0cbf0123 002380f8 10317047           ...#.#...1pG    
+Contents of section .text._ZN5ET16S17get_safety_switchEv:
+ 0000 d0ed107a 82b0fcee e77acded 017a9df8  ...z.....z...z..
+ 0010 040002b0 704700bf                    ....pG..        
+Contents of section .text._ZN5ET16S13get_r_stick_xEv:
+ 0000 90ed000a 704700bf                    ....pG..        
+Contents of section .text._ZN5ET16S13get_r_stick_yEv:
+ 0000 90ed040a 704700bf                    ....pG..        
+Contents of section .text._ZN5ET16S13get_l_stick_xEv:
+ 0000 90ed080a 704700bf                    ....pG..        
+Contents of section .text._ZN5ET16S13get_l_stick_yEv:
+ 0000 90ed0c0a 704700bf                    ....pG..        
+Contents of section .text._ZN5ET16S12get_switch_bEv:
+ 0000 91f81831 0bb90371 7047d1f8 14210123  ...1...qpG...!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S12get_switch_cEv:
+ 0000 91f82031 0bb90371 7047d1f8 1c210123  .. 1...qpG...!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S12get_switch_dEv:
+ 0000 91f82831 0bb90371 7047d1f8 24210123  ..(1...qpG..$!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S12get_switch_eEv:
+ 0000 91f83031 0bb90371 7047d1f8 2c210123  ..01...qpG..,!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S12get_switch_fEv:
+ 0000 91f83831 0bb90371 7047d1f8 34210123  ..81...qpG..4!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S12get_switch_gEv:
+ 0000 91f84031 0bb90371 7047d1f8 3c210123  ..@1...qpG..<!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S12get_switch_hEv:
+ 0000 91f84831 0bb90371 7047d1f8 44210123  ..H1...qpG..D!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S12get_l_sliderEv:
+ 0000 91f85831 0bb90371 7047d1f8 54210123  ..X1...qpG..T!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S12get_r_sliderEv:
+ 0000 91f85031 0bb90371 7047d1f8 4c210123  ..P1...qpG..L!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S12get_trim_oneEv:
+ 0000 91f87031 0bb90371 7047d1f8 6c210123  ..p1...qpG..l!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S12get_trim_twoEv:
+ 0000 91f87831 0bb90371 7047d1f8 74210123  ..x1...qpG..t!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S14get_trim_threeEv:
+ 0000 91f88031 0bb90371 7047d1f8 7c210123  ...1...qpG..|!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S13get_trim_fourEv:
+ 0000 91f88831 0bb90371 7047d1f8 84210123  ...1...qpG...!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S13get_trim_fiveEv:
+ 0000 91f89031 0bb90371 7047d1f8 8c210123  ...1...qpG...!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S12get_trim_sixEv:
+ 0000 91f89831 0bb90371 7047d1f8 94210123  ...1...qpG...!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S10get_l_dialEv:
+ 0000 91f86831 0bb90371 7047d1f8 64210123  ..h1...qpG..d!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S10get_r_dialEv:
+ 0000 91f86031 0bb90371 7047d1f8 5c210123  ..`1...qpG..\!.#
+ 0010 01eb0211 03710b68 03607047           .....q.h.`pG    
+Contents of section .text._ZN5ET16S16get_channel_dataEi:
+ 0000 102a02d9 00230371 704701eb 02120121  .*...#.qpG.....!
+ 0010 13680171 03607047                    .h.q.`pG        
+Contents of section .text._ZN5ET16S21get_connection_statusEv:
+ 0000 90f81001 704700bf                    ....pG..        
+Contents of section .text._ZN5ET16S4initEv:
+ 0000 38b50e4d 04463622 0d492846 fff7feff  8..M.F6".I(F....
+ 0010 2846fff7 feff2846 fff7feff 01234ff0  (F....(F.....#O.
+ 0020 7e520321 2046a360 a1642264 a361a362  ~R.! F.`.d"d.a.b
+ 0030 a363bde8 3840fff7 febf00bf 00000000  .c..8@..........
+ 0040 a0860100                             ....            
+Contents of section .text._ZN5ET16S4readEv:
+ 0000 f0b50023 8bb00546 2a488df8 2430cde9  ...#...F*H..$0..
+ 0010 0333cde9 0533cde9 0733fff7 feff3128  .3...3...3....1(
+ 0020 45dd244c 01e0fff7 feff2046 fff7feff  E.$L...... F....
+ 0030 03462046 0f2bf6d1 0df10b04 09af1d4e  .F F.+.........N
+ 0040 3046fff7 feff04f8 010fa742 f8d103a9  0F.........B....
+ 0050 2846fff7 feffb5f8 04312e46 002407ee  (F.......1.F.$..
+ 0060 903af8ee 677ac5ed 407a05eb 04130134  .:..gz..@z.....4
+ 0070 28468ecb 0097fff7 feff3346 112c06f1  (F........3F.,..
+ 0080 100683ed 000af0d1 d5ed407a 2846fcee  ..........@z(F..
+ 0090 e77a17ee 903a13f0 0c0f0cbf 01230023  .z...:.......#.#
+ 00a0 85f81031 0bb0bde8 f040fff7 febf0bb0  ...1.....@......
+ 00b0 f0bd00bf 00000000                    ........        
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN5ET16SC2Ev:
+
+00000000 <_ZN5ET16SC1Ev>:
+   0:	b510      	push	{r4, lr}
+   2:	f44f 7288 	mov.w	r2, #272	; 0x110
+   6:	2100      	movs	r1, #0
+   8:	4604      	mov	r4, r0
+   a:	f7ff fffe 	bl	0 <memset>
+   e:	2005      	movs	r0, #5
+  10:	2106      	movs	r1, #6
+  12:	2301      	movs	r3, #1
+  14:	2200      	movs	r2, #0
+  16:	f8c4 0114 	str.w	r0, [r4, #276]	; 0x114
+  1a:	2007      	movs	r0, #7
+  1c:	f8c4 111c 	str.w	r1, [r4, #284]	; 0x11c
+  20:	2108      	movs	r1, #8
+  22:	f8c4 0124 	str.w	r0, [r4, #292]	; 0x124
+  26:	2009      	movs	r0, #9
+  28:	f8c4 112c 	str.w	r1, [r4, #300]	; 0x12c
+  2c:	210a      	movs	r1, #10
+  2e:	f8c4 0134 	str.w	r0, [r4, #308]	; 0x134
+  32:	200b      	movs	r0, #11
+  34:	f8c4 113c 	str.w	r1, [r4, #316]	; 0x13c
+  38:	210c      	movs	r1, #12
+  3a:	f8c4 0144 	str.w	r0, [r4, #324]	; 0x144
+  3e:	200e      	movs	r0, #14
+  40:	f8c4 114c 	str.w	r1, [r4, #332]	; 0x14c
+  44:	210d      	movs	r1, #13
+  46:	f8c4 0154 	str.w	r0, [r4, #340]	; 0x154
+  4a:	4620      	mov	r0, r4
+  4c:	f884 2110 	strb.w	r2, [r4, #272]	; 0x110
+  50:	f884 3118 	strb.w	r3, [r4, #280]	; 0x118
+  54:	f884 3120 	strb.w	r3, [r4, #288]	; 0x120
+  58:	f884 3128 	strb.w	r3, [r4, #296]	; 0x128
+  5c:	f884 3130 	strb.w	r3, [r4, #304]	; 0x130
+  60:	f884 3138 	strb.w	r3, [r4, #312]	; 0x138
+  64:	f884 3140 	strb.w	r3, [r4, #320]	; 0x140
+  68:	f884 3148 	strb.w	r3, [r4, #328]	; 0x148
+  6c:	f884 3150 	strb.w	r3, [r4, #336]	; 0x150
+  70:	f884 3158 	strb.w	r3, [r4, #344]	; 0x158
+  74:	f8c4 115c 	str.w	r1, [r4, #348]	; 0x15c
+  78:	f884 3160 	strb.w	r3, [r4, #352]	; 0x160
+  7c:	f884 2168 	strb.w	r2, [r4, #360]	; 0x168
+  80:	f884 2170 	strb.w	r2, [r4, #368]	; 0x170
+  84:	f884 2178 	strb.w	r2, [r4, #376]	; 0x178
+  88:	f884 2180 	strb.w	r2, [r4, #384]	; 0x180
+  8c:	f884 2188 	strb.w	r2, [r4, #392]	; 0x188
+  90:	f884 2190 	strb.w	r2, [r4, #400]	; 0x190
+  94:	f884 2198 	strb.w	r2, [r4, #408]	; 0x198
+  98:	bd10      	pop	{r4, pc}
+  9a:	bf00      	nop
+
+Disassembly of section .text._ZN5ET16S5printEv:
+
+00000000 <_ZN5ET16S5printEv>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4f0d      	ldr	r7, [pc, #52]	; (38 <_ZN5ET16S5printEv+0x38>)
+   4:	4604      	mov	r4, r0
+   6:	4e0d      	ldr	r6, [pc, #52]	; (3c <_ZN5ET16S5printEv+0x3c>)
+   8:	f500 7588 	add.w	r5, r0, #272	; 0x110
+   c:	4623      	mov	r3, r4
+   e:	2102      	movs	r1, #2
+  10:	3410      	adds	r4, #16
+  12:	4638      	mov	r0, r7
+  14:	ed93 0a00 	vldr	s0, [r3]
+  18:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+  1c:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
+  20:	2101      	movs	r1, #1
+  22:	4630      	mov	r0, r6
+  24:	f7ff fffe 	bl	0 <usb_serial_write>
+  28:	42ac      	cmp	r4, r5
+  2a:	d1ef      	bne.n	c <_ZN5ET16S5printEv+0xc>
+  2c:	4802      	ldr	r0, [pc, #8]	; (38 <_ZN5ET16S5printEv+0x38>)
+  2e:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  32:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  36:	bf00      	nop
+  38:	00000000 	.word	0x00000000
+  3c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN5ET16S9print_rawEv:
+
+00000000 <_ZN5ET16S9print_rawEv>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4f09      	ldr	r7, [pc, #36]	; (28 <_ZN5ET16S9print_rawEv+0x28>)
+   4:	4604      	mov	r4, r0
+   6:	4e09      	ldr	r6, [pc, #36]	; (2c <_ZN5ET16S9print_rawEv+0x2c>)
+   8:	f500 7588 	add.w	r5, r0, #272	; 0x110
+   c:	88a2      	ldrh	r2, [r4, #4]
+   e:	3410      	adds	r4, #16
+  10:	4639      	mov	r1, r7
+  12:	4630      	mov	r0, r6
+  14:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  18:	42ac      	cmp	r4, r5
+  1a:	d1f7      	bne.n	c <_ZN5ET16S9print_rawEv+0xc>
+  1c:	4803      	ldr	r0, [pc, #12]	; (2c <_ZN5ET16S9print_rawEv+0x2c>)
+  1e:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  22:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  26:	bf00      	nop
+  28:	00000000 	.word	0x00000000
+  2c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN5ET16S13print_raw_binEPh:
+
+00000000 <_ZN5ET16S13print_raw_binEPh>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	4f10      	ldr	r7, [pc, #64]	; (48 <_ZN5ET16S13print_raw_binEPh+0x48>)
+   6:	460d      	mov	r5, r1
+   8:	4e10      	ldr	r6, [pc, #64]	; (4c <_ZN5ET16S13print_raw_binEPh+0x4c>)
+   a:	f101 0919 	add.w	r9, r1, #25
+   e:	f8df 8044 	ldr.w	r8, [pc, #68]	; 54 <_ZN5ET16S13print_raw_binEPh+0x54>
+  12:	2400      	movs	r4, #0
+  14:	782b      	ldrb	r3, [r5, #0]
+  16:	2101      	movs	r1, #1
+  18:	4630      	mov	r0, r6
+  1a:	4123      	asrs	r3, r4
+  1c:	3401      	adds	r4, #1
+  1e:	07db      	lsls	r3, r3, #31
+  20:	bf5c      	itt	pl
+  22:	2101      	movpl	r1, #1
+  24:	4638      	movpl	r0, r7
+  26:	f7ff fffe 	bl	0 <usb_serial_write>
+  2a:	2c08      	cmp	r4, #8
+  2c:	d1f2      	bne.n	14 <_ZN5ET16S13print_raw_binEPh+0x14>
+  2e:	3501      	adds	r5, #1
+  30:	4641      	mov	r1, r8
+  32:	4807      	ldr	r0, [pc, #28]	; (50 <_ZN5ET16S13print_raw_binEPh+0x50>)
+  34:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  38:	45a9      	cmp	r9, r5
+  3a:	d1ea      	bne.n	12 <_ZN5ET16S13print_raw_binEPh+0x12>
+  3c:	4804      	ldr	r0, [pc, #16]	; (50 <_ZN5ET16S13print_raw_binEPh+0x50>)
+  3e:	e8bd 43f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+  42:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  46:	bf00      	nop
+  48:	00000004 	.word	0x00000004
+  4c:	00000000 	.word	0x00000000
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN5ET16S16print_format_binEi:
+
+00000000 <_ZN5ET16S16print_format_binEi>:
+   0:	2911      	cmp	r1, #17
+   2:	d81b      	bhi.n	3c <_ZN5ET16S16print_format_binEi+0x3c>
+   4:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   6:	2400      	movs	r4, #0
+   8:	eb00 1501 	add.w	r5, r0, r1, lsl #4
+   c:	4f0d      	ldr	r7, [pc, #52]	; (44 <_ZN5ET16S16print_format_binEi+0x44>)
+   e:	4e0e      	ldr	r6, [pc, #56]	; (48 <_ZN5ET16S16print_format_binEi+0x48>)
+  10:	88ab      	ldrh	r3, [r5, #4]
+  12:	2101      	movs	r1, #1
+  14:	4630      	mov	r0, r6
+  16:	4123      	asrs	r3, r4
+  18:	3401      	adds	r4, #1
+  1a:	07db      	lsls	r3, r3, #31
+  1c:	bf5c      	itt	pl
+  1e:	2101      	movpl	r1, #1
+  20:	4638      	movpl	r0, r7
+  22:	f7ff fffe 	bl	0 <usb_serial_write>
+  26:	2c11      	cmp	r4, #17
+  28:	d1f2      	bne.n	10 <_ZN5ET16S16print_format_binEi+0x10>
+  2a:	4908      	ldr	r1, [pc, #32]	; (4c <_ZN5ET16S16print_format_binEi+0x4c>)
+  2c:	4808      	ldr	r0, [pc, #32]	; (50 <_ZN5ET16S16print_format_binEi+0x50>)
+  2e:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
+  32:	4807      	ldr	r0, [pc, #28]	; (50 <_ZN5ET16S16print_format_binEi+0x50>)
+  34:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  38:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  3c:	2137      	movs	r1, #55	; 0x37
+  3e:	4805      	ldr	r0, [pc, #20]	; (54 <_ZN5ET16S16print_format_binEi+0x54>)
+  40:	f7ff bffe 	b.w	0 <usb_serial_write>
+  44:	00000004 	.word	0x00000004
+  48:	00000000 	.word	0x00000000
+  4c:	00000000 	.word	0x00000000
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN5ET16S10format_rawEPh:
+
+00000000 <_ZN5ET16S10format_rawEPh>:
+   0:	784b      	ldrb	r3, [r1, #1]
+   2:	788a      	ldrb	r2, [r1, #2]
+   4:	015b      	lsls	r3, r3, #5
+   6:	ea43 3342 	orr.w	r3, r3, r2, lsl #13
+   a:	f3c3 134a 	ubfx	r3, r3, #5, #11
+   e:	8083      	strh	r3, [r0, #4]
+  10:	788a      	ldrb	r2, [r1, #2]
+  12:	78cb      	ldrb	r3, [r1, #3]
+  14:	08d2      	lsrs	r2, r2, #3
+  16:	029b      	lsls	r3, r3, #10
+  18:	ea43 1342 	orr.w	r3, r3, r2, lsl #5
+  1c:	f3c3 134a 	ubfx	r3, r3, #5, #11
+  20:	8283      	strh	r3, [r0, #20]
+  22:	78ca      	ldrb	r2, [r1, #3]
+  24:	790b      	ldrb	r3, [r1, #4]
+  26:	0992      	lsrs	r2, r2, #6
+  28:	f891 c005 	ldrb.w	ip, [r1, #5]
+  2c:	01db      	lsls	r3, r3, #7
+  2e:	ea43 1342 	orr.w	r3, r3, r2, lsl #5
+  32:	ea43 33cc 	orr.w	r3, r3, ip, lsl #15
+  36:	f3c3 134a 	ubfx	r3, r3, #5, #11
+  3a:	8483      	strh	r3, [r0, #36]	; 0x24
+  3c:	794a      	ldrb	r2, [r1, #5]
+  3e:	798b      	ldrb	r3, [r1, #6]
+  40:	0852      	lsrs	r2, r2, #1
+  42:	031b      	lsls	r3, r3, #12
+  44:	ea43 1342 	orr.w	r3, r3, r2, lsl #5
+  48:	f3c3 134a 	ubfx	r3, r3, #5, #11
+  4c:	8683      	strh	r3, [r0, #52]	; 0x34
+  4e:	798a      	ldrb	r2, [r1, #6]
+  50:	79cb      	ldrb	r3, [r1, #7]
+  52:	0912      	lsrs	r2, r2, #4
+  54:	025b      	lsls	r3, r3, #9
+  56:	ea43 1342 	orr.w	r3, r3, r2, lsl #5
+  5a:	f3c3 134a 	ubfx	r3, r3, #5, #11
+  5e:	f8a0 3044 	strh.w	r3, [r0, #68]	; 0x44
+  62:	79ca      	ldrb	r2, [r1, #7]
+  64:	7a0b      	ldrb	r3, [r1, #8]
+  66:	09d2      	lsrs	r2, r2, #7
+  68:	f891 c009 	ldrb.w	ip, [r1, #9]
+  6c:	019b      	lsls	r3, r3, #6
+  6e:	ea43 1342 	orr.w	r3, r3, r2, lsl #5
+  72:	ea43 338c 	orr.w	r3, r3, ip, lsl #14
+  76:	f3c3 134a 	ubfx	r3, r3, #5, #11
+  7a:	f8a0 3054 	strh.w	r3, [r0, #84]	; 0x54
+  7e:	7a4a      	ldrb	r2, [r1, #9]
+  80:	7a8b      	ldrb	r3, [r1, #10]
+  82:	0892      	lsrs	r2, r2, #2
+  84:	02db      	lsls	r3, r3, #11
+  86:	ea43 1342 	orr.w	r3, r3, r2, lsl #5
+  8a:	f3c3 134a 	ubfx	r3, r3, #5, #11
+  8e:	f8a0 3064 	strh.w	r3, [r0, #100]	; 0x64
+  92:	7a8b      	ldrb	r3, [r1, #10]
+  94:	7aca      	ldrb	r2, [r1, #11]
+  96:	f003 03e0 	and.w	r3, r3, #224	; 0xe0
+  9a:	ea43 2302 	orr.w	r3, r3, r2, lsl #8
+  9e:	095b      	lsrs	r3, r3, #5
+  a0:	f8a0 3074 	strh.w	r3, [r0, #116]	; 0x74
+  a4:	7b0b      	ldrb	r3, [r1, #12]
+  a6:	7b4a      	ldrb	r2, [r1, #13]
+  a8:	015b      	lsls	r3, r3, #5
+  aa:	ea43 3342 	orr.w	r3, r3, r2, lsl #13
+  ae:	f3c3 134a 	ubfx	r3, r3, #5, #11
+  b2:	f8a0 3084 	strh.w	r3, [r0, #132]	; 0x84
+  b6:	7b4a      	ldrb	r2, [r1, #13]
+  b8:	7b8b      	ldrb	r3, [r1, #14]
+  ba:	08d2      	lsrs	r2, r2, #3
+  bc:	029b      	lsls	r3, r3, #10
+  be:	ea43 1342 	orr.w	r3, r3, r2, lsl #5
+  c2:	f3c3 134a 	ubfx	r3, r3, #5, #11
+  c6:	f8a0 3094 	strh.w	r3, [r0, #148]	; 0x94
+  ca:	7b8a      	ldrb	r2, [r1, #14]
+  cc:	7bcb      	ldrb	r3, [r1, #15]
+  ce:	0992      	lsrs	r2, r2, #6
+  d0:	f891 c010 	ldrb.w	ip, [r1, #16]
+  d4:	01db      	lsls	r3, r3, #7
+  d6:	ea43 1342 	orr.w	r3, r3, r2, lsl #5
+  da:	ea43 33cc 	orr.w	r3, r3, ip, lsl #15
+  de:	f3c3 134a 	ubfx	r3, r3, #5, #11
+  e2:	f8a0 30a4 	strh.w	r3, [r0, #164]	; 0xa4
+  e6:	7c0a      	ldrb	r2, [r1, #16]
+  e8:	7c4b      	ldrb	r3, [r1, #17]
+  ea:	0852      	lsrs	r2, r2, #1
+  ec:	031b      	lsls	r3, r3, #12
+  ee:	ea43 1342 	orr.w	r3, r3, r2, lsl #5
+  f2:	f3c3 134a 	ubfx	r3, r3, #5, #11
+  f6:	f8a0 30b4 	strh.w	r3, [r0, #180]	; 0xb4
+  fa:	7c4a      	ldrb	r2, [r1, #17]
+  fc:	7c8b      	ldrb	r3, [r1, #18]
+  fe:	0912      	lsrs	r2, r2, #4
+ 100:	025b      	lsls	r3, r3, #9
+ 102:	ea43 1342 	orr.w	r3, r3, r2, lsl #5
+ 106:	f3c3 134a 	ubfx	r3, r3, #5, #11
+ 10a:	f8a0 30c4 	strh.w	r3, [r0, #196]	; 0xc4
+ 10e:	7c8a      	ldrb	r2, [r1, #18]
+ 110:	7ccb      	ldrb	r3, [r1, #19]
+ 112:	09d2      	lsrs	r2, r2, #7
+ 114:	f891 c014 	ldrb.w	ip, [r1, #20]
+ 118:	019b      	lsls	r3, r3, #6
+ 11a:	ea43 1342 	orr.w	r3, r3, r2, lsl #5
+ 11e:	ea43 338c 	orr.w	r3, r3, ip, lsl #14
+ 122:	f3c3 134a 	ubfx	r3, r3, #5, #11
+ 126:	f8a0 30d4 	strh.w	r3, [r0, #212]	; 0xd4
+ 12a:	7d0a      	ldrb	r2, [r1, #20]
+ 12c:	7d4b      	ldrb	r3, [r1, #21]
+ 12e:	0892      	lsrs	r2, r2, #2
+ 130:	02db      	lsls	r3, r3, #11
+ 132:	ea43 1342 	orr.w	r3, r3, r2, lsl #5
+ 136:	f3c3 134a 	ubfx	r3, r3, #5, #11
+ 13a:	f8a0 30e4 	strh.w	r3, [r0, #228]	; 0xe4
+ 13e:	7d4b      	ldrb	r3, [r1, #21]
+ 140:	7d8a      	ldrb	r2, [r1, #22]
+ 142:	f003 03e0 	and.w	r3, r3, #224	; 0xe0
+ 146:	ea43 2302 	orr.w	r3, r3, r2, lsl #8
+ 14a:	095b      	lsrs	r3, r3, #5
+ 14c:	f8a0 30f4 	strh.w	r3, [r0, #244]	; 0xf4
+ 150:	7dcb      	ldrb	r3, [r1, #23]
+ 152:	f8a0 3104 	strh.w	r3, [r0, #260]	; 0x104
+ 156:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S7map_rawE12InputChannel:
+
+00000000 <_ZN5ET16S7map_rawE12InputChannel>:
+   0:	b084      	sub	sp, #16
+   2:	a801      	add	r0, sp, #4
+   4:	e880 000e 	stmia.w	r0, {r1, r2, r3}
+   8:	f8bd 2008 	ldrh.w	r2, [sp, #8]
+   c:	3b01      	subs	r3, #1
+   e:	ee07 2a90 	vmov	s15, r2
+  12:	eeb8 0a67 	vcvt.f32.u32	s0, s15
+  16:	2b04      	cmp	r3, #4
+  18:	d80b      	bhi.n	32 <_ZN5ET16S7map_rawE12InputChannel+0x32>
+  1a:	e8df f003 	tbb	[pc, r3]
+  1e:	5437      	.short	0x5437
+  20:	0c29      	.short	0x0c29
+  22:	0c          	.byte	0x0c
+  23:	00          	.byte	0x00
+  24:	eef5 7a40 	vcmp.f32	s15, #0.0
+  28:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  2c:	d160      	bne.n	f0 <_ZN5ET16S7map_rawE12InputChannel+0xf0>
+  2e:	ed9f 0a32 	vldr	s0, [pc, #200]	; f8 <_ZN5ET16S7map_rawE12InputChannel+0xf8>
+  32:	b004      	add	sp, #16
+  34:	4770      	bx	lr
+  36:	eddf 7a31 	vldr	s15, [pc, #196]	; fc <_ZN5ET16S7map_rawE12InputChannel+0xfc>
+  3a:	eeb7 7a00 	vmov.f32	s14, #112	; 0x3f800000  1.0
+  3e:	eddf 6a30 	vldr	s13, [pc, #192]	; 100 <_ZN5ET16S7map_rawE12InputChannel+0x100>
+  42:	ee30 0a67 	vsub.f32	s0, s0, s15
+  46:	ee30 0a00 	vadd.f32	s0, s0, s0
+  4a:	eec0 7a26 	vdiv.f32	s15, s0, s13
+  4e:	ee77 7ac7 	vsub.f32	s15, s15, s14
+  52:	eef4 7ac7 	vcmpe.f32	s15, s14
+  56:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  5a:	dc3f      	bgt.n	dc <_ZN5ET16S7map_rawE12InputChannel+0xdc>
+  5c:	eeff 6a00 	vmov.f32	s13, #240	; 0xbf800000 -1.0
+  60:	eef4 7ae6 	vcmpe.f32	s15, s13
+  64:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  68:	d5dc      	bpl.n	24 <_ZN5ET16S7map_rawE12InputChannel+0x24>
+  6a:	eeb0 0a47 	vmov.f32	s0, s14
+  6e:	e7e0      	b.n	32 <_ZN5ET16S7map_rawE12InputChannel+0x32>
+  70:	f240 639f 	movw	r3, #1695	; 0x69f
+  74:	429a      	cmp	r2, r3
+  76:	d038      	beq.n	ea <_ZN5ET16S7map_rawE12InputChannel+0xea>
+  78:	eeb0 0a00 	vmov.f32	s0, #0	; 0x40000000  2.0
+  7c:	f5b2 7fb0 	cmp.w	r2, #352	; 0x160
+  80:	eef7 7a00 	vmov.f32	s15, #112	; 0x3f800000  1.0
+  84:	b004      	add	sp, #16
+  86:	fe07 0a80 	vseleq.f32	s0, s15, s0
+  8a:	4770      	bx	lr
+  8c:	ed9f 7a1b 	vldr	s14, [pc, #108]	; fc <_ZN5ET16S7map_rawE12InputChannel+0xfc>
+  90:	eef7 7a00 	vmov.f32	s15, #112	; 0x3f800000  1.0
+  94:	eddf 6a1a 	vldr	s13, [pc, #104]	; 100 <_ZN5ET16S7map_rawE12InputChannel+0x100>
+  98:	ee30 0a47 	vsub.f32	s0, s0, s14
+  9c:	ee30 0a00 	vadd.f32	s0, s0, s0
+  a0:	ee80 7a26 	vdiv.f32	s14, s0, s13
+  a4:	ee37 0a67 	vsub.f32	s0, s14, s15
+  a8:	eeb4 0ae7 	vcmpe.f32	s0, s15
+  ac:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  b0:	dc18      	bgt.n	e4 <_ZN5ET16S7map_rawE12InputChannel+0xe4>
+  b2:	eeff 7a00 	vmov.f32	s15, #240	; 0xbf800000 -1.0
+  b6:	eeb4 0a67 	vcmp.f32	s0, s15
+  ba:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  be:	bf48      	it	mi
+  c0:	eeb0 0a67 	vmovmi.f32	s0, s15
+  c4:	e7b5      	b.n	32 <_ZN5ET16S7map_rawE12InputChannel+0x32>
+  c6:	f240 639f 	movw	r3, #1695	; 0x69f
+  ca:	eeb7 0a00 	vmov.f32	s0, #112	; 0x3f800000  1.0
+  ce:	eef0 7a08 	vmov.f32	s15, #8	; 0x40400000  3.0
+  d2:	b004      	add	sp, #16
+  d4:	429a      	cmp	r2, r3
+  d6:	fe07 0a80 	vseleq.f32	s0, s15, s0
+  da:	4770      	bx	lr
+  dc:	eebf 0a00 	vmov.f32	s0, #240	; 0xbf800000 -1.0
+  e0:	b004      	add	sp, #16
+  e2:	4770      	bx	lr
+  e4:	eeb0 0a67 	vmov.f32	s0, s15
+  e8:	e7a3      	b.n	32 <_ZN5ET16S7map_rawE12InputChannel+0x32>
+  ea:	eeb0 0a08 	vmov.f32	s0, #8	; 0x40400000  3.0
+  ee:	e7a0      	b.n	32 <_ZN5ET16S7map_rawE12InputChannel+0x32>
+  f0:	eeb1 0a67 	vneg.f32	s0, s15
+  f4:	e79d      	b.n	32 <_ZN5ET16S7map_rawE12InputChannel+0x32>
+  f6:	bf00      	nop
+  f8:	00000000 	.word	0x00000000
+  fc:	43b00000 	.word	0x43b00000
+ 100:	44a7e000 	.word	0x44a7e000
+
+Disassembly of section .text._ZN5ET16S8map_mathEfff:
+
+00000000 <_ZN5ET16S8map_mathEfff>:
+   0:	eddf 7a0e 	vldr	s15, [pc, #56]	; 3c <_ZN5ET16S8map_mathEfff+0x3c>
+   4:	ed9f 7a0e 	vldr	s14, [pc, #56]	; 40 <_ZN5ET16S8map_mathEfff+0x40>
+   8:	ee30 0a67 	vsub.f32	s0, s0, s15
+   c:	ee71 7a60 	vsub.f32	s15, s2, s1
+  10:	ee60 7a27 	vmul.f32	s15, s0, s15
+  14:	ee87 0a87 	vdiv.f32	s0, s15, s14
+  18:	ee30 0a20 	vadd.f32	s0, s0, s1
+  1c:	eeb4 1ac0 	vcmpe.f32	s2, s0
+  20:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  24:	d406      	bmi.n	34 <_ZN5ET16S8map_mathEfff+0x34>
+  26:	eef4 0a40 	vcmp.f32	s1, s0
+  2a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  2e:	fe30 0a80 	vselgt.f32	s0, s1, s0
+  32:	4770      	bx	lr
+  34:	eeb0 0a41 	vmov.f32	s0, s2
+  38:	4770      	bx	lr
+  3a:	bf00      	nop
+  3c:	43b00000 	.word	0x43b00000
+  40:	44a7e000 	.word	0x44a7e000
+
+Disassembly of section .text._ZN5ET16S10set_configEv:
+
+00000000 <_ZN5ET16S10set_configEv>:
+   0:	2109      	movs	r1, #9
+   2:	f04f 0c04 	mov.w	ip, #4
+   6:	2208      	movs	r2, #8
+   8:	4603      	mov	r3, r0
+   a:	e92d 43f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, lr}
+   e:	66c1      	str	r1, [r0, #108]	; 0x6c
+  10:	210a      	movs	r1, #10
+  12:	2503      	movs	r5, #3
+  14:	2702      	movs	r7, #2
+  16:	67c1      	str	r1, [r0, #124]	; 0x7c
+  18:	210b      	movs	r1, #11
+  1a:	2601      	movs	r6, #1
+  1c:	f04f 0807 	mov.w	r8, #7
+  20:	f8c0 108c 	str.w	r1, [r0, #140]	; 0x8c
+  24:	210c      	movs	r1, #12
+  26:	2406      	movs	r4, #6
+  28:	f04f 0e00 	mov.w	lr, #0
+  2c:	f8c0 109c 	str.w	r1, [r0, #156]	; 0x9c
+  30:	210d      	movs	r1, #13
+  32:	f04f 0905 	mov.w	r9, #5
+  36:	60c5      	str	r5, [r0, #12]
+  38:	f8c0 10ac 	str.w	r1, [r0, #172]	; 0xac
+  3c:	210e      	movs	r1, #14
+  3e:	f8c0 c01c 	str.w	ip, [r0, #28]
+  42:	f8c0 10bc 	str.w	r1, [r0, #188]	; 0xbc
+  46:	2110      	movs	r1, #16
+  48:	62c7      	str	r7, [r0, #44]	; 0x2c
+  4a:	f8c0 10cc 	str.w	r1, [r0, #204]	; 0xcc
+  4e:	210f      	movs	r1, #15
+  50:	63c6      	str	r6, [r0, #60]	; 0x3c
+  52:	f8c0 10ec 	str.w	r1, [r0, #236]	; 0xec
+  56:	2117      	movs	r1, #23
+  58:	65c2      	str	r2, [r0, #92]	; 0x5c
+  5a:	f8c0 110c 	str.w	r1, [r0, #268]	; 0x10c
+  5e:	f100 01c0 	add.w	r1, r0, #192	; 0xc0
+  62:	f8c0 804c 	str.w	r8, [r0, #76]	; 0x4c
+  66:	f8c0 40dc 	str.w	r4, [r0, #220]	; 0xdc
+  6a:	f8c0 e0fc 	str.w	lr, [r0, #252]	; 0xfc
+  6e:	2a17      	cmp	r2, #23
+  70:	d80e      	bhi.n	90 <_ZN5ET16S10set_configEv+0x90>
+  72:	e8df f002 	tbb	[pc, r2]
+  76:	1825      	.short	0x1825
+  78:	1f181818 	.word	0x1f181818
+  7c:	1212121f 	.word	0x1212121f
+  80:	121d1212 	.word	0x121d1212
+  84:	0c1a1a1d 	.word	0x0c1a1a1d
+  88:	0c0c0c0c 	.word	0x0c0c0c0c
+  8c:	220c      	.short	0x220c
+  8e:	659c      	str	r4, [r3, #88]	; 0x58
+  90:	3310      	adds	r3, #16
+  92:	428b      	cmp	r3, r1
+  94:	d005      	beq.n	a2 <_ZN5ET16S10set_configEv+0xa2>
+  96:	6dda      	ldr	r2, [r3, #92]	; 0x5c
+  98:	e7e9      	b.n	6e <_ZN5ET16S10set_configEv+0x6e>
+  9a:	659d      	str	r5, [r3, #88]	; 0x58
+  9c:	3310      	adds	r3, #16
+  9e:	428b      	cmp	r3, r1
+  a0:	d1f9      	bne.n	96 <_ZN5ET16S10set_configEv+0x96>
+  a2:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
+  a6:	659e      	str	r6, [r3, #88]	; 0x58
+  a8:	e7f2      	b.n	90 <_ZN5ET16S10set_configEv+0x90>
+  aa:	f8c3 9058 	str.w	r9, [r3, #88]	; 0x58
+  ae:	e7ef      	b.n	90 <_ZN5ET16S10set_configEv+0x90>
+  b0:	659f      	str	r7, [r3, #88]	; 0x58
+  b2:	e7ed      	b.n	90 <_ZN5ET16S10set_configEv+0x90>
+  b4:	f8c3 c058 	str.w	ip, [r3, #88]	; 0x58
+  b8:	e7ea      	b.n	90 <_ZN5ET16S10set_configEv+0x90>
+  ba:	f8c3 8058 	str.w	r8, [r3, #88]	; 0x58
+  be:	e7e7      	b.n	90 <_ZN5ET16S10set_configEv+0x90>
+  c0:	f8c3 e058 	str.w	lr, [r3, #88]	; 0x58
+  c4:	e7e4      	b.n	90 <_ZN5ET16S10set_configEv+0x90>
+  c6:	bf00      	nop
+
+Disassembly of section .text._ZN5ET16S16set_channel_dataEv:
+
+00000000 <_ZN5ET16S16set_channel_dataEv>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	2400      	movs	r4, #0
+   4:	b083      	sub	sp, #12
+   6:	4605      	mov	r5, r0
+   8:	4606      	mov	r6, r0
+   a:	eb05 1304 	add.w	r3, r5, r4, lsl #4
+   e:	3401      	adds	r4, #1
+  10:	4628      	mov	r0, r5
+  12:	cb8e      	ldmia	r3, {r1, r2, r3, r7}
+  14:	9700      	str	r7, [sp, #0]
+  16:	f7ff fffe 	bl	0 <_ZN5ET16S16set_channel_dataEv>
+  1a:	4633      	mov	r3, r6
+  1c:	2c11      	cmp	r4, #17
+  1e:	f106 0610 	add.w	r6, r6, #16
+  22:	ed83 0a00 	vstr	s0, [r3]
+  26:	d1f0      	bne.n	a <_ZN5ET16S16set_channel_dataEv+0xa>
+  28:	b003      	add	sp, #12
+  2a:	bdf0      	pop	{r4, r5, r6, r7, pc}
+
+Disassembly of section .text._ZN5ET16S15test_connectionEv:
+
+00000000 <_ZN5ET16S15test_connectionEv>:
+   0:	edd0 7a40 	vldr	s15, [r0, #256]	; 0x100
+   4:	eefc 7ae7 	vcvt.u32.f32	s15, s15
+   8:	ee17 3a90 	vmov	r3, s15
+   c:	f013 0f0c 	tst.w	r3, #12
+  10:	bf0c      	ite	eq
+  12:	2301      	moveq	r3, #1
+  14:	2300      	movne	r3, #0
+  16:	f880 3110 	strb.w	r3, [r0, #272]	; 0x110
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S17get_safety_switchEv:
+
+00000000 <_ZN5ET16S17get_safety_switchEv>:
+   0:	edd0 7a10 	vldr	s15, [r0, #64]	; 0x40
+   4:	b082      	sub	sp, #8
+   6:	eefc 7ae7 	vcvt.u32.f32	s15, s15
+   a:	edcd 7a01 	vstr	s15, [sp, #4]
+   e:	f89d 0004 	ldrb.w	r0, [sp, #4]
+  12:	b002      	add	sp, #8
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN5ET16S13get_r_stick_xEv:
+
+00000000 <_ZN5ET16S13get_r_stick_xEv>:
+   0:	ed90 0a00 	vldr	s0, [r0]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN5ET16S13get_r_stick_yEv:
+
+00000000 <_ZN5ET16S13get_r_stick_yEv>:
+   0:	ed90 0a04 	vldr	s0, [r0, #16]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN5ET16S13get_l_stick_xEv:
+
+00000000 <_ZN5ET16S13get_l_stick_xEv>:
+   0:	ed90 0a08 	vldr	s0, [r0, #32]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN5ET16S13get_l_stick_yEv:
+
+00000000 <_ZN5ET16S13get_l_stick_yEv>:
+   0:	ed90 0a0c 	vldr	s0, [r0, #48]	; 0x30
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN5ET16S12get_switch_bEv:
+
+00000000 <_ZN5ET16S12get_switch_bEv>:
+   0:	f891 3118 	ldrb.w	r3, [r1, #280]	; 0x118
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S12get_switch_bEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 2114 	ldr.w	r2, [r1, #276]	; 0x114
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S12get_switch_cEv:
+
+00000000 <_ZN5ET16S12get_switch_cEv>:
+   0:	f891 3120 	ldrb.w	r3, [r1, #288]	; 0x120
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S12get_switch_cEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 211c 	ldr.w	r2, [r1, #284]	; 0x11c
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S12get_switch_dEv:
+
+00000000 <_ZN5ET16S12get_switch_dEv>:
+   0:	f891 3128 	ldrb.w	r3, [r1, #296]	; 0x128
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S12get_switch_dEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 2124 	ldr.w	r2, [r1, #292]	; 0x124
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S12get_switch_eEv:
+
+00000000 <_ZN5ET16S12get_switch_eEv>:
+   0:	f891 3130 	ldrb.w	r3, [r1, #304]	; 0x130
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S12get_switch_eEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 212c 	ldr.w	r2, [r1, #300]	; 0x12c
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S12get_switch_fEv:
+
+00000000 <_ZN5ET16S12get_switch_fEv>:
+   0:	f891 3138 	ldrb.w	r3, [r1, #312]	; 0x138
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S12get_switch_fEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 2134 	ldr.w	r2, [r1, #308]	; 0x134
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S12get_switch_gEv:
+
+00000000 <_ZN5ET16S12get_switch_gEv>:
+   0:	f891 3140 	ldrb.w	r3, [r1, #320]	; 0x140
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S12get_switch_gEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 213c 	ldr.w	r2, [r1, #316]	; 0x13c
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S12get_switch_hEv:
+
+00000000 <_ZN5ET16S12get_switch_hEv>:
+   0:	f891 3148 	ldrb.w	r3, [r1, #328]	; 0x148
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S12get_switch_hEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 2144 	ldr.w	r2, [r1, #324]	; 0x144
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S12get_l_sliderEv:
+
+00000000 <_ZN5ET16S12get_l_sliderEv>:
+   0:	f891 3158 	ldrb.w	r3, [r1, #344]	; 0x158
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S12get_l_sliderEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 2154 	ldr.w	r2, [r1, #340]	; 0x154
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S12get_r_sliderEv:
+
+00000000 <_ZN5ET16S12get_r_sliderEv>:
+   0:	f891 3150 	ldrb.w	r3, [r1, #336]	; 0x150
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S12get_r_sliderEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 214c 	ldr.w	r2, [r1, #332]	; 0x14c
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S12get_trim_oneEv:
+
+00000000 <_ZN5ET16S12get_trim_oneEv>:
+   0:	f891 3170 	ldrb.w	r3, [r1, #368]	; 0x170
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S12get_trim_oneEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 216c 	ldr.w	r2, [r1, #364]	; 0x16c
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S12get_trim_twoEv:
+
+00000000 <_ZN5ET16S12get_trim_twoEv>:
+   0:	f891 3178 	ldrb.w	r3, [r1, #376]	; 0x178
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S12get_trim_twoEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 2174 	ldr.w	r2, [r1, #372]	; 0x174
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S14get_trim_threeEv:
+
+00000000 <_ZN5ET16S14get_trim_threeEv>:
+   0:	f891 3180 	ldrb.w	r3, [r1, #384]	; 0x180
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S14get_trim_threeEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 217c 	ldr.w	r2, [r1, #380]	; 0x17c
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S13get_trim_fourEv:
+
+00000000 <_ZN5ET16S13get_trim_fourEv>:
+   0:	f891 3188 	ldrb.w	r3, [r1, #392]	; 0x188
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S13get_trim_fourEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 2184 	ldr.w	r2, [r1, #388]	; 0x184
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S13get_trim_fiveEv:
+
+00000000 <_ZN5ET16S13get_trim_fiveEv>:
+   0:	f891 3190 	ldrb.w	r3, [r1, #400]	; 0x190
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S13get_trim_fiveEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 218c 	ldr.w	r2, [r1, #396]	; 0x18c
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S12get_trim_sixEv:
+
+00000000 <_ZN5ET16S12get_trim_sixEv>:
+   0:	f891 3198 	ldrb.w	r3, [r1, #408]	; 0x198
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S12get_trim_sixEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 2194 	ldr.w	r2, [r1, #404]	; 0x194
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S10get_l_dialEv:
+
+00000000 <_ZN5ET16S10get_l_dialEv>:
+   0:	f891 3168 	ldrb.w	r3, [r1, #360]	; 0x168
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S10get_l_dialEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 2164 	ldr.w	r2, [r1, #356]	; 0x164
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S10get_r_dialEv:
+
+00000000 <_ZN5ET16S10get_r_dialEv>:
+   0:	f891 3160 	ldrb.w	r3, [r1, #352]	; 0x160
+   4:	b90b      	cbnz	r3, a <_ZN5ET16S10get_r_dialEv+0xa>
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	f8d1 215c 	ldr.w	r2, [r1, #348]	; 0x15c
+   e:	2301      	movs	r3, #1
+  10:	eb01 1102 	add.w	r1, r1, r2, lsl #4
+  14:	7103      	strb	r3, [r0, #4]
+  16:	680b      	ldr	r3, [r1, #0]
+  18:	6003      	str	r3, [r0, #0]
+  1a:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S16get_channel_dataEi:
+
+00000000 <_ZN5ET16S16get_channel_dataEi>:
+   0:	2a10      	cmp	r2, #16
+   2:	d902      	bls.n	a <_ZN5ET16S16get_channel_dataEi+0xa>
+   4:	2300      	movs	r3, #0
+   6:	7103      	strb	r3, [r0, #4]
+   8:	4770      	bx	lr
+   a:	eb01 1202 	add.w	r2, r1, r2, lsl #4
+   e:	2101      	movs	r1, #1
+  10:	6813      	ldr	r3, [r2, #0]
+  12:	7101      	strb	r1, [r0, #4]
+  14:	6003      	str	r3, [r0, #0]
+  16:	4770      	bx	lr
+
+Disassembly of section .text._ZN5ET16S21get_connection_statusEv:
+
+00000000 <_ZN5ET16S21get_connection_statusEv>:
+   0:	f890 0110 	ldrb.w	r0, [r0, #272]	; 0x110
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN5ET16S4initEv:
+
+00000000 <_ZN5ET16S4initEv>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4d0e      	ldr	r5, [pc, #56]	; (3c <_ZN5ET16S4initEv+0x3c>)
+   4:	4604      	mov	r4, r0
+   6:	2236      	movs	r2, #54	; 0x36
+   8:	490d      	ldr	r1, [pc, #52]	; (40 <_ZN5ET16S4initEv+0x40>)
+   a:	4628      	mov	r0, r5
+   c:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT5beginEmt>
+  10:	4628      	mov	r0, r5
+  12:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT5flushEv>
+  16:	4628      	mov	r0, r5
+  18:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT5clearEv>
+  1c:	2301      	movs	r3, #1
+  1e:	f04f 527e 	mov.w	r2, #1065353216	; 0x3f800000
+  22:	2103      	movs	r1, #3
+  24:	4620      	mov	r0, r4
+  26:	60a3      	str	r3, [r4, #8]
+  28:	64a1      	str	r1, [r4, #72]	; 0x48
+  2a:	6422      	str	r2, [r4, #64]	; 0x40
+  2c:	61a3      	str	r3, [r4, #24]
+  2e:	62a3      	str	r3, [r4, #40]	; 0x28
+  30:	63a3      	str	r3, [r4, #56]	; 0x38
+  32:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  36:	f7ff bffe 	b.w	0 <_ZN5ET16S4initEv>
+  3a:	bf00      	nop
+  3c:	00000000 	.word	0x00000000
+  40:	000186a0 	.word	0x000186a0
+
+Disassembly of section .text._ZN5ET16S4readEv:
+
+00000000 <_ZN5ET16S4readEv>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	2300      	movs	r3, #0
+   4:	b08b      	sub	sp, #44	; 0x2c
+   6:	4605      	mov	r5, r0
+   8:	482a      	ldr	r0, [pc, #168]	; (b4 <_ZN5ET16S4readEv+0xb4>)
+   a:	f88d 3024 	strb.w	r3, [sp, #36]	; 0x24
+   e:	e9cd 3303 	strd	r3, r3, [sp, #12]
+  12:	e9cd 3305 	strd	r3, r3, [sp, #20]
+  16:	e9cd 3307 	strd	r3, r3, [sp, #28]
+  1a:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT9availableEv>
+  1e:	2831      	cmp	r0, #49	; 0x31
+  20:	dd45      	ble.n	ae <_ZN5ET16S4readEv+0xae>
+  22:	4c24      	ldr	r4, [pc, #144]	; (b4 <_ZN5ET16S4readEv+0xb4>)
+  24:	e001      	b.n	2a <_ZN5ET16S4readEv+0x2a>
+  26:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT4readEv>
+  2a:	4620      	mov	r0, r4
+  2c:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT4peekEv>
+  30:	4603      	mov	r3, r0
+  32:	4620      	mov	r0, r4
+  34:	2b0f      	cmp	r3, #15
+  36:	d1f6      	bne.n	26 <_ZN5ET16S4readEv+0x26>
+  38:	f10d 040b 	add.w	r4, sp, #11
+  3c:	af09      	add	r7, sp, #36	; 0x24
+  3e:	4e1d      	ldr	r6, [pc, #116]	; (b4 <_ZN5ET16S4readEv+0xb4>)
+  40:	4630      	mov	r0, r6
+  42:	f7ff fffe 	bl	0 <_ZN19HardwareSerialIMXRT4readEv>
+  46:	f804 0f01 	strb.w	r0, [r4, #1]!
+  4a:	42a7      	cmp	r7, r4
+  4c:	d1f8      	bne.n	40 <_ZN5ET16S4readEv+0x40>
+  4e:	a903      	add	r1, sp, #12
+  50:	4628      	mov	r0, r5
+  52:	f7ff fffe 	bl	0 <_ZN5ET16S4readEv>
+  56:	f8b5 3104 	ldrh.w	r3, [r5, #260]	; 0x104
+  5a:	462e      	mov	r6, r5
+  5c:	2400      	movs	r4, #0
+  5e:	ee07 3a90 	vmov	s15, r3
+  62:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  66:	edc5 7a40 	vstr	s15, [r5, #256]	; 0x100
+  6a:	eb05 1304 	add.w	r3, r5, r4, lsl #4
+  6e:	3401      	adds	r4, #1
+  70:	4628      	mov	r0, r5
+  72:	cb8e      	ldmia	r3, {r1, r2, r3, r7}
+  74:	9700      	str	r7, [sp, #0]
+  76:	f7ff fffe 	bl	0 <_ZN5ET16S4readEv>
+  7a:	4633      	mov	r3, r6
+  7c:	2c11      	cmp	r4, #17
+  7e:	f106 0610 	add.w	r6, r6, #16
+  82:	ed83 0a00 	vstr	s0, [r3]
+  86:	d1f0      	bne.n	6a <_ZN5ET16S4readEv+0x6a>
+  88:	edd5 7a40 	vldr	s15, [r5, #256]	; 0x100
+  8c:	4628      	mov	r0, r5
+  8e:	eefc 7ae7 	vcvt.u32.f32	s15, s15
+  92:	ee17 3a90 	vmov	r3, s15
+  96:	f013 0f0c 	tst.w	r3, #12
+  9a:	bf0c      	ite	eq
+  9c:	2301      	moveq	r3, #1
+  9e:	2300      	movne	r3, #0
+  a0:	f885 3110 	strb.w	r3, [r5, #272]	; 0x110
+  a4:	b00b      	add	sp, #44	; 0x2c
+  a6:	e8bd 40f0 	ldmia.w	sp!, {r4, r5, r6, r7, lr}
+  aa:	f7ff bffe 	b.w	0 <_ZN5ET16S4readEv>
+  ae:	b00b      	add	sp, #44	; 0x2c
+  b0:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  b2:	bf00      	nop
+  b4:	00000000 	.word	0x00000000
