@@ -1,5 +1,4 @@
-#ifndef SPARKMAXESC_H
-#define SPARKMAXESC_H
+#pragma once
 
 #include <FlexCAN_T4.h>
 
@@ -41,4 +40,3 @@ private:
   float readResponse(uint32_t paramID);
 };
 
-#endif
