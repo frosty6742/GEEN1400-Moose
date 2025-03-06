@@ -4,7 +4,7 @@
 #define GIT_INFO_H
 
 #define GIT_BRANCH "main"
-#define GIT_COMMIT_HASH "2ba39e3e65e51027fcab1e26d94ecc6bf7246744"
-#define GIT_COMMIT_MSG "Create escs.cpp "
+#define GIT_COMMIT_HASH "bcec2aedcdc2aa82612aa7875a07d78ed620a40a"
+#define GIT_COMMIT_MSG "structure "
 
 #endif // GIT_INFO_H

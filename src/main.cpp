@@ -1,6 +1,8 @@
 #include <Arduino.h>
 
 #include "git_info.h"
+#include "tug-controls/MotorController.hpp"
+#include <FlexCAN_T4.h>
 #include <TeensyDebug.h>
 
 // Loop constants
@@ -8,6 +10,8 @@
 #define HEARTBEAT_FREQ 2
 
 // Declare global objects
+FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> can1;
+MotorController mControl(1, 2, can1); // Left ESC ID = 1, Right ESC ID = 2
 
 // DONT put anything else in this function. It is not a setup function
 void print_logo() {
@@ -28,13 +32,17 @@ int main() {
   Serial.begin(115200); // the serial monitor is actually always active (for
                         // debug use Serial.println & tycmd)
   debug.begin(SerialUSB1);
-
   print_logo();
+
+  Serial.println("Initializing Flight Controller...");
+  mControl.begin();
 
   Serial.println("Entering main loop...\n");
 
   // Main loop
   while (true) {
+    mControl.setThrottle(0.2); // INRANGE -1, 1
+    Serial.println(mControl.getRightEncoderPosition());
   }
 
   return 0;

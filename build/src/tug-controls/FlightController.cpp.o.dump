@@ -1,0 +1,252 @@
+
+build/./src/tug-controls/FlightController.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 FlightController.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN16FlightControllerC2EhhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE	00000000 .text._ZN16FlightControllerC2EhhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
+00000000 l    d  .text._ZN16FlightController5beginEv	00000000 .text._ZN16FlightController5beginEv
+00000000 l    d  .text._ZN16FlightController11setThrottleEf	00000000 .text._ZN16FlightController11setThrottleEf
+00000000 l    d  .text._ZN16FlightController11setSteeringEf	00000000 .text._ZN16FlightController11setSteeringEf
+00000000 l    d  .text._ZN16FlightController22setThrottleAndSteeringEff	00000000 .text._ZN16FlightController22setThrottleAndSteeringEff
+00000000 l    d  .text._ZN16FlightController13emergencyStopEv	00000000 .text._ZN16FlightController13emergencyStopEv
+00000000 l    d  .text._ZN16FlightController22getLeftEncoderPositionEv	00000000 .text._ZN16FlightController22getLeftEncoderPositionEv
+00000000 l    d  .text._ZN16FlightController23getRightEncoderPositionEv	00000000 .text._ZN16FlightController23getRightEncoderPositionEv
+00000000 l    d  .text._ZN16FlightController15getLeftVelocityEv	00000000 .text._ZN16FlightController15getLeftVelocityEv
+00000000 l    d  .text._ZN16FlightController16getRightVelocityEv	00000000 .text._ZN16FlightController16getRightVelocityEv
+00000000 l    d  .text._ZN16FlightController14getLeftCurrentEv	00000000 .text._ZN16FlightController14getLeftCurrentEv
+00000000 l    d  .text._ZN16FlightController15getRightCurrentEv	00000000 .text._ZN16FlightController15getRightCurrentEv
+00000000 l    d  .text._ZN16FlightController18getLeftTemperatureEv	00000000 .text._ZN16FlightController18getLeftTemperatureEv
+00000000 l    d  .text._ZN16FlightController19getRightTemperatureEv	00000000 .text._ZN16FlightController19getRightTemperatureEv
+00000000 l    d  .text._ZN16FlightController13getLeftFaultsEv	00000000 .text._ZN16FlightController13getLeftFaultsEv
+00000000 l    d  .text._ZN16FlightController14getRightFaultsEv	00000000 .text._ZN16FlightController14getRightFaultsEv
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN16FlightControllerC2EhhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE	0000001e _ZN16FlightControllerC2EhhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
+00000000         *UND*	00000000 _ZN11SparkMaxESCC1EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
+00000000 g     F .text._ZN16FlightControllerC2EhhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE	0000001e _ZN16FlightControllerC1EhhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
+00000000 g     F .text._ZN16FlightController5beginEv	00000014 _ZN16FlightController5beginEv
+00000000         *UND*	00000000 _ZN11SparkMaxESC5beginEv
+00000000 g     F .text._ZN16FlightController11setThrottleEf	00000024 _ZN16FlightController11setThrottleEf
+00000000         *UND*	00000000 _ZN11SparkMaxESC8setPowerEf
+00000000 g     F .text._ZN16FlightController11setSteeringEf	00000024 _ZN16FlightController11setSteeringEf
+00000000 g     F .text._ZN16FlightController22setThrottleAndSteeringEff	00000040 _ZN16FlightController22setThrottleAndSteeringEff
+00000000 g     F .text._ZN16FlightController13emergencyStopEv	00000014 _ZN16FlightController13emergencyStopEv
+00000000         *UND*	00000000 _ZN11SparkMaxESC4stopEv
+00000000 g     F .text._ZN16FlightController22getLeftEncoderPositionEv	00000004 _ZN16FlightController22getLeftEncoderPositionEv
+00000000         *UND*	00000000 _ZN11SparkMaxESC18getEncoderPositionEv
+00000000 g     F .text._ZN16FlightController23getRightEncoderPositionEv	00000006 _ZN16FlightController23getRightEncoderPositionEv
+00000000 g     F .text._ZN16FlightController15getLeftVelocityEv	00000004 _ZN16FlightController15getLeftVelocityEv
+00000000         *UND*	00000000 _ZN11SparkMaxESC18getEncoderVelocityEv
+00000000 g     F .text._ZN16FlightController16getRightVelocityEv	00000006 _ZN16FlightController16getRightVelocityEv
+00000000 g     F .text._ZN16FlightController14getLeftCurrentEv	00000004 _ZN16FlightController14getLeftCurrentEv
+00000000         *UND*	00000000 _ZN11SparkMaxESC15getMotorCurrentEv
+00000000 g     F .text._ZN16FlightController15getRightCurrentEv	00000006 _ZN16FlightController15getRightCurrentEv
+00000000 g     F .text._ZN16FlightController18getLeftTemperatureEv	00000004 _ZN16FlightController18getLeftTemperatureEv
+00000000         *UND*	00000000 _ZN11SparkMaxESC19getMotorTemperatureEv
+00000000 g     F .text._ZN16FlightController19getRightTemperatureEv	00000006 _ZN16FlightController19getRightTemperatureEv
+00000000 g     F .text._ZN16FlightController13getLeftFaultsEv	00000004 _ZN16FlightController13getLeftFaultsEv
+00000000         *UND*	00000000 _ZN11SparkMaxESC9getFaultsEv
+00000000 g     F .text._ZN16FlightController14getRightFaultsEv	00000006 _ZN16FlightController14getRightFaultsEv
+
+
+Contents of section .text._ZN16FlightControllerC2EhhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE:
+ 0000 70b51d46 04461646 1a46fff7 feff2a46  p..F.F.F.F....*F
+ 0010 314604f1 0c00fff7 feff2046 70bd00bf  1F........ Fp...
+Contents of section .text._ZN16FlightController5beginEv:
+ 0000 10b50446 fff7feff 04f10c00 bde81040  ...F...........@
+ 0010 fff7febf                             ....            
+Contents of section .text._ZN16FlightController11setThrottleEf:
+ 0000 10b52ded 028bb0ee 408a0446 fff7feff  ..-.....@..F....
+ 0010 04f10c00 b0ee480a bdec028b bde81040  ......H........@
+ 0020 fff7febf                             ....            
+Contents of section .text._ZN16FlightController11setSteeringEf:
+ 0000 10b52ded 028bb0ee 408a0446 fff7feff  ..-.....@..F....
+ 0010 04f10c00 b1ee480a bdec028b bde81040  ......H........@
+ 0020 fff7febf                             ....            
+Contents of section .text._ZN16FlightController22setThrottleAndSteeringEff:
+ 0000 ffee007a 70ee206a b7ee007a 70ee600a  ...zp. j...zp.`.
+ 0010 10b587fe 660a87fe 800a87fe 607a2ded  ....f.......`z-.
+ 0020 028b87fe 878a0446 fff7feff b0ee480a  .......F......H.
+ 0030 04f10c00 bdec028b bde81040 fff7febf  ...........@....
+Contents of section .text._ZN16FlightController13emergencyStopEv:
+ 0000 10b50446 fff7feff 04f10c00 bde81040  ...F...........@
+ 0010 fff7febf                             ....            
+Contents of section .text._ZN16FlightController22getLeftEncoderPositionEv:
+ 0000 fff7febf                             ....            
+Contents of section .text._ZN16FlightController23getRightEncoderPositionEv:
+ 0000 0c30fff7 febf00bf                    .0......        
+Contents of section .text._ZN16FlightController15getLeftVelocityEv:
+ 0000 fff7febf                             ....            
+Contents of section .text._ZN16FlightController16getRightVelocityEv:
+ 0000 0c30fff7 febf00bf                    .0......        
+Contents of section .text._ZN16FlightController14getLeftCurrentEv:
+ 0000 fff7febf                             ....            
+Contents of section .text._ZN16FlightController15getRightCurrentEv:
+ 0000 0c30fff7 febf00bf                    .0......        
+Contents of section .text._ZN16FlightController18getLeftTemperatureEv:
+ 0000 fff7febf                             ....            
+Contents of section .text._ZN16FlightController19getRightTemperatureEv:
+ 0000 0c30fff7 febf00bf                    .0......        
+Contents of section .text._ZN16FlightController13getLeftFaultsEv:
+ 0000 fff7febf                             ....            
+Contents of section .text._ZN16FlightController14getRightFaultsEv:
+ 0000 0c30fff7 febf00bf                    .0......        
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN16FlightControllerC2EhhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE:
+
+00000000 <_ZN16FlightControllerC1EhhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	461d      	mov	r5, r3
+   4:	4604      	mov	r4, r0
+   6:	4616      	mov	r6, r2
+   8:	461a      	mov	r2, r3
+   a:	f7ff fffe 	bl	0 <_ZN11SparkMaxESCC1EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE>
+   e:	462a      	mov	r2, r5
+  10:	4631      	mov	r1, r6
+  12:	f104 000c 	add.w	r0, r4, #12
+  16:	f7ff fffe 	bl	0 <_ZN11SparkMaxESCC1EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE>
+  1a:	4620      	mov	r0, r4
+  1c:	bd70      	pop	{r4, r5, r6, pc}
+  1e:	bf00      	nop
+
+Disassembly of section .text._ZN16FlightController5beginEv:
+
+00000000 <_ZN16FlightController5beginEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <_ZN11SparkMaxESC5beginEv>
+   8:	f104 000c 	add.w	r0, r4, #12
+   c:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  10:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC5beginEv>
+
+Disassembly of section .text._ZN16FlightController11setThrottleEf:
+
+00000000 <_ZN16FlightController11setThrottleEf>:
+   0:	b510      	push	{r4, lr}
+   2:	ed2d 8b02 	vpush	{d8}
+   6:	eeb0 8a40 	vmov.f32	s16, s0
+   a:	4604      	mov	r4, r0
+   c:	f7ff fffe 	bl	0 <_ZN11SparkMaxESC8setPowerEf>
+  10:	f104 000c 	add.w	r0, r4, #12
+  14:	eeb0 0a48 	vmov.f32	s0, s16
+  18:	ecbd 8b02 	vpop	{d8}
+  1c:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  20:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC8setPowerEf>
+
+Disassembly of section .text._ZN16FlightController11setSteeringEf:
+
+00000000 <_ZN16FlightController11setSteeringEf>:
+   0:	b510      	push	{r4, lr}
+   2:	ed2d 8b02 	vpush	{d8}
+   6:	eeb0 8a40 	vmov.f32	s16, s0
+   a:	4604      	mov	r4, r0
+   c:	f7ff fffe 	bl	0 <_ZN11SparkMaxESC8setPowerEf>
+  10:	f104 000c 	add.w	r0, r4, #12
+  14:	eeb1 0a48 	vneg.f32	s0, s16
+  18:	ecbd 8b02 	vpop	{d8}
+  1c:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  20:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC8setPowerEf>
+
+Disassembly of section .text._ZN16FlightController22setThrottleAndSteeringEff:
+
+00000000 <_ZN16FlightController22setThrottleAndSteeringEff>:
+   0:	eeff 7a00 	vmov.f32	s15, #240	; 0xbf800000 -1.0
+   4:	ee70 6a20 	vadd.f32	s13, s0, s1
+   8:	eeb7 7a00 	vmov.f32	s14, #112	; 0x3f800000  1.0
+   c:	ee70 0a60 	vsub.f32	s1, s0, s1
+  10:	b510      	push	{r4, lr}
+  12:	fe87 0a66 	vminnm.f32	s0, s14, s13
+  16:	fe87 0a80 	vmaxnm.f32	s0, s15, s0
+  1a:	fe87 7a60 	vminnm.f32	s14, s14, s1
+  1e:	ed2d 8b02 	vpush	{d8}
+  22:	fe87 8a87 	vmaxnm.f32	s16, s15, s14
+  26:	4604      	mov	r4, r0
+  28:	f7ff fffe 	bl	0 <_ZN11SparkMaxESC8setPowerEf>
+  2c:	eeb0 0a48 	vmov.f32	s0, s16
+  30:	f104 000c 	add.w	r0, r4, #12
+  34:	ecbd 8b02 	vpop	{d8}
+  38:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  3c:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC8setPowerEf>
+
+Disassembly of section .text._ZN16FlightController13emergencyStopEv:
+
+00000000 <_ZN16FlightController13emergencyStopEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <_ZN11SparkMaxESC4stopEv>
+   8:	f104 000c 	add.w	r0, r4, #12
+   c:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  10:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC4stopEv>
+
+Disassembly of section .text._ZN16FlightController22getLeftEncoderPositionEv:
+
+00000000 <_ZN16FlightController22getLeftEncoderPositionEv>:
+   0:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC18getEncoderPositionEv>
+
+Disassembly of section .text._ZN16FlightController23getRightEncoderPositionEv:
+
+00000000 <_ZN16FlightController23getRightEncoderPositionEv>:
+   0:	300c      	adds	r0, #12
+   2:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC18getEncoderPositionEv>
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN16FlightController15getLeftVelocityEv:
+
+00000000 <_ZN16FlightController15getLeftVelocityEv>:
+   0:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC18getEncoderVelocityEv>
+
+Disassembly of section .text._ZN16FlightController16getRightVelocityEv:
+
+00000000 <_ZN16FlightController16getRightVelocityEv>:
+   0:	300c      	adds	r0, #12
+   2:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC18getEncoderVelocityEv>
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN16FlightController14getLeftCurrentEv:
+
+00000000 <_ZN16FlightController14getLeftCurrentEv>:
+   0:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC15getMotorCurrentEv>
+
+Disassembly of section .text._ZN16FlightController15getRightCurrentEv:
+
+00000000 <_ZN16FlightController15getRightCurrentEv>:
+   0:	300c      	adds	r0, #12
+   2:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC15getMotorCurrentEv>
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN16FlightController18getLeftTemperatureEv:
+
+00000000 <_ZN16FlightController18getLeftTemperatureEv>:
+   0:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC19getMotorTemperatureEv>
+
+Disassembly of section .text._ZN16FlightController19getRightTemperatureEv:
+
+00000000 <_ZN16FlightController19getRightTemperatureEv>:
+   0:	300c      	adds	r0, #12
+   2:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC19getMotorTemperatureEv>
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN16FlightController13getLeftFaultsEv:
+
+00000000 <_ZN16FlightController13getLeftFaultsEv>:
+   0:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC9getFaultsEv>
+
+Disassembly of section .text._ZN16FlightController14getRightFaultsEv:
+
+00000000 <_ZN16FlightController14getRightFaultsEv>:
+   0:	300c      	adds	r0, #12
+   2:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC9getFaultsEv>
+   6:	bf00      	nop
