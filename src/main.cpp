@@ -42,7 +42,7 @@ int main() {
   // Main loop
   while (true) {
     mControl.setThrottle(0.2); // INRANGE -1, 1
-    Serial.println(mControl.getRightEncoderPosition());
+    mControl.printAllReadings();
   }
 
   return 0;

@@ -11713,448 +11713,448 @@ LOAD ./build/./src/main.cpp.o
  .rodata        0x00000000200005e8       0x18 ./build/./src/tug-controls/SparkMaxESC.cpp.o
  .rodata        0x0000000020000600       0x88 ./build/./src/sensors/can/can_manager.cpp.o
  .rodata._Z10print_logov.str1.4
-                0x0000000020000688       0xda ./build/./src/main.cpp.o
+                0x0000000020000688       0xf2 ./build/./src/main.cpp.o
  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
-                0x0000000020000762       0x77 ./build/./src/controls/controller_manager.cpp.o
+                0x000000002000077a       0x77 ./build/./src/controls/controller_manager.cpp.o
  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
-                0x0000000020000762       0x77 ./build/./src/controls/estimator_manager.cpp.o
+                0x000000002000077a       0x77 ./build/./src/controls/estimator_manager.cpp.o
  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
-                0x0000000020000762       0x77 ./build/./src/controls/estimator.cpp.o
+                0x000000002000077a       0x77 ./build/./src/controls/estimator.cpp.o
  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
-                0x0000000020000762       0x77 ./build/./src/sensors/SensorManager.cpp.o
- *fill*         0x0000000020000762        0x2 
+                0x000000002000077a       0x77 ./build/./src/sensors/SensorManager.cpp.o
+ *fill*         0x000000002000077a        0x2 
  .rodata._ZL11lookupTable
-                0x0000000020000764      0x12c ./build/./libraries/SdFat/src/common/upcase.cpp.o
+                0x000000002000077c      0x12c ./build/./libraries/SdFat/src/common/upcase.cpp.o
  .rodata._ZL18initFatDirCallbackmPv.str1.4
-                0x0000000020000890       0x10 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
+                0x00000000200008a8       0x10 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
                                           0x2 (size before relaxing)
  .rodata._ZL8mapTable
-                0x0000000020000890       0xd4 ./build/./libraries/SdFat/src/common/upcase.cpp.o
+                0x00000000200008a8       0xd4 ./build/./libraries/SdFat/src/common/upcase.cpp.o
  .rodata._ZN12FatFormatter10initFatDirEhm.str1.4
-                0x0000000020000964        0xd ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
+                0x000000002000097c        0xd ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
                                          0x13 (size before relaxing)
- *fill*         0x0000000020000971        0x3 
+ *fill*         0x0000000020000989        0x3 
  .rodata._ZN12FatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print.str1.4
-                0x0000000020000974       0x38 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
+                0x000000002000098c       0x38 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
  .rodata._ZN12FatFormatter9makeFat16Ev.str1.4
-                0x00000000200009ac       0x14 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
+                0x00000000200009c4       0x14 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
  .rodata._ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print.str1.4
-                0x00000000200009c0       0x60 ./build/./libraries/SdFat/src/ExFatLib/ExFatFormatter.cpp.o
+                0x00000000200009d8       0x60 ./build/./libraries/SdFat/src/ExFatLib/ExFatFormatter.cpp.o
                                          0x78 (size before relaxing)
  .rodata._ZN14ExFatPartition4initEP22FsBlockDeviceInterfaceh.str1.4
-                0x0000000020000a20        0x6 ./build/./libraries/SdFat/src/ExFatLib/ExFatPartition.cpp.o
- *fill*         0x0000000020000a26        0x2 
+                0x0000000020000a38        0x6 ./build/./libraries/SdFat/src/ExFatLib/ExFatPartition.cpp.o
+ *fill*         0x0000000020000a3e        0x2 
  .rodata._ZN5Print10printFloatEdh.str1.4
-                0x0000000020000a28        0xc ./build/./teensy4/Print.cpp.o
+                0x0000000020000a40        0xc ./build/./teensy4/Print.cpp.o
  .rodata._ZN6Config9fill_dataEP11CommsPacketPh.str1.4
-                0x0000000020000a34       0xa7 ./build/./src/comms/config_layer.cpp.o
- *fill*         0x0000000020000adb        0x1 
+                0x0000000020000a4c       0xa7 ./build/./src/comms/config_layer.cpp.o
+ *fill*         0x0000000020000af3        0x1 
  .rodata._ZN6teensy23inplace_function_detail12empty_vtableIvJEEE
-                0x0000000020000adc       0x10 ./build/./teensy4/IntervalTimer.cpp.o
-                0x0000000020000adc                teensy::inplace_function_detail::empty_vtable<void>
+                0x0000000020000af4       0x10 ./build/./teensy4/IntervalTimer.cpp.o
+                0x0000000020000af4                teensy::inplace_function_detail::empty_vtable<void>
  .rodata._ZN8SPIClass24spiclass_lpspi1_hardwareE
-                0x0000000020000aec       0x70 ./build/./libraries/SPI/SPI.cpp.o
-                0x0000000020000aec                SPIClass::spiclass_lpspi1_hardware
+                0x0000000020000b04       0x70 ./build/./libraries/SPI/SPI.cpp.o
+                0x0000000020000b04                SPIClass::spiclass_lpspi1_hardware
  .rodata._ZN8SPIClass24spiclass_lpspi3_hardwareE
-                0x0000000020000b5c       0x70 ./build/./libraries/SPI/SPI.cpp.o
-                0x0000000020000b5c                SPIClass::spiclass_lpspi3_hardware
+                0x0000000020000b74       0x70 ./build/./libraries/SPI/SPI.cpp.o
+                0x0000000020000b74                SPIClass::spiclass_lpspi3_hardware
  .rodata._ZN8SPIClass24spiclass_lpspi4_hardwareE
-                0x0000000020000bcc       0x70 ./build/./libraries/SPI/SPI.cpp.o
-                0x0000000020000bcc                SPIClass::spiclass_lpspi4_hardware
+                0x0000000020000be4       0x70 ./build/./libraries/SPI/SPI.cpp.o
+                0x0000000020000be4                SPIClass::spiclass_lpspi4_hardware
  .rodata._ZN9qindesign7networkL7srv_txtEP12mdns_servicePv.str1.4
-                0x0000000020000c3c        0x0 ./build/./libraries/QNEthernet/src/QNMDNS.cpp.o
+                0x0000000020000c54        0x0 ./build/./libraries/QNEthernet/src/QNMDNS.cpp.o
                                           0x1 (size before relaxing)
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.constprop.0.isra.0.str1.4
-                0x0000000020000c3c       0x2a ./build/./src/comms/config_layer.cpp.o
+                0x0000000020000c54       0x2a ./build/./src/comms/config_layer.cpp.o
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.str1.4
-                0x0000000020000c66       0x2a ./build/./src/controls/controller_manager.cpp.o
- *fill*         0x0000000020000c66        0x2 
+                0x0000000020000c7e       0x2a ./build/./src/controls/controller_manager.cpp.o
+ *fill*         0x0000000020000c7e        0x2 
  .rodata._ZTV10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
-                0x0000000020000c68       0x28 ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000020000c68                vtable for FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>
+                0x0000000020000c80       0x28 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000020000c80                vtable for FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>
  .rodata._ZTV10StreamFileI10FsBaseFileyE
-                0x0000000020000c90       0x24 ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000c90                vtable for StreamFile<FsBaseFile, unsigned long long>
+                0x0000000020000ca8       0x24 ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000ca8                vtable for StreamFile<FsBaseFile, unsigned long long>
  .rodata._ZTV14EventResponder
-                0x0000000020000cb4        0xc ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
-                0x0000000020000cb4                vtable for EventResponder
+                0x0000000020000ccc        0xc ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
+                0x0000000020000ccc                vtable for EventResponder
  .rodata._ZTV16DedicatedSpiCard
-                0x0000000020000cc0       0x70 ./build/./libraries/SdFat/src/SdCard/SdSpiCard.cpp.o
-                0x0000000020000cc0                vtable for DedicatedSpiCard
+                0x0000000020000cd8       0x70 ./build/./libraries/SdFat/src/SdCard/SdSpiCard.cpp.o
+                0x0000000020000cd8                vtable for DedicatedSpiCard
  .rodata._ZTV16usb_serial_class
-                0x0000000020000d30       0x28 ./build/./teensy4/usb_inst.cpp.o
-                0x0000000020000d30                vtable for usb_serial_class
+                0x0000000020000d48       0x28 ./build/./teensy4/usb_inst.cpp.o
+                0x0000000020000d48                vtable for usb_serial_class
  .rodata._ZTV17usb_serial2_class
-                0x0000000020000d58       0x28 ./build/./teensy4/usb_inst.cpp.o
-                0x0000000020000d58                vtable for usb_serial2_class
+                0x0000000020000d70       0x28 ./build/./teensy4/usb_inst.cpp.o
+                0x0000000020000d70                vtable for usb_serial2_class
  .rodata._ZTV4File
-                0x0000000020000d80       0x2c ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000d80                vtable for File
+                0x0000000020000d98       0x2c ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000d98                vtable for File
  .rodata._ZTV5Debug
-                0x0000000020000dac       0x18 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x0000000020000dac                vtable for Debug
+                0x0000000020000dc4       0x18 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x0000000020000dc4                vtable for Debug
  .rodata._ZTV6FsFile
-                0x0000000020000dc4       0x24 ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000dc4                vtable for FsFile
+                0x0000000020000ddc       0x24 ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000ddc                vtable for FsFile
  .rodata._ZTV6SDFile
-                0x0000000020000de8       0x5c ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000de8                vtable for SDFile
+                0x0000000020000e00       0x5c ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000e00                vtable for SDFile
  .rodata._ZTV6Stream
-                0x0000000020000e44       0x24 ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000e44                vtable for Stream
+                0x0000000020000e5c       0x24 ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000e5c                vtable for Stream
  .rodata._ZTV7SDClass
-                0x0000000020000e68       0x30 ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000e68                vtable for SDClass
+                0x0000000020000e80       0x30 ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000e80                vtable for SDClass
  .rodata._ZTV7TwoWire
-                0x0000000020000e98       0x24 ./build/./libraries/Wire/WireIMXRT.cpp.o
-                0x0000000020000e98                vtable for TwoWire
+                0x0000000020000eb0       0x24 ./build/./libraries/Wire/WireIMXRT.cpp.o
+                0x0000000020000eb0                vtable for TwoWire
  .rodata._ZTV8SdioCard
-                0x0000000020000ebc       0x70 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
-                0x0000000020000ebc                vtable for SdioCard
+                0x0000000020000ed4       0x70 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
+                0x0000000020000ed4                vtable for SdioCard
  .rodata._ZTV9IPAddress
-                0x0000000020000f2c        0xc ./build/./teensy4/IPAddress.cpp.o
-                0x0000000020000f2c                vtable for IPAddress
+                0x0000000020000f44        0xc ./build/./teensy4/IPAddress.cpp.o
+                0x0000000020000f44                vtable for IPAddress
  .rodata._ZZN6teensy16inplace_functionIFvvELj16ELj8EEC4IRS1_PS1_vEEOT_E2vt
-                0x0000000020000f38       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x0000000020000f38                teensy::inplace_function<void (), 16u, 8u>::inplace_function<void (&)(), void (*)(), void>(void (&)())::vt
+                0x0000000020000f50       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x0000000020000f50                teensy::inplace_function<void (), 16u, 8u>::inplace_function<void (&)(), void (*)(), void>(void (&)())::vt
  .rodata._ZZN8SPIClass16beginTransactionE11SPISettingsE7clk_sel
-                0x0000000020000f48       0x10 ./build/./libraries/SPI/SPI.cpp.o
-                0x0000000020000f48                SPIClass::beginTransaction(SPISettings)::clk_sel
+                0x0000000020000f60       0x10 ./build/./libraries/SPI/SPI.cpp.o
+                0x0000000020000f60                SPIClass::beginTransaction(SPISettings)::clk_sel
  .rodata.__FUNCTION__.0
-                0x0000000020000f58        0xb ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x0000000020000f63        0x1 
+                0x0000000020000f70        0xb ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x0000000020000f7b        0x1 
  .rodata.__FUNCTION__.0
-                0x0000000020000f64       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
- *fill*         0x0000000020000f7a        0x2 
- .rodata.__FUNCTION__.0
-                0x0000000020000f7c       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+                0x0000000020000f7c       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
  *fill*         0x0000000020000f92        0x2 
  .rodata.__FUNCTION__.0
-                0x0000000020000f94       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
+                0x0000000020000f94       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
  *fill*         0x0000000020000faa        0x2 
  .rodata.__FUNCTION__.0
-                0x0000000020000fac        0xc ./build/./libraries/QNEthernet/src/lwip/ipv4/autoip.c.o
+                0x0000000020000fac       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
+ *fill*         0x0000000020000fc2        0x2 
+ .rodata.__FUNCTION__.0
+                0x0000000020000fc4        0xc ./build/./libraries/QNEthernet/src/lwip/ipv4/autoip.c.o
  .rodata.__FUNCTION__.1
-                0x0000000020000fb8       0x13 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
- *fill*         0x0000000020000fcb        0x1 
+                0x0000000020000fd0       0x13 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+ *fill*         0x0000000020000fe3        0x1 
  .rodata.__FUNCTION__.11
-                0x0000000020000fcc        0xf ./build/./libraries/QNEthernet/src/lwip/netif.c.o
- *fill*         0x0000000020000fdb        0x1 
- .rodata.__FUNCTION__.15
-                0x0000000020000fdc        0xc ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
- .rodata.__FUNCTION__.2
-                0x0000000020000fe8        0xb ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+                0x0000000020000fe4        0xf ./build/./libraries/QNEthernet/src/lwip/netif.c.o
  *fill*         0x0000000020000ff3        0x1 
+ .rodata.__FUNCTION__.15
+                0x0000000020000ff4        0xc ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
  .rodata.__FUNCTION__.2
-                0x0000000020000ff4        0xe ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
- *fill*         0x0000000020001002        0x2 
+                0x0000000020001000        0xb ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+ *fill*         0x000000002000100b        0x1 
+ .rodata.__FUNCTION__.2
+                0x000000002000100c        0xe ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
+ *fill*         0x000000002000101a        0x2 
  .rodata.__FUNCTION__.3
-                0x0000000020001004       0x13 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
- *fill*         0x0000000020001017        0x1 
+                0x000000002000101c       0x13 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+ *fill*         0x000000002000102f        0x1 
  .rodata.__FUNCTION__.3
-                0x0000000020001018        0xc ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
+                0x0000000020001030        0xc ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
  .rodata.__FUNCTION__.5
-                0x0000000020001024       0x14 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+                0x000000002000103c       0x14 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
  .rodata.__FUNCTION__.6
-                0x0000000020001038       0x17 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
- *fill*         0x000000002000104f        0x1 
+                0x0000000020001050       0x17 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+ *fill*         0x0000000020001067        0x1 
  .rodata.__FUNCTION__.7
-                0x0000000020001050        0x9 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
- *fill*         0x0000000020001059        0x3 
+                0x0000000020001068        0x9 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+ *fill*         0x0000000020001071        0x3 
  .rodata.__FUNCTION__.7
-                0x000000002000105c        0xf ./build/./libraries/QNEthernet/src/lwip/netif.c.o
- *fill*         0x000000002000106b        0x1 
+                0x0000000020001074        0xf ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+ *fill*         0x0000000020001083        0x1 
  .rodata.__FUNCTION__.8
-                0x000000002000106c       0x12 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
- *fill*         0x000000002000107e        0x2 
+                0x0000000020001084       0x12 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+ *fill*         0x0000000020001096        0x2 
  .rodata._ftoa.str1.4
-                0x0000000020001080       0x11 ./build/./teensy4/printf.c.o
+                0x0000000020001098       0x11 ./build/./teensy4/printf.c.o
                                          0x15 (size before relaxing)
- *fill*         0x0000000020001091        0x3 
+ *fill*         0x00000000200010a9        0x3 
  .rodata.autoip_set_struct.str1.4
-                0x0000000020001094       0x72 ./build/./libraries/QNEthernet/src/lwip/ipv4/autoip.c.o
+                0x00000000200010ac       0x72 ./build/./libraries/QNEthernet/src/lwip/ipv4/autoip.c.o
                                          0x9a (size before relaxing)
- *fill*         0x0000000020001106        0x2 
+ *fill*         0x000000002000111e        0x2 
  .rodata.dhcp_create_msg.str1.4
-                0x0000000020001108       0x6c ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+                0x0000000020001120       0x6c ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
                                          0x94 (size before relaxing)
  .rodata.dhcp_dec_pcb_refcount.str1.4
-                0x0000000020001174       0x24 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+                0x000000002000118c       0x24 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
  .rodata.dhcp_option.part.0.str1.4
-                0x0000000020001198       0x42 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
- *fill*         0x00000000200011da        0x2 
+                0x00000000200011b0       0x42 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+ *fill*         0x00000000200011f2        0x2 
  .rodata.dhcp_option_long.str1.4
-                0x00000000200011dc       0x3a ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
- *fill*         0x0000000020001216        0x2 
+                0x00000000200011f4       0x3a ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+ *fill*         0x000000002000122e        0x2 
  .rodata.digital_pin_to_info_PGM
-                0x0000000020001218      0x370 ./build/./teensy4/digital.c.o
-                0x0000000020001218                digital_pin_to_info_PGM
+                0x0000000020001230      0x370 ./build/./teensy4/digital.c.o
+                0x0000000020001230                digital_pin_to_info_PGM
  .rodata.dnssd_protos
-                0x0000000020001588        0x8 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+                0x00000000200015a0        0x8 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
  .rodata.do_memp_free_pool.part.0.str1.4
-                0x0000000020001590       0x20 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x00000000200015a8       0x20 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
  .rodata.do_memp_malloc_pool.part.0.str1.4
-                0x00000000200015b0       0x4b ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x00000000200015c8       0x4b ./build/./libraries/QNEthernet/src/lwip/memp.c.o
                                          0x74 (size before relaxing)
- *fill*         0x00000000200015fb        0x1 
+ *fill*         0x0000000020001613        0x1 
  .rodata.err_to_errno_table
-                0x00000000200015fc       0x44 ./build/./libraries/QNEthernet/src/lwip/api/err.c.o
+                0x0000000020001614       0x44 ./build/./libraries/QNEthernet/src/lwip/api/err.c.o
  .rodata.igmp_lookup_group.str1.4
-                0x0000000020001640       0xa1 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
+                0x0000000020001658       0xa1 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
                                          0xc9 (size before relaxing)
- *fill*         0x00000000200016e1        0x3 
+ *fill*         0x00000000200016f9        0x3 
  .rodata.igmp_send.str1.4
-                0x00000000200016e4       0x3a ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
- *fill*         0x000000002000171e        0x2 
+                0x00000000200016fc       0x3a ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
+ *fill*         0x0000000020001736        0x2 
  .rodata.ip4_frag.str1.4
-                0x0000000020001720       0x2f ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
- *fill*         0x000000002000174f        0x1 
+                0x0000000020001738       0x2f ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
+ *fill*         0x0000000020001767        0x1 
  .rodata.ip4_input.str1.4
-                0x0000000020001750       0x29 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
- *fill*         0x0000000020001779        0x3 
+                0x0000000020001768       0x29 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
+ *fill*         0x0000000020001791        0x3 
  .rodata.ip4_output_if_opt_src.str1.4
-                0x000000002000177c       0x39 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
+                0x0000000020001794       0x39 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
                                          0x61 (size before relaxing)
- *fill*         0x00000000200017b5        0x3 
+ *fill*         0x00000000200017cd        0x3 
  .rodata.ip_addr_any
-                0x00000000200017b8        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_addr.c.o
-                0x00000000200017b8                ip_addr_any
+                0x00000000200017d0        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_addr.c.o
+                0x00000000200017d0                ip_addr_any
  .rodata.ip_reass_dequeue_datagram.part.0.str1.4
-                0x00000000200017bc       0x49 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
+                0x00000000200017d4       0x49 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
                                          0x74 (size before relaxing)
- *fill*         0x0000000020001805        0x3 
+ *fill*         0x000000002000181d        0x3 
  .rodata.ipfrag_free_pbuf_custom.str1.4
-                0x0000000020001808        0xc ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
+                0x0000000020001820        0xc ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
  .rodata.main.str1.4
-                0x0000000020001814       0x3b ./build/./src/main.cpp.o
- *fill*         0x000000002000184f        0x1 
+                0x000000002000182c       0x3b ./build/./src/main.cpp.o
+ *fill*         0x0000000020001867        0x1 
  .rodata.mdns_build_dnssd_domain.str1.4
-                0x0000000020001850       0x19 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
- *fill*         0x0000000020001869        0x3 
+                0x0000000020001868       0x19 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+ *fill*         0x0000000020001881        0x3 
  .rodata.mdns_build_host_domain.str1.4
-                0x000000002000186c        0x6 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
- *fill*         0x0000000020001872        0x2 
+                0x0000000020001884        0x6 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+ *fill*         0x000000002000188a        0x2 
  .rodata.mdns_build_reverse_v4_domain.str1.4
-                0x0000000020001874       0x11 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
- *fill*         0x0000000020001885        0x3 
+                0x000000002000188c       0x11 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+ *fill*         0x000000002000189d        0x3 
  .rodata.mdns_resp_remove_netif.str1.4
-                0x0000000020001888       0x55 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+                0x00000000200018a0       0x55 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
                                          0x80 (size before relaxing)
- *fill*         0x00000000200018dd        0x3 
+ *fill*         0x00000000200018f5        0x3 
  .rodata.mem_free.str1.4
-                0x00000000200018e0       0x28 ./build/./libraries/QNEthernet/src/lwip/mem.c.o
+                0x00000000200018f8       0x28 ./build/./libraries/QNEthernet/src/lwip/mem.c.o
  .rodata.mem_malloc.str1.4
-                0x0000000020001908       0x48 ./build/./libraries/QNEthernet/src/lwip/mem.c.o
+                0x0000000020001920       0x48 ./build/./libraries/QNEthernet/src/lwip/mem.c.o
                                          0x70 (size before relaxing)
  .rodata.memp_FRAG_PBUF
-                0x0000000020001950        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001950                memp_FRAG_PBUF
- .rodata.memp_IGMP_GROUP
-                0x000000002000195c        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x000000002000195c                memp_IGMP_GROUP
- .rodata.memp_PBUF
                 0x0000000020001968        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001968                memp_PBUF
- .rodata.memp_PBUF_POOL
+                0x0000000020001968                memp_FRAG_PBUF
+ .rodata.memp_IGMP_GROUP
                 0x0000000020001974        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001974                memp_PBUF_POOL
- .rodata.memp_REASSDATA
+                0x0000000020001974                memp_IGMP_GROUP
+ .rodata.memp_PBUF
                 0x0000000020001980        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001980                memp_REASSDATA
- .rodata.memp_SYS_TIMEOUT
+                0x0000000020001980                memp_PBUF
+ .rodata.memp_PBUF_POOL
                 0x000000002000198c        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x000000002000198c                memp_SYS_TIMEOUT
- .rodata.memp_TCP_PCB
+                0x000000002000198c                memp_PBUF_POOL
+ .rodata.memp_REASSDATA
                 0x0000000020001998        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001998                memp_TCP_PCB
- .rodata.memp_TCP_PCB_LISTEN
+                0x0000000020001998                memp_REASSDATA
+ .rodata.memp_SYS_TIMEOUT
                 0x00000000200019a4        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x00000000200019a4                memp_TCP_PCB_LISTEN
- .rodata.memp_TCP_SEG
+                0x00000000200019a4                memp_SYS_TIMEOUT
+ .rodata.memp_TCP_PCB
                 0x00000000200019b0        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x00000000200019b0                memp_TCP_SEG
- .rodata.memp_UDP_PCB
+                0x00000000200019b0                memp_TCP_PCB
+ .rodata.memp_TCP_PCB_LISTEN
                 0x00000000200019bc        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x00000000200019bc                memp_UDP_PCB
+                0x00000000200019bc                memp_TCP_PCB_LISTEN
+ .rodata.memp_TCP_SEG
+                0x00000000200019c8        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x00000000200019c8                memp_TCP_SEG
+ .rodata.memp_UDP_PCB
+                0x00000000200019d4        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x00000000200019d4                memp_UDP_PCB
  .rodata.memp_pools
-                0x00000000200019c8       0x28 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x00000000200019c8                memp_pools
+                0x00000000200019e0       0x28 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x00000000200019e0                memp_pools
  .rodata.netif_do_set_ipaddr.str1.4
-                0x00000000200019f0       0x10 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+                0x0000000020001a08       0x10 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
  .rodata.netif_invoke_ext_callback.str1.4
-                0x0000000020001a00       0x16 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
- *fill*         0x0000000020001a16        0x2 
+                0x0000000020001a18       0x16 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+ *fill*         0x0000000020001a2e        0x2 
  .rodata.netif_issue_reports.part.0.str1.4
-                0x0000000020001a18       0x4b ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+                0x0000000020001a30       0x4b ./build/./libraries/QNEthernet/src/lwip/netif.c.o
                                          0x74 (size before relaxing)
- *fill*         0x0000000020001a63        0x1 
+ *fill*         0x0000000020001a7b        0x1 
  .rodata.pbuf_add_header.str1.4
-                0x0000000020001a64        0xa ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001a6e        0x2 
+                0x0000000020001a7c        0xa ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001a86        0x2 
  .rodata.pbuf_alloc.str1.4
-                0x0000000020001a70       0x1b ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001a8b        0x1 
+                0x0000000020001a88       0x1b ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001aa3        0x1 
  .rodata.pbuf_alloc_reference.str1.4
-                0x0000000020001a8c       0x12 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001a9e        0x2 
+                0x0000000020001aa4       0x12 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001ab6        0x2 
  .rodata.pbuf_cat.str1.4
-                0x0000000020001aa0       0x49 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001ae9        0x3 
+                0x0000000020001ab8       0x49 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001b01        0x3 
  .rodata.pbuf_free.str1.4
-                0x0000000020001aec       0x4e ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001b3a        0x2 
+                0x0000000020001b04       0x4e ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001b52        0x2 
  .rodata.pbuf_realloc.str1.4
-                0x0000000020001b3c       0x65 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001ba1        0x3 
+                0x0000000020001b54       0x65 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001bb9        0x3 
  .rodata.pbuf_ref.part.0.str1.4
-                0x0000000020001ba4       0x3a ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+                0x0000000020001bbc       0x3a ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
                                          0x64 (size before relaxing)
- *fill*         0x0000000020001bde        0x2 
+ *fill*         0x0000000020001bf6        0x2 
  .rodata.pbuf_take.str1.4
-                0x0000000020001be0       0x2e ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001c0e        0x2 
+                0x0000000020001bf8       0x2e ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001c26        0x2 
  .rodata.pin_to_channel
-                0x0000000020001c10       0x2a ./build/./teensy4/analog.c.o
-                0x0000000020001c10                pin_to_channel
- *fill*         0x0000000020001c3a        0x2 
+                0x0000000020001c28       0x2a ./build/./teensy4/analog.c.o
+                0x0000000020001c28                pin_to_channel
+ *fill*         0x0000000020001c52        0x2 
  .rodata.pwm_pin_info
-                0x0000000020001c3c       0xdc ./build/./teensy4/pwm.c.o
-                0x0000000020001c3c                pwm_pin_info
+                0x0000000020001c54       0xdc ./build/./teensy4/pwm.c.o
+                0x0000000020001c54                pwm_pin_info
  .rodata.qnethernet_hal_check_core_locking.str1.4
-                0x0000000020001d18       0x8c ./build/./libraries/QNEthernet/src/qnethernet_hal.cpp.o
+                0x0000000020001d30       0x8c ./build/./libraries/QNEthernet/src/qnethernet_hal.cpp.o
  .rodata.str1.4
-                0x0000000020001da4        0x5 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
- *fill*         0x0000000020001da9        0x3 
+                0x0000000020001dbc        0x5 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+ *fill*         0x0000000020001dc1        0x3 
  .rodata.str1.4
-                0x0000000020001dac       0x10 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
+                0x0000000020001dc4       0x10 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
  .rodata.sys_timeout_abs.str1.4
-                0x0000000020001dbc       0x69 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
+                0x0000000020001dd4       0x69 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
                                          0x94 (size before relaxing)
- *fill*         0x0000000020001e25        0x3 
+ *fill*         0x0000000020001e3d        0x3 
  .rodata.sys_timeouts_init.str1.4
-                0x0000000020001e28       0x36 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
- *fill*         0x0000000020001e5e        0x2 
+                0x0000000020001e40       0x36 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
+ *fill*         0x0000000020001e76        0x2 
  .rodata.tcp_abandon.str1.4
-                0x0000000020001e60       0x31 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
- *fill*         0x0000000020001e91        0x3 
+                0x0000000020001e78       0x31 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+ *fill*         0x0000000020001ea9        0x3 
  .rodata.tcp_close_shutdown_fin.str1.4
-                0x0000000020001e94       0x30 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+                0x0000000020001eac       0x30 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
                                          0x58 (size before relaxing)
  .rodata.tcp_eff_send_mss_netif.part.0.str1.4
-                0x0000000020001ec4       0x27 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
- *fill*         0x0000000020001eeb        0x1 
+                0x0000000020001edc       0x27 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+ *fill*         0x0000000020001f03        0x1 
  .rodata.tcp_free.part.0.str1.4
-                0x0000000020001eec       0x11 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
- *fill*         0x0000000020001efd        0x3 
+                0x0000000020001f04       0x11 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+ *fill*         0x0000000020001f15        0x3 
  .rodata.tcp_output.str1.4
-                0x0000000020001f00       0x6b ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x0000000020001f6b        0x1 
+                0x0000000020001f18       0x6b ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x0000000020001f83        0x1 
  .rodata.tcp_output_alloc_header.constprop.0.str1.4
-                0x0000000020001f6c       0x56 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x0000000020001fc2        0x2 
+                0x0000000020001f84       0x56 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x0000000020001fda        0x2 
  .rodata.tcp_output_control_segment.str1.4
-                0x0000000020001fc4       0x29 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x0000000020001fed        0x3 
+                0x0000000020001fdc       0x29 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x0000000020002005        0x3 
  .rodata.tcp_output_fill_options.constprop.0.str1.4
-                0x0000000020001ff0       0x26 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x0000000020002016        0x2 
+                0x0000000020002008       0x26 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x000000002000202e        0x2 
  .rodata.tcp_pbuf_prealloc.str1.4
-                0x0000000020002018       0x5c ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+                0x0000000020002030       0x5c ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
                                          0x84 (size before relaxing)
  .rodata.tcp_pcb_remove.str1.4
-                0x0000000020002074       0x87 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
- *fill*         0x00000000200020fb        0x1 
+                0x000000002000208c       0x87 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+ *fill*         0x0000000020002113        0x1 
  .rodata.tcp_rst_common.isra.0.str1.4
-                0x00000000200020fc       0x37 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x0000000020002133        0x1 
+                0x0000000020002114       0x37 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x000000002000214b        0x1 
  .rodata.tcp_send_empty_ack.str1.4
-                0x0000000020002134       0x20 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+                0x000000002000214c       0x20 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
  .rodata.udp_input.str1.4
-                0x0000000020002154       0x72 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+                0x000000002000216c       0x72 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
                                          0x9a (size before relaxing)
- *fill*         0x00000000200021c6        0x2 
+ *fill*         0x00000000200021de        0x2 
  .rodata.udp_sendto_if_src.str1.4
-                0x00000000200021c8       0x2e ./build/./libraries/QNEthernet/src/lwip/udp.c.o
- *fill*         0x00000000200021f6        0x2 
+                0x00000000200021e0       0x2e ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+ *fill*         0x000000002000220e        0x2 
  .rodata.usb_descriptor_list
-                0x00000000200021f8       0x84 ./build/./teensy4/usb_desc.c.o
-                0x00000000200021f8                usb_descriptor_list
+                0x0000000020002210       0x84 ./build/./teensy4/usb_desc.c.o
+                0x0000000020002210                usb_descriptor_list
  .rodata.v4group
-                0x000000002000227c        0x4 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+                0x0000000020002294        0x4 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj.str1.1
-                0x0000000020002280       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x0000000020002298       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
  .rodata._ctype_
-                0x0000000020002298      0x101 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-ctype_.o)
-                0x0000000020002298                _ctype_
+                0x00000000200022b0      0x101 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-ctype_.o)
+                0x00000000200022b0                _ctype_
  .rodata._printf_i.str1.1
-                0x0000000020002399       0x22 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00000000200023b1       0x22 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
  .rodata._svfprintf_r.str1.1
-                0x00000000200023bb       0x11 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
+                0x00000000200023d3       0x11 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
  .rodata._vfprintf_r.str1.1
-                0x00000000200023bb       0x11 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00000000200023d3       0x11 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.data*)))
  .data.F_BUS_ACTUAL
-                0x00000000200023cc        0x4 ./build/./teensy4/clockspeed.c.o
-                0x00000000200023cc                F_BUS_ACTUAL
+                0x00000000200023e4        0x4 ./build/./teensy4/clockspeed.c.o
+                0x00000000200023e4                F_BUS_ACTUAL
  .data.F_CPU_ACTUAL
-                0x00000000200023d0        0x4 ./build/./teensy4/clockspeed.c.o
-                0x00000000200023d0                F_CPU_ACTUAL
- .data.Serial   0x00000000200023d4       0x10 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000200023d4                Serial
+                0x00000000200023e8        0x4 ./build/./teensy4/clockspeed.c.o
+                0x00000000200023e8                F_CPU_ACTUAL
+ .data.Serial   0x00000000200023ec       0x10 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000200023ec                Serial
  .data.SerialUSB1
-                0x00000000200023e4       0x10 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000200023e4                SerialUSB1
+                0x00000000200023fc       0x10 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000200023fc                SerialUSB1
  .data._ZL10tone_timer
-                0x00000000200023f4        0x8 ./build/./teensy4/Tone.cpp.o
+                0x000000002000240c        0x8 ./build/./teensy4/Tone.cpp.o
  .data._ZN13IntervalTimer14nvic_prioritesE
-                0x00000000200023fc        0x4 ./build/./teensy4/IntervalTimer.cpp.o
-                0x00000000200023fc                IntervalTimer::nvic_priorites
+                0x0000000020002414        0x4 ./build/./teensy4/IntervalTimer.cpp.o
+                0x0000000020002414                IntervalTimer::nvic_priorites
  .data._ZN9qindesign7networkL7ethLoopE
-                0x0000000020002400       0x20 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
+                0x0000000020002418       0x20 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
  .data.__brkval
-                0x0000000020002420        0x4 ./build/./teensy4/startup.c.o
-                0x0000000020002420                __brkval
+                0x0000000020002438        0x4 ./build/./teensy4/startup.c.o
+                0x0000000020002438                __brkval
  .data.__dso_handle
-                0x0000000020002424        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
-                0x0000000020002424                __dso_handle
- .data.__sglue  0x0000000020002428        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
-                0x0000000020002428                __sglue
+                0x000000002000243c        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x000000002000243c                __dso_handle
+ .data.__sglue  0x0000000020002440        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
+                0x0000000020002440                __sglue
  .data._impure_data
-                0x0000000020002434       0x4c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-impure.o)
-                0x0000000020002434                _impure_data
+                0x000000002000244c       0x4c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-impure.o)
+                0x000000002000244c                _impure_data
  .data._impure_ptr
-                0x0000000020002480        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-impure.o)
-                0x0000000020002480                _impure_ptr
+                0x0000000020002498        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-impure.o)
+                0x0000000020002498                _impure_ptr
  .data.debug_active
-                0x0000000020002484        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x0000000020002484                debug_active
+                0x000000002000249c        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000249c                debug_active
  .data.device_descriptor
-                0x0000000020002488       0x12 ./build/./teensy4/usb_desc.c.o
- *fill*         0x000000002000249a        0x2 
+                0x00000000200024a0       0x12 ./build/./teensy4/usb_desc.c.o
+ *fill*         0x00000000200024b2        0x2 
  .data.gdb_timer
-                0x000000002000249c        0x8 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000249c                gdb_timer
- .data.int2hex  0x00000000200024a4       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x00000000200024a4                int2hex
+                0x00000000200024b4        0x8 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x00000000200024b4                gdb_timer
+ .data.int2hex  0x00000000200024bc       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x00000000200024bc                int2hex
  .data.rawhid_report_desc
-                0x00000000200024b4       0x1e ./build/./teensy4/usb_desc.c.o
- *fill*         0x00000000200024d2        0x2 
+                0x00000000200024cc       0x1e ./build/./teensy4/usb_desc.c.o
+ *fill*         0x00000000200024ea        0x2 
  .data.signal_text
-                0x00000000200024d4       0x1c ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x00000000200024d4                signal_text
+                0x00000000200024ec       0x1c ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x00000000200024ec                signal_text
  .data.usb_string_serial_number_default
-                0x00000000200024f0       0x16 ./build/./teensy4/usb_desc.c.o
-                0x00000000200024f0                usb_string_serial_number
-                0x00000000200024f0                usb_string_serial_number_default
+                0x0000000020002508       0x16 ./build/./teensy4/usb_desc.c.o
+                0x0000000020002508                usb_string_serial_number
+                0x0000000020002508                usb_string_serial_number_default
  .data.udp_port
-                0x0000000020002506        0x2 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+                0x000000002000251e        0x2 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
  .data._ZL11m_errorCode
-                0x0000000020002508        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
+                0x0000000020002520        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
  .data.analog_write_res
-                0x0000000020002509        0x1 ./build/./teensy4/pwm.c.o
-                0x0000000020002509                analog_write_res
+                0x0000000020002521        0x1 ./build/./teensy4/pwm.c.o
+                0x0000000020002521                analog_write_res
  *(.vectorsram)
- *fill*         0x000000002000250a      0x2f6 
+ *fill*         0x0000000020002522      0x2de 
  .vectorsram    0x0000000020002800      0x2c0 ./build/./teensy4/startup.c.o
                 0x0000000020002800                _VectorsRam
 
