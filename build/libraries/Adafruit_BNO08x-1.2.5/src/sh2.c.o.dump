@@ -1,0 +1,2641 @@
+
+build/./libraries/Adafruit_BNO08x-1.2.5/src/sh2.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 sh2.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.executableAdvertHdlr	00000000 .text.executableAdvertHdlr
+00000000 l     F .text.executableAdvertHdlr	00000002 executableAdvertHdlr
+00000000 l    d  .text.shtpEventCallback	00000000 .text.shtpEventCallback
+00000000 l     F .text.shtpEventCallback	0000002c shtpEventCallback
+00000000 l    d  .text.getProdIdStart	00000000 .text.getProdIdStart
+00000000 l     F .text.getProdIdStart	00000026 getProdIdStart
+00000000 l    d  .text.getSensorConfigStart	00000000 .text.getSensorConfigStart
+00000000 l     F .text.getSensorConfigStart	00000024 getSensorConfigStart
+00000000 l    d  .text.setSensorConfigStart	00000000 .text.setSensorConfigStart
+00000000 l     F .text.setSensorConfigStart	00000074 setSensorConfigStart
+00000000 l    d  .text.getFrsStart	00000000 .text.getFrsStart
+00000000 l     F .text.getFrsStart	00000030 getFrsStart
+00000000 l    d  .text.setFrsStart	00000000 .text.setFrsStart
+00000000 l     F .text.setFrsStart	00000034 setFrsStart
+00000000 l    d  .text.sendCmd	00000000 .text.sendCmd
+00000000 l     F .text.sendCmd	0000004c sendCmd
+00000000 l    d  .text.getErrorsStart	00000000 .text.getErrorsStart
+00000000 l     F .text.getErrorsStart	00000028 getErrorsStart
+00000000 l    d  .text.sendCmdStart	00000000 .text.sendCmdStart
+00000000 l     F .text.sendCmdStart	00000018 sendCmdStart
+00000000 l    d  .text.getOscTypeStart	00000000 .text.getOscTypeStart
+00000000 l     F .text.getOscTypeStart	0000001c getOscTypeStart
+00000000 l    d  .text.setCalConfigStart	00000000 .text.setCalConfigStart
+00000000 l     F .text.setCalConfigStart	00000040 setCalConfigStart
+00000000 l    d  .text.getCalConfigStart	00000000 .text.getCalConfigStart
+00000000 l     F .text.getCalConfigStart	00000024 getCalConfigStart
+00000000 l    d  .text.startCalStart	00000000 .text.startCalStart
+00000000 l     F .text.startCalStart	00000038 startCalStart
+00000000 l    d  .text.forceFlushStart	00000000 .text.forceFlushStart
+00000000 l     F .text.forceFlushStart	00000024 forceFlushStart
+00000000 l    d  .text.sensorhubInputGyroRvHdlr	00000000 .text.sensorhubInputGyroRvHdlr
+00000000 l     F .text.sensorhubInputGyroRvHdlr	00000082 sensorhubInputGyroRvHdlr
+00000000 l    d  .text.sensorhubInputHdlr	00000000 .text.sensorhubInputHdlr
+00000000 l     F .text.sensorhubInputHdlr	0000010c sensorhubInputHdlr
+00000000 l    d  .text.sensorhubInputNormalHdlr	00000000 .text.sensorhubInputNormalHdlr
+00000000 l     F .text.sensorhubInputNormalHdlr	00000004 sensorhubInputNormalHdlr
+00000000 l    d  .rodata.sensorhubAdvertHdlr.str1.4	00000000 .rodata.sensorhubAdvertHdlr.str1.4
+00000000 l    d  .text.sensorhubAdvertHdlr	00000000 .text.sensorhubAdvertHdlr
+00000000 l     F .text.sensorhubAdvertHdlr	0000007c sensorhubAdvertHdlr
+00000000 l    d  .text.executableDeviceHdlr	00000000 .text.executableDeviceHdlr
+00000000 l     F .text.executableDeviceHdlr	0000003c executableDeviceHdlr
+00000000 l    d  .text.getProdIdRx	00000000 .text.getProdIdRx
+00000000 l     F .text.getProdIdRx	0000007c getProdIdRx
+00000000 l    d  .text.getSensorConfigRx	00000000 .text.getSensorConfigRx
+00000000 l     F .text.getSensorConfigRx	0000005a getSensorConfigRx
+00000000 l    d  .text.getFrsRx	00000000 .text.getFrsRx
+00000000 l     F .text.getFrsRx	000000c0 getFrsRx
+00000000 l    d  .text.forceFlushRx	00000000 .text.forceFlushRx
+00000000 l     F .text.forceFlushRx	0000001a forceFlushRx
+00000000 l    d  .text.setFrsRx	00000000 .text.setFrsRx
+00000000 l     F .text.setFrsRx	0000008a setFrsRx
+00000000 l    d  .text.getCountsRx	00000000 .text.getCountsRx
+00000000 l     F .text.getCountsRx	0000006a getCountsRx
+00000000 l    d  .text.getCountsStart	00000000 .text.getCountsStart
+00000000 l     F .text.getCountsStart	00000024 getCountsStart
+00000000 l    d  .text.opProcess.constprop.0	00000000 .text.opProcess.constprop.0
+00000000 l     F .text.opProcess.constprop.0	0000006c opProcess.constprop.0
+00000000 l    d  .text.sensorhubInputWakeHdlr	00000000 .text.sensorhubInputWakeHdlr
+00000000 l     F .text.sensorhubInputWakeHdlr	00000004 sensorhubInputWakeHdlr
+00000000 l    d  .text.saveDcdNowStart	00000000 .text.saveDcdNowStart
+00000000 l     F .text.saveDcdNowStart	0000001c saveDcdNowStart
+00000000 l    d  .text.sensorhubControlHdlr	00000000 .text.sensorhubControlHdlr
+00000000 l     F .text.sensorhubControlHdlr	000000f4 sensorhubControlHdlr
+00000000 l    d  .text.finishCalStart	00000000 .text.finishCalStart
+00000000 l     F .text.finishCalStart	00000024 finishCalStart
+00000000 l    d  .text.reinitStart	00000000 .text.reinitStart
+00000000 l     F .text.reinitStart	00000026 reinitStart
+00000000 l    d  .text.startCalRx	00000000 .text.startCalRx
+00000000 l     F .text.startCalRx	00000024 startCalRx
+00000000 l    d  .text.getOscTypeRx	00000000 .text.getOscTypeRx
+00000000 l     F .text.getOscTypeRx	0000002c getOscTypeRx
+00000000 l    d  .text.reinitRx	00000000 .text.reinitRx
+00000000 l     F .text.reinitRx	00000032 reinitRx
+00000000 l    d  .text.finishCalRx	00000000 .text.finishCalRx
+00000000 l     F .text.finishCalRx	00000036 finishCalRx
+00000000 l    d  .text.getCalConfigRx	00000000 .text.getCalConfigRx
+00000000 l     F .text.getCalConfigRx	00000056 getCalConfigRx
+00000000 l    d  .text.getErrorsRx	00000000 .text.getErrorsRx
+00000000 l     F .text.getErrorsRx	00000082 getErrorsRx
+00000000 l    d  .text.saveDcdNowRx	00000000 .text.saveDcdNowRx
+00000000 l     F .text.saveDcdNowRx	00000032 saveDcdNowRx
+00000000 l    d  .text.setCalConfigRx	00000000 .text.setCalConfigRx
+00000000 l     F .text.setCalConfigRx	00000032 setCalConfigRx
+00000000 l    d  .rodata.sh2_open.str1.4	00000000 .rodata.sh2_open.str1.4
+00000000 l    d  .text.sh2_open	00000000 .text.sh2_open
+00000000 l    d  .text.sh2_close	00000000 .text.sh2_close
+00000000 l    d  .text.sh2_service	00000000 .text.sh2_service
+00000000 l    d  .text.sh2_setSensorCallback	00000000 .text.sh2_setSensorCallback
+00000000 l    d  .text.sh2_devReset	00000000 .text.sh2_devReset
+00000000 l    d  .text.sh2_devOn	00000000 .text.sh2_devOn
+00000000 l    d  .text.sh2_devSleep	00000000 .text.sh2_devSleep
+00000000 l    d  .text.sh2_getProdIds	00000000 .text.sh2_getProdIds
+00000000 l    d  .text.sh2_getSensorConfig	00000000 .text.sh2_getSensorConfig
+00000000 l    d  .text.sh2_setSensorConfig	00000000 .text.sh2_setSensorConfig
+00000000 l    d  .text.sh2_getMetadata	00000000 .text.sh2_getMetadata
+00000000 l    d  .text.sh2_getFrs	00000000 .text.sh2_getFrs
+00000000 l    d  .text.sh2_setFrs	00000000 .text.sh2_setFrs
+00000000 l    d  .text.sh2_getErrors	00000000 .text.sh2_getErrors
+00000000 l    d  .text.sh2_getCounts	00000000 .text.sh2_getCounts
+00000000 l    d  .text.sh2_clearCounts	00000000 .text.sh2_clearCounts
+00000000 l    d  .text.sh2_setTareNow	00000000 .text.sh2_setTareNow
+00000000 l    d  .text.sh2_clearTare	00000000 .text.sh2_clearTare
+00000000 l    d  .text.sh2_persistTare	00000000 .text.sh2_persistTare
+00000000 l    d  .text.sh2_setReorientation	00000000 .text.sh2_setReorientation
+00000000 l    d  .text.sh2_reinitialize	00000000 .text.sh2_reinitialize
+00000000 l    d  .text.sh2_saveDcdNow	00000000 .text.sh2_saveDcdNow
+00000000 l    d  .text.sh2_getOscType	00000000 .text.sh2_getOscType
+00000000 l    d  .text.sh2_setCalConfig	00000000 .text.sh2_setCalConfig
+00000000 l    d  .text.sh2_getCalConfig	00000000 .text.sh2_getCalConfig
+00000000 l    d  .text.sh2_setDcdAutoSave	00000000 .text.sh2_setDcdAutoSave
+00000000 l    d  .text.sh2_flush	00000000 .text.sh2_flush
+00000000 l    d  .text.sh2_clearDcdAndReset	00000000 .text.sh2_clearDcdAndReset
+00000000 l    d  .text.sh2_startCal	00000000 .text.sh2_startCal
+00000000 l    d  .text.sh2_finishCal	00000000 .text.sh2_finishCal
+00000000 l    d  .text.sh2_setIZro	00000000 .text.sh2_setIZro
+00000000 l    d  .bss._sh2	00000000 .bss._sh2
+00000000 l    d  .bss.lastHostInt.1	00000000 .bss.lastHostInt.1
+00000000 l     O .bss.lastHostInt.1	00000004 lastHostInt.1
+00000000 l    d  .bss.rollovers.0	00000000 .bss.rollovers.0
+00000000 l     O .bss.rollovers.0	00000004 rollovers.0
+00000000 l    d  .bss.sh2AsyncEvent	00000000 .bss.sh2AsyncEvent
+00000000 l     O .bss.sh2AsyncEvent	0000001c sh2AsyncEvent
+00000000 l    d  .rodata.finishCalOp	00000000 .rodata.finishCalOp
+00000000 l    d  .rodata.forceFlushOp	00000000 .rodata.forceFlushOp
+00000000 l    d  .rodata.getCalConfigOp	00000000 .rodata.getCalConfigOp
+00000000 l    d  .rodata.getCountsOp	00000000 .rodata.getCountsOp
+00000000 l    d  .rodata.getErrorsOp	00000000 .rodata.getErrorsOp
+00000000 l    d  .rodata.getFrsOp	00000000 .rodata.getFrsOp
+00000000 l    d  .rodata.getOscTypeOp	00000000 .rodata.getOscTypeOp
+00000000 l    d  .rodata.getProdIdOp	00000000 .rodata.getProdIdOp
+00000000 l    d  .rodata.getSensorConfigOp	00000000 .rodata.getSensorConfigOp
+00000000 l    d  .rodata.reinitOp	00000000 .rodata.reinitOp
+00000000 l    d  .rodata.saveDcdNowOp	00000000 .rodata.saveDcdNowOp
+00000000 l    d  .rodata.sendCmdOp	00000000 .rodata.sendCmdOp
+00000000 l    d  .rodata.sensorToRecordMap	00000000 .rodata.sensorToRecordMap
+00000000 l     O .rodata.sensorToRecordMap	00000080 sensorToRecordMap
+00000000 l    d  .rodata.setCalConfigOp	00000000 .rodata.setCalConfigOp
+00000000 l    d  .rodata.setFrsOp	00000000 .rodata.setFrsOp
+00000000 l    d  .rodata.setSensorConfigOp	00000000 .rodata.setSensorConfigOp
+00000000 l    d  .rodata.startCalOp	00000000 .rodata.startCalOp
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 shtp_send
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 shtp_chanNo
+00000000         *UND*	00000000 strcpy
+00000000         *UND*	00000000 readu32
+00000000         *UND*	00000000 shtp_service
+00000000 g     F .text.sh2_open	0000010c sh2_open
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 shtp_open
+00000000         *UND*	00000000 shtp_setEventCallback
+00000000         *UND*	00000000 shtp_listenAdvert
+00000000         *UND*	00000000 shtp_listenChan
+00000000 g     F .text.sh2_close	00000020 sh2_close
+00000000         *UND*	00000000 shtp_close
+00000000 g     F .text.sh2_service	0000000c sh2_service
+00000000 g     F .text.sh2_setSensorCallback	00000010 sh2_setSensorCallback
+00000000 g     F .text.sh2_devReset	00000024 sh2_devReset
+00000000 g     F .text.sh2_devOn	00000028 sh2_devOn
+00000000 g     F .text.sh2_devSleep	00000028 sh2_devSleep
+00000000 g     F .text.sh2_getProdIds	00000024 sh2_getProdIds
+00000000 g     F .text.sh2_getSensorConfig	00000028 sh2_getSensorConfig
+00000000 g     F .text.sh2_setSensorConfig	00000028 sh2_setSensorConfig
+00000000 g     F .text.sh2_getMetadata	0000016c sh2_getMetadata
+00000000 g     F .text.sh2_getFrs	00000044 sh2_getFrs
+00000000 g     F .text.sh2_setFrs	00000034 sh2_setFrs
+00000000 g     F .text.sh2_getErrors	00000030 sh2_getErrors
+00000000 g     F .text.sh2_getCounts	00000028 sh2_getCounts
+00000000 g     F .text.sh2_clearCounts	00000028 sh2_clearCounts
+00000000 g     F .text.sh2_setTareNow	00000038 sh2_setTareNow
+00000000 g     F .text.sh2_clearTare	00000024 sh2_clearTare
+00000000 g     F .text.sh2_persistTare	00000024 sh2_persistTare
+00000000 g     F .text.sh2_setReorientation	000000a8 sh2_setReorientation
+00000000         *UND*	00000000 writeu16
+00000000 g     F .text.sh2_reinitialize	0000000c sh2_reinitialize
+00000000 g     F .text.sh2_saveDcdNow	0000000c sh2_saveDcdNow
+00000000 g     F .text.sh2_getOscType	00000018 sh2_getOscType
+00000000 g     F .text.sh2_setCalConfig	00000018 sh2_setCalConfig
+00000000 g     F .text.sh2_getCalConfig	00000018 sh2_getCalConfig
+00000000 g     F .text.sh2_setDcdAutoSave	00000030 sh2_setDcdAutoSave
+00000000 g     F .text.sh2_flush	00000020 sh2_flush
+00000000 g     F .text.sh2_clearDcdAndReset	00000024 sh2_clearDcdAndReset
+00000000 g     F .text.sh2_startCal	00000024 sh2_startCal
+00000000 g     F .text.sh2_finishCal	0000001c sh2_finishCal
+00000000 g     F .text.sh2_setIZro	00000028 sh2_setIZro
+00000000 g     O .rodata.finishCalOp	0000000c finishCalOp
+00000000 g     O .rodata.startCalOp	0000000c startCalOp
+00000000 g     O .rodata.forceFlushOp	0000000c forceFlushOp
+00000000 g     O .rodata.getCalConfigOp	0000000c getCalConfigOp
+00000000 g     O .rodata.setCalConfigOp	0000000c setCalConfigOp
+00000000 g     O .rodata.getOscTypeOp	0000000c getOscTypeOp
+00000000 g     O .rodata.saveDcdNowOp	0000000c saveDcdNowOp
+00000000 g     O .rodata.reinitOp	0000000c reinitOp
+00000000 g     O .rodata.sendCmdOp	0000000c sendCmdOp
+00000000 g     O .rodata.getCountsOp	0000000c getCountsOp
+00000000 g     O .rodata.getErrorsOp	0000000c getErrorsOp
+00000000 g     O .rodata.setFrsOp	0000000c setFrsOp
+00000000 g     O .rodata.getFrsOp	0000000c getFrsOp
+00000000 g     O .rodata.setSensorConfigOp	0000000c setSensorConfigOp
+00000000 g     O .rodata.getSensorConfigOp	0000000c getSensorConfigOp
+00000000 g     O .rodata.getProdIdOp	0000000c getProdIdOp
+00000000 g     O .bss._sh2	000001fc _sh2
+
+
+Contents of section .text.executableAdvertHdlr:
+ 0000 704700bf                             pG..            
+Contents of section .text.shtpEventCallback:
+ 0000 0848094b d0f8bc20 10b40124 19711c60  .H.K... ...$.q.`
+ 0010 2ab11946 d0f8c000 5df8044b 10475df8  *..F....]..K.G].
+ 0020 044b7047 00000000 00000000           .KpG........    
+Contents of section .text.getProdIdStart:
+ 0000 00b54ff4 806183b0 4ff0f90c 0223a0f8  ..O..a..O....#..
+ 0010 ac1001aa c17a4068 adf804c0 fff7feff  .....z@h........
+ 0020 03b05df8 04fb00bf                    ..].....        
+Contents of section .text.getSensorConfigStart:
+ 0000 00b5fe21 83b090f8 acc00223 8df80410  ...!.......#....
+ 0010 01aac17a 40688df8 05c0fff7 feff03b0  ...z@h..........
+ 0020 5df804fb                             ]...            
+Contents of section .text.setSensorConfigStart:
+ 0000 d0f8a830 1a785978 520030b5 d2b287b0  ...0.xYxR.0.....
+ 0010 044609b1 42f00102 997809b1 42f00402  .F..B....x..B...
+ 0020 d97809b1 42f00802 00250195 04958df8  .x..B....%......
+ 0030 14508df8 062001aa cde90255 9988adf8  .P... .....U....
+ 0040 07109968 cdf80910 d3e90301 1123cdf8  ...h.........#..
+ 0050 111094f8 ac10cdf8 0d008df8 0510fd21  ...............!
+ 0060 60688df8 0410e17a fff7feff c4e92850  `h.....z......(P
+ 0070 07b030bd                             ..0.            
+Contents of section .text.getFrsStart:
+ 0000 00b5b0f8 a82083b0 00214ff0 f40c0823  ..... ...!O....#
+ 0010 a0f8b410 cde90011 c17aadf8 04206a46  .........z... jF
+ 0020 40688df8 00c0fff7 feff03b0 5df804fb  @h..........]...
+Contents of section .text.setFrsStart:
+ 0000 00b5f721 83b04ff0 000c0623 adf80010  ...!..O....#....
+ 0010 6a46b0f8 b010a0f8 b2c0adf8 0210b0f8  jF..............
+ 0020 a8c0c17a 4068adf8 04c0fff7 feff03b0  ...z@h..........
+ 0030 5df804fb                             ]...            
+Contents of section .text.sendCmd:
+ 0000 00b585b0 90f8ba30 80f8b810 4ff0f20e  .......0....O...
+ 0010 8df80610 591c80f8 b93080f8 ba108df8  ....Y....0......
+ 0020 0530117a 1368d2f8 04c001aa cdf80730  .0.z.h.........0
+ 0030 0c238df8 0f10c17a 40688df8 04e0cdf8  .#.....z@h......
+ 0040 0bc0fff7 feff05b0 5df804fb           ........]...    
+Contents of section .text.getErrorsStart:
+ 0000 00b50021 85b090f8 a8c00191 01aa0291  ...!............
+ 0010 8df80c10 a0f8b410 01218df8 04c0fff7  .........!......
+ 0020 feff05b0 5df804fb                    ....]...        
+Contents of section .text.sendCmdStart:
+ 0000 10b500f1 ab0290f8 aa100446 fff7feff  ...........F....
+ 0010 0023c4e9 283010bd                    .#..(0..        
+Contents of section .text.getOscTypeStart:
+ 0000 00b585b0 00230a21 01aa8df8 0c30cde9  .....#.!.....0..
+ 0010 0133fff7 feff05b0 5df804fb           .3......]...    
+Contents of section .text.setCalConfigStart:
+ 0000 90f8a830 002200b5 03f00101 85b0c3f3  ...0."..........
+ 0010 400c8df8 0c20cde9 01228df8 0410c3f3  @.... ..."......
+ 0020 800101aa c3f3c003 8df80610 07218df8  .............!..
+ 0030 05c08df8 0830fff7 feff05b0 5df804fb  .....0......]...
+Contents of section .text.getCalConfigStart:
+ 0000 00b585b0 00234ff0 010c0721 01aa8df8  .....#O....!....
+ 0010 0c30cde9 01338df8 07c0fff7 feff05b0  .0...3..........
+ 0020 5df804fb                             ]...            
+Contents of section .text.startCalStart:
+ 0000 d0f8a830 002200b5 190a85b0 4fea134c  ...0."......O..L
+ 0010 8df80c20 cde90122 8df80530 01aa1b0e  ... ..."...0....
+ 0020 8df80610 0c218df8 07c08df8 0830fff7  .....!.......0..
+ 0030 feff05b0 5df804fb                    ....]...        
+Contents of section .text.forceFlushStart:
+ 0000 00b5f021 83b090f8 a8c00223 8df80410  ...!.......#....
+ 0010 01aac17a 40688df8 05c0fff7 feff03b0  ...z@h..........
+ 0020 5df804fb                             ]...            
+Contents of section .text.sensorhubInputGyroRvHdlr:
+ 0000 2de9f04f 8bb01646 04460f46 4ff0000c  -..O...F.F.FO...
+ 0010 00f11d02 019304e0 0cf1010c bcf1400f  ..............@.
+ 0020 2dd012f8 1c302a2b f6d104eb 4c0c9cf8  -....0*+....L...
+ 0030 1e500eb3 4ff00009 1ffa85fb 4ff02a0a  .P..O.......O.*.
+ 0040 c846019b 07eb0801 2a460df1 12008df8  .F......*F......
+ 0050 11a0cde9 0239fff7 feffd4f8 c42002a9  .....9....... ..
+ 0060 8df81050 12b1d4f8 c8009047 0beb0803  ...P.......G....
+ 0070 1ffa83f8 4645e4d8 0bb0bde8 f08f0025  ....FE.........%
+ 0080 d7e700bf                             ....            
+Contents of section .text.sensorhubInputHdlr:
+ 0000 002a7ed0 2de9f04f 4ff00008 8bb000f1  .*~.-..OO.......
+ 0010 1d040746 0e469a46 9146dff8 ecb04546  ...F.F.F.F....EF
+ 0020 00947119 705d0023 009c02e0 0133402b  ..q.p].#.....3@+
+ 0030 5fd014f8 13208242 f8d107eb 43030094  _.... .B....C...
+ 0040 9a7f002a 55d0fb28 36d0fa28 3ad0ef28  ...*U..(6..(:..(
+ 0050 3dd091f8 02e0cb78 4fea8e1e 0ef47c5e  =......xO.....|^
+ 0060 03eb0e0c dbf80030 9a45264b 3cd31b68  .......0.E&K<..h
+ 0070 03930ceb 08038df8 11006420 cbf800a0  ..........d ....
+ 0080 00fb03a3 0df11200 cde90123 fff7feff  ...........#....
+ 0090 019ad7f8 c4308df8 102092b2 2bb102a9  .....0... ..+...
+ 00a0 d7f8c800 01929847 019a2a44 95b2a945  .......G..*D...E
+ 00b0 b7d80bb0 bde8f08f d1f80180 92b2c8f1  ................
+ 00c0 0008f2e7 d1f80130 92b29844 ede7d7f8  .......0...D....
+ 00d0 a03092b2 002be8d0 9b68002b e5d03846  .0...+...h.+..8F
+ 00e0 01929847 019ae0e7 1c461b68 01332360  ...G.....F.h.3#`
+ 00f0 bee7d7f8 f8310133 c7f8f831 0bb0bde8  .....1.3...1....
+ 0100 f08f7047 00000000 00000000           ..pG........    
+Contents of section .text.sensorhubInputNormalHdlr:
+ 0000 fff7febf                             ....            
+Contents of section .rodata.sensorhubAdvertHdlr.str1.4:
+ 0000 64657669 63650000 65786563 75746162  device..executab
+ 0010 6c650000 636f6e74 726f6c00 73656e73  le..control.sens
+ 0020 6f726875 6200                        orhub.          
+Contents of section .text.sensorhubAdvertHdlr:
+ 0000 802938b5 044628d0 812911d0 01b138bd  .)8..F(..)....8.
+ 0010 164a1749 4068fff7 feff0346 154aa372  .J.I@h.....F.J.r
+ 0020 15496068 fff7feff 0123e072 637238bd  .I`h.....#.rcr8.
+ 0030 812a18d8 5008ead0 04f11d0c 00221e34  .*..P........".4
+ 0040 5d1c13f8 12100cf8 121015f8 121004f8  ]...............
+ 0050 12100132 8242f4db 38bd1946 0c30bde8  ...2.B..8..F.0..
+ 0060 3840fff7 febf4020 e6e700bf 00000000  8@....@ ........
+ 0070 08000000 14000000 1c000000           ............    
+Contents of section .text.executableDeviceHdlr:
+ 0000 012a02d1 0b78012b 05d0d0f8 f0310133  .*...x.+.....1.3
+ 0010 c0f8f031 704710b4 07490024 d0f8bc20  ...1pG...I.$... 
+ 0020 03720c60 22b1d0f8 c0005df8 044b1047  .r.`".....]..K.G
+ 0030 5df8044b 704700bf 00000000           ]..KpG......    
+Contents of section .text.getProdIdRx:
+ 0000 0b78f82b 31d190f8 ac3070b5 d0f8a850  .x.+1....0p....P
+ 0010 65b390f8 ade07345 28d24c78 1a01ac54  e.....sE(.Lx...T
+ 0020 05eb0312 8c785470 cc789470 4c685460  .....xTp.x.pLhT`
+ 0030 8e689660 91f80cc0 4e7b4cea 062ca2f8  .h.`....N{L..,..
+ 0040 0cc091f8 0ec082f8 0ec0c97b d1730a4a  ...........{.s.J
+ 0050 944203d1 05229646 80f8ad20 0133dbb2  .B...".F... .3..
+ 0060 734580f8 ac3001d2 70bd7047 002285f8  sE...0..p.pG."..
+ 0070 5030c0e9 282270bd 7fa69800           P0..("p.....    
+Contents of section .text.getSensorConfigRx:
+ 0000 0b78fc2b 04d14a78 90f8ac30 9a4200d0  .x.+..Jx...0.B..
+ 0010 70478a78 d0f8a830 10b4c2f3 40041c70  pG.x...0....@..p
+ 0020 02f00104 5c70c2f3 8004c2f3 c0029c70  ....\p.........p
+ 0030 da700c79 ca7842ea 04220024 9a80d1f8  .p.y.xB..".$....
+ 0040 05209a60 d1f80920 da60d1f8 0d201a61  . .`... .`... .a
+ 0050 c0e92844 5df8044b 704700bf           ..(D]..KpG..    
+Contents of section .text.getFrsRx:
+ 0000 0b78f32b 45d14a78 4ff48b73 02f00f0c  .x.+E.JxO..s....
+ 0010 23fa0cf3 13f00103 35d1bcf1 050f30b4  #.......5.....0.
+ 0020 38d04b88 b0f8b440 9c4209d0 0024d0f8  8.K....@.B...$..
+ 0030 b0502c80 c0f8a040 6ff00304 c0f8a440  .P,....@o......@
+ 0040 d0f8b040 2488a342 00d96cb9 4d681209  ...@$..B..l.Mh..
+ 0050 d0f8ac40 022a44f8 235003f1 0104a0f8  ...@.*D.#P......
+ 0060 b4404fea 83041bd0 c82323fa 0cf3db07  .@O......##.....
+ 0070 07d50023 d0f8b020 b0f8b410 1180c0e9  ...#... ........
+ 0080 283330bc 70470023 6ff00402 c0e92832  (30.pG.#o.....(2
+ 0090 70477047 d0f8b040 2380c0e9 2833c0e7  pGpG...@#...(3..
+ 00a0 d0f8b020 128842b9 d0f8ac20 02338968  ... ..B.... .3.h
+ 00b0 22445160 a0f8b430 d6e79342 f4d9d3e7  "DQ`...0...B....
+Contents of section .text.forceFlushRx:
+ 0000 0b78ef2b 04d14a78 90f8a830 9a4200d0  .x.+..Jx...0.B..
+ 0010 70470023 c0e92833 704700bf           pG.#..(3pG..    
+Contents of section .text.setFrsRx:
+ 0000 0b78f52b 0ed14978 0b290bd8 012340f6  .x.+..Ix.)...#@.
+ 0010 e6628b40 1a4006d0 6ff00403 0022c0e9  .b.@.@..o...."..
+ 0020 28237047 704713f0 110302d1 0329f5d0  (#pGpG.......)..
+ 0030 7047b0f8 b230b0f8 b0108b42 f2d24ff0  pG...0.....B..O.
+ 0040 f60c10b5 84b0cde9 01228df8 04c003f1  ........."......
+ 0050 010c0392 1ffa8cfc d0f8ac20 adf80630  ........... ...0
+ 0060 52f82340 61450294 05d90233 52f82c20  R.#@aE.....3R., 
+ 0070 1ffa83fc 0392c17a 0c2301aa a0f8b2c0  .......z.#......
+ 0080 4068fff7 feff04b0 10bd00bf           @h..........    
+Contents of section .text.getCountsRx:
+ 0000 f8b50b78 f12b06d1 8a780c46 90f8b830  ...x.+...x.F...0
+ 0010 05469a42 00d0f8bd ca7890f8 b9309a42  .F.B.....x...0.B
+ 0020 f9d10b79 01f10800 d5f8ac70 8bb1fff7  ...y.......p....
+ 0030 feff0346 d5f8ac60 04f10c00 bb60fff7  ...F...`.....`..
+ 0040 fefff060 2379012b e5d10023 c5e92833  ...`#y.+...#..(3
+ 0050 f8bdfff7 feff0346 d5f8ac60 04f10c00  .......F...`....
+ 0060 3b60fff7 feff7060 ece700bf           ;`....p`....    
+Contents of section .text.getCountsStart:
+ 0000 00b585b0 002390f8 a8c00221 01aa8df8  .....#.....!....
+ 0010 0c30cde9 01338df8 05c0fff7 feff05b0  .0...3..........
+ 0020 5df804fb                             ]...            
+Contents of section .text.opProcess.constprop.0:
+ 0000 f8b5194c 05462368 1a691846 9047d4f8  ...L.F#h.i.F.G..
+ 0010 a07037bb 06466b68 2046c4e9 28579847  .p7..Fkh F..(W.G
+ 0020 a8b9d4f8 a0307bb1 30462a68 831b0ab1  .....0{.0F*h....
+ 0030 9a420fd9 6068fff7 feff2068 03699847  .B..`h.... h.i.G
+ 0040 d4f8a030 002bf0d1 d4f8a400 f8bdc4e9  ...0.+..........
+ 0050 2870f8bd 6ff00503 00221846 c4e92823  (p..o....".F..(#
+ 0060 f8bd6ff0 0200f8bd 00000000           ..o.........    
+Contents of section .text.sensorhubInputWakeHdlr:
+ 0000 fff7febf                             ....            
+Contents of section .text.saveDcdNowStart:
+ 0000 00b585b0 00230621 01aa8df8 0c30cde9  .....#.!.....0..
+ 0010 0133fff7 feff05b0 5df804fb           .3......]...    
+Contents of section .text.sensorhubControlHdlr:
+ 0000 2de9f84f 0646002a 63d00f46 91460025  -..O.F.*c..F.F.%
+ 0010 00f11d04 dff8d8b0 07eb0508 795d0023  ............y].#
+ 0020 02e00133 402b5bd0 14f81320 8a42f8d1  ...3@+[.... .B..
+ 0030 06eb4303 93f81ea0 baf1000f 50d0fc29  ..C.........P..)
+ 0040 11d0d6f8 a0101ffa 8afa29b1 8b681bb1  ..........)..h..
+ 0050 52464146 30469847 0aeb0503 9db2a945  RFAF0F.G.......E
+ 0060 dad8bde8 f88fd6f8 bc20002a e9d00223  ......... .*...#
+ 0070 d6f8c000 cbf80030 98f80110 8bf80410  .......0........
+ 0080 98f802c0 1a49ccf3 400e8bf8 08e00cf0  .....I..@.......
+ 0090 010e8bf8 09e0ccf3 800eccf3 c00c8bf8  ................
+ 00a0 0ae08bf8 0bc098f8 03c098f8 04e04cea  ..............L.
+ 00b0 0e2cabf8 0cc0d8f8 0530cbf8 1030d8f8  .,.......0...0..
+ 00c0 0930cbf8 1430d8f8 0d30cbf8 18309047  .0...0...0...0.G
+ 00d0 b7e7d0f8 f4310133 c0f8f431 bde8f88f  .....1.3...1....
+ 00e0 d6f8f831 0133c6f8 f831bde8 f88f00bf  ...1.3...1......
+ 00f0 00000000                             ....            
+Contents of section .text.finishCalStart:
+ 0000 00b585b0 00234ff0 010c0c21 01aa8df8  .....#O....!....
+ 0010 0c30cde9 01338df8 04c0fff7 feff05b0  .0...3..........
+ 0020 5df804fb                             ]...            
+Contents of section .text.reinitStart:
+ 0000 00b50421 85b00023 4ff0010c 0deb0102  ...!...#O.......
+ 0010 8df80c30 cde90133 8df804c0 fff7feff  ...0...3........
+ 0020 05b05df8 04fb00bf                    ..].....        
+Contents of section .text.startCalRx:
+ 0000 0b78f12b 04d18a78 90f8b830 9a4200d0  .x.+...x...0.B..
+ 0010 7047ca78 90f8b930 9a42f9d1 0023c0e9  pG.x...0.B...#..
+ 0020 28337047                             (3pG            
+Contents of section .text.getOscTypeRx:
+ 0000 0b78f12b 04d18a78 90f8b830 9a4200d0  .x.+...x...0.B..
+ 0010 7047ca78 90f8b930 9a42f9d1 49790023  pG.x...0.B..Iy.#
+ 0020 d0f8a820 1170c0e9 28337047           ... .p..(3pG    
+Contents of section .text.reinitRx:
+ 0000 0b78f12b 04d18a78 90f8b830 9a4200d0  .x.+...x...0.B..
+ 0010 7047ca78 90f8b930 9a42f9d1 00234a79  pG.x...0.B...#Jy
+ 0020 9a42c0f8 a03018bf 6ff00403 c0f8a430  .B...0..o......0
+ 0030 704700bf                             pG..            
+Contents of section .text.finishCalRx:
+ 0000 0b78f12b 04d18a78 90f8b830 9a4200d0  .x.+...x...0.B..
+ 0010 7047ca78 90f8b930 9a42f9d1 8b7980f8  pG.x...0.B...y..
+ 0020 a83013b9 c0e92833 70470023 6ff00402  .0....(3pG.#o...
+ 0030 c0e92832 704700bf                    ..(2pG..        
+Contents of section .text.getCalConfigRx:
+ 0000 0b78f12b 04d18a78 90f8b830 9a4200d0  .x.+...x...0.B..
+ 0010 7047ca78 90f8b930 9a42f9d1 4b79bbb9  pG.x...0.B..Ky..
+ 0020 8b79ca79 003b18bf 01230ab1 43f00203  .y.y.;...#..C...
+ 0030 0a7a0ab1 43f00403 4a7a0ab1 43f00803  .z..C...Jz..C...
+ 0040 d0f8a810 00220b70 0023c0e9 28327047  .....".p.#..(2pG
+ 0050 6ff00402 f8e700bf                    o.......        
+Contents of section .text.getErrorsRx:
+ 0000 0b78f12b 04d18a78 90f8b830 9a4200d0  .x.+...x...0.B..
+ 0010 7047ca78 90f8b930 9a42f9d1 91f807c0  pG.x...0.B......
+ 0020 bcf1ff0f 24d0d0f8 b020b0f8 b4301288  ....$.... ...0..
+ 0030 9a42edd9 d0f8ac20 10b503eb 430e4c79  .B..... ....C.Ly
+ 0040 013302f8 1e4002eb 4e0291f8 06e082f8  .3...@..N.......
+ 0050 02c082f8 01e091f8 08c082f8 03c091f8  ................
+ 0060 09c082f8 04c0897a 5171a0f8 b43010bd  .......zQq...0..
+ 0070 0023d0f8 b020b0f8 b4101180 c0e92833  .#... ........(3
+ 0080 704700bf                             pG..            
+Contents of section .text.saveDcdNowRx:
+ 0000 0b78f12b 04d18a78 90f8b830 9a4200d0  .x.+...x...0.B..
+ 0010 7047ca78 90f8b930 9a42f9d1 00234a79  pG.x...0.B...#Jy
+ 0020 9a42c0f8 a03018bf 6ff00403 c0f8a430  .B...0..o......0
+ 0030 704700bf                             pG..            
+Contents of section .text.setCalConfigRx:
+ 0000 0b78f12b 04d18a78 90f8b830 9a4200d0  .x.+...x...0.B..
+ 0010 7047ca78 90f8b930 9a42f9d1 00234a79  pG.x...0.B...#Jy
+ 0020 9a42c0f8 a03018bf 6ff00403 c0f8a430  .B...0..o......0
+ 0030 704700bf                             pG..            
+Contents of section .rodata.sh2_open.str1.4:
+ 0000 696e7075 744e6f72 6d616c00 696e7075  inputNormal.inpu
+ 0010 7457616b 65000000 696e7075 74477972  tWake...inputGyr
+ 0020 6f527600                             oRv.            
+Contents of section .text.sh2_open:
+ 0000 00285ed0 f0b5324c 054683b0 0f461646  .(^...2L.F...F.F
+ 0010 00214ff4 fe722046 fff7feff ff232846  .!O..r F.....#(F
+ 0020 2560e372 c4e92f76 fff7feff 60600028  %`.r../v....``.(
+ 0030 4ad02246 2749fff7 feff2346 264a0221  J."F'I....#F&J.!
+ 0040 6068fff7 feff254b 254a0221 60680094  `h....%K%J.!`h..
+ 0050 fff7feff 234b244a 02216068 0094fff7  ....#K$J.!`h....
+ 0060 feff224b 224a0221 60680094 fff7feff  .."K"J.!`h......
+ 0070 204a0221 204b6068 0094fff7 feff2346   J.! K`h......#F
+ 0080 1e4a0121 6068fff7 feff1d4b 1d4a0121  .J.!`h.....K.J.!
+ 0090 60680094 fff7feff 20681b4e 03699847  `h...... h.N.i.G
+ 00a0 054608e0 6068fff7 feff2068 03699847  .F..`h.... h.i.G
+ 00b0 401bb042 02d8237a 002bf3d0 002003b0  @..B..#z.+... ..
+ 00c0 f0bd6ff0 01007047 4ff0ff30 f7e700bf  ..o...pGO..0....
+ 00d0 00000000 00000000 00000000 00000000  ................
+ 00e0 14000000 00000000 00000000 00000000  ................
+ 00f0 0c000000 18000000 00000000 00000000  ................
+ 0100 00000000 00000000 3f0d0300           ........?...    
+Contents of section .text.sh2_close:
+ 0000 10b5064c 6068fff7 feff2046 4ff4fe72  ...L`h.... FO..r
+ 0010 0021bde8 1040fff7 febf00bf 00000000  .!...@..........
+Contents of section .text.sh2_service:
+ 0000 014b5868 fff7febf 00000000           .KXh........    
+Contents of section .text.sh2_setSensorCallback:
+ 0000 0246024b 0020c3e9 31217047 00000000  .F.K. ..1!pG....
+Contents of section .text.sh2_devReset:
+ 0000 00b50748 83b00123 817a0df1 07024068  ...H...#.z....@h
+ 0010 8df80730 fff7feff 03b05df8 04fb00bf  ...0......].....
+ 0020 00000000                             ....            
+Contents of section .text.sh2_devOn:
+ 0000 00b50848 83b04ff0 020c0123 817a0df1  ...H..O....#.z..
+ 0010 07024068 8df807c0 fff7feff 03b05df8  ..@h..........].
+ 0020 04fb00bf 00000000                    ........        
+Contents of section .text.sh2_devSleep:
+ 0000 00b50848 83b04ff0 030c0123 817a0df1  ...H..O....#.z..
+ 0010 07024068 8df807c0 fff7feff 03b05df8  ..@h..........].
+ 0020 04fb00bf 00000000                    ........        
+Contents of section .text.sh2_getProdIds:
+ 0000 10b4064a 04460023 0548c2e9 2a43c2e9  ...J.F.#.H..*C..
+ 0010 2c335df8 044bfff7 febf00bf 00000000  ,3]..K..........
+ 0020 00000000                             ....            
+Contents of section .text.sh2_getSensorConfig:
+ 0000 00b5074b 86460022 0648c3e9 2a12c3e9  ...K.F.".H..*...
+ 0010 2c2283f8 ace05df8 04ebfff7 febf00bf  ,"....].........
+ 0020 00000000 00000000                    ........        
+Contents of section .text.sh2_setSensorConfig:
+ 0000 00b5074b 86460022 0648c3e9 2a12c3e9  ...K.F.".H..*...
+ 0010 2c2283f8 ace05df8 04ebfff7 febf00bf  ,"....].........
+ 0020 00000000 00000000                    ........        
+Contents of section .text.sh2_getMetadata:
+ 0000 2de9f047 51b30d46 14220023 524c04e0  -..GQ..F.".#RL..
+ 0010 0133202b 22d014f8 23209042 f8d14e4a  .3 +"...# .B..NJ
+ 0020 4e4c02eb 83030022 04f1cc07 4c485988  NL....."....LHY.
+ 0030 4823c4f8 a820a4f8 ec3104f5 f673c4f8  H#... ...1...s..
+ 0040 b420a4f8 a810c4f8 ac70c4f8 b030fff7  . .......p...0..
+ 0050 feff0646 38b13046 bde8f087 6ff00106  ...F8.0F....o...
+ 0060 3046bde8 f087d4f8 cc3005f1 3009b4f8  0F.......0..0...
+ 0070 cc201b0c 2a80ab70 d4f8d030 6b60d4f8  . ..*..p...0k`..
+ 0080 d430ab60 d4f8dc20 d4f8d830 c5e90426  .0.`... ...0...&
+ 0090 b4f8e020 eb81ea61 b4f8e220 aa61b4f8  ... ...a... .a..
+ 00a0 e4202a62 1a0cb4f8 e6801b0c aa816e62  . *b..........nb
+ 00b0 2e85c5f8 2c802e66 85f83060 08d12021  ....,..f..0`.. !
+ 00c0 42463944 4846fff7 feff3046 bde8f087  BF9DHF....0F....
+ 00d0 013a032a f3d8dfe8 02f03931 1b02b4f8  .:.*......91....
+ 00e0 eca005f1 6400d4f8 e830c5f8 60a05246  ....d....0..`.RF
+ 00f0 6b62b4f8 ee301b49 2b85d4f8 f0306b61  kb...0.I+....0ka
+ 0100 fff7feff 0af10301 89080a31 8900d7e7  ...........1....
+ 0110 d4f8e830 b4f8eca0 6b62c5f8 60a0b4f8  ...0....kb..`...
+ 0120 ee302b85 104905f1 64005246 fff7feff  .0+..I..d.RF....
+ 0130 0af10301 89080931 8900c1e7 b4f8eca0  .......1........
+ 0140 d4f8e830 c5f860a0 6b62ebe7 d4f8e830  ...0..`.kb.....0
+ 0150 20216b62 b4e700bf 00000000 00000000   !kb............
+ 0160 00000000 f4000000 f0000000           ............    
+Contents of section .text.sh2_getFrs:
+ 0000 c1b110b4 b2fa82f4 640972b1 0b4b8446  ........d.r..K.F
+ 0010 0b48c3f8 a840c3f8 b4405df8 044ba3f8  .H...@...@]..K..
+ 0020 a8c0c3e9 2b12fff7 febf6ff0 01005df8  ....+.....o...].
+ 0030 044b7047 6ff00100 704700bf 00000000  .KpGo...pG......
+ 0040 00000000                             ....            
+Contents of section .text.sh2_setFrs:
+ 0000 844601b9 72b9094b 0948c3f8 ac100021  .F..r..K.H.....!
+ 0010 c3f8a810 a3f8a8c0 c3e92c11 a3f8b020  ..........,.... 
+ 0020 fff7febf 6ff00100 704700bf 00000000  ....o...pG......
+ 0030 00000000                             ....            
+Contents of section .text.sh2_getErrors:
+ 0000 094b8446 094800b5 c3f8ac10 0021c3f8  .K.F.H.......!..
+ 0010 b020c3f8 a810c3f8 b4105df8 04eb83f8  . ........].....
+ 0020 a8c0fff7 febf00bf 00000000 00000000  ................
+Contents of section .text.sh2_getCounts:
+ 0000 00b5074b 86460022 0648c3e9 2a21c3e9  ...K.F.".H..*!..
+ 0010 2c2283f8 a8e05df8 04ebfff7 febf00bf  ,"....].........
+ 0020 00000000 00000000                    ........        
+Contents of section .text.sh2_clearCounts:
+ 0000 074a0023 84464ff4 8170c2e9 2a33c2e9  .J.#.FO..p..*3..
+ 0010 2c33a2f8 aa0082f8 acc00248 fff7febf  ,3.........H....
+ 0020 00000000 00000000                    ........        
+Contents of section .text.sh2_setTareNow:
+ 0000 0b4b0022 84460b48 00b54ff0 030ec3f8  .K.".F.H..O.....
+ 0010 a820c3f8 b42083f8 aae0c3e9 2b2283f8  . ... ......+"..
+ 0020 acc05df8 04eb83f8 ad10fff7 febf00bf  ..].............
+ 0030 00000000 00000000                    ........        
+Contents of section .text.sh2_clearTare:
+ 0000 06490023 40f2032c 0548c1e9 2a33c1e9  .I.#@..,.H..*3..
+ 0010 2c33a1f8 aac0fff7 febf00bf 00000000  ,3..............
+ 0020 00000000                             ....            
+Contents of section .text.sh2_persistTare:
+ 0000 06490023 40f2031c 0548c1e9 2a33c1e9  .I.#@....H..*3..
+ 0010 2c33a1f8 aac0fff7 febf00bf 00000000  ,3..............
+ 0020 00000000                             ....            
+Contents of section .text.sh2_setReorientation:
+ 0000 38b5274c 00230546 40f20322 2ded028b  8.'L.#.F@.."-...
+ 0010 c4e92a33 9fed208b c4e92c33 90ed007b  ..*3.. ...,3...{
+ 0020 04f1ac00 a4f8aa20 27ee087b bdeec77b  ....... '..{...{
+ 0030 17ee103a 99b2fff7 feff04f1 ae0095ed  ...:............
+ 0040 027b27ee 087bbdee c77b17ee 103a99b2  .{'..{...{...:..
+ 0050 fff7feff 04f1b000 95ed047b 27ee087b  ...........{'..{
+ 0060 bdeec77b 17ee103a 99b2fff7 feff04f1  ...{...:........
+ 0070 b20095ed 067b27ee 087bbdee c77b17ee  .....{'..{...{..
+ 0080 103a99b2 fff7feff 0648bdec 028bbde8  .:.......H......
+ 0090 3840fff7 febf00bf 00000000 0000d040  8@.............@
+ 00a0 00000000 00000000                    ........        
+Contents of section .text.sh2_reinitialize:
+ 0000 0148fff7 febf00bf 00000000           .H..........    
+Contents of section .text.sh2_saveDcdNow:
+ 0000 0148fff7 febf00bf 00000000           .H..........    
+Contents of section .text.sh2_getOscType:
+ 0000 0246034b 0348c3f8 a820fff7 febf00bf  .F.K.H... ......
+ 0010 00000000 00000000                    ........        
+Contents of section .text.sh2_setCalConfig:
+ 0000 0246034b 034883f8 a820fff7 febf00bf  .F.K.H... ......
+ 0010 00000000 00000000                    ........        
+Contents of section .text.sh2_getCalConfig:
+ 0000 0246034b 0348c3f8 a820fff7 febf00bf  .F.K.H... ......
+ 0010 00000000 00000000                    ........        
+Contents of section .text.sh2_setDcdAutoSave:
+ 0000 00b5094a 00234ff0 090e80f0 010c0748  ...J.#O........H
+ 0010 c2e92a33 c2e92c33 82f8aae0 82f8abc0  ..*3..,3........
+ 0020 5df804eb fff7febf 00000000 00000000  ]...............
+Contents of section .text.sh2_flush:
+ 0000 05490023 84460548 c1e92a33 c1e92c33  .I.#.F.H..*3..,3
+ 0010 81f8a8c0 fff7febf 00000000 00000000  ................
+Contents of section .text.sh2_clearDcdAndReset:
+ 0000 06490023 4ff00b0c 0548c1e9 2a33c1e9  .I.#O....H..*3..
+ 0010 2c3381f8 aac0fff7 febf00bf 00000000  ,3..............
+ 0020 00000000                             ....            
+Contents of section .text.sh2_startCal:
+ 0000 10b4064a 04460023 0548c2e9 2a43c2e9  ...J.F.#.H..*C..
+ 0010 2c335df8 044bfff7 febf00bf 00000000  ,3]..K..........
+ 0020 00000000                             ....            
+Contents of section .text.sh2_finishCal:
+ 0000 04490023 0448c1e9 2a33c1e9 2c33fff7  .I.#.H..*3..,3..
+ 0010 febf00bf 00000000 00000000           ............    
+Contents of section .text.sh2_setIZro:
+ 0000 074a0023 84460e20 c2e92a33 c2e92c33  .J.#.F. ..*3..,3
+ 0010 82f8aa00 82f8abc0 0248fff7 febf00bf  .........H......
+ 0020 00000000 00000000                    ........        
+Contents of section .rodata.finishCalOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.forceFlushOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.getCalConfigOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.getCountsOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.getErrorsOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.getFrsOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.getOscTypeOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.getProdIdOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.getSensorConfigOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.reinitOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.saveDcdNowOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.sendCmdOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.sensorToRecordMap:
+ 0000 140001e3 010002e3 040003e3 060004e3  ................
+ 0010 150005e3 020006e3 070007e3 160008e3  ................
+ 0020 030009e3 0f000ae3 05000be3 08000ce3  ................
+ 0030 09000de3 0a000ee3 0b000fe3 0c0010e3  ................
+ 0040 0d0011e3 0e0012e3 100013e3 180014e3  ................
+ 0050 110015e3 120016e3 130017e3 190018e3  ................
+ 0060 1a0019e3 1b001ae3 1c001be3 1e001ce3  ................
+ 0070 1f001de3 20001ee3 21001fe3 220020e3  .... ...!...". .
+Contents of section .rodata.setCalConfigOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.setFrsOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.setSensorConfigOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .rodata.startCalOp:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.executableAdvertHdlr:
+
+00000000 <executableAdvertHdlr>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text.shtpEventCallback:
+
+00000000 <shtpEventCallback>:
+   0:	4808      	ldr	r0, [pc, #32]	; (24 <shtpEventCallback+0x24>)
+   2:	4b09      	ldr	r3, [pc, #36]	; (28 <shtpEventCallback+0x28>)
+   4:	f8d0 20bc 	ldr.w	r2, [r0, #188]	; 0xbc
+   8:	b410      	push	{r4}
+   a:	2401      	movs	r4, #1
+   c:	7119      	strb	r1, [r3, #4]
+   e:	601c      	str	r4, [r3, #0]
+  10:	b12a      	cbz	r2, 1e <shtpEventCallback+0x1e>
+  12:	4619      	mov	r1, r3
+  14:	f8d0 00c0 	ldr.w	r0, [r0, #192]	; 0xc0
+  18:	f85d 4b04 	ldr.w	r4, [sp], #4
+  1c:	4710      	bx	r2
+  1e:	f85d 4b04 	ldr.w	r4, [sp], #4
+  22:	4770      	bx	lr
+  24:	00000000 	.word	0x00000000
+  28:	00000000 	.word	0x00000000
+
+Disassembly of section .text.getProdIdStart:
+
+00000000 <getProdIdStart>:
+   0:	b500      	push	{lr}
+   2:	f44f 6180 	mov.w	r1, #1024	; 0x400
+   6:	b083      	sub	sp, #12
+   8:	f04f 0cf9 	mov.w	ip, #249	; 0xf9
+   c:	2302      	movs	r3, #2
+   e:	f8a0 10ac 	strh.w	r1, [r0, #172]	; 0xac
+  12:	aa01      	add	r2, sp, #4
+  14:	7ac1      	ldrb	r1, [r0, #11]
+  16:	6840      	ldr	r0, [r0, #4]
+  18:	f8ad c004 	strh.w	ip, [sp, #4]
+  1c:	f7ff fffe 	bl	0 <shtp_send>
+  20:	b003      	add	sp, #12
+  22:	f85d fb04 	ldr.w	pc, [sp], #4
+  26:	bf00      	nop
+
+Disassembly of section .text.getSensorConfigStart:
+
+00000000 <getSensorConfigStart>:
+   0:	b500      	push	{lr}
+   2:	21fe      	movs	r1, #254	; 0xfe
+   4:	b083      	sub	sp, #12
+   6:	f890 c0ac 	ldrb.w	ip, [r0, #172]	; 0xac
+   a:	2302      	movs	r3, #2
+   c:	f88d 1004 	strb.w	r1, [sp, #4]
+  10:	aa01      	add	r2, sp, #4
+  12:	7ac1      	ldrb	r1, [r0, #11]
+  14:	6840      	ldr	r0, [r0, #4]
+  16:	f88d c005 	strb.w	ip, [sp, #5]
+  1a:	f7ff fffe 	bl	0 <shtp_send>
+  1e:	b003      	add	sp, #12
+  20:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.setSensorConfigStart:
+
+00000000 <setSensorConfigStart>:
+   0:	f8d0 30a8 	ldr.w	r3, [r0, #168]	; 0xa8
+   4:	781a      	ldrb	r2, [r3, #0]
+   6:	7859      	ldrb	r1, [r3, #1]
+   8:	0052      	lsls	r2, r2, #1
+   a:	b530      	push	{r4, r5, lr}
+   c:	b2d2      	uxtb	r2, r2
+   e:	b087      	sub	sp, #28
+  10:	4604      	mov	r4, r0
+  12:	b109      	cbz	r1, 18 <setSensorConfigStart+0x18>
+  14:	f042 0201 	orr.w	r2, r2, #1
+  18:	7899      	ldrb	r1, [r3, #2]
+  1a:	b109      	cbz	r1, 20 <setSensorConfigStart+0x20>
+  1c:	f042 0204 	orr.w	r2, r2, #4
+  20:	78d9      	ldrb	r1, [r3, #3]
+  22:	b109      	cbz	r1, 28 <setSensorConfigStart+0x28>
+  24:	f042 0208 	orr.w	r2, r2, #8
+  28:	2500      	movs	r5, #0
+  2a:	9501      	str	r5, [sp, #4]
+  2c:	9504      	str	r5, [sp, #16]
+  2e:	f88d 5014 	strb.w	r5, [sp, #20]
+  32:	f88d 2006 	strb.w	r2, [sp, #6]
+  36:	aa01      	add	r2, sp, #4
+  38:	e9cd 5502 	strd	r5, r5, [sp, #8]
+  3c:	8899      	ldrh	r1, [r3, #4]
+  3e:	f8ad 1007 	strh.w	r1, [sp, #7]
+  42:	6899      	ldr	r1, [r3, #8]
+  44:	f8cd 1009 	str.w	r1, [sp, #9]
+  48:	e9d3 0103 	ldrd	r0, r1, [r3, #12]
+  4c:	2311      	movs	r3, #17
+  4e:	f8cd 1011 	str.w	r1, [sp, #17]
+  52:	f894 10ac 	ldrb.w	r1, [r4, #172]	; 0xac
+  56:	f8cd 000d 	str.w	r0, [sp, #13]
+  5a:	f88d 1005 	strb.w	r1, [sp, #5]
+  5e:	21fd      	movs	r1, #253	; 0xfd
+  60:	6860      	ldr	r0, [r4, #4]
+  62:	f88d 1004 	strb.w	r1, [sp, #4]
+  66:	7ae1      	ldrb	r1, [r4, #11]
+  68:	f7ff fffe 	bl	0 <shtp_send>
+  6c:	e9c4 5028 	strd	r5, r0, [r4, #160]	; 0xa0
+  70:	b007      	add	sp, #28
+  72:	bd30      	pop	{r4, r5, pc}
+
+Disassembly of section .text.getFrsStart:
+
+00000000 <getFrsStart>:
+   0:	b500      	push	{lr}
+   2:	f8b0 20a8 	ldrh.w	r2, [r0, #168]	; 0xa8
+   6:	b083      	sub	sp, #12
+   8:	2100      	movs	r1, #0
+   a:	f04f 0cf4 	mov.w	ip, #244	; 0xf4
+   e:	2308      	movs	r3, #8
+  10:	f8a0 10b4 	strh.w	r1, [r0, #180]	; 0xb4
+  14:	e9cd 1100 	strd	r1, r1, [sp]
+  18:	7ac1      	ldrb	r1, [r0, #11]
+  1a:	f8ad 2004 	strh.w	r2, [sp, #4]
+  1e:	466a      	mov	r2, sp
+  20:	6840      	ldr	r0, [r0, #4]
+  22:	f88d c000 	strb.w	ip, [sp]
+  26:	f7ff fffe 	bl	0 <shtp_send>
+  2a:	b003      	add	sp, #12
+  2c:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.setFrsStart:
+
+00000000 <setFrsStart>:
+   0:	b500      	push	{lr}
+   2:	21f7      	movs	r1, #247	; 0xf7
+   4:	b083      	sub	sp, #12
+   6:	f04f 0c00 	mov.w	ip, #0
+   a:	2306      	movs	r3, #6
+   c:	f8ad 1000 	strh.w	r1, [sp]
+  10:	466a      	mov	r2, sp
+  12:	f8b0 10b0 	ldrh.w	r1, [r0, #176]	; 0xb0
+  16:	f8a0 c0b2 	strh.w	ip, [r0, #178]	; 0xb2
+  1a:	f8ad 1002 	strh.w	r1, [sp, #2]
+  1e:	f8b0 c0a8 	ldrh.w	ip, [r0, #168]	; 0xa8
+  22:	7ac1      	ldrb	r1, [r0, #11]
+  24:	6840      	ldr	r0, [r0, #4]
+  26:	f8ad c004 	strh.w	ip, [sp, #4]
+  2a:	f7ff fffe 	bl	0 <shtp_send>
+  2e:	b003      	add	sp, #12
+  30:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.sendCmd:
+
+00000000 <sendCmd>:
+   0:	b500      	push	{lr}
+   2:	b085      	sub	sp, #20
+   4:	f890 30ba 	ldrb.w	r3, [r0, #186]	; 0xba
+   8:	f880 10b8 	strb.w	r1, [r0, #184]	; 0xb8
+   c:	f04f 0ef2 	mov.w	lr, #242	; 0xf2
+  10:	f88d 1006 	strb.w	r1, [sp, #6]
+  14:	1c59      	adds	r1, r3, #1
+  16:	f880 30b9 	strb.w	r3, [r0, #185]	; 0xb9
+  1a:	f880 10ba 	strb.w	r1, [r0, #186]	; 0xba
+  1e:	f88d 3005 	strb.w	r3, [sp, #5]
+  22:	7a11      	ldrb	r1, [r2, #8]
+  24:	6813      	ldr	r3, [r2, #0]
+  26:	f8d2 c004 	ldr.w	ip, [r2, #4]
+  2a:	aa01      	add	r2, sp, #4
+  2c:	f8cd 3007 	str.w	r3, [sp, #7]
+  30:	230c      	movs	r3, #12
+  32:	f88d 100f 	strb.w	r1, [sp, #15]
+  36:	7ac1      	ldrb	r1, [r0, #11]
+  38:	6840      	ldr	r0, [r0, #4]
+  3a:	f88d e004 	strb.w	lr, [sp, #4]
+  3e:	f8cd c00b 	str.w	ip, [sp, #11]
+  42:	f7ff fffe 	bl	0 <shtp_send>
+  46:	b005      	add	sp, #20
+  48:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.getErrorsStart:
+
+00000000 <getErrorsStart>:
+   0:	b500      	push	{lr}
+   2:	2100      	movs	r1, #0
+   4:	b085      	sub	sp, #20
+   6:	f890 c0a8 	ldrb.w	ip, [r0, #168]	; 0xa8
+   a:	9101      	str	r1, [sp, #4]
+   c:	aa01      	add	r2, sp, #4
+   e:	9102      	str	r1, [sp, #8]
+  10:	f88d 100c 	strb.w	r1, [sp, #12]
+  14:	f8a0 10b4 	strh.w	r1, [r0, #180]	; 0xb4
+  18:	2101      	movs	r1, #1
+  1a:	f88d c004 	strb.w	ip, [sp, #4]
+  1e:	f7ff fffe 	bl	0 <getErrorsStart>
+  22:	b005      	add	sp, #20
+  24:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.sendCmdStart:
+
+00000000 <sendCmdStart>:
+   0:	b510      	push	{r4, lr}
+   2:	f100 02ab 	add.w	r2, r0, #171	; 0xab
+   6:	f890 10aa 	ldrb.w	r1, [r0, #170]	; 0xaa
+   a:	4604      	mov	r4, r0
+   c:	f7ff fffe 	bl	0 <sendCmdStart>
+  10:	2300      	movs	r3, #0
+  12:	e9c4 3028 	strd	r3, r0, [r4, #160]	; 0xa0
+  16:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text.getOscTypeStart:
+
+00000000 <getOscTypeStart>:
+   0:	b500      	push	{lr}
+   2:	b085      	sub	sp, #20
+   4:	2300      	movs	r3, #0
+   6:	210a      	movs	r1, #10
+   8:	aa01      	add	r2, sp, #4
+   a:	f88d 300c 	strb.w	r3, [sp, #12]
+   e:	e9cd 3301 	strd	r3, r3, [sp, #4]
+  12:	f7ff fffe 	bl	0 <getOscTypeStart>
+  16:	b005      	add	sp, #20
+  18:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.setCalConfigStart:
+
+00000000 <setCalConfigStart>:
+   0:	f890 30a8 	ldrb.w	r3, [r0, #168]	; 0xa8
+   4:	2200      	movs	r2, #0
+   6:	b500      	push	{lr}
+   8:	f003 0101 	and.w	r1, r3, #1
+   c:	b085      	sub	sp, #20
+   e:	f3c3 0c40 	ubfx	ip, r3, #1, #1
+  12:	f88d 200c 	strb.w	r2, [sp, #12]
+  16:	e9cd 2201 	strd	r2, r2, [sp, #4]
+  1a:	f88d 1004 	strb.w	r1, [sp, #4]
+  1e:	f3c3 0180 	ubfx	r1, r3, #2, #1
+  22:	aa01      	add	r2, sp, #4
+  24:	f3c3 03c0 	ubfx	r3, r3, #3, #1
+  28:	f88d 1006 	strb.w	r1, [sp, #6]
+  2c:	2107      	movs	r1, #7
+  2e:	f88d c005 	strb.w	ip, [sp, #5]
+  32:	f88d 3008 	strb.w	r3, [sp, #8]
+  36:	f7ff fffe 	bl	0 <setCalConfigStart>
+  3a:	b005      	add	sp, #20
+  3c:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.getCalConfigStart:
+
+00000000 <getCalConfigStart>:
+   0:	b500      	push	{lr}
+   2:	b085      	sub	sp, #20
+   4:	2300      	movs	r3, #0
+   6:	f04f 0c01 	mov.w	ip, #1
+   a:	2107      	movs	r1, #7
+   c:	aa01      	add	r2, sp, #4
+   e:	f88d 300c 	strb.w	r3, [sp, #12]
+  12:	e9cd 3301 	strd	r3, r3, [sp, #4]
+  16:	f88d c007 	strb.w	ip, [sp, #7]
+  1a:	f7ff fffe 	bl	0 <getCalConfigStart>
+  1e:	b005      	add	sp, #20
+  20:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.startCalStart:
+
+00000000 <startCalStart>:
+   0:	f8d0 30a8 	ldr.w	r3, [r0, #168]	; 0xa8
+   4:	2200      	movs	r2, #0
+   6:	b500      	push	{lr}
+   8:	0a19      	lsrs	r1, r3, #8
+   a:	b085      	sub	sp, #20
+   c:	ea4f 4c13 	mov.w	ip, r3, lsr #16
+  10:	f88d 200c 	strb.w	r2, [sp, #12]
+  14:	e9cd 2201 	strd	r2, r2, [sp, #4]
+  18:	f88d 3005 	strb.w	r3, [sp, #5]
+  1c:	aa01      	add	r2, sp, #4
+  1e:	0e1b      	lsrs	r3, r3, #24
+  20:	f88d 1006 	strb.w	r1, [sp, #6]
+  24:	210c      	movs	r1, #12
+  26:	f88d c007 	strb.w	ip, [sp, #7]
+  2a:	f88d 3008 	strb.w	r3, [sp, #8]
+  2e:	f7ff fffe 	bl	0 <startCalStart>
+  32:	b005      	add	sp, #20
+  34:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.forceFlushStart:
+
+00000000 <forceFlushStart>:
+   0:	b500      	push	{lr}
+   2:	21f0      	movs	r1, #240	; 0xf0
+   4:	b083      	sub	sp, #12
+   6:	f890 c0a8 	ldrb.w	ip, [r0, #168]	; 0xa8
+   a:	2302      	movs	r3, #2
+   c:	f88d 1004 	strb.w	r1, [sp, #4]
+  10:	aa01      	add	r2, sp, #4
+  12:	7ac1      	ldrb	r1, [r0, #11]
+  14:	6840      	ldr	r0, [r0, #4]
+  16:	f88d c005 	strb.w	ip, [sp, #5]
+  1a:	f7ff fffe 	bl	0 <shtp_send>
+  1e:	b003      	add	sp, #12
+  20:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.sensorhubInputGyroRvHdlr:
+
+00000000 <sensorhubInputGyroRvHdlr>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	b08b      	sub	sp, #44	; 0x2c
+   6:	4616      	mov	r6, r2
+   8:	4604      	mov	r4, r0
+   a:	460f      	mov	r7, r1
+   c:	f04f 0c00 	mov.w	ip, #0
+  10:	f100 021d 	add.w	r2, r0, #29
+  14:	9301      	str	r3, [sp, #4]
+  16:	e004      	b.n	22 <sensorhubInputGyroRvHdlr+0x22>
+  18:	f10c 0c01 	add.w	ip, ip, #1
+  1c:	f1bc 0f40 	cmp.w	ip, #64	; 0x40
+  20:	d02d      	beq.n	7e <sensorhubInputGyroRvHdlr+0x7e>
+  22:	f812 301c 	ldrb.w	r3, [r2, ip, lsl #1]
+  26:	2b2a      	cmp	r3, #42	; 0x2a
+  28:	d1f6      	bne.n	18 <sensorhubInputGyroRvHdlr+0x18>
+  2a:	eb04 0c4c 	add.w	ip, r4, ip, lsl #1
+  2e:	f89c 501e 	ldrb.w	r5, [ip, #30]
+  32:	b30e      	cbz	r6, 78 <sensorhubInputGyroRvHdlr+0x78>
+  34:	f04f 0900 	mov.w	r9, #0
+  38:	fa1f fb85 	uxth.w	fp, r5
+  3c:	f04f 0a2a 	mov.w	sl, #42	; 0x2a
+  40:	46c8      	mov	r8, r9
+  42:	9b01      	ldr	r3, [sp, #4]
+  44:	eb07 0108 	add.w	r1, r7, r8
+  48:	462a      	mov	r2, r5
+  4a:	f10d 0012 	add.w	r0, sp, #18
+  4e:	f88d a011 	strb.w	sl, [sp, #17]
+  52:	e9cd 3902 	strd	r3, r9, [sp, #8]
+  56:	f7ff fffe 	bl	0 <memcpy>
+  5a:	f8d4 20c4 	ldr.w	r2, [r4, #196]	; 0xc4
+  5e:	a902      	add	r1, sp, #8
+  60:	f88d 5010 	strb.w	r5, [sp, #16]
+  64:	b112      	cbz	r2, 6c <sensorhubInputGyroRvHdlr+0x6c>
+  66:	f8d4 00c8 	ldr.w	r0, [r4, #200]	; 0xc8
+  6a:	4790      	blx	r2
+  6c:	eb0b 0308 	add.w	r3, fp, r8
+  70:	fa1f f883 	uxth.w	r8, r3
+  74:	4546      	cmp	r6, r8
+  76:	d8e4      	bhi.n	42 <sensorhubInputGyroRvHdlr+0x42>
+  78:	b00b      	add	sp, #44	; 0x2c
+  7a:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  7e:	2500      	movs	r5, #0
+  80:	e7d7      	b.n	32 <sensorhubInputGyroRvHdlr+0x32>
+  82:	bf00      	nop
+
+Disassembly of section .text.sensorhubInputHdlr:
+
+00000000 <sensorhubInputHdlr>:
+   0:	2a00      	cmp	r2, #0
+   2:	d07e      	beq.n	102 <sensorhubInputHdlr+0x102>
+   4:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   8:	f04f 0800 	mov.w	r8, #0
+   c:	b08b      	sub	sp, #44	; 0x2c
+   e:	f100 041d 	add.w	r4, r0, #29
+  12:	4607      	mov	r7, r0
+  14:	460e      	mov	r6, r1
+  16:	469a      	mov	sl, r3
+  18:	4691      	mov	r9, r2
+  1a:	f8df b0ec 	ldr.w	fp, [pc, #236]	; 108 <sensorhubInputHdlr+0x108>
+  1e:	4645      	mov	r5, r8
+  20:	9400      	str	r4, [sp, #0]
+  22:	1971      	adds	r1, r6, r5
+  24:	5d70      	ldrb	r0, [r6, r5]
+  26:	2300      	movs	r3, #0
+  28:	9c00      	ldr	r4, [sp, #0]
+  2a:	e002      	b.n	32 <sensorhubInputHdlr+0x32>
+  2c:	3301      	adds	r3, #1
+  2e:	2b40      	cmp	r3, #64	; 0x40
+  30:	d05f      	beq.n	f2 <sensorhubInputHdlr+0xf2>
+  32:	f814 2013 	ldrb.w	r2, [r4, r3, lsl #1]
+  36:	4282      	cmp	r2, r0
+  38:	d1f8      	bne.n	2c <sensorhubInputHdlr+0x2c>
+  3a:	eb07 0343 	add.w	r3, r7, r3, lsl #1
+  3e:	9400      	str	r4, [sp, #0]
+  40:	7f9a      	ldrb	r2, [r3, #30]
+  42:	2a00      	cmp	r2, #0
+  44:	d055      	beq.n	f2 <sensorhubInputHdlr+0xf2>
+  46:	28fb      	cmp	r0, #251	; 0xfb
+  48:	d036      	beq.n	b8 <sensorhubInputHdlr+0xb8>
+  4a:	28fa      	cmp	r0, #250	; 0xfa
+  4c:	d03a      	beq.n	c4 <sensorhubInputHdlr+0xc4>
+  4e:	28ef      	cmp	r0, #239	; 0xef
+  50:	d03d      	beq.n	ce <sensorhubInputHdlr+0xce>
+  52:	f891 e002 	ldrb.w	lr, [r1, #2]
+  56:	78cb      	ldrb	r3, [r1, #3]
+  58:	ea4f 1e8e 	mov.w	lr, lr, lsl #6
+  5c:	f40e 5e7c 	and.w	lr, lr, #16128	; 0x3f00
+  60:	eb03 0c0e 	add.w	ip, r3, lr
+  64:	f8db 3000 	ldr.w	r3, [fp]
+  68:	459a      	cmp	sl, r3
+  6a:	4b26      	ldr	r3, [pc, #152]	; (104 <sensorhubInputHdlr+0x104>)
+  6c:	d33c      	bcc.n	e8 <sensorhubInputHdlr+0xe8>
+  6e:	681b      	ldr	r3, [r3, #0]
+  70:	9303      	str	r3, [sp, #12]
+  72:	eb0c 0308 	add.w	r3, ip, r8
+  76:	f88d 0011 	strb.w	r0, [sp, #17]
+  7a:	2064      	movs	r0, #100	; 0x64
+  7c:	f8cb a000 	str.w	sl, [fp]
+  80:	fb00 a303 	mla	r3, r0, r3, sl
+  84:	f10d 0012 	add.w	r0, sp, #18
+  88:	e9cd 2301 	strd	r2, r3, [sp, #4]
+  8c:	f7ff fffe 	bl	0 <memcpy>
+  90:	9a01      	ldr	r2, [sp, #4]
+  92:	f8d7 30c4 	ldr.w	r3, [r7, #196]	; 0xc4
+  96:	f88d 2010 	strb.w	r2, [sp, #16]
+  9a:	b292      	uxth	r2, r2
+  9c:	b12b      	cbz	r3, aa <sensorhubInputHdlr+0xaa>
+  9e:	a902      	add	r1, sp, #8
+  a0:	f8d7 00c8 	ldr.w	r0, [r7, #200]	; 0xc8
+  a4:	9201      	str	r2, [sp, #4]
+  a6:	4798      	blx	r3
+  a8:	9a01      	ldr	r2, [sp, #4]
+  aa:	442a      	add	r2, r5
+  ac:	b295      	uxth	r5, r2
+  ae:	45a9      	cmp	r9, r5
+  b0:	d8b7      	bhi.n	22 <sensorhubInputHdlr+0x22>
+  b2:	b00b      	add	sp, #44	; 0x2c
+  b4:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  b8:	f8d1 8001 	ldr.w	r8, [r1, #1]
+  bc:	b292      	uxth	r2, r2
+  be:	f1c8 0800 	rsb	r8, r8, #0
+  c2:	e7f2      	b.n	aa <sensorhubInputHdlr+0xaa>
+  c4:	f8d1 3001 	ldr.w	r3, [r1, #1]
+  c8:	b292      	uxth	r2, r2
+  ca:	4498      	add	r8, r3
+  cc:	e7ed      	b.n	aa <sensorhubInputHdlr+0xaa>
+  ce:	f8d7 30a0 	ldr.w	r3, [r7, #160]	; 0xa0
+  d2:	b292      	uxth	r2, r2
+  d4:	2b00      	cmp	r3, #0
+  d6:	d0e8      	beq.n	aa <sensorhubInputHdlr+0xaa>
+  d8:	689b      	ldr	r3, [r3, #8]
+  da:	2b00      	cmp	r3, #0
+  dc:	d0e5      	beq.n	aa <sensorhubInputHdlr+0xaa>
+  de:	4638      	mov	r0, r7
+  e0:	9201      	str	r2, [sp, #4]
+  e2:	4798      	blx	r3
+  e4:	9a01      	ldr	r2, [sp, #4]
+  e6:	e7e0      	b.n	aa <sensorhubInputHdlr+0xaa>
+  e8:	461c      	mov	r4, r3
+  ea:	681b      	ldr	r3, [r3, #0]
+  ec:	3301      	adds	r3, #1
+  ee:	6023      	str	r3, [r4, #0]
+  f0:	e7be      	b.n	70 <sensorhubInputHdlr+0x70>
+  f2:	f8d7 31f8 	ldr.w	r3, [r7, #504]	; 0x1f8
+  f6:	3301      	adds	r3, #1
+  f8:	f8c7 31f8 	str.w	r3, [r7, #504]	; 0x1f8
+  fc:	b00b      	add	sp, #44	; 0x2c
+  fe:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 102:	4770      	bx	lr
+ 104:	00000000 	.word	0x00000000
+ 108:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sensorhubInputNormalHdlr:
+
+00000000 <sensorhubInputNormalHdlr>:
+   0:	f7ff bffe 	b.w	0 <sensorhubInputNormalHdlr>
+
+Disassembly of section .text.sensorhubAdvertHdlr:
+
+00000000 <sensorhubAdvertHdlr>:
+   0:	2980      	cmp	r1, #128	; 0x80
+   2:	b538      	push	{r3, r4, r5, lr}
+   4:	4604      	mov	r4, r0
+   6:	d028      	beq.n	5a <sensorhubAdvertHdlr+0x5a>
+   8:	2981      	cmp	r1, #129	; 0x81
+   a:	d011      	beq.n	30 <sensorhubAdvertHdlr+0x30>
+   c:	b101      	cbz	r1, 10 <sensorhubAdvertHdlr+0x10>
+   e:	bd38      	pop	{r3, r4, r5, pc}
+  10:	4a16      	ldr	r2, [pc, #88]	; (6c <sensorhubAdvertHdlr+0x6c>)
+  12:	4917      	ldr	r1, [pc, #92]	; (70 <sensorhubAdvertHdlr+0x70>)
+  14:	6840      	ldr	r0, [r0, #4]
+  16:	f7ff fffe 	bl	0 <shtp_chanNo>
+  1a:	4603      	mov	r3, r0
+  1c:	4a15      	ldr	r2, [pc, #84]	; (74 <sensorhubAdvertHdlr+0x74>)
+  1e:	72a3      	strb	r3, [r4, #10]
+  20:	4915      	ldr	r1, [pc, #84]	; (78 <sensorhubAdvertHdlr+0x78>)
+  22:	6860      	ldr	r0, [r4, #4]
+  24:	f7ff fffe 	bl	0 <shtp_chanNo>
+  28:	2301      	movs	r3, #1
+  2a:	72e0      	strb	r0, [r4, #11]
+  2c:	7263      	strb	r3, [r4, #9]
+  2e:	bd38      	pop	{r3, r4, r5, pc}
+  30:	2a81      	cmp	r2, #129	; 0x81
+  32:	d818      	bhi.n	66 <sensorhubAdvertHdlr+0x66>
+  34:	0850      	lsrs	r0, r2, #1
+  36:	d0ea      	beq.n	e <sensorhubAdvertHdlr+0xe>
+  38:	f104 0c1d 	add.w	ip, r4, #29
+  3c:	2200      	movs	r2, #0
+  3e:	341e      	adds	r4, #30
+  40:	1c5d      	adds	r5, r3, #1
+  42:	f813 1012 	ldrb.w	r1, [r3, r2, lsl #1]
+  46:	f80c 1012 	strb.w	r1, [ip, r2, lsl #1]
+  4a:	f815 1012 	ldrb.w	r1, [r5, r2, lsl #1]
+  4e:	f804 1012 	strb.w	r1, [r4, r2, lsl #1]
+  52:	3201      	adds	r2, #1
+  54:	4282      	cmp	r2, r0
+  56:	dbf4      	blt.n	42 <sensorhubAdvertHdlr+0x42>
+  58:	bd38      	pop	{r3, r4, r5, pc}
+  5a:	4619      	mov	r1, r3
+  5c:	300c      	adds	r0, #12
+  5e:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  62:	f7ff bffe 	b.w	0 <strcpy>
+  66:	2040      	movs	r0, #64	; 0x40
+  68:	e7e6      	b.n	38 <sensorhubAdvertHdlr+0x38>
+  6a:	bf00      	nop
+  6c:	00000000 	.word	0x00000000
+  70:	00000008 	.word	0x00000008
+  74:	00000014 	.word	0x00000014
+  78:	0000001c 	.word	0x0000001c
+
+Disassembly of section .text.executableDeviceHdlr:
+
+00000000 <executableDeviceHdlr>:
+   0:	2a01      	cmp	r2, #1
+   2:	d102      	bne.n	a <executableDeviceHdlr+0xa>
+   4:	780b      	ldrb	r3, [r1, #0]
+   6:	2b01      	cmp	r3, #1
+   8:	d005      	beq.n	16 <executableDeviceHdlr+0x16>
+   a:	f8d0 31f0 	ldr.w	r3, [r0, #496]	; 0x1f0
+   e:	3301      	adds	r3, #1
+  10:	f8c0 31f0 	str.w	r3, [r0, #496]	; 0x1f0
+  14:	4770      	bx	lr
+  16:	b410      	push	{r4}
+  18:	4907      	ldr	r1, [pc, #28]	; (38 <executableDeviceHdlr+0x38>)
+  1a:	2400      	movs	r4, #0
+  1c:	f8d0 20bc 	ldr.w	r2, [r0, #188]	; 0xbc
+  20:	7203      	strb	r3, [r0, #8]
+  22:	600c      	str	r4, [r1, #0]
+  24:	b122      	cbz	r2, 30 <executableDeviceHdlr+0x30>
+  26:	f8d0 00c0 	ldr.w	r0, [r0, #192]	; 0xc0
+  2a:	f85d 4b04 	ldr.w	r4, [sp], #4
+  2e:	4710      	bx	r2
+  30:	f85d 4b04 	ldr.w	r4, [sp], #4
+  34:	4770      	bx	lr
+  36:	bf00      	nop
+  38:	00000000 	.word	0x00000000
+
+Disassembly of section .text.getProdIdRx:
+
+00000000 <getProdIdRx>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	2bf8      	cmp	r3, #248	; 0xf8
+   4:	d131      	bne.n	6a <getProdIdRx+0x6a>
+   6:	f890 30ac 	ldrb.w	r3, [r0, #172]	; 0xac
+   a:	b570      	push	{r4, r5, r6, lr}
+   c:	f8d0 50a8 	ldr.w	r5, [r0, #168]	; 0xa8
+  10:	b365      	cbz	r5, 6c <getProdIdRx+0x6c>
+  12:	f890 e0ad 	ldrb.w	lr, [r0, #173]	; 0xad
+  16:	4573      	cmp	r3, lr
+  18:	d228      	bcs.n	6c <getProdIdRx+0x6c>
+  1a:	784c      	ldrb	r4, [r1, #1]
+  1c:	011a      	lsls	r2, r3, #4
+  1e:	54ac      	strb	r4, [r5, r2]
+  20:	eb05 1203 	add.w	r2, r5, r3, lsl #4
+  24:	788c      	ldrb	r4, [r1, #2]
+  26:	7054      	strb	r4, [r2, #1]
+  28:	78cc      	ldrb	r4, [r1, #3]
+  2a:	7094      	strb	r4, [r2, #2]
+  2c:	684c      	ldr	r4, [r1, #4]
+  2e:	6054      	str	r4, [r2, #4]
+  30:	688e      	ldr	r6, [r1, #8]
+  32:	6096      	str	r6, [r2, #8]
+  34:	f891 c00c 	ldrb.w	ip, [r1, #12]
+  38:	7b4e      	ldrb	r6, [r1, #13]
+  3a:	ea4c 2c06 	orr.w	ip, ip, r6, lsl #8
+  3e:	f8a2 c00c 	strh.w	ip, [r2, #12]
+  42:	f891 c00e 	ldrb.w	ip, [r1, #14]
+  46:	f882 c00e 	strb.w	ip, [r2, #14]
+  4a:	7bc9      	ldrb	r1, [r1, #15]
+  4c:	73d1      	strb	r1, [r2, #15]
+  4e:	4a0a      	ldr	r2, [pc, #40]	; (78 <getProdIdRx+0x78>)
+  50:	4294      	cmp	r4, r2
+  52:	d103      	bne.n	5c <getProdIdRx+0x5c>
+  54:	2205      	movs	r2, #5
+  56:	4696      	mov	lr, r2
+  58:	f880 20ad 	strb.w	r2, [r0, #173]	; 0xad
+  5c:	3301      	adds	r3, #1
+  5e:	b2db      	uxtb	r3, r3
+  60:	4573      	cmp	r3, lr
+  62:	f880 30ac 	strb.w	r3, [r0, #172]	; 0xac
+  66:	d201      	bcs.n	6c <getProdIdRx+0x6c>
+  68:	bd70      	pop	{r4, r5, r6, pc}
+  6a:	4770      	bx	lr
+  6c:	2200      	movs	r2, #0
+  6e:	f885 3050 	strb.w	r3, [r5, #80]	; 0x50
+  72:	e9c0 2228 	strd	r2, r2, [r0, #160]	; 0xa0
+  76:	bd70      	pop	{r4, r5, r6, pc}
+  78:	0098a67f 	.word	0x0098a67f
+
+Disassembly of section .text.getSensorConfigRx:
+
+00000000 <getSensorConfigRx>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	2bfc      	cmp	r3, #252	; 0xfc
+   4:	d104      	bne.n	10 <getSensorConfigRx+0x10>
+   6:	784a      	ldrb	r2, [r1, #1]
+   8:	f890 30ac 	ldrb.w	r3, [r0, #172]	; 0xac
+   c:	429a      	cmp	r2, r3
+   e:	d000      	beq.n	12 <getSensorConfigRx+0x12>
+  10:	4770      	bx	lr
+  12:	788a      	ldrb	r2, [r1, #2]
+  14:	f8d0 30a8 	ldr.w	r3, [r0, #168]	; 0xa8
+  18:	b410      	push	{r4}
+  1a:	f3c2 0440 	ubfx	r4, r2, #1, #1
+  1e:	701c      	strb	r4, [r3, #0]
+  20:	f002 0401 	and.w	r4, r2, #1
+  24:	705c      	strb	r4, [r3, #1]
+  26:	f3c2 0480 	ubfx	r4, r2, #2, #1
+  2a:	f3c2 02c0 	ubfx	r2, r2, #3, #1
+  2e:	709c      	strb	r4, [r3, #2]
+  30:	70da      	strb	r2, [r3, #3]
+  32:	790c      	ldrb	r4, [r1, #4]
+  34:	78ca      	ldrb	r2, [r1, #3]
+  36:	ea42 2204 	orr.w	r2, r2, r4, lsl #8
+  3a:	2400      	movs	r4, #0
+  3c:	809a      	strh	r2, [r3, #4]
+  3e:	f8d1 2005 	ldr.w	r2, [r1, #5]
+  42:	609a      	str	r2, [r3, #8]
+  44:	f8d1 2009 	ldr.w	r2, [r1, #9]
+  48:	60da      	str	r2, [r3, #12]
+  4a:	f8d1 200d 	ldr.w	r2, [r1, #13]
+  4e:	611a      	str	r2, [r3, #16]
+  50:	e9c0 4428 	strd	r4, r4, [r0, #160]	; 0xa0
+  54:	f85d 4b04 	ldr.w	r4, [sp], #4
+  58:	4770      	bx	lr
+  5a:	bf00      	nop
+
+Disassembly of section .text.getFrsRx:
+
+00000000 <getFrsRx>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	2bf3      	cmp	r3, #243	; 0xf3
+   4:	d145      	bne.n	92 <getFrsRx+0x92>
+   6:	784a      	ldrb	r2, [r1, #1]
+   8:	f44f 738b 	mov.w	r3, #278	; 0x116
+   c:	f002 0c0f 	and.w	ip, r2, #15
+  10:	fa23 f30c 	lsr.w	r3, r3, ip
+  14:	f013 0301 	ands.w	r3, r3, #1
+  18:	d135      	bne.n	86 <getFrsRx+0x86>
+  1a:	f1bc 0f05 	cmp.w	ip, #5
+  1e:	b430      	push	{r4, r5}
+  20:	d038      	beq.n	94 <getFrsRx+0x94>
+  22:	884b      	ldrh	r3, [r1, #2]
+  24:	f8b0 40b4 	ldrh.w	r4, [r0, #180]	; 0xb4
+  28:	429c      	cmp	r4, r3
+  2a:	d009      	beq.n	40 <getFrsRx+0x40>
+  2c:	2400      	movs	r4, #0
+  2e:	f8d0 50b0 	ldr.w	r5, [r0, #176]	; 0xb0
+  32:	802c      	strh	r4, [r5, #0]
+  34:	f8c0 40a0 	str.w	r4, [r0, #160]	; 0xa0
+  38:	f06f 0403 	mvn.w	r4, #3
+  3c:	f8c0 40a4 	str.w	r4, [r0, #164]	; 0xa4
+  40:	f8d0 40b0 	ldr.w	r4, [r0, #176]	; 0xb0
+  44:	8824      	ldrh	r4, [r4, #0]
+  46:	42a3      	cmp	r3, r4
+  48:	d900      	bls.n	4c <getFrsRx+0x4c>
+  4a:	b96c      	cbnz	r4, 68 <getFrsRx+0x68>
+  4c:	684d      	ldr	r5, [r1, #4]
+  4e:	0912      	lsrs	r2, r2, #4
+  50:	f8d0 40ac 	ldr.w	r4, [r0, #172]	; 0xac
+  54:	2a02      	cmp	r2, #2
+  56:	f844 5023 	str.w	r5, [r4, r3, lsl #2]
+  5a:	f103 0401 	add.w	r4, r3, #1
+  5e:	f8a0 40b4 	strh.w	r4, [r0, #180]	; 0xb4
+  62:	ea4f 0483 	mov.w	r4, r3, lsl #2
+  66:	d01b      	beq.n	a0 <getFrsRx+0xa0>
+  68:	23c8      	movs	r3, #200	; 0xc8
+  6a:	fa23 f30c 	lsr.w	r3, r3, ip
+  6e:	07db      	lsls	r3, r3, #31
+  70:	d507      	bpl.n	82 <getFrsRx+0x82>
+  72:	2300      	movs	r3, #0
+  74:	f8d0 20b0 	ldr.w	r2, [r0, #176]	; 0xb0
+  78:	f8b0 10b4 	ldrh.w	r1, [r0, #180]	; 0xb4
+  7c:	8011      	strh	r1, [r2, #0]
+  7e:	e9c0 3328 	strd	r3, r3, [r0, #160]	; 0xa0
+  82:	bc30      	pop	{r4, r5}
+  84:	4770      	bx	lr
+  86:	2300      	movs	r3, #0
+  88:	f06f 0204 	mvn.w	r2, #4
+  8c:	e9c0 3228 	strd	r3, r2, [r0, #160]	; 0xa0
+  90:	4770      	bx	lr
+  92:	4770      	bx	lr
+  94:	f8d0 40b0 	ldr.w	r4, [r0, #176]	; 0xb0
+  98:	8023      	strh	r3, [r4, #0]
+  9a:	e9c0 3328 	strd	r3, r3, [r0, #160]	; 0xa0
+  9e:	e7c0      	b.n	22 <getFrsRx+0x22>
+  a0:	f8d0 20b0 	ldr.w	r2, [r0, #176]	; 0xb0
+  a4:	8812      	ldrh	r2, [r2, #0]
+  a6:	b942      	cbnz	r2, ba <getFrsRx+0xba>
+  a8:	f8d0 20ac 	ldr.w	r2, [r0, #172]	; 0xac
+  ac:	3302      	adds	r3, #2
+  ae:	6889      	ldr	r1, [r1, #8]
+  b0:	4422      	add	r2, r4
+  b2:	6051      	str	r1, [r2, #4]
+  b4:	f8a0 30b4 	strh.w	r3, [r0, #180]	; 0xb4
+  b8:	e7d6      	b.n	68 <getFrsRx+0x68>
+  ba:	4293      	cmp	r3, r2
+  bc:	d9f4      	bls.n	a8 <getFrsRx+0xa8>
+  be:	e7d3      	b.n	68 <getFrsRx+0x68>
+
+Disassembly of section .text.forceFlushRx:
+
+00000000 <forceFlushRx>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	2bef      	cmp	r3, #239	; 0xef
+   4:	d104      	bne.n	10 <forceFlushRx+0x10>
+   6:	784a      	ldrb	r2, [r1, #1]
+   8:	f890 30a8 	ldrb.w	r3, [r0, #168]	; 0xa8
+   c:	429a      	cmp	r2, r3
+   e:	d000      	beq.n	12 <forceFlushRx+0x12>
+  10:	4770      	bx	lr
+  12:	2300      	movs	r3, #0
+  14:	e9c0 3328 	strd	r3, r3, [r0, #160]	; 0xa0
+  18:	4770      	bx	lr
+  1a:	bf00      	nop
+
+Disassembly of section .text.setFrsRx:
+
+00000000 <setFrsRx>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	2bf5      	cmp	r3, #245	; 0xf5
+   4:	d10e      	bne.n	24 <setFrsRx+0x24>
+   6:	7849      	ldrb	r1, [r1, #1]
+   8:	290b      	cmp	r1, #11
+   a:	d80b      	bhi.n	24 <setFrsRx+0x24>
+   c:	2301      	movs	r3, #1
+   e:	f640 62e6 	movw	r2, #3814	; 0xee6
+  12:	408b      	lsls	r3, r1
+  14:	401a      	ands	r2, r3
+  16:	d006      	beq.n	26 <setFrsRx+0x26>
+  18:	f06f 0304 	mvn.w	r3, #4
+  1c:	2200      	movs	r2, #0
+  1e:	e9c0 2328 	strd	r2, r3, [r0, #160]	; 0xa0
+  22:	4770      	bx	lr
+  24:	4770      	bx	lr
+  26:	f013 0311 	ands.w	r3, r3, #17
+  2a:	d102      	bne.n	32 <setFrsRx+0x32>
+  2c:	2903      	cmp	r1, #3
+  2e:	d0f5      	beq.n	1c <setFrsRx+0x1c>
+  30:	4770      	bx	lr
+  32:	f8b0 30b2 	ldrh.w	r3, [r0, #178]	; 0xb2
+  36:	f8b0 10b0 	ldrh.w	r1, [r0, #176]	; 0xb0
+  3a:	428b      	cmp	r3, r1
+  3c:	d2f2      	bcs.n	24 <setFrsRx+0x24>
+  3e:	f04f 0cf6 	mov.w	ip, #246	; 0xf6
+  42:	b510      	push	{r4, lr}
+  44:	b084      	sub	sp, #16
+  46:	e9cd 2201 	strd	r2, r2, [sp, #4]
+  4a:	f88d c004 	strb.w	ip, [sp, #4]
+  4e:	f103 0c01 	add.w	ip, r3, #1
+  52:	9203      	str	r2, [sp, #12]
+  54:	fa1f fc8c 	uxth.w	ip, ip
+  58:	f8d0 20ac 	ldr.w	r2, [r0, #172]	; 0xac
+  5c:	f8ad 3006 	strh.w	r3, [sp, #6]
+  60:	f852 4023 	ldr.w	r4, [r2, r3, lsl #2]
+  64:	4561      	cmp	r1, ip
+  66:	9402      	str	r4, [sp, #8]
+  68:	d905      	bls.n	76 <setFrsRx+0x76>
+  6a:	3302      	adds	r3, #2
+  6c:	f852 202c 	ldr.w	r2, [r2, ip, lsl #2]
+  70:	fa1f fc83 	uxth.w	ip, r3
+  74:	9203      	str	r2, [sp, #12]
+  76:	7ac1      	ldrb	r1, [r0, #11]
+  78:	230c      	movs	r3, #12
+  7a:	aa01      	add	r2, sp, #4
+  7c:	f8a0 c0b2 	strh.w	ip, [r0, #178]	; 0xb2
+  80:	6840      	ldr	r0, [r0, #4]
+  82:	f7ff fffe 	bl	0 <shtp_send>
+  86:	b004      	add	sp, #16
+  88:	bd10      	pop	{r4, pc}
+  8a:	bf00      	nop
+
+Disassembly of section .text.getCountsRx:
+
+00000000 <getCountsRx>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	780b      	ldrb	r3, [r1, #0]
+   4:	2bf1      	cmp	r3, #241	; 0xf1
+   6:	d106      	bne.n	16 <getCountsRx+0x16>
+   8:	788a      	ldrb	r2, [r1, #2]
+   a:	460c      	mov	r4, r1
+   c:	f890 30b8 	ldrb.w	r3, [r0, #184]	; 0xb8
+  10:	4605      	mov	r5, r0
+  12:	429a      	cmp	r2, r3
+  14:	d000      	beq.n	18 <getCountsRx+0x18>
+  16:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  18:	78ca      	ldrb	r2, [r1, #3]
+  1a:	f890 30b9 	ldrb.w	r3, [r0, #185]	; 0xb9
+  1e:	429a      	cmp	r2, r3
+  20:	d1f9      	bne.n	16 <getCountsRx+0x16>
+  22:	790b      	ldrb	r3, [r1, #4]
+  24:	f101 0008 	add.w	r0, r1, #8
+  28:	f8d5 70ac 	ldr.w	r7, [r5, #172]	; 0xac
+  2c:	b18b      	cbz	r3, 52 <getCountsRx+0x52>
+  2e:	f7ff fffe 	bl	0 <readu32>
+  32:	4603      	mov	r3, r0
+  34:	f8d5 60ac 	ldr.w	r6, [r5, #172]	; 0xac
+  38:	f104 000c 	add.w	r0, r4, #12
+  3c:	60bb      	str	r3, [r7, #8]
+  3e:	f7ff fffe 	bl	0 <readu32>
+  42:	60f0      	str	r0, [r6, #12]
+  44:	7923      	ldrb	r3, [r4, #4]
+  46:	2b01      	cmp	r3, #1
+  48:	d1e5      	bne.n	16 <getCountsRx+0x16>
+  4a:	2300      	movs	r3, #0
+  4c:	e9c5 3328 	strd	r3, r3, [r5, #160]	; 0xa0
+  50:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  52:	f7ff fffe 	bl	0 <readu32>
+  56:	4603      	mov	r3, r0
+  58:	f8d5 60ac 	ldr.w	r6, [r5, #172]	; 0xac
+  5c:	f104 000c 	add.w	r0, r4, #12
+  60:	603b      	str	r3, [r7, #0]
+  62:	f7ff fffe 	bl	0 <readu32>
+  66:	6070      	str	r0, [r6, #4]
+  68:	e7ec      	b.n	44 <getCountsRx+0x44>
+  6a:	bf00      	nop
+
+Disassembly of section .text.getCountsStart:
+
+00000000 <getCountsStart>:
+   0:	b500      	push	{lr}
+   2:	b085      	sub	sp, #20
+   4:	2300      	movs	r3, #0
+   6:	f890 c0a8 	ldrb.w	ip, [r0, #168]	; 0xa8
+   a:	2102      	movs	r1, #2
+   c:	aa01      	add	r2, sp, #4
+   e:	f88d 300c 	strb.w	r3, [sp, #12]
+  12:	e9cd 3301 	strd	r3, r3, [sp, #4]
+  16:	f88d c005 	strb.w	ip, [sp, #5]
+  1a:	f7ff fffe 	bl	0 <getCountsStart>
+  1e:	b005      	add	sp, #20
+  20:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.opProcess.constprop.0:
+
+00000000 <opProcess.constprop.0>:
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	4c19      	ldr	r4, [pc, #100]	; (68 <opProcess.constprop.0+0x68>)
+   4:	4605      	mov	r5, r0
+   6:	6823      	ldr	r3, [r4, #0]
+   8:	691a      	ldr	r2, [r3, #16]
+   a:	4618      	mov	r0, r3
+   c:	4790      	blx	r2
+   e:	f8d4 70a0 	ldr.w	r7, [r4, #160]	; 0xa0
+  12:	bb37      	cbnz	r7, 62 <opProcess.constprop.0+0x62>
+  14:	4606      	mov	r6, r0
+  16:	686b      	ldr	r3, [r5, #4]
+  18:	4620      	mov	r0, r4
+  1a:	e9c4 5728 	strd	r5, r7, [r4, #160]	; 0xa0
+  1e:	4798      	blx	r3
+  20:	b9a8      	cbnz	r0, 4e <opProcess.constprop.0+0x4e>
+  22:	f8d4 30a0 	ldr.w	r3, [r4, #160]	; 0xa0
+  26:	b17b      	cbz	r3, 48 <opProcess.constprop.0+0x48>
+  28:	4630      	mov	r0, r6
+  2a:	682a      	ldr	r2, [r5, #0]
+  2c:	1b83      	subs	r3, r0, r6
+  2e:	b10a      	cbz	r2, 34 <opProcess.constprop.0+0x34>
+  30:	429a      	cmp	r2, r3
+  32:	d90f      	bls.n	54 <opProcess.constprop.0+0x54>
+  34:	6860      	ldr	r0, [r4, #4]
+  36:	f7ff fffe 	bl	0 <shtp_service>
+  3a:	6820      	ldr	r0, [r4, #0]
+  3c:	6903      	ldr	r3, [r0, #16]
+  3e:	4798      	blx	r3
+  40:	f8d4 30a0 	ldr.w	r3, [r4, #160]	; 0xa0
+  44:	2b00      	cmp	r3, #0
+  46:	d1f0      	bne.n	2a <opProcess.constprop.0+0x2a>
+  48:	f8d4 00a4 	ldr.w	r0, [r4, #164]	; 0xa4
+  4c:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  4e:	e9c4 7028 	strd	r7, r0, [r4, #160]	; 0xa0
+  52:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  54:	f06f 0305 	mvn.w	r3, #5
+  58:	2200      	movs	r2, #0
+  5a:	4618      	mov	r0, r3
+  5c:	e9c4 2328 	strd	r2, r3, [r4, #160]	; 0xa0
+  60:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  62:	f06f 0002 	mvn.w	r0, #2
+  66:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  68:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sensorhubInputWakeHdlr:
+
+00000000 <sensorhubInputWakeHdlr>:
+   0:	f7ff bffe 	b.w	0 <sensorhubInputWakeHdlr>
+
+Disassembly of section .text.saveDcdNowStart:
+
+00000000 <saveDcdNowStart>:
+   0:	b500      	push	{lr}
+   2:	b085      	sub	sp, #20
+   4:	2300      	movs	r3, #0
+   6:	2106      	movs	r1, #6
+   8:	aa01      	add	r2, sp, #4
+   a:	f88d 300c 	strb.w	r3, [sp, #12]
+   e:	e9cd 3301 	strd	r3, r3, [sp, #4]
+  12:	f7ff fffe 	bl	0 <saveDcdNowStart>
+  16:	b005      	add	sp, #20
+  18:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.sensorhubControlHdlr:
+
+00000000 <sensorhubControlHdlr>:
+   0:	e92d 4ff8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	4606      	mov	r6, r0
+   6:	2a00      	cmp	r2, #0
+   8:	d063      	beq.n	d2 <sensorhubControlHdlr+0xd2>
+   a:	460f      	mov	r7, r1
+   c:	4691      	mov	r9, r2
+   e:	2500      	movs	r5, #0
+  10:	f100 041d 	add.w	r4, r0, #29
+  14:	f8df b0d8 	ldr.w	fp, [pc, #216]	; f0 <sensorhubControlHdlr+0xf0>
+  18:	eb07 0805 	add.w	r8, r7, r5
+  1c:	5d79      	ldrb	r1, [r7, r5]
+  1e:	2300      	movs	r3, #0
+  20:	e002      	b.n	28 <sensorhubControlHdlr+0x28>
+  22:	3301      	adds	r3, #1
+  24:	2b40      	cmp	r3, #64	; 0x40
+  26:	d05b      	beq.n	e0 <sensorhubControlHdlr+0xe0>
+  28:	f814 2013 	ldrb.w	r2, [r4, r3, lsl #1]
+  2c:	428a      	cmp	r2, r1
+  2e:	d1f8      	bne.n	22 <sensorhubControlHdlr+0x22>
+  30:	eb06 0343 	add.w	r3, r6, r3, lsl #1
+  34:	f893 a01e 	ldrb.w	sl, [r3, #30]
+  38:	f1ba 0f00 	cmp.w	sl, #0
+  3c:	d050      	beq.n	e0 <sensorhubControlHdlr+0xe0>
+  3e:	29fc      	cmp	r1, #252	; 0xfc
+  40:	d011      	beq.n	66 <sensorhubControlHdlr+0x66>
+  42:	f8d6 10a0 	ldr.w	r1, [r6, #160]	; 0xa0
+  46:	fa1f fa8a 	uxth.w	sl, sl
+  4a:	b129      	cbz	r1, 58 <sensorhubControlHdlr+0x58>
+  4c:	688b      	ldr	r3, [r1, #8]
+  4e:	b11b      	cbz	r3, 58 <sensorhubControlHdlr+0x58>
+  50:	4652      	mov	r2, sl
+  52:	4641      	mov	r1, r8
+  54:	4630      	mov	r0, r6
+  56:	4798      	blx	r3
+  58:	eb0a 0305 	add.w	r3, sl, r5
+  5c:	b29d      	uxth	r5, r3
+  5e:	45a9      	cmp	r9, r5
+  60:	d8da      	bhi.n	18 <sensorhubControlHdlr+0x18>
+  62:	e8bd 8ff8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  66:	f8d6 20bc 	ldr.w	r2, [r6, #188]	; 0xbc
+  6a:	2a00      	cmp	r2, #0
+  6c:	d0e9      	beq.n	42 <sensorhubControlHdlr+0x42>
+  6e:	2302      	movs	r3, #2
+  70:	f8d6 00c0 	ldr.w	r0, [r6, #192]	; 0xc0
+  74:	f8cb 3000 	str.w	r3, [fp]
+  78:	f898 1001 	ldrb.w	r1, [r8, #1]
+  7c:	f88b 1004 	strb.w	r1, [fp, #4]
+  80:	f898 c002 	ldrb.w	ip, [r8, #2]
+  84:	491a      	ldr	r1, [pc, #104]	; (f0 <sensorhubControlHdlr+0xf0>)
+  86:	f3cc 0e40 	ubfx	lr, ip, #1, #1
+  8a:	f88b e008 	strb.w	lr, [fp, #8]
+  8e:	f00c 0e01 	and.w	lr, ip, #1
+  92:	f88b e009 	strb.w	lr, [fp, #9]
+  96:	f3cc 0e80 	ubfx	lr, ip, #2, #1
+  9a:	f3cc 0cc0 	ubfx	ip, ip, #3, #1
+  9e:	f88b e00a 	strb.w	lr, [fp, #10]
+  a2:	f88b c00b 	strb.w	ip, [fp, #11]
+  a6:	f898 c003 	ldrb.w	ip, [r8, #3]
+  aa:	f898 e004 	ldrb.w	lr, [r8, #4]
+  ae:	ea4c 2c0e 	orr.w	ip, ip, lr, lsl #8
+  b2:	f8ab c00c 	strh.w	ip, [fp, #12]
+  b6:	f8d8 3005 	ldr.w	r3, [r8, #5]
+  ba:	f8cb 3010 	str.w	r3, [fp, #16]
+  be:	f8d8 3009 	ldr.w	r3, [r8, #9]
+  c2:	f8cb 3014 	str.w	r3, [fp, #20]
+  c6:	f8d8 300d 	ldr.w	r3, [r8, #13]
+  ca:	f8cb 3018 	str.w	r3, [fp, #24]
+  ce:	4790      	blx	r2
+  d0:	e7b7      	b.n	42 <sensorhubControlHdlr+0x42>
+  d2:	f8d0 31f4 	ldr.w	r3, [r0, #500]	; 0x1f4
+  d6:	3301      	adds	r3, #1
+  d8:	f8c0 31f4 	str.w	r3, [r0, #500]	; 0x1f4
+  dc:	e8bd 8ff8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  e0:	f8d6 31f8 	ldr.w	r3, [r6, #504]	; 0x1f8
+  e4:	3301      	adds	r3, #1
+  e6:	f8c6 31f8 	str.w	r3, [r6, #504]	; 0x1f8
+  ea:	e8bd 8ff8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  ee:	bf00      	nop
+  f0:	00000000 	.word	0x00000000
+
+Disassembly of section .text.finishCalStart:
+
+00000000 <finishCalStart>:
+   0:	b500      	push	{lr}
+   2:	b085      	sub	sp, #20
+   4:	2300      	movs	r3, #0
+   6:	f04f 0c01 	mov.w	ip, #1
+   a:	210c      	movs	r1, #12
+   c:	aa01      	add	r2, sp, #4
+   e:	f88d 300c 	strb.w	r3, [sp, #12]
+  12:	e9cd 3301 	strd	r3, r3, [sp, #4]
+  16:	f88d c004 	strb.w	ip, [sp, #4]
+  1a:	f7ff fffe 	bl	0 <finishCalStart>
+  1e:	b005      	add	sp, #20
+  20:	f85d fb04 	ldr.w	pc, [sp], #4
+
+Disassembly of section .text.reinitStart:
+
+00000000 <reinitStart>:
+   0:	b500      	push	{lr}
+   2:	2104      	movs	r1, #4
+   4:	b085      	sub	sp, #20
+   6:	2300      	movs	r3, #0
+   8:	f04f 0c01 	mov.w	ip, #1
+   c:	eb0d 0201 	add.w	r2, sp, r1
+  10:	f88d 300c 	strb.w	r3, [sp, #12]
+  14:	e9cd 3301 	strd	r3, r3, [sp, #4]
+  18:	f88d c004 	strb.w	ip, [sp, #4]
+  1c:	f7ff fffe 	bl	0 <reinitStart>
+  20:	b005      	add	sp, #20
+  22:	f85d fb04 	ldr.w	pc, [sp], #4
+  26:	bf00      	nop
+
+Disassembly of section .text.startCalRx:
+
+00000000 <startCalRx>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	2bf1      	cmp	r3, #241	; 0xf1
+   4:	d104      	bne.n	10 <startCalRx+0x10>
+   6:	788a      	ldrb	r2, [r1, #2]
+   8:	f890 30b8 	ldrb.w	r3, [r0, #184]	; 0xb8
+   c:	429a      	cmp	r2, r3
+   e:	d000      	beq.n	12 <startCalRx+0x12>
+  10:	4770      	bx	lr
+  12:	78ca      	ldrb	r2, [r1, #3]
+  14:	f890 30b9 	ldrb.w	r3, [r0, #185]	; 0xb9
+  18:	429a      	cmp	r2, r3
+  1a:	d1f9      	bne.n	10 <startCalRx+0x10>
+  1c:	2300      	movs	r3, #0
+  1e:	e9c0 3328 	strd	r3, r3, [r0, #160]	; 0xa0
+  22:	4770      	bx	lr
+
+Disassembly of section .text.getOscTypeRx:
+
+00000000 <getOscTypeRx>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	2bf1      	cmp	r3, #241	; 0xf1
+   4:	d104      	bne.n	10 <getOscTypeRx+0x10>
+   6:	788a      	ldrb	r2, [r1, #2]
+   8:	f890 30b8 	ldrb.w	r3, [r0, #184]	; 0xb8
+   c:	429a      	cmp	r2, r3
+   e:	d000      	beq.n	12 <getOscTypeRx+0x12>
+  10:	4770      	bx	lr
+  12:	78ca      	ldrb	r2, [r1, #3]
+  14:	f890 30b9 	ldrb.w	r3, [r0, #185]	; 0xb9
+  18:	429a      	cmp	r2, r3
+  1a:	d1f9      	bne.n	10 <getOscTypeRx+0x10>
+  1c:	7949      	ldrb	r1, [r1, #5]
+  1e:	2300      	movs	r3, #0
+  20:	f8d0 20a8 	ldr.w	r2, [r0, #168]	; 0xa8
+  24:	7011      	strb	r1, [r2, #0]
+  26:	e9c0 3328 	strd	r3, r3, [r0, #160]	; 0xa0
+  2a:	4770      	bx	lr
+
+Disassembly of section .text.reinitRx:
+
+00000000 <reinitRx>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	2bf1      	cmp	r3, #241	; 0xf1
+   4:	d104      	bne.n	10 <reinitRx+0x10>
+   6:	788a      	ldrb	r2, [r1, #2]
+   8:	f890 30b8 	ldrb.w	r3, [r0, #184]	; 0xb8
+   c:	429a      	cmp	r2, r3
+   e:	d000      	beq.n	12 <reinitRx+0x12>
+  10:	4770      	bx	lr
+  12:	78ca      	ldrb	r2, [r1, #3]
+  14:	f890 30b9 	ldrb.w	r3, [r0, #185]	; 0xb9
+  18:	429a      	cmp	r2, r3
+  1a:	d1f9      	bne.n	10 <reinitRx+0x10>
+  1c:	2300      	movs	r3, #0
+  1e:	794a      	ldrb	r2, [r1, #5]
+  20:	429a      	cmp	r2, r3
+  22:	f8c0 30a0 	str.w	r3, [r0, #160]	; 0xa0
+  26:	bf18      	it	ne
+  28:	f06f 0304 	mvnne.w	r3, #4
+  2c:	f8c0 30a4 	str.w	r3, [r0, #164]	; 0xa4
+  30:	4770      	bx	lr
+  32:	bf00      	nop
+
+Disassembly of section .text.finishCalRx:
+
+00000000 <finishCalRx>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	2bf1      	cmp	r3, #241	; 0xf1
+   4:	d104      	bne.n	10 <finishCalRx+0x10>
+   6:	788a      	ldrb	r2, [r1, #2]
+   8:	f890 30b8 	ldrb.w	r3, [r0, #184]	; 0xb8
+   c:	429a      	cmp	r2, r3
+   e:	d000      	beq.n	12 <finishCalRx+0x12>
+  10:	4770      	bx	lr
+  12:	78ca      	ldrb	r2, [r1, #3]
+  14:	f890 30b9 	ldrb.w	r3, [r0, #185]	; 0xb9
+  18:	429a      	cmp	r2, r3
+  1a:	d1f9      	bne.n	10 <finishCalRx+0x10>
+  1c:	798b      	ldrb	r3, [r1, #6]
+  1e:	f880 30a8 	strb.w	r3, [r0, #168]	; 0xa8
+  22:	b913      	cbnz	r3, 2a <finishCalRx+0x2a>
+  24:	e9c0 3328 	strd	r3, r3, [r0, #160]	; 0xa0
+  28:	4770      	bx	lr
+  2a:	2300      	movs	r3, #0
+  2c:	f06f 0204 	mvn.w	r2, #4
+  30:	e9c0 3228 	strd	r3, r2, [r0, #160]	; 0xa0
+  34:	4770      	bx	lr
+  36:	bf00      	nop
+
+Disassembly of section .text.getCalConfigRx:
+
+00000000 <getCalConfigRx>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	2bf1      	cmp	r3, #241	; 0xf1
+   4:	d104      	bne.n	10 <getCalConfigRx+0x10>
+   6:	788a      	ldrb	r2, [r1, #2]
+   8:	f890 30b8 	ldrb.w	r3, [r0, #184]	; 0xb8
+   c:	429a      	cmp	r2, r3
+   e:	d000      	beq.n	12 <getCalConfigRx+0x12>
+  10:	4770      	bx	lr
+  12:	78ca      	ldrb	r2, [r1, #3]
+  14:	f890 30b9 	ldrb.w	r3, [r0, #185]	; 0xb9
+  18:	429a      	cmp	r2, r3
+  1a:	d1f9      	bne.n	10 <getCalConfigRx+0x10>
+  1c:	794b      	ldrb	r3, [r1, #5]
+  1e:	b9bb      	cbnz	r3, 50 <getCalConfigRx+0x50>
+  20:	798b      	ldrb	r3, [r1, #6]
+  22:	79ca      	ldrb	r2, [r1, #7]
+  24:	3b00      	subs	r3, #0
+  26:	bf18      	it	ne
+  28:	2301      	movne	r3, #1
+  2a:	b10a      	cbz	r2, 30 <getCalConfigRx+0x30>
+  2c:	f043 0302 	orr.w	r3, r3, #2
+  30:	7a0a      	ldrb	r2, [r1, #8]
+  32:	b10a      	cbz	r2, 38 <getCalConfigRx+0x38>
+  34:	f043 0304 	orr.w	r3, r3, #4
+  38:	7a4a      	ldrb	r2, [r1, #9]
+  3a:	b10a      	cbz	r2, 40 <getCalConfigRx+0x40>
+  3c:	f043 0308 	orr.w	r3, r3, #8
+  40:	f8d0 10a8 	ldr.w	r1, [r0, #168]	; 0xa8
+  44:	2200      	movs	r2, #0
+  46:	700b      	strb	r3, [r1, #0]
+  48:	2300      	movs	r3, #0
+  4a:	e9c0 3228 	strd	r3, r2, [r0, #160]	; 0xa0
+  4e:	4770      	bx	lr
+  50:	f06f 0204 	mvn.w	r2, #4
+  54:	e7f8      	b.n	48 <getCalConfigRx+0x48>
+  56:	bf00      	nop
+
+Disassembly of section .text.getErrorsRx:
+
+00000000 <getErrorsRx>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	2bf1      	cmp	r3, #241	; 0xf1
+   4:	d104      	bne.n	10 <getErrorsRx+0x10>
+   6:	788a      	ldrb	r2, [r1, #2]
+   8:	f890 30b8 	ldrb.w	r3, [r0, #184]	; 0xb8
+   c:	429a      	cmp	r2, r3
+   e:	d000      	beq.n	12 <getErrorsRx+0x12>
+  10:	4770      	bx	lr
+  12:	78ca      	ldrb	r2, [r1, #3]
+  14:	f890 30b9 	ldrb.w	r3, [r0, #185]	; 0xb9
+  18:	429a      	cmp	r2, r3
+  1a:	d1f9      	bne.n	10 <getErrorsRx+0x10>
+  1c:	f891 c007 	ldrb.w	ip, [r1, #7]
+  20:	f1bc 0fff 	cmp.w	ip, #255	; 0xff
+  24:	d024      	beq.n	70 <getErrorsRx+0x70>
+  26:	f8d0 20b0 	ldr.w	r2, [r0, #176]	; 0xb0
+  2a:	f8b0 30b4 	ldrh.w	r3, [r0, #180]	; 0xb4
+  2e:	8812      	ldrh	r2, [r2, #0]
+  30:	429a      	cmp	r2, r3
+  32:	d9ed      	bls.n	10 <getErrorsRx+0x10>
+  34:	f8d0 20ac 	ldr.w	r2, [r0, #172]	; 0xac
+  38:	b510      	push	{r4, lr}
+  3a:	eb03 0e43 	add.w	lr, r3, r3, lsl #1
+  3e:	794c      	ldrb	r4, [r1, #5]
+  40:	3301      	adds	r3, #1
+  42:	f802 401e 	strb.w	r4, [r2, lr, lsl #1]
+  46:	eb02 024e 	add.w	r2, r2, lr, lsl #1
+  4a:	f891 e006 	ldrb.w	lr, [r1, #6]
+  4e:	f882 c002 	strb.w	ip, [r2, #2]
+  52:	f882 e001 	strb.w	lr, [r2, #1]
+  56:	f891 c008 	ldrb.w	ip, [r1, #8]
+  5a:	f882 c003 	strb.w	ip, [r2, #3]
+  5e:	f891 c009 	ldrb.w	ip, [r1, #9]
+  62:	f882 c004 	strb.w	ip, [r2, #4]
+  66:	7a89      	ldrb	r1, [r1, #10]
+  68:	7151      	strb	r1, [r2, #5]
+  6a:	f8a0 30b4 	strh.w	r3, [r0, #180]	; 0xb4
+  6e:	bd10      	pop	{r4, pc}
+  70:	2300      	movs	r3, #0
+  72:	f8d0 20b0 	ldr.w	r2, [r0, #176]	; 0xb0
+  76:	f8b0 10b4 	ldrh.w	r1, [r0, #180]	; 0xb4
+  7a:	8011      	strh	r1, [r2, #0]
+  7c:	e9c0 3328 	strd	r3, r3, [r0, #160]	; 0xa0
+  80:	4770      	bx	lr
+  82:	bf00      	nop
+
+Disassembly of section .text.saveDcdNowRx:
+
+00000000 <saveDcdNowRx>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	2bf1      	cmp	r3, #241	; 0xf1
+   4:	d104      	bne.n	10 <saveDcdNowRx+0x10>
+   6:	788a      	ldrb	r2, [r1, #2]
+   8:	f890 30b8 	ldrb.w	r3, [r0, #184]	; 0xb8
+   c:	429a      	cmp	r2, r3
+   e:	d000      	beq.n	12 <saveDcdNowRx+0x12>
+  10:	4770      	bx	lr
+  12:	78ca      	ldrb	r2, [r1, #3]
+  14:	f890 30b9 	ldrb.w	r3, [r0, #185]	; 0xb9
+  18:	429a      	cmp	r2, r3
+  1a:	d1f9      	bne.n	10 <saveDcdNowRx+0x10>
+  1c:	2300      	movs	r3, #0
+  1e:	794a      	ldrb	r2, [r1, #5]
+  20:	429a      	cmp	r2, r3
+  22:	f8c0 30a0 	str.w	r3, [r0, #160]	; 0xa0
+  26:	bf18      	it	ne
+  28:	f06f 0304 	mvnne.w	r3, #4
+  2c:	f8c0 30a4 	str.w	r3, [r0, #164]	; 0xa4
+  30:	4770      	bx	lr
+  32:	bf00      	nop
+
+Disassembly of section .text.setCalConfigRx:
+
+00000000 <setCalConfigRx>:
+   0:	780b      	ldrb	r3, [r1, #0]
+   2:	2bf1      	cmp	r3, #241	; 0xf1
+   4:	d104      	bne.n	10 <setCalConfigRx+0x10>
+   6:	788a      	ldrb	r2, [r1, #2]
+   8:	f890 30b8 	ldrb.w	r3, [r0, #184]	; 0xb8
+   c:	429a      	cmp	r2, r3
+   e:	d000      	beq.n	12 <setCalConfigRx+0x12>
+  10:	4770      	bx	lr
+  12:	78ca      	ldrb	r2, [r1, #3]
+  14:	f890 30b9 	ldrb.w	r3, [r0, #185]	; 0xb9
+  18:	429a      	cmp	r2, r3
+  1a:	d1f9      	bne.n	10 <setCalConfigRx+0x10>
+  1c:	2300      	movs	r3, #0
+  1e:	794a      	ldrb	r2, [r1, #5]
+  20:	429a      	cmp	r2, r3
+  22:	f8c0 30a0 	str.w	r3, [r0, #160]	; 0xa0
+  26:	bf18      	it	ne
+  28:	f06f 0304 	mvnne.w	r3, #4
+  2c:	f8c0 30a4 	str.w	r3, [r0, #164]	; 0xa4
+  30:	4770      	bx	lr
+  32:	bf00      	nop
+
+Disassembly of section .text.sh2_open:
+
+00000000 <sh2_open>:
+   0:	2800      	cmp	r0, #0
+   2:	d05e      	beq.n	c2 <sh2_open+0xc2>
+   4:	b5f0      	push	{r4, r5, r6, r7, lr}
+   6:	4c32      	ldr	r4, [pc, #200]	; (d0 <sh2_open+0xd0>)
+   8:	4605      	mov	r5, r0
+   a:	b083      	sub	sp, #12
+   c:	460f      	mov	r7, r1
+   e:	4616      	mov	r6, r2
+  10:	2100      	movs	r1, #0
+  12:	f44f 72fe 	mov.w	r2, #508	; 0x1fc
+  16:	4620      	mov	r0, r4
+  18:	f7ff fffe 	bl	0 <memset>
+  1c:	23ff      	movs	r3, #255	; 0xff
+  1e:	4628      	mov	r0, r5
+  20:	6025      	str	r5, [r4, #0]
+  22:	72e3      	strb	r3, [r4, #11]
+  24:	e9c4 762f 	strd	r7, r6, [r4, #188]	; 0xbc
+  28:	f7ff fffe 	bl	0 <shtp_open>
+  2c:	6060      	str	r0, [r4, #4]
+  2e:	2800      	cmp	r0, #0
+  30:	d04a      	beq.n	c8 <sh2_open+0xc8>
+  32:	4622      	mov	r2, r4
+  34:	4927      	ldr	r1, [pc, #156]	; (d4 <sh2_open+0xd4>)
+  36:	f7ff fffe 	bl	0 <shtp_setEventCallback>
+  3a:	4623      	mov	r3, r4
+  3c:	4a26      	ldr	r2, [pc, #152]	; (d8 <sh2_open+0xd8>)
+  3e:	2102      	movs	r1, #2
+  40:	6860      	ldr	r0, [r4, #4]
+  42:	f7ff fffe 	bl	0 <shtp_listenAdvert>
+  46:	4b25      	ldr	r3, [pc, #148]	; (dc <sh2_open+0xdc>)
+  48:	4a25      	ldr	r2, [pc, #148]	; (e0 <sh2_open+0xe0>)
+  4a:	2102      	movs	r1, #2
+  4c:	6860      	ldr	r0, [r4, #4]
+  4e:	9400      	str	r4, [sp, #0]
+  50:	f7ff fffe 	bl	0 <shtp_listenChan>
+  54:	4b23      	ldr	r3, [pc, #140]	; (e4 <sh2_open+0xe4>)
+  56:	4a24      	ldr	r2, [pc, #144]	; (e8 <sh2_open+0xe8>)
+  58:	2102      	movs	r1, #2
+  5a:	6860      	ldr	r0, [r4, #4]
+  5c:	9400      	str	r4, [sp, #0]
+  5e:	f7ff fffe 	bl	0 <shtp_listenChan>
+  62:	4b22      	ldr	r3, [pc, #136]	; (ec <sh2_open+0xec>)
+  64:	4a22      	ldr	r2, [pc, #136]	; (f0 <sh2_open+0xf0>)
+  66:	2102      	movs	r1, #2
+  68:	6860      	ldr	r0, [r4, #4]
+  6a:	9400      	str	r4, [sp, #0]
+  6c:	f7ff fffe 	bl	0 <shtp_listenChan>
+  70:	4a20      	ldr	r2, [pc, #128]	; (f4 <sh2_open+0xf4>)
+  72:	2102      	movs	r1, #2
+  74:	4b20      	ldr	r3, [pc, #128]	; (f8 <sh2_open+0xf8>)
+  76:	6860      	ldr	r0, [r4, #4]
+  78:	9400      	str	r4, [sp, #0]
+  7a:	f7ff fffe 	bl	0 <shtp_listenChan>
+  7e:	4623      	mov	r3, r4
+  80:	4a1e      	ldr	r2, [pc, #120]	; (fc <sh2_open+0xfc>)
+  82:	2101      	movs	r1, #1
+  84:	6860      	ldr	r0, [r4, #4]
+  86:	f7ff fffe 	bl	0 <shtp_listenAdvert>
+  8a:	4b1d      	ldr	r3, [pc, #116]	; (100 <sh2_open+0x100>)
+  8c:	4a1d      	ldr	r2, [pc, #116]	; (104 <sh2_open+0x104>)
+  8e:	2101      	movs	r1, #1
+  90:	6860      	ldr	r0, [r4, #4]
+  92:	9400      	str	r4, [sp, #0]
+  94:	f7ff fffe 	bl	0 <shtp_listenChan>
+  98:	6820      	ldr	r0, [r4, #0]
+  9a:	4e1b      	ldr	r6, [pc, #108]	; (108 <sh2_open+0x108>)
+  9c:	6903      	ldr	r3, [r0, #16]
+  9e:	4798      	blx	r3
+  a0:	4605      	mov	r5, r0
+  a2:	e008      	b.n	b6 <sh2_open+0xb6>
+  a4:	6860      	ldr	r0, [r4, #4]
+  a6:	f7ff fffe 	bl	0 <shtp_service>
+  aa:	6820      	ldr	r0, [r4, #0]
+  ac:	6903      	ldr	r3, [r0, #16]
+  ae:	4798      	blx	r3
+  b0:	1b40      	subs	r0, r0, r5
+  b2:	42b0      	cmp	r0, r6
+  b4:	d802      	bhi.n	bc <sh2_open+0xbc>
+  b6:	7a23      	ldrb	r3, [r4, #8]
+  b8:	2b00      	cmp	r3, #0
+  ba:	d0f3      	beq.n	a4 <sh2_open+0xa4>
+  bc:	2000      	movs	r0, #0
+  be:	b003      	add	sp, #12
+  c0:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  c2:	f06f 0001 	mvn.w	r0, #1
+  c6:	4770      	bx	lr
+  c8:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  cc:	e7f7      	b.n	be <sh2_open+0xbe>
+  ce:	bf00      	nop
+  d0:	00000000 	.word	0x00000000
+  d4:	00000000 	.word	0x00000000
+  d8:	00000000 	.word	0x00000000
+  dc:	00000000 	.word	0x00000000
+  e0:	00000014 	.word	0x00000014
+  e4:	00000000 	.word	0x00000000
+  e8:	00000000 	.word	0x00000000
+  ec:	00000000 	.word	0x00000000
+  f0:	0000000c 	.word	0x0000000c
+  f4:	00000018 	.word	0x00000018
+  f8:	00000000 	.word	0x00000000
+  fc:	00000000 	.word	0x00000000
+ 100:	00000000 	.word	0x00000000
+ 104:	00000000 	.word	0x00000000
+ 108:	00030d3f 	.word	0x00030d3f
+
+Disassembly of section .text.sh2_close:
+
+00000000 <sh2_close>:
+   0:	b510      	push	{r4, lr}
+   2:	4c06      	ldr	r4, [pc, #24]	; (1c <sh2_close+0x1c>)
+   4:	6860      	ldr	r0, [r4, #4]
+   6:	f7ff fffe 	bl	0 <shtp_close>
+   a:	4620      	mov	r0, r4
+   c:	f44f 72fe 	mov.w	r2, #508	; 0x1fc
+  10:	2100      	movs	r1, #0
+  12:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  16:	f7ff bffe 	b.w	0 <memset>
+  1a:	bf00      	nop
+  1c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_service:
+
+00000000 <sh2_service>:
+   0:	4b01      	ldr	r3, [pc, #4]	; (8 <sh2_service+0x8>)
+   2:	6858      	ldr	r0, [r3, #4]
+   4:	f7ff bffe 	b.w	0 <shtp_service>
+   8:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_setSensorCallback:
+
+00000000 <sh2_setSensorCallback>:
+   0:	4602      	mov	r2, r0
+   2:	4b02      	ldr	r3, [pc, #8]	; (c <sh2_setSensorCallback+0xc>)
+   4:	2000      	movs	r0, #0
+   6:	e9c3 2131 	strd	r2, r1, [r3, #196]	; 0xc4
+   a:	4770      	bx	lr
+   c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_devReset:
+
+00000000 <sh2_devReset>:
+   0:	b500      	push	{lr}
+   2:	4807      	ldr	r0, [pc, #28]	; (20 <sh2_devReset+0x20>)
+   4:	b083      	sub	sp, #12
+   6:	2301      	movs	r3, #1
+   8:	7a81      	ldrb	r1, [r0, #10]
+   a:	f10d 0207 	add.w	r2, sp, #7
+   e:	6840      	ldr	r0, [r0, #4]
+  10:	f88d 3007 	strb.w	r3, [sp, #7]
+  14:	f7ff fffe 	bl	0 <shtp_send>
+  18:	b003      	add	sp, #12
+  1a:	f85d fb04 	ldr.w	pc, [sp], #4
+  1e:	bf00      	nop
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_devOn:
+
+00000000 <sh2_devOn>:
+   0:	b500      	push	{lr}
+   2:	4808      	ldr	r0, [pc, #32]	; (24 <sh2_devOn+0x24>)
+   4:	b083      	sub	sp, #12
+   6:	f04f 0c02 	mov.w	ip, #2
+   a:	2301      	movs	r3, #1
+   c:	7a81      	ldrb	r1, [r0, #10]
+   e:	f10d 0207 	add.w	r2, sp, #7
+  12:	6840      	ldr	r0, [r0, #4]
+  14:	f88d c007 	strb.w	ip, [sp, #7]
+  18:	f7ff fffe 	bl	0 <shtp_send>
+  1c:	b003      	add	sp, #12
+  1e:	f85d fb04 	ldr.w	pc, [sp], #4
+  22:	bf00      	nop
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_devSleep:
+
+00000000 <sh2_devSleep>:
+   0:	b500      	push	{lr}
+   2:	4808      	ldr	r0, [pc, #32]	; (24 <sh2_devSleep+0x24>)
+   4:	b083      	sub	sp, #12
+   6:	f04f 0c03 	mov.w	ip, #3
+   a:	2301      	movs	r3, #1
+   c:	7a81      	ldrb	r1, [r0, #10]
+   e:	f10d 0207 	add.w	r2, sp, #7
+  12:	6840      	ldr	r0, [r0, #4]
+  14:	f88d c007 	strb.w	ip, [sp, #7]
+  18:	f7ff fffe 	bl	0 <shtp_send>
+  1c:	b003      	add	sp, #12
+  1e:	f85d fb04 	ldr.w	pc, [sp], #4
+  22:	bf00      	nop
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_getProdIds:
+
+00000000 <sh2_getProdIds>:
+   0:	b410      	push	{r4}
+   2:	4a06      	ldr	r2, [pc, #24]	; (1c <sh2_getProdIds+0x1c>)
+   4:	4604      	mov	r4, r0
+   6:	2300      	movs	r3, #0
+   8:	4805      	ldr	r0, [pc, #20]	; (20 <sh2_getProdIds+0x20>)
+   a:	e9c2 432a 	strd	r4, r3, [r2, #168]	; 0xa8
+   e:	e9c2 332c 	strd	r3, r3, [r2, #176]	; 0xb0
+  12:	f85d 4b04 	ldr.w	r4, [sp], #4
+  16:	f7ff bffe 	b.w	0 <sh2_getProdIds>
+  1a:	bf00      	nop
+  1c:	00000000 	.word	0x00000000
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_getSensorConfig:
+
+00000000 <sh2_getSensorConfig>:
+   0:	b500      	push	{lr}
+   2:	4b07      	ldr	r3, [pc, #28]	; (20 <sh2_getSensorConfig+0x20>)
+   4:	4686      	mov	lr, r0
+   6:	2200      	movs	r2, #0
+   8:	4806      	ldr	r0, [pc, #24]	; (24 <sh2_getSensorConfig+0x24>)
+   a:	e9c3 122a 	strd	r1, r2, [r3, #168]	; 0xa8
+   e:	e9c3 222c 	strd	r2, r2, [r3, #176]	; 0xb0
+  12:	f883 e0ac 	strb.w	lr, [r3, #172]	; 0xac
+  16:	f85d eb04 	ldr.w	lr, [sp], #4
+  1a:	f7ff bffe 	b.w	0 <sh2_getSensorConfig>
+  1e:	bf00      	nop
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_setSensorConfig:
+
+00000000 <sh2_setSensorConfig>:
+   0:	b500      	push	{lr}
+   2:	4b07      	ldr	r3, [pc, #28]	; (20 <sh2_setSensorConfig+0x20>)
+   4:	4686      	mov	lr, r0
+   6:	2200      	movs	r2, #0
+   8:	4806      	ldr	r0, [pc, #24]	; (24 <sh2_setSensorConfig+0x24>)
+   a:	e9c3 122a 	strd	r1, r2, [r3, #168]	; 0xa8
+   e:	e9c3 222c 	strd	r2, r2, [r3, #176]	; 0xb0
+  12:	f883 e0ac 	strb.w	lr, [r3, #172]	; 0xac
+  16:	f85d eb04 	ldr.w	lr, [sp], #4
+  1a:	f7ff bffe 	b.w	0 <sh2_setSensorConfig>
+  1e:	bf00      	nop
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_getMetadata:
+
+00000000 <sh2_getMetadata>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	b351      	cbz	r1, 5c <sh2_getMetadata+0x5c>
+   6:	460d      	mov	r5, r1
+   8:	2214      	movs	r2, #20
+   a:	2300      	movs	r3, #0
+   c:	4c52      	ldr	r4, [pc, #328]	; (158 <sh2_getMetadata+0x158>)
+   e:	e004      	b.n	1a <sh2_getMetadata+0x1a>
+  10:	3301      	adds	r3, #1
+  12:	2b20      	cmp	r3, #32
+  14:	d022      	beq.n	5c <sh2_getMetadata+0x5c>
+  16:	f814 2023 	ldrb.w	r2, [r4, r3, lsl #2]
+  1a:	4290      	cmp	r0, r2
+  1c:	d1f8      	bne.n	10 <sh2_getMetadata+0x10>
+  1e:	4a4e      	ldr	r2, [pc, #312]	; (158 <sh2_getMetadata+0x158>)
+  20:	4c4e      	ldr	r4, [pc, #312]	; (15c <sh2_getMetadata+0x15c>)
+  22:	eb02 0383 	add.w	r3, r2, r3, lsl #2
+  26:	2200      	movs	r2, #0
+  28:	f104 07cc 	add.w	r7, r4, #204	; 0xcc
+  2c:	484c      	ldr	r0, [pc, #304]	; (160 <sh2_getMetadata+0x160>)
+  2e:	8859      	ldrh	r1, [r3, #2]
+  30:	2348      	movs	r3, #72	; 0x48
+  32:	f8c4 20a8 	str.w	r2, [r4, #168]	; 0xa8
+  36:	f8a4 31ec 	strh.w	r3, [r4, #492]	; 0x1ec
+  3a:	f504 73f6 	add.w	r3, r4, #492	; 0x1ec
+  3e:	f8c4 20b4 	str.w	r2, [r4, #180]	; 0xb4
+  42:	f8a4 10a8 	strh.w	r1, [r4, #168]	; 0xa8
+  46:	f8c4 70ac 	str.w	r7, [r4, #172]	; 0xac
+  4a:	f8c4 30b0 	str.w	r3, [r4, #176]	; 0xb0
+  4e:	f7ff fffe 	bl	0 <sh2_getMetadata>
+  52:	4606      	mov	r6, r0
+  54:	b138      	cbz	r0, 66 <sh2_getMetadata+0x66>
+  56:	4630      	mov	r0, r6
+  58:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  5c:	f06f 0601 	mvn.w	r6, #1
+  60:	4630      	mov	r0, r6
+  62:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  66:	f8d4 30cc 	ldr.w	r3, [r4, #204]	; 0xcc
+  6a:	f105 0930 	add.w	r9, r5, #48	; 0x30
+  6e:	f8b4 20cc 	ldrh.w	r2, [r4, #204]	; 0xcc
+  72:	0c1b      	lsrs	r3, r3, #16
+  74:	802a      	strh	r2, [r5, #0]
+  76:	70ab      	strb	r3, [r5, #2]
+  78:	f8d4 30d0 	ldr.w	r3, [r4, #208]	; 0xd0
+  7c:	606b      	str	r3, [r5, #4]
+  7e:	f8d4 30d4 	ldr.w	r3, [r4, #212]	; 0xd4
+  82:	60ab      	str	r3, [r5, #8]
+  84:	f8d4 20dc 	ldr.w	r2, [r4, #220]	; 0xdc
+  88:	f8d4 30d8 	ldr.w	r3, [r4, #216]	; 0xd8
+  8c:	e9c5 2604 	strd	r2, r6, [r5, #16]
+  90:	f8b4 20e0 	ldrh.w	r2, [r4, #224]	; 0xe0
+  94:	81eb      	strh	r3, [r5, #14]
+  96:	61ea      	str	r2, [r5, #28]
+  98:	f8b4 20e2 	ldrh.w	r2, [r4, #226]	; 0xe2
+  9c:	61aa      	str	r2, [r5, #24]
+  9e:	f8b4 20e4 	ldrh.w	r2, [r4, #228]	; 0xe4
+  a2:	622a      	str	r2, [r5, #32]
+  a4:	0c1a      	lsrs	r2, r3, #16
+  a6:	f8b4 80e6 	ldrh.w	r8, [r4, #230]	; 0xe6
+  aa:	0c1b      	lsrs	r3, r3, #16
+  ac:	81aa      	strh	r2, [r5, #12]
+  ae:	626e      	str	r6, [r5, #36]	; 0x24
+  b0:	852e      	strh	r6, [r5, #40]	; 0x28
+  b2:	f8c5 802c 	str.w	r8, [r5, #44]	; 0x2c
+  b6:	662e      	str	r6, [r5, #96]	; 0x60
+  b8:	f885 6030 	strb.w	r6, [r5, #48]	; 0x30
+  bc:	d108      	bne.n	d0 <sh2_getMetadata+0xd0>
+  be:	2120      	movs	r1, #32
+  c0:	4642      	mov	r2, r8
+  c2:	4439      	add	r1, r7
+  c4:	4648      	mov	r0, r9
+  c6:	f7ff fffe 	bl	0 <memcpy>
+  ca:	4630      	mov	r0, r6
+  cc:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  d0:	3a01      	subs	r2, #1
+  d2:	2a03      	cmp	r2, #3
+  d4:	d8f3      	bhi.n	be <sh2_getMetadata+0xbe>
+  d6:	e8df f002 	tbb	[pc, r2]
+  da:	3139      	.short	0x3139
+  dc:	021b      	.short	0x021b
+  de:	f8b4 a0ec 	ldrh.w	sl, [r4, #236]	; 0xec
+  e2:	f105 0064 	add.w	r0, r5, #100	; 0x64
+  e6:	f8d4 30e8 	ldr.w	r3, [r4, #232]	; 0xe8
+  ea:	f8c5 a060 	str.w	sl, [r5, #96]	; 0x60
+  ee:	4652      	mov	r2, sl
+  f0:	626b      	str	r3, [r5, #36]	; 0x24
+  f2:	f8b4 30ee 	ldrh.w	r3, [r4, #238]	; 0xee
+  f6:	491b      	ldr	r1, [pc, #108]	; (164 <sh2_getMetadata+0x164>)
+  f8:	852b      	strh	r3, [r5, #40]	; 0x28
+  fa:	f8d4 30f0 	ldr.w	r3, [r4, #240]	; 0xf0
+  fe:	616b      	str	r3, [r5, #20]
+ 100:	f7ff fffe 	bl	0 <memcpy>
+ 104:	f10a 0103 	add.w	r1, sl, #3
+ 108:	0889      	lsrs	r1, r1, #2
+ 10a:	310a      	adds	r1, #10
+ 10c:	0089      	lsls	r1, r1, #2
+ 10e:	e7d7      	b.n	c0 <sh2_getMetadata+0xc0>
+ 110:	f8d4 30e8 	ldr.w	r3, [r4, #232]	; 0xe8
+ 114:	f8b4 a0ec 	ldrh.w	sl, [r4, #236]	; 0xec
+ 118:	626b      	str	r3, [r5, #36]	; 0x24
+ 11a:	f8c5 a060 	str.w	sl, [r5, #96]	; 0x60
+ 11e:	f8b4 30ee 	ldrh.w	r3, [r4, #238]	; 0xee
+ 122:	852b      	strh	r3, [r5, #40]	; 0x28
+ 124:	4910      	ldr	r1, [pc, #64]	; (168 <sh2_getMetadata+0x168>)
+ 126:	f105 0064 	add.w	r0, r5, #100	; 0x64
+ 12a:	4652      	mov	r2, sl
+ 12c:	f7ff fffe 	bl	0 <memcpy>
+ 130:	f10a 0103 	add.w	r1, sl, #3
+ 134:	0889      	lsrs	r1, r1, #2
+ 136:	3109      	adds	r1, #9
+ 138:	0089      	lsls	r1, r1, #2
+ 13a:	e7c1      	b.n	c0 <sh2_getMetadata+0xc0>
+ 13c:	f8b4 a0ec 	ldrh.w	sl, [r4, #236]	; 0xec
+ 140:	f8d4 30e8 	ldr.w	r3, [r4, #232]	; 0xe8
+ 144:	f8c5 a060 	str.w	sl, [r5, #96]	; 0x60
+ 148:	626b      	str	r3, [r5, #36]	; 0x24
+ 14a:	e7eb      	b.n	124 <sh2_getMetadata+0x124>
+ 14c:	f8d4 30e8 	ldr.w	r3, [r4, #232]	; 0xe8
+ 150:	2120      	movs	r1, #32
+ 152:	626b      	str	r3, [r5, #36]	; 0x24
+ 154:	e7b4      	b.n	c0 <sh2_getMetadata+0xc0>
+ 156:	bf00      	nop
+ 158:	00000000 	.word	0x00000000
+ 15c:	00000000 	.word	0x00000000
+ 160:	00000000 	.word	0x00000000
+ 164:	000000f4 	.word	0x000000f4
+ 168:	000000f0 	.word	0x000000f0
+
+Disassembly of section .text.sh2_getFrs:
+
+00000000 <sh2_getFrs>:
+   0:	b1c1      	cbz	r1, 34 <sh2_getFrs+0x34>
+   2:	b410      	push	{r4}
+   4:	fab2 f482 	clz	r4, r2
+   8:	0964      	lsrs	r4, r4, #5
+   a:	b172      	cbz	r2, 2a <sh2_getFrs+0x2a>
+   c:	4b0b      	ldr	r3, [pc, #44]	; (3c <sh2_getFrs+0x3c>)
+   e:	4684      	mov	ip, r0
+  10:	480b      	ldr	r0, [pc, #44]	; (40 <sh2_getFrs+0x40>)
+  12:	f8c3 40a8 	str.w	r4, [r3, #168]	; 0xa8
+  16:	f8c3 40b4 	str.w	r4, [r3, #180]	; 0xb4
+  1a:	f85d 4b04 	ldr.w	r4, [sp], #4
+  1e:	f8a3 c0a8 	strh.w	ip, [r3, #168]	; 0xa8
+  22:	e9c3 122b 	strd	r1, r2, [r3, #172]	; 0xac
+  26:	f7ff bffe 	b.w	0 <sh2_getFrs>
+  2a:	f06f 0001 	mvn.w	r0, #1
+  2e:	f85d 4b04 	ldr.w	r4, [sp], #4
+  32:	4770      	bx	lr
+  34:	f06f 0001 	mvn.w	r0, #1
+  38:	4770      	bx	lr
+  3a:	bf00      	nop
+  3c:	00000000 	.word	0x00000000
+  40:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_setFrs:
+
+00000000 <sh2_setFrs>:
+   0:	4684      	mov	ip, r0
+   2:	b901      	cbnz	r1, 6 <sh2_setFrs+0x6>
+   4:	b972      	cbnz	r2, 24 <sh2_setFrs+0x24>
+   6:	4b09      	ldr	r3, [pc, #36]	; (2c <sh2_setFrs+0x2c>)
+   8:	4809      	ldr	r0, [pc, #36]	; (30 <sh2_setFrs+0x30>)
+   a:	f8c3 10ac 	str.w	r1, [r3, #172]	; 0xac
+   e:	2100      	movs	r1, #0
+  10:	f8c3 10a8 	str.w	r1, [r3, #168]	; 0xa8
+  14:	f8a3 c0a8 	strh.w	ip, [r3, #168]	; 0xa8
+  18:	e9c3 112c 	strd	r1, r1, [r3, #176]	; 0xb0
+  1c:	f8a3 20b0 	strh.w	r2, [r3, #176]	; 0xb0
+  20:	f7ff bffe 	b.w	0 <sh2_setFrs>
+  24:	f06f 0001 	mvn.w	r0, #1
+  28:	4770      	bx	lr
+  2a:	bf00      	nop
+  2c:	00000000 	.word	0x00000000
+  30:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_getErrors:
+
+00000000 <sh2_getErrors>:
+   0:	4b09      	ldr	r3, [pc, #36]	; (28 <sh2_getErrors+0x28>)
+   2:	4684      	mov	ip, r0
+   4:	4809      	ldr	r0, [pc, #36]	; (2c <sh2_getErrors+0x2c>)
+   6:	b500      	push	{lr}
+   8:	f8c3 10ac 	str.w	r1, [r3, #172]	; 0xac
+   c:	2100      	movs	r1, #0
+   e:	f8c3 20b0 	str.w	r2, [r3, #176]	; 0xb0
+  12:	f8c3 10a8 	str.w	r1, [r3, #168]	; 0xa8
+  16:	f8c3 10b4 	str.w	r1, [r3, #180]	; 0xb4
+  1a:	f85d eb04 	ldr.w	lr, [sp], #4
+  1e:	f883 c0a8 	strb.w	ip, [r3, #168]	; 0xa8
+  22:	f7ff bffe 	b.w	0 <sh2_getErrors>
+  26:	bf00      	nop
+  28:	00000000 	.word	0x00000000
+  2c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_getCounts:
+
+00000000 <sh2_getCounts>:
+   0:	b500      	push	{lr}
+   2:	4b07      	ldr	r3, [pc, #28]	; (20 <sh2_getCounts+0x20>)
+   4:	4686      	mov	lr, r0
+   6:	2200      	movs	r2, #0
+   8:	4806      	ldr	r0, [pc, #24]	; (24 <sh2_getCounts+0x24>)
+   a:	e9c3 212a 	strd	r2, r1, [r3, #168]	; 0xa8
+   e:	e9c3 222c 	strd	r2, r2, [r3, #176]	; 0xb0
+  12:	f883 e0a8 	strb.w	lr, [r3, #168]	; 0xa8
+  16:	f85d eb04 	ldr.w	lr, [sp], #4
+  1a:	f7ff bffe 	b.w	0 <sh2_getCounts>
+  1e:	bf00      	nop
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_clearCounts:
+
+00000000 <sh2_clearCounts>:
+   0:	4a07      	ldr	r2, [pc, #28]	; (20 <sh2_clearCounts+0x20>)
+   2:	2300      	movs	r3, #0
+   4:	4684      	mov	ip, r0
+   6:	f44f 7081 	mov.w	r0, #258	; 0x102
+   a:	e9c2 332a 	strd	r3, r3, [r2, #168]	; 0xa8
+   e:	e9c2 332c 	strd	r3, r3, [r2, #176]	; 0xb0
+  12:	f8a2 00aa 	strh.w	r0, [r2, #170]	; 0xaa
+  16:	f882 c0ac 	strb.w	ip, [r2, #172]	; 0xac
+  1a:	4802      	ldr	r0, [pc, #8]	; (24 <sh2_clearCounts+0x24>)
+  1c:	f7ff bffe 	b.w	0 <sh2_clearCounts>
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_setTareNow:
+
+00000000 <sh2_setTareNow>:
+   0:	4b0b      	ldr	r3, [pc, #44]	; (30 <sh2_setTareNow+0x30>)
+   2:	2200      	movs	r2, #0
+   4:	4684      	mov	ip, r0
+   6:	480b      	ldr	r0, [pc, #44]	; (34 <sh2_setTareNow+0x34>)
+   8:	b500      	push	{lr}
+   a:	f04f 0e03 	mov.w	lr, #3
+   e:	f8c3 20a8 	str.w	r2, [r3, #168]	; 0xa8
+  12:	f8c3 20b4 	str.w	r2, [r3, #180]	; 0xb4
+  16:	f883 e0aa 	strb.w	lr, [r3, #170]	; 0xaa
+  1a:	e9c3 222b 	strd	r2, r2, [r3, #172]	; 0xac
+  1e:	f883 c0ac 	strb.w	ip, [r3, #172]	; 0xac
+  22:	f85d eb04 	ldr.w	lr, [sp], #4
+  26:	f883 10ad 	strb.w	r1, [r3, #173]	; 0xad
+  2a:	f7ff bffe 	b.w	0 <sh2_setTareNow>
+  2e:	bf00      	nop
+  30:	00000000 	.word	0x00000000
+  34:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_clearTare:
+
+00000000 <sh2_clearTare>:
+   0:	4906      	ldr	r1, [pc, #24]	; (1c <sh2_clearTare+0x1c>)
+   2:	2300      	movs	r3, #0
+   4:	f240 2c03 	movw	ip, #515	; 0x203
+   8:	4805      	ldr	r0, [pc, #20]	; (20 <sh2_clearTare+0x20>)
+   a:	e9c1 332a 	strd	r3, r3, [r1, #168]	; 0xa8
+   e:	e9c1 332c 	strd	r3, r3, [r1, #176]	; 0xb0
+  12:	f8a1 c0aa 	strh.w	ip, [r1, #170]	; 0xaa
+  16:	f7ff bffe 	b.w	0 <sh2_clearTare>
+  1a:	bf00      	nop
+  1c:	00000000 	.word	0x00000000
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_persistTare:
+
+00000000 <sh2_persistTare>:
+   0:	4906      	ldr	r1, [pc, #24]	; (1c <sh2_persistTare+0x1c>)
+   2:	2300      	movs	r3, #0
+   4:	f240 1c03 	movw	ip, #259	; 0x103
+   8:	4805      	ldr	r0, [pc, #20]	; (20 <sh2_persistTare+0x20>)
+   a:	e9c1 332a 	strd	r3, r3, [r1, #168]	; 0xa8
+   e:	e9c1 332c 	strd	r3, r3, [r1, #176]	; 0xb0
+  12:	f8a1 c0aa 	strh.w	ip, [r1, #170]	; 0xaa
+  16:	f7ff bffe 	b.w	0 <sh2_persistTare>
+  1a:	bf00      	nop
+  1c:	00000000 	.word	0x00000000
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_setReorientation:
+
+00000000 <sh2_setReorientation>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4c27      	ldr	r4, [pc, #156]	; (a0 <sh2_setReorientation+0xa0>)
+   4:	2300      	movs	r3, #0
+   6:	4605      	mov	r5, r0
+   8:	f240 2203 	movw	r2, #515	; 0x203
+   c:	ed2d 8b02 	vpush	{d8}
+  10:	e9c4 332a 	strd	r3, r3, [r4, #168]	; 0xa8
+  14:	ed9f 8b20 	vldr	d8, [pc, #128]	; 98 <sh2_setReorientation+0x98>
+  18:	e9c4 332c 	strd	r3, r3, [r4, #176]	; 0xb0
+  1c:	ed90 7b00 	vldr	d7, [r0]
+  20:	f104 00ac 	add.w	r0, r4, #172	; 0xac
+  24:	f8a4 20aa 	strh.w	r2, [r4, #170]	; 0xaa
+  28:	ee27 7b08 	vmul.f64	d7, d7, d8
+  2c:	eebd 7bc7 	vcvt.s32.f64	s14, d7
+  30:	ee17 3a10 	vmov	r3, s14
+  34:	b299      	uxth	r1, r3
+  36:	f7ff fffe 	bl	0 <writeu16>
+  3a:	f104 00ae 	add.w	r0, r4, #174	; 0xae
+  3e:	ed95 7b02 	vldr	d7, [r5, #8]
+  42:	ee27 7b08 	vmul.f64	d7, d7, d8
+  46:	eebd 7bc7 	vcvt.s32.f64	s14, d7
+  4a:	ee17 3a10 	vmov	r3, s14
+  4e:	b299      	uxth	r1, r3
+  50:	f7ff fffe 	bl	0 <writeu16>
+  54:	f104 00b0 	add.w	r0, r4, #176	; 0xb0
+  58:	ed95 7b04 	vldr	d7, [r5, #16]
+  5c:	ee27 7b08 	vmul.f64	d7, d7, d8
+  60:	eebd 7bc7 	vcvt.s32.f64	s14, d7
+  64:	ee17 3a10 	vmov	r3, s14
+  68:	b299      	uxth	r1, r3
+  6a:	f7ff fffe 	bl	0 <writeu16>
+  6e:	f104 00b2 	add.w	r0, r4, #178	; 0xb2
+  72:	ed95 7b06 	vldr	d7, [r5, #24]
+  76:	ee27 7b08 	vmul.f64	d7, d7, d8
+  7a:	eebd 7bc7 	vcvt.s32.f64	s14, d7
+  7e:	ee17 3a10 	vmov	r3, s14
+  82:	b299      	uxth	r1, r3
+  84:	f7ff fffe 	bl	0 <writeu16>
+  88:	4806      	ldr	r0, [pc, #24]	; (a4 <sh2_setReorientation+0xa4>)
+  8a:	ecbd 8b02 	vpop	{d8}
+  8e:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  92:	f7ff bffe 	b.w	0 <sh2_setReorientation>
+  96:	bf00      	nop
+  98:	00000000 	.word	0x00000000
+  9c:	40d00000 	.word	0x40d00000
+  a0:	00000000 	.word	0x00000000
+  a4:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_reinitialize:
+
+00000000 <sh2_reinitialize>:
+   0:	4801      	ldr	r0, [pc, #4]	; (8 <sh2_reinitialize+0x8>)
+   2:	f7ff bffe 	b.w	0 <sh2_reinitialize>
+   6:	bf00      	nop
+   8:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_saveDcdNow:
+
+00000000 <sh2_saveDcdNow>:
+   0:	4801      	ldr	r0, [pc, #4]	; (8 <sh2_saveDcdNow+0x8>)
+   2:	f7ff bffe 	b.w	0 <sh2_saveDcdNow>
+   6:	bf00      	nop
+   8:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_getOscType:
+
+00000000 <sh2_getOscType>:
+   0:	4602      	mov	r2, r0
+   2:	4b03      	ldr	r3, [pc, #12]	; (10 <sh2_getOscType+0x10>)
+   4:	4803      	ldr	r0, [pc, #12]	; (14 <sh2_getOscType+0x14>)
+   6:	f8c3 20a8 	str.w	r2, [r3, #168]	; 0xa8
+   a:	f7ff bffe 	b.w	0 <sh2_getOscType>
+   e:	bf00      	nop
+  10:	00000000 	.word	0x00000000
+  14:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_setCalConfig:
+
+00000000 <sh2_setCalConfig>:
+   0:	4602      	mov	r2, r0
+   2:	4b03      	ldr	r3, [pc, #12]	; (10 <sh2_setCalConfig+0x10>)
+   4:	4803      	ldr	r0, [pc, #12]	; (14 <sh2_setCalConfig+0x14>)
+   6:	f883 20a8 	strb.w	r2, [r3, #168]	; 0xa8
+   a:	f7ff bffe 	b.w	0 <sh2_setCalConfig>
+   e:	bf00      	nop
+  10:	00000000 	.word	0x00000000
+  14:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_getCalConfig:
+
+00000000 <sh2_getCalConfig>:
+   0:	4602      	mov	r2, r0
+   2:	4b03      	ldr	r3, [pc, #12]	; (10 <sh2_getCalConfig+0x10>)
+   4:	4803      	ldr	r0, [pc, #12]	; (14 <sh2_getCalConfig+0x14>)
+   6:	f8c3 20a8 	str.w	r2, [r3, #168]	; 0xa8
+   a:	f7ff bffe 	b.w	0 <sh2_getCalConfig>
+   e:	bf00      	nop
+  10:	00000000 	.word	0x00000000
+  14:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_setDcdAutoSave:
+
+00000000 <sh2_setDcdAutoSave>:
+   0:	b500      	push	{lr}
+   2:	4a09      	ldr	r2, [pc, #36]	; (28 <sh2_setDcdAutoSave+0x28>)
+   4:	2300      	movs	r3, #0
+   6:	f04f 0e09 	mov.w	lr, #9
+   a:	f080 0c01 	eor.w	ip, r0, #1
+   e:	4807      	ldr	r0, [pc, #28]	; (2c <sh2_setDcdAutoSave+0x2c>)
+  10:	e9c2 332a 	strd	r3, r3, [r2, #168]	; 0xa8
+  14:	e9c2 332c 	strd	r3, r3, [r2, #176]	; 0xb0
+  18:	f882 e0aa 	strb.w	lr, [r2, #170]	; 0xaa
+  1c:	f882 c0ab 	strb.w	ip, [r2, #171]	; 0xab
+  20:	f85d eb04 	ldr.w	lr, [sp], #4
+  24:	f7ff bffe 	b.w	0 <sh2_setDcdAutoSave>
+  28:	00000000 	.word	0x00000000
+  2c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_flush:
+
+00000000 <sh2_flush>:
+   0:	4905      	ldr	r1, [pc, #20]	; (18 <sh2_flush+0x18>)
+   2:	2300      	movs	r3, #0
+   4:	4684      	mov	ip, r0
+   6:	4805      	ldr	r0, [pc, #20]	; (1c <sh2_flush+0x1c>)
+   8:	e9c1 332a 	strd	r3, r3, [r1, #168]	; 0xa8
+   c:	e9c1 332c 	strd	r3, r3, [r1, #176]	; 0xb0
+  10:	f881 c0a8 	strb.w	ip, [r1, #168]	; 0xa8
+  14:	f7ff bffe 	b.w	0 <sh2_flush>
+  18:	00000000 	.word	0x00000000
+  1c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_clearDcdAndReset:
+
+00000000 <sh2_clearDcdAndReset>:
+   0:	4906      	ldr	r1, [pc, #24]	; (1c <sh2_clearDcdAndReset+0x1c>)
+   2:	2300      	movs	r3, #0
+   4:	f04f 0c0b 	mov.w	ip, #11
+   8:	4805      	ldr	r0, [pc, #20]	; (20 <sh2_clearDcdAndReset+0x20>)
+   a:	e9c1 332a 	strd	r3, r3, [r1, #168]	; 0xa8
+   e:	e9c1 332c 	strd	r3, r3, [r1, #176]	; 0xb0
+  12:	f881 c0aa 	strb.w	ip, [r1, #170]	; 0xaa
+  16:	f7ff bffe 	b.w	0 <sh2_clearDcdAndReset>
+  1a:	bf00      	nop
+  1c:	00000000 	.word	0x00000000
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_startCal:
+
+00000000 <sh2_startCal>:
+   0:	b410      	push	{r4}
+   2:	4a06      	ldr	r2, [pc, #24]	; (1c <sh2_startCal+0x1c>)
+   4:	4604      	mov	r4, r0
+   6:	2300      	movs	r3, #0
+   8:	4805      	ldr	r0, [pc, #20]	; (20 <sh2_startCal+0x20>)
+   a:	e9c2 432a 	strd	r4, r3, [r2, #168]	; 0xa8
+   e:	e9c2 332c 	strd	r3, r3, [r2, #176]	; 0xb0
+  12:	f85d 4b04 	ldr.w	r4, [sp], #4
+  16:	f7ff bffe 	b.w	0 <sh2_startCal>
+  1a:	bf00      	nop
+  1c:	00000000 	.word	0x00000000
+  20:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_finishCal:
+
+00000000 <sh2_finishCal>:
+   0:	4904      	ldr	r1, [pc, #16]	; (14 <sh2_finishCal+0x14>)
+   2:	2300      	movs	r3, #0
+   4:	4804      	ldr	r0, [pc, #16]	; (18 <sh2_finishCal+0x18>)
+   6:	e9c1 332a 	strd	r3, r3, [r1, #168]	; 0xa8
+   a:	e9c1 332c 	strd	r3, r3, [r1, #176]	; 0xb0
+   e:	f7ff bffe 	b.w	0 <sh2_finishCal>
+  12:	bf00      	nop
+  14:	00000000 	.word	0x00000000
+  18:	00000000 	.word	0x00000000
+
+Disassembly of section .text.sh2_setIZro:
+
+00000000 <sh2_setIZro>:
+   0:	4a07      	ldr	r2, [pc, #28]	; (20 <sh2_setIZro+0x20>)
+   2:	2300      	movs	r3, #0
+   4:	4684      	mov	ip, r0
+   6:	200e      	movs	r0, #14
+   8:	e9c2 332a 	strd	r3, r3, [r2, #168]	; 0xa8
+   c:	e9c2 332c 	strd	r3, r3, [r2, #176]	; 0xb0
+  10:	f882 00aa 	strb.w	r0, [r2, #170]	; 0xaa
+  14:	f882 c0ab 	strb.w	ip, [r2, #171]	; 0xab
+  18:	4802      	ldr	r0, [pc, #8]	; (24 <sh2_setIZro+0x24>)
+  1a:	f7ff bffe 	b.w	0 <sh2_setIZro>
+  1e:	bf00      	nop
+  20:	00000000 	.word	0x00000000
+  24:	00000000 	.word	0x00000000

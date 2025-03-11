@@ -1,0 +1,1086 @@
+
+build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 Adafruit_BNO08x.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZL12i2chal_closeP9sh2_Hal_s	00000000 .text._ZL12i2chal_closeP9sh2_Hal_s
+00000000 l     F .text._ZL12i2chal_closeP9sh2_Hal_s	00000002 _ZL12i2chal_closeP9sh2_Hal_s
+00000000 l    d  .text._ZL13uarthal_closeP9sh2_Hal_s	00000000 .text._ZL13uarthal_closeP9sh2_Hal_s
+00000000 l     F .text._ZL13uarthal_closeP9sh2_Hal_s	00000010 _ZL13uarthal_closeP9sh2_Hal_s
+00000000 l    d  .text._ZL13hal_getTimeUsP9sh2_Hal_s	00000000 .text._ZL13hal_getTimeUsP9sh2_Hal_s
+00000000 l     F .text._ZL13hal_getTimeUsP9sh2_Hal_s	00000014 _ZL13hal_getTimeUsP9sh2_Hal_s
+00000000 l    d  .text._ZL12hal_callbackPvP14sh2_AsyncEvent	00000000 .text._ZL12hal_callbackPvP14sh2_AsyncEvent
+00000000 l     F .text._ZL12hal_callbackPvP14sh2_AsyncEvent	00000010 _ZL12hal_callbackPvP14sh2_AsyncEvent
+00000000 l    d  .text._ZL12i2chal_writeP9sh2_Hal_sPhj	00000000 .text._ZL12i2chal_writeP9sh2_Hal_sPhj
+00000000 l     F .text._ZL12i2chal_writeP9sh2_Hal_sPhj	00000030 _ZL12i2chal_writeP9sh2_Hal_sPhj
+00000000 l    d  .text._ZL11i2chal_readP9sh2_Hal_sPhjPm	00000000 .text._ZL11i2chal_readP9sh2_Hal_sPhjPm
+00000000 l     F .text._ZL11i2chal_readP9sh2_Hal_sPhjPm	000000b8 _ZL11i2chal_readP9sh2_Hal_sPhjPm
+00000000 l    d  .text._ZL11i2chal_openP9sh2_Hal_s	00000000 .text._ZL11i2chal_openP9sh2_Hal_s
+00000000 l     F .text._ZL11i2chal_openP9sh2_Hal_s	00000058 _ZL11i2chal_openP9sh2_Hal_s
+00000000 l    d  .text._ZL13uarthal_writeP9sh2_Hal_sPhj	00000000 .text._ZL13uarthal_writeP9sh2_Hal_sPhj
+00000000 l     F .text._ZL13uarthal_writeP9sh2_Hal_sPhj	00000088 _ZL13uarthal_writeP9sh2_Hal_sPhj
+00000000 l    d  .text._ZL12uarthal_readP9sh2_Hal_sPhjPm	00000000 .text._ZL12uarthal_readP9sh2_Hal_sPhjPm
+00000000 l     F .text._ZL12uarthal_readP9sh2_Hal_sPhjPm	000000a8 _ZL12uarthal_readP9sh2_Hal_sPhjPm
+00000000 l    d  .text._ZL12uarthal_openP9sh2_Hal_s	00000000 .text._ZL12uarthal_openP9sh2_Hal_s
+00000000 l     F .text._ZL12uarthal_openP9sh2_Hal_s	0000006c _ZL12uarthal_openP9sh2_Hal_s
+00000000 l    d  .text._ZL17hal_hardwareResetv	00000000 .text._ZL17hal_hardwareResetv
+00000000 l     F .text._ZL17hal_hardwareResetv	00000048 _ZL17hal_hardwareResetv
+00000000 l    d  .text._ZN15Adafruit_BNO08x5_initEl	00000000 .text._ZN15Adafruit_BNO08x5_initEl
+00000000 l     F .text._ZL13sensorHandlerPvP15sh2_SensorEvent	00000034 _ZL13sensorHandlerPvP15sh2_SensorEvent
+00000000 l    d  .text._ZL12spihal_closeP9sh2_Hal_s	00000000 .text._ZL12spihal_closeP9sh2_Hal_s
+00000000 l     F .text._ZL12spihal_closeP9sh2_Hal_s	00000002 _ZL12spihal_closeP9sh2_Hal_s
+00000000 l    d  .rodata._ZL13sensorHandlerPvP15sh2_SensorEvent.str1.4	00000000 .rodata._ZL13sensorHandlerPvP15sh2_SensorEvent.str1.4
+00000000 l    d  .text._ZL13sensorHandlerPvP15sh2_SensorEvent	00000000 .text._ZL13sensorHandlerPvP15sh2_SensorEvent
+00000000 l    d  .text._ZL11spihal_openP9sh2_Hal_s	00000000 .text._ZL11spihal_openP9sh2_Hal_s
+00000000 l     F .text._ZL11spihal_openP9sh2_Hal_s	00000030 _ZL11spihal_openP9sh2_Hal_s
+00000000 l    d  .text._ZL12spihal_writeP9sh2_Hal_sPhj	00000000 .text._ZL12spihal_writeP9sh2_Hal_sPhj
+00000000 l     F .text._ZL12spihal_writeP9sh2_Hal_sPhj	0000004c _ZL12spihal_writeP9sh2_Hal_sPhj
+00000000 l    d  .text._ZL11spihal_readP9sh2_Hal_sPhjPm	00000000 .text._ZL11spihal_readP9sh2_Hal_sPhjPm
+00000000 l     F .text._ZL11spihal_readP9sh2_Hal_sPhjPm	0000008c _ZL11spihal_readP9sh2_Hal_sPhjPm
+00000000 l    d  .text._ZN15Adafruit_BNO08xC2Ea	00000000 .text._ZN15Adafruit_BNO08xC2Ea
+00000000 l    d  .text._ZN15Adafruit_BNO08xD2Ev	00000000 .text._ZN15Adafruit_BNO08xD2Ev
+00000000 l    d  .rodata._ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel.str1.4	00000000 .rodata._ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel.str1.4
+00000000 l    d  .text._ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel	00000000 .text._ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel
+00000000 l    d  .text._ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall	00000000 .text._ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall
+00000000 l    d  .text._ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl	00000000 .text._ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl
+00000000 l    d  .text._ZN15Adafruit_BNO08x13hardwareResetEv	00000000 .text._ZN15Adafruit_BNO08x13hardwareResetEv
+00000000 l    d  .text._ZN15Adafruit_BNO08x8wasResetEv	00000000 .text._ZN15Adafruit_BNO08x8wasResetEv
+00000000 l    d  .text._ZN15Adafruit_BNO08x14getSensorEventEP15sh2_SensorValue	00000000 .text._ZN15Adafruit_BNO08x14getSensorEventEP15sh2_SensorValue
+00000000 l    d  .text._ZN15Adafruit_BNO08x12enableReportEhm	00000000 .text._ZN15Adafruit_BNO08x12enableReportEhm
+00000000 l    d  .rodata	00000000 .rodata
+00000000 l    d  .bss._ZL10_reset_pin	00000000 .bss._ZL10_reset_pin
+00000000 l     O .bss._ZL10_reset_pin	00000001 _ZL10_reset_pin
+00000000 l    d  .bss._ZL13_sensor_value	00000000 .bss._ZL13_sensor_value
+00000000 l     O .bss._ZL13_sensor_value	00000004 _ZL13_sensor_value
+00000000 l    d  .bss._ZL15_reset_occurred	00000000 .bss._ZL15_reset_occurred
+00000000 l     O .bss._ZL15_reset_occurred	00000001 _ZL15_reset_occurred
+00000000 l    d  .bss._ZL7i2c_dev	00000000 .bss._ZL7i2c_dev
+00000000 l     O .bss._ZL7i2c_dev	00000004 _ZL7i2c_dev
+00000000 l    d  .bss._ZL7spi_dev	00000000 .bss._ZL7spi_dev
+00000000 l     O .bss._ZL7spi_dev	00000004 _ZL7spi_dev
+00000000 l    d  .bss._ZL8_int_pin	00000000 .bss._ZL8_int_pin
+00000000 l     O .bss._ZL8_int_pin	00000001 _ZL8_int_pin
+00000000 l    d  .bss._ZL8uart_dev	00000000 .bss._ZL8uart_dev
+00000000 l     O .bss._ZL8uart_dev	00000004 _ZL8uart_dev
+00000000 l    d  .bss._ZZN15Adafruit_BNO08x12enableReportEhmE6config	00000000 .bss._ZZN15Adafruit_BNO08x12enableReportEhmE6config
+00000000 l     O .bss._ZZN15Adafruit_BNO08x12enableReportEhmE6config	00000014 _ZZN15Adafruit_BNO08x12enableReportEhmE6config
+00000000 l    d  .rodata._ZTV15Adafruit_BNO08x	00000000 .rodata._ZTV15Adafruit_BNO08x
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 systick_millis_count
+00000000         *UND*	00000000 _ZN18Adafruit_I2CDevice5writeEPKhjbS1_j
+00000000         *UND*	00000000 _ZN18Adafruit_I2CDevice4readEPhjb
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 delay
+00000000         *UND*	00000000 yield
+00000000         *UND*	00000000 pinMode
+00000000         *UND*	00000000 digitalWrite
+00000000 g     F .text._ZN15Adafruit_BNO08x5_initEl	00000044 _ZN15Adafruit_BNO08x5_initEl
+00000000         *UND*	00000000 sh2_open
+00000000         *UND*	00000000 memset
+00000000         *UND*	00000000 sh2_getProdIds
+00000000         *UND*	00000000 sh2_setSensorCallback
+00000000         *UND*	00000000 sh2_decodeSensorEvent
+00000000         *UND*	00000000 usb_serial_write
+00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000         *UND*	00000000 Serial
+00000000         *UND*	00000000 digitalRead
+00000000         *UND*	00000000 _ZN18Adafruit_SPIDevice5writeEPKhjS1_j
+00000000         *UND*	00000000 _ZN18Adafruit_SPIDevice4readEPhjh
+00000000 g     F .text._ZN15Adafruit_BNO08xC2Ea	00000014 _ZN15Adafruit_BNO08xC2Ea
+00000000 g     F .text._ZN15Adafruit_BNO08xC2Ea	00000014 _ZN15Adafruit_BNO08xC1Ea
+00000000 g     F .text._ZN15Adafruit_BNO08xD2Ev	00000002 _ZN15Adafruit_BNO08xD2Ev
+00000000 g     F .text._ZN15Adafruit_BNO08xD2Ev	00000002 _ZN15Adafruit_BNO08xD1Ev
+00000000 g     F .text._ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel	00000094 _ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel
+00000000         *UND*	00000000 _ZdlPvj
+00000000         *UND*	00000000 _Znwj
+00000000         *UND*	00000000 _ZN18Adafruit_I2CDeviceC1EhP7TwoWire
+00000000         *UND*	00000000 _ZN18Adafruit_I2CDevice5beginEb
+00000000 g     F .text._ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall	00000040 _ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall
+00000000 g     F .text._ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl	000000ac _ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl
+00000000         *UND*	00000000 _ZN18Adafruit_SPIDeviceD1Ev
+00000000         *UND*	00000000 _ZN18Adafruit_SPIDeviceC1Eam9_BitOrderhP8SPIClass
+00000000         *UND*	00000000 _ZN18Adafruit_SPIDevice5beginEv
+00000000 g     F .text._ZN15Adafruit_BNO08x13hardwareResetEv	00000004 _ZN15Adafruit_BNO08x13hardwareResetEv
+00000000 g     F .text._ZN15Adafruit_BNO08x8wasResetEv	00000010 _ZN15Adafruit_BNO08x8wasResetEv
+00000000 g     F .text._ZN15Adafruit_BNO08x14getSensorEventEP15sh2_SensorValue	0000003c _ZN15Adafruit_BNO08x14getSensorEventEP15sh2_SensorValue
+00000000         *UND*	00000000 sh2_service
+00000000 g     F .text._ZN15Adafruit_BNO08x12enableReportEhm	00000024 _ZN15Adafruit_BNO08x12enableReportEhm
+00000000         *UND*	00000000 sh2_setSensorConfig
+00000000 g     O .rodata._ZTV15Adafruit_BNO08x	0000000c _ZTV15Adafruit_BNO08x
+
+
+Contents of section .text._ZL12i2chal_closeP9sh2_Hal_s:
+ 0000 704700bf                             pG..            
+Contents of section .text._ZL13uarthal_closeP9sh2_Hal_s:
+ 0000 024b1868 03681b6a 184700bf 00000000  .K.h.h.j.G......
+Contents of section .text._ZL13hal_getTimeUsP9sh2_Hal_s:
+ 0000 034b4ff4 7a701b68 03fb00f0 704700bf  .KO.zp.h....pG..
+ 0010 00000000                             ....            
+Contents of section .text._ZL12hal_callbackPvP14sh2_AsyncEvent:
+ 0000 0b6813b9 014b0122 1a707047 00000000  .h...K.".ppG....
+Contents of section .text._ZL12i2chal_writeP9sh2_Hal_sPhj:
+ 0000 0a480123 006830b5 c56883b0 0024aa42  .H.#.h0..h...$.B
+ 0010 28bf2a46 cde90044 94b22246 fff7feff  (.*F...D.."F....
+ 0020 002814bf 20460020 03b030bd 00000000  .(.. F. ..0.....
+Contents of section .text._ZL11i2chal_readP9sh2_Hal_sPhjPm:
+ 0000 2de9f04f 85b02b48 0e461446 00af0123  -..O..+H.F.F...#
+ 0010 042207f1 0c010068 fff7feff 00283fd0  .".....h.....(?.
+ 0020 244b8046 b7f80c90 1868c9f3 0e09c368  $K.F.....h.....h
+ 0030 a1457b60 34d80733 23f00703 adeb030d  .E{`4..3#.......
+ 0040 ea46b9f1 000f30d0 7c684d46 0df1040b  .F....0.|hMF....
+ 0050 4c4528bf 4c46a4b2 22460123 5146fff7  LE(.LF.."F.#QF..
+ 0060 feff0346 a4f1040c 22465146 3046bbb1  ...F...."FQF0F..
+ 0070 b8f1000f 03d11ffa 8cf45946 22462d1b  ..........YF"F-.
+ 0080 26444ff0 0008fff7 feffadb2 2c1d65b1  &DO.........,.e.
+ 0090 084b1868 7b689c42 28bf1c46 a4b2dbe7  .K.h{h.B(..F....
+ 00a0 00201437 bd46bde8 f08f4846 1437bd46  . .7.F....HF.7.F
+ 00b0 bde8f08f 00000000                    ........        
+Contents of section .text._ZL11i2chal_openP9sh2_Hal_s:
+ 0000 134b70b5 93e80300 84b00524 114e0025  .Kp........$.N.%
+ 0010 02908df8 0c100123 052202a9 3068cde9  .......#."..0h..
+ 0020 0055fff7 feff0346 1e204bb9 fff7feff  .U.....F. K.....
+ 0030 631e13f0 ff04eed1 4ff0ff30 04b070bd  c.......O..0..p.
+ 0040 4ff49670 fff7feff 002004b0 70bd00bf  O..p..... ..p...
+ 0050 00000000 00000000                    ........        
+Contents of section .text._ZL13uarthal_writeP9sh2_Hal_sPhj:
+ 0000 2de9f041 dff87c80 0d467e21 1746d8f8  -..A..|..F~!.F..
+ 0010 00000368 1b689847 0120fff7 feffd8f8  ...h.h.G. ......
+ 0020 00000121 03681b68 98470120 fff7feff  ...!.h.h.G. ....
+ 0030 f7b1ee19 013d013e 15f8014f 7d21a4f1  .....=.>...O}!..
+ 0040 7d03012b 09d8d8f8 000084f0 20040368  }..+........ ..h
+ 0050 1b689847 0120fff7 feffd8f8 00002146  .h.G. ........!F
+ 0060 03681b68 98470120 fff7feff ae42e3d1  .h.h.G. .....B..
+ 0070 d8f80000 7e210368 1b689847 3846bde8  ....~!.h.h.G8F..
+ 0080 f08100bf 00000000                    ........        
+Contents of section .text._ZL12uarthal_readP9sh2_Hal_sPhjPm:
+ 0000 70b5284c 0d46fff7 feff2068 03681b69  p.(L.F.... h.h.i
+ 0010 98470028 f7d02068 03685b69 9847c0b2  .G.(.. h.h[i.G..
+ 0020 7e28f0d1 01e0fff7 feff2068 03681b69  ~(........ h.h.i
+ 0030 98470128 f7dd2068 03685b69 9847c0b2  .G.(.. h.h[i.G..
+ 0040 7e2804d1 20680368 5b699847 c0b20128  ~(.. h.h[i.G...(
+ 0050 01d00020 70bd0026 fff7feff 20680368  ... p..&.... h.h
+ 0060 1b699847 0028f7d0 20680368 5b699847  .i.G.(.. h.h[i.G
+ 0070 c0b27e28 13d07d28 03d0b3b2 0136e854  ..~(..}(.....6.T
+ 0080 eae72068 03681b69 98470028 f9d02068  .. h.h.i.G.(.. h
+ 0090 03685b69 9847c0b2 80f02000 ede7b0b2  .h[i.G.... .....
+ 00a0 70bd00bf 00000000                    p.......        
+Contents of section .text._ZL12uarthal_openP9sh2_Hal_s:
+ 0000 70b5174d 82b00022 16492868 0368db69  p..M...".I(h.h.i
+ 0010 984705e0 28680368 5b699847 fff7feff  .G..(h.h[i.G....
+ 0020 28680368 1b699847 0028f3d1 0e4a6c46  (h.h.i.G.(...JlF
+ 0030 0df10706 7e2392e8 030084e8 030001e0  ....~#..........
+ 0040 14f8013f 28681946 03681b68 98470120  ...?(h.F.h.h.G. 
+ 0050 fff7feff a642f3d1 002002b0 70bd00bf  .....B... ..p...
+ 0060 00000000 c0c62d00 08000000           ......-.....    
+Contents of section .text._ZL17hal_hardwareResetv:
+ 0000 10b5104c 94f90000 431c00d1 10bd0121  ...L....C......!
+ 0010 c0b2fff7 feff0121 2078fff7 feff0a20  .......! x..... 
+ 0020 fff7feff 00212078 fff7feff 0a20fff7  .....! x..... ..
+ 0030 feff2078 0121fff7 feff0a20 bde81040  .. x.!..... ...@
+ 0040 fff7febf 00000000                    ........        
+Contents of section .text._ZN15Adafruit_BNO08x5_initEl:
+ 0000 10b50446 fff7feff 00220c49 04f15800  ...F.....".I..X.
+ 0010 fff7feff 08b10020 10bd0434 01465422  ....... ...4.FT"
+ 0020 2046fff7 feff2046 fff7feff 0028f2d1   F.... F.....(..
+ 0030 01460348 fff7feff 012010bd 00000000  .F.H..... ......
+ 0040 00000000                             ....            
+Contents of section .text._ZL12spihal_closeP9sh2_Hal_s:
+ 0000 704700bf                             pG..            
+Contents of section .rodata._ZL13sensorHandlerPvP15sh2_SensorEvent.str1.4:
+ 0000 424e4f30 3878202d 20457272 6f722064  BNO08x - Error d
+ 0010 65636f64 696e6720 73656e73 6f722065  ecoding sensor e
+ 0020 76656e74 00                          vent.           
+Contents of section .text._ZL13sensorHandlerPvP15sh2_SensorEvent:
+ 0000 10b5094c 2068fff7 feff00b9 10bd2421  ...L h........$!
+ 0010 0648fff7 feff0648 fff7feff 23680020  .H.....H....#h. 
+ 0020 0021c3e9 020110bd 00000000 00000000  .!..............
+ 0030 00000000                             ....            
+Contents of section .text._ZL11spihal_openP9sh2_Hal_s:
+ 0000 38b54ff4 fa74094d 03e0fff7 feff013c  8.O..t.M.......<
+ 0010 08d02878 fff7feff 03460120 002bf4d1  ..(x.....F. .+..
+ 0020 002038bd fff7feff 002038bd 00000000  . 8...... 8.....
+Contents of section .text._ZL12spihal_writeP9sh2_Hal_sPhj:
+ 0000 f0b54ff4 fa7483b0 0e4d0f46 164603e0  ..O..t...M.F.F..
+ 0010 fff7feff 013c10d0 2878fff7 feff0346  .....<..(x.....F
+ 0020 0120002b f4d1084a 39460093 10683246  . .+...J9F...h2F
+ 0030 fff7feff 304603b0 f0bdfff7 feff2046  ....0F........ F
+ 0040 03b0f0bd 00000000 00000000           ............    
+Contents of section .text._ZL11spihal_readP9sh2_Hal_sPhjPm:
+ 0000 2de9f843 4ff4fa74 1e4d0e46 914603e0  -..CO..t.M.F.F..
+ 0010 fff7feff 013c2fd0 2878fff7 feff0346  .....</.(x.....F
+ 0020 0120002b f4d1dff8 60800422 3146d8f8  . .+....`.."1F..
+ 0030 0000fff7 feff20b1 3088c0f3 0e07b945  ...... .0......E
+ 0040 02d20020 bde8f883 4ff4fa74 03e0fff7  ... ....O..t....
+ 0050 feff013c 10d02878 fff7feff 03460120  ...<..(x.....F. 
+ 0060 002bf4d1 3a463146 d8f80000 fff7feff  .+..:F1F........
+ 0070 0028e6d0 3846e5e7 fff7feff 0020bde8  .(..8F....... ..
+ 0080 f88300bf 00000000 00000000           ............    
+Contents of section .text._ZN15Adafruit_BNO08xC2Ea:
+ 0000 024a034b 02601970 704700bf 08000000  .J.K.`.ppG......
+ 0010 00000000                             ....            
+Contents of section .text._ZN15Adafruit_BNO08xD2Ev:
+ 0000 704700bf                             pG..            
+Contents of section .rodata._ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel.str1.4:
+ 0000 49324320 61646472 65737320 6e6f7420  I2C address not 
+ 0010 666f756e 6400                        found.          
+Contents of section .text._ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel:
+ 0000 f0b51c4f 044683b0 0d463868 1e4620b1  ...O.F...F8h.F .
+ 0010 10210192 fff7feff 019a1020 0192fff7  .!......... ....
+ 0020 feff2946 0546019a fff7feff 01212846  ..)F.F.......!(F
+ 0030 3d60fff7 feff0546 88b10f4a 31460f4b  =`.....F...J1F.K
+ 0040 0f48c4e9 16230f4b 0f4ac4e9 18032368  .H...#.K.J....#h
+ 0050 2046a266 1b6803b0 bde8f040 18471521   F.f.h.....@.G.!
+ 0060 0a48fff7 feff0a48 fff7feff 284603b0  .H.....H....(F..
+ 0070 f0bd00bf 00000000 00000000 00000000  ................
+ 0080 00000000 00000000 00000000 00000000  ................
+ 0090 00000000                             ....            
+Contents of section .text._ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall:
+ 0000 30b40d46 084c1146 084a2560 084cc0e9  0..F.L.F.J%`.L..
+ 0010 1642084c 084ac0e9 1842084c 02688466  .B.L.J...B.L.h.f
+ 0020 136830bc 184700bf 00000000 00000000  .h0..G..........
+ 0030 00000000 00000000 00000000 00000000  ................
+Contents of section .text._ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl:
+ 0000 2de9f043 0d461e46 00211f4b 83b0dff8  -..C.F.F.!.K....
+ 0010 98901960 04461d4b 10460221 ddf82880  ...`.F.K.F.!..(.
+ 0020 1a70fff7 feffd9f8 007037b1 3846fff7  .p.......p7.8F..
+ 0030 feff3846 1421fff7 feff1420 fff7feff  ..8F.!..... ....
+ 0040 0c2369b2 05460093 0123114a 0196fff7  .#i..F...#.J....
+ 0050 feff2846 c9f80050 fff7feff 88b10d4a  ..(F...P.......J
+ 0060 41460d4b 0d48c4e9 16230d4b 0d4ac4e9  AF.K.H...#.K.J..
+ 0070 18032368 2046a266 1b6803b0 bde8f043  ..#h F.f.h.....C
+ 0080 184703b0 bde8f083 00000000 00000000  .G..............
+ 0090 40420f00 00000000 00000000 00000000  @B..............
+ 00a0 00000000 00000000 00000000           ............    
+Contents of section .text._ZN15Adafruit_BNO08x13hardwareResetEv:
+ 0000 fff7febf                             ....            
+Contents of section .text._ZN15Adafruit_BNO08x8wasResetEv:
+ 0000 024b0022 18781a70 704700bf 00000000  .K.".x.ppG......
+Contents of section .text._ZN15Adafruit_BNO08x14getSensorEventEP15sh2_SensorValue:
+ 0000 9fed0b7b 0c4b10b5 0c461960 81ed027b  ...{.K...F.`...{
+ 0010 fff7feff d4e90232 134306d1 2078a0f1  .......2.C.. x..
+ 0020 2a00b0fa 80f04009 10bd0120 10bd00bf  *.....@.... ....
+ 0030 00000000 00000000 00000000           ............    
+Contents of section .text._ZN15Adafruit_BNO08x12enableReportEhm:
+ 0000 074b0846 10b50024 19469a60 1c609c80  .K.F...$.F.`.`..
+ 0010 c3e90344 fff7feff b0fa80f0 400910bd  ...D........@...
+ 0020 00000000                             ....            
+Contents of section .rodata:
+ 0000 05000100 01000000 7e010500 0100017e  ........~......~
+Contents of section .rodata._ZTV15Adafruit_BNO08x:
+ 0000 00000000 00000000 00000000           ............    
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZL12i2chal_closeP9sh2_Hal_s:
+
+00000000 <_ZL12i2chal_closeP9sh2_Hal_s>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZL13uarthal_closeP9sh2_Hal_s:
+
+00000000 <_ZL13uarthal_closeP9sh2_Hal_s>:
+   0:	4b02      	ldr	r3, [pc, #8]	; (c <_ZL13uarthal_closeP9sh2_Hal_s+0xc>)
+   2:	6818      	ldr	r0, [r3, #0]
+   4:	6803      	ldr	r3, [r0, #0]
+   6:	6a1b      	ldr	r3, [r3, #32]
+   8:	4718      	bx	r3
+   a:	bf00      	nop
+   c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZL13hal_getTimeUsP9sh2_Hal_s:
+
+00000000 <_ZL13hal_getTimeUsP9sh2_Hal_s>:
+   0:	4b03      	ldr	r3, [pc, #12]	; (10 <_ZL13hal_getTimeUsP9sh2_Hal_s+0x10>)
+   2:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
+   6:	681b      	ldr	r3, [r3, #0]
+   8:	fb03 f000 	mul.w	r0, r3, r0
+   c:	4770      	bx	lr
+   e:	bf00      	nop
+  10:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZL12hal_callbackPvP14sh2_AsyncEvent:
+
+00000000 <_ZL12hal_callbackPvP14sh2_AsyncEvent>:
+   0:	680b      	ldr	r3, [r1, #0]
+   2:	b913      	cbnz	r3, a <_ZL12hal_callbackPvP14sh2_AsyncEvent+0xa>
+   4:	4b01      	ldr	r3, [pc, #4]	; (c <_ZL12hal_callbackPvP14sh2_AsyncEvent+0xc>)
+   6:	2201      	movs	r2, #1
+   8:	701a      	strb	r2, [r3, #0]
+   a:	4770      	bx	lr
+   c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZL12i2chal_writeP9sh2_Hal_sPhj:
+
+00000000 <_ZL12i2chal_writeP9sh2_Hal_sPhj>:
+   0:	480a      	ldr	r0, [pc, #40]	; (2c <_ZL12i2chal_writeP9sh2_Hal_sPhj+0x2c>)
+   2:	2301      	movs	r3, #1
+   4:	6800      	ldr	r0, [r0, #0]
+   6:	b530      	push	{r4, r5, lr}
+   8:	68c5      	ldr	r5, [r0, #12]
+   a:	b083      	sub	sp, #12
+   c:	2400      	movs	r4, #0
+   e:	42aa      	cmp	r2, r5
+  10:	bf28      	it	cs
+  12:	462a      	movcs	r2, r5
+  14:	e9cd 4400 	strd	r4, r4, [sp]
+  18:	b294      	uxth	r4, r2
+  1a:	4622      	mov	r2, r4
+  1c:	f7ff fffe 	bl	0 <_ZN18Adafruit_I2CDevice5writeEPKhjbS1_j>
+  20:	2800      	cmp	r0, #0
+  22:	bf14      	ite	ne
+  24:	4620      	movne	r0, r4
+  26:	2000      	moveq	r0, #0
+  28:	b003      	add	sp, #12
+  2a:	bd30      	pop	{r4, r5, pc}
+  2c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZL11i2chal_readP9sh2_Hal_sPhjPm:
+
+00000000 <_ZL11i2chal_readP9sh2_Hal_sPhjPm>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	b085      	sub	sp, #20
+   6:	482b      	ldr	r0, [pc, #172]	; (b4 <_ZL11i2chal_readP9sh2_Hal_sPhjPm+0xb4>)
+   8:	460e      	mov	r6, r1
+   a:	4614      	mov	r4, r2
+   c:	af00      	add	r7, sp, #0
+   e:	2301      	movs	r3, #1
+  10:	2204      	movs	r2, #4
+  12:	f107 010c 	add.w	r1, r7, #12
+  16:	6800      	ldr	r0, [r0, #0]
+  18:	f7ff fffe 	bl	0 <_ZN18Adafruit_I2CDevice4readEPhjb>
+  1c:	2800      	cmp	r0, #0
+  1e:	d03f      	beq.n	a0 <_ZL11i2chal_readP9sh2_Hal_sPhjPm+0xa0>
+  20:	4b24      	ldr	r3, [pc, #144]	; (b4 <_ZL11i2chal_readP9sh2_Hal_sPhjPm+0xb4>)
+  22:	4680      	mov	r8, r0
+  24:	f8b7 900c 	ldrh.w	r9, [r7, #12]
+  28:	6818      	ldr	r0, [r3, #0]
+  2a:	f3c9 090e 	ubfx	r9, r9, #0, #15
+  2e:	68c3      	ldr	r3, [r0, #12]
+  30:	45a1      	cmp	r9, r4
+  32:	607b      	str	r3, [r7, #4]
+  34:	d834      	bhi.n	a0 <_ZL11i2chal_readP9sh2_Hal_sPhjPm+0xa0>
+  36:	3307      	adds	r3, #7
+  38:	f023 0307 	bic.w	r3, r3, #7
+  3c:	ebad 0d03 	sub.w	sp, sp, r3
+  40:	46ea      	mov	sl, sp
+  42:	f1b9 0f00 	cmp.w	r9, #0
+  46:	d030      	beq.n	aa <_ZL11i2chal_readP9sh2_Hal_sPhjPm+0xaa>
+  48:	687c      	ldr	r4, [r7, #4]
+  4a:	464d      	mov	r5, r9
+  4c:	f10d 0b04 	add.w	fp, sp, #4
+  50:	454c      	cmp	r4, r9
+  52:	bf28      	it	cs
+  54:	464c      	movcs	r4, r9
+  56:	b2a4      	uxth	r4, r4
+  58:	4622      	mov	r2, r4
+  5a:	2301      	movs	r3, #1
+  5c:	4651      	mov	r1, sl
+  5e:	f7ff fffe 	bl	0 <_ZN18Adafruit_I2CDevice4readEPhjb>
+  62:	4603      	mov	r3, r0
+  64:	f1a4 0c04 	sub.w	ip, r4, #4
+  68:	4622      	mov	r2, r4
+  6a:	4651      	mov	r1, sl
+  6c:	4630      	mov	r0, r6
+  6e:	b1bb      	cbz	r3, a0 <_ZL11i2chal_readP9sh2_Hal_sPhjPm+0xa0>
+  70:	f1b8 0f00 	cmp.w	r8, #0
+  74:	d103      	bne.n	7e <_ZL11i2chal_readP9sh2_Hal_sPhjPm+0x7e>
+  76:	fa1f f48c 	uxth.w	r4, ip
+  7a:	4659      	mov	r1, fp
+  7c:	4622      	mov	r2, r4
+  7e:	1b2d      	subs	r5, r5, r4
+  80:	4426      	add	r6, r4
+  82:	f04f 0800 	mov.w	r8, #0
+  86:	f7ff fffe 	bl	0 <memcpy>
+  8a:	b2ad      	uxth	r5, r5
+  8c:	1d2c      	adds	r4, r5, #4
+  8e:	b165      	cbz	r5, aa <_ZL11i2chal_readP9sh2_Hal_sPhjPm+0xaa>
+  90:	4b08      	ldr	r3, [pc, #32]	; (b4 <_ZL11i2chal_readP9sh2_Hal_sPhjPm+0xb4>)
+  92:	6818      	ldr	r0, [r3, #0]
+  94:	687b      	ldr	r3, [r7, #4]
+  96:	429c      	cmp	r4, r3
+  98:	bf28      	it	cs
+  9a:	461c      	movcs	r4, r3
+  9c:	b2a4      	uxth	r4, r4
+  9e:	e7db      	b.n	58 <_ZL11i2chal_readP9sh2_Hal_sPhjPm+0x58>
+  a0:	2000      	movs	r0, #0
+  a2:	3714      	adds	r7, #20
+  a4:	46bd      	mov	sp, r7
+  a6:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  aa:	4648      	mov	r0, r9
+  ac:	3714      	adds	r7, #20
+  ae:	46bd      	mov	sp, r7
+  b0:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  b4:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZL11i2chal_openP9sh2_Hal_s:
+
+00000000 <_ZL11i2chal_openP9sh2_Hal_s>:
+   0:	4b13      	ldr	r3, [pc, #76]	; (50 <_ZL11i2chal_openP9sh2_Hal_s+0x50>)
+   2:	b570      	push	{r4, r5, r6, lr}
+   4:	e893 0003 	ldmia.w	r3, {r0, r1}
+   8:	b084      	sub	sp, #16
+   a:	2405      	movs	r4, #5
+   c:	4e11      	ldr	r6, [pc, #68]	; (54 <_ZL11i2chal_openP9sh2_Hal_s+0x54>)
+   e:	2500      	movs	r5, #0
+  10:	9002      	str	r0, [sp, #8]
+  12:	f88d 100c 	strb.w	r1, [sp, #12]
+  16:	2301      	movs	r3, #1
+  18:	2205      	movs	r2, #5
+  1a:	a902      	add	r1, sp, #8
+  1c:	6830      	ldr	r0, [r6, #0]
+  1e:	e9cd 5500 	strd	r5, r5, [sp]
+  22:	f7ff fffe 	bl	0 <_ZN18Adafruit_I2CDevice5writeEPKhjbS1_j>
+  26:	4603      	mov	r3, r0
+  28:	201e      	movs	r0, #30
+  2a:	b94b      	cbnz	r3, 40 <_ZL11i2chal_openP9sh2_Hal_s+0x40>
+  2c:	f7ff fffe 	bl	0 <delay>
+  30:	1e63      	subs	r3, r4, #1
+  32:	f013 04ff 	ands.w	r4, r3, #255	; 0xff
+  36:	d1ee      	bne.n	16 <_ZL11i2chal_openP9sh2_Hal_s+0x16>
+  38:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  3c:	b004      	add	sp, #16
+  3e:	bd70      	pop	{r4, r5, r6, pc}
+  40:	f44f 7096 	mov.w	r0, #300	; 0x12c
+  44:	f7ff fffe 	bl	0 <delay>
+  48:	2000      	movs	r0, #0
+  4a:	b004      	add	sp, #16
+  4c:	bd70      	pop	{r4, r5, r6, pc}
+  4e:	bf00      	nop
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZL13uarthal_writeP9sh2_Hal_sPhj:
+
+00000000 <_ZL13uarthal_writeP9sh2_Hal_sPhj>:
+   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   4:	f8df 807c 	ldr.w	r8, [pc, #124]	; 84 <_ZL13uarthal_writeP9sh2_Hal_sPhj+0x84>
+   8:	460d      	mov	r5, r1
+   a:	217e      	movs	r1, #126	; 0x7e
+   c:	4617      	mov	r7, r2
+   e:	f8d8 0000 	ldr.w	r0, [r8]
+  12:	6803      	ldr	r3, [r0, #0]
+  14:	681b      	ldr	r3, [r3, #0]
+  16:	4798      	blx	r3
+  18:	2001      	movs	r0, #1
+  1a:	f7ff fffe 	bl	0 <delay>
+  1e:	f8d8 0000 	ldr.w	r0, [r8]
+  22:	2101      	movs	r1, #1
+  24:	6803      	ldr	r3, [r0, #0]
+  26:	681b      	ldr	r3, [r3, #0]
+  28:	4798      	blx	r3
+  2a:	2001      	movs	r0, #1
+  2c:	f7ff fffe 	bl	0 <delay>
+  30:	b1f7      	cbz	r7, 70 <_ZL13uarthal_writeP9sh2_Hal_sPhj+0x70>
+  32:	19ee      	adds	r6, r5, r7
+  34:	3d01      	subs	r5, #1
+  36:	3e01      	subs	r6, #1
+  38:	f815 4f01 	ldrb.w	r4, [r5, #1]!
+  3c:	217d      	movs	r1, #125	; 0x7d
+  3e:	f1a4 037d 	sub.w	r3, r4, #125	; 0x7d
+  42:	2b01      	cmp	r3, #1
+  44:	d809      	bhi.n	5a <_ZL13uarthal_writeP9sh2_Hal_sPhj+0x5a>
+  46:	f8d8 0000 	ldr.w	r0, [r8]
+  4a:	f084 0420 	eor.w	r4, r4, #32
+  4e:	6803      	ldr	r3, [r0, #0]
+  50:	681b      	ldr	r3, [r3, #0]
+  52:	4798      	blx	r3
+  54:	2001      	movs	r0, #1
+  56:	f7ff fffe 	bl	0 <delay>
+  5a:	f8d8 0000 	ldr.w	r0, [r8]
+  5e:	4621      	mov	r1, r4
+  60:	6803      	ldr	r3, [r0, #0]
+  62:	681b      	ldr	r3, [r3, #0]
+  64:	4798      	blx	r3
+  66:	2001      	movs	r0, #1
+  68:	f7ff fffe 	bl	0 <delay>
+  6c:	42ae      	cmp	r6, r5
+  6e:	d1e3      	bne.n	38 <_ZL13uarthal_writeP9sh2_Hal_sPhj+0x38>
+  70:	f8d8 0000 	ldr.w	r0, [r8]
+  74:	217e      	movs	r1, #126	; 0x7e
+  76:	6803      	ldr	r3, [r0, #0]
+  78:	681b      	ldr	r3, [r3, #0]
+  7a:	4798      	blx	r3
+  7c:	4638      	mov	r0, r7
+  7e:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  82:	bf00      	nop
+  84:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZL12uarthal_readP9sh2_Hal_sPhjPm:
+
+00000000 <_ZL12uarthal_readP9sh2_Hal_sPhjPm>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4c28      	ldr	r4, [pc, #160]	; (a4 <_ZL12uarthal_readP9sh2_Hal_sPhjPm+0xa4>)
+   4:	460d      	mov	r5, r1
+   6:	f7ff fffe 	bl	0 <yield>
+   a:	6820      	ldr	r0, [r4, #0]
+   c:	6803      	ldr	r3, [r0, #0]
+   e:	691b      	ldr	r3, [r3, #16]
+  10:	4798      	blx	r3
+  12:	2800      	cmp	r0, #0
+  14:	d0f7      	beq.n	6 <_ZL12uarthal_readP9sh2_Hal_sPhjPm+0x6>
+  16:	6820      	ldr	r0, [r4, #0]
+  18:	6803      	ldr	r3, [r0, #0]
+  1a:	695b      	ldr	r3, [r3, #20]
+  1c:	4798      	blx	r3
+  1e:	b2c0      	uxtb	r0, r0
+  20:	287e      	cmp	r0, #126	; 0x7e
+  22:	d1f0      	bne.n	6 <_ZL12uarthal_readP9sh2_Hal_sPhjPm+0x6>
+  24:	e001      	b.n	2a <_ZL12uarthal_readP9sh2_Hal_sPhjPm+0x2a>
+  26:	f7ff fffe 	bl	0 <yield>
+  2a:	6820      	ldr	r0, [r4, #0]
+  2c:	6803      	ldr	r3, [r0, #0]
+  2e:	691b      	ldr	r3, [r3, #16]
+  30:	4798      	blx	r3
+  32:	2801      	cmp	r0, #1
+  34:	ddf7      	ble.n	26 <_ZL12uarthal_readP9sh2_Hal_sPhjPm+0x26>
+  36:	6820      	ldr	r0, [r4, #0]
+  38:	6803      	ldr	r3, [r0, #0]
+  3a:	695b      	ldr	r3, [r3, #20]
+  3c:	4798      	blx	r3
+  3e:	b2c0      	uxtb	r0, r0
+  40:	287e      	cmp	r0, #126	; 0x7e
+  42:	d104      	bne.n	4e <_ZL12uarthal_readP9sh2_Hal_sPhjPm+0x4e>
+  44:	6820      	ldr	r0, [r4, #0]
+  46:	6803      	ldr	r3, [r0, #0]
+  48:	695b      	ldr	r3, [r3, #20]
+  4a:	4798      	blx	r3
+  4c:	b2c0      	uxtb	r0, r0
+  4e:	2801      	cmp	r0, #1
+  50:	d001      	beq.n	56 <_ZL12uarthal_readP9sh2_Hal_sPhjPm+0x56>
+  52:	2000      	movs	r0, #0
+  54:	bd70      	pop	{r4, r5, r6, pc}
+  56:	2600      	movs	r6, #0
+  58:	f7ff fffe 	bl	0 <yield>
+  5c:	6820      	ldr	r0, [r4, #0]
+  5e:	6803      	ldr	r3, [r0, #0]
+  60:	691b      	ldr	r3, [r3, #16]
+  62:	4798      	blx	r3
+  64:	2800      	cmp	r0, #0
+  66:	d0f7      	beq.n	58 <_ZL12uarthal_readP9sh2_Hal_sPhjPm+0x58>
+  68:	6820      	ldr	r0, [r4, #0]
+  6a:	6803      	ldr	r3, [r0, #0]
+  6c:	695b      	ldr	r3, [r3, #20]
+  6e:	4798      	blx	r3
+  70:	b2c0      	uxtb	r0, r0
+  72:	287e      	cmp	r0, #126	; 0x7e
+  74:	d013      	beq.n	9e <_ZL12uarthal_readP9sh2_Hal_sPhjPm+0x9e>
+  76:	287d      	cmp	r0, #125	; 0x7d
+  78:	d003      	beq.n	82 <_ZL12uarthal_readP9sh2_Hal_sPhjPm+0x82>
+  7a:	b2b3      	uxth	r3, r6
+  7c:	3601      	adds	r6, #1
+  7e:	54e8      	strb	r0, [r5, r3]
+  80:	e7ea      	b.n	58 <_ZL12uarthal_readP9sh2_Hal_sPhjPm+0x58>
+  82:	6820      	ldr	r0, [r4, #0]
+  84:	6803      	ldr	r3, [r0, #0]
+  86:	691b      	ldr	r3, [r3, #16]
+  88:	4798      	blx	r3
+  8a:	2800      	cmp	r0, #0
+  8c:	d0f9      	beq.n	82 <_ZL12uarthal_readP9sh2_Hal_sPhjPm+0x82>
+  8e:	6820      	ldr	r0, [r4, #0]
+  90:	6803      	ldr	r3, [r0, #0]
+  92:	695b      	ldr	r3, [r3, #20]
+  94:	4798      	blx	r3
+  96:	b2c0      	uxtb	r0, r0
+  98:	f080 0020 	eor.w	r0, r0, #32
+  9c:	e7ed      	b.n	7a <_ZL12uarthal_readP9sh2_Hal_sPhjPm+0x7a>
+  9e:	b2b0      	uxth	r0, r6
+  a0:	bd70      	pop	{r4, r5, r6, pc}
+  a2:	bf00      	nop
+  a4:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZL12uarthal_openP9sh2_Hal_s:
+
+00000000 <_ZL12uarthal_openP9sh2_Hal_s>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4d17      	ldr	r5, [pc, #92]	; (60 <_ZL12uarthal_openP9sh2_Hal_s+0x60>)
+   4:	b082      	sub	sp, #8
+   6:	2200      	movs	r2, #0
+   8:	4916      	ldr	r1, [pc, #88]	; (64 <_ZL12uarthal_openP9sh2_Hal_s+0x64>)
+   a:	6828      	ldr	r0, [r5, #0]
+   c:	6803      	ldr	r3, [r0, #0]
+   e:	69db      	ldr	r3, [r3, #28]
+  10:	4798      	blx	r3
+  12:	e005      	b.n	20 <_ZL12uarthal_openP9sh2_Hal_s+0x20>
+  14:	6828      	ldr	r0, [r5, #0]
+  16:	6803      	ldr	r3, [r0, #0]
+  18:	695b      	ldr	r3, [r3, #20]
+  1a:	4798      	blx	r3
+  1c:	f7ff fffe 	bl	0 <yield>
+  20:	6828      	ldr	r0, [r5, #0]
+  22:	6803      	ldr	r3, [r0, #0]
+  24:	691b      	ldr	r3, [r3, #16]
+  26:	4798      	blx	r3
+  28:	2800      	cmp	r0, #0
+  2a:	d1f3      	bne.n	14 <_ZL12uarthal_openP9sh2_Hal_s+0x14>
+  2c:	4a0e      	ldr	r2, [pc, #56]	; (68 <_ZL12uarthal_openP9sh2_Hal_s+0x68>)
+  2e:	466c      	mov	r4, sp
+  30:	f10d 0607 	add.w	r6, sp, #7
+  34:	237e      	movs	r3, #126	; 0x7e
+  36:	e892 0003 	ldmia.w	r2, {r0, r1}
+  3a:	e884 0003 	stmia.w	r4, {r0, r1}
+  3e:	e001      	b.n	44 <_ZL12uarthal_openP9sh2_Hal_s+0x44>
+  40:	f814 3f01 	ldrb.w	r3, [r4, #1]!
+  44:	6828      	ldr	r0, [r5, #0]
+  46:	4619      	mov	r1, r3
+  48:	6803      	ldr	r3, [r0, #0]
+  4a:	681b      	ldr	r3, [r3, #0]
+  4c:	4798      	blx	r3
+  4e:	2001      	movs	r0, #1
+  50:	f7ff fffe 	bl	0 <delay>
+  54:	42a6      	cmp	r6, r4
+  56:	d1f3      	bne.n	40 <_ZL12uarthal_openP9sh2_Hal_s+0x40>
+  58:	2000      	movs	r0, #0
+  5a:	b002      	add	sp, #8
+  5c:	bd70      	pop	{r4, r5, r6, pc}
+  5e:	bf00      	nop
+  60:	00000000 	.word	0x00000000
+  64:	002dc6c0 	.word	0x002dc6c0
+  68:	00000008 	.word	0x00000008
+
+Disassembly of section .text._ZL17hal_hardwareResetv:
+
+00000000 <_ZL17hal_hardwareResetv>:
+   0:	b510      	push	{r4, lr}
+   2:	4c10      	ldr	r4, [pc, #64]	; (44 <_ZL17hal_hardwareResetv+0x44>)
+   4:	f994 0000 	ldrsb.w	r0, [r4]
+   8:	1c43      	adds	r3, r0, #1
+   a:	d100      	bne.n	e <_ZL17hal_hardwareResetv+0xe>
+   c:	bd10      	pop	{r4, pc}
+   e:	2101      	movs	r1, #1
+  10:	b2c0      	uxtb	r0, r0
+  12:	f7ff fffe 	bl	0 <pinMode>
+  16:	2101      	movs	r1, #1
+  18:	7820      	ldrb	r0, [r4, #0]
+  1a:	f7ff fffe 	bl	0 <digitalWrite>
+  1e:	200a      	movs	r0, #10
+  20:	f7ff fffe 	bl	0 <delay>
+  24:	2100      	movs	r1, #0
+  26:	7820      	ldrb	r0, [r4, #0]
+  28:	f7ff fffe 	bl	0 <digitalWrite>
+  2c:	200a      	movs	r0, #10
+  2e:	f7ff fffe 	bl	0 <delay>
+  32:	7820      	ldrb	r0, [r4, #0]
+  34:	2101      	movs	r1, #1
+  36:	f7ff fffe 	bl	0 <digitalWrite>
+  3a:	200a      	movs	r0, #10
+  3c:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  40:	f7ff bffe 	b.w	0 <delay>
+  44:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN15Adafruit_BNO08x5_initEl:
+
+00000000 <_ZN15Adafruit_BNO08x5_initEl>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <_ZN15Adafruit_BNO08x5_initEl>
+   8:	2200      	movs	r2, #0
+   a:	490c      	ldr	r1, [pc, #48]	; (3c <_ZN15Adafruit_BNO08x5_initEl+0x3c>)
+   c:	f104 0058 	add.w	r0, r4, #88	; 0x58
+  10:	f7ff fffe 	bl	0 <sh2_open>
+  14:	b108      	cbz	r0, 1a <_ZN15Adafruit_BNO08x5_initEl+0x1a>
+  16:	2000      	movs	r0, #0
+  18:	bd10      	pop	{r4, pc}
+  1a:	3404      	adds	r4, #4
+  1c:	4601      	mov	r1, r0
+  1e:	2254      	movs	r2, #84	; 0x54
+  20:	4620      	mov	r0, r4
+  22:	f7ff fffe 	bl	0 <memset>
+  26:	4620      	mov	r0, r4
+  28:	f7ff fffe 	bl	0 <sh2_getProdIds>
+  2c:	2800      	cmp	r0, #0
+  2e:	d1f2      	bne.n	16 <_ZN15Adafruit_BNO08x5_initEl+0x16>
+  30:	4601      	mov	r1, r0
+  32:	4803      	ldr	r0, [pc, #12]	; (40 <_ZN15Adafruit_BNO08x5_initEl+0x40>)
+  34:	f7ff fffe 	bl	0 <sh2_setSensorCallback>
+  38:	2001      	movs	r0, #1
+  3a:	bd10      	pop	{r4, pc}
+  3c:	00000000 	.word	0x00000000
+  40:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZL12spihal_closeP9sh2_Hal_s:
+
+00000000 <_ZL12spihal_closeP9sh2_Hal_s>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZL13sensorHandlerPvP15sh2_SensorEvent:
+
+00000000 <_ZL13sensorHandlerPvP15sh2_SensorEvent>:
+   0:	b510      	push	{r4, lr}
+   2:	4c09      	ldr	r4, [pc, #36]	; (28 <_ZL13sensorHandlerPvP15sh2_SensorEvent+0x28>)
+   4:	6820      	ldr	r0, [r4, #0]
+   6:	f7ff fffe 	bl	0 <sh2_decodeSensorEvent>
+   a:	b900      	cbnz	r0, e <_ZL13sensorHandlerPvP15sh2_SensorEvent+0xe>
+   c:	bd10      	pop	{r4, pc}
+   e:	2124      	movs	r1, #36	; 0x24
+  10:	4806      	ldr	r0, [pc, #24]	; (2c <_ZL13sensorHandlerPvP15sh2_SensorEvent+0x2c>)
+  12:	f7ff fffe 	bl	0 <usb_serial_write>
+  16:	4806      	ldr	r0, [pc, #24]	; (30 <_ZL13sensorHandlerPvP15sh2_SensorEvent+0x30>)
+  18:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  1c:	6823      	ldr	r3, [r4, #0]
+  1e:	2000      	movs	r0, #0
+  20:	2100      	movs	r1, #0
+  22:	e9c3 0102 	strd	r0, r1, [r3, #8]
+  26:	bd10      	pop	{r4, pc}
+  28:	00000000 	.word	0x00000000
+  2c:	00000000 	.word	0x00000000
+  30:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZL11spihal_openP9sh2_Hal_s:
+
+00000000 <_ZL11spihal_openP9sh2_Hal_s>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	f44f 74fa 	mov.w	r4, #500	; 0x1f4
+   6:	4d09      	ldr	r5, [pc, #36]	; (2c <_ZL11spihal_openP9sh2_Hal_s+0x2c>)
+   8:	e003      	b.n	12 <_ZL11spihal_openP9sh2_Hal_s+0x12>
+   a:	f7ff fffe 	bl	0 <delay>
+   e:	3c01      	subs	r4, #1
+  10:	d008      	beq.n	24 <_ZL11spihal_openP9sh2_Hal_s+0x24>
+  12:	7828      	ldrb	r0, [r5, #0]
+  14:	f7ff fffe 	bl	0 <digitalRead>
+  18:	4603      	mov	r3, r0
+  1a:	2001      	movs	r0, #1
+  1c:	2b00      	cmp	r3, #0
+  1e:	d1f4      	bne.n	a <_ZL11spihal_openP9sh2_Hal_s+0xa>
+  20:	2000      	movs	r0, #0
+  22:	bd38      	pop	{r3, r4, r5, pc}
+  24:	f7ff fffe 	bl	0 <_ZL11spihal_openP9sh2_Hal_s>
+  28:	2000      	movs	r0, #0
+  2a:	bd38      	pop	{r3, r4, r5, pc}
+  2c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZL12spihal_writeP9sh2_Hal_sPhj:
+
+00000000 <_ZL12spihal_writeP9sh2_Hal_sPhj>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	f44f 74fa 	mov.w	r4, #500	; 0x1f4
+   6:	b083      	sub	sp, #12
+   8:	4d0e      	ldr	r5, [pc, #56]	; (44 <_ZL12spihal_writeP9sh2_Hal_sPhj+0x44>)
+   a:	460f      	mov	r7, r1
+   c:	4616      	mov	r6, r2
+   e:	e003      	b.n	18 <_ZL12spihal_writeP9sh2_Hal_sPhj+0x18>
+  10:	f7ff fffe 	bl	0 <delay>
+  14:	3c01      	subs	r4, #1
+  16:	d010      	beq.n	3a <_ZL12spihal_writeP9sh2_Hal_sPhj+0x3a>
+  18:	7828      	ldrb	r0, [r5, #0]
+  1a:	f7ff fffe 	bl	0 <digitalRead>
+  1e:	4603      	mov	r3, r0
+  20:	2001      	movs	r0, #1
+  22:	2b00      	cmp	r3, #0
+  24:	d1f4      	bne.n	10 <_ZL12spihal_writeP9sh2_Hal_sPhj+0x10>
+  26:	4a08      	ldr	r2, [pc, #32]	; (48 <_ZL12spihal_writeP9sh2_Hal_sPhj+0x48>)
+  28:	4639      	mov	r1, r7
+  2a:	9300      	str	r3, [sp, #0]
+  2c:	6810      	ldr	r0, [r2, #0]
+  2e:	4632      	mov	r2, r6
+  30:	f7ff fffe 	bl	0 <_ZN18Adafruit_SPIDevice5writeEPKhjS1_j>
+  34:	4630      	mov	r0, r6
+  36:	b003      	add	sp, #12
+  38:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  3a:	f7ff fffe 	bl	0 <_ZL12spihal_writeP9sh2_Hal_sPhj>
+  3e:	4620      	mov	r0, r4
+  40:	b003      	add	sp, #12
+  42:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  44:	00000000 	.word	0x00000000
+  48:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZL11spihal_readP9sh2_Hal_sPhjPm:
+
+00000000 <_ZL11spihal_readP9sh2_Hal_sPhjPm>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	f44f 74fa 	mov.w	r4, #500	; 0x1f4
+   8:	4d1e      	ldr	r5, [pc, #120]	; (84 <_ZL11spihal_readP9sh2_Hal_sPhjPm+0x84>)
+   a:	460e      	mov	r6, r1
+   c:	4691      	mov	r9, r2
+   e:	e003      	b.n	18 <_ZL11spihal_readP9sh2_Hal_sPhjPm+0x18>
+  10:	f7ff fffe 	bl	0 <delay>
+  14:	3c01      	subs	r4, #1
+  16:	d02f      	beq.n	78 <_ZL11spihal_readP9sh2_Hal_sPhjPm+0x78>
+  18:	7828      	ldrb	r0, [r5, #0]
+  1a:	f7ff fffe 	bl	0 <digitalRead>
+  1e:	4603      	mov	r3, r0
+  20:	2001      	movs	r0, #1
+  22:	2b00      	cmp	r3, #0
+  24:	d1f4      	bne.n	10 <_ZL11spihal_readP9sh2_Hal_sPhjPm+0x10>
+  26:	f8df 8060 	ldr.w	r8, [pc, #96]	; 88 <_ZL11spihal_readP9sh2_Hal_sPhjPm+0x88>
+  2a:	2204      	movs	r2, #4
+  2c:	4631      	mov	r1, r6
+  2e:	f8d8 0000 	ldr.w	r0, [r8]
+  32:	f7ff fffe 	bl	0 <_ZN18Adafruit_SPIDevice4readEPhjh>
+  36:	b120      	cbz	r0, 42 <_ZL11spihal_readP9sh2_Hal_sPhjPm+0x42>
+  38:	8830      	ldrh	r0, [r6, #0]
+  3a:	f3c0 070e 	ubfx	r7, r0, #0, #15
+  3e:	45b9      	cmp	r9, r7
+  40:	d202      	bcs.n	48 <_ZL11spihal_readP9sh2_Hal_sPhjPm+0x48>
+  42:	2000      	movs	r0, #0
+  44:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  48:	f44f 74fa 	mov.w	r4, #500	; 0x1f4
+  4c:	e003      	b.n	56 <_ZL11spihal_readP9sh2_Hal_sPhjPm+0x56>
+  4e:	f7ff fffe 	bl	0 <delay>
+  52:	3c01      	subs	r4, #1
+  54:	d010      	beq.n	78 <_ZL11spihal_readP9sh2_Hal_sPhjPm+0x78>
+  56:	7828      	ldrb	r0, [r5, #0]
+  58:	f7ff fffe 	bl	0 <digitalRead>
+  5c:	4603      	mov	r3, r0
+  5e:	2001      	movs	r0, #1
+  60:	2b00      	cmp	r3, #0
+  62:	d1f4      	bne.n	4e <_ZL11spihal_readP9sh2_Hal_sPhjPm+0x4e>
+  64:	463a      	mov	r2, r7
+  66:	4631      	mov	r1, r6
+  68:	f8d8 0000 	ldr.w	r0, [r8]
+  6c:	f7ff fffe 	bl	0 <_ZN18Adafruit_SPIDevice4readEPhjh>
+  70:	2800      	cmp	r0, #0
+  72:	d0e6      	beq.n	42 <_ZL11spihal_readP9sh2_Hal_sPhjPm+0x42>
+  74:	4638      	mov	r0, r7
+  76:	e7e5      	b.n	44 <_ZL11spihal_readP9sh2_Hal_sPhjPm+0x44>
+  78:	f7ff fffe 	bl	0 <_ZL11spihal_readP9sh2_Hal_sPhjPm>
+  7c:	2000      	movs	r0, #0
+  7e:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  82:	bf00      	nop
+  84:	00000000 	.word	0x00000000
+  88:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN15Adafruit_BNO08xC2Ea:
+
+00000000 <_ZN15Adafruit_BNO08xC1Ea>:
+   0:	4a02      	ldr	r2, [pc, #8]	; (c <_ZN15Adafruit_BNO08xC1Ea+0xc>)
+   2:	4b03      	ldr	r3, [pc, #12]	; (10 <_ZN15Adafruit_BNO08xC1Ea+0x10>)
+   4:	6002      	str	r2, [r0, #0]
+   6:	7019      	strb	r1, [r3, #0]
+   8:	4770      	bx	lr
+   a:	bf00      	nop
+   c:	00000008 	.word	0x00000008
+  10:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN15Adafruit_BNO08xD2Ev:
+
+00000000 <_ZN15Adafruit_BNO08xD1Ev>:
+   0:	4770      	bx	lr
+   2:	bf00      	nop
+
+Disassembly of section .text._ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel:
+
+00000000 <_ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel>:
+   0:	b5f0      	push	{r4, r5, r6, r7, lr}
+   2:	4f1c      	ldr	r7, [pc, #112]	; (74 <_ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel+0x74>)
+   4:	4604      	mov	r4, r0
+   6:	b083      	sub	sp, #12
+   8:	460d      	mov	r5, r1
+   a:	6838      	ldr	r0, [r7, #0]
+   c:	461e      	mov	r6, r3
+   e:	b120      	cbz	r0, 1a <_ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel+0x1a>
+  10:	2110      	movs	r1, #16
+  12:	9201      	str	r2, [sp, #4]
+  14:	f7ff fffe 	bl	0 <_ZdlPvj>
+  18:	9a01      	ldr	r2, [sp, #4]
+  1a:	2010      	movs	r0, #16
+  1c:	9201      	str	r2, [sp, #4]
+  1e:	f7ff fffe 	bl	0 <_Znwj>
+  22:	4629      	mov	r1, r5
+  24:	4605      	mov	r5, r0
+  26:	9a01      	ldr	r2, [sp, #4]
+  28:	f7ff fffe 	bl	0 <_ZN18Adafruit_I2CDeviceC1EhP7TwoWire>
+  2c:	2101      	movs	r1, #1
+  2e:	4628      	mov	r0, r5
+  30:	603d      	str	r5, [r7, #0]
+  32:	f7ff fffe 	bl	0 <_ZN18Adafruit_I2CDevice5beginEb>
+  36:	4605      	mov	r5, r0
+  38:	b188      	cbz	r0, 5e <_ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel+0x5e>
+  3a:	4a0f      	ldr	r2, [pc, #60]	; (78 <_ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel+0x78>)
+  3c:	4631      	mov	r1, r6
+  3e:	4b0f      	ldr	r3, [pc, #60]	; (7c <_ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel+0x7c>)
+  40:	480f      	ldr	r0, [pc, #60]	; (80 <_ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel+0x80>)
+  42:	e9c4 2316 	strd	r2, r3, [r4, #88]	; 0x58
+  46:	4b0f      	ldr	r3, [pc, #60]	; (84 <_ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel+0x84>)
+  48:	4a0f      	ldr	r2, [pc, #60]	; (88 <_ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel+0x88>)
+  4a:	e9c4 0318 	strd	r0, r3, [r4, #96]	; 0x60
+  4e:	6823      	ldr	r3, [r4, #0]
+  50:	4620      	mov	r0, r4
+  52:	66a2      	str	r2, [r4, #104]	; 0x68
+  54:	681b      	ldr	r3, [r3, #0]
+  56:	b003      	add	sp, #12
+  58:	e8bd 40f0 	ldmia.w	sp!, {r4, r5, r6, r7, lr}
+  5c:	4718      	bx	r3
+  5e:	2115      	movs	r1, #21
+  60:	480a      	ldr	r0, [pc, #40]	; (8c <_ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel+0x8c>)
+  62:	f7ff fffe 	bl	0 <usb_serial_write>
+  66:	480a      	ldr	r0, [pc, #40]	; (90 <_ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel+0x90>)
+  68:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  6c:	4628      	mov	r0, r5
+  6e:	b003      	add	sp, #12
+  70:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  72:	bf00      	nop
+  74:	00000000 	.word	0x00000000
+  78:	00000000 	.word	0x00000000
+  7c:	00000000 	.word	0x00000000
+  80:	00000000 	.word	0x00000000
+  84:	00000000 	.word	0x00000000
+  88:	00000000 	.word	0x00000000
+  8c:	00000000 	.word	0x00000000
+  90:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall:
+
+00000000 <_ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall>:
+   0:	b430      	push	{r4, r5}
+   2:	460d      	mov	r5, r1
+   4:	4c08      	ldr	r4, [pc, #32]	; (28 <_ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall+0x28>)
+   6:	4611      	mov	r1, r2
+   8:	4a08      	ldr	r2, [pc, #32]	; (2c <_ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall+0x2c>)
+   a:	6025      	str	r5, [r4, #0]
+   c:	4c08      	ldr	r4, [pc, #32]	; (30 <_ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall+0x30>)
+   e:	e9c0 4216 	strd	r4, r2, [r0, #88]	; 0x58
+  12:	4c08      	ldr	r4, [pc, #32]	; (34 <_ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall+0x34>)
+  14:	4a08      	ldr	r2, [pc, #32]	; (38 <_ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall+0x38>)
+  16:	e9c0 4218 	strd	r4, r2, [r0, #96]	; 0x60
+  1a:	4c08      	ldr	r4, [pc, #32]	; (3c <_ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall+0x3c>)
+  1c:	6802      	ldr	r2, [r0, #0]
+  1e:	6684      	str	r4, [r0, #104]	; 0x68
+  20:	6813      	ldr	r3, [r2, #0]
+  22:	bc30      	pop	{r4, r5}
+  24:	4718      	bx	r3
+  26:	bf00      	nop
+  28:	00000000 	.word	0x00000000
+  2c:	00000000 	.word	0x00000000
+  30:	00000000 	.word	0x00000000
+  34:	00000000 	.word	0x00000000
+  38:	00000000 	.word	0x00000000
+  3c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl:
+
+00000000 <_ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl>:
+   0:	e92d 43f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, lr}
+   4:	460d      	mov	r5, r1
+   6:	461e      	mov	r6, r3
+   8:	2100      	movs	r1, #0
+   a:	4b1f      	ldr	r3, [pc, #124]	; (88 <_ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl+0x88>)
+   c:	b083      	sub	sp, #12
+   e:	f8df 9098 	ldr.w	r9, [pc, #152]	; a8 <_ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl+0xa8>
+  12:	6019      	str	r1, [r3, #0]
+  14:	4604      	mov	r4, r0
+  16:	4b1d      	ldr	r3, [pc, #116]	; (8c <_ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl+0x8c>)
+  18:	4610      	mov	r0, r2
+  1a:	2102      	movs	r1, #2
+  1c:	f8dd 8028 	ldr.w	r8, [sp, #40]	; 0x28
+  20:	701a      	strb	r2, [r3, #0]
+  22:	f7ff fffe 	bl	0 <pinMode>
+  26:	f8d9 7000 	ldr.w	r7, [r9]
+  2a:	b137      	cbz	r7, 3a <_ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl+0x3a>
+  2c:	4638      	mov	r0, r7
+  2e:	f7ff fffe 	bl	0 <_ZN18Adafruit_SPIDeviceD1Ev>
+  32:	4638      	mov	r0, r7
+  34:	2114      	movs	r1, #20
+  36:	f7ff fffe 	bl	0 <_ZdlPvj>
+  3a:	2014      	movs	r0, #20
+  3c:	f7ff fffe 	bl	0 <_Znwj>
+  40:	230c      	movs	r3, #12
+  42:	b269      	sxtb	r1, r5
+  44:	4605      	mov	r5, r0
+  46:	9300      	str	r3, [sp, #0]
+  48:	2301      	movs	r3, #1
+  4a:	4a11      	ldr	r2, [pc, #68]	; (90 <_ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl+0x90>)
+  4c:	9601      	str	r6, [sp, #4]
+  4e:	f7ff fffe 	bl	0 <_ZN18Adafruit_SPIDeviceC1Eam9_BitOrderhP8SPIClass>
+  52:	4628      	mov	r0, r5
+  54:	f8c9 5000 	str.w	r5, [r9]
+  58:	f7ff fffe 	bl	0 <_ZN18Adafruit_SPIDevice5beginEv>
+  5c:	b188      	cbz	r0, 82 <_ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl+0x82>
+  5e:	4a0d      	ldr	r2, [pc, #52]	; (94 <_ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl+0x94>)
+  60:	4641      	mov	r1, r8
+  62:	4b0d      	ldr	r3, [pc, #52]	; (98 <_ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl+0x98>)
+  64:	480d      	ldr	r0, [pc, #52]	; (9c <_ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl+0x9c>)
+  66:	e9c4 2316 	strd	r2, r3, [r4, #88]	; 0x58
+  6a:	4b0d      	ldr	r3, [pc, #52]	; (a0 <_ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl+0xa0>)
+  6c:	4a0d      	ldr	r2, [pc, #52]	; (a4 <_ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl+0xa4>)
+  6e:	e9c4 0318 	strd	r0, r3, [r4, #96]	; 0x60
+  72:	6823      	ldr	r3, [r4, #0]
+  74:	4620      	mov	r0, r4
+  76:	66a2      	str	r2, [r4, #104]	; 0x68
+  78:	681b      	ldr	r3, [r3, #0]
+  7a:	b003      	add	sp, #12
+  7c:	e8bd 43f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, lr}
+  80:	4718      	bx	r3
+  82:	b003      	add	sp, #12
+  84:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
+  88:	00000000 	.word	0x00000000
+  8c:	00000000 	.word	0x00000000
+  90:	000f4240 	.word	0x000f4240
+  94:	00000000 	.word	0x00000000
+  98:	00000000 	.word	0x00000000
+  9c:	00000000 	.word	0x00000000
+  a0:	00000000 	.word	0x00000000
+  a4:	00000000 	.word	0x00000000
+  a8:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN15Adafruit_BNO08x13hardwareResetEv:
+
+00000000 <_ZN15Adafruit_BNO08x13hardwareResetEv>:
+   0:	f7ff bffe 	b.w	0 <_ZN15Adafruit_BNO08x13hardwareResetEv>
+
+Disassembly of section .text._ZN15Adafruit_BNO08x8wasResetEv:
+
+00000000 <_ZN15Adafruit_BNO08x8wasResetEv>:
+   0:	4b02      	ldr	r3, [pc, #8]	; (c <_ZN15Adafruit_BNO08x8wasResetEv+0xc>)
+   2:	2200      	movs	r2, #0
+   4:	7818      	ldrb	r0, [r3, #0]
+   6:	701a      	strb	r2, [r3, #0]
+   8:	4770      	bx	lr
+   a:	bf00      	nop
+   c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN15Adafruit_BNO08x14getSensorEventEP15sh2_SensorValue:
+
+00000000 <_ZN15Adafruit_BNO08x14getSensorEventEP15sh2_SensorValue>:
+   0:	ed9f 7b0b 	vldr	d7, [pc, #44]	; 30 <_ZN15Adafruit_BNO08x14getSensorEventEP15sh2_SensorValue+0x30>
+   4:	4b0c      	ldr	r3, [pc, #48]	; (38 <_ZN15Adafruit_BNO08x14getSensorEventEP15sh2_SensorValue+0x38>)
+   6:	b510      	push	{r4, lr}
+   8:	460c      	mov	r4, r1
+   a:	6019      	str	r1, [r3, #0]
+   c:	ed81 7b02 	vstr	d7, [r1, #8]
+  10:	f7ff fffe 	bl	0 <sh2_service>
+  14:	e9d4 3202 	ldrd	r3, r2, [r4, #8]
+  18:	4313      	orrs	r3, r2
+  1a:	d106      	bne.n	2a <_ZN15Adafruit_BNO08x14getSensorEventEP15sh2_SensorValue+0x2a>
+  1c:	7820      	ldrb	r0, [r4, #0]
+  1e:	f1a0 002a 	sub.w	r0, r0, #42	; 0x2a
+  22:	fab0 f080 	clz	r0, r0
+  26:	0940      	lsrs	r0, r0, #5
+  28:	bd10      	pop	{r4, pc}
+  2a:	2001      	movs	r0, #1
+  2c:	bd10      	pop	{r4, pc}
+  2e:	bf00      	nop
+  30:	00000000 	.word	0x00000000
+  34:	00000000 	.word	0x00000000
+  38:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN15Adafruit_BNO08x12enableReportEhm:
+
+00000000 <_ZN15Adafruit_BNO08x12enableReportEhm>:
+   0:	4b07      	ldr	r3, [pc, #28]	; (20 <_ZN15Adafruit_BNO08x12enableReportEhm+0x20>)
+   2:	4608      	mov	r0, r1
+   4:	b510      	push	{r4, lr}
+   6:	2400      	movs	r4, #0
+   8:	4619      	mov	r1, r3
+   a:	609a      	str	r2, [r3, #8]
+   c:	601c      	str	r4, [r3, #0]
+   e:	809c      	strh	r4, [r3, #4]
+  10:	e9c3 4403 	strd	r4, r4, [r3, #12]
+  14:	f7ff fffe 	bl	0 <sh2_setSensorConfig>
+  18:	fab0 f080 	clz	r0, r0
+  1c:	0940      	lsrs	r0, r0, #5
+  1e:	bd10      	pop	{r4, pc}
+  20:	00000000 	.word	0x00000000

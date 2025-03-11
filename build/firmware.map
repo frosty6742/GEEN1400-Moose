@@ -101,9 +101,9 @@ Archive member included to satisfy reference by file (symbol)
 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-init.o)
                               /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o (__libc_init_array)
 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strcmp.o)
-                              ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o (strcmp)
+                              ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o (strcmp)
 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strcpy.o)
-                              ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o (strcpy)
+                              ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o (strcpy)
 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-locale.o)
                               /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strtod.o) (__global_locale)
 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-printf.o)
@@ -141,7 +141,7 @@ Archive member included to satisfy reference by file (symbol)
 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-memchr.o)
                               ./build/./libraries/SdFat/src/iostream/StdioStream.cpp.o (memchr)
 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-memcpy-stub.o)
-                              ./build/./libraries/QNEthernet/src/security/entropy.c.o (memcpy)
+                              ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o (memcpy)
 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strlen.o)
                               ./build/./libraries/Adafruit_Sensor/Adafruit_Sensor.cpp.o (strlen)
 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-malloc.o)
@@ -188,6 +188,8 @@ Archive member included to satisfy reference by file (symbol)
                               ./build/./libraries/QNEthernet/src/lwip/mem.c.o (calloc)
 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-callocr.o)
                               /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-mprec.o) (_calloc_r)
+/home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stpcpy.o)
+                              ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o (stpcpy)
 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-realloc.o)
                               ./build/./teensy4/extmem.c.o (realloc)
 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strstr.o)
@@ -489,6 +491,352 @@ Discarded input sections
                 0x0000000000000000       0x1f ./build/./libraries/SD/SD.cpp.o
  .text._ZN7SDClass17setMediaDetectPinEh
                 0x0000000000000000       0x5c ./build/./libraries/SD/SD.cpp.o
+ .text          0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .data          0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .bss           0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .text.updateCallbacks
+                0x0000000000000000       0x6c ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .text.addApp   0x0000000000000000       0x54 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .text.shtpAdvertHdlr
+                0x0000000000000000       0x28 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .text.shtpCmdListener
+                0x0000000000000000      0x244 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .rodata.shtp_open.str1.4
+                0x0000000000000000        0x8 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .text.shtp_open
+                0x0000000000000000      0x108 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .text.shtp_close
+                0x0000000000000000       0x1c ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .text.shtp_setEventCallback
+                0x0000000000000000        0x8 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .text.shtp_listenChan
+                0x0000000000000000       0x58 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .text.shtp_listenAdvert
+                0x0000000000000000       0x54 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .text.shtp_chanNo
+                0x0000000000000000       0x60 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .text.shtp_service
+                0x0000000000000000      0x180 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .text.shtp_send
+                0x0000000000000000       0xd4 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .bss.instances
+                0x0000000000000000      0x834 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .bss.shtp_initialized
+                0x0000000000000000        0x1 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .rodata.advertise
+                0x0000000000000000        0x2 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .comment       0x0000000000000000       0x34 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .ARM.attributes
+                0x0000000000000000       0x32 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+ .text          0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .data          0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .bss           0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL12i2chal_closeP9sh2_Hal_s
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL13uarthal_closeP9sh2_Hal_s
+                0x0000000000000000       0x10 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL13hal_getTimeUsP9sh2_Hal_s
+                0x0000000000000000       0x14 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL12hal_callbackPvP14sh2_AsyncEvent
+                0x0000000000000000       0x10 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL12i2chal_writeP9sh2_Hal_sPhj
+                0x0000000000000000       0x30 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL11i2chal_readP9sh2_Hal_sPhjPm
+                0x0000000000000000       0xb8 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL11i2chal_openP9sh2_Hal_s
+                0x0000000000000000       0x58 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL13uarthal_writeP9sh2_Hal_sPhj
+                0x0000000000000000       0x88 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL12uarthal_readP9sh2_Hal_sPhjPm
+                0x0000000000000000       0xa8 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL12uarthal_openP9sh2_Hal_s
+                0x0000000000000000       0x6c ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL17hal_hardwareResetv
+                0x0000000000000000       0x48 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZN15Adafruit_BNO08x5_initEl
+                0x0000000000000000       0x44 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL12spihal_closeP9sh2_Hal_s
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .rodata._ZL13sensorHandlerPvP15sh2_SensorEvent.str1.4
+                0x0000000000000000       0x25 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL13sensorHandlerPvP15sh2_SensorEvent
+                0x0000000000000000       0x34 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL11spihal_openP9sh2_Hal_s
+                0x0000000000000000       0x30 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL12spihal_writeP9sh2_Hal_sPhj
+                0x0000000000000000       0x4c ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZL11spihal_readP9sh2_Hal_sPhjPm
+                0x0000000000000000       0x8c ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZN15Adafruit_BNO08xC2Ea
+                0x0000000000000000       0x14 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZN15Adafruit_BNO08xD2Ev
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .rodata._ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel.str1.4
+                0x0000000000000000       0x16 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel
+                0x0000000000000000       0x94 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZN15Adafruit_BNO08x10begin_UARTEP14HardwareSeriall
+                0x0000000000000000       0x40 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZN15Adafruit_BNO08x9begin_SPIEhhP8SPIClassl
+                0x0000000000000000       0xac ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZN15Adafruit_BNO08x13hardwareResetEv
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZN15Adafruit_BNO08x8wasResetEv
+                0x0000000000000000       0x10 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZN15Adafruit_BNO08x14getSensorEventEP15sh2_SensorValue
+                0x0000000000000000       0x3c ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text._ZN15Adafruit_BNO08x12enableReportEhm
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .rodata        0x0000000000000000       0x10 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .bss._ZL10_reset_pin
+                0x0000000000000000        0x1 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .bss._ZL13_sensor_value
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .bss._ZL15_reset_occurred
+                0x0000000000000000        0x1 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .bss._ZL7i2c_dev
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .bss._ZL7spi_dev
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .bss._ZL8_int_pin
+                0x0000000000000000        0x1 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .bss._ZL8uart_dev
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .bss._ZZN15Adafruit_BNO08x12enableReportEhmE6config
+                0x0000000000000000       0x14 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .rodata._ZTV15Adafruit_BNO08x
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .comment       0x0000000000000000       0x34 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .ARM.attributes
+                0x0000000000000000       0x32 ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+ .text          0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .data          0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .bss           0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.executableAdvertHdlr
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.shtpEventCallback
+                0x0000000000000000       0x2c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getProdIdStart
+                0x0000000000000000       0x28 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getSensorConfigStart
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.setSensorConfigStart
+                0x0000000000000000       0x74 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getFrsStart
+                0x0000000000000000       0x30 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.setFrsStart
+                0x0000000000000000       0x34 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sendCmd  0x0000000000000000       0x4c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getErrorsStart
+                0x0000000000000000       0x28 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sendCmdStart
+                0x0000000000000000       0x18 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getOscTypeStart
+                0x0000000000000000       0x1c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.setCalConfigStart
+                0x0000000000000000       0x40 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getCalConfigStart
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.startCalStart
+                0x0000000000000000       0x38 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.forceFlushStart
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sensorhubInputGyroRvHdlr
+                0x0000000000000000       0x84 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sensorhubInputHdlr
+                0x0000000000000000      0x10c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sensorhubInputNormalHdlr
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.sensorhubAdvertHdlr.str1.4
+                0x0000000000000000       0x26 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sensorhubAdvertHdlr
+                0x0000000000000000       0x7c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.executableDeviceHdlr
+                0x0000000000000000       0x3c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getProdIdRx
+                0x0000000000000000       0x7c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getSensorConfigRx
+                0x0000000000000000       0x5c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getFrsRx
+                0x0000000000000000       0xc0 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.forceFlushRx
+                0x0000000000000000       0x1c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.setFrsRx
+                0x0000000000000000       0x8c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getCountsRx
+                0x0000000000000000       0x6c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getCountsStart
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.opProcess.constprop.0
+                0x0000000000000000       0x6c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sensorhubInputWakeHdlr
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.saveDcdNowStart
+                0x0000000000000000       0x1c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sensorhubControlHdlr
+                0x0000000000000000       0xf4 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.finishCalStart
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.reinitStart
+                0x0000000000000000       0x28 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.startCalRx
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getOscTypeRx
+                0x0000000000000000       0x2c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.reinitRx
+                0x0000000000000000       0x34 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.finishCalRx
+                0x0000000000000000       0x38 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getCalConfigRx
+                0x0000000000000000       0x58 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.getErrorsRx
+                0x0000000000000000       0x84 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.saveDcdNowRx
+                0x0000000000000000       0x34 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.setCalConfigRx
+                0x0000000000000000       0x34 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.sh2_open.str1.4
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_open
+                0x0000000000000000      0x10c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_close
+                0x0000000000000000       0x20 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_service
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_setSensorCallback
+                0x0000000000000000       0x10 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_devReset
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_devOn
+                0x0000000000000000       0x28 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_devSleep
+                0x0000000000000000       0x28 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_getProdIds
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_getSensorConfig
+                0x0000000000000000       0x28 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_setSensorConfig
+                0x0000000000000000       0x28 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_getMetadata
+                0x0000000000000000      0x16c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_getFrs
+                0x0000000000000000       0x44 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_setFrs
+                0x0000000000000000       0x34 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_getErrors
+                0x0000000000000000       0x30 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_getCounts
+                0x0000000000000000       0x28 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_clearCounts
+                0x0000000000000000       0x28 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_setTareNow
+                0x0000000000000000       0x38 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_clearTare
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_persistTare
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_setReorientation
+                0x0000000000000000       0xa8 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_reinitialize
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_saveDcdNow
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_getOscType
+                0x0000000000000000       0x18 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_setCalConfig
+                0x0000000000000000       0x18 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_getCalConfig
+                0x0000000000000000       0x18 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_setDcdAutoSave
+                0x0000000000000000       0x30 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_flush
+                0x0000000000000000       0x20 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_clearDcdAndReset
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_startCal
+                0x0000000000000000       0x24 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_finishCal
+                0x0000000000000000       0x1c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text.sh2_setIZro
+                0x0000000000000000       0x28 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .bss._sh2      0x0000000000000000      0x1fc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .bss.lastHostInt.1
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .bss.rollovers.0
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .bss.sh2AsyncEvent
+                0x0000000000000000       0x1c ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.finishCalOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.forceFlushOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.getCalConfigOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.getCountsOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.getErrorsOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.getFrsOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.getOscTypeOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.getProdIdOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.getSensorConfigOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.reinitOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.saveDcdNowOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.sendCmdOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.sensorToRecordMap
+                0x0000000000000000       0x80 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.setCalConfigOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.setFrsOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.setSensorConfigOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .rodata.startCalOp
+                0x0000000000000000        0xc ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .comment       0x0000000000000000       0x34 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .ARM.attributes
+                0x0000000000000000       0x32 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+ .text          0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .data          0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .bss           0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .text.readu8   0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .text.writeu8  0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .text.readu16  0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .text.writeu16
+                0x0000000000000000        0x8 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .text.readu32  0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .text.writeu32
+                0x0000000000000000       0x14 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .text.read8    0x0000000000000000        0x8 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .text.write8   0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .text.read16   0x0000000000000000        0x8 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .text.write16  0x0000000000000000        0x8 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .text.read32   0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .text.write32  0x0000000000000000       0x14 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .comment       0x0000000000000000       0x34 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .ARM.attributes
+                0x0000000000000000       0x32 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+ .text          0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
+ .data          0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
+ .bss           0x0000000000000000        0x0 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
+ .text.decodeRotationVector
+                0x0000000000000000       0x90 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
+ .text.decodeGameRotationVector
+                0x0000000000000000       0x7c ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
+ .text.sh2_decodeSensorEvent
+                0x0000000000000000      0x408 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
+ .rodata.scaleRadToDeg
+                0x0000000000000000        0x4 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
+ .comment       0x0000000000000000       0x34 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
+ .ARM.attributes
+                0x0000000000000000       0x32 ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
  .group         0x0000000000000000        0x8 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
  .group         0x0000000000000000        0x8 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
  .group         0x0000000000000000        0xc ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
@@ -8988,6 +9336,13 @@ Discarded input sections
  .comment       0x0000000000000000       0x34 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-callocr.o)
  .ARM.attributes
                 0x0000000000000000       0x32 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-callocr.o)
+ .text          0x0000000000000000        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stpcpy.o)
+ .data          0x0000000000000000        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stpcpy.o)
+ .bss           0x0000000000000000        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stpcpy.o)
+ .text.stpcpy   0x0000000000000000       0x12 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stpcpy.o)
+ .comment       0x0000000000000000       0x34 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stpcpy.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stpcpy.o)
  .text          0x0000000000000000        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-realloc.o)
  .data          0x0000000000000000        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-realloc.o)
  .bss           0x0000000000000000        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-realloc.o)
@@ -9201,6 +9556,11 @@ LOAD ./build/./libraries/VL53L4CD/platform.cpp.o
 LOAD ./build/./libraries/VL53L4CD/vl53l4cd_api.cpp.o
 LOAD ./build/./libraries/VL53L4CD/vl53l4cd_calibration.cpp.o
 LOAD ./build/./libraries/SD/SD.cpp.o
+LOAD ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+LOAD ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+LOAD ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+LOAD ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+LOAD ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
 LOAD ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
 LOAD ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
 LOAD ./build/./libraries/QNEthernet/src/altcp_tls_adapter.cpp.o
@@ -11719,454 +12079,454 @@ LOAD ./build/./src/main.cpp.o
  .rodata        0x00000000200005e8       0x18 ./build/./src/tug-controls/SparkMaxESC.cpp.o
  .rodata        0x0000000020000600       0x88 ./build/./src/sensors/can/can_manager.cpp.o
  .rodata._Z10print_logov.str1.4
-                0x0000000020000688       0xde ./build/./src/main.cpp.o
+                0x0000000020000688       0xf2 ./build/./src/main.cpp.o
  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
-                0x0000000020000766       0x77 ./build/./src/controls/controller_manager.cpp.o
+                0x000000002000077a       0x77 ./build/./src/controls/controller_manager.cpp.o
  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
-                0x0000000020000766       0x77 ./build/./src/controls/estimator_manager.cpp.o
+                0x000000002000077a       0x77 ./build/./src/controls/estimator_manager.cpp.o
  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
-                0x0000000020000766       0x77 ./build/./src/controls/estimator.cpp.o
+                0x000000002000077a       0x77 ./build/./src/controls/estimator.cpp.o
  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
-                0x0000000020000766       0x77 ./build/./src/sensors/SensorManager.cpp.o
- *fill*         0x0000000020000766        0x2 
+                0x000000002000077a       0x77 ./build/./src/sensors/SensorManager.cpp.o
+ *fill*         0x000000002000077a        0x2 
  .rodata._ZL11lookupTable
-                0x0000000020000768      0x12c ./build/./libraries/SdFat/src/common/upcase.cpp.o
+                0x000000002000077c      0x12c ./build/./libraries/SdFat/src/common/upcase.cpp.o
  .rodata._ZL18initFatDirCallbackmPv.str1.4
-                0x0000000020000894       0x10 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
+                0x00000000200008a8       0x10 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
                                           0x2 (size before relaxing)
  .rodata._ZL8mapTable
-                0x0000000020000894       0xd4 ./build/./libraries/SdFat/src/common/upcase.cpp.o
+                0x00000000200008a8       0xd4 ./build/./libraries/SdFat/src/common/upcase.cpp.o
  .rodata._ZN12FatFormatter10initFatDirEhm.str1.4
-                0x0000000020000968        0xd ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
+                0x000000002000097c        0xd ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
                                          0x13 (size before relaxing)
- *fill*         0x0000000020000975        0x3 
+ *fill*         0x0000000020000989        0x3 
  .rodata._ZN12FatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print.str1.4
-                0x0000000020000978       0x38 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
+                0x000000002000098c       0x38 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
  .rodata._ZN12FatFormatter9makeFat16Ev.str1.4
-                0x00000000200009b0       0x14 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
+                0x00000000200009c4       0x14 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
  .rodata._ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print.str1.4
-                0x00000000200009c4       0x60 ./build/./libraries/SdFat/src/ExFatLib/ExFatFormatter.cpp.o
+                0x00000000200009d8       0x60 ./build/./libraries/SdFat/src/ExFatLib/ExFatFormatter.cpp.o
                                          0x78 (size before relaxing)
  .rodata._ZN14ExFatPartition4initEP22FsBlockDeviceInterfaceh.str1.4
-                0x0000000020000a24        0x6 ./build/./libraries/SdFat/src/ExFatLib/ExFatPartition.cpp.o
- *fill*         0x0000000020000a2a        0x2 
+                0x0000000020000a38        0x6 ./build/./libraries/SdFat/src/ExFatLib/ExFatPartition.cpp.o
+ *fill*         0x0000000020000a3e        0x2 
  .rodata._ZN15MotorController13setMotorSpeedEff.str1.4
-                0x0000000020000a2c       0x91 ./build/./src/tug-controls/MotorController.cpp.o
- *fill*         0x0000000020000abd        0x3 
+                0x0000000020000a40       0x91 ./build/./src/tug-controls/MotorController.cpp.o
+ *fill*         0x0000000020000ad1        0x3 
  .rodata._ZN15MotorController16printAllReadingsEv.str1.4
-                0x0000000020000ac0       0x49 ./build/./src/tug-controls/MotorController.cpp.o
- *fill*         0x0000000020000b09        0x3 
+                0x0000000020000ad4       0x49 ./build/./src/tug-controls/MotorController.cpp.o
+ *fill*         0x0000000020000b1d        0x3 
  .rodata._ZN5Print10printFloatEdh.str1.4
-                0x0000000020000b0c        0xc ./build/./teensy4/Print.cpp.o
+                0x0000000020000b20        0xc ./build/./teensy4/Print.cpp.o
  .rodata._ZN6Config9fill_dataEP11CommsPacketPh.str1.4
-                0x0000000020000b18       0xa7 ./build/./src/comms/config_layer.cpp.o
- *fill*         0x0000000020000bbf        0x1 
+                0x0000000020000b2c       0xa7 ./build/./src/comms/config_layer.cpp.o
+ *fill*         0x0000000020000bd3        0x1 
  .rodata._ZN6teensy23inplace_function_detail12empty_vtableIvJEEE
-                0x0000000020000bc0       0x10 ./build/./teensy4/IntervalTimer.cpp.o
-                0x0000000020000bc0                teensy::inplace_function_detail::empty_vtable<void>
+                0x0000000020000bd4       0x10 ./build/./teensy4/IntervalTimer.cpp.o
+                0x0000000020000bd4                teensy::inplace_function_detail::empty_vtable<void>
  .rodata._ZN8SPIClass24spiclass_lpspi1_hardwareE
-                0x0000000020000bd0       0x70 ./build/./libraries/SPI/SPI.cpp.o
-                0x0000000020000bd0                SPIClass::spiclass_lpspi1_hardware
+                0x0000000020000be4       0x70 ./build/./libraries/SPI/SPI.cpp.o
+                0x0000000020000be4                SPIClass::spiclass_lpspi1_hardware
  .rodata._ZN8SPIClass24spiclass_lpspi3_hardwareE
-                0x0000000020000c40       0x70 ./build/./libraries/SPI/SPI.cpp.o
-                0x0000000020000c40                SPIClass::spiclass_lpspi3_hardware
+                0x0000000020000c54       0x70 ./build/./libraries/SPI/SPI.cpp.o
+                0x0000000020000c54                SPIClass::spiclass_lpspi3_hardware
  .rodata._ZN8SPIClass24spiclass_lpspi4_hardwareE
-                0x0000000020000cb0       0x70 ./build/./libraries/SPI/SPI.cpp.o
-                0x0000000020000cb0                SPIClass::spiclass_lpspi4_hardware
+                0x0000000020000cc4       0x70 ./build/./libraries/SPI/SPI.cpp.o
+                0x0000000020000cc4                SPIClass::spiclass_lpspi4_hardware
  .rodata._ZN9qindesign7networkL7srv_txtEP12mdns_servicePv.str1.4
-                0x0000000020000d20        0x0 ./build/./libraries/QNEthernet/src/QNMDNS.cpp.o
+                0x0000000020000d34        0x0 ./build/./libraries/QNEthernet/src/QNMDNS.cpp.o
                                           0x1 (size before relaxing)
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.constprop.0.isra.0.str1.4
-                0x0000000020000d20       0x2a ./build/./src/comms/config_layer.cpp.o
+                0x0000000020000d34       0x2a ./build/./src/comms/config_layer.cpp.o
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.str1.4
-                0x0000000020000d4a       0x2a ./build/./src/controls/controller_manager.cpp.o
- *fill*         0x0000000020000d4a        0x2 
+                0x0000000020000d5e       0x2a ./build/./src/controls/controller_manager.cpp.o
+ *fill*         0x0000000020000d5e        0x2 
  .rodata._ZTV10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
-                0x0000000020000d4c       0x28 ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000020000d4c                vtable for FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>
+                0x0000000020000d60       0x28 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000020000d60                vtable for FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>
  .rodata._ZTV10StreamFileI10FsBaseFileyE
-                0x0000000020000d74       0x24 ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000d74                vtable for StreamFile<FsBaseFile, unsigned long long>
+                0x0000000020000d88       0x24 ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000d88                vtable for StreamFile<FsBaseFile, unsigned long long>
  .rodata._ZTV14EventResponder
-                0x0000000020000d98        0xc ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
-                0x0000000020000d98                vtable for EventResponder
+                0x0000000020000dac        0xc ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
+                0x0000000020000dac                vtable for EventResponder
  .rodata._ZTV16DedicatedSpiCard
-                0x0000000020000da4       0x70 ./build/./libraries/SdFat/src/SdCard/SdSpiCard.cpp.o
-                0x0000000020000da4                vtable for DedicatedSpiCard
+                0x0000000020000db8       0x70 ./build/./libraries/SdFat/src/SdCard/SdSpiCard.cpp.o
+                0x0000000020000db8                vtable for DedicatedSpiCard
  .rodata._ZTV16usb_serial_class
-                0x0000000020000e14       0x28 ./build/./teensy4/usb_inst.cpp.o
-                0x0000000020000e14                vtable for usb_serial_class
+                0x0000000020000e28       0x28 ./build/./teensy4/usb_inst.cpp.o
+                0x0000000020000e28                vtable for usb_serial_class
  .rodata._ZTV17usb_serial2_class
-                0x0000000020000e3c       0x28 ./build/./teensy4/usb_inst.cpp.o
-                0x0000000020000e3c                vtable for usb_serial2_class
+                0x0000000020000e50       0x28 ./build/./teensy4/usb_inst.cpp.o
+                0x0000000020000e50                vtable for usb_serial2_class
  .rodata._ZTV4File
-                0x0000000020000e64       0x2c ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000e64                vtable for File
+                0x0000000020000e78       0x2c ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000e78                vtable for File
  .rodata._ZTV5Debug
-                0x0000000020000e90       0x18 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x0000000020000e90                vtable for Debug
+                0x0000000020000ea4       0x18 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x0000000020000ea4                vtable for Debug
  .rodata._ZTV6FsFile
-                0x0000000020000ea8       0x24 ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000ea8                vtable for FsFile
+                0x0000000020000ebc       0x24 ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000ebc                vtable for FsFile
  .rodata._ZTV6SDFile
-                0x0000000020000ecc       0x5c ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000ecc                vtable for SDFile
+                0x0000000020000ee0       0x5c ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000ee0                vtable for SDFile
  .rodata._ZTV6Stream
-                0x0000000020000f28       0x24 ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000f28                vtable for Stream
+                0x0000000020000f3c       0x24 ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000f3c                vtable for Stream
  .rodata._ZTV7SDClass
-                0x0000000020000f4c       0x30 ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000f4c                vtable for SDClass
+                0x0000000020000f60       0x30 ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000f60                vtable for SDClass
  .rodata._ZTV7TwoWire
-                0x0000000020000f7c       0x24 ./build/./libraries/Wire/WireIMXRT.cpp.o
-                0x0000000020000f7c                vtable for TwoWire
+                0x0000000020000f90       0x24 ./build/./libraries/Wire/WireIMXRT.cpp.o
+                0x0000000020000f90                vtable for TwoWire
  .rodata._ZTV8SdioCard
-                0x0000000020000fa0       0x70 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
-                0x0000000020000fa0                vtable for SdioCard
+                0x0000000020000fb4       0x70 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
+                0x0000000020000fb4                vtable for SdioCard
  .rodata._ZTV9IPAddress
-                0x0000000020001010        0xc ./build/./teensy4/IPAddress.cpp.o
-                0x0000000020001010                vtable for IPAddress
+                0x0000000020001024        0xc ./build/./teensy4/IPAddress.cpp.o
+                0x0000000020001024                vtable for IPAddress
  .rodata._ZZN6teensy16inplace_functionIFvvELj16ELj8EEC4IRS1_PS1_vEEOT_E2vt
-                0x000000002000101c       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000101c                teensy::inplace_function<void (), 16u, 8u>::inplace_function<void (&)(), void (*)(), void>(void (&)())::vt
+                0x0000000020001030       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x0000000020001030                teensy::inplace_function<void (), 16u, 8u>::inplace_function<void (&)(), void (*)(), void>(void (&)())::vt
  .rodata._ZZN8SPIClass16beginTransactionE11SPISettingsE7clk_sel
-                0x000000002000102c       0x10 ./build/./libraries/SPI/SPI.cpp.o
-                0x000000002000102c                SPIClass::beginTransaction(SPISettings)::clk_sel
+                0x0000000020001040       0x10 ./build/./libraries/SPI/SPI.cpp.o
+                0x0000000020001040                SPIClass::beginTransaction(SPISettings)::clk_sel
  .rodata.__FUNCTION__.0
-                0x000000002000103c        0xb ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x0000000020001047        0x1 
+                0x0000000020001050        0xb ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x000000002000105b        0x1 
  .rodata.__FUNCTION__.0
-                0x0000000020001048       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
- *fill*         0x000000002000105e        0x2 
+                0x000000002000105c       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
+ *fill*         0x0000000020001072        0x2 
  .rodata.__FUNCTION__.0
-                0x0000000020001060       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
- *fill*         0x0000000020001076        0x2 
+                0x0000000020001074       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+ *fill*         0x000000002000108a        0x2 
  .rodata.__FUNCTION__.0
-                0x0000000020001078       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
- *fill*         0x000000002000108e        0x2 
+                0x000000002000108c       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
+ *fill*         0x00000000200010a2        0x2 
  .rodata.__FUNCTION__.0
-                0x0000000020001090        0xc ./build/./libraries/QNEthernet/src/lwip/ipv4/autoip.c.o
+                0x00000000200010a4        0xc ./build/./libraries/QNEthernet/src/lwip/ipv4/autoip.c.o
  .rodata.__FUNCTION__.1
-                0x000000002000109c       0x13 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
- *fill*         0x00000000200010af        0x1 
+                0x00000000200010b0       0x13 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+ *fill*         0x00000000200010c3        0x1 
  .rodata.__FUNCTION__.11
-                0x00000000200010b0        0xf ./build/./libraries/QNEthernet/src/lwip/netif.c.o
- *fill*         0x00000000200010bf        0x1 
+                0x00000000200010c4        0xf ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+ *fill*         0x00000000200010d3        0x1 
  .rodata.__FUNCTION__.15
-                0x00000000200010c0        0xc ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+                0x00000000200010d4        0xc ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
  .rodata.__FUNCTION__.2
-                0x00000000200010cc        0xb ./build/./libraries/QNEthernet/src/lwip/udp.c.o
- *fill*         0x00000000200010d7        0x1 
+                0x00000000200010e0        0xb ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+ *fill*         0x00000000200010eb        0x1 
  .rodata.__FUNCTION__.2
-                0x00000000200010d8        0xe ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
- *fill*         0x00000000200010e6        0x2 
+                0x00000000200010ec        0xe ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
+ *fill*         0x00000000200010fa        0x2 
  .rodata.__FUNCTION__.3
-                0x00000000200010e8       0x13 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
- *fill*         0x00000000200010fb        0x1 
+                0x00000000200010fc       0x13 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+ *fill*         0x000000002000110f        0x1 
  .rodata.__FUNCTION__.3
-                0x00000000200010fc        0xc ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
+                0x0000000020001110        0xc ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
  .rodata.__FUNCTION__.5
-                0x0000000020001108       0x14 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+                0x000000002000111c       0x14 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
  .rodata.__FUNCTION__.6
-                0x000000002000111c       0x17 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
- *fill*         0x0000000020001133        0x1 
+                0x0000000020001130       0x17 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+ *fill*         0x0000000020001147        0x1 
  .rodata.__FUNCTION__.7
-                0x0000000020001134        0x9 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
- *fill*         0x000000002000113d        0x3 
+                0x0000000020001148        0x9 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+ *fill*         0x0000000020001151        0x3 
  .rodata.__FUNCTION__.7
-                0x0000000020001140        0xf ./build/./libraries/QNEthernet/src/lwip/netif.c.o
- *fill*         0x000000002000114f        0x1 
+                0x0000000020001154        0xf ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+ *fill*         0x0000000020001163        0x1 
  .rodata.__FUNCTION__.8
-                0x0000000020001150       0x12 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
- *fill*         0x0000000020001162        0x2 
+                0x0000000020001164       0x12 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+ *fill*         0x0000000020001176        0x2 
  .rodata._ftoa.str1.4
-                0x0000000020001164       0x11 ./build/./teensy4/printf.c.o
+                0x0000000020001178       0x11 ./build/./teensy4/printf.c.o
                                          0x15 (size before relaxing)
- *fill*         0x0000000020001175        0x3 
+ *fill*         0x0000000020001189        0x3 
  .rodata.autoip_set_struct.str1.4
-                0x0000000020001178       0x72 ./build/./libraries/QNEthernet/src/lwip/ipv4/autoip.c.o
+                0x000000002000118c       0x72 ./build/./libraries/QNEthernet/src/lwip/ipv4/autoip.c.o
                                          0x9a (size before relaxing)
- *fill*         0x00000000200011ea        0x2 
+ *fill*         0x00000000200011fe        0x2 
  .rodata.dhcp_create_msg.str1.4
-                0x00000000200011ec       0x6c ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+                0x0000000020001200       0x6c ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
                                          0x94 (size before relaxing)
  .rodata.dhcp_dec_pcb_refcount.str1.4
-                0x0000000020001258       0x24 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+                0x000000002000126c       0x24 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
  .rodata.dhcp_option.part.0.str1.4
-                0x000000002000127c       0x42 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
- *fill*         0x00000000200012be        0x2 
+                0x0000000020001290       0x42 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+ *fill*         0x00000000200012d2        0x2 
  .rodata.dhcp_option_long.str1.4
-                0x00000000200012c0       0x3a ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
- *fill*         0x00000000200012fa        0x2 
+                0x00000000200012d4       0x3a ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+ *fill*         0x000000002000130e        0x2 
  .rodata.digital_pin_to_info_PGM
-                0x00000000200012fc      0x370 ./build/./teensy4/digital.c.o
-                0x00000000200012fc                digital_pin_to_info_PGM
+                0x0000000020001310      0x370 ./build/./teensy4/digital.c.o
+                0x0000000020001310                digital_pin_to_info_PGM
  .rodata.dnssd_protos
-                0x000000002000166c        0x8 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+                0x0000000020001680        0x8 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
  .rodata.do_memp_free_pool.part.0.str1.4
-                0x0000000020001674       0x20 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001688       0x20 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
  .rodata.do_memp_malloc_pool.part.0.str1.4
-                0x0000000020001694       0x4b ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x00000000200016a8       0x4b ./build/./libraries/QNEthernet/src/lwip/memp.c.o
                                          0x74 (size before relaxing)
- *fill*         0x00000000200016df        0x1 
+ *fill*         0x00000000200016f3        0x1 
  .rodata.err_to_errno_table
-                0x00000000200016e0       0x44 ./build/./libraries/QNEthernet/src/lwip/api/err.c.o
+                0x00000000200016f4       0x44 ./build/./libraries/QNEthernet/src/lwip/api/err.c.o
  .rodata.igmp_lookup_group.str1.4
-                0x0000000020001724       0xa1 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
+                0x0000000020001738       0xa1 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
                                          0xc9 (size before relaxing)
- *fill*         0x00000000200017c5        0x3 
+ *fill*         0x00000000200017d9        0x3 
  .rodata.igmp_send.str1.4
-                0x00000000200017c8       0x3a ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
- *fill*         0x0000000020001802        0x2 
+                0x00000000200017dc       0x3a ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
+ *fill*         0x0000000020001816        0x2 
  .rodata.ip4_frag.str1.4
-                0x0000000020001804       0x2f ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
- *fill*         0x0000000020001833        0x1 
+                0x0000000020001818       0x2f ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
+ *fill*         0x0000000020001847        0x1 
  .rodata.ip4_input.str1.4
-                0x0000000020001834       0x29 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
- *fill*         0x000000002000185d        0x3 
+                0x0000000020001848       0x29 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
+ *fill*         0x0000000020001871        0x3 
  .rodata.ip4_output_if_opt_src.str1.4
-                0x0000000020001860       0x39 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
+                0x0000000020001874       0x39 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
                                          0x61 (size before relaxing)
- *fill*         0x0000000020001899        0x3 
+ *fill*         0x00000000200018ad        0x3 
  .rodata.ip_addr_any
-                0x000000002000189c        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_addr.c.o
-                0x000000002000189c                ip_addr_any
+                0x00000000200018b0        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_addr.c.o
+                0x00000000200018b0                ip_addr_any
  .rodata.ip_reass_dequeue_datagram.part.0.str1.4
-                0x00000000200018a0       0x49 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
+                0x00000000200018b4       0x49 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
                                          0x74 (size before relaxing)
- *fill*         0x00000000200018e9        0x3 
+ *fill*         0x00000000200018fd        0x3 
  .rodata.ipfrag_free_pbuf_custom.str1.4
-                0x00000000200018ec        0xc ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
+                0x0000000020001900        0xc ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
  .rodata.main.str1.4
-                0x00000000200018f8       0x3b ./build/./src/main.cpp.o
- *fill*         0x0000000020001933        0x1 
+                0x000000002000190c       0x3b ./build/./src/main.cpp.o
+ *fill*         0x0000000020001947        0x1 
  .rodata.mdns_build_dnssd_domain.str1.4
-                0x0000000020001934       0x19 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
- *fill*         0x000000002000194d        0x3 
+                0x0000000020001948       0x19 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+ *fill*         0x0000000020001961        0x3 
  .rodata.mdns_build_host_domain.str1.4
-                0x0000000020001950        0x6 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
- *fill*         0x0000000020001956        0x2 
+                0x0000000020001964        0x6 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+ *fill*         0x000000002000196a        0x2 
  .rodata.mdns_build_reverse_v4_domain.str1.4
-                0x0000000020001958       0x11 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
- *fill*         0x0000000020001969        0x3 
+                0x000000002000196c       0x11 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+ *fill*         0x000000002000197d        0x3 
  .rodata.mdns_resp_remove_netif.str1.4
-                0x000000002000196c       0x55 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+                0x0000000020001980       0x55 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
                                          0x80 (size before relaxing)
- *fill*         0x00000000200019c1        0x3 
+ *fill*         0x00000000200019d5        0x3 
  .rodata.mem_free.str1.4
-                0x00000000200019c4       0x28 ./build/./libraries/QNEthernet/src/lwip/mem.c.o
+                0x00000000200019d8       0x28 ./build/./libraries/QNEthernet/src/lwip/mem.c.o
  .rodata.mem_malloc.str1.4
-                0x00000000200019ec       0x48 ./build/./libraries/QNEthernet/src/lwip/mem.c.o
+                0x0000000020001a00       0x48 ./build/./libraries/QNEthernet/src/lwip/mem.c.o
                                          0x70 (size before relaxing)
  .rodata.memp_FRAG_PBUF
-                0x0000000020001a34        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001a34                memp_FRAG_PBUF
+                0x0000000020001a48        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a48                memp_FRAG_PBUF
  .rodata.memp_IGMP_GROUP
-                0x0000000020001a40        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001a40                memp_IGMP_GROUP
+                0x0000000020001a54        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a54                memp_IGMP_GROUP
  .rodata.memp_PBUF
-                0x0000000020001a4c        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001a4c                memp_PBUF
+                0x0000000020001a60        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a60                memp_PBUF
  .rodata.memp_PBUF_POOL
-                0x0000000020001a58        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001a58                memp_PBUF_POOL
+                0x0000000020001a6c        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a6c                memp_PBUF_POOL
  .rodata.memp_REASSDATA
-                0x0000000020001a64        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001a64                memp_REASSDATA
+                0x0000000020001a78        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a78                memp_REASSDATA
  .rodata.memp_SYS_TIMEOUT
-                0x0000000020001a70        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001a70                memp_SYS_TIMEOUT
+                0x0000000020001a84        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a84                memp_SYS_TIMEOUT
  .rodata.memp_TCP_PCB
-                0x0000000020001a7c        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001a7c                memp_TCP_PCB
+                0x0000000020001a90        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a90                memp_TCP_PCB
  .rodata.memp_TCP_PCB_LISTEN
-                0x0000000020001a88        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001a88                memp_TCP_PCB_LISTEN
+                0x0000000020001a9c        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a9c                memp_TCP_PCB_LISTEN
  .rodata.memp_TCP_SEG
-                0x0000000020001a94        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001a94                memp_TCP_SEG
+                0x0000000020001aa8        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001aa8                memp_TCP_SEG
  .rodata.memp_UDP_PCB
-                0x0000000020001aa0        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001aa0                memp_UDP_PCB
+                0x0000000020001ab4        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001ab4                memp_UDP_PCB
  .rodata.memp_pools
-                0x0000000020001aac       0x28 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001aac                memp_pools
+                0x0000000020001ac0       0x28 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001ac0                memp_pools
  .rodata.netif_do_set_ipaddr.str1.4
-                0x0000000020001ad4       0x10 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+                0x0000000020001ae8       0x10 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
  .rodata.netif_invoke_ext_callback.str1.4
-                0x0000000020001ae4       0x16 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
- *fill*         0x0000000020001afa        0x2 
+                0x0000000020001af8       0x16 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+ *fill*         0x0000000020001b0e        0x2 
  .rodata.netif_issue_reports.part.0.str1.4
-                0x0000000020001afc       0x4b ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+                0x0000000020001b10       0x4b ./build/./libraries/QNEthernet/src/lwip/netif.c.o
                                          0x74 (size before relaxing)
- *fill*         0x0000000020001b47        0x1 
+ *fill*         0x0000000020001b5b        0x1 
  .rodata.pbuf_add_header.str1.4
-                0x0000000020001b48        0xa ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001b52        0x2 
+                0x0000000020001b5c        0xa ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001b66        0x2 
  .rodata.pbuf_alloc.str1.4
-                0x0000000020001b54       0x1b ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001b6f        0x1 
+                0x0000000020001b68       0x1b ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001b83        0x1 
  .rodata.pbuf_alloc_reference.str1.4
-                0x0000000020001b70       0x12 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001b82        0x2 
+                0x0000000020001b84       0x12 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001b96        0x2 
  .rodata.pbuf_cat.str1.4
-                0x0000000020001b84       0x49 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001bcd        0x3 
+                0x0000000020001b98       0x49 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001be1        0x3 
  .rodata.pbuf_free.str1.4
-                0x0000000020001bd0       0x4e ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001c1e        0x2 
+                0x0000000020001be4       0x4e ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001c32        0x2 
  .rodata.pbuf_realloc.str1.4
-                0x0000000020001c20       0x65 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001c85        0x3 
+                0x0000000020001c34       0x65 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001c99        0x3 
  .rodata.pbuf_ref.part.0.str1.4
-                0x0000000020001c88       0x3a ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+                0x0000000020001c9c       0x3a ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
                                          0x64 (size before relaxing)
- *fill*         0x0000000020001cc2        0x2 
+ *fill*         0x0000000020001cd6        0x2 
  .rodata.pbuf_take.str1.4
-                0x0000000020001cc4       0x2e ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001cf2        0x2 
+                0x0000000020001cd8       0x2e ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001d06        0x2 
  .rodata.pin_to_channel
-                0x0000000020001cf4       0x2a ./build/./teensy4/analog.c.o
-                0x0000000020001cf4                pin_to_channel
- *fill*         0x0000000020001d1e        0x2 
+                0x0000000020001d08       0x2a ./build/./teensy4/analog.c.o
+                0x0000000020001d08                pin_to_channel
+ *fill*         0x0000000020001d32        0x2 
  .rodata.pwm_pin_info
-                0x0000000020001d20       0xdc ./build/./teensy4/pwm.c.o
-                0x0000000020001d20                pwm_pin_info
+                0x0000000020001d34       0xdc ./build/./teensy4/pwm.c.o
+                0x0000000020001d34                pwm_pin_info
  .rodata.qnethernet_hal_check_core_locking.str1.4
-                0x0000000020001dfc       0x8c ./build/./libraries/QNEthernet/src/qnethernet_hal.cpp.o
+                0x0000000020001e10       0x8c ./build/./libraries/QNEthernet/src/qnethernet_hal.cpp.o
  .rodata.str1.4
-                0x0000000020001e88        0x5 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
- *fill*         0x0000000020001e8d        0x3 
+                0x0000000020001e9c        0x5 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+ *fill*         0x0000000020001ea1        0x3 
  .rodata.str1.4
-                0x0000000020001e90       0x10 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
+                0x0000000020001ea4       0x10 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
  .rodata.sys_timeout_abs.str1.4
-                0x0000000020001ea0       0x69 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
+                0x0000000020001eb4       0x69 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
                                          0x94 (size before relaxing)
- *fill*         0x0000000020001f09        0x3 
+ *fill*         0x0000000020001f1d        0x3 
  .rodata.sys_timeouts_init.str1.4
-                0x0000000020001f0c       0x36 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
- *fill*         0x0000000020001f42        0x2 
+                0x0000000020001f20       0x36 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
+ *fill*         0x0000000020001f56        0x2 
  .rodata.tcp_abandon.str1.4
-                0x0000000020001f44       0x31 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
- *fill*         0x0000000020001f75        0x3 
+                0x0000000020001f58       0x31 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+ *fill*         0x0000000020001f89        0x3 
  .rodata.tcp_close_shutdown_fin.str1.4
-                0x0000000020001f78       0x30 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+                0x0000000020001f8c       0x30 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
                                          0x58 (size before relaxing)
  .rodata.tcp_eff_send_mss_netif.part.0.str1.4
-                0x0000000020001fa8       0x27 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
- *fill*         0x0000000020001fcf        0x1 
+                0x0000000020001fbc       0x27 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+ *fill*         0x0000000020001fe3        0x1 
  .rodata.tcp_free.part.0.str1.4
-                0x0000000020001fd0       0x11 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
- *fill*         0x0000000020001fe1        0x3 
+                0x0000000020001fe4       0x11 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+ *fill*         0x0000000020001ff5        0x3 
  .rodata.tcp_output.str1.4
-                0x0000000020001fe4       0x6b ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x000000002000204f        0x1 
+                0x0000000020001ff8       0x6b ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x0000000020002063        0x1 
  .rodata.tcp_output_alloc_header.constprop.0.str1.4
-                0x0000000020002050       0x56 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x00000000200020a6        0x2 
+                0x0000000020002064       0x56 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x00000000200020ba        0x2 
  .rodata.tcp_output_control_segment.str1.4
-                0x00000000200020a8       0x29 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x00000000200020d1        0x3 
+                0x00000000200020bc       0x29 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x00000000200020e5        0x3 
  .rodata.tcp_output_fill_options.constprop.0.str1.4
-                0x00000000200020d4       0x26 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x00000000200020fa        0x2 
+                0x00000000200020e8       0x26 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x000000002000210e        0x2 
  .rodata.tcp_pbuf_prealloc.str1.4
-                0x00000000200020fc       0x5c ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+                0x0000000020002110       0x5c ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
                                          0x84 (size before relaxing)
  .rodata.tcp_pcb_remove.str1.4
-                0x0000000020002158       0x87 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
- *fill*         0x00000000200021df        0x1 
+                0x000000002000216c       0x87 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+ *fill*         0x00000000200021f3        0x1 
  .rodata.tcp_rst_common.isra.0.str1.4
-                0x00000000200021e0       0x37 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x0000000020002217        0x1 
+                0x00000000200021f4       0x37 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x000000002000222b        0x1 
  .rodata.tcp_send_empty_ack.str1.4
-                0x0000000020002218       0x20 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+                0x000000002000222c       0x20 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
  .rodata.udp_input.str1.4
-                0x0000000020002238       0x72 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+                0x000000002000224c       0x72 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
                                          0x9a (size before relaxing)
- *fill*         0x00000000200022aa        0x2 
+ *fill*         0x00000000200022be        0x2 
  .rodata.udp_sendto_if_src.str1.4
-                0x00000000200022ac       0x2e ./build/./libraries/QNEthernet/src/lwip/udp.c.o
- *fill*         0x00000000200022da        0x2 
+                0x00000000200022c0       0x2e ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+ *fill*         0x00000000200022ee        0x2 
  .rodata.usb_descriptor_list
-                0x00000000200022dc       0x84 ./build/./teensy4/usb_desc.c.o
-                0x00000000200022dc                usb_descriptor_list
+                0x00000000200022f0       0x84 ./build/./teensy4/usb_desc.c.o
+                0x00000000200022f0                usb_descriptor_list
  .rodata.v4group
-                0x0000000020002360        0x4 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+                0x0000000020002374        0x4 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj.str1.1
-                0x0000000020002364       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x0000000020002378       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
  .rodata._ctype_
-                0x000000002000237c      0x101 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-ctype_.o)
-                0x000000002000237c                _ctype_
+                0x0000000020002390      0x101 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-ctype_.o)
+                0x0000000020002390                _ctype_
  .rodata._printf_i.str1.1
-                0x000000002000247d       0x22 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0000000020002491       0x22 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
  .rodata._svfprintf_r.str1.1
-                0x000000002000249f       0x11 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
+                0x00000000200024b3       0x11 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
  .rodata._vfprintf_r.str1.1
-                0x000000002000249f       0x11 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00000000200024b3       0x11 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.data*)))
  .data.F_BUS_ACTUAL
-                0x00000000200024b0        0x4 ./build/./teensy4/clockspeed.c.o
-                0x00000000200024b0                F_BUS_ACTUAL
+                0x00000000200024c4        0x4 ./build/./teensy4/clockspeed.c.o
+                0x00000000200024c4                F_BUS_ACTUAL
  .data.F_CPU_ACTUAL
-                0x00000000200024b4        0x4 ./build/./teensy4/clockspeed.c.o
-                0x00000000200024b4                F_CPU_ACTUAL
- .data.Serial   0x00000000200024b8       0x10 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000200024b8                Serial
+                0x00000000200024c8        0x4 ./build/./teensy4/clockspeed.c.o
+                0x00000000200024c8                F_CPU_ACTUAL
+ .data.Serial   0x00000000200024cc       0x10 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000200024cc                Serial
  .data.SerialUSB1
-                0x00000000200024c8       0x10 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000200024c8                SerialUSB1
+                0x00000000200024dc       0x10 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000200024dc                SerialUSB1
  .data._ZL10tone_timer
-                0x00000000200024d8        0x8 ./build/./teensy4/Tone.cpp.o
+                0x00000000200024ec        0x8 ./build/./teensy4/Tone.cpp.o
  .data._ZN13IntervalTimer14nvic_prioritesE
-                0x00000000200024e0        0x4 ./build/./teensy4/IntervalTimer.cpp.o
-                0x00000000200024e0                IntervalTimer::nvic_priorites
+                0x00000000200024f4        0x4 ./build/./teensy4/IntervalTimer.cpp.o
+                0x00000000200024f4                IntervalTimer::nvic_priorites
  .data._ZN9qindesign7networkL7ethLoopE
-                0x00000000200024e4       0x20 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
+                0x00000000200024f8       0x20 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
  .data.__brkval
-                0x0000000020002504        0x4 ./build/./teensy4/startup.c.o
-                0x0000000020002504                __brkval
+                0x0000000020002518        0x4 ./build/./teensy4/startup.c.o
+                0x0000000020002518                __brkval
  .data.__dso_handle
-                0x0000000020002508        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
-                0x0000000020002508                __dso_handle
- .data.__sglue  0x000000002000250c        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
-                0x000000002000250c                __sglue
+                0x000000002000251c        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x000000002000251c                __dso_handle
+ .data.__sglue  0x0000000020002520        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
+                0x0000000020002520                __sglue
  .data._impure_data
-                0x0000000020002518       0x4c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-impure.o)
-                0x0000000020002518                _impure_data
+                0x000000002000252c       0x4c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-impure.o)
+                0x000000002000252c                _impure_data
  .data._impure_ptr
-                0x0000000020002564        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-impure.o)
-                0x0000000020002564                _impure_ptr
+                0x0000000020002578        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-impure.o)
+                0x0000000020002578                _impure_ptr
  .data.debug_active
-                0x0000000020002568        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x0000000020002568                debug_active
+                0x000000002000257c        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000257c                debug_active
  .data.device_descriptor
-                0x000000002000256c       0x12 ./build/./teensy4/usb_desc.c.o
- *fill*         0x000000002000257e        0x2 
+                0x0000000020002580       0x12 ./build/./teensy4/usb_desc.c.o
+ *fill*         0x0000000020002592        0x2 
  .data.gdb_timer
-                0x0000000020002580        0x8 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x0000000020002580                gdb_timer
- .data.int2hex  0x0000000020002588       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x0000000020002588                int2hex
+                0x0000000020002594        0x8 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x0000000020002594                gdb_timer
+ .data.int2hex  0x000000002000259c       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000259c                int2hex
  .data.rawhid_report_desc
-                0x0000000020002598       0x1e ./build/./teensy4/usb_desc.c.o
- *fill*         0x00000000200025b6        0x2 
+                0x00000000200025ac       0x1e ./build/./teensy4/usb_desc.c.o
+ *fill*         0x00000000200025ca        0x2 
  .data.signal_text
-                0x00000000200025b8       0x1c ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x00000000200025b8                signal_text
+                0x00000000200025cc       0x1c ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x00000000200025cc                signal_text
  .data.usb_string_serial_number_default
-                0x00000000200025d4       0x16 ./build/./teensy4/usb_desc.c.o
-                0x00000000200025d4                usb_string_serial_number
-                0x00000000200025d4                usb_string_serial_number_default
+                0x00000000200025e8       0x16 ./build/./teensy4/usb_desc.c.o
+                0x00000000200025e8                usb_string_serial_number
+                0x00000000200025e8                usb_string_serial_number_default
  .data.udp_port
-                0x00000000200025ea        0x2 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+                0x00000000200025fe        0x2 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
  .data._ZL11m_errorCode
-                0x00000000200025ec        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
+                0x0000000020002600        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
  .data.analog_write_res
-                0x00000000200025ed        0x1 ./build/./teensy4/pwm.c.o
-                0x00000000200025ed                analog_write_res
+                0x0000000020002601        0x1 ./build/./teensy4/pwm.c.o
+                0x0000000020002601                analog_write_res
  *(.vectorsram)
- *fill*         0x00000000200025ee      0x212 
+ *fill*         0x0000000020002602      0x1fe 
  .vectorsram    0x0000000020002800      0x2c0 ./build/./teensy4/startup.c.o
                 0x0000000020002800                _VectorsRam
 
@@ -13313,6 +13673,18 @@ Cross Reference Table
 
 Symbol                                            File
 ACS712::read()                                    ./build/./src/sensors/ACS712.cpp.o
+Adafruit_BNO08x::Adafruit_BNO08x(signed char)     ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+Adafruit_BNO08x::Adafruit_BNO08x(signed char)     ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+Adafruit_BNO08x::_init(long)                      ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+Adafruit_BNO08x::begin_I2C(unsigned char, TwoWire*, long) ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+Adafruit_BNO08x::begin_SPI(unsigned char, unsigned char, SPIClass*, long) ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+Adafruit_BNO08x::begin_UART(HardwareSerial*, long) ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+Adafruit_BNO08x::enableReport(unsigned char, unsigned long) ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+Adafruit_BNO08x::getSensorEvent(sh2_SensorValue*) ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+Adafruit_BNO08x::hardwareReset()                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+Adafruit_BNO08x::wasReset()                       ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+Adafruit_BNO08x::~Adafruit_BNO08x()               ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+Adafruit_BNO08x::~Adafruit_BNO08x()               ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
 Adafruit_BusIO_Register::Adafruit_BusIO_Register(Adafruit_I2CDevice*, Adafruit_SPIDevice*, _Adafruit_BusIO_SPIRegType, unsigned short, unsigned char, unsigned char, unsigned char) ./build/./libraries/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.o
                                                   ./build/./libraries/Adafruit_ICM20X/Adafruit_ICM20X.cpp.o
                                                   ./build/./libraries/Adafruit_LIS3MDL/Adafruit_LIS3MDL.cpp.o
@@ -13381,6 +13753,7 @@ Adafruit_I2CDevice::Adafruit_I2CDevice(unsigned char, TwoWire*) ./build/./librar
                                                   ./build/./libraries/Adafruit_ICM20X/Adafruit_ICM20649.cpp.o
                                                   ./build/./libraries/Adafruit_LIS3MDL/Adafruit_LIS3MDL.cpp.o
                                                   ./build/./libraries/Adafruit_LSM6DS/Adafruit_LSM6DS.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
 Adafruit_I2CDevice::Adafruit_I2CDevice(unsigned char, TwoWire*) ./build/./libraries/Adafruit_BusIO/Adafruit_I2CDevice.cpp.o
 Adafruit_I2CDevice::_read(unsigned char*, unsigned int, bool) ./build/./libraries/Adafruit_BusIO/Adafruit_I2CDevice.cpp.o
 Adafruit_I2CDevice::address()                     ./build/./libraries/Adafruit_BusIO/Adafruit_I2CDevice.cpp.o
@@ -13389,13 +13762,16 @@ Adafruit_I2CDevice::begin(bool)                   ./build/./libraries/Adafruit_B
                                                   ./build/./libraries/Adafruit_ICM20X/Adafruit_ICM20649.cpp.o
                                                   ./build/./libraries/Adafruit_LIS3MDL/Adafruit_LIS3MDL.cpp.o
                                                   ./build/./libraries/Adafruit_LSM6DS/Adafruit_LSM6DS.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
 Adafruit_I2CDevice::detected()                    ./build/./libraries/Adafruit_BusIO/Adafruit_I2CDevice.cpp.o
 Adafruit_I2CDevice::end()                         ./build/./libraries/Adafruit_BusIO/Adafruit_I2CDevice.cpp.o
 Adafruit_I2CDevice::read(unsigned char*, unsigned int, bool) ./build/./libraries/Adafruit_BusIO/Adafruit_I2CDevice.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
 Adafruit_I2CDevice::setSpeed(unsigned long)       ./build/./libraries/Adafruit_BusIO/Adafruit_I2CDevice.cpp.o
 Adafruit_I2CDevice::write(unsigned char const*, unsigned int, bool, unsigned char const*, unsigned int) ./build/./libraries/Adafruit_BusIO/Adafruit_I2CDevice.cpp.o
                                                   ./build/./libraries/Adafruit_ICM20X/Adafruit_ICM20948.cpp.o
                                                   ./build/./libraries/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
 Adafruit_I2CDevice::write_then_read(unsigned char const*, unsigned int, unsigned char*, unsigned int, bool) ./build/./libraries/Adafruit_BusIO/Adafruit_I2CDevice.cpp.o
                                                   ./build/./libraries/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.o
 Adafruit_ICM20649::Adafruit_ICM20649()            ./build/./libraries/Adafruit_ICM20X/Adafruit_ICM20649.cpp.o
@@ -13708,21 +14084,25 @@ Adafruit_SPIDevice::Adafruit_SPIDevice(signed char, unsigned long, _BitOrder, un
                                                   ./build/./libraries/Adafruit_ICM20X/Adafruit_ICM20X.cpp.o
                                                   ./build/./libraries/Adafruit_LIS3MDL/Adafruit_LIS3MDL.cpp.o
                                                   ./build/./libraries/Adafruit_LSM6DS/Adafruit_LSM6DS.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
 Adafruit_SPIDevice::Adafruit_SPIDevice(signed char, unsigned long, _BitOrder, unsigned char, SPIClass*) ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
 Adafruit_SPIDevice::begin()                       ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
                                                   ./build/./libraries/Adafruit_ICM20X/Adafruit_ICM20X.cpp.o
                                                   ./build/./libraries/Adafruit_LIS3MDL/Adafruit_LIS3MDL.cpp.o
                                                   ./build/./libraries/Adafruit_LSM6DS/Adafruit_LSM6DS.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
 Adafruit_SPIDevice::beginTransaction()            ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
 Adafruit_SPIDevice::beginTransactionWithAssertingCS() ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
 Adafruit_SPIDevice::endTransaction()              ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
 Adafruit_SPIDevice::endTransactionWithDeassertingCS() ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
 Adafruit_SPIDevice::read(unsigned char*, unsigned int, unsigned char) ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
 Adafruit_SPIDevice::setChipSelect(int)            ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
 Adafruit_SPIDevice::transfer(unsigned char)       ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
 Adafruit_SPIDevice::transfer(unsigned char*, unsigned int) ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
 Adafruit_SPIDevice::write(unsigned char const*, unsigned int, unsigned char const*, unsigned int) ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
                                                   ./build/./libraries/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
 Adafruit_SPIDevice::write_and_read(unsigned char*, unsigned int) ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
 Adafruit_SPIDevice::write_then_read(unsigned char const*, unsigned int, unsigned char*, unsigned int, unsigned char) ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
                                                   ./build/./libraries/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.o
@@ -13730,6 +14110,7 @@ Adafruit_SPIDevice::~Adafruit_SPIDevice()         ./build/./libraries/Adafruit_B
 Adafruit_SPIDevice::~Adafruit_SPIDevice()         ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
                                                   ./build/./libraries/Adafruit_ICM20X/Adafruit_ICM20X.cpp.o
                                                   ./build/./libraries/Adafruit_LSM6DS/Adafruit_LSM6DS.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
 Adafruit_Sensor::enableAutoRange(bool)            ./build/./libraries/Adafruit_LSM6DS/Adafruit_LSM6DS.cpp.o
                                                   ./build/./libraries/Adafruit_ICM20X/Adafruit_ICM20X.cpp.o
                                                   ./build/./libraries/Adafruit_LIS3MDL/Adafruit_LIS3MDL.cpp.o
@@ -14987,6 +15368,7 @@ Print::println()                                  ./build/./teensy4/Print.cpp.o
                                                   ./build/./libraries/SdFat/src/FatLib/FatDbg.cpp.o
                                                   ./build/./libraries/Adafruit_BusIO/Adafruit_BusIO_Register.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
                                                   ./build/./libraries/Adafruit_Sensor/Adafruit_Sensor.cpp.o
 Print::write(unsigned char const*, unsigned int)  ./build/./teensy4/Print.cpp.o
                                                   ./build/./src/sensors/RefSystem.cpp.o
@@ -15325,6 +15707,7 @@ Serial                                            ./build/./teensy4/usb_inst.cpp
                                                   ./build/./libraries/QNEthernet/src/qnethernet_hal.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
                                                   ./build/./libraries/SD/SD.cpp.o
                                                   ./build/./libraries/Adafruit_Sensor/Adafruit_Sensor.cpp.o
 Serial1                                           ./build/./teensy4/HardwareSerial1.cpp.o
@@ -16402,6 +16785,7 @@ _sbss                                             ./build/./teensy4/startup.c.o
 _sdata                                            ./build/./teensy4/startup.c.o
 _sdataload                                        ./build/./teensy4/startup.c.o
 _setlocale_r                                      /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-locale.o)
+_sh2                                              ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 _shiftIn                                          ./build/./teensy4/digital.c.o
 _shiftOut                                         ./build/./teensy4/digital.c.o
 _siprintf_r                                       /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-sprintf.o)
@@ -16601,6 +16985,7 @@ delay                                             ./build/./teensy4/delay.c.o
                                                   ./build/./libraries/Adafruit_LSM6DS/Adafruit_LSM6DSO32.cpp.o
                                                   ./build/./libraries/Adafruit_LSM6DS/Adafruit_LSM6DS.cpp.o
                                                   ./build/./libraries/QNEthernet/src/drivers/driver_teensy41.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
                                                   ./build/./libraries/VL53L4CD/platform.cpp.o
 delay_at_max_brightness_for_power(unsigned short) ./build/./libraries/FastLED/src/power_mgt.cpp.o
 detachInterrupt                                   ./build/./teensy4/interrupt.c.o
@@ -16627,6 +17012,7 @@ dhcp_supplied_address                             ./build/./libraries/QNEthernet
 digitalRead                                       ./build/./teensy4/digital.c.o
                                                   ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
                                                   ./build/./libraries/SD/SD.cpp.o
 digitalToggle                                     ./build/./teensy4/digital.c.o
                                                   ./build/./src/comms/config_layer.cpp.o
@@ -16638,6 +17024,7 @@ digitalWrite                                      ./build/./teensy4/digital.c.o
                                                   ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
 digital_pin_to_info_PGM                           ./build/./teensy4/digital.c.o
                                                   ./build/./teensy4/interrupt.c.o
                                                   ./build/./teensy4/pwm.c.o
@@ -16861,6 +17248,7 @@ fill_raw_noise16into8(unsigned char*, unsigned char, unsigned char, unsigned lon
 fill_raw_noise8(unsigned char*, unsigned char, unsigned char, unsigned short, int, unsigned short) ./build/./libraries/FastLED/src/noise.cpp.o
 fill_solid(CHSV*, int, CHSV const&)               ./build/./libraries/FastLED/src/colorutils.cpp.o
 fill_solid(CRGB*, int, CRGB const&)               ./build/./libraries/FastLED/src/colorutils.cpp.o
+finishCalOp                                       ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 fiprintf                                          /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fprintf.o)
                                                   /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-assert.o)
 five_bit_hd_gamma_function(unsigned char, unsigned char, unsigned char, unsigned short*, unsigned short*, unsigned short*) ./build/./libraries/FastLED/src/five_bit_hd_gamma.cpp.o
@@ -16883,6 +17271,7 @@ fmtHex(char*, unsigned long)                      ./build/./libraries/SdFat/src/
                                                   ./build/./libraries/SdFat/src/iostream/StdioStream.cpp.o
 fmtSigned(char*, long, unsigned char, bool)       ./build/./libraries/SdFat/src/common/FmtNumber.cpp.o
 fmtUnsigned(char*, unsigned long, unsigned char, bool) ./build/./libraries/SdFat/src/common/FmtNumber.cpp.o
+forceFlushOp                                      ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 fprintf                                           /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fprintf.o)
 fputc                                             /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fputc.o)
                                                   ./build/./libraries/QNEthernet/src/util/PrintUtils.cpp.o
@@ -16924,10 +17313,17 @@ gdb_timer                                         ./build/./libraries/TeensyDebu
 gdb_wait_for_flag(int volatile*, int)             ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
 generateCRC16(unsigned char*, unsigned long)      ./build/./src/sensors/RefSystem.cpp.o
 generateCRC8(unsigned char*, unsigned long)       ./build/./src/sensors/RefSystem.cpp.o
+getCalConfigOp                                    ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+getCountsOp                                       ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 getDebugChar()                                    ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+getErrorsOp                                       ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+getFrsOp                                          ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 getNextToken(char**, char)                        ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
 getNextWord(char**)                               ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+getOscTypeOp                                      ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+getProdIdOp                                       ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 getRegisterNum(int)                               ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+getSensorConfigOp                                 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 get_mdns_pcb                                      ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
                                                   ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_out.c.o
 guard variable for CFastLED::addLeds<WS2812B, (unsigned char)6, (EOrder)66>(CRGB*, int, int)::c ./build/./src/sensors/LEDBoard.cpp.o
@@ -17295,6 +17691,9 @@ memcpy                                            /home/artemis/.arduino15/packa
                                                   ./build/./libraries/QNEthernet/src/lwip/dns.c.o
                                                   ./build/./libraries/QNEthernet/src/QNEthernetUDP.cpp.o
                                                   ./build/./libraries/QNEthernet/src/security/entropy.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
 memmove                                           /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-memmove.o)
                                                   /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
                                                   /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fvwrite.o)
@@ -17408,6 +17807,9 @@ memset                                            /home/artemis/.arduino15/packa
                                                   ./build/./libraries/QNEthernet/src/drivers/driver_teensy41.c.o
                                                   ./build/./libraries/QNEthernet/src/QNMDNS.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
                                                   /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/crt0.o
 micros                                            ./build/./teensy4/delay.c.o
                                                   ./build/./src/sensors/StereoCamTrigger.cpp.o
@@ -17553,6 +17955,7 @@ operator delete(void*, unsigned int)              ./build/./teensy4/new.cpp.o
                                                   ./build/./libraries/QNEthernet/src/QNEthernetUDP.cpp.o
                                                   ./build/./libraries/QNEthernet/src/QNDNSClient.cpp.o
                                                   ./build/./libraries/QNEthernet/src/QNMDNS.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
                                                   ./build/./libraries/SD/SD.cpp.o
 operator delete[](void*)                          ./build/./teensy4/new.cpp.o
 operator delete[](void*, unsigned int)            ./build/./teensy4/new.cpp.o
@@ -17575,6 +17978,7 @@ operator new(unsigned int)                        ./build/./teensy4/new.cpp.o
                                                   ./build/./libraries/QNEthernet/src/internal/ConnectionManager.cpp.o
                                                   ./build/./libraries/QNEthernet/src/QNEthernetUDP.cpp.o
                                                   ./build/./libraries/QNEthernet/src/QNDNSClient.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
                                                   ./build/./libraries/SD/SD.cpp.o
                                                   ./build/./libraries/SPI/SPI.cpp.o
 operator new(unsigned int, unsigned long*)        ./build/./libraries/SdFat/src/FsLib/FsNew.cpp.o
@@ -17733,6 +18137,7 @@ pinMode                                           ./build/./teensy4/digital.c.o
                                                   ./build/./libraries/Adafruit_BusIO/Adafruit_SPIDevice.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
                                                   ./build/./libraries/SD/SD.cpp.o
                                                   ./build/./libraries/SPI/SPI.cpp.o
 pin_to_channel                                    ./build/./teensy4/analog.c.o
@@ -18155,12 +18560,27 @@ random(long, long)                                ./build/./teensy4/WMath.cpp.o
                                                   ./build/./src/sensors/can/can_manager.cpp.o
 random(unsigned long)                             ./build/./teensy4/WMath.cpp.o
 randomSeed(unsigned long)                         ./build/./teensy4/WMath.cpp.o
+read16                                            ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
+read32                                            ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
+read8                                             ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+readu16                                           ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+readu32                                           ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+readu8                                            ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
 realloc                                           /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-realloc.o)
                                                   ./build/./teensy4/WString.cpp.o
                                                   ./build/./teensy4/extmem.c.o
 ref                                               ./build/./src/controls/controller.cpp.o
                                                   ./build/./src/controls/estimator.cpp.o
                                                   ./build/./src/comms/config_layer.cpp.o
+reinitOp                                          ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 reset_teensy                                      ./build/./src/comms/config_layer.cpp.o
 rgb2hsv_approximate(CRGB const&)                  ./build/./libraries/FastLED/src/hsv2rgb.cpp.o
 rgb_2_rgbw_exact(unsigned short, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char, unsigned char*, unsigned char*, unsigned char*, unsigned char*) ./build/./libraries/FastLED/src/rgbw.cpp.o
@@ -18175,11 +18595,13 @@ rtc_get                                           ./build/./teensy4/rtc.c.o
                                                   ./build/./teensy4/startup.c.o
                                                   ./build/./libraries/SD/SD.cpp.o
 rtc_set                                           ./build/./teensy4/rtc.c.o
+saveDcdNowOp                                      ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 save_registers                                    ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
 save_stack                                        ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
 scalbn                                            /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-s_scalbn.o)
                                                   /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-k_rem_pio2.o)
 scale10(float, signed char)                       ./build/./libraries/SdFat/src/common/FmtNumber.cpp.o
+scaleRadToDeg                                     ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
 scale_cpu_cycles_to_microseconds                  ./build/./teensy4/delay.c.o
                                                   ./build/./teensy4/clockspeed.c.o
 scanFloat(char const*, char const**)              ./build/./libraries/SdFat/src/common/FmtNumber.cpp.o
@@ -18187,6 +18609,7 @@ sdCsInit(unsigned char)                           ./build/./libraries/SdFat/src/
                                                   ./build/./libraries/SdFat/src/SdCard/SdSpiCard.cpp.o
 sdCsWrite(unsigned char, bool)                    ./build/./libraries/SdFat/src/SpiDriver/SdSpiChipSelect.cpp.o
                                                   ./build/./libraries/SdFat/src/SdCard/SdSpiCard.cpp.o
+sendCmdOp                                         ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 sendResult(char const*)                           ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
 send_message                                      ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
 serialEvent                                       ./build/./teensy4/usb_serial.c.o
@@ -18205,6 +18628,9 @@ serial_phex16                                     ./build/./teensy4/HardwareSeri
 serial_phex32                                     ./build/./teensy4/HardwareSerial1.cpp.o
 serial_print                                      ./build/./teensy4/HardwareSerial1.cpp.o
 setBreakPointNext(unsigned long, unsigned long)   ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+setCalConfigOp                                    ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+setFrsOp                                          ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+setSensorConfigOp                                 ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 setUp                                             ./build/./libraries/unity/unity.c.o
 set_arm_clock                                     ./build/./teensy4/clockspeed.c.o
                                                   ./build/./teensy4/startup.c.o
@@ -18215,11 +18641,65 @@ set_rgb_2_rgbw_function(void (*)(unsigned short, unsigned char, unsigned char, u
 setjmp                                            /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-setjmp.o)
                                                   ./build/./libraries/unity/unity.c.o
 setlocale                                         /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-locale.o)
+sh2_clearCounts                                   ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_clearDcdAndReset                              ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_clearTare                                     ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_close                                         ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_decodeSensorEvent                             ./build/./libraries/Adafruit_BNO08x-master/src/sh2_SensorValue.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+sh2_devOn                                         ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_devReset                                      ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_devSleep                                      ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_finishCal                                     ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_flush                                         ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_getCalConfig                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_getCounts                                     ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_getErrors                                     ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_getFrs                                        ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_getMetadata                                   ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_getOscType                                    ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_getProdIds                                    ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+sh2_getSensorConfig                               ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_open                                          ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+sh2_persistTare                                   ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_reinitialize                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_saveDcdNow                                    ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_service                                       ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+sh2_setCalConfig                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_setDcdAutoSave                                ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_setFrs                                        ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_setIZro                                       ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_setReorientation                              ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_setSensorCallback                             ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+sh2_setSensorConfig                               ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
+sh2_setTareNow                                    ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+sh2_startCal                                      ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 shiftIn_lsbFirst                                  ./build/./teensy4/digital.c.o
 shiftIn_msbFirst                                  ./build/./teensy4/digital.c.o
 shiftOut_lsbFirst                                 ./build/./teensy4/digital.c.o
 shiftOut_msbFirst                                 ./build/./teensy4/digital.c.o
 show_at_max_brightness_for_power()                ./build/./libraries/FastLED/src/power_mgt.cpp.o
+shtp_chanNo                                       ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+shtp_close                                        ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+shtp_listenAdvert                                 ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+shtp_listenChan                                   ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+shtp_open                                         ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+shtp_send                                         ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+shtp_service                                      ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+shtp_setEventCallback                             ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 signal_text                                       ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
 sin                                               /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libm.a(libm_a-s_sin.o)
                                                   ./build/./src/controls/estimator.cpp.o
@@ -18318,6 +18798,7 @@ sqrtf                                             /home/artemis/.arduino15/packa
                                                   ./build/./src/controls/estimator.cpp.o
 srandom(unsigned int)                             ./build/./teensy4/WMath.cpp.o
 stack                                             ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+startCalOp                                        ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
 startup_debug_reset                               ./build/./teensy4/startup.c.o
 startup_default_early_hook                        ./build/./teensy4/startup.c.o
 startup_default_late_hook                         ./build/./teensy4/startup.c.o
@@ -18663,6 +19144,8 @@ std::vector<qindesign::network::EthernetUDP::Packet, std::allocator<qindesign::n
 std::vector<std::shared_ptr<qindesign::network::internal::ConnectionHolder>, std::allocator<std::shared_ptr<qindesign::network::internal::ConnectionHolder> > >::_M_erase(__gnu_cxx::__normal_iterator<std::shared_ptr<qindesign::network::internal::ConnectionHolder>*, std::vector<std::shared_ptr<qindesign::network::internal::ConnectionHolder>, std::allocator<std::shared_ptr<qindesign::network::internal::ConnectionHolder> > > >) ./build/./libraries/QNEthernet/src/internal/ConnectionManager.cpp.o
 std::vector<unsigned char, std::allocator<unsigned char> >::_M_default_append(unsigned int) ./build/./libraries/QNEthernet/src/internal/ConnectionManager.cpp.o
 std::vector<unsigned char, std::allocator<unsigned char> >::reserve(unsigned int) ./build/./libraries/QNEthernet/src/internal/ConnectionManager.cpp.o
+stpcpy                                            /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stpcpy.o)
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
 strcasecmp                                        /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strcasecmp.o)
                                                   ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
 strcat                                            /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strcat.o)
@@ -18679,11 +19162,14 @@ strcmp                                            /home/artemis/.arduino15/packa
                                                   ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
                                                   ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
 strcpy                                            /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strcpy.o)
                                                   /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-ecvtbuf.o)
                                                   ./build/./teensy4/WString.cpp.o
                                                   ./build/./teensy4/DateStrings.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
 string0                                           ./build/./teensy4/usb_desc.c.o
 strlen                                            /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strlen.o)
                                                   /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
@@ -18718,6 +19204,7 @@ strlen                                            /home/artemis/.arduino15/packa
                                                   ./build/./libraries/QNEthernet/src/lwip/dns.c.o
                                                   ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o
                                                   ./build/./libraries/Adafruit_Sensor/Adafruit_Sensor.cpp.o
 strncmp                                           /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strncmp.o)
                                                   /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-gdtoa-gethex.o)
@@ -18802,6 +19289,7 @@ systick_millis_count                              ./build/./teensy4/delay.c.o
                                                   ./build/./libraries/Adafruit_LSM6DS/Adafruit_LSM6DS.cpp.o
                                                   ./build/./libraries/QNEthernet/src/qnethernet_hal.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
 systick_safe_read                                 ./build/./teensy4/delay.c.o
 tcp_abandon                                       ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
                                                   ./build/./libraries/QNEthernet/src/lwip/tcp_in.c.o
@@ -19212,6 +19700,7 @@ usb_serial_write                                  ./build/./teensy4/usb_serial.c
                                                   ./build/./libraries/Adafruit_ICM20X/Adafruit_ICM20948.cpp.o
                                                   ./build/./libraries/Adafruit_ICM20X/Adafruit_ICM20649.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
                                                   ./build/./libraries/Adafruit_Sensor/Adafruit_Sensor.cpp.o
 usb_serial_write_buffer_free                      ./build/./teensy4/usb_serial.c.o
                                                   ./build/./teensy4/usb_inst.cpp.o
@@ -19251,6 +19740,7 @@ void std::vector<tcp_pcb*, std::allocator<tcp_pcb*> >::_M_realloc_insert<tcp_pcb
 void std::vector<unsigned char, std::allocator<unsigned char> >::_M_realloc_insert<unsigned char const&>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, unsigned char const&) ./build/./libraries/QNEthernet/src/QNEthernetUDP.cpp.o
 vsnprintf_                                        ./build/./teensy4/printf.c.o
                                                   ./build/./teensy4/Print.cpp.o
+vtable for Adafruit_BNO08x                        ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
 vtable for Adafruit_ICM20649                      ./build/./libraries/Adafruit_ICM20X/Adafruit_ICM20649.cpp.o
                                                   ./build/./src/sensors/ICM20649.cpp.o
 vtable for Adafruit_ICM20948                      ./build/./libraries/Adafruit_ICM20X/Adafruit_ICM20948.cpp.o
@@ -19387,6 +19877,13 @@ vtable for usb_serial2_class                      ./build/./teensy4/usb_inst.cpp
 vtable for usb_serial_class                       ./build/./teensy4/usb_inst.cpp.o
 weightedVectorAddition(float*, float*, float, float, int, float*) ./build/./src/utils/vector_math.cpp.o
 wrapAngle(float)                                  ./build/./src/utils/wrapping.cpp.o
+write16                                           ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+write32                                           ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+write8                                            ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+writeu16                                          ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/sh2.c.o
+writeu32                                          ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
+writeu8                                           ./build/./libraries/Adafruit_BNO08x-master/src/sh2_util.c.o
 xbar_connect                                      ./build/./teensy4/pwm.c.o
                                                   ./build/./teensy4/HardwareSerial.cpp.o
 yield                                             ./build/./teensy4/yield.cpp.o
@@ -19406,6 +19903,7 @@ yield                                             ./build/./teensy4/yield.cpp.o
                                                   ./build/./libraries/QNEthernet/src/QNDNSClient.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
                                                   ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                                                  ./build/./libraries/Adafruit_BNO08x-master/src/Adafruit_BNO08x.cpp.o
                                                   ./build/./libraries/SPI/SPI.cpp.o
 yield_active_check_flags                          ./build/./teensy4/yield.cpp.o
                                                   ./build/./teensy4/usb_serial.c.o

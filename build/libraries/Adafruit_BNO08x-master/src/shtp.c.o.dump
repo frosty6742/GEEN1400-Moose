@@ -1,0 +1,979 @@
+
+build/./libraries/Adafruit_BNO08x-master/src/shtp.c.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 shtp.c
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text.updateCallbacks	00000000 .text.updateCallbacks
+00000000 l     F .text.updateCallbacks	0000006a updateCallbacks
+00000000 l    d  .text.addApp	00000000 .text.addApp
+00000000 l     F .text.addApp	00000052 addApp
+00000000 l    d  .text.shtpAdvertHdlr	00000000 .text.shtpAdvertHdlr
+00000000 l     F .text.shtpAdvertHdlr	00000028 shtpAdvertHdlr
+00000000 l    d  .text.shtpCmdListener	00000000 .text.shtpCmdListener
+00000000 l     F .text.shtpCmdListener	00000242 shtpCmdListener
+00000000 l    d  .rodata.shtp_open.str1.4	00000000 .rodata.shtp_open.str1.4
+00000000 l    d  .text.shtp_open	00000000 .text.shtp_open
+00000000 l    d  .text.shtp_close	00000000 .text.shtp_close
+00000000 l    d  .text.shtp_setEventCallback	00000000 .text.shtp_setEventCallback
+00000000 l    d  .text.shtp_listenChan	00000000 .text.shtp_listenChan
+00000000 l    d  .text.shtp_listenAdvert	00000000 .text.shtp_listenAdvert
+00000000 l    d  .text.shtp_chanNo	00000000 .text.shtp_chanNo
+00000000 l    d  .text.shtp_service	00000000 .text.shtp_service
+00000000 l    d  .text.shtp_send	00000000 .text.shtp_send
+00000000 l    d  .bss.instances	00000000 .bss.instances
+00000000 l     O .bss.instances	00000834 instances
+00000000 l    d  .bss.shtp_initialized	00000000 .bss.shtp_initialized
+00000000 l     O .bss.shtp_initialized	00000001 shtp_initialized
+00000000 l    d  .rodata.advertise	00000000 .rodata.advertise
+00000000 l     O .rodata.advertise	00000002 advertise
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 strcmp
+00000000         *UND*	00000000 strlen
+00000000         *UND*	00000000 memcpy
+00000000         *UND*	00000000 stpcpy
+00000000         *UND*	00000000 strcpy
+00000000         *UND*	00000000 readu8
+00000000         *UND*	00000000 readu16
+00000000         *UND*	00000000 readu32
+00000000 g     F .text.shtp_open	00000108 shtp_open
+00000000         *UND*	00000000 memset
+00000000 g     F .text.shtp_close	0000001a shtp_close
+00000000 g     F .text.shtp_setEventCallback	00000006 shtp_setEventCallback
+00000000 g     F .text.shtp_listenChan	00000056 shtp_listenChan
+00000000 g     F .text.shtp_listenAdvert	00000054 shtp_listenAdvert
+00000000 g     F .text.shtp_chanNo	00000060 shtp_chanNo
+00000000 g     F .text.shtp_service	00000180 shtp_service
+00000000 g     F .text.shtp_send	000000d2 shtp_send
+
+
+Contents of section .text.updateCallbacks:
+ 0000 2de9f84f 4ff00009 074600f2 245b00f2  -..OO....F..$[..
+ 0010 c4685bf8 04accbf8 2490baf1 ff3f1ed0  .h[.....$....?..
+ 0020 07f2be64 002503e0 01352c34 082d16d0  ...d.%...5,4.-..
+ 0030 d4f82260 002ef7d0 34f8023c 9a45f3d1  .."`....4..<.E..
+ 0040 21465846 fff7feff 0028edd1 2c23cbf8  !FXF.....(..,#..
+ 0050 246003fb 0575d5f8 e436cbf8 28300bf1  $`...u...6..(0..
+ 0060 340bc345 d5d1bde8 f88f00bf           4..E........    
+Contents of section .text.addApp:
+ 0000 10b590f8 dc447cb1 04ebc40e 002300f5  .....D|......#..
+ 0010 856c01e0 734505d0 5cf82320 09338a42  .l..sE..\.# .3.B
+ 0020 f8d110bd 052cfcd0 04ebc402 04f1010c  .....,..........
+ 0030 242300eb 820280f8 dcc4c2f8 281440f2  $#..........(.@.
+ 0040 2c410022 13fb0413 bde81040 c254fff7  ,A.".......@.T..
+ 0050 febf00bf                             ....            
+Contents of section .text.shtpAdvertHdlr:
+ 0000 802900d0 704738b5 05461846 1c46fff7  .)..pG8..F.F.F..
+ 0010 feff0728 00d938bd 421c2146 05f10c00  ...(..8.B.!F....
+ 0020 bde83840 fff7febf                    ..8@....        
+Contents of section .text.shtpCmdListener:
+ 0000 002a18bf 00292fd0 2de9f04f 97b00b78  .*...)/.-..O...x
+ 0010 029313b1 17b0bde8 f08f029d 0223012a  .............#.*
+ 0020 80468df8 18508df8 385080f8 243400f0  .F...P..8P..$4..
+ 0030 06810124 89460395 0192631c a61c19f8  ...$.F....c.....
+ 0040 04a09bb2 b6b219f8 03b00af1 ff3306eb  .............3..
+ 0050 0b044e44 a4b2082b 38d8dfe8 03f0b9af  ..ND...+8.......
+ 0060 ab9f948d 86650600 70473146 0ea8fff7  .....e..pG1F....
+ 0070 feff029a 0490072a 28d83421 40f22450  .......*(.4!@.$P
+ 0080 11fb0203 01fb0287 31464344 c7f82055  ........1FCD.. U
+ 0090 18460593 fff7feff 0021039b 4046a7f8  .F.......!..@F..
+ 00a0 1c1587f8 4435c7f8 4815c7f8 4c15fff7  ....D5..H...L...
+ 00b0 feff0ea9 049a059b 521ac7f8 20551846  ........R... U.F
+ 00c0 0132fff7 feff039b 87f84435 43460022  .2........D5CF."
+ 00d0 b3f8e014 8d4200f0 93800132 0c33052a  .....B.....2.3.*
+ 00e0 f6d1019b a342a8d8 43460022 b3f8e014  .....B..CF."....
+ 00f0 a94207d0 01320c33 052a8bd0 b3f8e014  .B...2.3.*......
+ 0100 a942f7d1 d3f8e444 002cf3d0 02eb4202  .B.....D.,....B.
+ 0110 0023a446 08eb8208 19461a46 d8f8e804  .#.F.....F.F....
+ 0120 17b0bde8 f04f6047 06af3146 3846fff7  .....O`G..1F8F..
+ 0130 feff98f8 dcc4bcf1 000fc7d0 42460023  ............BF.#
+ 0140 02e00133 6345c1d0 d2f82814 2432a942  ...3cE....(.$2.B
+ 0150 f7d103eb c303c21b 394608eb 83030132  ........9F.....2
+ 0160 03f22c40 fff7feff b0e73046 fff7feff  ..,@......0F....
+ 0170 01230290 0393a9e7 3046fff7 feff0023  .#......0F.....#
+ 0180 02900393 a2e73046 fff7feff 043883b2  ......0F.....8..
+ 0190 b3f5c07f 9ad2a8f8 183197e7 3046fff7  .........1..0F..
+ 01a0 feff0438 83b2ff2b 88bf4ff4 8073a8f8  ...8...+..O..s..
+ 01b0 16308be7 3046fff7 feff87e7 3046fff7  .0..0F......0F..
+ 01c0 feff0438 83b2ff2b 80d8a8f8 14307de7  ...8...+.....0}.
+ 01d0 43460022 b3f8e014 a94221d0 01320c33  CF.".....B!..2.3
+ 01e0 052af7d1 3046fff7 feff0546 40462946  .*..0F.....F@F)F
+ 01f0 fff7feff 00238df8 18308df8 383065e7  .....#...0..80e.
+ 0200 d3f8e474 002f3ff4 68af02eb 42003346  ...t./?.h...B.3F
+ 0210 5a465146 08eb8000 d0f8e804 b84760e7  ZFQF.........G`.
+ 0220 d3f8e474 002fd9d0 02eb4202 08eb8203  ...t./....B.....
+ 0230 d3f8e804 00231a46 1946b847 d2e7029d  .....#.F.F.G....
+ 0240 52e700bf                             R...            
+Contents of section .rodata.shtp_open.str1.4:
+ 0000 636f6d6d 616e6400                    command.        
+Contents of section .text.shtp_open:
+ 0000 70b53c4c 05462178 002968d0 002d6ed0  p.<L.F!x.)h..-n.
+ 0010 394c2668 002e6ad1 40f63402 31462046  9L&h..j.@.4.1F F
+ 0020 fff7feff 4ff00123 31462046 63612560  ....O..#1F Fca%`
+ 0030 fff7feff 314a04f2 2453c4f8 206584f8  ....1J..$S.. e..
+ 0040 4465a4f8 1c65c4f8 4865c4f8 4c6592e8  De...e..He..Le..
+ 0050 030083e8 03002046 fff7feff 94f8dd34  ...... F.......4
+ 0060 042b0dd8 5a1c03eb 430384f8 dd2404eb  .+..Z...C....$..
+ 0070 8303234a a3f8e064 c3f8e844 c3f8e424  ..#J...d...D...$
+ 0080 94f82434 022b02d1 002384f8 243494f8  ..$4.+...#..$4..
+ 0090 1c28072a 1bd8511c 2c2384f8 1c1840f2  .(.*..Q.,#....@.
+ 00a0 be6103fb 024613fb 02130021 134aa6f8  .a...F.....!.J..
+ 00b0 bc1604eb 030c03ca e050124b ccf80410  .........P.K....
+ 00c0 0d48c6f8 e446c6f8 e036fff7 feff0123  .H...F...6.....#
+ 00d0 284684f8 24342b68 98470748 70bd40f6  (F..$4+h.G.Hp.@.
+ 00e0 34020548 fff7feff 01232370 8ee70020  4..H.....##p... 
+ 00f0 70bd00bf 00000000 00000000 00000000  p...............
+ 0100 00000000 00000000                    ........        
+Contents of section .text.shtp_close:
+ 0000 10b50446 00684368 98472046 40f63402  ...F.hCh.G F@.4.
+ 0010 0021bde8 1040fff7 febf00bf           .!...@......    
+Contents of section .text.shtp_setEventCallback:
+ 0000 c0e90112 704700bf                    ....pG..        
+Contents of section .text.shtp_listenChan:
+ 0000 32b38c46 114670b5 1e461378 d3b10446  2..F.Fp..F.x...F
+ 0010 90f81c08 072818d8 2c22431c 02fb0045  .....(..,"C....E
+ 0020 84f81c38 05f2be60 a5f8bcc6 fff7feff  ...8...`........
+ 0030 049b2046 c5f8e066 c5f8e436 fff7feff  .. F...f...6....
+ 0040 002070bd 6ff00100 70bd4ff0 ff3070bd  . p.o...p.O..0p.
+ 0050 6ff00100 704700bf                    o...pG..        
+Contents of section .text.shtp_listenAdvert:
+ 0000 90f8ddc4 bcf1040f 1bd800b5 0ceb4c0e  ..............L.
+ 0010 0cf1010c 80f8ddc4 00eb8e0c acf8e014  ................
+ 0020 ccf8e424 ccf8e834 90f82434 022b02d0  ...$...4..$4.+..
+ 0030 00205df8 04fb0023 80f82434 00205df8  . ]....#..$4. ].
+ 0040 04fb90f8 2434022b 02d10023 80f82434  ....$4.+...#..$4
+ 0050 00207047                             . pG            
+Contents of section .text.shtp_chanNo:
+ 0000 2de9f843 00260546 89469046 00f22c47  -..C.&.F.F.F..,G
+ 0010 38464946 fff7feff 24370446 28b10136  8FIF....$7.F(..6
+ 0020 052ef5d1 ff20bde8 f88306eb c60605eb  ..... ..........
+ 0030 8606d6f8 2864731c f4d005f2 24552846  ....(ds.....$U(F
+ 0040 4146fff7 feff18b9 55f8043c b34204d0  AF......U..<.B..
+ 0050 01343435 082cf2d1 e4e7e0b2 bde8f883  .445.,..........
+Contents of section .text.shtp_service:
+ 0000 2de9f043 002383b0 90f82454 04460193  -..C.#....$T.F..
+ 0010 5db12068 01ab4ff4 c07204f5 29718568  ]. h..O..r..)q.h
+ 0020 a84778b9 03b0bde8 f0830122 02232946  .Gx........".#)F
+ 0030 80f82424 514afff7 feff0028 e9d084f8  ..$$QJ.....(....
+ 0040 2454e6e7 80b2ddf8 04c00328 5fd994f8  $T.........(_...
+ 0050 a51247f6 fc7594f8 a43294f8 a62203eb  ..G..u...2..."..
+ 0060 012394f8 a7622b42 9fb244d0 072a56d8  .#...b+B..D..*V.
+ 0070 94f81c38 934252d9 b4f81a31 c7f30e08  ...8.BR....1....
+ 0080 002b59d1 b8f5c07f 5cd80023 1746c4f8  .+Y.....\..#.F..
+ 0090 a0c284f8 1c21a4f8 9e324045 04f21d19  .....!...2@E....
+ 00a0 04f52a71 28bf4046 054609eb 03002a1f  ..*q(.@F.F....*.
+ 00b0 a8eb0508 fff7feff b4f89e22 1ffa88f3  ..........."....
+ 00c0 043aa4f8 1a31a818 82b2a4f8 9e225bb9  .:...1......."[.
+ 00d0 342303fb 0743d3f8 48552db1 d3f84c05  4#...C..HU-...L.
+ 00e0 4946d4f8 a032a847 34230136 03fb0747  IF...2.G4#.6...G
+ 00f0 87f81d65 96e7d4f8 24386268 0133c4f8  ...e....$8bh.3..
+ 0100 2438002a 8ed00121 a0689047 8ae7d4f8  $8.*...!.h.G....
+ 0110 24380133 c4f82438 03b0bde8 f083d4f8  $8.3..$8........
+ 0120 2c386268 0133c4f8 2c38002a 3ff47aaf  ,8bh.3..,8.*?.z.
+ 0130 0321a068 904775e7 0b0610d4 0023a4f8  .!.h.Gu......#..
+ 0140 1a319fe7 d4f82838 62680133 c4f82838  .1....(8bh.3..(8
+ 0150 002a3ff4 67af0221 a0689047 62e794f8  .*?.g..!.h.Gb...
+ 0160 1c719742 ead13423 03fb0743 93f81d35  .q.B..4#...C...5
+ 0170 b342e3d1 b4f89e32 8fe700bf 00000000  .B.....2........
+Contents of section .text.shtp_send:
+ 0000 2de9f04f 1e46838a 83b0b342 01925dd3  -..O.F.....B..].
+ 0010 07298346 894651d8 00274ff0 340808fb  .).F.FQ..'O.4...
+ 0020 01083946 002e45d0 bbf81620 043a92b2  ..9F..E.... .:..
+ 0030 b24228bf 3246141d 9246a4b2 230a8bf8  .B(.2F...F..#...
+ 0040 184009b1 63f07f03 8bf81930 5d468bf8  .@..c......0]F..
+ 0050 1a90a6eb 0a0698f8 1c35019a b6b2581c  .........5....X.
+ 0060 d1195246 88f81c05 0bf11c00 8bf81b30  ..RF...........0
+ 0070 5744fff7 feff55f8 180b2246 bfb2c368  WD....U..."F...h
+ 0080 29469847 50b95846 fff7feff dbf80000  )F.GP.XF........
+ 0090 22462946 c3689847 0028f4d0 00284ff0  "F)F.h.G.(...(O.
+ 00a0 0101bfda dbf82038 0b44cbf8 203803b0  ...... 8.D.. 8..
+ 00b0 bde8f08f 304603b0 bde8f08f d0f83038  ....0F........08
+ 00c0 6ff00100 0133cbf8 3038f0e7 6ff00100  o....3..08..o...
+ 00d0 ede700bf                             ....            
+Contents of section .rodata.advertise:
+ 0000 0001                                 ..              
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text.updateCallbacks:
+
+00000000 <updateCallbacks>:
+   0:	e92d 4ff8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	f04f 0900 	mov.w	r9, #0
+   8:	4607      	mov	r7, r0
+   a:	f200 5b24 	addw	fp, r0, #1316	; 0x524
+   e:	f200 68c4 	addw	r8, r0, #1732	; 0x6c4
+  12:	f85b ac04 	ldr.w	sl, [fp, #-4]
+  16:	f8cb 9024 	str.w	r9, [fp, #36]	; 0x24
+  1a:	f1ba 3fff 	cmp.w	sl, #4294967295	; 0xffffffff
+  1e:	d01e      	beq.n	5e <updateCallbacks+0x5e>
+  20:	f207 64be 	addw	r4, r7, #1726	; 0x6be
+  24:	2500      	movs	r5, #0
+  26:	e003      	b.n	30 <updateCallbacks+0x30>
+  28:	3501      	adds	r5, #1
+  2a:	342c      	adds	r4, #44	; 0x2c
+  2c:	2d08      	cmp	r5, #8
+  2e:	d016      	beq.n	5e <updateCallbacks+0x5e>
+  30:	f8d4 6022 	ldr.w	r6, [r4, #34]	; 0x22
+  34:	2e00      	cmp	r6, #0
+  36:	d0f7      	beq.n	28 <updateCallbacks+0x28>
+  38:	f834 3c02 	ldrh.w	r3, [r4, #-2]
+  3c:	459a      	cmp	sl, r3
+  3e:	d1f3      	bne.n	28 <updateCallbacks+0x28>
+  40:	4621      	mov	r1, r4
+  42:	4658      	mov	r0, fp
+  44:	f7ff fffe 	bl	0 <strcmp>
+  48:	2800      	cmp	r0, #0
+  4a:	d1ed      	bne.n	28 <updateCallbacks+0x28>
+  4c:	232c      	movs	r3, #44	; 0x2c
+  4e:	f8cb 6024 	str.w	r6, [fp, #36]	; 0x24
+  52:	fb03 7505 	mla	r5, r3, r5, r7
+  56:	f8d5 36e4 	ldr.w	r3, [r5, #1764]	; 0x6e4
+  5a:	f8cb 3028 	str.w	r3, [fp, #40]	; 0x28
+  5e:	f10b 0b34 	add.w	fp, fp, #52	; 0x34
+  62:	45c3      	cmp	fp, r8
+  64:	d1d5      	bne.n	12 <updateCallbacks+0x12>
+  66:	e8bd 8ff8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  6a:	bf00      	nop
+
+Disassembly of section .text.addApp:
+
+00000000 <addApp>:
+   0:	b510      	push	{r4, lr}
+   2:	f890 44dc 	ldrb.w	r4, [r0, #1244]	; 0x4dc
+   6:	b17c      	cbz	r4, 28 <addApp+0x28>
+   8:	eb04 0ec4 	add.w	lr, r4, r4, lsl #3
+   c:	2300      	movs	r3, #0
+   e:	f500 6c85 	add.w	ip, r0, #1064	; 0x428
+  12:	e001      	b.n	18 <addApp+0x18>
+  14:	4573      	cmp	r3, lr
+  16:	d005      	beq.n	24 <addApp+0x24>
+  18:	f85c 2023 	ldr.w	r2, [ip, r3, lsl #2]
+  1c:	3309      	adds	r3, #9
+  1e:	428a      	cmp	r2, r1
+  20:	d1f8      	bne.n	14 <addApp+0x14>
+  22:	bd10      	pop	{r4, pc}
+  24:	2c05      	cmp	r4, #5
+  26:	d0fc      	beq.n	22 <addApp+0x22>
+  28:	eb04 02c4 	add.w	r2, r4, r4, lsl #3
+  2c:	f104 0c01 	add.w	ip, r4, #1
+  30:	2324      	movs	r3, #36	; 0x24
+  32:	eb00 0282 	add.w	r2, r0, r2, lsl #2
+  36:	f880 c4dc 	strb.w	ip, [r0, #1244]	; 0x4dc
+  3a:	f8c2 1428 	str.w	r1, [r2, #1064]	; 0x428
+  3e:	f240 412c 	movw	r1, #1068	; 0x42c
+  42:	2200      	movs	r2, #0
+  44:	fb13 1304 	smlabb	r3, r3, r4, r1
+  48:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  4c:	54c2      	strb	r2, [r0, r3]
+  4e:	f7ff bffe 	b.w	0 <addApp>
+  52:	bf00      	nop
+
+Disassembly of section .text.shtpAdvertHdlr:
+
+00000000 <shtpAdvertHdlr>:
+   0:	2980      	cmp	r1, #128	; 0x80
+   2:	d000      	beq.n	6 <shtpAdvertHdlr+0x6>
+   4:	4770      	bx	lr
+   6:	b538      	push	{r3, r4, r5, lr}
+   8:	4605      	mov	r5, r0
+   a:	4618      	mov	r0, r3
+   c:	461c      	mov	r4, r3
+   e:	f7ff fffe 	bl	0 <strlen>
+  12:	2807      	cmp	r0, #7
+  14:	d900      	bls.n	18 <shtpAdvertHdlr+0x18>
+  16:	bd38      	pop	{r3, r4, r5, pc}
+  18:	1c42      	adds	r2, r0, #1
+  1a:	4621      	mov	r1, r4
+  1c:	f105 000c 	add.w	r0, r5, #12
+  20:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  24:	f7ff bffe 	b.w	0 <memcpy>
+
+Disassembly of section .text.shtpCmdListener:
+
+00000000 <shtpCmdListener>:
+   0:	2a00      	cmp	r2, #0
+   2:	bf18      	it	ne
+   4:	2900      	cmpne	r1, #0
+   6:	d02f      	beq.n	68 <shtpCmdListener+0x68>
+   8:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   c:	b097      	sub	sp, #92	; 0x5c
+   e:	780b      	ldrb	r3, [r1, #0]
+  10:	9302      	str	r3, [sp, #8]
+  12:	b113      	cbz	r3, 1a <shtpCmdListener+0x1a>
+  14:	b017      	add	sp, #92	; 0x5c
+  16:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  1a:	9d02      	ldr	r5, [sp, #8]
+  1c:	2302      	movs	r3, #2
+  1e:	2a01      	cmp	r2, #1
+  20:	4680      	mov	r8, r0
+  22:	f88d 5018 	strb.w	r5, [sp, #24]
+  26:	f88d 5038 	strb.w	r5, [sp, #56]	; 0x38
+  2a:	f880 3424 	strb.w	r3, [r0, #1060]	; 0x424
+  2e:	f000 8106 	beq.w	23e <shtpCmdListener+0x23e>
+  32:	2401      	movs	r4, #1
+  34:	4689      	mov	r9, r1
+  36:	9503      	str	r5, [sp, #12]
+  38:	9201      	str	r2, [sp, #4]
+  3a:	1c63      	adds	r3, r4, #1
+  3c:	1ca6      	adds	r6, r4, #2
+  3e:	f819 a004 	ldrb.w	sl, [r9, r4]
+  42:	b29b      	uxth	r3, r3
+  44:	b2b6      	uxth	r6, r6
+  46:	f819 b003 	ldrb.w	fp, [r9, r3]
+  4a:	f10a 33ff 	add.w	r3, sl, #4294967295	; 0xffffffff
+  4e:	eb06 040b 	add.w	r4, r6, fp
+  52:	444e      	add	r6, r9
+  54:	b2a4      	uxth	r4, r4
+  56:	2b08      	cmp	r3, #8
+  58:	d838      	bhi.n	cc <shtpCmdListener+0xcc>
+  5a:	e8df f003 	tbb	[pc, r3]
+  5e:	afb9      	.short	0xafb9
+  60:	8d949fab 	.word	0x8d949fab
+  64:	6586      	.short	0x6586
+  66:	06          	.byte	0x06
+  67:	00          	.byte	0x00
+  68:	4770      	bx	lr
+  6a:	4631      	mov	r1, r6
+  6c:	a80e      	add	r0, sp, #56	; 0x38
+  6e:	f7ff fffe 	bl	0 <stpcpy>
+  72:	9a02      	ldr	r2, [sp, #8]
+  74:	9004      	str	r0, [sp, #16]
+  76:	2a07      	cmp	r2, #7
+  78:	d828      	bhi.n	cc <shtpCmdListener+0xcc>
+  7a:	2134      	movs	r1, #52	; 0x34
+  7c:	f240 5024 	movw	r0, #1316	; 0x524
+  80:	fb11 0302 	smlabb	r3, r1, r2, r0
+  84:	fb01 8702 	mla	r7, r1, r2, r8
+  88:	4631      	mov	r1, r6
+  8a:	4443      	add	r3, r8
+  8c:	f8c7 5520 	str.w	r5, [r7, #1312]	; 0x520
+  90:	4618      	mov	r0, r3
+  92:	9305      	str	r3, [sp, #20]
+  94:	f7ff fffe 	bl	0 <strcpy>
+  98:	2100      	movs	r1, #0
+  9a:	9b03      	ldr	r3, [sp, #12]
+  9c:	4640      	mov	r0, r8
+  9e:	f8a7 151c 	strh.w	r1, [r7, #1308]	; 0x51c
+  a2:	f887 3544 	strb.w	r3, [r7, #1348]	; 0x544
+  a6:	f8c7 1548 	str.w	r1, [r7, #1352]	; 0x548
+  aa:	f8c7 154c 	str.w	r1, [r7, #1356]	; 0x54c
+  ae:	f7ff fffe 	bl	0 <shtpCmdListener>
+  b2:	a90e      	add	r1, sp, #56	; 0x38
+  b4:	9a04      	ldr	r2, [sp, #16]
+  b6:	9b05      	ldr	r3, [sp, #20]
+  b8:	1a52      	subs	r2, r2, r1
+  ba:	f8c7 5520 	str.w	r5, [r7, #1312]	; 0x520
+  be:	4618      	mov	r0, r3
+  c0:	3201      	adds	r2, #1
+  c2:	f7ff fffe 	bl	0 <memcpy>
+  c6:	9b03      	ldr	r3, [sp, #12]
+  c8:	f887 3544 	strb.w	r3, [r7, #1348]	; 0x544
+  cc:	4643      	mov	r3, r8
+  ce:	2200      	movs	r2, #0
+  d0:	f8b3 14e0 	ldrh.w	r1, [r3, #1248]	; 0x4e0
+  d4:	428d      	cmp	r5, r1
+  d6:	f000 8093 	beq.w	200 <shtpCmdListener+0x200>
+  da:	3201      	adds	r2, #1
+  dc:	330c      	adds	r3, #12
+  de:	2a05      	cmp	r2, #5
+  e0:	d1f6      	bne.n	d0 <shtpCmdListener+0xd0>
+  e2:	9b01      	ldr	r3, [sp, #4]
+  e4:	42a3      	cmp	r3, r4
+  e6:	d8a8      	bhi.n	3a <shtpCmdListener+0x3a>
+  e8:	4643      	mov	r3, r8
+  ea:	2200      	movs	r2, #0
+  ec:	f8b3 14e0 	ldrh.w	r1, [r3, #1248]	; 0x4e0
+  f0:	42a9      	cmp	r1, r5
+  f2:	d007      	beq.n	104 <shtpCmdListener+0x104>
+  f4:	3201      	adds	r2, #1
+  f6:	330c      	adds	r3, #12
+  f8:	2a05      	cmp	r2, #5
+  fa:	d08b      	beq.n	14 <shtpCmdListener+0x14>
+  fc:	f8b3 14e0 	ldrh.w	r1, [r3, #1248]	; 0x4e0
+ 100:	42a9      	cmp	r1, r5
+ 102:	d1f7      	bne.n	f4 <shtpCmdListener+0xf4>
+ 104:	f8d3 44e4 	ldr.w	r4, [r3, #1252]	; 0x4e4
+ 108:	2c00      	cmp	r4, #0
+ 10a:	d0f3      	beq.n	f4 <shtpCmdListener+0xf4>
+ 10c:	eb02 0242 	add.w	r2, r2, r2, lsl #1
+ 110:	2300      	movs	r3, #0
+ 112:	46a4      	mov	ip, r4
+ 114:	eb08 0882 	add.w	r8, r8, r2, lsl #2
+ 118:	4619      	mov	r1, r3
+ 11a:	461a      	mov	r2, r3
+ 11c:	f8d8 04e8 	ldr.w	r0, [r8, #1256]	; 0x4e8
+ 120:	b017      	add	sp, #92	; 0x5c
+ 122:	e8bd 4ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+ 126:	4760      	bx	ip
+ 128:	af06      	add	r7, sp, #24
+ 12a:	4631      	mov	r1, r6
+ 12c:	4638      	mov	r0, r7
+ 12e:	f7ff fffe 	bl	0 <stpcpy>
+ 132:	f898 c4dc 	ldrb.w	ip, [r8, #1244]	; 0x4dc
+ 136:	f1bc 0f00 	cmp.w	ip, #0
+ 13a:	d0c7      	beq.n	cc <shtpCmdListener+0xcc>
+ 13c:	4642      	mov	r2, r8
+ 13e:	2300      	movs	r3, #0
+ 140:	e002      	b.n	148 <shtpCmdListener+0x148>
+ 142:	3301      	adds	r3, #1
+ 144:	4563      	cmp	r3, ip
+ 146:	d0c1      	beq.n	cc <shtpCmdListener+0xcc>
+ 148:	f8d2 1428 	ldr.w	r1, [r2, #1064]	; 0x428
+ 14c:	3224      	adds	r2, #36	; 0x24
+ 14e:	42a9      	cmp	r1, r5
+ 150:	d1f7      	bne.n	142 <shtpCmdListener+0x142>
+ 152:	eb03 03c3 	add.w	r3, r3, r3, lsl #3
+ 156:	1bc2      	subs	r2, r0, r7
+ 158:	4639      	mov	r1, r7
+ 15a:	eb08 0383 	add.w	r3, r8, r3, lsl #2
+ 15e:	3201      	adds	r2, #1
+ 160:	f203 402c 	addw	r0, r3, #1068	; 0x42c
+ 164:	f7ff fffe 	bl	0 <memcpy>
+ 168:	e7b0      	b.n	cc <shtpCmdListener+0xcc>
+ 16a:	4630      	mov	r0, r6
+ 16c:	f7ff fffe 	bl	0 <readu8>
+ 170:	2301      	movs	r3, #1
+ 172:	9002      	str	r0, [sp, #8]
+ 174:	9303      	str	r3, [sp, #12]
+ 176:	e7a9      	b.n	cc <shtpCmdListener+0xcc>
+ 178:	4630      	mov	r0, r6
+ 17a:	f7ff fffe 	bl	0 <readu8>
+ 17e:	2300      	movs	r3, #0
+ 180:	9002      	str	r0, [sp, #8]
+ 182:	9303      	str	r3, [sp, #12]
+ 184:	e7a2      	b.n	cc <shtpCmdListener+0xcc>
+ 186:	4630      	mov	r0, r6
+ 188:	f7ff fffe 	bl	0 <readu16>
+ 18c:	3804      	subs	r0, #4
+ 18e:	b283      	uxth	r3, r0
+ 190:	f5b3 7fc0 	cmp.w	r3, #384	; 0x180
+ 194:	d29a      	bcs.n	cc <shtpCmdListener+0xcc>
+ 196:	f8a8 3118 	strh.w	r3, [r8, #280]	; 0x118
+ 19a:	e797      	b.n	cc <shtpCmdListener+0xcc>
+ 19c:	4630      	mov	r0, r6
+ 19e:	f7ff fffe 	bl	0 <readu16>
+ 1a2:	3804      	subs	r0, #4
+ 1a4:	b283      	uxth	r3, r0
+ 1a6:	2bff      	cmp	r3, #255	; 0xff
+ 1a8:	bf88      	it	hi
+ 1aa:	f44f 7380 	movhi.w	r3, #256	; 0x100
+ 1ae:	f8a8 3016 	strh.w	r3, [r8, #22]
+ 1b2:	e78b      	b.n	cc <shtpCmdListener+0xcc>
+ 1b4:	4630      	mov	r0, r6
+ 1b6:	f7ff fffe 	bl	0 <readu16>
+ 1ba:	e787      	b.n	cc <shtpCmdListener+0xcc>
+ 1bc:	4630      	mov	r0, r6
+ 1be:	f7ff fffe 	bl	0 <readu16>
+ 1c2:	3804      	subs	r0, #4
+ 1c4:	b283      	uxth	r3, r0
+ 1c6:	2bff      	cmp	r3, #255	; 0xff
+ 1c8:	d880      	bhi.n	cc <shtpCmdListener+0xcc>
+ 1ca:	f8a8 3014 	strh.w	r3, [r8, #20]
+ 1ce:	e77d      	b.n	cc <shtpCmdListener+0xcc>
+ 1d0:	4643      	mov	r3, r8
+ 1d2:	2200      	movs	r2, #0
+ 1d4:	f8b3 14e0 	ldrh.w	r1, [r3, #1248]	; 0x4e0
+ 1d8:	42a9      	cmp	r1, r5
+ 1da:	d021      	beq.n	220 <shtpCmdListener+0x220>
+ 1dc:	3201      	adds	r2, #1
+ 1de:	330c      	adds	r3, #12
+ 1e0:	2a05      	cmp	r2, #5
+ 1e2:	d1f7      	bne.n	1d4 <shtpCmdListener+0x1d4>
+ 1e4:	4630      	mov	r0, r6
+ 1e6:	f7ff fffe 	bl	0 <readu32>
+ 1ea:	4605      	mov	r5, r0
+ 1ec:	4640      	mov	r0, r8
+ 1ee:	4629      	mov	r1, r5
+ 1f0:	f7ff fffe 	bl	0 <shtpCmdListener>
+ 1f4:	2300      	movs	r3, #0
+ 1f6:	f88d 3018 	strb.w	r3, [sp, #24]
+ 1fa:	f88d 3038 	strb.w	r3, [sp, #56]	; 0x38
+ 1fe:	e765      	b.n	cc <shtpCmdListener+0xcc>
+ 200:	f8d3 74e4 	ldr.w	r7, [r3, #1252]	; 0x4e4
+ 204:	2f00      	cmp	r7, #0
+ 206:	f43f af68 	beq.w	da <shtpCmdListener+0xda>
+ 20a:	eb02 0042 	add.w	r0, r2, r2, lsl #1
+ 20e:	4633      	mov	r3, r6
+ 210:	465a      	mov	r2, fp
+ 212:	4651      	mov	r1, sl
+ 214:	eb08 0080 	add.w	r0, r8, r0, lsl #2
+ 218:	f8d0 04e8 	ldr.w	r0, [r0, #1256]	; 0x4e8
+ 21c:	47b8      	blx	r7
+ 21e:	e760      	b.n	e2 <shtpCmdListener+0xe2>
+ 220:	f8d3 74e4 	ldr.w	r7, [r3, #1252]	; 0x4e4
+ 224:	2f00      	cmp	r7, #0
+ 226:	d0d9      	beq.n	1dc <shtpCmdListener+0x1dc>
+ 228:	eb02 0242 	add.w	r2, r2, r2, lsl #1
+ 22c:	eb08 0382 	add.w	r3, r8, r2, lsl #2
+ 230:	f8d3 04e8 	ldr.w	r0, [r3, #1256]	; 0x4e8
+ 234:	2300      	movs	r3, #0
+ 236:	461a      	mov	r2, r3
+ 238:	4619      	mov	r1, r3
+ 23a:	47b8      	blx	r7
+ 23c:	e7d2      	b.n	1e4 <shtpCmdListener+0x1e4>
+ 23e:	9d02      	ldr	r5, [sp, #8]
+ 240:	e752      	b.n	e8 <shtpCmdListener+0xe8>
+ 242:	bf00      	nop
+
+Disassembly of section .text.shtp_open:
+
+00000000 <shtp_open>:
+   0:	b570      	push	{r4, r5, r6, lr}
+   2:	4c3c      	ldr	r4, [pc, #240]	; (f4 <shtp_open+0xf4>)
+   4:	4605      	mov	r5, r0
+   6:	7821      	ldrb	r1, [r4, #0]
+   8:	2900      	cmp	r1, #0
+   a:	d068      	beq.n	de <shtp_open+0xde>
+   c:	2d00      	cmp	r5, #0
+   e:	d06e      	beq.n	ee <shtp_open+0xee>
+  10:	4c39      	ldr	r4, [pc, #228]	; (f8 <shtp_open+0xf8>)
+  12:	6826      	ldr	r6, [r4, #0]
+  14:	2e00      	cmp	r6, #0
+  16:	d16a      	bne.n	ee <shtp_open+0xee>
+  18:	f640 0234 	movw	r2, #2100	; 0x834
+  1c:	4631      	mov	r1, r6
+  1e:	4620      	mov	r0, r4
+  20:	f7ff fffe 	bl	0 <memset>
+  24:	f04f 2301 	mov.w	r3, #16777472	; 0x1000100
+  28:	4631      	mov	r1, r6
+  2a:	4620      	mov	r0, r4
+  2c:	6163      	str	r3, [r4, #20]
+  2e:	6025      	str	r5, [r4, #0]
+  30:	f7ff fffe 	bl	0 <shtp_open>
+  34:	4a31      	ldr	r2, [pc, #196]	; (fc <shtp_open+0xfc>)
+  36:	f204 5324 	addw	r3, r4, #1316	; 0x524
+  3a:	f8c4 6520 	str.w	r6, [r4, #1312]	; 0x520
+  3e:	f884 6544 	strb.w	r6, [r4, #1348]	; 0x544
+  42:	f8a4 651c 	strh.w	r6, [r4, #1308]	; 0x51c
+  46:	f8c4 6548 	str.w	r6, [r4, #1352]	; 0x548
+  4a:	f8c4 654c 	str.w	r6, [r4, #1356]	; 0x54c
+  4e:	e892 0003 	ldmia.w	r2, {r0, r1}
+  52:	e883 0003 	stmia.w	r3, {r0, r1}
+  56:	4620      	mov	r0, r4
+  58:	f7ff fffe 	bl	0 <shtp_open>
+  5c:	f894 34dd 	ldrb.w	r3, [r4, #1245]	; 0x4dd
+  60:	2b04      	cmp	r3, #4
+  62:	d80d      	bhi.n	80 <shtp_open+0x80>
+  64:	1c5a      	adds	r2, r3, #1
+  66:	eb03 0343 	add.w	r3, r3, r3, lsl #1
+  6a:	f884 24dd 	strb.w	r2, [r4, #1245]	; 0x4dd
+  6e:	eb04 0383 	add.w	r3, r4, r3, lsl #2
+  72:	4a23      	ldr	r2, [pc, #140]	; (100 <shtp_open+0x100>)
+  74:	f8a3 64e0 	strh.w	r6, [r3, #1248]	; 0x4e0
+  78:	f8c3 44e8 	str.w	r4, [r3, #1256]	; 0x4e8
+  7c:	f8c3 24e4 	str.w	r2, [r3, #1252]	; 0x4e4
+  80:	f894 3424 	ldrb.w	r3, [r4, #1060]	; 0x424
+  84:	2b02      	cmp	r3, #2
+  86:	d102      	bne.n	8e <shtp_open+0x8e>
+  88:	2300      	movs	r3, #0
+  8a:	f884 3424 	strb.w	r3, [r4, #1060]	; 0x424
+  8e:	f894 281c 	ldrb.w	r2, [r4, #2076]	; 0x81c
+  92:	2a07      	cmp	r2, #7
+  94:	d81b      	bhi.n	ce <shtp_open+0xce>
+  96:	1c51      	adds	r1, r2, #1
+  98:	232c      	movs	r3, #44	; 0x2c
+  9a:	f884 181c 	strb.w	r1, [r4, #2076]	; 0x81c
+  9e:	f240 61be 	movw	r1, #1726	; 0x6be
+  a2:	fb03 4602 	mla	r6, r3, r2, r4
+  a6:	fb13 1302 	smlabb	r3, r3, r2, r1
+  aa:	2100      	movs	r1, #0
+  ac:	4a13      	ldr	r2, [pc, #76]	; (fc <shtp_open+0xfc>)
+  ae:	f8a6 16bc 	strh.w	r1, [r6, #1724]	; 0x6bc
+  b2:	eb04 0c03 	add.w	ip, r4, r3
+  b6:	ca03      	ldmia	r2!, {r0, r1}
+  b8:	50e0      	str	r0, [r4, r3]
+  ba:	4b12      	ldr	r3, [pc, #72]	; (104 <shtp_open+0x104>)
+  bc:	f8cc 1004 	str.w	r1, [ip, #4]
+  c0:	480d      	ldr	r0, [pc, #52]	; (f8 <shtp_open+0xf8>)
+  c2:	f8c6 46e4 	str.w	r4, [r6, #1764]	; 0x6e4
+  c6:	f8c6 36e0 	str.w	r3, [r6, #1760]	; 0x6e0
+  ca:	f7ff fffe 	bl	0 <shtp_open>
+  ce:	2301      	movs	r3, #1
+  d0:	4628      	mov	r0, r5
+  d2:	f884 3424 	strb.w	r3, [r4, #1060]	; 0x424
+  d6:	682b      	ldr	r3, [r5, #0]
+  d8:	4798      	blx	r3
+  da:	4807      	ldr	r0, [pc, #28]	; (f8 <shtp_open+0xf8>)
+  dc:	bd70      	pop	{r4, r5, r6, pc}
+  de:	f640 0234 	movw	r2, #2100	; 0x834
+  e2:	4805      	ldr	r0, [pc, #20]	; (f8 <shtp_open+0xf8>)
+  e4:	f7ff fffe 	bl	0 <memset>
+  e8:	2301      	movs	r3, #1
+  ea:	7023      	strb	r3, [r4, #0]
+  ec:	e78e      	b.n	c <shtp_open+0xc>
+  ee:	2000      	movs	r0, #0
+  f0:	bd70      	pop	{r4, r5, r6, pc}
+  f2:	bf00      	nop
+  f4:	00000000 	.word	0x00000000
+  f8:	00000000 	.word	0x00000000
+  fc:	00000000 	.word	0x00000000
+ 100:	00000000 	.word	0x00000000
+ 104:	00000000 	.word	0x00000000
+
+Disassembly of section .text.shtp_close:
+
+00000000 <shtp_close>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	6800      	ldr	r0, [r0, #0]
+   6:	6843      	ldr	r3, [r0, #4]
+   8:	4798      	blx	r3
+   a:	4620      	mov	r0, r4
+   c:	f640 0234 	movw	r2, #2100	; 0x834
+  10:	2100      	movs	r1, #0
+  12:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  16:	f7ff bffe 	b.w	0 <memset>
+  1a:	bf00      	nop
+
+Disassembly of section .text.shtp_setEventCallback:
+
+00000000 <shtp_setEventCallback>:
+   0:	e9c0 1201 	strd	r1, r2, [r0, #4]
+   4:	4770      	bx	lr
+   6:	bf00      	nop
+
+Disassembly of section .text.shtp_listenChan:
+
+00000000 <shtp_listenChan>:
+   0:	b332      	cbz	r2, 50 <shtp_listenChan+0x50>
+   2:	468c      	mov	ip, r1
+   4:	4611      	mov	r1, r2
+   6:	b570      	push	{r4, r5, r6, lr}
+   8:	461e      	mov	r6, r3
+   a:	7813      	ldrb	r3, [r2, #0]
+   c:	b1d3      	cbz	r3, 44 <shtp_listenChan+0x44>
+   e:	4604      	mov	r4, r0
+  10:	f890 081c 	ldrb.w	r0, [r0, #2076]	; 0x81c
+  14:	2807      	cmp	r0, #7
+  16:	d818      	bhi.n	4a <shtp_listenChan+0x4a>
+  18:	222c      	movs	r2, #44	; 0x2c
+  1a:	1c43      	adds	r3, r0, #1
+  1c:	fb02 4500 	mla	r5, r2, r0, r4
+  20:	f884 381c 	strb.w	r3, [r4, #2076]	; 0x81c
+  24:	f205 60be 	addw	r0, r5, #1726	; 0x6be
+  28:	f8a5 c6bc 	strh.w	ip, [r5, #1724]	; 0x6bc
+  2c:	f7ff fffe 	bl	0 <strcpy>
+  30:	9b04      	ldr	r3, [sp, #16]
+  32:	4620      	mov	r0, r4
+  34:	f8c5 66e0 	str.w	r6, [r5, #1760]	; 0x6e0
+  38:	f8c5 36e4 	str.w	r3, [r5, #1764]	; 0x6e4
+  3c:	f7ff fffe 	bl	0 <shtp_listenChan>
+  40:	2000      	movs	r0, #0
+  42:	bd70      	pop	{r4, r5, r6, pc}
+  44:	f06f 0001 	mvn.w	r0, #1
+  48:	bd70      	pop	{r4, r5, r6, pc}
+  4a:	f04f 30ff 	mov.w	r0, #4294967295	; 0xffffffff
+  4e:	bd70      	pop	{r4, r5, r6, pc}
+  50:	f06f 0001 	mvn.w	r0, #1
+  54:	4770      	bx	lr
+  56:	bf00      	nop
+
+Disassembly of section .text.shtp_listenAdvert:
+
+00000000 <shtp_listenAdvert>:
+   0:	f890 c4dd 	ldrb.w	ip, [r0, #1245]	; 0x4dd
+   4:	f1bc 0f04 	cmp.w	ip, #4
+   8:	d81b      	bhi.n	42 <shtp_listenAdvert+0x42>
+   a:	b500      	push	{lr}
+   c:	eb0c 0e4c 	add.w	lr, ip, ip, lsl #1
+  10:	f10c 0c01 	add.w	ip, ip, #1
+  14:	f880 c4dd 	strb.w	ip, [r0, #1245]	; 0x4dd
+  18:	eb00 0c8e 	add.w	ip, r0, lr, lsl #2
+  1c:	f8ac 14e0 	strh.w	r1, [ip, #1248]	; 0x4e0
+  20:	f8cc 24e4 	str.w	r2, [ip, #1252]	; 0x4e4
+  24:	f8cc 34e8 	str.w	r3, [ip, #1256]	; 0x4e8
+  28:	f890 3424 	ldrb.w	r3, [r0, #1060]	; 0x424
+  2c:	2b02      	cmp	r3, #2
+  2e:	d002      	beq.n	36 <shtp_listenAdvert+0x36>
+  30:	2000      	movs	r0, #0
+  32:	f85d fb04 	ldr.w	pc, [sp], #4
+  36:	2300      	movs	r3, #0
+  38:	f880 3424 	strb.w	r3, [r0, #1060]	; 0x424
+  3c:	2000      	movs	r0, #0
+  3e:	f85d fb04 	ldr.w	pc, [sp], #4
+  42:	f890 3424 	ldrb.w	r3, [r0, #1060]	; 0x424
+  46:	2b02      	cmp	r3, #2
+  48:	d102      	bne.n	50 <shtp_listenAdvert+0x50>
+  4a:	2300      	movs	r3, #0
+  4c:	f880 3424 	strb.w	r3, [r0, #1060]	; 0x424
+  50:	2000      	movs	r0, #0
+  52:	4770      	bx	lr
+
+Disassembly of section .text.shtp_chanNo:
+
+00000000 <shtp_chanNo>:
+   0:	e92d 43f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, r9, lr}
+   4:	2600      	movs	r6, #0
+   6:	4605      	mov	r5, r0
+   8:	4689      	mov	r9, r1
+   a:	4690      	mov	r8, r2
+   c:	f200 472c 	addw	r7, r0, #1068	; 0x42c
+  10:	4638      	mov	r0, r7
+  12:	4649      	mov	r1, r9
+  14:	f7ff fffe 	bl	0 <strcmp>
+  18:	3724      	adds	r7, #36	; 0x24
+  1a:	4604      	mov	r4, r0
+  1c:	b128      	cbz	r0, 2a <shtp_chanNo+0x2a>
+  1e:	3601      	adds	r6, #1
+  20:	2e05      	cmp	r6, #5
+  22:	d1f5      	bne.n	10 <shtp_chanNo+0x10>
+  24:	20ff      	movs	r0, #255	; 0xff
+  26:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+  2a:	eb06 06c6 	add.w	r6, r6, r6, lsl #3
+  2e:	eb05 0686 	add.w	r6, r5, r6, lsl #2
+  32:	f8d6 6428 	ldr.w	r6, [r6, #1064]	; 0x428
+  36:	1c73      	adds	r3, r6, #1
+  38:	d0f4      	beq.n	24 <shtp_chanNo+0x24>
+  3a:	f205 5524 	addw	r5, r5, #1316	; 0x524
+  3e:	4628      	mov	r0, r5
+  40:	4641      	mov	r1, r8
+  42:	f7ff fffe 	bl	0 <strcmp>
+  46:	b918      	cbnz	r0, 50 <shtp_chanNo+0x50>
+  48:	f855 3c04 	ldr.w	r3, [r5, #-4]
+  4c:	42b3      	cmp	r3, r6
+  4e:	d004      	beq.n	5a <shtp_chanNo+0x5a>
+  50:	3401      	adds	r4, #1
+  52:	3534      	adds	r5, #52	; 0x34
+  54:	2c08      	cmp	r4, #8
+  56:	d1f2      	bne.n	3e <shtp_chanNo+0x3e>
+  58:	e7e4      	b.n	24 <shtp_chanNo+0x24>
+  5a:	b2e0      	uxtb	r0, r4
+  5c:	e8bd 83f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, r9, pc}
+
+Disassembly of section .text.shtp_service:
+
+00000000 <shtp_service>:
+   0:	e92d 43f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, lr}
+   4:	2300      	movs	r3, #0
+   6:	b083      	sub	sp, #12
+   8:	f890 5424 	ldrb.w	r5, [r0, #1060]	; 0x424
+   c:	4604      	mov	r4, r0
+   e:	9301      	str	r3, [sp, #4]
+  10:	b15d      	cbz	r5, 2a <shtp_service+0x2a>
+  12:	6820      	ldr	r0, [r4, #0]
+  14:	ab01      	add	r3, sp, #4
+  16:	f44f 72c0 	mov.w	r2, #384	; 0x180
+  1a:	f504 7129 	add.w	r1, r4, #676	; 0x2a4
+  1e:	6885      	ldr	r5, [r0, #8]
+  20:	47a8      	blx	r5
+  22:	b978      	cbnz	r0, 44 <shtp_service+0x44>
+  24:	b003      	add	sp, #12
+  26:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
+  2a:	2201      	movs	r2, #1
+  2c:	2302      	movs	r3, #2
+  2e:	4629      	mov	r1, r5
+  30:	f880 2424 	strb.w	r2, [r0, #1060]	; 0x424
+  34:	4a51      	ldr	r2, [pc, #324]	; (17c <shtp_service+0x17c>)
+  36:	f7ff fffe 	bl	0 <shtp_service>
+  3a:	2800      	cmp	r0, #0
+  3c:	d0e9      	beq.n	12 <shtp_service+0x12>
+  3e:	f884 5424 	strb.w	r5, [r4, #1060]	; 0x424
+  42:	e7e6      	b.n	12 <shtp_service+0x12>
+  44:	b280      	uxth	r0, r0
+  46:	f8dd c004 	ldr.w	ip, [sp, #4]
+  4a:	2803      	cmp	r0, #3
+  4c:	d95f      	bls.n	10e <shtp_service+0x10e>
+  4e:	f894 12a5 	ldrb.w	r1, [r4, #677]	; 0x2a5
+  52:	f647 75fc 	movw	r5, #32764	; 0x7ffc
+  56:	f894 32a4 	ldrb.w	r3, [r4, #676]	; 0x2a4
+  5a:	f894 22a6 	ldrb.w	r2, [r4, #678]	; 0x2a6
+  5e:	eb03 2301 	add.w	r3, r3, r1, lsl #8
+  62:	f894 62a7 	ldrb.w	r6, [r4, #679]	; 0x2a7
+  66:	422b      	tst	r3, r5
+  68:	b29f      	uxth	r7, r3
+  6a:	d044      	beq.n	f6 <shtp_service+0xf6>
+  6c:	2a07      	cmp	r2, #7
+  6e:	d856      	bhi.n	11e <shtp_service+0x11e>
+  70:	f894 381c 	ldrb.w	r3, [r4, #2076]	; 0x81c
+  74:	4293      	cmp	r3, r2
+  76:	d952      	bls.n	11e <shtp_service+0x11e>
+  78:	f8b4 311a 	ldrh.w	r3, [r4, #282]	; 0x11a
+  7c:	f3c7 080e 	ubfx	r8, r7, #0, #15
+  80:	2b00      	cmp	r3, #0
+  82:	d159      	bne.n	138 <shtp_service+0x138>
+  84:	f5b8 7fc0 	cmp.w	r8, #384	; 0x180
+  88:	d85c      	bhi.n	144 <shtp_service+0x144>
+  8a:	2300      	movs	r3, #0
+  8c:	4617      	mov	r7, r2
+  8e:	f8c4 c2a0 	str.w	ip, [r4, #672]	; 0x2a0
+  92:	f884 211c 	strb.w	r2, [r4, #284]	; 0x11c
+  96:	f8a4 329e 	strh.w	r3, [r4, #670]	; 0x29e
+  9a:	4540      	cmp	r0, r8
+  9c:	f204 191d 	addw	r9, r4, #285	; 0x11d
+  a0:	f504 712a 	add.w	r1, r4, #680	; 0x2a8
+  a4:	bf28      	it	cs
+  a6:	4640      	movcs	r0, r8
+  a8:	4605      	mov	r5, r0
+  aa:	eb09 0003 	add.w	r0, r9, r3
+  ae:	1f2a      	subs	r2, r5, #4
+  b0:	eba8 0805 	sub.w	r8, r8, r5
+  b4:	f7ff fffe 	bl	0 <memcpy>
+  b8:	f8b4 229e 	ldrh.w	r2, [r4, #670]	; 0x29e
+  bc:	fa1f f388 	uxth.w	r3, r8
+  c0:	3a04      	subs	r2, #4
+  c2:	f8a4 311a 	strh.w	r3, [r4, #282]	; 0x11a
+  c6:	18a8      	adds	r0, r5, r2
+  c8:	b282      	uxth	r2, r0
+  ca:	f8a4 229e 	strh.w	r2, [r4, #670]	; 0x29e
+  ce:	b95b      	cbnz	r3, e8 <shtp_service+0xe8>
+  d0:	2334      	movs	r3, #52	; 0x34
+  d2:	fb03 4307 	mla	r3, r3, r7, r4
+  d6:	f8d3 5548 	ldr.w	r5, [r3, #1352]	; 0x548
+  da:	b12d      	cbz	r5, e8 <shtp_service+0xe8>
+  dc:	f8d3 054c 	ldr.w	r0, [r3, #1356]	; 0x54c
+  e0:	4649      	mov	r1, r9
+  e2:	f8d4 32a0 	ldr.w	r3, [r4, #672]	; 0x2a0
+  e6:	47a8      	blx	r5
+  e8:	2334      	movs	r3, #52	; 0x34
+  ea:	3601      	adds	r6, #1
+  ec:	fb03 4707 	mla	r7, r3, r7, r4
+  f0:	f887 651d 	strb.w	r6, [r7, #1309]	; 0x51d
+  f4:	e796      	b.n	24 <shtp_service+0x24>
+  f6:	f8d4 3824 	ldr.w	r3, [r4, #2084]	; 0x824
+  fa:	6862      	ldr	r2, [r4, #4]
+  fc:	3301      	adds	r3, #1
+  fe:	f8c4 3824 	str.w	r3, [r4, #2084]	; 0x824
+ 102:	2a00      	cmp	r2, #0
+ 104:	d08e      	beq.n	24 <shtp_service+0x24>
+ 106:	2101      	movs	r1, #1
+ 108:	68a0      	ldr	r0, [r4, #8]
+ 10a:	4790      	blx	r2
+ 10c:	e78a      	b.n	24 <shtp_service+0x24>
+ 10e:	f8d4 3824 	ldr.w	r3, [r4, #2084]	; 0x824
+ 112:	3301      	adds	r3, #1
+ 114:	f8c4 3824 	str.w	r3, [r4, #2084]	; 0x824
+ 118:	b003      	add	sp, #12
+ 11a:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
+ 11e:	f8d4 382c 	ldr.w	r3, [r4, #2092]	; 0x82c
+ 122:	6862      	ldr	r2, [r4, #4]
+ 124:	3301      	adds	r3, #1
+ 126:	f8c4 382c 	str.w	r3, [r4, #2092]	; 0x82c
+ 12a:	2a00      	cmp	r2, #0
+ 12c:	f43f af7a 	beq.w	24 <shtp_service+0x24>
+ 130:	2103      	movs	r1, #3
+ 132:	68a0      	ldr	r0, [r4, #8]
+ 134:	4790      	blx	r2
+ 136:	e775      	b.n	24 <shtp_service+0x24>
+ 138:	060b      	lsls	r3, r1, #24
+ 13a:	d410      	bmi.n	15e <shtp_service+0x15e>
+ 13c:	2300      	movs	r3, #0
+ 13e:	f8a4 311a 	strh.w	r3, [r4, #282]	; 0x11a
+ 142:	e79f      	b.n	84 <shtp_service+0x84>
+ 144:	f8d4 3828 	ldr.w	r3, [r4, #2088]	; 0x828
+ 148:	6862      	ldr	r2, [r4, #4]
+ 14a:	3301      	adds	r3, #1
+ 14c:	f8c4 3828 	str.w	r3, [r4, #2088]	; 0x828
+ 150:	2a00      	cmp	r2, #0
+ 152:	f43f af67 	beq.w	24 <shtp_service+0x24>
+ 156:	2102      	movs	r1, #2
+ 158:	68a0      	ldr	r0, [r4, #8]
+ 15a:	4790      	blx	r2
+ 15c:	e762      	b.n	24 <shtp_service+0x24>
+ 15e:	f894 711c 	ldrb.w	r7, [r4, #284]	; 0x11c
+ 162:	4297      	cmp	r7, r2
+ 164:	d1ea      	bne.n	13c <shtp_service+0x13c>
+ 166:	2334      	movs	r3, #52	; 0x34
+ 168:	fb03 4307 	mla	r3, r3, r7, r4
+ 16c:	f893 351d 	ldrb.w	r3, [r3, #1309]	; 0x51d
+ 170:	42b3      	cmp	r3, r6
+ 172:	d1e3      	bne.n	13c <shtp_service+0x13c>
+ 174:	f8b4 329e 	ldrh.w	r3, [r4, #670]	; 0x29e
+ 178:	e78f      	b.n	9a <shtp_service+0x9a>
+ 17a:	bf00      	nop
+ 17c:	00000000 	.word	0x00000000
+
+Disassembly of section .text.shtp_send:
+
+00000000 <shtp_send>:
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	461e      	mov	r6, r3
+   6:	8a83      	ldrh	r3, [r0, #20]
+   8:	b083      	sub	sp, #12
+   a:	42b3      	cmp	r3, r6
+   c:	9201      	str	r2, [sp, #4]
+   e:	d35d      	bcc.n	cc <shtp_send+0xcc>
+  10:	2907      	cmp	r1, #7
+  12:	4683      	mov	fp, r0
+  14:	4689      	mov	r9, r1
+  16:	d851      	bhi.n	bc <shtp_send+0xbc>
+  18:	2700      	movs	r7, #0
+  1a:	f04f 0834 	mov.w	r8, #52	; 0x34
+  1e:	fb08 0801 	mla	r8, r8, r1, r0
+  22:	4639      	mov	r1, r7
+  24:	2e00      	cmp	r6, #0
+  26:	d045      	beq.n	b4 <shtp_send+0xb4>
+  28:	f8bb 2016 	ldrh.w	r2, [fp, #22]
+  2c:	3a04      	subs	r2, #4
+  2e:	b292      	uxth	r2, r2
+  30:	42b2      	cmp	r2, r6
+  32:	bf28      	it	cs
+  34:	4632      	movcs	r2, r6
+  36:	1d14      	adds	r4, r2, #4
+  38:	4692      	mov	sl, r2
+  3a:	b2a4      	uxth	r4, r4
+  3c:	0a23      	lsrs	r3, r4, #8
+  3e:	f88b 4018 	strb.w	r4, [fp, #24]
+  42:	b109      	cbz	r1, 48 <shtp_send+0x48>
+  44:	f063 037f 	orn	r3, r3, #127	; 0x7f
+  48:	f88b 3019 	strb.w	r3, [fp, #25]
+  4c:	465d      	mov	r5, fp
+  4e:	f88b 901a 	strb.w	r9, [fp, #26]
+  52:	eba6 060a 	sub.w	r6, r6, sl
+  56:	f898 351c 	ldrb.w	r3, [r8, #1308]	; 0x51c
+  5a:	9a01      	ldr	r2, [sp, #4]
+  5c:	b2b6      	uxth	r6, r6
+  5e:	1c58      	adds	r0, r3, #1
+  60:	19d1      	adds	r1, r2, r7
+  62:	4652      	mov	r2, sl
+  64:	f888 051c 	strb.w	r0, [r8, #1308]	; 0x51c
+  68:	f10b 001c 	add.w	r0, fp, #28
+  6c:	f88b 301b 	strb.w	r3, [fp, #27]
+  70:	4457      	add	r7, sl
+  72:	f7ff fffe 	bl	0 <memcpy>
+  76:	f855 0b18 	ldr.w	r0, [r5], #24
+  7a:	4622      	mov	r2, r4
+  7c:	b2bf      	uxth	r7, r7
+  7e:	68c3      	ldr	r3, [r0, #12]
+  80:	4629      	mov	r1, r5
+  82:	4798      	blx	r3
+  84:	b950      	cbnz	r0, 9c <shtp_send+0x9c>
+  86:	4658      	mov	r0, fp
+  88:	f7ff fffe 	bl	0 <shtp_send>
+  8c:	f8db 0000 	ldr.w	r0, [fp]
+  90:	4622      	mov	r2, r4
+  92:	4629      	mov	r1, r5
+  94:	68c3      	ldr	r3, [r0, #12]
+  96:	4798      	blx	r3
+  98:	2800      	cmp	r0, #0
+  9a:	d0f4      	beq.n	86 <shtp_send+0x86>
+  9c:	2800      	cmp	r0, #0
+  9e:	f04f 0101 	mov.w	r1, #1
+  a2:	dabf      	bge.n	24 <shtp_send+0x24>
+  a4:	f8db 3820 	ldr.w	r3, [fp, #2080]	; 0x820
+  a8:	440b      	add	r3, r1
+  aa:	f8cb 3820 	str.w	r3, [fp, #2080]	; 0x820
+  ae:	b003      	add	sp, #12
+  b0:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  b4:	4630      	mov	r0, r6
+  b6:	b003      	add	sp, #12
+  b8:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+  bc:	f8d0 3830 	ldr.w	r3, [r0, #2096]	; 0x830
+  c0:	f06f 0001 	mvn.w	r0, #1
+  c4:	3301      	adds	r3, #1
+  c6:	f8cb 3830 	str.w	r3, [fp, #2096]	; 0x830
+  ca:	e7f0      	b.n	ae <shtp_send+0xae>
+  cc:	f06f 0001 	mvn.w	r0, #1
+  d0:	e7ed      	b.n	ae <shtp_send+0xae>
+  d2:	bf00      	nop
