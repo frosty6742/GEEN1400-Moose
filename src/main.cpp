@@ -41,7 +41,7 @@ int main() {
 
   // Main loop
   while (true) {
-    mControl.setThrottle(0.2); // INRANGE -1, 1
+    mControl.setMotorSpeed(0.2, 0.2); // INRANGE -1, 1
     mControl.printAllReadings();
   }
 

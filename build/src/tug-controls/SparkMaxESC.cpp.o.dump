@@ -9,10 +9,10 @@ SYMBOL TABLE:
 00000000 l    d  .text._ZL16flexcan_isr_can1v	00000000 .text._ZL16flexcan_isr_can1v
 00000000 l     F .text._ZL16flexcan_isr_can1v	00000002 _ZL16flexcan_isr_can1v
 00000000 l    d  .text._ZN11SparkMaxESCC2EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE	00000000 .text._ZN11SparkMaxESCC2EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
+00000000 l    d  .text._ZN11SparkMaxESC11sendCommandE11ControlTypef	00000000 .text._ZN11SparkMaxESC11sendCommandE11ControlTypef
 00000000 l    d  .text._ZN11SparkMaxESC8setPowerEf	00000000 .text._ZN11SparkMaxESC8setPowerEf
 00000000 l    d  .text._ZN11SparkMaxESC10setControlE11ControlTypef	00000000 .text._ZN11SparkMaxESC10setControlE11ControlTypef
 00000000 l    d  .text._ZN11SparkMaxESC4stopEv	00000000 .text._ZN11SparkMaxESC4stopEv
-00000000 l    d  .text._ZN11SparkMaxESC11sendCommandE11ControlTypef	00000000 .text._ZN11SparkMaxESC11sendCommandE11ControlTypef
 00000000 l    d  .text._ZN11SparkMaxESC11resetFaultsEv	00000000 .text._ZN11SparkMaxESC11resetFaultsEv
 00000000 l    d  .text._ZN11SparkMaxESC15setCurrentLimitEf	00000000 .text._ZN11SparkMaxESC15setCurrentLimitEf
 00000000 l    d  .text._ZN11SparkMaxESC12readResponseEm	00000000 .text._ZN11SparkMaxESC12readResponseEm
@@ -28,22 +28,22 @@ SYMBOL TABLE:
 00000000 l    d  .comment	00000000 .comment
 00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
 00000000 l    d  .group	00000000 .group
-00000000 g     F .text._ZN11SparkMaxESCC2EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE	00000012 _ZN11SparkMaxESCC2EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
-00000000 g     F .text._ZN11SparkMaxESCC2EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE	00000012 _ZN11SparkMaxESCC1EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
-00000000 g     F .text._ZN11SparkMaxESC8setPowerEf	00000048 _ZN11SparkMaxESC8setPowerEf
-00000000 g     F .text._ZN11SparkMaxESC10setControlE11ControlTypef	0000004c _ZN11SparkMaxESC10setControlE11ControlTypef
-00000000 g     F .text._ZN11SparkMaxESC4stopEv	00000030 _ZN11SparkMaxESC4stopEv
-00000000 g     F .text._ZN11SparkMaxESC11sendCommandE11ControlTypef	0000004c _ZN11SparkMaxESC11sendCommandE11ControlTypef
-00000000 g     F .text._ZN11SparkMaxESC11resetFaultsEv	00000038 _ZN11SparkMaxESC11resetFaultsEv
-00000000 g     F .text._ZN11SparkMaxESC15setCurrentLimitEf	0000004c _ZN11SparkMaxESC15setCurrentLimitEf
-00000000 g     F .text._ZN11SparkMaxESC12readResponseEm	00000098 _ZN11SparkMaxESC12readResponseEm
+00000000 g     F .text._ZN11SparkMaxESCC2EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE	00000010 _ZN11SparkMaxESCC2EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
+00000000 g     F .text._ZN11SparkMaxESCC2EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE	00000010 _ZN11SparkMaxESCC1EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
+00000000 g     F .text._ZN11SparkMaxESC11sendCommandE11ControlTypef	0000005c _ZN11SparkMaxESC11sendCommandE11ControlTypef
+00000000 g     F .text._ZN11SparkMaxESC8setPowerEf	00000006 _ZN11SparkMaxESC8setPowerEf
+00000000 g     F .text._ZN11SparkMaxESC10setControlE11ControlTypef	00000004 _ZN11SparkMaxESC10setControlE11ControlTypef
+00000000 g     F .text._ZN11SparkMaxESC4stopEv	00000010 _ZN11SparkMaxESC4stopEv
+00000000 g     F .text._ZN11SparkMaxESC11resetFaultsEv	00000044 _ZN11SparkMaxESC11resetFaultsEv
+00000000 g     F .text._ZN11SparkMaxESC15setCurrentLimitEf	00000060 _ZN11SparkMaxESC15setCurrentLimitEf
+00000000 g     F .text._ZN11SparkMaxESC12readResponseEm	000000c0 _ZN11SparkMaxESC12readResponseEm
 00000000         *UND*	00000000 systick_millis_count
-00000000 g     F .text._ZN11SparkMaxESC18getEncoderPositionEv	0000000a _ZN11SparkMaxESC18getEncoderPositionEv
-00000000 g     F .text._ZN11SparkMaxESC18getEncoderVelocityEv	0000000a _ZN11SparkMaxESC18getEncoderVelocityEv
-00000000 g     F .text._ZN11SparkMaxESC15getMotorCurrentEv	0000000a _ZN11SparkMaxESC15getMotorCurrentEv
-00000000 g     F .text._ZN11SparkMaxESC19getMotorTemperatureEv	0000000a _ZN11SparkMaxESC19getMotorTemperatureEv
-00000000 g     F .text._ZN11SparkMaxESC9getFaultsEv	00000018 _ZN11SparkMaxESC9getFaultsEv
-00000000 g     F .text._ZN11SparkMaxESC15getStickyFaultsEv	00000018 _ZN11SparkMaxESC15getStickyFaultsEv
+00000000 g     F .text._ZN11SparkMaxESC18getEncoderPositionEv	0000000e _ZN11SparkMaxESC18getEncoderPositionEv
+00000000 g     F .text._ZN11SparkMaxESC18getEncoderVelocityEv	0000000e _ZN11SparkMaxESC18getEncoderVelocityEv
+00000000 g     F .text._ZN11SparkMaxESC15getMotorCurrentEv	0000000e _ZN11SparkMaxESC15getMotorCurrentEv
+00000000 g     F .text._ZN11SparkMaxESC19getMotorTemperatureEv	0000000e _ZN11SparkMaxESC19getMotorTemperatureEv
+00000000 g     F .text._ZN11SparkMaxESC9getFaultsEv	0000001c _ZN11SparkMaxESC9getFaultsEv
+00000000 g     F .text._ZN11SparkMaxESC15getStickyFaultsEv	0000001c _ZN11SparkMaxESC15getStickyFaultsEv
 00000000  w    F .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv	000002b8 _ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv
 00000000         *UND*	00000000 _VectorsRam
 00000000 g     F .text._ZN11SparkMaxESC5beginEv	00000020 _ZN11SparkMaxESC5beginEv
@@ -54,66 +54,60 @@ Contents of section .group:
 Contents of section .text._ZL16flexcan_isr_can1v:
  0000 704700bf                             pG..            
 Contents of section .text._ZN11SparkMaxESCC2EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE:
- 0000 10b441f0 01740170 c0e90142 5df8044b  ..A..t.p...B]..K
- 0010 704700bf                             pG..            
-Contents of section .text._ZN11SparkMaxESC8setPowerEf:
- 0000 dfed0f7a 20ee270a 70b50e4c 86b0bdee  ...z .'.p..L....
- 0010 c00aec46 d0e90165 0fccace8 0f0094e8  ...F...e........
- 0020 030010ee 103a0096 8ce80300 adf80e30  .....:.........0
- 0030 69462b68 28461b69 984706b0 70bd00bf  iF+h(F.i.G..p...
- 0040 00feff46 00000000                    ...F....        
-Contents of section .text._ZN11SparkMaxESC10setControlE11ControlTypef:
- 0000 dfed107a 20ee270a 70b50f4c 86b0bdee  ...z .'.p..L....
- 0010 c00a8e46 ec46d0e9 01650fcc ace80f00  ...F.F...e......
- 0020 94e80300 10ee103a 8df80ce0 0096adf8  .......:........
- 0030 0e308ce8 03002b68 69462846 1b699847  .0....+hiF(F.i.G
- 0040 06b070bd 00feff46 00000000           ..p....F....    
-Contents of section .text._ZN11SparkMaxESC4stopEv:
- 0000 70b50a4c 86b0d0e9 0165ec46 0fccace8  p..L.....e.F....
- 0010 0f0094e8 03000096 8ce80300 2b686946  ............+hiF
- 0020 28461b69 984706b0 70bd00bf 00000000  (F.i.G..p.......
+ 0000 01f03f0c 82600170 4cf00172 42607047  ..?..`.pL..rB`pG
 Contents of section .text._ZN11SparkMaxESC11sendCommandE11ControlTypef:
- 0000 dfed107a 20ee270a 70b50f4c 86b0bdee  ...z .'.p..L....
- 0010 c00a8e46 ec46d0e9 01650fcc ace80f00  ...F.F...e......
- 0020 94e80300 10ee103a 8df80ce0 0096adf8  .......:........
- 0030 0e308ce8 03002b68 69462846 1b699847  .0....+hiF(F.i.G
- 0040 06b070bd 00feff46 00000000           ..p....F....    
+ 0000 dfed147a 20ee270a 2de9f041 124c86b0  ...z .'.-..A.L..
+ 0010 bdeec00a 8846ec46 00264ff0 010ed0e9  .....F.F.&O.....
+ 0020 01750fcc ace80f00 94e80300 10ee103a  .u.............:
+ 0030 8df80c80 0097adf8 0e308df8 07e08ce8  .........0......
+ 0040 03000496 69462b68 28461b69 984706b0  ....iF+h(F.i.G..
+ 0050 bde8f081 00feff46 00000000           .......F....    
+Contents of section .text._ZN11SparkMaxESC8setPowerEf:
+ 0000 0021fff7 febf00bf                    .!......        
+Contents of section .text._ZN11SparkMaxESC10setControlE11ControlTypef:
+ 0000 fff7febf                             ....            
+Contents of section .text._ZN11SparkMaxESC4stopEv:
+ 0000 9fed020a 0021fff7 febf00bf 00000000  .....!..........
 Contents of section .text._ZN11SparkMaxESC11resetFaultsEv:
- 0000 f0b50c4c 87b08668 00270578 ec460fcc  ...L...h.'.x.F..
- 0010 ace80f00 94e80300 45f06065 8ce80300  ........E.`e....
- 0020 cde90377 33686946 30460095 1b699847  ...w3hiF0F...i.G
- 0030 07b0f0bd 00000000                    ........        
+ 0000 f0b50f4c 87b08668 00270578 ec464ff0  ...L...h.'.x.FO.
+ 0010 010e05f0 3f050fcc ace80f00 94e80300  ....?...........
+ 0020 45f06065 8df807e0 8ce80300 cde90377  E.`e...........w
+ 0030 33686946 30460095 1b699847 07b0f0bd  3hiF0F...i.G....
+ 0040 00000000                             ....            
 Contents of section .text._ZN11SparkMaxESC15setCurrentLimitEf:
- 0000 dfed107a 20ee270a 70b50f4c 86b0bdee  ...z .'.p..L....
- 0010 c00a8668 0578ec46 0fccace8 0f0094e8  ...h.x.F........
- 0020 030010ee 103a45f0 80558ce8 0300adf8  .....:E..U......
- 0030 0c306946 33683046 00951b69 984706b0  .0iF3h0F...i.G..
- 0040 70bd00bf 00007a44 00000000           p.....zD....    
+ 0000 dfed157a 20ee270a f0b5144c 87b0bdee  ...z .'....L....
+ 0010 c00a8668 0578ec46 4ff0000e 012705f0  ...h.x.FO....'..
+ 0020 3f050fcc ace80f00 94e80300 10ee103a  ?..............:
+ 0030 45f08055 8df80770 adf80c30 00958ce8  E..U...p...0....
+ 0040 0300cdf8 0ee06946 adf812e0 30463368  ......iF....0F3h
+ 0050 1b699847 07b0f0bd 00007a44 00000000  .i.G......zD....
 Contents of section .text._ZN11SparkMaxESC12readResponseEm:
- 0000 2de9f041 214f8cb0 d0f808c0 88466d46  -..A!O.......FmF
- 0010 04464ff0 000e1e4e 0fcf0fc5 97e80300  .FO....N........
- 0020 cdf80080 85e80300 cde903ee dcf80030  ...............0
- 0030 60466946 1b699847 a7f1100e 0df1180c  `FiF.i.G........
- 0040 3568bee8 0f00ace8 0f0097e8 03006435  5h............d5
- 0050 8ce80300 04e0a068 03685b69 984740b9  .......h.h[i.G@.
- 0060 336806a9 9d42f6d8 bfee000a 0cb0bde8  3h...B..........
- 0070 f081bdf9 26309fed 077a07ee 903af8ee  ....&0...z...:..
- 0080 e77a87ee 870a0cb0 bde8f081 00000000  .z..............
- 0090 00000000 00feff46                    .......F        
+ 0000 2de9f043 dff8b080 8db0d0f8 08c00f46  -..C...........F
+ 0010 6e460446 4ff0000e 4ff00109 244db8e8  nF.FO...O...$M..
+ 0020 0f000fc6 98e80300 8df80790 009786e8  ................
+ 0030 0300cde9 03eedcf8 00306046 69461b69  .........0`FiF.i
+ 0040 98472e68 a8f1100e 2b680df1 180ca3eb  .G.h....+h......
+ 0050 0609bee8 0f00b9f1 310face8 0f0098e8  ........1.......
+ 0060 03008ce8 030010d8 dff85080 a06806a9  ..........P..h..
+ 0070 03685b69 984720b1 069b7b40 13ea080f  .h[i.G ...{@....
+ 0080 08d02b68 9b1b312b f0d9bfee 000a0db0  ..+h..1+........
+ 0090 bde8f083 bdf92630 9fed067a 07ee903a  ......&0...z...:
+ 00a0 f8eee77a 87ee870a 0db0bde8 f08300bf  ...z............
+ 00b0 00000000 00feff46 00000000 0000ffff  .......F........
 Contents of section .text._ZN11SparkMaxESC18getEncoderPositionEv:
- 0000 017841f0 0061fff7 febf00bf           .xA..a......    
+ 0000 017801f0 3f0141f0 0061fff7 febf00bf  .x..?.A..a......
 Contents of section .text._ZN11SparkMaxESC18getEncoderVelocityEv:
- 0000 017841f0 1061fff7 febf00bf           .xA..a......    
+ 0000 017801f0 3f0141f0 1061fff7 febf00bf  .x..?.A..a......
 Contents of section .text._ZN11SparkMaxESC15getMotorCurrentEv:
- 0000 017841f0 4061fff7 febf00bf           .xA.@a......    
+ 0000 017801f0 3f0141f0 4061fff7 febf00bf  .x..?.A.@a......
 Contents of section .text._ZN11SparkMaxESC19getMotorTemperatureEv:
- 0000 017841f0 5061fff7 febf00bf           .xA.Pa......    
+ 0000 017801f0 3f0141f0 5061fff7 febf00bf  .x..?.A.Pa......
 Contents of section .text._ZN11SparkMaxESC9getFaultsEv:
- 0000 08b50178 41f06061 fff7feff bceec00a  ...xA.`a........
- 0010 10ee103a 98b208bd                    ...:....        
+ 0000 08b50178 01f03f01 41f06061 fff7feff  ...x..?.A.`a....
+ 0010 bceec00a 10ee103a 98b208bd           .......:....    
 Contents of section .text._ZN11SparkMaxESC15getStickyFaultsEv:
- 0000 08b50178 41f07061 fff7feff bceec00a  ...xA.pa........
- 0010 10ee103a 98b208bd                    ...:....        
+ 0000 08b50178 01f03f01 41f07061 fff7feff  ...x..?.A.pa....
+ 0010 bceec00a 10ee103a 98b208bd           .......:....    
 Contents of section .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv:
  0000 2de9f047 a24b82b0 a2490022 01930b6a  -..G.K...I."...j
  0010 c3f30123 08336b44 13f8043c c0e90122  ...#.3kD...<..."
@@ -185,293 +179,261 @@ Disassembly of section .text._ZL16flexcan_isr_can1v:
 Disassembly of section .text._ZN11SparkMaxESCC2EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE:
 
 00000000 <_ZN11SparkMaxESCC1EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE>:
-   0:	b410      	push	{r4}
-   2:	f041 7401 	orr.w	r4, r1, #33816576	; 0x2040000
+   0:	f001 0c3f 	and.w	ip, r1, #63	; 0x3f
+   4:	6082      	str	r2, [r0, #8]
    6:	7001      	strb	r1, [r0, #0]
-   8:	e9c0 4201 	strd	r4, r2, [r0, #4]
-   c:	f85d 4b04 	ldr.w	r4, [sp], #4
-  10:	4770      	bx	lr
-  12:	bf00      	nop
-
-Disassembly of section .text._ZN11SparkMaxESC8setPowerEf:
-
-00000000 <_ZN11SparkMaxESC8setPowerEf>:
-   0:	eddf 7a0f 	vldr	s15, [pc, #60]	; 40 <_ZN11SparkMaxESC8setPowerEf+0x40>
-   4:	ee20 0a27 	vmul.f32	s0, s0, s15
-   8:	b570      	push	{r4, r5, r6, lr}
-   a:	4c0e      	ldr	r4, [pc, #56]	; (44 <_ZN11SparkMaxESC8setPowerEf+0x44>)
-   c:	b086      	sub	sp, #24
-   e:	eebd 0ac0 	vcvt.s32.f32	s0, s0
-  12:	46ec      	mov	ip, sp
-  14:	e9d0 6501 	ldrd	r6, r5, [r0, #4]
-  18:	cc0f      	ldmia	r4!, {r0, r1, r2, r3}
-  1a:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
-  1e:	e894 0003 	ldmia.w	r4, {r0, r1}
-  22:	ee10 3a10 	vmov	r3, s0
-  26:	9600      	str	r6, [sp, #0]
-  28:	e88c 0003 	stmia.w	ip, {r0, r1}
-  2c:	f8ad 300e 	strh.w	r3, [sp, #14]
-  30:	4669      	mov	r1, sp
-  32:	682b      	ldr	r3, [r5, #0]
-  34:	4628      	mov	r0, r5
-  36:	691b      	ldr	r3, [r3, #16]
-  38:	4798      	blx	r3
-  3a:	b006      	add	sp, #24
-  3c:	bd70      	pop	{r4, r5, r6, pc}
-  3e:	bf00      	nop
-  40:	46fffe00 	.word	0x46fffe00
-  44:	00000000 	.word	0x00000000
-
-Disassembly of section .text._ZN11SparkMaxESC10setControlE11ControlTypef:
-
-00000000 <_ZN11SparkMaxESC10setControlE11ControlTypef>:
-   0:	eddf 7a10 	vldr	s15, [pc, #64]	; 44 <_ZN11SparkMaxESC10setControlE11ControlTypef+0x44>
-   4:	ee20 0a27 	vmul.f32	s0, s0, s15
-   8:	b570      	push	{r4, r5, r6, lr}
-   a:	4c0f      	ldr	r4, [pc, #60]	; (48 <_ZN11SparkMaxESC10setControlE11ControlTypef+0x48>)
-   c:	b086      	sub	sp, #24
-   e:	eebd 0ac0 	vcvt.s32.f32	s0, s0
-  12:	468e      	mov	lr, r1
-  14:	46ec      	mov	ip, sp
-  16:	e9d0 6501 	ldrd	r6, r5, [r0, #4]
-  1a:	cc0f      	ldmia	r4!, {r0, r1, r2, r3}
-  1c:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
-  20:	e894 0003 	ldmia.w	r4, {r0, r1}
-  24:	ee10 3a10 	vmov	r3, s0
-  28:	f88d e00c 	strb.w	lr, [sp, #12]
-  2c:	9600      	str	r6, [sp, #0]
-  2e:	f8ad 300e 	strh.w	r3, [sp, #14]
-  32:	e88c 0003 	stmia.w	ip, {r0, r1}
-  36:	682b      	ldr	r3, [r5, #0]
-  38:	4669      	mov	r1, sp
-  3a:	4628      	mov	r0, r5
-  3c:	691b      	ldr	r3, [r3, #16]
-  3e:	4798      	blx	r3
-  40:	b006      	add	sp, #24
-  42:	bd70      	pop	{r4, r5, r6, pc}
-  44:	46fffe00 	.word	0x46fffe00
-  48:	00000000 	.word	0x00000000
-
-Disassembly of section .text._ZN11SparkMaxESC4stopEv:
-
-00000000 <_ZN11SparkMaxESC4stopEv>:
-   0:	b570      	push	{r4, r5, r6, lr}
-   2:	4c0a      	ldr	r4, [pc, #40]	; (2c <_ZN11SparkMaxESC4stopEv+0x2c>)
-   4:	b086      	sub	sp, #24
-   6:	e9d0 6501 	ldrd	r6, r5, [r0, #4]
-   a:	46ec      	mov	ip, sp
-   c:	cc0f      	ldmia	r4!, {r0, r1, r2, r3}
-   e:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
-  12:	e894 0003 	ldmia.w	r4, {r0, r1}
-  16:	9600      	str	r6, [sp, #0]
-  18:	e88c 0003 	stmia.w	ip, {r0, r1}
-  1c:	682b      	ldr	r3, [r5, #0]
-  1e:	4669      	mov	r1, sp
-  20:	4628      	mov	r0, r5
-  22:	691b      	ldr	r3, [r3, #16]
-  24:	4798      	blx	r3
-  26:	b006      	add	sp, #24
-  28:	bd70      	pop	{r4, r5, r6, pc}
-  2a:	bf00      	nop
-  2c:	00000000 	.word	0x00000000
+   8:	f04c 7201 	orr.w	r2, ip, #33816576	; 0x2040000
+   c:	6042      	str	r2, [r0, #4]
+   e:	4770      	bx	lr
 
 Disassembly of section .text._ZN11SparkMaxESC11sendCommandE11ControlTypef:
 
 00000000 <_ZN11SparkMaxESC11sendCommandE11ControlTypef>:
-   0:	eddf 7a10 	vldr	s15, [pc, #64]	; 44 <_ZN11SparkMaxESC11sendCommandE11ControlTypef+0x44>
+   0:	eddf 7a14 	vldr	s15, [pc, #80]	; 54 <_ZN11SparkMaxESC11sendCommandE11ControlTypef+0x54>
    4:	ee20 0a27 	vmul.f32	s0, s0, s15
-   8:	b570      	push	{r4, r5, r6, lr}
-   a:	4c0f      	ldr	r4, [pc, #60]	; (48 <_ZN11SparkMaxESC11sendCommandE11ControlTypef+0x48>)
-   c:	b086      	sub	sp, #24
-   e:	eebd 0ac0 	vcvt.s32.f32	s0, s0
-  12:	468e      	mov	lr, r1
-  14:	46ec      	mov	ip, sp
-  16:	e9d0 6501 	ldrd	r6, r5, [r0, #4]
-  1a:	cc0f      	ldmia	r4!, {r0, r1, r2, r3}
-  1c:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
-  20:	e894 0003 	ldmia.w	r4, {r0, r1}
-  24:	ee10 3a10 	vmov	r3, s0
-  28:	f88d e00c 	strb.w	lr, [sp, #12]
-  2c:	9600      	str	r6, [sp, #0]
-  2e:	f8ad 300e 	strh.w	r3, [sp, #14]
-  32:	e88c 0003 	stmia.w	ip, {r0, r1}
-  36:	682b      	ldr	r3, [r5, #0]
-  38:	4669      	mov	r1, sp
-  3a:	4628      	mov	r0, r5
-  3c:	691b      	ldr	r3, [r3, #16]
-  3e:	4798      	blx	r3
-  40:	b006      	add	sp, #24
-  42:	bd70      	pop	{r4, r5, r6, pc}
-  44:	46fffe00 	.word	0x46fffe00
-  48:	00000000 	.word	0x00000000
+   8:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
+   c:	4c12      	ldr	r4, [pc, #72]	; (58 <_ZN11SparkMaxESC11sendCommandE11ControlTypef+0x58>)
+   e:	b086      	sub	sp, #24
+  10:	eebd 0ac0 	vcvt.s32.f32	s0, s0
+  14:	4688      	mov	r8, r1
+  16:	46ec      	mov	ip, sp
+  18:	2600      	movs	r6, #0
+  1a:	f04f 0e01 	mov.w	lr, #1
+  1e:	e9d0 7501 	ldrd	r7, r5, [r0, #4]
+  22:	cc0f      	ldmia	r4!, {r0, r1, r2, r3}
+  24:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
+  28:	e894 0003 	ldmia.w	r4, {r0, r1}
+  2c:	ee10 3a10 	vmov	r3, s0
+  30:	f88d 800c 	strb.w	r8, [sp, #12]
+  34:	9700      	str	r7, [sp, #0]
+  36:	f8ad 300e 	strh.w	r3, [sp, #14]
+  3a:	f88d e007 	strb.w	lr, [sp, #7]
+  3e:	e88c 0003 	stmia.w	ip, {r0, r1}
+  42:	9604      	str	r6, [sp, #16]
+  44:	4669      	mov	r1, sp
+  46:	682b      	ldr	r3, [r5, #0]
+  48:	4628      	mov	r0, r5
+  4a:	691b      	ldr	r3, [r3, #16]
+  4c:	4798      	blx	r3
+  4e:	b006      	add	sp, #24
+  50:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
+  54:	46fffe00 	.word	0x46fffe00
+  58:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN11SparkMaxESC8setPowerEf:
+
+00000000 <_ZN11SparkMaxESC8setPowerEf>:
+   0:	2100      	movs	r1, #0
+   2:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC8setPowerEf>
+   6:	bf00      	nop
+
+Disassembly of section .text._ZN11SparkMaxESC10setControlE11ControlTypef:
+
+00000000 <_ZN11SparkMaxESC10setControlE11ControlTypef>:
+   0:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC10setControlE11ControlTypef>
+
+Disassembly of section .text._ZN11SparkMaxESC4stopEv:
+
+00000000 <_ZN11SparkMaxESC4stopEv>:
+   0:	ed9f 0a02 	vldr	s0, [pc, #8]	; c <_ZN11SparkMaxESC4stopEv+0xc>
+   4:	2100      	movs	r1, #0
+   6:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC4stopEv>
+   a:	bf00      	nop
+   c:	00000000 	.word	0x00000000
 
 Disassembly of section .text._ZN11SparkMaxESC11resetFaultsEv:
 
 00000000 <_ZN11SparkMaxESC11resetFaultsEv>:
    0:	b5f0      	push	{r4, r5, r6, r7, lr}
-   2:	4c0c      	ldr	r4, [pc, #48]	; (34 <_ZN11SparkMaxESC11resetFaultsEv+0x34>)
+   2:	4c0f      	ldr	r4, [pc, #60]	; (40 <_ZN11SparkMaxESC11resetFaultsEv+0x40>)
    4:	b087      	sub	sp, #28
    6:	6886      	ldr	r6, [r0, #8]
    8:	2700      	movs	r7, #0
    a:	7805      	ldrb	r5, [r0, #0]
    c:	46ec      	mov	ip, sp
-   e:	cc0f      	ldmia	r4!, {r0, r1, r2, r3}
-  10:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
-  14:	e894 0003 	ldmia.w	r4, {r0, r1}
-  18:	f045 6560 	orr.w	r5, r5, #234881024	; 0xe000000
-  1c:	e88c 0003 	stmia.w	ip, {r0, r1}
-  20:	e9cd 7703 	strd	r7, r7, [sp, #12]
-  24:	6833      	ldr	r3, [r6, #0]
-  26:	4669      	mov	r1, sp
-  28:	4630      	mov	r0, r6
-  2a:	9500      	str	r5, [sp, #0]
-  2c:	691b      	ldr	r3, [r3, #16]
-  2e:	4798      	blx	r3
-  30:	b007      	add	sp, #28
-  32:	bdf0      	pop	{r4, r5, r6, r7, pc}
-  34:	00000000 	.word	0x00000000
+   e:	f04f 0e01 	mov.w	lr, #1
+  12:	f005 053f 	and.w	r5, r5, #63	; 0x3f
+  16:	cc0f      	ldmia	r4!, {r0, r1, r2, r3}
+  18:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
+  1c:	e894 0003 	ldmia.w	r4, {r0, r1}
+  20:	f045 6560 	orr.w	r5, r5, #234881024	; 0xe000000
+  24:	f88d e007 	strb.w	lr, [sp, #7]
+  28:	e88c 0003 	stmia.w	ip, {r0, r1}
+  2c:	e9cd 7703 	strd	r7, r7, [sp, #12]
+  30:	6833      	ldr	r3, [r6, #0]
+  32:	4669      	mov	r1, sp
+  34:	4630      	mov	r0, r6
+  36:	9500      	str	r5, [sp, #0]
+  38:	691b      	ldr	r3, [r3, #16]
+  3a:	4798      	blx	r3
+  3c:	b007      	add	sp, #28
+  3e:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  40:	00000000 	.word	0x00000000
 
 Disassembly of section .text._ZN11SparkMaxESC15setCurrentLimitEf:
 
 00000000 <_ZN11SparkMaxESC15setCurrentLimitEf>:
-   0:	eddf 7a10 	vldr	s15, [pc, #64]	; 44 <_ZN11SparkMaxESC15setCurrentLimitEf+0x44>
+   0:	eddf 7a15 	vldr	s15, [pc, #84]	; 58 <_ZN11SparkMaxESC15setCurrentLimitEf+0x58>
    4:	ee20 0a27 	vmul.f32	s0, s0, s15
-   8:	b570      	push	{r4, r5, r6, lr}
-   a:	4c0f      	ldr	r4, [pc, #60]	; (48 <_ZN11SparkMaxESC15setCurrentLimitEf+0x48>)
-   c:	b086      	sub	sp, #24
+   8:	b5f0      	push	{r4, r5, r6, r7, lr}
+   a:	4c14      	ldr	r4, [pc, #80]	; (5c <_ZN11SparkMaxESC15setCurrentLimitEf+0x5c>)
+   c:	b087      	sub	sp, #28
    e:	eebd 0ac0 	vcvt.s32.f32	s0, s0
   12:	6886      	ldr	r6, [r0, #8]
   14:	7805      	ldrb	r5, [r0, #0]
   16:	46ec      	mov	ip, sp
-  18:	cc0f      	ldmia	r4!, {r0, r1, r2, r3}
-  1a:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
-  1e:	e894 0003 	ldmia.w	r4, {r0, r1}
-  22:	ee10 3a10 	vmov	r3, s0
-  26:	f045 5580 	orr.w	r5, r5, #268435456	; 0x10000000
-  2a:	e88c 0003 	stmia.w	ip, {r0, r1}
-  2e:	f8ad 300c 	strh.w	r3, [sp, #12]
-  32:	4669      	mov	r1, sp
-  34:	6833      	ldr	r3, [r6, #0]
-  36:	4630      	mov	r0, r6
-  38:	9500      	str	r5, [sp, #0]
-  3a:	691b      	ldr	r3, [r3, #16]
-  3c:	4798      	blx	r3
-  3e:	b006      	add	sp, #24
-  40:	bd70      	pop	{r4, r5, r6, pc}
-  42:	bf00      	nop
-  44:	447a0000 	.word	0x447a0000
-  48:	00000000 	.word	0x00000000
+  18:	f04f 0e00 	mov.w	lr, #0
+  1c:	2701      	movs	r7, #1
+  1e:	f005 053f 	and.w	r5, r5, #63	; 0x3f
+  22:	cc0f      	ldmia	r4!, {r0, r1, r2, r3}
+  24:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
+  28:	e894 0003 	ldmia.w	r4, {r0, r1}
+  2c:	ee10 3a10 	vmov	r3, s0
+  30:	f045 5580 	orr.w	r5, r5, #268435456	; 0x10000000
+  34:	f88d 7007 	strb.w	r7, [sp, #7]
+  38:	f8ad 300c 	strh.w	r3, [sp, #12]
+  3c:	9500      	str	r5, [sp, #0]
+  3e:	e88c 0003 	stmia.w	ip, {r0, r1}
+  42:	f8cd e00e 	str.w	lr, [sp, #14]
+  46:	4669      	mov	r1, sp
+  48:	f8ad e012 	strh.w	lr, [sp, #18]
+  4c:	4630      	mov	r0, r6
+  4e:	6833      	ldr	r3, [r6, #0]
+  50:	691b      	ldr	r3, [r3, #16]
+  52:	4798      	blx	r3
+  54:	b007      	add	sp, #28
+  56:	bdf0      	pop	{r4, r5, r6, r7, pc}
+  58:	447a0000 	.word	0x447a0000
+  5c:	00000000 	.word	0x00000000
 
 Disassembly of section .text._ZN11SparkMaxESC12readResponseEm:
 
 00000000 <_ZN11SparkMaxESC12readResponseEm>:
-   0:	e92d 41f0 	stmdb	sp!, {r4, r5, r6, r7, r8, lr}
-   4:	4f21      	ldr	r7, [pc, #132]	; (8c <_ZN11SparkMaxESC12readResponseEm+0x8c>)
-   6:	b08c      	sub	sp, #48	; 0x30
-   8:	f8d0 c008 	ldr.w	ip, [r0, #8]
-   c:	4688      	mov	r8, r1
-   e:	466d      	mov	r5, sp
-  10:	4604      	mov	r4, r0
-  12:	f04f 0e00 	mov.w	lr, #0
-  16:	4e1e      	ldr	r6, [pc, #120]	; (90 <_ZN11SparkMaxESC12readResponseEm+0x90>)
-  18:	cf0f      	ldmia	r7!, {r0, r1, r2, r3}
-  1a:	c50f      	stmia	r5!, {r0, r1, r2, r3}
-  1c:	e897 0003 	ldmia.w	r7, {r0, r1}
-  20:	f8cd 8000 	str.w	r8, [sp]
-  24:	e885 0003 	stmia.w	r5, {r0, r1}
-  28:	e9cd ee03 	strd	lr, lr, [sp, #12]
-  2c:	f8dc 3000 	ldr.w	r3, [ip]
-  30:	4660      	mov	r0, ip
-  32:	4669      	mov	r1, sp
-  34:	691b      	ldr	r3, [r3, #16]
-  36:	4798      	blx	r3
-  38:	f1a7 0e10 	sub.w	lr, r7, #16
-  3c:	f10d 0c18 	add.w	ip, sp, #24
-  40:	6835      	ldr	r5, [r6, #0]
-  42:	e8be 000f 	ldmia.w	lr!, {r0, r1, r2, r3}
-  46:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
-  4a:	e897 0003 	ldmia.w	r7, {r0, r1}
-  4e:	3564      	adds	r5, #100	; 0x64
-  50:	e88c 0003 	stmia.w	ip, {r0, r1}
-  54:	e004      	b.n	60 <_ZN11SparkMaxESC12readResponseEm+0x60>
-  56:	68a0      	ldr	r0, [r4, #8]
-  58:	6803      	ldr	r3, [r0, #0]
-  5a:	695b      	ldr	r3, [r3, #20]
-  5c:	4798      	blx	r3
-  5e:	b940      	cbnz	r0, 72 <_ZN11SparkMaxESC12readResponseEm+0x72>
-  60:	6833      	ldr	r3, [r6, #0]
-  62:	a906      	add	r1, sp, #24
-  64:	429d      	cmp	r5, r3
-  66:	d8f6      	bhi.n	56 <_ZN11SparkMaxESC12readResponseEm+0x56>
-  68:	eebf 0a00 	vmov.f32	s0, #240	; 0xbf800000 -1.0
-  6c:	b00c      	add	sp, #48	; 0x30
-  6e:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
-  72:	f9bd 3026 	ldrsh.w	r3, [sp, #38]	; 0x26
-  76:	ed9f 7a07 	vldr	s14, [pc, #28]	; 94 <_ZN11SparkMaxESC12readResponseEm+0x94>
-  7a:	ee07 3a90 	vmov	s15, r3
-  7e:	eef8 7ae7 	vcvt.f32.s32	s15, s15
-  82:	ee87 0a87 	vdiv.f32	s0, s15, s14
-  86:	b00c      	add	sp, #48	; 0x30
-  88:	e8bd 81f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, pc}
-  8c:	00000000 	.word	0x00000000
-  90:	00000000 	.word	0x00000000
-  94:	46fffe00 	.word	0x46fffe00
+   0:	e92d 43f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, lr}
+   4:	f8df 80b0 	ldr.w	r8, [pc, #176]	; b8 <_ZN11SparkMaxESC12readResponseEm+0xb8>
+   8:	b08d      	sub	sp, #52	; 0x34
+   a:	f8d0 c008 	ldr.w	ip, [r0, #8]
+   e:	460f      	mov	r7, r1
+  10:	466e      	mov	r6, sp
+  12:	4604      	mov	r4, r0
+  14:	f04f 0e00 	mov.w	lr, #0
+  18:	f04f 0901 	mov.w	r9, #1
+  1c:	4d24      	ldr	r5, [pc, #144]	; (b0 <_ZN11SparkMaxESC12readResponseEm+0xb0>)
+  1e:	e8b8 000f 	ldmia.w	r8!, {r0, r1, r2, r3}
+  22:	c60f      	stmia	r6!, {r0, r1, r2, r3}
+  24:	e898 0003 	ldmia.w	r8, {r0, r1}
+  28:	f88d 9007 	strb.w	r9, [sp, #7]
+  2c:	9700      	str	r7, [sp, #0]
+  2e:	e886 0003 	stmia.w	r6, {r0, r1}
+  32:	e9cd ee03 	strd	lr, lr, [sp, #12]
+  36:	f8dc 3000 	ldr.w	r3, [ip]
+  3a:	4660      	mov	r0, ip
+  3c:	4669      	mov	r1, sp
+  3e:	691b      	ldr	r3, [r3, #16]
+  40:	4798      	blx	r3
+  42:	682e      	ldr	r6, [r5, #0]
+  44:	f1a8 0e10 	sub.w	lr, r8, #16
+  48:	682b      	ldr	r3, [r5, #0]
+  4a:	f10d 0c18 	add.w	ip, sp, #24
+  4e:	eba3 0906 	sub.w	r9, r3, r6
+  52:	e8be 000f 	ldmia.w	lr!, {r0, r1, r2, r3}
+  56:	f1b9 0f31 	cmp.w	r9, #49	; 0x31
+  5a:	e8ac 000f 	stmia.w	ip!, {r0, r1, r2, r3}
+  5e:	e898 0003 	ldmia.w	r8, {r0, r1}
+  62:	e88c 0003 	stmia.w	ip, {r0, r1}
+  66:	d810      	bhi.n	8a <_ZN11SparkMaxESC12readResponseEm+0x8a>
+  68:	f8df 8050 	ldr.w	r8, [pc, #80]	; bc <_ZN11SparkMaxESC12readResponseEm+0xbc>
+  6c:	68a0      	ldr	r0, [r4, #8]
+  6e:	a906      	add	r1, sp, #24
+  70:	6803      	ldr	r3, [r0, #0]
+  72:	695b      	ldr	r3, [r3, #20]
+  74:	4798      	blx	r3
+  76:	b120      	cbz	r0, 82 <_ZN11SparkMaxESC12readResponseEm+0x82>
+  78:	9b06      	ldr	r3, [sp, #24]
+  7a:	407b      	eors	r3, r7
+  7c:	ea13 0f08 	tst.w	r3, r8
+  80:	d008      	beq.n	94 <_ZN11SparkMaxESC12readResponseEm+0x94>
+  82:	682b      	ldr	r3, [r5, #0]
+  84:	1b9b      	subs	r3, r3, r6
+  86:	2b31      	cmp	r3, #49	; 0x31
+  88:	d9f0      	bls.n	6c <_ZN11SparkMaxESC12readResponseEm+0x6c>
+  8a:	eebf 0a00 	vmov.f32	s0, #240	; 0xbf800000 -1.0
+  8e:	b00d      	add	sp, #52	; 0x34
+  90:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
+  94:	f9bd 3026 	ldrsh.w	r3, [sp, #38]	; 0x26
+  98:	ed9f 7a06 	vldr	s14, [pc, #24]	; b4 <_ZN11SparkMaxESC12readResponseEm+0xb4>
+  9c:	ee07 3a90 	vmov	s15, r3
+  a0:	eef8 7ae7 	vcvt.f32.s32	s15, s15
+  a4:	ee87 0a87 	vdiv.f32	s0, s15, s14
+  a8:	b00d      	add	sp, #52	; 0x34
+  aa:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
+  ae:	bf00      	nop
+  b0:	00000000 	.word	0x00000000
+  b4:	46fffe00 	.word	0x46fffe00
+  b8:	00000000 	.word	0x00000000
+  bc:	ffff0000 	.word	0xffff0000
 
 Disassembly of section .text._ZN11SparkMaxESC18getEncoderPositionEv:
 
 00000000 <_ZN11SparkMaxESC18getEncoderPositionEv>:
    0:	7801      	ldrb	r1, [r0, #0]
-   2:	f041 6100 	orr.w	r1, r1, #134217728	; 0x8000000
-   6:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC18getEncoderPositionEv>
-   a:	bf00      	nop
+   2:	f001 013f 	and.w	r1, r1, #63	; 0x3f
+   6:	f041 6100 	orr.w	r1, r1, #134217728	; 0x8000000
+   a:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC18getEncoderPositionEv>
+   e:	bf00      	nop
 
 Disassembly of section .text._ZN11SparkMaxESC18getEncoderVelocityEv:
 
 00000000 <_ZN11SparkMaxESC18getEncoderVelocityEv>:
    0:	7801      	ldrb	r1, [r0, #0]
-   2:	f041 6110 	orr.w	r1, r1, #150994944	; 0x9000000
-   6:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC18getEncoderVelocityEv>
-   a:	bf00      	nop
+   2:	f001 013f 	and.w	r1, r1, #63	; 0x3f
+   6:	f041 6110 	orr.w	r1, r1, #150994944	; 0x9000000
+   a:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC18getEncoderVelocityEv>
+   e:	bf00      	nop
 
 Disassembly of section .text._ZN11SparkMaxESC15getMotorCurrentEv:
 
 00000000 <_ZN11SparkMaxESC15getMotorCurrentEv>:
    0:	7801      	ldrb	r1, [r0, #0]
-   2:	f041 6140 	orr.w	r1, r1, #201326592	; 0xc000000
-   6:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC15getMotorCurrentEv>
-   a:	bf00      	nop
+   2:	f001 013f 	and.w	r1, r1, #63	; 0x3f
+   6:	f041 6140 	orr.w	r1, r1, #201326592	; 0xc000000
+   a:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC15getMotorCurrentEv>
+   e:	bf00      	nop
 
 Disassembly of section .text._ZN11SparkMaxESC19getMotorTemperatureEv:
 
 00000000 <_ZN11SparkMaxESC19getMotorTemperatureEv>:
    0:	7801      	ldrb	r1, [r0, #0]
-   2:	f041 6150 	orr.w	r1, r1, #218103808	; 0xd000000
-   6:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC19getMotorTemperatureEv>
-   a:	bf00      	nop
+   2:	f001 013f 	and.w	r1, r1, #63	; 0x3f
+   6:	f041 6150 	orr.w	r1, r1, #218103808	; 0xd000000
+   a:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC19getMotorTemperatureEv>
+   e:	bf00      	nop
 
 Disassembly of section .text._ZN11SparkMaxESC9getFaultsEv:
 
 00000000 <_ZN11SparkMaxESC9getFaultsEv>:
    0:	b508      	push	{r3, lr}
    2:	7801      	ldrb	r1, [r0, #0]
-   4:	f041 6160 	orr.w	r1, r1, #234881024	; 0xe000000
-   8:	f7ff fffe 	bl	0 <_ZN11SparkMaxESC9getFaultsEv>
-   c:	eebc 0ac0 	vcvt.u32.f32	s0, s0
-  10:	ee10 3a10 	vmov	r3, s0
-  14:	b298      	uxth	r0, r3
-  16:	bd08      	pop	{r3, pc}
+   4:	f001 013f 	and.w	r1, r1, #63	; 0x3f
+   8:	f041 6160 	orr.w	r1, r1, #234881024	; 0xe000000
+   c:	f7ff fffe 	bl	0 <_ZN11SparkMaxESC9getFaultsEv>
+  10:	eebc 0ac0 	vcvt.u32.f32	s0, s0
+  14:	ee10 3a10 	vmov	r3, s0
+  18:	b298      	uxth	r0, r3
+  1a:	bd08      	pop	{r3, pc}
 
 Disassembly of section .text._ZN11SparkMaxESC15getStickyFaultsEv:
 
 00000000 <_ZN11SparkMaxESC15getStickyFaultsEv>:
    0:	b508      	push	{r3, lr}
    2:	7801      	ldrb	r1, [r0, #0]
-   4:	f041 6170 	orr.w	r1, r1, #251658240	; 0xf000000
-   8:	f7ff fffe 	bl	0 <_ZN11SparkMaxESC15getStickyFaultsEv>
-   c:	eebc 0ac0 	vcvt.u32.f32	s0, s0
-  10:	ee10 3a10 	vmov	r3, s0
-  14:	b298      	uxth	r0, r3
-  16:	bd08      	pop	{r3, pc}
+   4:	f001 013f 	and.w	r1, r1, #63	; 0x3f
+   8:	f041 6170 	orr.w	r1, r1, #251658240	; 0xf000000
+   c:	f7ff fffe 	bl	0 <_ZN11SparkMaxESC15getStickyFaultsEv>
+  10:	eebc 0ac0 	vcvt.u32.f32	s0, s0
+  14:	ee10 3a10 	vmov	r3, s0
+  18:	b298      	uxth	r0, r3
+  1a:	bd08      	pop	{r3, pc}
 
 Disassembly of section .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv:
 

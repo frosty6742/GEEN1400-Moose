@@ -12,11 +12,12 @@ build/./src/main.cpp.o: src/main.cpp teensy4/Arduino.h teensy4/WProgram.h \
  teensy4/elapsedMillis.h teensy4/Arduino.h teensy4/IntervalTimer.h \
  teensy4/CrashReport.h teensy4/Printable.h teensy4/WString.h \
  src/git_info.h src/tug-controls/MotorController.hpp \
- libraries/FlexCAN_T4/FlexCAN_T4.h libraries/FlexCAN_T4/circular_buffer.h \
+ src/tug-controls/SparkMaxESC.hpp libraries/FlexCAN_T4/FlexCAN_T4.h \
+ libraries/FlexCAN_T4/circular_buffer.h \
  libraries/FlexCAN_T4/imxrt_flexcan.h libraries/FlexCAN_T4/FlexCAN_T4.tpp \
  libraries/FlexCAN_T4/FlexCAN_T4FD.tpp \
  libraries/FlexCAN_T4/FlexCAN_T4FDTimings.tpp \
- src/tug-controls/SparkMaxESC.hpp libraries/TeensyDebug/src/TeensyDebug.h
+ libraries/TeensyDebug/src/TeensyDebug.h
 teensy4/Arduino.h:
 teensy4/WProgram.h:
 teensy4/avr/pgmspace.h:
@@ -58,11 +59,11 @@ teensy4/Printable.h:
 teensy4/WString.h:
 src/git_info.h:
 src/tug-controls/MotorController.hpp:
+src/tug-controls/SparkMaxESC.hpp:
 libraries/FlexCAN_T4/FlexCAN_T4.h:
 libraries/FlexCAN_T4/circular_buffer.h:
 libraries/FlexCAN_T4/imxrt_flexcan.h:
 libraries/FlexCAN_T4/FlexCAN_T4.tpp:
 libraries/FlexCAN_T4/FlexCAN_T4FD.tpp:
 libraries/FlexCAN_T4/FlexCAN_T4FDTimings.tpp:
-src/tug-controls/SparkMaxESC.hpp:
 libraries/TeensyDebug/src/TeensyDebug.h:

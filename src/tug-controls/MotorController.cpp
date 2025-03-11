@@ -29,6 +29,11 @@ void MotorController::setMotorSpeed(float left, float right) {
   rightMotor.setPower(right);
 }
 
+void MotorController::setMotorCurrentLimit(float left, float right) {
+  leftMotor.setCurrentLimit(left);
+  rightMotor.setCurrentLimit(right);
+}
+
 void MotorController::emergencyStop() {
   leftMotor.stop();
   rightMotor.stop();

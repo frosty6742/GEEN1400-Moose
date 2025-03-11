@@ -10,9 +10,7 @@ public:
 
   void begin();
   void setMotorSpeed(float left, float right);
-  void setThrottle(float throttle);
-  void setSteering(float steering);
-  void setThrottleAndSteering(float throttle, float steering);
+  void setMotorCurrentLimit(float left, float right);
   void emergencyStop();
 
   float getLeftEncoderPosition();

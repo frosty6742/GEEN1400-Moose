@@ -5515,8 +5515,6 @@ Discarded input sections
                 0x0000000000000000        0x4 ./build/./teensy4/Print.cpp.o
  .text._ZN5Print5printERK6String
                 0x0000000000000000       0x4c ./build/./teensy4/Print.cpp.o
- .text._ZN5Print5printEl
-                0x0000000000000000       0x18 ./build/./teensy4/Print.cpp.o
  .text._ZN5Print6printfEPK19__FlashStringHelperz
                 0x0000000000000000       0x40 ./build/./teensy4/Print.cpp.o
  .text._ZN5Print13printNumber64Eyhh
@@ -6297,14 +6295,14 @@ Discarded input sections
  .text          0x0000000000000000        0x0 ./build/./src/tug-controls/MotorController.cpp.o
  .data          0x0000000000000000        0x0 ./build/./src/tug-controls/MotorController.cpp.o
  .bss           0x0000000000000000        0x0 ./build/./src/tug-controls/MotorController.cpp.o
- .text._ZN15MotorController11setSteeringEf
+ .text._ZN15MotorController20setMotorCurrentLimitEff
                 0x0000000000000000       0x24 ./build/./src/tug-controls/MotorController.cpp.o
- .text._ZN15MotorController22setThrottleAndSteeringEff
-                0x0000000000000000       0x40 ./build/./src/tug-controls/MotorController.cpp.o
  .text._ZN15MotorController13emergencyStopEv
                 0x0000000000000000       0x14 ./build/./src/tug-controls/MotorController.cpp.o
  .text._ZN15MotorController22getLeftEncoderPositionEv
                 0x0000000000000000        0x4 ./build/./src/tug-controls/MotorController.cpp.o
+ .text._ZN15MotorController23getRightEncoderPositionEv
+                0x0000000000000000        0x8 ./build/./src/tug-controls/MotorController.cpp.o
  .text._ZN15MotorController15getLeftVelocityEv
                 0x0000000000000000        0x4 ./build/./src/tug-controls/MotorController.cpp.o
  .text._ZN15MotorController16getRightVelocityEv
@@ -6326,25 +6324,15 @@ Discarded input sections
  .data          0x0000000000000000        0x0 ./build/./src/tug-controls/SparkMaxESC.cpp.o
  .bss           0x0000000000000000        0x0 ./build/./src/tug-controls/SparkMaxESC.cpp.o
  .text._ZN11SparkMaxESC10setControlE11ControlTypef
-                0x0000000000000000       0x4c ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x0000000000000000        0x4 ./build/./src/tug-controls/SparkMaxESC.cpp.o
  .text._ZN11SparkMaxESC4stopEv
-                0x0000000000000000       0x30 ./build/./src/tug-controls/SparkMaxESC.cpp.o
- .text._ZN11SparkMaxESC11sendCommandE11ControlTypef
-                0x0000000000000000       0x4c ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x0000000000000000       0x10 ./build/./src/tug-controls/SparkMaxESC.cpp.o
  .text._ZN11SparkMaxESC11resetFaultsEv
-                0x0000000000000000       0x38 ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x0000000000000000       0x44 ./build/./src/tug-controls/SparkMaxESC.cpp.o
  .text._ZN11SparkMaxESC15setCurrentLimitEf
-                0x0000000000000000       0x4c ./build/./src/tug-controls/SparkMaxESC.cpp.o
- .text._ZN11SparkMaxESC18getEncoderVelocityEv
-                0x0000000000000000        0xc ./build/./src/tug-controls/SparkMaxESC.cpp.o
- .text._ZN11SparkMaxESC15getMotorCurrentEv
-                0x0000000000000000        0xc ./build/./src/tug-controls/SparkMaxESC.cpp.o
- .text._ZN11SparkMaxESC19getMotorTemperatureEv
-                0x0000000000000000        0xc ./build/./src/tug-controls/SparkMaxESC.cpp.o
- .text._ZN11SparkMaxESC9getFaultsEv
-                0x0000000000000000       0x18 ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x0000000000000000       0x60 ./build/./src/tug-controls/SparkMaxESC.cpp.o
  .text._ZN11SparkMaxESC15getStickyFaultsEv
-                0x0000000000000000       0x18 ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x0000000000000000       0x1c ./build/./src/tug-controls/SparkMaxESC.cpp.o
  .group         0x0000000000000000       0x14 ./build/./src/sensors/LSM6DSOX.cpp.o
  .text          0x0000000000000000        0x0 ./build/./src/sensors/LSM6DSOX.cpp.o
  .data          0x0000000000000000        0x0 ./build/./src/sensors/LSM6DSOX.cpp.o
@@ -9606,7 +9594,7 @@ LOAD ./build/./src/main.cpp.o
                 0x00000000600023ec                . = ALIGN (0x4)
  *fill*         0x00000000600023ea        0x2 
 
-.text.itcm      0x0000000000000000    0x16aa0 load address 0x00000000600023ec
+.text.itcm      0x0000000000000000    0x16c60 load address 0x00000000600023ec
                 0x0000000000000020                . = (. + 0x20)
  *fill*         0x0000000000000000       0x20 
  *(.fastrun)
@@ -11220,486 +11208,504 @@ LOAD ./build/./src/main.cpp.o
                 0x00000000000115c0                Print::write(unsigned char const*, unsigned int)
  .text._ZN5Print11printNumberEmhh.part.0
                 0x00000000000115f0       0x80 ./build/./teensy4/Print.cpp.o
+ .text._ZN5Print5printEl
+                0x0000000000011670       0x18 ./build/./teensy4/Print.cpp.o
+                0x0000000000011670                Print::print(long)
  .text._ZN5Print7printlnEv
-                0x0000000000011670       0x1c ./build/./teensy4/Print.cpp.o
-                0x0000000000011670                Print::println()
- .text._write   0x000000000001168c       0x1c ./build/./teensy4/Print.cpp.o
-                0x000000000001168c                _write
+                0x0000000000011688       0x1c ./build/./teensy4/Print.cpp.o
+                0x0000000000011688                Print::println()
+ .text._write   0x00000000000116a4       0x1c ./build/./teensy4/Print.cpp.o
+                0x00000000000116a4                _write
  .text._ZN5Print6printfEPKcz
-                0x00000000000116a8       0x40 ./build/./teensy4/Print.cpp.o
-                0x00000000000116a8                Print::printf(char const*, ...)
+                0x00000000000116c0       0x40 ./build/./teensy4/Print.cpp.o
+                0x00000000000116c0                Print::printf(char const*, ...)
  .text._ZN5Print11printNumberEmhh
-                0x00000000000116e8       0x14 ./build/./teensy4/Print.cpp.o
-                0x00000000000116e8                Print::printNumber(unsigned long, unsigned char, unsigned char)
- *fill*         0x00000000000116fc        0x4 
+                0x0000000000011700       0x14 ./build/./teensy4/Print.cpp.o
+                0x0000000000011700                Print::printNumber(unsigned long, unsigned char, unsigned char)
+ *fill*         0x0000000000011714        0x4 
  .text._ZN5Print10printFloatEdh
-                0x0000000000011700      0x164 ./build/./teensy4/Print.cpp.o
-                0x0000000000011700                Print::printFloat(double, unsigned char)
+                0x0000000000011718      0x164 ./build/./teensy4/Print.cpp.o
+                0x0000000000011718                Print::printFloat(double, unsigned char)
  .text._ZNK9IPAddress7printToER5Print
-                0x0000000000011864       0x38 ./build/./teensy4/IPAddress.cpp.o
-                0x0000000000011864                IPAddress::printTo(Print&) const
+                0x000000000001187c       0x38 ./build/./teensy4/IPAddress.cpp.o
+                0x000000000001187c                IPAddress::printTo(Print&) const
  .text._out_buffer
-                0x000000000001189c        0x8 ./build/./teensy4/printf.c.o
+                0x00000000000118b4        0x8 ./build/./teensy4/printf.c.o
  .text._out_null
-                0x00000000000118a4        0x4 ./build/./teensy4/printf.c.o
+                0x00000000000118bc        0x4 ./build/./teensy4/printf.c.o
  .text._out_rev
-                0x00000000000118a8       0x88 ./build/./teensy4/printf.c.o
+                0x00000000000118c0       0x88 ./build/./teensy4/printf.c.o
  .text._ntoa_format
-                0x0000000000011930      0x1e0 ./build/./teensy4/printf.c.o
+                0x0000000000011948      0x1e0 ./build/./teensy4/printf.c.o
  .text._ntoa_long
-                0x0000000000011b10       0x98 ./build/./teensy4/printf.c.o
+                0x0000000000011b28       0x98 ./build/./teensy4/printf.c.o
  .text._ntoa_long_long
-                0x0000000000011ba8       0xc8 ./build/./teensy4/printf.c.o
- .text._etoa    0x0000000000011c70      0x338 ./build/./teensy4/printf.c.o
- .text._ftoa    0x0000000000011fa8      0x37c ./build/./teensy4/printf.c.o
+                0x0000000000011bc0       0xc8 ./build/./teensy4/printf.c.o
+ .text._etoa    0x0000000000011c88      0x338 ./build/./teensy4/printf.c.o
+ .text._ftoa    0x0000000000011fc0      0x37c ./build/./teensy4/printf.c.o
  .text.vsnprintf_
-                0x0000000000012324      0x668 ./build/./teensy4/printf.c.o
-                0x0000000000012324                vsnprintf_
+                0x000000000001233c      0x668 ./build/./teensy4/printf.c.o
+                0x000000000001233c                vsnprintf_
  .text._ZN16usb_serial_class5clearEv
-                0x000000000001298c        0x4 ./build/./teensy4/usb_inst.cpp.o
-                0x000000000001298c                usb_serial_class::clear()
+                0x00000000000129a4        0x4 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129a4                usb_serial_class::clear()
  .text._ZN16usb_serial_class4peekEv
-                0x0000000000012990        0x4 ./build/./teensy4/usb_inst.cpp.o
-                0x0000000000012990                usb_serial_class::peek()
+                0x00000000000129a8        0x4 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129a8                usb_serial_class::peek()
  .text._ZN16usb_serial_class4readEv
-                0x0000000000012994        0x4 ./build/./teensy4/usb_inst.cpp.o
-                0x0000000000012994                usb_serial_class::read()
+                0x00000000000129ac        0x4 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129ac                usb_serial_class::read()
  .text._ZN16usb_serial_class9availableEv
-                0x0000000000012998        0x4 ./build/./teensy4/usb_inst.cpp.o
-                0x0000000000012998                usb_serial_class::available()
+                0x00000000000129b0        0x4 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129b0                usb_serial_class::available()
  .text._ZN16usb_serial_class5flushEv
-                0x000000000001299c        0x4 ./build/./teensy4/usb_inst.cpp.o
-                0x000000000001299c                usb_serial_class::flush()
- .text._ZN16usb_serial_class17availableForWriteEv
-                0x00000000000129a0        0x4 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000000129a0                usb_serial_class::availableForWrite()
- .text._ZN16usb_serial_class5writeEPKhj
-                0x00000000000129a4        0x8 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000000129a4                usb_serial_class::write(unsigned char const*, unsigned int)
- .text._ZN16usb_serial_class5writeEh
-                0x00000000000129ac        0x8 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000000129ac                usb_serial_class::write(unsigned char)
- .text._ZN17usb_serial2_class5clearEv
                 0x00000000000129b4        0x4 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000000129b4                usb_serial2_class::clear()
- .text._ZN17usb_serial2_class4peekEv
+                0x00000000000129b4                usb_serial_class::flush()
+ .text._ZN16usb_serial_class17availableForWriteEv
                 0x00000000000129b8        0x4 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000000129b8                usb_serial2_class::peek()
+                0x00000000000129b8                usb_serial_class::availableForWrite()
+ .text._ZN16usb_serial_class5writeEPKhj
+                0x00000000000129bc        0x8 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129bc                usb_serial_class::write(unsigned char const*, unsigned int)
+ .text._ZN16usb_serial_class5writeEh
+                0x00000000000129c4        0x8 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129c4                usb_serial_class::write(unsigned char)
+ .text._ZN17usb_serial2_class5clearEv
+                0x00000000000129cc        0x4 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129cc                usb_serial2_class::clear()
+ .text._ZN17usb_serial2_class4peekEv
+                0x00000000000129d0        0x4 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129d0                usb_serial2_class::peek()
  .text._ZN17usb_serial2_class4readEv
-                0x00000000000129bc        0x4 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000000129bc                usb_serial2_class::read()
+                0x00000000000129d4        0x4 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129d4                usb_serial2_class::read()
  .text._ZN17usb_serial2_class9availableEv
-                0x00000000000129c0        0x4 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000000129c0                usb_serial2_class::available()
+                0x00000000000129d8        0x4 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129d8                usb_serial2_class::available()
  .text._ZN17usb_serial2_class5flushEv
-                0x00000000000129c4        0x4 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000000129c4                usb_serial2_class::flush()
+                0x00000000000129dc        0x4 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129dc                usb_serial2_class::flush()
  .text._ZN17usb_serial2_class17availableForWriteEv
-                0x00000000000129c8        0x4 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000000129c8                usb_serial2_class::availableForWrite()
+                0x00000000000129e0        0x4 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129e0                usb_serial2_class::availableForWrite()
  .text._ZN17usb_serial2_class5writeEPKhj
-                0x00000000000129cc        0x8 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000000129cc                usb_serial2_class::write(unsigned char const*, unsigned int)
+                0x00000000000129e4        0x8 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129e4                usb_serial2_class::write(unsigned char const*, unsigned int)
  .text._ZN17usb_serial2_class5writeEh
-                0x00000000000129d4        0x8 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000000129d4                usb_serial2_class::write(unsigned char)
- .text.delay    0x00000000000129dc       0xa8 ./build/./teensy4/delay.c.o
-                0x00000000000129dc                delay
- .text.micros   0x0000000000012a84       0x54 ./build/./teensy4/delay.c.o
-                0x0000000000012a84                micros
+                0x00000000000129ec        0x8 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000000129ec                usb_serial2_class::write(unsigned char)
+ .text.delay    0x00000000000129f4       0xa8 ./build/./teensy4/delay.c.o
+                0x00000000000129f4                delay
+ .text.micros   0x0000000000012a9c       0x54 ./build/./teensy4/delay.c.o
+                0x0000000000012a9c                micros
  .text.startup._GLOBAL__sub_I__ZN5Comms13EthernetComms5beginEm
-                0x0000000000012ad8       0xac ./build/./src/comms/ethernet_comms.cpp.o
+                0x0000000000012af0       0xac ./build/./src/comms/ethernet_comms.cpp.o
  .text.startup._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.constprop.0.isra.0
-                0x0000000000012b84       0x64 ./build/./src/comms/config_layer.cpp.o
+                0x0000000000012b9c       0x64 ./build/./src/comms/config_layer.cpp.o
  .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E.isra.0
-                0x0000000000012be8      0x1c8 ./build/./src/comms/config_layer.cpp.o
+                0x0000000000012c00      0x1c8 ./build/./src/comms/config_layer.cpp.o
  .text._ZNSt3mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEhSt4lessIS5_ESaISt4pairIKS5_hEEED2Ev
-                0x0000000000012db0       0x34 ./build/./src/comms/config_layer.cpp.o
-                0x0000000000012db0                std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned char, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> > >::~map()
-                0x0000000000012db0                std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned char, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> > >::~map()
+                0x0000000000012dc8       0x34 ./build/./src/comms/config_layer.cpp.o
+                0x0000000000012dc8                std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned char, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> > >::~map()
+                0x0000000000012dc8                std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned char, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> > >::~map()
  .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE24_M_get_insert_unique_posERS7_
-                0x0000000000012de4       0xb0 ./build/./src/comms/config_layer.cpp.o
-                0x0000000000012de4                std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> > >::_M_get_insert_unique_pos(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+                0x0000000000012dfc       0xb0 ./build/./src/comms/config_layer.cpp.o
+                0x0000000000012dfc                std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> > >::_M_get_insert_unique_pos(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
  .text._ZNSt8_Rb_treeINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_hESt10_Select1stIS8_ESt4lessIS5_ESaIS8_EE22_M_insert_range_uniqueIPKS8_EENSt9enable_ifIXsrSt7is_sameIS8_NSt15iterator_traitsIT_E10value_typeEE5valueEvE4typeESL_SL_
-                0x0000000000012e94      0x128 ./build/./src/comms/config_layer.cpp.o
-                0x0000000000012e94                std::enable_if<std::is_same<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char>, std::iterator_traits<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> const*>::value_type>::value, void>::type std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> > >::_M_insert_range_unique<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> const*>(std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> const*, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> const*)
+                0x0000000000012eac      0x128 ./build/./src/comms/config_layer.cpp.o
+                0x0000000000012eac                std::enable_if<std::is_same<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char>, std::iterator_traits<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> const*>::value_type>::value, void>::type std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> >, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> > >::_M_insert_range_unique<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> const*>(std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> const*, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned char> const*)
  .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0
-                0x0000000000012fbc       0xe8 ./build/./src/comms/config_layer.cpp.o
+                0x0000000000012fd4       0xe8 ./build/./src/comms/config_layer.cpp.o
  .text.startup._GLOBAL__sub_I_reset_teensy
-                0x00000000000130a4        0x4 ./build/./src/comms/config_layer.cpp.o
+                0x00000000000130bc        0x4 ./build/./src/comms/config_layer.cpp.o
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_
-                0x00000000000130a8       0x64 ./build/./src/controls/controller_manager.cpp.o
-                0x00000000000130a8                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
-                0x00000000000130a8                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+                0x00000000000130c0       0x64 ./build/./src/controls/controller_manager.cpp.o
+                0x00000000000130c0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
+                0x00000000000130c0                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string<std::allocator<char> >(char const*, std::allocator<char> const&)
  .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0
-                0x000000000001310c       0xfc ./build/./src/controls/controller_manager.cpp.o
+                0x0000000000013124       0xfc ./build/./src/controls/controller_manager.cpp.o
  .text.startup._GLOBAL__sub_I__ZN17ControllerManager4initEP10CANManagerPK6Config
-                0x0000000000013208        0x4 ./build/./src/controls/controller_manager.cpp.o
+                0x0000000000013220        0x4 ./build/./src/controls/controller_manager.cpp.o
  .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0
-                0x000000000001320c       0xfc ./build/./src/controls/estimator_manager.cpp.o
+                0x0000000000013224       0xfc ./build/./src/controls/estimator_manager.cpp.o
  .text.startup._GLOBAL__sub_I__ZN16EstimatorManagerD2Ev
-                0x0000000000013308        0x4 ./build/./src/controls/estimator_manager.cpp.o
+                0x0000000000013320        0x4 ./build/./src/controls/estimator_manager.cpp.o
  .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0
-                0x000000000001330c       0xfc ./build/./src/controls/estimator.cpp.o
+                0x0000000000013324       0xfc ./build/./src/controls/estimator.cpp.o
  .text.startup._GLOBAL__sub_I__ZN15GimbalEstimatorC2E6ConfigP13SensorManagerP10CANManager
-                0x0000000000013408        0x4 ./build/./src/controls/estimator.cpp.o
+                0x0000000000013420        0x4 ./build/./src/controls/estimator.cpp.o
  .text._ZN15MotorControllerC2EhhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
-                0x000000000001340c       0x20 ./build/./src/tug-controls/MotorController.cpp.o
-                0x000000000001340c                MotorController::MotorController(unsigned char, unsigned char, FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>&)
-                0x000000000001340c                MotorController::MotorController(unsigned char, unsigned char, FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>&)
+                0x0000000000013424       0x20 ./build/./src/tug-controls/MotorController.cpp.o
+                0x0000000000013424                MotorController::MotorController(unsigned char, unsigned char, FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>&)
+                0x0000000000013424                MotorController::MotorController(unsigned char, unsigned char, FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>&)
  .text._ZN15MotorController5beginEv
-                0x000000000001342c       0x14 ./build/./src/tug-controls/MotorController.cpp.o
-                0x000000000001342c                MotorController::begin()
- .text._ZN15MotorController11setThrottleEf
-                0x0000000000013440       0x24 ./build/./src/tug-controls/MotorController.cpp.o
-                0x0000000000013440                MotorController::setThrottle(float)
- .text._ZN15MotorController23getRightEncoderPositionEv
-                0x0000000000013464        0x8 ./build/./src/tug-controls/MotorController.cpp.o
-                0x0000000000013464                MotorController::getRightEncoderPosition()
+                0x0000000000013444       0x14 ./build/./src/tug-controls/MotorController.cpp.o
+                0x0000000000013444                MotorController::begin()
+ .text._ZN15MotorController13setMotorSpeedEff
+                0x0000000000013458       0x84 ./build/./src/tug-controls/MotorController.cpp.o
+                0x0000000000013458                MotorController::setMotorSpeed(float, float)
+ .text._ZN15MotorController16printAllReadingsEv
+                0x00000000000134dc       0xd0 ./build/./src/tug-controls/MotorController.cpp.o
+                0x00000000000134dc                MotorController::printAllReadings()
  .text._ZL16flexcan_isr_can1v
-                0x000000000001346c        0x4 ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x00000000000135ac        0x4 ./build/./src/tug-controls/SparkMaxESC.cpp.o
  .text._ZN11SparkMaxESCC2EhR10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
-                0x0000000000013470       0x14 ./build/./src/tug-controls/SparkMaxESC.cpp.o
-                0x0000000000013470                SparkMaxESC::SparkMaxESC(unsigned char, FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>&)
-                0x0000000000013470                SparkMaxESC::SparkMaxESC(unsigned char, FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>&)
+                0x00000000000135b0       0x10 ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x00000000000135b0                SparkMaxESC::SparkMaxESC(unsigned char, FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>&)
+                0x00000000000135b0                SparkMaxESC::SparkMaxESC(unsigned char, FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>&)
+ .text._ZN11SparkMaxESC11sendCommandE11ControlTypef
+                0x00000000000135c0       0x5c ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x00000000000135c0                SparkMaxESC::sendCommand(ControlType, float)
  .text._ZN11SparkMaxESC8setPowerEf
-                0x0000000000013484       0x48 ./build/./src/tug-controls/SparkMaxESC.cpp.o
-                0x0000000000013484                SparkMaxESC::setPower(float)
+                0x000000000001361c        0x8 ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x000000000001361c                SparkMaxESC::setPower(float)
  .text._ZN11SparkMaxESC12readResponseEm
-                0x00000000000134cc       0x98 ./build/./src/tug-controls/SparkMaxESC.cpp.o
-                0x00000000000134cc                SparkMaxESC::readResponse(unsigned long)
+                0x0000000000013624       0xc0 ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x0000000000013624                SparkMaxESC::readResponse(unsigned long)
  .text._ZN11SparkMaxESC18getEncoderPositionEv
-                0x0000000000013564        0xc ./build/./src/tug-controls/SparkMaxESC.cpp.o
-                0x0000000000013564                SparkMaxESC::getEncoderPosition()
+                0x00000000000136e4       0x10 ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x00000000000136e4                SparkMaxESC::getEncoderPosition()
+ .text._ZN11SparkMaxESC18getEncoderVelocityEv
+                0x00000000000136f4       0x10 ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x00000000000136f4                SparkMaxESC::getEncoderVelocity()
+ .text._ZN11SparkMaxESC15getMotorCurrentEv
+                0x0000000000013704       0x10 ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x0000000000013704                SparkMaxESC::getMotorCurrent()
+ .text._ZN11SparkMaxESC19getMotorTemperatureEv
+                0x0000000000013714       0x10 ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x0000000000013714                SparkMaxESC::getMotorTemperature()
+ .text._ZN11SparkMaxESC9getFaultsEv
+                0x0000000000013724       0x1c ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x0000000000013724                SparkMaxESC::getFaults()
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv
-                0x0000000000013570      0x2b8 ./build/./src/tug-controls/SparkMaxESC.cpp.o
-                0x0000000000013570                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::begin()
+                0x0000000000013740      0x2b8 ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x0000000000013740                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::begin()
  .text._ZN11SparkMaxESC5beginEv
-                0x0000000000013828       0x20 ./build/./src/tug-controls/SparkMaxESC.cpp.o
-                0x0000000000013828                SparkMaxESC::begin()
+                0x00000000000139f8       0x20 ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                0x00000000000139f8                SparkMaxESC::begin()
  .text._ZN11CANListener12frameHandlerER13CAN_message_tih
-                0x0000000000013848        0x4 ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000013848                CANListener::frameHandler(CAN_message_t&, int, unsigned char)
+                0x0000000000013a18        0x4 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000013a18                CANListener::frameHandler(CAN_message_t&, int, unsigned char)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE11setBaudRateEm12FLEXCAN_RXTX
-                0x000000000001384c      0x17c ./build/./src/sensors/can/can_manager.cpp.o
-                0x000000000001384c                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::setBaudRate(unsigned long, FLEXCAN_RXTX)
+                0x0000000000013a1c      0x17c ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000013a1c                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::setBaudRate(unsigned long, FLEXCAN_RXTX)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5writeERK15CANFD_message_t
-                0x00000000000139c8        0x4 ./build/./src/sensors/can/can_manager.cpp.o
-                0x00000000000139c8                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::write(CANFD_message_t const&)
+                0x0000000000013b98        0x4 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000013b98                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::write(CANFD_message_t const&)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE4isFDEv
-                0x00000000000139cc        0x4 ./build/./src/sensors/can/can_manager.cpp.o
-                0x00000000000139cc                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::isFD()
+                0x0000000000013b9c        0x4 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000013b9c                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::isFD()
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE17getFirstTxBoxSizeEv
-                0x00000000000139d0        0x4 ./build/./src/sensors/can/can_manager.cpp.o
-                0x00000000000139d0                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::getFirstTxBoxSize()
+                0x0000000000013ba0        0x4 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000013ba0                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::getFirstTxBoxSize()
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE13mailboxOffsetEv.part.0
-                0x00000000000139d4       0x48 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000013ba4       0x48 ./build/./src/sensors/can/can_manager.cpp.o
  .text._ZN15Circular_BufferImLt16ELt0EE5writeEm
-                0x0000000000013a1c       0x48 ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000013a1c                Circular_Buffer<unsigned long, (unsigned short)16, (unsigned short)0>::write(unsigned long)
+                0x0000000000013bec       0x48 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000013bec                Circular_Buffer<unsigned long, (unsigned short)16, (unsigned short)0>::write(unsigned long)
  .text._ZN15Circular_BufferItLt16ELt0EE5writeEt
-                0x0000000000013a64       0x48 ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000013a64                Circular_Buffer<unsigned short, (unsigned short)16, (unsigned short)0>::write(unsigned short)
+                0x0000000000013c34       0x48 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000013c34                Circular_Buffer<unsigned short, (unsigned short)16, (unsigned short)0>::write(unsigned short)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE17fifo_filter_matchEm
-                0x0000000000013aac       0xf0 ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000013aac                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::fifo_filter_match(unsigned long)
+                0x0000000000013c7c       0xf0 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000013c7c                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::fifo_filter_match(unsigned long)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE12filter_matchE15FLEXCAN_MAILBOXm
-                0x0000000000013b9c       0xcc ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000013b9c                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::filter_match(FLEXCAN_MAILBOX, unsigned long)
+                0x0000000000013d6c       0xcc ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000013d6c                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::filter_match(FLEXCAN_MAILBOX, unsigned long)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE14writeTxMailboxEhRK13CAN_message_t
-                0x0000000000013c68       0x80 ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000013c68                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::writeTxMailbox(unsigned char, CAN_message_t const&)
+                0x0000000000013e38       0x80 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000013e38                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::writeTxMailbox(unsigned char, CAN_message_t const&)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE11mbCallbacksERK15FLEXCAN_MAILBOXRK13CAN_message_t
-                0x0000000000013ce8       0x4c ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000013ce8                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::mbCallbacks(FLEXCAN_MAILBOX const&, CAN_message_t const&)
+                0x0000000000013eb8       0x4c ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000013eb8                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::mbCallbacks(FLEXCAN_MAILBOX const&, CAN_message_t const&)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE6eventsEv
-                0x0000000000013d34      0x204 ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000013d34                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::events()
+                0x0000000000013f04      0x204 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000013f04                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::events()
  .text._ZN15Circular_BufferIhLt256ELt24EE5writeEPKht
-                0x0000000000013f38       0x6c ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000013f38                Circular_Buffer<unsigned char, (unsigned short)256, (unsigned short)24>::write(unsigned char const*, unsigned short)
+                0x0000000000014108       0x6c ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000014108                Circular_Buffer<unsigned char, (unsigned short)256, (unsigned short)24>::write(unsigned char const*, unsigned short)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE14struct2queueRxERK13CAN_message_t
-                0x0000000000013fa4       0xc0 ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000013fa4                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::struct2queueRx(CAN_message_t const&)
+                0x0000000000014174       0xc0 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000014174                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::struct2queueRx(CAN_message_t const&)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE18frame_distributionER13CAN_message_t
-                0x0000000000014064      0x280 ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000014064                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::frame_distribution(CAN_message_t&)
+                0x0000000000014234      0x280 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000014234                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::frame_distribution(CAN_message_t&)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8readFIFOER13CAN_message_t
-                0x00000000000142e4       0xa0 ./build/./src/sensors/can/can_manager.cpp.o
-                0x00000000000142e4                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::readFIFO(CAN_message_t&)
+                0x00000000000144b4       0xa0 ./build/./src/sensors/can/can_manager.cpp.o
+                0x00000000000144b4                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::readFIFO(CAN_message_t&)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE6readMBER13CAN_message_t
-                0x0000000000014384      0x1fc ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000014384                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::readMB(CAN_message_t&)
+                0x0000000000014554      0x1fc ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000014554                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::readMB(CAN_message_t&)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE4readER13CAN_message_t
-                0x0000000000014580       0x3c ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000014580                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::read(CAN_message_t&)
+                0x0000000000014750       0x3c ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000014750                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::read(CAN_message_t&)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE17flexcan_interruptEv
-                0x00000000000145bc      0x5d4 ./build/./src/sensors/can/can_manager.cpp.o
-                0x00000000000145bc                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::flexcan_interrupt()
+                0x000000000001478c      0x5d4 ./build/./src/sensors/can/can_manager.cpp.o
+                0x000000000001478c                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::flexcan_interrupt()
  .text._ZN15Circular_BufferIhLt16ELt24EE5writeEPKht
-                0x0000000000014b90       0x6c ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000014b90                Circular_Buffer<unsigned char, (unsigned short)16, (unsigned short)24>::write(unsigned char const*, unsigned short)
+                0x0000000000014d60       0x6c ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000014d60                Circular_Buffer<unsigned char, (unsigned short)16, (unsigned short)24>::write(unsigned char const*, unsigned short)
  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5writeERK13CAN_message_t
-                0x0000000000014bfc      0x158 ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000000014bfc                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::write(CAN_message_t const&)
+                0x0000000000014dcc      0x158 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000000014dcc                FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>::write(CAN_message_t const&)
  .text.startup._GLOBAL__sub_I__ZN11BuffEncoder10m_settingsE
-                0x0000000000014d54       0x18 ./build/./src/sensors/buff_encoder.cpp.o
+                0x0000000000014f24       0x18 ./build/./src/sensors/buff_encoder.cpp.o
  .text.startup._Z41__static_initialization_and_destruction_0ii.constprop.0
-                0x0000000000014d6c       0xfc ./build/./src/sensors/SensorManager.cpp.o
+                0x0000000000014f3c       0xfc ./build/./src/sensors/SensorManager.cpp.o
  .text.startup._GLOBAL__sub_I__ZN13SensorManagerC2Ev
-                0x0000000000014e68        0x4 ./build/./src/sensors/SensorManager.cpp.o
+                0x0000000000015038        0x4 ./build/./src/sensors/SensorManager.cpp.o
  .text._ZN5Print7printlnEPKc.isra.0
-                0x0000000000014e6c       0x24 ./build/./src/main.cpp.o
+                0x000000000001503c       0x24 ./build/./src/main.cpp.o
  .text._Z10print_logov
-                0x0000000000014e90       0xd0 ./build/./src/main.cpp.o
-                0x0000000000014e90                print_logo()
+                0x0000000000015060       0xd0 ./build/./src/main.cpp.o
+                0x0000000000015060                print_logo()
  .text.startup.main
-                0x0000000000014f60       0xc0 ./build/./src/main.cpp.o
-                0x0000000000014f60                main
+                0x0000000000015130       0xb0 ./build/./src/main.cpp.o
+                0x0000000000015130                main
  .text.startup._GLOBAL__sub_I_can1
-                0x0000000000015020       0x64 ./build/./src/main.cpp.o
+                0x00000000000151e0       0x64 ./build/./src/main.cpp.o
  .text.__aeabi_atexit
-                0x0000000000015084        0xa /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(atexit_arm.o)
-                0x0000000000015084                __aeabi_atexit
+                0x0000000000015244        0xa /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(atexit_arm.o)
+                0x0000000000015244                __aeabi_atexit
  .text._ZStL25local_Rb_tree_rotate_leftPSt18_Rb_tree_node_baseRS0_
-                0x000000000001508e       0x2a /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(tree.o)
+                0x000000000001524e       0x2a /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(tree.o)
  .text._ZStL26local_Rb_tree_rotate_rightPSt18_Rb_tree_node_baseRS0_
-                0x00000000000150b8       0x2a /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(tree.o)
+                0x0000000000015278       0x2a /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(tree.o)
  .text._ZStL23local_Rb_tree_decrementPSt18_Rb_tree_node_base
-                0x00000000000150e2       0x2e /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(tree.o)
+                0x00000000000152a2       0x2e /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(tree.o)
  .text._ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
-                0x0000000000015110        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(tree.o)
-                0x0000000000015110                std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+                0x00000000000152d0        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(tree.o)
+                0x00000000000152d0                std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
  .text._ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
-                0x0000000000015114       0xc0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(tree.o)
-                0x0000000000015114                std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+                0x00000000000152d4       0xc0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(tree.o)
+                0x00000000000152d4                std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
  .text.unlikely._ZSt17__throw_bad_allocv
-                0x00000000000151d4        0x6 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(functexcept.o)
-                0x00000000000151d4                std::__throw_bad_alloc()
+                0x0000000000015394        0x6 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(functexcept.o)
+                0x0000000000015394                std::__throw_bad_alloc()
  .text.unlikely._ZSt19__throw_logic_errorPKc
-                0x00000000000151da        0x6 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(functexcept.o)
-                0x00000000000151da                std::__throw_logic_error(char const*)
+                0x000000000001539a        0x6 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(functexcept.o)
+                0x000000000001539a                std::__throw_logic_error(char const*)
  .text.unlikely._ZSt20__throw_length_errorPKc
-                0x00000000000151e0        0x6 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(functexcept.o)
-                0x00000000000151e0                std::__throw_length_error(char const*)
- *fill*         0x00000000000151e6        0x2 
+                0x00000000000153a0        0x6 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(functexcept.o)
+                0x00000000000153a0                std::__throw_length_error(char const*)
+ *fill*         0x00000000000153a6        0x2 
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj
-                0x00000000000151e8       0x44 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
-                0x00000000000151e8                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned int&, unsigned int)
+                0x00000000000153a8       0x44 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x00000000000153a8                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned int&, unsigned int)
  .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv
-                0x000000000001522c       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
-                0x000000000001522c                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()
- .text          0x000000000001523c       0x30 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_aeabi_uldivmod.o)
-                0x000000000001523c                __aeabi_uldivmod
+                0x00000000000153ec       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x00000000000153ec                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_dispose()
+ .text          0x00000000000153fc       0x30 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x00000000000153fc                __aeabi_uldivmod
  .text.__udivmoddi4
-                0x000000000001526c      0x2c8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_udivmoddi4.o)
-                0x000000000001526c                __udivmoddi4
- .text          0x0000000000015534        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_dvmd_tls.o)
-                0x0000000000015534                __aeabi_ldiv0
-                0x0000000000015534                __aeabi_idiv0
+                0x000000000001542c      0x2c8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_udivmoddi4.o)
+                0x000000000001542c                __udivmoddi4
+ .text          0x00000000000156f4        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_dvmd_tls.o)
+                0x00000000000156f4                __aeabi_ldiv0
+                0x00000000000156f4                __aeabi_idiv0
  .text.__libc_init_array
-                0x0000000000015538       0x48 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-init.o)
-                0x0000000000015538                __libc_init_array
- .text          0x0000000000015580       0x14 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strcmp.o)
-                0x0000000000015580                strcmp
- .text.strcpy   0x0000000000015594       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strcpy.o)
-                0x0000000000015594                strcpy
- .text.printf   0x00000000000155a4       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-printf.o)
-                0x00000000000155a4                printf
-                0x00000000000155a4                iprintf
+                0x00000000000156f8       0x48 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-init.o)
+                0x00000000000156f8                __libc_init_array
+ .text          0x0000000000015740       0x14 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strcmp.o)
+                0x0000000000015740                strcmp
+ .text.strcpy   0x0000000000015754       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strcpy.o)
+                0x0000000000015754                strcpy
+ .text.printf   0x0000000000015764       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-printf.o)
+                0x0000000000015764                printf
+                0x0000000000015764                iprintf
  .text.__sfputc_r
-                0x00000000000155c8       0x2e /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x0000000000015788       0x2e /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x00000000000155f6       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
-                0x00000000000155f6                __sfputs_r
- *fill*         0x000000000001561a        0x2 
+                0x00000000000157b6       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00000000000157b6                __sfputs_r
+ *fill*         0x00000000000157da        0x2 
  .text._vfprintf_r
-                0x000000000001561c      0x234 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
-                0x000000000001561c                _vfprintf_r
-                0x000000000001561c                _vfiprintf_r
+                0x00000000000157dc      0x234 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00000000000157dc                _vfprintf_r
+                0x00000000000157dc                _vfiprintf_r
  .text.__swbuf_r
-                0x0000000000015850       0x7a /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-wbuf.o)
-                0x0000000000015850                __swbuf_r
- *fill*         0x00000000000158ca        0x2 
+                0x0000000000015a10       0x7a /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-wbuf.o)
+                0x0000000000015a10                __swbuf_r
+ *fill*         0x0000000000015a8a        0x2 
  .text.__swsetup_r
-                0x00000000000158cc       0xb0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-wsetup.o)
-                0x00000000000158cc                __swsetup_r
+                0x0000000000015a8c       0xb0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-wsetup.o)
+                0x0000000000015a8c                __swsetup_r
  .text._printf_common
-                0x000000000001597c       0xda /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x000000000001597c                _printf_common
- *fill*         0x0000000000015a56        0x2 
+                0x0000000000015b3c       0xda /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0000000000015b3c                _printf_common
+ *fill*         0x0000000000015c16        0x2 
  .text._printf_i
-                0x0000000000015a58      0x244 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x0000000000015a58                _printf_i
+                0x0000000000015c18      0x244 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0000000000015c18                _printf_i
  .text.__sflush_r
-                0x0000000000015c9c      0x10c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fflush.o)
-                0x0000000000015c9c                __sflush_r
+                0x0000000000015e5c      0x10c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fflush.o)
+                0x0000000000015e5c                __sflush_r
  .text._fflush_r
-                0x0000000000015da8       0x50 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fflush.o)
-                0x0000000000015da8                _fflush_r
- .text.fflush   0x0000000000015df8       0x28 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fflush.o)
-                0x0000000000015df8                fflush
- .text          0x0000000000015e20       0xa0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-memchr.o)
-                0x0000000000015e20                memchr
- .text.memcpy   0x0000000000015ec0       0x1c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-memcpy-stub.o)
-                0x0000000000015ec0                memcpy
- .text          0x0000000000015edc       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strlen.o)
-                0x0000000000015edc                strlen
- .text.malloc   0x0000000000015eec       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-malloc.o)
-                0x0000000000015eec                malloc
- .text.free     0x0000000000015efc       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-malloc.o)
-                0x0000000000015efc                free
+                0x0000000000015f68       0x50 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fflush.o)
+                0x0000000000015f68                _fflush_r
+ .text.fflush   0x0000000000015fb8       0x28 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fflush.o)
+                0x0000000000015fb8                fflush
+ .text          0x0000000000015fe0       0xa0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-memchr.o)
+                0x0000000000015fe0                memchr
+ .text.memcpy   0x0000000000016080       0x1c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-memcpy-stub.o)
+                0x0000000000016080                memcpy
+ .text          0x000000000001609c       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strlen.o)
+                0x000000000001609c                strlen
+ .text.malloc   0x00000000000160ac       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-malloc.o)
+                0x00000000000160ac                malloc
+ .text.free     0x00000000000160bc       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-malloc.o)
+                0x00000000000160bc                free
  .text.sbrk_aligned
-                0x0000000000015f0c       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-mallocr.o)
+                0x00000000000160cc       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-mallocr.o)
  .text._malloc_r
-                0x0000000000015f4c       0xec /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-mallocr.o)
-                0x0000000000015f4c                _malloc_r
- .text.strncmp  0x0000000000016038       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strncmp.o)
-                0x0000000000016038                strncmp
+                0x000000000001610c       0xec /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-mallocr.o)
+                0x000000000001610c                _malloc_r
+ .text.strncmp  0x00000000000161f8       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strncmp.o)
+                0x00000000000161f8                strncmp
  .text.__cxa_atexit
-                0x000000000001605c       0x1c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-cxa_atexit.o)
-                0x000000000001605c                __cxa_atexit
- .text.std      0x0000000000016078       0x48 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
+                0x000000000001621c       0x1c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-cxa_atexit.o)
+                0x000000000001621c                __cxa_atexit
+ .text.std      0x0000000000016238       0x48 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
  .text.stdio_exit_handler
-                0x00000000000160c0       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
+                0x0000000000016280       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
  .text.cleanup_stdio
-                0x00000000000160d8       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
+                0x0000000000016298       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
  .text.global_stdio_init.part.0
-                0x0000000000016118       0x3c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
+                0x00000000000162d8       0x3c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
  .text.__sfp_lock_acquire
-                0x0000000000016154        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
-                0x0000000000016154                __sfp_lock_acquire
+                0x0000000000016314        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
+                0x0000000000016314                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x0000000000016160        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
-                0x0000000000016160                __sfp_lock_release
- .text.__sinit  0x000000000001616c       0x30 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
-                0x000000000001616c                __sinit
+                0x0000000000016320        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
+                0x0000000000016320                __sfp_lock_release
+ .text.__sinit  0x000000000001632c       0x30 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
+                0x000000000001632c                __sinit
  .text.snprintf
-                0x000000000001619c       0x68 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-snprintf.o)
-                0x000000000001619c                snprintf
-                0x000000000001619c                sniprintf
- .text.sprintf  0x0000000000016204       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-sprintf.o)
-                0x0000000000016204                siprintf
-                0x0000000000016204                sprintf
- .text.__sread  0x0000000000016244       0x22 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stdio.o)
-                0x0000000000016244                __sread
+                0x000000000001635c       0x68 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-snprintf.o)
+                0x000000000001635c                snprintf
+                0x000000000001635c                sniprintf
+ .text.sprintf  0x00000000000163c4       0x40 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-sprintf.o)
+                0x00000000000163c4                siprintf
+                0x00000000000163c4                sprintf
+ .text.__sread  0x0000000000016404       0x22 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stdio.o)
+                0x0000000000016404                __sread
  .text.__swrite
-                0x0000000000016266       0x38 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stdio.o)
-                0x0000000000016266                __swrite
- .text.__sseek  0x000000000001629e       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stdio.o)
-                0x000000000001629e                __sseek
+                0x0000000000016426       0x38 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stdio.o)
+                0x0000000000016426                __swrite
+ .text.__sseek  0x000000000001645e       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stdio.o)
+                0x000000000001645e                __sseek
  .text.__sclose
-                0x00000000000162c2        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stdio.o)
-                0x00000000000162c2                __sclose
- *fill*         0x00000000000162ca        0x2 
+                0x0000000000016482        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-stdio.o)
+                0x0000000000016482                __sclose
+ *fill*         0x000000000001648a        0x2 
  .text.__malloc_lock
-                0x00000000000162cc        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-mlock.o)
-                0x00000000000162cc                __malloc_lock
+                0x000000000001648c        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-mlock.o)
+                0x000000000001648c                __malloc_lock
  .text.__malloc_unlock
-                0x00000000000162d8        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-mlock.o)
-                0x00000000000162d8                __malloc_unlock
- .text.atoi     0x00000000000162e4        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-atoi.o)
-                0x00000000000162e4                atoi
- .text.realloc  0x00000000000162ec       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-realloc.o)
-                0x00000000000162ec                realloc
- .text._sbrk_r  0x00000000000162fc       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-sbrkr.o)
-                0x00000000000162fc                _sbrk_r
+                0x0000000000016498        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-mlock.o)
+                0x0000000000016498                __malloc_unlock
+ .text.atoi     0x00000000000164a4        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-atoi.o)
+                0x00000000000164a4                atoi
+ .text.realloc  0x00000000000164ac       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-realloc.o)
+                0x00000000000164ac                realloc
+ .text._sbrk_r  0x00000000000164bc       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-sbrkr.o)
+                0x00000000000164bc                _sbrk_r
  .text._write_r
-                0x000000000001631c       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-writer.o)
-                0x000000000001631c                _write_r
- .text.__errno  0x0000000000016340        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-errno.o)
-                0x0000000000016340                __errno
+                0x00000000000164dc       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-writer.o)
+                0x00000000000164dc                _write_r
+ .text.__errno  0x0000000000016500        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-errno.o)
+                0x0000000000016500                __errno
  .text._fwalk_sglue
-                0x000000000001634c       0x3c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fwalk.o)
-                0x000000000001634c                _fwalk_sglue
- .text.memcmp   0x0000000000016388       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-memcmp.o)
-                0x0000000000016388                memcmp
- .text.memmove  0x00000000000163a8       0x34 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-memmove.o)
-                0x00000000000163a8                memmove
- .text.memset   0x00000000000163dc       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-memset.o)
-                0x00000000000163dc                memset
+                0x000000000001650c       0x3c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fwalk.o)
+                0x000000000001650c                _fwalk_sglue
+ .text.memcmp   0x0000000000016548       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-memcmp.o)
+                0x0000000000016548                memcmp
+ .text.memmove  0x0000000000016568       0x34 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-memmove.o)
+                0x0000000000016568                memmove
+ .text.memset   0x000000000001659c       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-memset.o)
+                0x000000000001659c                memset
  .text.strcasecmp
-                0x00000000000163ec       0x34 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strcasecmp.o)
-                0x00000000000163ec                strcasecmp
+                0x00000000000165ac       0x34 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strcasecmp.o)
+                0x00000000000165ac                strcasecmp
  .text._realloc_r
-                0x0000000000016420       0x5e /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-reallocr.o)
-                0x0000000000016420                _realloc_r
- *fill*         0x000000000001647e        0x2 
- .text._free_r  0x0000000000016480       0x98 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-freer.o)
-                0x0000000000016480                _free_r
+                0x00000000000165e0       0x5e /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-reallocr.o)
+                0x00000000000165e0                _realloc_r
+ *fill*         0x000000000001663e        0x2 
+ .text._free_r  0x0000000000016640       0x98 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-freer.o)
+                0x0000000000016640                _free_r
  .text._strtol_l.constprop.0
-                0x0000000000016518      0x104 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strtol.o)
- .text.strtol   0x000000000001661c       0x14 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strtol.o)
-                0x000000000001661c                strtol
+                0x00000000000166d8      0x104 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strtol.o)
+ .text.strtol   0x00000000000167dc       0x14 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-strtol.o)
+                0x00000000000167dc                strtol
  .text.__retarget_lock_acquire_recursive
-                0x0000000000016630        0x2 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-lock.o)
-                0x0000000000016630                __retarget_lock_acquire_recursive
+                0x00000000000167f0        0x2 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-lock.o)
+                0x00000000000167f0                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000000016632        0x2 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-lock.o)
-                0x0000000000016632                __retarget_lock_release_recursive
+                0x00000000000167f2        0x2 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-lock.o)
+                0x00000000000167f2                __retarget_lock_release_recursive
  .text.__swhatbuf_r
-                0x0000000000016634       0x4c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-makebuf.o)
-                0x0000000000016634                __swhatbuf_r
+                0x00000000000167f4       0x4c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-makebuf.o)
+                0x00000000000167f4                __swhatbuf_r
  .text.__smakebuf_r
-                0x0000000000016680       0x78 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-makebuf.o)
-                0x0000000000016680                __smakebuf_r
+                0x0000000000016840       0x78 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-makebuf.o)
+                0x0000000000016840                __smakebuf_r
  .text.__ssputs_r
-                0x00000000000166f8       0xb4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
-                0x00000000000166f8                __ssputs_r
+                0x00000000000168b8       0xb4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
+                0x00000000000168b8                __ssputs_r
  .text._svfprintf_r
-                0x00000000000167ac      0x1fc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
-                0x00000000000167ac                _svfprintf_r
-                0x00000000000167ac                _svfiprintf_r
+                0x000000000001696c      0x1fc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
+                0x000000000001696c                _svfprintf_r
+                0x000000000001696c                _svfiprintf_r
  .text._close_r
-                0x00000000000169a8       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-closer.o)
-                0x00000000000169a8                _close_r
+                0x0000000000016b68       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-closer.o)
+                0x0000000000016b68                _close_r
  .text._fstat_r
-                0x00000000000169c8       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fstatr.o)
-                0x00000000000169c8                _fstat_r
+                0x0000000000016b88       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-fstatr.o)
+                0x0000000000016b88                _fstat_r
  .text._isatty_r
-                0x00000000000169ec       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-isattyr.o)
-                0x00000000000169ec                _isatty_r
+                0x0000000000016bac       0x20 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-isattyr.o)
+                0x0000000000016bac                _isatty_r
  .text._lseek_r
-                0x0000000000016a0c       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-lseekr.o)
-                0x0000000000016a0c                _lseek_r
- .text._read_r  0x0000000000016a30       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-readr.o)
-                0x0000000000016a30                _read_r
+                0x0000000000016bcc       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-lseekr.o)
+                0x0000000000016bcc                _lseek_r
+ .text._read_r  0x0000000000016bf0       0x24 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-readr.o)
+                0x0000000000016bf0                _read_r
  .text._malloc_usable_size_r
-                0x0000000000016a54       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-msizer.o)
-                0x0000000000016a54                _malloc_usable_size_r
- *fill*         0x0000000000016a64        0x4 
+                0x0000000000016c14       0x10 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-msizer.o)
+                0x0000000000016c14                _malloc_usable_size_r
+ *fill*         0x0000000000016c24        0x4 
  .text._malloc_usable_size_r.__stub
-                0x0000000000016a68       0x38 linker stubs
-                0x0000000000016aa0                . = ALIGN (0x10)
- *fill*         0x0000000000016aa0        0x0 
+                0x0000000000016c28       0x38 linker stubs
+                0x0000000000016c60                . = ALIGN (0x10)
+ *fill*         0x0000000000016c60        0x0 
 
-.glue_7         0x0000000000016aa0        0x0 load address 0x0000000060018e8c
- .glue_7        0x0000000000016aa0        0x0 linker stubs
+.glue_7         0x0000000000016c60        0x0 load address 0x000000006001904c
+ .glue_7        0x0000000000016c60        0x0 linker stubs
 
-.glue_7t        0x0000000000016aa0        0x0 load address 0x0000000060018e8c
- .glue_7t       0x0000000000016aa0        0x0 linker stubs
+.glue_7t        0x0000000000016c60        0x0 load address 0x000000006001904c
+ .glue_7t       0x0000000000016c60        0x0 linker stubs
 
-.vfp11_veneer   0x0000000000016aa0        0x0 load address 0x0000000060018e8c
- .vfp11_veneer  0x0000000000016aa0        0x0 linker stubs
+.vfp11_veneer   0x0000000000016c60        0x0 load address 0x000000006001904c
+ .vfp11_veneer  0x0000000000016c60        0x0 linker stubs
 
-.v4_bx          0x0000000000016aa0        0x0 load address 0x0000000060018e8c
- .v4_bx         0x0000000000016aa0        0x0 linker stubs
+.v4_bx          0x0000000000016c60        0x0 load address 0x000000006001904c
+ .v4_bx         0x0000000000016c60        0x0 linker stubs
 
-.fini           0x0000000000016aa0        0x4 load address 0x0000000060018e8c
- .fini          0x0000000000016aa0        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crti.o
-                0x0000000000016aa0                _fini
+.fini           0x0000000000016c60        0x4 load address 0x000000006001904c
+ .fini          0x0000000000016c60        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crti.o
+                0x0000000000016c60                _fini
 
-.iplt           0x0000000000016aa4        0x0 load address 0x0000000060018e90
- .iplt          0x0000000000016aa4        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+.iplt           0x0000000000016c64        0x0 load address 0x0000000060019050
+ .iplt          0x0000000000016c64        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
 
-.ARM.exidx      0x0000000000016aa4        0x8 load address 0x0000000060018e90
-                0x0000000000016aa4                __exidx_start = .
+.ARM.exidx      0x0000000000016c64        0x8 load address 0x0000000060019050
+                0x0000000000016c64                __exidx_start = .
  *(.ARM.exidx* .ARM.extab.text* .gnu.linkonce.armexidx.*)
  .ARM.exidx.text.__udivmoddi4
-                0x0000000000016aa4        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_udivmoddi4.o)
-                0x0000000000016aac                __exidx_end = .
+                0x0000000000016c64        0x8 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/libgcc.a(_udivmoddi4.o)
+                0x0000000000016c6c                __exidx_end = .
 
-.data           0x0000000020000000     0x2ac0 load address 0x0000000060018e98
+.data           0x0000000020000000     0x2ac0 load address 0x0000000060019058
  *(.endpoint_queue)
  .endpoint_queue
                 0x0000000020000000      0x380 ./build/./teensy4/usb.c.o
@@ -11713,459 +11719,465 @@ LOAD ./build/./src/main.cpp.o
  .rodata        0x00000000200005e8       0x18 ./build/./src/tug-controls/SparkMaxESC.cpp.o
  .rodata        0x0000000020000600       0x88 ./build/./src/sensors/can/can_manager.cpp.o
  .rodata._Z10print_logov.str1.4
-                0x0000000020000688       0xf2 ./build/./src/main.cpp.o
+                0x0000000020000688       0xde ./build/./src/main.cpp.o
  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
-                0x000000002000077a       0x77 ./build/./src/controls/controller_manager.cpp.o
+                0x0000000020000766       0x77 ./build/./src/controls/controller_manager.cpp.o
  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
-                0x000000002000077a       0x77 ./build/./src/controls/estimator_manager.cpp.o
+                0x0000000020000766       0x77 ./build/./src/controls/estimator_manager.cpp.o
  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
-                0x000000002000077a       0x77 ./build/./src/controls/estimator.cpp.o
+                0x0000000020000766       0x77 ./build/./src/controls/estimator.cpp.o
  .rodata._Z41__static_initialization_and_destruction_0ii.constprop.0.str1.4
-                0x000000002000077a       0x77 ./build/./src/sensors/SensorManager.cpp.o
- *fill*         0x000000002000077a        0x2 
+                0x0000000020000766       0x77 ./build/./src/sensors/SensorManager.cpp.o
+ *fill*         0x0000000020000766        0x2 
  .rodata._ZL11lookupTable
-                0x000000002000077c      0x12c ./build/./libraries/SdFat/src/common/upcase.cpp.o
+                0x0000000020000768      0x12c ./build/./libraries/SdFat/src/common/upcase.cpp.o
  .rodata._ZL18initFatDirCallbackmPv.str1.4
-                0x00000000200008a8       0x10 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
+                0x0000000020000894       0x10 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
                                           0x2 (size before relaxing)
  .rodata._ZL8mapTable
-                0x00000000200008a8       0xd4 ./build/./libraries/SdFat/src/common/upcase.cpp.o
+                0x0000000020000894       0xd4 ./build/./libraries/SdFat/src/common/upcase.cpp.o
  .rodata._ZN12FatFormatter10initFatDirEhm.str1.4
-                0x000000002000097c        0xd ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
+                0x0000000020000968        0xd ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
                                          0x13 (size before relaxing)
- *fill*         0x0000000020000989        0x3 
+ *fill*         0x0000000020000975        0x3 
  .rodata._ZN12FatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print.str1.4
-                0x000000002000098c       0x38 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
+                0x0000000020000978       0x38 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
  .rodata._ZN12FatFormatter9makeFat16Ev.str1.4
-                0x00000000200009c4       0x14 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
+                0x00000000200009b0       0x14 ./build/./libraries/SdFat/src/FatLib/FatFormatter.cpp.o
  .rodata._ZN14ExFatFormatter6formatEP22FsBlockDeviceInterfacePhP5Print.str1.4
-                0x00000000200009d8       0x60 ./build/./libraries/SdFat/src/ExFatLib/ExFatFormatter.cpp.o
+                0x00000000200009c4       0x60 ./build/./libraries/SdFat/src/ExFatLib/ExFatFormatter.cpp.o
                                          0x78 (size before relaxing)
  .rodata._ZN14ExFatPartition4initEP22FsBlockDeviceInterfaceh.str1.4
-                0x0000000020000a38        0x6 ./build/./libraries/SdFat/src/ExFatLib/ExFatPartition.cpp.o
- *fill*         0x0000000020000a3e        0x2 
+                0x0000000020000a24        0x6 ./build/./libraries/SdFat/src/ExFatLib/ExFatPartition.cpp.o
+ *fill*         0x0000000020000a2a        0x2 
+ .rodata._ZN15MotorController13setMotorSpeedEff.str1.4
+                0x0000000020000a2c       0x91 ./build/./src/tug-controls/MotorController.cpp.o
+ *fill*         0x0000000020000abd        0x3 
+ .rodata._ZN15MotorController16printAllReadingsEv.str1.4
+                0x0000000020000ac0       0x49 ./build/./src/tug-controls/MotorController.cpp.o
+ *fill*         0x0000000020000b09        0x3 
  .rodata._ZN5Print10printFloatEdh.str1.4
-                0x0000000020000a40        0xc ./build/./teensy4/Print.cpp.o
+                0x0000000020000b0c        0xc ./build/./teensy4/Print.cpp.o
  .rodata._ZN6Config9fill_dataEP11CommsPacketPh.str1.4
-                0x0000000020000a4c       0xa7 ./build/./src/comms/config_layer.cpp.o
- *fill*         0x0000000020000af3        0x1 
+                0x0000000020000b18       0xa7 ./build/./src/comms/config_layer.cpp.o
+ *fill*         0x0000000020000bbf        0x1 
  .rodata._ZN6teensy23inplace_function_detail12empty_vtableIvJEEE
-                0x0000000020000af4       0x10 ./build/./teensy4/IntervalTimer.cpp.o
-                0x0000000020000af4                teensy::inplace_function_detail::empty_vtable<void>
+                0x0000000020000bc0       0x10 ./build/./teensy4/IntervalTimer.cpp.o
+                0x0000000020000bc0                teensy::inplace_function_detail::empty_vtable<void>
  .rodata._ZN8SPIClass24spiclass_lpspi1_hardwareE
-                0x0000000020000b04       0x70 ./build/./libraries/SPI/SPI.cpp.o
-                0x0000000020000b04                SPIClass::spiclass_lpspi1_hardware
+                0x0000000020000bd0       0x70 ./build/./libraries/SPI/SPI.cpp.o
+                0x0000000020000bd0                SPIClass::spiclass_lpspi1_hardware
  .rodata._ZN8SPIClass24spiclass_lpspi3_hardwareE
-                0x0000000020000b74       0x70 ./build/./libraries/SPI/SPI.cpp.o
-                0x0000000020000b74                SPIClass::spiclass_lpspi3_hardware
+                0x0000000020000c40       0x70 ./build/./libraries/SPI/SPI.cpp.o
+                0x0000000020000c40                SPIClass::spiclass_lpspi3_hardware
  .rodata._ZN8SPIClass24spiclass_lpspi4_hardwareE
-                0x0000000020000be4       0x70 ./build/./libraries/SPI/SPI.cpp.o
-                0x0000000020000be4                SPIClass::spiclass_lpspi4_hardware
+                0x0000000020000cb0       0x70 ./build/./libraries/SPI/SPI.cpp.o
+                0x0000000020000cb0                SPIClass::spiclass_lpspi4_hardware
  .rodata._ZN9qindesign7networkL7srv_txtEP12mdns_servicePv.str1.4
-                0x0000000020000c54        0x0 ./build/./libraries/QNEthernet/src/QNMDNS.cpp.o
+                0x0000000020000d20        0x0 ./build/./libraries/QNEthernet/src/QNMDNS.cpp.o
                                           0x1 (size before relaxing)
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.constprop.0.isra.0.str1.4
-                0x0000000020000c54       0x2a ./build/./src/comms/config_layer.cpp.o
+                0x0000000020000d20       0x2a ./build/./src/comms/config_layer.cpp.o
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2IS3_EEPKcRKS3_.str1.4
-                0x0000000020000c7e       0x2a ./build/./src/controls/controller_manager.cpp.o
- *fill*         0x0000000020000c7e        0x2 
+                0x0000000020000d4a       0x2a ./build/./src/controls/controller_manager.cpp.o
+ *fill*         0x0000000020000d4a        0x2 
  .rodata._ZTV10FlexCAN_T4IL13CAN_DEV_TABLE1075642368EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE
-                0x0000000020000c80       0x28 ./build/./src/sensors/can/can_manager.cpp.o
-                0x0000000020000c80                vtable for FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>
+                0x0000000020000d4c       0x28 ./build/./src/sensors/can/can_manager.cpp.o
+                0x0000000020000d4c                vtable for FlexCAN_T4<(CAN_DEV_TABLE)1075642368, (FLEXCAN_RXQUEUE_TABLE)256, (FLEXCAN_TXQUEUE_TABLE)16>
  .rodata._ZTV10StreamFileI10FsBaseFileyE
-                0x0000000020000ca8       0x24 ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000ca8                vtable for StreamFile<FsBaseFile, unsigned long long>
+                0x0000000020000d74       0x24 ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000d74                vtable for StreamFile<FsBaseFile, unsigned long long>
  .rodata._ZTV14EventResponder
-                0x0000000020000ccc        0xc ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
-                0x0000000020000ccc                vtable for EventResponder
+                0x0000000020000d98        0xc ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
+                0x0000000020000d98                vtable for EventResponder
  .rodata._ZTV16DedicatedSpiCard
-                0x0000000020000cd8       0x70 ./build/./libraries/SdFat/src/SdCard/SdSpiCard.cpp.o
-                0x0000000020000cd8                vtable for DedicatedSpiCard
+                0x0000000020000da4       0x70 ./build/./libraries/SdFat/src/SdCard/SdSpiCard.cpp.o
+                0x0000000020000da4                vtable for DedicatedSpiCard
  .rodata._ZTV16usb_serial_class
-                0x0000000020000d48       0x28 ./build/./teensy4/usb_inst.cpp.o
-                0x0000000020000d48                vtable for usb_serial_class
+                0x0000000020000e14       0x28 ./build/./teensy4/usb_inst.cpp.o
+                0x0000000020000e14                vtable for usb_serial_class
  .rodata._ZTV17usb_serial2_class
-                0x0000000020000d70       0x28 ./build/./teensy4/usb_inst.cpp.o
-                0x0000000020000d70                vtable for usb_serial2_class
+                0x0000000020000e3c       0x28 ./build/./teensy4/usb_inst.cpp.o
+                0x0000000020000e3c                vtable for usb_serial2_class
  .rodata._ZTV4File
-                0x0000000020000d98       0x2c ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000d98                vtable for File
+                0x0000000020000e64       0x2c ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000e64                vtable for File
  .rodata._ZTV5Debug
-                0x0000000020000dc4       0x18 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
-                0x0000000020000dc4                vtable for Debug
+                0x0000000020000e90       0x18 ./build/./libraries/TeensyDebug/src/TeensyDebug.cpp.o
+                0x0000000020000e90                vtable for Debug
  .rodata._ZTV6FsFile
-                0x0000000020000ddc       0x24 ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000ddc                vtable for FsFile
+                0x0000000020000ea8       0x24 ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000ea8                vtable for FsFile
  .rodata._ZTV6SDFile
-                0x0000000020000e00       0x5c ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000e00                vtable for SDFile
+                0x0000000020000ecc       0x5c ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000ecc                vtable for SDFile
  .rodata._ZTV6Stream
-                0x0000000020000e5c       0x24 ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000e5c                vtable for Stream
+                0x0000000020000f28       0x24 ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000f28                vtable for Stream
  .rodata._ZTV7SDClass
-                0x0000000020000e80       0x30 ./build/./libraries/SD/SD.cpp.o
-                0x0000000020000e80                vtable for SDClass
+                0x0000000020000f4c       0x30 ./build/./libraries/SD/SD.cpp.o
+                0x0000000020000f4c                vtable for SDClass
  .rodata._ZTV7TwoWire
-                0x0000000020000eb0       0x24 ./build/./libraries/Wire/WireIMXRT.cpp.o
-                0x0000000020000eb0                vtable for TwoWire
+                0x0000000020000f7c       0x24 ./build/./libraries/Wire/WireIMXRT.cpp.o
+                0x0000000020000f7c                vtable for TwoWire
  .rodata._ZTV8SdioCard
-                0x0000000020000ed4       0x70 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
-                0x0000000020000ed4                vtable for SdioCard
+                0x0000000020000fa0       0x70 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
+                0x0000000020000fa0                vtable for SdioCard
  .rodata._ZTV9IPAddress
-                0x0000000020000f44        0xc ./build/./teensy4/IPAddress.cpp.o
-                0x0000000020000f44                vtable for IPAddress
+                0x0000000020001010        0xc ./build/./teensy4/IPAddress.cpp.o
+                0x0000000020001010                vtable for IPAddress
  .rodata._ZZN6teensy16inplace_functionIFvvELj16ELj8EEC4IRS1_PS1_vEEOT_E2vt
-                0x0000000020000f50       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x0000000020000f50                teensy::inplace_function<void (), 16u, 8u>::inplace_function<void (&)(), void (*)(), void>(void (&)())::vt
+                0x000000002000101c       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x000000002000101c                teensy::inplace_function<void (), 16u, 8u>::inplace_function<void (&)(), void (*)(), void>(void (&)())::vt
  .rodata._ZZN8SPIClass16beginTransactionE11SPISettingsE7clk_sel
-                0x0000000020000f60       0x10 ./build/./libraries/SPI/SPI.cpp.o
-                0x0000000020000f60                SPIClass::beginTransaction(SPISettings)::clk_sel
+                0x000000002000102c       0x10 ./build/./libraries/SPI/SPI.cpp.o
+                0x000000002000102c                SPIClass::beginTransaction(SPISettings)::clk_sel
  .rodata.__FUNCTION__.0
-                0x0000000020000f70        0xb ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x0000000020000f7b        0x1 
+                0x000000002000103c        0xb ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x0000000020001047        0x1 
  .rodata.__FUNCTION__.0
-                0x0000000020000f7c       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
- *fill*         0x0000000020000f92        0x2 
+                0x0000000020001048       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
+ *fill*         0x000000002000105e        0x2 
  .rodata.__FUNCTION__.0
-                0x0000000020000f94       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
- *fill*         0x0000000020000faa        0x2 
+                0x0000000020001060       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+ *fill*         0x0000000020001076        0x2 
  .rodata.__FUNCTION__.0
-                0x0000000020000fac       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
- *fill*         0x0000000020000fc2        0x2 
+                0x0000000020001078       0x16 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
+ *fill*         0x000000002000108e        0x2 
  .rodata.__FUNCTION__.0
-                0x0000000020000fc4        0xc ./build/./libraries/QNEthernet/src/lwip/ipv4/autoip.c.o
+                0x0000000020001090        0xc ./build/./libraries/QNEthernet/src/lwip/ipv4/autoip.c.o
  .rodata.__FUNCTION__.1
-                0x0000000020000fd0       0x13 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
- *fill*         0x0000000020000fe3        0x1 
+                0x000000002000109c       0x13 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+ *fill*         0x00000000200010af        0x1 
  .rodata.__FUNCTION__.11
-                0x0000000020000fe4        0xf ./build/./libraries/QNEthernet/src/lwip/netif.c.o
- *fill*         0x0000000020000ff3        0x1 
+                0x00000000200010b0        0xf ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+ *fill*         0x00000000200010bf        0x1 
  .rodata.__FUNCTION__.15
-                0x0000000020000ff4        0xc ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+                0x00000000200010c0        0xc ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
  .rodata.__FUNCTION__.2
-                0x0000000020001000        0xb ./build/./libraries/QNEthernet/src/lwip/udp.c.o
- *fill*         0x000000002000100b        0x1 
+                0x00000000200010cc        0xb ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+ *fill*         0x00000000200010d7        0x1 
  .rodata.__FUNCTION__.2
-                0x000000002000100c        0xe ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
- *fill*         0x000000002000101a        0x2 
+                0x00000000200010d8        0xe ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
+ *fill*         0x00000000200010e6        0x2 
  .rodata.__FUNCTION__.3
-                0x000000002000101c       0x13 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
- *fill*         0x000000002000102f        0x1 
+                0x00000000200010e8       0x13 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+ *fill*         0x00000000200010fb        0x1 
  .rodata.__FUNCTION__.3
-                0x0000000020001030        0xc ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
+                0x00000000200010fc        0xc ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
  .rodata.__FUNCTION__.5
-                0x000000002000103c       0x14 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+                0x0000000020001108       0x14 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
  .rodata.__FUNCTION__.6
-                0x0000000020001050       0x17 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
- *fill*         0x0000000020001067        0x1 
+                0x000000002000111c       0x17 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+ *fill*         0x0000000020001133        0x1 
  .rodata.__FUNCTION__.7
-                0x0000000020001068        0x9 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
- *fill*         0x0000000020001071        0x3 
+                0x0000000020001134        0x9 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+ *fill*         0x000000002000113d        0x3 
  .rodata.__FUNCTION__.7
-                0x0000000020001074        0xf ./build/./libraries/QNEthernet/src/lwip/netif.c.o
- *fill*         0x0000000020001083        0x1 
+                0x0000000020001140        0xf ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+ *fill*         0x000000002000114f        0x1 
  .rodata.__FUNCTION__.8
-                0x0000000020001084       0x12 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
- *fill*         0x0000000020001096        0x2 
+                0x0000000020001150       0x12 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+ *fill*         0x0000000020001162        0x2 
  .rodata._ftoa.str1.4
-                0x0000000020001098       0x11 ./build/./teensy4/printf.c.o
+                0x0000000020001164       0x11 ./build/./teensy4/printf.c.o
                                          0x15 (size before relaxing)
- *fill*         0x00000000200010a9        0x3 
+ *fill*         0x0000000020001175        0x3 
  .rodata.autoip_set_struct.str1.4
-                0x00000000200010ac       0x72 ./build/./libraries/QNEthernet/src/lwip/ipv4/autoip.c.o
+                0x0000000020001178       0x72 ./build/./libraries/QNEthernet/src/lwip/ipv4/autoip.c.o
                                          0x9a (size before relaxing)
- *fill*         0x000000002000111e        0x2 
+ *fill*         0x00000000200011ea        0x2 
  .rodata.dhcp_create_msg.str1.4
-                0x0000000020001120       0x6c ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+                0x00000000200011ec       0x6c ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
                                          0x94 (size before relaxing)
  .rodata.dhcp_dec_pcb_refcount.str1.4
-                0x000000002000118c       0x24 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+                0x0000000020001258       0x24 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
  .rodata.dhcp_option.part.0.str1.4
-                0x00000000200011b0       0x42 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
- *fill*         0x00000000200011f2        0x2 
+                0x000000002000127c       0x42 ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+ *fill*         0x00000000200012be        0x2 
  .rodata.dhcp_option_long.str1.4
-                0x00000000200011f4       0x3a ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
- *fill*         0x000000002000122e        0x2 
+                0x00000000200012c0       0x3a ./build/./libraries/QNEthernet/src/lwip/ipv4/dhcp.c.o
+ *fill*         0x00000000200012fa        0x2 
  .rodata.digital_pin_to_info_PGM
-                0x0000000020001230      0x370 ./build/./teensy4/digital.c.o
-                0x0000000020001230                digital_pin_to_info_PGM
+                0x00000000200012fc      0x370 ./build/./teensy4/digital.c.o
+                0x00000000200012fc                digital_pin_to_info_PGM
  .rodata.dnssd_protos
-                0x00000000200015a0        0x8 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+                0x000000002000166c        0x8 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
  .rodata.do_memp_free_pool.part.0.str1.4
-                0x00000000200015a8       0x20 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001674       0x20 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
  .rodata.do_memp_malloc_pool.part.0.str1.4
-                0x00000000200015c8       0x4b ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001694       0x4b ./build/./libraries/QNEthernet/src/lwip/memp.c.o
                                          0x74 (size before relaxing)
- *fill*         0x0000000020001613        0x1 
+ *fill*         0x00000000200016df        0x1 
  .rodata.err_to_errno_table
-                0x0000000020001614       0x44 ./build/./libraries/QNEthernet/src/lwip/api/err.c.o
+                0x00000000200016e0       0x44 ./build/./libraries/QNEthernet/src/lwip/api/err.c.o
  .rodata.igmp_lookup_group.str1.4
-                0x0000000020001658       0xa1 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
+                0x0000000020001724       0xa1 ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
                                          0xc9 (size before relaxing)
- *fill*         0x00000000200016f9        0x3 
+ *fill*         0x00000000200017c5        0x3 
  .rodata.igmp_send.str1.4
-                0x00000000200016fc       0x3a ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
- *fill*         0x0000000020001736        0x2 
+                0x00000000200017c8       0x3a ./build/./libraries/QNEthernet/src/lwip/ipv4/igmp.c.o
+ *fill*         0x0000000020001802        0x2 
  .rodata.ip4_frag.str1.4
-                0x0000000020001738       0x2f ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
- *fill*         0x0000000020001767        0x1 
+                0x0000000020001804       0x2f ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
+ *fill*         0x0000000020001833        0x1 
  .rodata.ip4_input.str1.4
-                0x0000000020001768       0x29 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
- *fill*         0x0000000020001791        0x3 
+                0x0000000020001834       0x29 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
+ *fill*         0x000000002000185d        0x3 
  .rodata.ip4_output_if_opt_src.str1.4
-                0x0000000020001794       0x39 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
+                0x0000000020001860       0x39 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4.c.o
                                          0x61 (size before relaxing)
- *fill*         0x00000000200017cd        0x3 
+ *fill*         0x0000000020001899        0x3 
  .rodata.ip_addr_any
-                0x00000000200017d0        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_addr.c.o
-                0x00000000200017d0                ip_addr_any
+                0x000000002000189c        0x4 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_addr.c.o
+                0x000000002000189c                ip_addr_any
  .rodata.ip_reass_dequeue_datagram.part.0.str1.4
-                0x00000000200017d4       0x49 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
+                0x00000000200018a0       0x49 ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
                                          0x74 (size before relaxing)
- *fill*         0x000000002000181d        0x3 
+ *fill*         0x00000000200018e9        0x3 
  .rodata.ipfrag_free_pbuf_custom.str1.4
-                0x0000000020001820        0xc ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
+                0x00000000200018ec        0xc ./build/./libraries/QNEthernet/src/lwip/ipv4/ip4_frag.c.o
  .rodata.main.str1.4
-                0x000000002000182c       0x3b ./build/./src/main.cpp.o
- *fill*         0x0000000020001867        0x1 
+                0x00000000200018f8       0x3b ./build/./src/main.cpp.o
+ *fill*         0x0000000020001933        0x1 
  .rodata.mdns_build_dnssd_domain.str1.4
-                0x0000000020001868       0x19 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
- *fill*         0x0000000020001881        0x3 
+                0x0000000020001934       0x19 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+ *fill*         0x000000002000194d        0x3 
  .rodata.mdns_build_host_domain.str1.4
-                0x0000000020001884        0x6 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
- *fill*         0x000000002000188a        0x2 
+                0x0000000020001950        0x6 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+ *fill*         0x0000000020001956        0x2 
  .rodata.mdns_build_reverse_v4_domain.str1.4
-                0x000000002000188c       0x11 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
- *fill*         0x000000002000189d        0x3 
+                0x0000000020001958       0x11 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+ *fill*         0x0000000020001969        0x3 
  .rodata.mdns_resp_remove_netif.str1.4
-                0x00000000200018a0       0x55 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+                0x000000002000196c       0x55 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
                                          0x80 (size before relaxing)
- *fill*         0x00000000200018f5        0x3 
+ *fill*         0x00000000200019c1        0x3 
  .rodata.mem_free.str1.4
-                0x00000000200018f8       0x28 ./build/./libraries/QNEthernet/src/lwip/mem.c.o
+                0x00000000200019c4       0x28 ./build/./libraries/QNEthernet/src/lwip/mem.c.o
  .rodata.mem_malloc.str1.4
-                0x0000000020001920       0x48 ./build/./libraries/QNEthernet/src/lwip/mem.c.o
+                0x00000000200019ec       0x48 ./build/./libraries/QNEthernet/src/lwip/mem.c.o
                                          0x70 (size before relaxing)
  .rodata.memp_FRAG_PBUF
-                0x0000000020001968        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001968                memp_FRAG_PBUF
+                0x0000000020001a34        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a34                memp_FRAG_PBUF
  .rodata.memp_IGMP_GROUP
-                0x0000000020001974        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001974                memp_IGMP_GROUP
+                0x0000000020001a40        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a40                memp_IGMP_GROUP
  .rodata.memp_PBUF
-                0x0000000020001980        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001980                memp_PBUF
+                0x0000000020001a4c        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a4c                memp_PBUF
  .rodata.memp_PBUF_POOL
-                0x000000002000198c        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x000000002000198c                memp_PBUF_POOL
+                0x0000000020001a58        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a58                memp_PBUF_POOL
  .rodata.memp_REASSDATA
-                0x0000000020001998        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x0000000020001998                memp_REASSDATA
+                0x0000000020001a64        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a64                memp_REASSDATA
  .rodata.memp_SYS_TIMEOUT
-                0x00000000200019a4        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x00000000200019a4                memp_SYS_TIMEOUT
+                0x0000000020001a70        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a70                memp_SYS_TIMEOUT
  .rodata.memp_TCP_PCB
-                0x00000000200019b0        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x00000000200019b0                memp_TCP_PCB
+                0x0000000020001a7c        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a7c                memp_TCP_PCB
  .rodata.memp_TCP_PCB_LISTEN
-                0x00000000200019bc        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x00000000200019bc                memp_TCP_PCB_LISTEN
+                0x0000000020001a88        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a88                memp_TCP_PCB_LISTEN
  .rodata.memp_TCP_SEG
-                0x00000000200019c8        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x00000000200019c8                memp_TCP_SEG
+                0x0000000020001a94        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001a94                memp_TCP_SEG
  .rodata.memp_UDP_PCB
-                0x00000000200019d4        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x00000000200019d4                memp_UDP_PCB
+                0x0000000020001aa0        0xc ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001aa0                memp_UDP_PCB
  .rodata.memp_pools
-                0x00000000200019e0       0x28 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
-                0x00000000200019e0                memp_pools
+                0x0000000020001aac       0x28 ./build/./libraries/QNEthernet/src/lwip/memp.c.o
+                0x0000000020001aac                memp_pools
  .rodata.netif_do_set_ipaddr.str1.4
-                0x0000000020001a08       0x10 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+                0x0000000020001ad4       0x10 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
  .rodata.netif_invoke_ext_callback.str1.4
-                0x0000000020001a18       0x16 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
- *fill*         0x0000000020001a2e        0x2 
+                0x0000000020001ae4       0x16 ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+ *fill*         0x0000000020001afa        0x2 
  .rodata.netif_issue_reports.part.0.str1.4
-                0x0000000020001a30       0x4b ./build/./libraries/QNEthernet/src/lwip/netif.c.o
+                0x0000000020001afc       0x4b ./build/./libraries/QNEthernet/src/lwip/netif.c.o
                                          0x74 (size before relaxing)
- *fill*         0x0000000020001a7b        0x1 
+ *fill*         0x0000000020001b47        0x1 
  .rodata.pbuf_add_header.str1.4
-                0x0000000020001a7c        0xa ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001a86        0x2 
- .rodata.pbuf_alloc.str1.4
-                0x0000000020001a88       0x1b ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001aa3        0x1 
- .rodata.pbuf_alloc_reference.str1.4
-                0x0000000020001aa4       0x12 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001ab6        0x2 
- .rodata.pbuf_cat.str1.4
-                0x0000000020001ab8       0x49 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001b01        0x3 
- .rodata.pbuf_free.str1.4
-                0x0000000020001b04       0x4e ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+                0x0000000020001b48        0xa ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
  *fill*         0x0000000020001b52        0x2 
+ .rodata.pbuf_alloc.str1.4
+                0x0000000020001b54       0x1b ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001b6f        0x1 
+ .rodata.pbuf_alloc_reference.str1.4
+                0x0000000020001b70       0x12 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001b82        0x2 
+ .rodata.pbuf_cat.str1.4
+                0x0000000020001b84       0x49 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001bcd        0x3 
+ .rodata.pbuf_free.str1.4
+                0x0000000020001bd0       0x4e ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001c1e        0x2 
  .rodata.pbuf_realloc.str1.4
-                0x0000000020001b54       0x65 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001bb9        0x3 
+                0x0000000020001c20       0x65 ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001c85        0x3 
  .rodata.pbuf_ref.part.0.str1.4
-                0x0000000020001bbc       0x3a ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+                0x0000000020001c88       0x3a ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
                                          0x64 (size before relaxing)
- *fill*         0x0000000020001bf6        0x2 
+ *fill*         0x0000000020001cc2        0x2 
  .rodata.pbuf_take.str1.4
-                0x0000000020001bf8       0x2e ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
- *fill*         0x0000000020001c26        0x2 
+                0x0000000020001cc4       0x2e ./build/./libraries/QNEthernet/src/lwip/pbuf.c.o
+ *fill*         0x0000000020001cf2        0x2 
  .rodata.pin_to_channel
-                0x0000000020001c28       0x2a ./build/./teensy4/analog.c.o
-                0x0000000020001c28                pin_to_channel
- *fill*         0x0000000020001c52        0x2 
+                0x0000000020001cf4       0x2a ./build/./teensy4/analog.c.o
+                0x0000000020001cf4                pin_to_channel
+ *fill*         0x0000000020001d1e        0x2 
  .rodata.pwm_pin_info
-                0x0000000020001c54       0xdc ./build/./teensy4/pwm.c.o
-                0x0000000020001c54                pwm_pin_info
+                0x0000000020001d20       0xdc ./build/./teensy4/pwm.c.o
+                0x0000000020001d20                pwm_pin_info
  .rodata.qnethernet_hal_check_core_locking.str1.4
-                0x0000000020001d30       0x8c ./build/./libraries/QNEthernet/src/qnethernet_hal.cpp.o
+                0x0000000020001dfc       0x8c ./build/./libraries/QNEthernet/src/qnethernet_hal.cpp.o
  .rodata.str1.4
-                0x0000000020001dbc        0x5 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
- *fill*         0x0000000020001dc1        0x3 
+                0x0000000020001e88        0x5 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns_domain.c.o
+ *fill*         0x0000000020001e8d        0x3 
  .rodata.str1.4
-                0x0000000020001dc4       0x10 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
+                0x0000000020001e90       0x10 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
  .rodata.sys_timeout_abs.str1.4
-                0x0000000020001dd4       0x69 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
+                0x0000000020001ea0       0x69 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
                                          0x94 (size before relaxing)
- *fill*         0x0000000020001e3d        0x3 
+ *fill*         0x0000000020001f09        0x3 
  .rodata.sys_timeouts_init.str1.4
-                0x0000000020001e40       0x36 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
- *fill*         0x0000000020001e76        0x2 
+                0x0000000020001f0c       0x36 ./build/./libraries/QNEthernet/src/lwip/timeouts.c.o
+ *fill*         0x0000000020001f42        0x2 
  .rodata.tcp_abandon.str1.4
-                0x0000000020001e78       0x31 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
- *fill*         0x0000000020001ea9        0x3 
+                0x0000000020001f44       0x31 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+ *fill*         0x0000000020001f75        0x3 
  .rodata.tcp_close_shutdown_fin.str1.4
-                0x0000000020001eac       0x30 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+                0x0000000020001f78       0x30 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
                                          0x58 (size before relaxing)
  .rodata.tcp_eff_send_mss_netif.part.0.str1.4
-                0x0000000020001edc       0x27 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
- *fill*         0x0000000020001f03        0x1 
+                0x0000000020001fa8       0x27 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+ *fill*         0x0000000020001fcf        0x1 
  .rodata.tcp_free.part.0.str1.4
-                0x0000000020001f04       0x11 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
- *fill*         0x0000000020001f15        0x3 
+                0x0000000020001fd0       0x11 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+ *fill*         0x0000000020001fe1        0x3 
  .rodata.tcp_output.str1.4
-                0x0000000020001f18       0x6b ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x0000000020001f83        0x1 
+                0x0000000020001fe4       0x6b ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x000000002000204f        0x1 
  .rodata.tcp_output_alloc_header.constprop.0.str1.4
-                0x0000000020001f84       0x56 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x0000000020001fda        0x2 
+                0x0000000020002050       0x56 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x00000000200020a6        0x2 
  .rodata.tcp_output_control_segment.str1.4
-                0x0000000020001fdc       0x29 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x0000000020002005        0x3 
+                0x00000000200020a8       0x29 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x00000000200020d1        0x3 
  .rodata.tcp_output_fill_options.constprop.0.str1.4
-                0x0000000020002008       0x26 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x000000002000202e        0x2 
+                0x00000000200020d4       0x26 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x00000000200020fa        0x2 
  .rodata.tcp_pbuf_prealloc.str1.4
-                0x0000000020002030       0x5c ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+                0x00000000200020fc       0x5c ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
                                          0x84 (size before relaxing)
  .rodata.tcp_pcb_remove.str1.4
-                0x000000002000208c       0x87 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
- *fill*         0x0000000020002113        0x1 
+                0x0000000020002158       0x87 ./build/./libraries/QNEthernet/src/lwip/tcp.c.o
+ *fill*         0x00000000200021df        0x1 
  .rodata.tcp_rst_common.isra.0.str1.4
-                0x0000000020002114       0x37 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
- *fill*         0x000000002000214b        0x1 
+                0x00000000200021e0       0x37 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+ *fill*         0x0000000020002217        0x1 
  .rodata.tcp_send_empty_ack.str1.4
-                0x000000002000214c       0x20 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
+                0x0000000020002218       0x20 ./build/./libraries/QNEthernet/src/lwip/tcp_out.c.o
  .rodata.udp_input.str1.4
-                0x000000002000216c       0x72 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+                0x0000000020002238       0x72 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
                                          0x9a (size before relaxing)
- *fill*         0x00000000200021de        0x2 
+ *fill*         0x00000000200022aa        0x2 
  .rodata.udp_sendto_if_src.str1.4
-                0x00000000200021e0       0x2e ./build/./libraries/QNEthernet/src/lwip/udp.c.o
- *fill*         0x000000002000220e        0x2 
+                0x00000000200022ac       0x2e ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+ *fill*         0x00000000200022da        0x2 
  .rodata.usb_descriptor_list
-                0x0000000020002210       0x84 ./build/./teensy4/usb_desc.c.o
-                0x0000000020002210                usb_descriptor_list
+                0x00000000200022dc       0x84 ./build/./teensy4/usb_desc.c.o
+                0x00000000200022dc                usb_descriptor_list
  .rodata.v4group
-                0x0000000020002294        0x4 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
+                0x0000000020002360        0x4 ./build/./libraries/QNEthernet/src/lwip/apps/mdns/mdns.c.o
  .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj.str1.1
-                0x0000000020002298       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
+                0x0000000020002364       0x18 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libstdc++_nano.a(string-inst.o)
  .rodata._ctype_
-                0x00000000200022b0      0x101 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-ctype_.o)
-                0x00000000200022b0                _ctype_
+                0x000000002000237c      0x101 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-ctype_.o)
+                0x000000002000237c                _ctype_
  .rodata._printf_i.str1.1
-                0x00000000200023b1       0x22 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x000000002000247d       0x22 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf_i.o)
  .rodata._svfprintf_r.str1.1
-                0x00000000200023d3       0x11 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
+                0x000000002000249f       0x11 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-svfprintf.o)
  .rodata._vfprintf_r.str1.1
-                0x00000000200023d3       0x11 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x000000002000249f       0x11 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-nano-vfprintf.o)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.data*)))
  .data.F_BUS_ACTUAL
-                0x00000000200023e4        0x4 ./build/./teensy4/clockspeed.c.o
-                0x00000000200023e4                F_BUS_ACTUAL
+                0x00000000200024b0        0x4 ./build/./teensy4/clockspeed.c.o
+                0x00000000200024b0                F_BUS_ACTUAL
  .data.F_CPU_ACTUAL
-                0x00000000200023e8        0x4 ./build/./teensy4/clockspeed.c.o
-                0x00000000200023e8                F_CPU_ACTUAL
- .data.Serial   0x00000000200023ec       0x10 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000200023ec                Serial
+                0x00000000200024b4        0x4 ./build/./teensy4/clockspeed.c.o
+                0x00000000200024b4                F_CPU_ACTUAL
+ .data.Serial   0x00000000200024b8       0x10 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000200024b8                Serial
  .data.SerialUSB1
-                0x00000000200023fc       0x10 ./build/./teensy4/usb_inst.cpp.o
-                0x00000000200023fc                SerialUSB1
+                0x00000000200024c8       0x10 ./build/./teensy4/usb_inst.cpp.o
+                0x00000000200024c8                SerialUSB1
  .data._ZL10tone_timer
-                0x000000002000240c        0x8 ./build/./teensy4/Tone.cpp.o
+                0x00000000200024d8        0x8 ./build/./teensy4/Tone.cpp.o
  .data._ZN13IntervalTimer14nvic_prioritesE
-                0x0000000020002414        0x4 ./build/./teensy4/IntervalTimer.cpp.o
-                0x0000000020002414                IntervalTimer::nvic_priorites
+                0x00000000200024e0        0x4 ./build/./teensy4/IntervalTimer.cpp.o
+                0x00000000200024e0                IntervalTimer::nvic_priorites
  .data._ZN9qindesign7networkL7ethLoopE
-                0x0000000020002418       0x20 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
+                0x00000000200024e4       0x20 ./build/./libraries/QNEthernet/src/QNEthernet.cpp.o
  .data.__brkval
-                0x0000000020002438        0x4 ./build/./teensy4/startup.c.o
-                0x0000000020002438                __brkval
+                0x0000000020002504        0x4 ./build/./teensy4/startup.c.o
+                0x0000000020002504                __brkval
  .data.__dso_handle
-                0x000000002000243c        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
-                0x000000002000243c                __dso_handle
- .data.__sglue  0x0000000020002440        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
-                0x0000000020002440                __sglue
+                0x0000000020002508        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
+                0x0000000020002508                __dso_handle
+ .data.__sglue  0x000000002000250c        0xc /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-findfp.o)
+                0x000000002000250c                __sglue
  .data._impure_data
-                0x000000002000244c       0x4c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-impure.o)
-                0x000000002000244c                _impure_data
+                0x0000000020002518       0x4c /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-impure.o)
+                0x0000000020002518                _impure_data
  .data._impure_ptr
-                0x0000000020002498        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-impure.o)
-                0x0000000020002498                _impure_ptr
+                0x0000000020002564        0x4 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+dp/hard/libc_nano.a(libc_a-impure.o)
+                0x0000000020002564                _impure_ptr
  .data.debug_active
-                0x000000002000249c        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x000000002000249c                debug_active
+                0x0000000020002568        0x4 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x0000000020002568                debug_active
  .data.device_descriptor
-                0x00000000200024a0       0x12 ./build/./teensy4/usb_desc.c.o
- *fill*         0x00000000200024b2        0x2 
+                0x000000002000256c       0x12 ./build/./teensy4/usb_desc.c.o
+ *fill*         0x000000002000257e        0x2 
  .data.gdb_timer
-                0x00000000200024b4        0x8 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x00000000200024b4                gdb_timer
- .data.int2hex  0x00000000200024bc       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x00000000200024bc                int2hex
+                0x0000000020002580        0x8 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x0000000020002580                gdb_timer
+ .data.int2hex  0x0000000020002588       0x10 ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x0000000020002588                int2hex
  .data.rawhid_report_desc
-                0x00000000200024cc       0x1e ./build/./teensy4/usb_desc.c.o
- *fill*         0x00000000200024ea        0x2 
+                0x0000000020002598       0x1e ./build/./teensy4/usb_desc.c.o
+ *fill*         0x00000000200025b6        0x2 
  .data.signal_text
-                0x00000000200024ec       0x1c ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
-                0x00000000200024ec                signal_text
+                0x00000000200025b8       0x1c ./build/./libraries/TeensyDebug/src/gdbstub.cpp.o
+                0x00000000200025b8                signal_text
  .data.usb_string_serial_number_default
-                0x0000000020002508       0x16 ./build/./teensy4/usb_desc.c.o
-                0x0000000020002508                usb_string_serial_number
-                0x0000000020002508                usb_string_serial_number_default
+                0x00000000200025d4       0x16 ./build/./teensy4/usb_desc.c.o
+                0x00000000200025d4                usb_string_serial_number
+                0x00000000200025d4                usb_string_serial_number_default
  .data.udp_port
-                0x000000002000251e        0x2 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
+                0x00000000200025ea        0x2 ./build/./libraries/QNEthernet/src/lwip/udp.c.o
  .data._ZL11m_errorCode
-                0x0000000020002520        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
+                0x00000000200025ec        0x1 ./build/./libraries/SdFat/src/SdCard/SdioTeensy.cpp.o
  .data.analog_write_res
-                0x0000000020002521        0x1 ./build/./teensy4/pwm.c.o
-                0x0000000020002521                analog_write_res
+                0x00000000200025ed        0x1 ./build/./teensy4/pwm.c.o
+                0x00000000200025ed                analog_write_res
  *(.vectorsram)
- *fill*         0x0000000020002522      0x2de 
+ *fill*         0x00000000200025ee      0x212 
  .vectorsram    0x0000000020002800      0x2c0 ./build/./teensy4/startup.c.o
                 0x0000000020002800                _VectorsRam
 
 .tm_clone_table
-                0x0000000020002ac0        0x0 load address 0x000000006001b958
+                0x0000000020002ac0        0x0 load address 0x000000006001bb18
  .tm_clone_table
                 0x0000000020002ac0        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
  .tm_clone_table
                 0x0000000020002ac0        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtend.o
 
-.igot.plt       0x0000000020002ac0        0x0 load address 0x000000006001b958
+.igot.plt       0x0000000020002ac0        0x0 load address 0x000000006001bb18
  .igot.plt      0x0000000020002ac0        0x0 /home/artemis/.arduino15/packages/teensy/tools/teensy-compile/11.3.1/arm/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7e-m+dp/hard/crtbegin.o
 
 .bss            0x0000000020002ac0     0x4200
@@ -12736,20 +12748,20 @@ LOAD ./build/./src/main.cpp.o
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.externalram)))
                 0x0000000070000000                . = ALIGN (0x20)
 
-.text.csf       0x000000006001b958      0xea8
+.text.csf       0x000000006001bb18      0xce8
  FILL mask 0xff
                 0x000000006001bc00                . = ALIGN (0x400)
- *fill*         0x000000006001b958      0x2a8 ff
+ *fill*         0x000000006001bb18       0xe8 ff
  *(.csf)
  .csf           0x000000006001bc00      0xc00 ./build/./teensy4/bootdata.c.o
                 0x000000006001bc00                hab_csf
                 0x000000006001c800                __text_csf_end = .
                 0x0000000000000000                _stext = ADDR (.text.itcm)
-                0x0000000000016aa8                _etext = ((ADDR (.text.itcm) + SIZEOF (.text.itcm)) + SIZEOF (.ARM.exidx))
+                0x0000000000016c68                _etext = ((ADDR (.text.itcm) + SIZEOF (.text.itcm)) + SIZEOF (.ARM.exidx))
                 0x00000000600023ec                _stextload = LOADADDR (.text.itcm)
                 0x0000000020000000                _sdata = ADDR (.data)
                 0x0000000020002ac0                _edata = (ADDR (.data) + SIZEOF (.data))
-                0x0000000060018e98                _sdataload = LOADADDR (.data)
+                0x0000000060019058                _sdataload = LOADADDR (.data)
                 0x0000000020002ac0                _sbss = ADDR (.bss)
                 0x0000000020006cc0                _ebss = (ADDR (.bss) + SIZEOF (.bss))
                 0x000000002020ed60                _heap_start = (ADDR (.bss.dma) + SIZEOF (.bss.dma))
@@ -14882,14 +14894,14 @@ MotorController::getLeftTemperature()             ./build/./src/tug-controls/Mot
 MotorController::getLeftVelocity()                ./build/./src/tug-controls/MotorController.cpp.o
 MotorController::getRightCurrent()                ./build/./src/tug-controls/MotorController.cpp.o
 MotorController::getRightEncoderPosition()        ./build/./src/tug-controls/MotorController.cpp.o
-                                                  ./build/./src/main.cpp.o
 MotorController::getRightFaults()                 ./build/./src/tug-controls/MotorController.cpp.o
 MotorController::getRightTemperature()            ./build/./src/tug-controls/MotorController.cpp.o
 MotorController::getRightVelocity()               ./build/./src/tug-controls/MotorController.cpp.o
-MotorController::setSteering(float)               ./build/./src/tug-controls/MotorController.cpp.o
-MotorController::setThrottle(float)               ./build/./src/tug-controls/MotorController.cpp.o
+MotorController::printAllReadings()               ./build/./src/tug-controls/MotorController.cpp.o
                                                   ./build/./src/main.cpp.o
-MotorController::setThrottleAndSteering(float, float) ./build/./src/tug-controls/MotorController.cpp.o
+MotorController::setMotorCurrentLimit(float, float) ./build/./src/tug-controls/MotorController.cpp.o
+MotorController::setMotorSpeed(float, float)      ./build/./src/tug-controls/MotorController.cpp.o
+                                                  ./build/./src/main.cpp.o
 NullController::step(float (*) [3], float (*) [3], float (*) [3], float*) ./build/./src/controls/controller_manager.cpp.o
 OceanColors_p                                     ./build/./libraries/FastLED/src/colorpalettes.cpp.o
 Panic_Temp_isr                                    ./build/./teensy4/tempmon.c.o
@@ -14909,16 +14921,17 @@ Print::print(String const&)                       ./build/./teensy4/Print.cpp.o
 Print::print(long long)                           ./build/./teensy4/Print.cpp.o
 Print::print(long)                                ./build/./teensy4/Print.cpp.o
                                                   ./build/./src/sensors/rev_encoder.cpp.o
+                                                  ./build/./src/tug-controls/MotorController.cpp.o
                                                   ./build/./teensy4/CrashReport.cpp.o
                                                   ./build/./libraries/SdFat/src/ExFatLib/ExFatDbg.cpp.o
                                                   ./build/./libraries/Adafruit_Sensor/Adafruit_Sensor.cpp.o
 Print::printFloat(double, unsigned char)          ./build/./teensy4/Print.cpp.o
-                                                  ./build/./src/main.cpp.o
                                                   ./build/./src/sensors/d200.cpp.o
                                                   ./build/./src/sensors/rev_encoder.cpp.o
                                                   ./build/./src/sensors/buff_encoder.cpp.o
                                                   ./build/./src/sensors/IMUSensor.cpp.o
                                                   ./build/./src/sensors/ET16S.cpp.o
+                                                  ./build/./src/tug-controls/MotorController.cpp.o
                                                   ./build/./teensy4/CrashReport.cpp.o
                                                   ./build/./libraries/Adafruit_Sensor/Adafruit_Sensor.cpp.o
 Print::printNumber(unsigned long, unsigned char, unsigned char) ./build/./teensy4/Print.cpp.o
@@ -14961,6 +14974,7 @@ Print::println()                                  ./build/./teensy4/Print.cpp.o
                                                   ./build/./src/sensors/ICM20649.cpp.o
                                                   ./build/./src/sensors/dr16.cpp.o
                                                   ./build/./src/sensors/RefSystem.cpp.o
+                                                  ./build/./src/tug-controls/MotorController.cpp.o
                                                   ./build/./src/controls/state.cpp.o
                                                   ./build/./src/controls/estimator_manager.cpp.o
                                                   ./build/./src/comms/config_layer.cpp.o
@@ -15295,6 +15309,7 @@ Serial                                            ./build/./teensy4/usb_inst.cpp
                                                   ./build/./src/sensors/can/can_manager.cpp.o
                                                   ./build/./src/sensors/dr16.cpp.o
                                                   ./build/./src/sensors/RefSystem.cpp.o
+                                                  ./build/./src/tug-controls/MotorController.cpp.o
                                                   ./build/./src/utils/profiler.cpp.o
                                                   ./build/./src/controls/state.cpp.o
                                                   ./build/./src/controls/estimator_manager.cpp.o
@@ -15388,6 +15403,7 @@ SparkMaxESC::resetFaults()                        ./build/./src/tug-controls/Spa
 SparkMaxESC::sendCommand(ControlType, float)      ./build/./src/tug-controls/SparkMaxESC.cpp.o
 SparkMaxESC::setControl(ControlType, float)       ./build/./src/tug-controls/SparkMaxESC.cpp.o
 SparkMaxESC::setCurrentLimit(float)               ./build/./src/tug-controls/SparkMaxESC.cpp.o
+                                                  ./build/./src/tug-controls/MotorController.cpp.o
 SparkMaxESC::setPower(float)                      ./build/./src/tug-controls/SparkMaxESC.cpp.o
                                                   ./build/./src/tug-controls/MotorController.cpp.o
 SparkMaxESC::stop()                               ./build/./src/tug-controls/SparkMaxESC.cpp.o
@@ -19186,6 +19202,7 @@ usb_serial_write                                  ./build/./teensy4/usb_serial.c
                                                   ./build/./src/sensors/ET16S.cpp.o
                                                   ./build/./src/sensors/ICM20649.cpp.o
                                                   ./build/./src/sensors/RefSystem.cpp.o
+                                                  ./build/./src/tug-controls/MotorController.cpp.o
                                                   ./build/./src/controls/state.cpp.o
                                                   ./build/./src/controls/estimator_manager.cpp.o
                                                   ./build/./src/comms/config_layer.cpp.o

@@ -4,7 +4,7 @@
 #define GIT_INFO_H
 
 #define GIT_BRANCH "main"
-#define GIT_COMMIT_HASH "f0e7347284ce6dd2036042209ce0aef3f765a636"
-#define GIT_COMMIT_MSG "Can and motor controll implimented "
+#define GIT_COMMIT_HASH "2d3c21c07408931c6e423ec99cd00f942d5c6135"
+#define GIT_COMMIT_MSG "Motor changes "
 
 #endif // GIT_INFO_H
