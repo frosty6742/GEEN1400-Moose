@@ -1,42 +1,40 @@
 #pragma once
 
-#include <FlexCAN_T4.h>
+#include "CANManager.hpp"
 
 enum ControlType {
-  DUTY_CYCLE = 0,
-  VELOCITY = 1,
-  POSITION = 2,
-  CURRENT = 3,
-  VOLTAGE = 4
+    DUTY_CYCLE = 0,
+    VELOCITY = 1,
+    POSITION = 2,
+    CURRENT = 3
 };
 
 class SparkMaxESC {
 public:
-  SparkMaxESC(uint8_t canID, FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> &canBus);
-
-  void begin();
-  void setPower(float power);
-  void setControl(ControlType mode, float value);
-  void stop();
-
-  // Sensor Read Functions
-  float getEncoderPosition();
-  float getEncoderVelocity();
-  float getMotorCurrent();
-  float getMotorTemperature();
-  uint16_t getFaults();
-  uint16_t getStickyFaults();
-
-  // Configuration & Fault Management
-  void resetFaults();
-  void setCurrentLimit(float currentLimit);
+    SparkMaxESC(uint8_t canID);
+    
+    void begin();
+    void setPower(float power);
+    void setControl(ControlType mode, float value);
+    void stop();
+    
+    float getEncoderPosition();
+    float getEncoderVelocity();
+    float getMotorCurrent();
+    float getMotorTemperature();
+    
+    uint16_t getFaults();
+    uint16_t getStickyFaults();
+    void resetFaults();
+    
+    void setCurrentLimit(float currentLimit);
 
 private:
-  uint8_t sparkMaxID;
-  uint32_t sparkMaxCANID;
-  FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> &canBus;
+    uint8_t sparkMaxID;
+    uint32_t sparkMaxCANID;
 
-  void sendCommand(ControlType mode, float value);
-  float readResponse(uint32_t paramID);
+    void sendCommand(ControlType mode, float value);
+    float readResponse(uint32_t paramID);
 };
+
 

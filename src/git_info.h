@@ -4,7 +4,7 @@
 #define GIT_INFO_H
 
 #define GIT_BRANCH "main"
-#define GIT_COMMIT_HASH "a846d30ae79bff170f13afd197ee1fa0d9d4441c"
-#define GIT_COMMIT_MSG "updated can controler for 24 bit "
+#define GIT_COMMIT_HASH "8b659f73acce825af4e49df5039b68e5799a49f4"
+#define GIT_COMMIT_MSG "adafruit bno libaries added "
 
 #endif // GIT_INFO_H

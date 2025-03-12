@@ -1,7 +1,8 @@
 #include <Arduino.h>
 
 #include "git_info.h"
-#include "tug-controls/MotorController.hpp"
+#include "tug-controls/SparkMaxESC.hpp"
+#include "usb_serial.h"
 #include <FlexCAN_T4.h>
 #include <TeensyDebug.h>
 
@@ -10,8 +11,8 @@
 #define HEARTBEAT_FREQ 2
 
 // Declare global objects
-FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> can1;
-MotorController mControl(1, 2, can1); // Left ESC ID = 1, Right ESC ID = 2
+SparkMaxESC motor(1);
+// MotorController mControl(1, 2); // Left ESC ID = 1, Right ESC ID = 2
 
 // DONT put anything else in this function. It is not a setup function
 void print_logo() {
@@ -31,18 +32,22 @@ void print_logo() {
 int main() {
   Serial.begin(115200); // the serial monitor is actually always active (for
                         // debug use Serial.println & tycmd)
+  Serial.println("Serial Started");
   debug.begin(SerialUSB1);
   print_logo();
 
-  Serial.println("Initializing Flight Controller...");
-  mControl.begin();
+  Serial.println("Initializing Motor Controller...");
+  motor.begin();
 
   Serial.println("Entering main loop...\n");
 
+  delay(5000);
   // Main loop
   while (true) {
-    mControl.setMotorSpeed(0.2, 0.2); // INRANGE -1, 1
-    mControl.printAllReadings();
+    Serial.println(motor.getMotorTemperature());
+    //  mControl.getLeftTemperature();
+    //   mControl.setMotorSpeed(0.2, 0.2); // INRANGE -1, 1
+    //   mControl.printAllReadings();
   }
 
   return 0;

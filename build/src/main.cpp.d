@@ -11,8 +11,8 @@ build/./src/main.cpp.o: src/main.cpp teensy4/Arduino.h teensy4/WProgram.h \
  teensy4/usb_audio.h teensy4/usb_touch.h teensy4/WCharacter.h \
  teensy4/elapsedMillis.h teensy4/Arduino.h teensy4/IntervalTimer.h \
  teensy4/CrashReport.h teensy4/Printable.h teensy4/WString.h \
- src/git_info.h src/tug-controls/MotorController.hpp \
- src/tug-controls/SparkMaxESC.hpp libraries/FlexCAN_T4/FlexCAN_T4.h \
+ src/git_info.h src/tug-controls/SparkMaxESC.hpp \
+ src/tug-controls/CANManager.hpp libraries/FlexCAN_T4/FlexCAN_T4.h \
  libraries/FlexCAN_T4/circular_buffer.h \
  libraries/FlexCAN_T4/imxrt_flexcan.h libraries/FlexCAN_T4/FlexCAN_T4.tpp \
  libraries/FlexCAN_T4/FlexCAN_T4FD.tpp \
@@ -58,8 +58,8 @@ teensy4/CrashReport.h:
 teensy4/Printable.h:
 teensy4/WString.h:
 src/git_info.h:
-src/tug-controls/MotorController.hpp:
 src/tug-controls/SparkMaxESC.hpp:
+src/tug-controls/CANManager.hpp:
 libraries/FlexCAN_T4/FlexCAN_T4.h:
 libraries/FlexCAN_T4/circular_buffer.h:
 libraries/FlexCAN_T4/imxrt_flexcan.h:

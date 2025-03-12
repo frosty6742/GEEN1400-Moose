@@ -1,12 +1,10 @@
 #pragma once
 
 #include "SparkMaxESC.hpp"
-#include <FlexCAN_T4.h>
 
 class MotorController {
 public:
-  MotorController(uint8_t leftMotorID, uint8_t rightMotorID,
-                  FlexCAN_T4<CAN1, RX_SIZE_256, TX_SIZE_16> &canBus);
+  MotorController(uint8_t leftMotorID, uint8_t rightMotorID);
 
   void begin();
   void setMotorSpeed(float left, float right);
