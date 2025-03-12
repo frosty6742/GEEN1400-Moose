@@ -1,9 +1,8 @@
 #include <Arduino.h>
 
 #include "git_info.h"
-#include "tug-controls/SparkMaxESC.hpp"
+#include "SparkMaxESC.hpp"
 #include "usb_serial.h"
-#include <FlexCAN_T4.h>
 #include <TeensyDebug.h>
 
 // Loop constants
@@ -41,10 +40,11 @@ int main() {
 
   Serial.println("Entering main loop...\n");
 
-  delay(5000);
+  delay(1000);
   // Main loop
   while (true) {
     Serial.println(motor.getMotorTemperature());
+    motor.setPower(0.2);
     //  mControl.getLeftTemperature();
     //   mControl.setMotorSpeed(0.2, 0.2); // INRANGE -1, 1
     //   mControl.printAllReadings();

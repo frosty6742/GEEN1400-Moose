@@ -1,0 +1,418 @@
+
+build/./src/sensors/BNO085.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 BNO085.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .rodata._ZN15BNO085Interface18processSensorEventEv.part.0.str1.4	00000000 .rodata._ZN15BNO085Interface18processSensorEventEv.part.0.str1.4
+00000000 l    d  .text._ZN15BNO085Interface18processSensorEventEv.part.0	00000000 .text._ZN15BNO085Interface18processSensorEventEv.part.0
+00000000 l     F .text._ZN15BNO085Interface18processSensorEventEv.part.0	00000084 _ZN15BNO085Interface18processSensorEventEv.part.0
+00000000 l    d  .text._ZN15BNO085InterfaceC2Ea	00000000 .text._ZN15BNO085InterfaceC2Ea
+00000000 l    d  .rodata._ZN15BNO085Interface10setReportsEv.str1.4	00000000 .rodata._ZN15BNO085Interface10setReportsEv.str1.4
+00000000 l    d  .text._ZN15BNO085Interface10setReportsEv	00000000 .text._ZN15BNO085Interface10setReportsEv
+00000000 l    d  .rodata._ZN15BNO085Interface6updateEv.str1.4	00000000 .rodata._ZN15BNO085Interface6updateEv.str1.4
+00000000 l    d  .text._ZN15BNO085Interface6updateEv	00000000 .text._ZN15BNO085Interface6updateEv
+00000000 l    d  .rodata._ZN15BNO085Interface16printProductInfoEv.str1.4	00000000 .rodata._ZN15BNO085Interface16printProductInfoEv.str1.4
+00000000 l    d  .text._ZN15BNO085Interface16printProductInfoEv	00000000 .text._ZN15BNO085Interface16printProductInfoEv
+00000000 l    d  .rodata._ZN15BNO085Interface5beginEv.str1.4	00000000 .rodata._ZN15BNO085Interface5beginEv.str1.4
+00000000 l    d  .text._ZN15BNO085Interface5beginEv	00000000 .text._ZN15BNO085Interface5beginEv
+00000000 l    d  .text._ZN15BNO085Interface18processSensorEventEv	00000000 .text._ZN15BNO085Interface18processSensorEventEv
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000         *UND*	00000000 usb_serial_write
+00000000         *UND*	00000000 _ZN5Print10printFloatEdh
+00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000         *UND*	00000000 Serial
+00000000 g     F .text._ZN15BNO085InterfaceC2Ea	0000000c _ZN15BNO085InterfaceC2Ea
+00000000         *UND*	00000000 _ZN15Adafruit_BNO08xC1Ea
+00000000 g     F .text._ZN15BNO085InterfaceC2Ea	0000000c _ZN15BNO085InterfaceC1Ea
+00000000 g     F .text._ZN15BNO085Interface10setReportsEv	00000040 _ZN15BNO085Interface10setReportsEv
+00000000         *UND*	00000000 _ZN15Adafruit_BNO08x12enableReportEhm
+00000000 g     F .text._ZN15BNO085Interface6updateEv	00000050 _ZN15BNO085Interface6updateEv
+00000000         *UND*	00000000 delay
+00000000         *UND*	00000000 _ZN15Adafruit_BNO08x8wasResetEv
+00000000         *UND*	00000000 _ZN15Adafruit_BNO08x14getSensorEventEP15sh2_SensorValue
+00000000 g     F .text._ZN15BNO085Interface16printProductInfoEv	000000b4 _ZN15BNO085Interface16printProductInfoEv
+00000000         *UND*	00000000 _ZN5Print11printNumberEmhh
+00000000         *UND*	00000000 _ZN5Print5printEl
+00000000 g     F .text._ZN15BNO085Interface5beginEv	000000e4 _ZN15BNO085Interface5beginEv
+00000000         *UND*	00000000 yield
+00000000         *UND*	00000000 _ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel
+00000000         *UND*	00000000 systick_millis_count
+00000000         *UND*	00000000 usb_configuration
+00000000         *UND*	00000000 usb_cdc_line_rtsdtr
+00000000         *UND*	00000000 Wire
+00000000         *UND*	00000000 usb_cdc_line_rtsdtr_millis
+00000000 g     F .text._ZN15BNO085Interface18processSensorEventEv	0000000e _ZN15BNO085Interface18processSensorEventEv
+
+
+Contents of section .rodata._ZN15BNO085Interface18processSensorEventEv.part.0.str1.4:
+ 0000 47616d65 20526f74 6174696f 6e205665  Game Rotation Ve
+ 0010 63746f72 202d2072 3a200000 20693a20  ctor - r: .. i: 
+ 0020 00000000 206a3a20 00000000 206b3a20  .... j: .... k: 
+ 0030 00                                   .               
+Contents of section .text._ZN15BNO085Interface18processSensorEventEv.part.0:
+ 0000 38b50446 1a211a48 1a4dfff7 feff94ed  8..F.!.H.M......
+ 0010 240a0221 2846b7ee c00afff7 feff0421  $..!(F.........!
+ 0020 1548fff7 feff94ed 210a0221 2846b7ee  .H......!..!(F..
+ 0030 c00afff7 feff0421 1048fff7 feff94ed  .......!.H......
+ 0040 220a0221 2846b7ee c00afff7 feff0421  "..!(F.........!
+ 0050 0b48fff7 feff94ed 230a2846 0221b7ee  .H......#.(F.!..
+ 0060 c00afff7 feff2846 bde83840 fff7febf  ......(F..8@....
+ 0070 00000000 00000000 1c000000 24000000  ............$...
+ 0080 2c000000                             ,...            
+Contents of section .text._ZN15BNO085InterfaceC2Ea:
+ 0000 10b50446 fff7feff 204610bd           ...F.... F..    
+Contents of section .rodata._ZN15BNO085Interface10setReportsEv.str1.4:
+ 0000 53657474 696e6720 75702073 656e736f  Setting up senso
+ 0010 72207265 706f7274 732e2e2e 00000000  r reports.......
+ 0020 4661696c 65642074 6f20656e 61626c65  Failed to enable
+ 0030 2047616d 6520526f 74617469 6f6e2056   Game Rotation V
+ 0040 6563746f 7200                        ector.          
+Contents of section .text._ZN15BNO085Interface10setReportsEv:
+ 0000 10b51c21 04460b48 fff7feff 0a48fff7  ...!.F.H.....H..
+ 0010 feff42f2 10720821 2046fff7 feff00b1  ..B..r.! F......
+ 0020 10bd2521 0548fff7 feff0348 bde81040  ..%!.H.....H...@
+ 0030 fff7febf 00000000 00000000 20000000  ............ ...
+Contents of section .rodata._ZN15BNO085Interface6updateEv.str1.4:
+ 0000 53656e73 6f722077 61732072 65736574  Sensor was reset
+ 0010 2e205265 636f6e66 69677572 696e6720  . Reconfiguring 
+ 0020 7265706f 7274732e 2e2e00             reports....     
+Contents of section .text._ZN15BNO085Interface6updateEv:
+ 0000 10b50446 0a20fff7 feff2046 fff7feff  ...F. .... F....
+ 0010 50b904f1 70012046 fff7feff 18b194f8  P...p. F........
+ 0020 7030082b 0bd010bd 2a210748 fff7feff  p0.+....*!.H....
+ 0030 0648fff7 feff2046 fff7feff e9e72046  .H.... F...... F
+ 0040 bde81040 fff7febf 00000000 00000000  ...@............
+Contents of section .rodata._ZN15BNO085Interface16printProductInfoEv.str1.4:
+ 0000 50617274 20000000 3a205665 7273696f  Part ...: Versio
+ 0010 6e200000 2e000000 20427569 6c642000  n ...... Build .
+Contents of section .text._ZN15BNO085Interface16printProductInfoEv:
+ 0000 90f85430 002b49d0 2de9f047 80460446  ..T0.+I.-..G.F.F
+ 0010 0026dff8 98a0224d dff89490 214f0521  .&...."M....!O.!
+ 0020 5046fff7 feff1034 54f8081c 00230a22  PF.....4T....#."
+ 0030 2846fff7 feff0a21 48460136 fff7feff  (F.....!HF.6....
+ 0040 00230a22 14f80b1c 2846fff7 feff0121  .#."....(F.....!
+ 0050 3846fff7 feff0023 0a2214f8 0a1c2846  8F.....#."....(F
+ 0060 fff7feff 01213846 fff7feff 21882846  .....!8F....!.(F
+ 0070 fff7feff 07210c48 fff7feff 002354f8  .....!.H.....#T.
+ 0080 041c0a22 2846fff7 feff2846 fff7feff  ..."(F....(F....
+ 0090 98f85430 b342c2dc bde8f087 704700bf  ..T0.B......pG..
+ 00a0 00000000 14000000 18000000 00000000  ................
+ 00b0 08000000                             ....            
+Contents of section .rodata._ZN15BNO085Interface5beginEv.str1.4:
+ 0000 496e6974 69616c69 7a696e67 20424e4f  Initializing BNO
+ 0010 3038352e 2e2e0000 4661696c 65642074  085.....Failed t
+ 0020 6f20696e 69746961 6c697a65 20424e4f  o initialize BNO
+ 0030 30387800 424e4f30 38782049 6e697469  08x.BNO08x Initi
+ 0040 616c697a 65642100                    alized!.        
+Contents of section .text._ZN15BNO085Interface5beginEv:
+ 0000 2de9f047 2e4d8246 2e4c40f2 ee282e4f  -..G.M.F.L@..(.O
+ 0010 2e68dff8 cc90fff7 feff2378 002b35d0  .h........#x.+5.
+ 0020 3b78da07 32d52b68 d9f80020 9b1a0e2b  ;x..2.+h... ...+
+ 0030 2cd9fff7 feff2378 0a208bb3 3b78db07  ,.....#x. ..;x..
+ 0040 2ed52b68 d9f80020 9b1a0e2b 28d91621  ..+h... ...+(..!
+ 0050 1e48fff7 feff1e48 fff7feff 00231d4a  .H.....H.....#.J
+ 0060 4a215046 fff7feff 0446f8b1 13211a48  J!PF.....F...!.H
+ 0070 fff7feff 1648fff7 feff5046 fff7feff  .....H....PF....
+ 0080 5046fff7 feff2046 bde8f087 2b682278  PF.... F....+h"x
+ 0090 9b1b42b1 b3f5fa6f cbd8fff7 feffbae7  ..B....o........
+ 00a0 fff7feff c5e74345 f7d9c2e7 1b210b48  ......CE.....!.H
+ 00b0 fff7feff 0648fff7 feff2046 bde8f087  .....H.... F....
+ 00c0 00000000 00000000 00000000 00000000  ................
+ 00d0 00000000 00000000 34000000 18000000  ........4.......
+ 00e0 00000000                             ....            
+Contents of section .text._ZN15BNO085Interface18processSensorEventEv:
+ 0000 90f87030 082b00d0 7047fff7 febf00bf  ..p0.+..pG......
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN15BNO085Interface18processSensorEventEv.part.0:
+
+00000000 <_ZN15BNO085Interface18processSensorEventEv.part.0>:
+   0:	b538      	push	{r3, r4, r5, lr}
+   2:	4604      	mov	r4, r0
+   4:	211a      	movs	r1, #26
+   6:	481a      	ldr	r0, [pc, #104]	; (70 <_ZN15BNO085Interface18processSensorEventEv.part.0+0x70>)
+   8:	4d1a      	ldr	r5, [pc, #104]	; (74 <_ZN15BNO085Interface18processSensorEventEv.part.0+0x74>)
+   a:	f7ff fffe 	bl	0 <usb_serial_write>
+   e:	ed94 0a24 	vldr	s0, [r4, #144]	; 0x90
+  12:	2102      	movs	r1, #2
+  14:	4628      	mov	r0, r5
+  16:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+  1a:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
+  1e:	2104      	movs	r1, #4
+  20:	4815      	ldr	r0, [pc, #84]	; (78 <_ZN15BNO085Interface18processSensorEventEv.part.0+0x78>)
+  22:	f7ff fffe 	bl	0 <usb_serial_write>
+  26:	ed94 0a21 	vldr	s0, [r4, #132]	; 0x84
+  2a:	2102      	movs	r1, #2
+  2c:	4628      	mov	r0, r5
+  2e:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+  32:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
+  36:	2104      	movs	r1, #4
+  38:	4810      	ldr	r0, [pc, #64]	; (7c <_ZN15BNO085Interface18processSensorEventEv.part.0+0x7c>)
+  3a:	f7ff fffe 	bl	0 <usb_serial_write>
+  3e:	ed94 0a22 	vldr	s0, [r4, #136]	; 0x88
+  42:	2102      	movs	r1, #2
+  44:	4628      	mov	r0, r5
+  46:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+  4a:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
+  4e:	2104      	movs	r1, #4
+  50:	480b      	ldr	r0, [pc, #44]	; (80 <_ZN15BNO085Interface18processSensorEventEv.part.0+0x80>)
+  52:	f7ff fffe 	bl	0 <usb_serial_write>
+  56:	ed94 0a23 	vldr	s0, [r4, #140]	; 0x8c
+  5a:	4628      	mov	r0, r5
+  5c:	2102      	movs	r1, #2
+  5e:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
+  62:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
+  66:	4628      	mov	r0, r5
+  68:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  6c:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  70:	00000000 	.word	0x00000000
+  74:	00000000 	.word	0x00000000
+  78:	0000001c 	.word	0x0000001c
+  7c:	00000024 	.word	0x00000024
+  80:	0000002c 	.word	0x0000002c
+
+Disassembly of section .text._ZN15BNO085InterfaceC2Ea:
+
+00000000 <_ZN15BNO085InterfaceC1Ea>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <_ZN15Adafruit_BNO08xC1Ea>
+   8:	4620      	mov	r0, r4
+   a:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN15BNO085Interface10setReportsEv:
+
+00000000 <_ZN15BNO085Interface10setReportsEv>:
+   0:	b510      	push	{r4, lr}
+   2:	211c      	movs	r1, #28
+   4:	4604      	mov	r4, r0
+   6:	480b      	ldr	r0, [pc, #44]	; (34 <_ZN15BNO085Interface10setReportsEv+0x34>)
+   8:	f7ff fffe 	bl	0 <usb_serial_write>
+   c:	480a      	ldr	r0, [pc, #40]	; (38 <_ZN15BNO085Interface10setReportsEv+0x38>)
+   e:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  12:	f242 7210 	movw	r2, #10000	; 0x2710
+  16:	2108      	movs	r1, #8
+  18:	4620      	mov	r0, r4
+  1a:	f7ff fffe 	bl	0 <_ZN15Adafruit_BNO08x12enableReportEhm>
+  1e:	b100      	cbz	r0, 22 <_ZN15BNO085Interface10setReportsEv+0x22>
+  20:	bd10      	pop	{r4, pc}
+  22:	2125      	movs	r1, #37	; 0x25
+  24:	4805      	ldr	r0, [pc, #20]	; (3c <_ZN15BNO085Interface10setReportsEv+0x3c>)
+  26:	f7ff fffe 	bl	0 <usb_serial_write>
+  2a:	4803      	ldr	r0, [pc, #12]	; (38 <_ZN15BNO085Interface10setReportsEv+0x38>)
+  2c:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  30:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  34:	00000000 	.word	0x00000000
+  38:	00000000 	.word	0x00000000
+  3c:	00000020 	.word	0x00000020
+
+Disassembly of section .text._ZN15BNO085Interface6updateEv:
+
+00000000 <_ZN15BNO085Interface6updateEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	200a      	movs	r0, #10
+   6:	f7ff fffe 	bl	0 <delay>
+   a:	4620      	mov	r0, r4
+   c:	f7ff fffe 	bl	0 <_ZN15Adafruit_BNO08x8wasResetEv>
+  10:	b950      	cbnz	r0, 28 <_ZN15BNO085Interface6updateEv+0x28>
+  12:	f104 0170 	add.w	r1, r4, #112	; 0x70
+  16:	4620      	mov	r0, r4
+  18:	f7ff fffe 	bl	0 <_ZN15Adafruit_BNO08x14getSensorEventEP15sh2_SensorValue>
+  1c:	b118      	cbz	r0, 26 <_ZN15BNO085Interface6updateEv+0x26>
+  1e:	f894 3070 	ldrb.w	r3, [r4, #112]	; 0x70
+  22:	2b08      	cmp	r3, #8
+  24:	d00b      	beq.n	3e <_ZN15BNO085Interface6updateEv+0x3e>
+  26:	bd10      	pop	{r4, pc}
+  28:	212a      	movs	r1, #42	; 0x2a
+  2a:	4807      	ldr	r0, [pc, #28]	; (48 <_ZN15BNO085Interface6updateEv+0x48>)
+  2c:	f7ff fffe 	bl	0 <usb_serial_write>
+  30:	4806      	ldr	r0, [pc, #24]	; (4c <_ZN15BNO085Interface6updateEv+0x4c>)
+  32:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  36:	4620      	mov	r0, r4
+  38:	f7ff fffe 	bl	0 <_ZN15BNO085Interface6updateEv>
+  3c:	e7e9      	b.n	12 <_ZN15BNO085Interface6updateEv+0x12>
+  3e:	4620      	mov	r0, r4
+  40:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  44:	f7ff bffe 	b.w	0 <_ZN15BNO085Interface6updateEv>
+  48:	00000000 	.word	0x00000000
+  4c:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN15BNO085Interface16printProductInfoEv:
+
+00000000 <_ZN15BNO085Interface16printProductInfoEv>:
+   0:	f890 3054 	ldrb.w	r3, [r0, #84]	; 0x54
+   4:	2b00      	cmp	r3, #0
+   6:	d049      	beq.n	9c <_ZN15BNO085Interface16printProductInfoEv+0x9c>
+   8:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   c:	4680      	mov	r8, r0
+   e:	4604      	mov	r4, r0
+  10:	2600      	movs	r6, #0
+  12:	f8df a098 	ldr.w	sl, [pc, #152]	; ac <_ZN15BNO085Interface16printProductInfoEv+0xac>
+  16:	4d22      	ldr	r5, [pc, #136]	; (a0 <_ZN15BNO085Interface16printProductInfoEv+0xa0>)
+  18:	f8df 9094 	ldr.w	r9, [pc, #148]	; b0 <_ZN15BNO085Interface16printProductInfoEv+0xb0>
+  1c:	4f21      	ldr	r7, [pc, #132]	; (a4 <_ZN15BNO085Interface16printProductInfoEv+0xa4>)
+  1e:	2105      	movs	r1, #5
+  20:	4650      	mov	r0, sl
+  22:	f7ff fffe 	bl	0 <usb_serial_write>
+  26:	3410      	adds	r4, #16
+  28:	f854 1c08 	ldr.w	r1, [r4, #-8]
+  2c:	2300      	movs	r3, #0
+  2e:	220a      	movs	r2, #10
+  30:	4628      	mov	r0, r5
+  32:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  36:	210a      	movs	r1, #10
+  38:	4648      	mov	r0, r9
+  3a:	3601      	adds	r6, #1
+  3c:	f7ff fffe 	bl	0 <usb_serial_write>
+  40:	2300      	movs	r3, #0
+  42:	220a      	movs	r2, #10
+  44:	f814 1c0b 	ldrb.w	r1, [r4, #-11]
+  48:	4628      	mov	r0, r5
+  4a:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  4e:	2101      	movs	r1, #1
+  50:	4638      	mov	r0, r7
+  52:	f7ff fffe 	bl	0 <usb_serial_write>
+  56:	2300      	movs	r3, #0
+  58:	220a      	movs	r2, #10
+  5a:	f814 1c0a 	ldrb.w	r1, [r4, #-10]
+  5e:	4628      	mov	r0, r5
+  60:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  64:	2101      	movs	r1, #1
+  66:	4638      	mov	r0, r7
+  68:	f7ff fffe 	bl	0 <usb_serial_write>
+  6c:	8821      	ldrh	r1, [r4, #0]
+  6e:	4628      	mov	r0, r5
+  70:	f7ff fffe 	bl	0 <_ZN5Print5printEl>
+  74:	2107      	movs	r1, #7
+  76:	480c      	ldr	r0, [pc, #48]	; (a8 <_ZN15BNO085Interface16printProductInfoEv+0xa8>)
+  78:	f7ff fffe 	bl	0 <usb_serial_write>
+  7c:	2300      	movs	r3, #0
+  7e:	f854 1c04 	ldr.w	r1, [r4, #-4]
+  82:	220a      	movs	r2, #10
+  84:	4628      	mov	r0, r5
+  86:	f7ff fffe 	bl	0 <_ZN5Print11printNumberEmhh>
+  8a:	4628      	mov	r0, r5
+  8c:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  90:	f898 3054 	ldrb.w	r3, [r8, #84]	; 0x54
+  94:	42b3      	cmp	r3, r6
+  96:	dcc2      	bgt.n	1e <_ZN15BNO085Interface16printProductInfoEv+0x1e>
+  98:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  9c:	4770      	bx	lr
+  9e:	bf00      	nop
+  a0:	00000000 	.word	0x00000000
+  a4:	00000014 	.word	0x00000014
+  a8:	00000018 	.word	0x00000018
+  ac:	00000000 	.word	0x00000000
+  b0:	00000008 	.word	0x00000008
+
+Disassembly of section .text._ZN15BNO085Interface5beginEv:
+
+00000000 <_ZN15BNO085Interface5beginEv>:
+   0:	e92d 47f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, lr}
+   4:	4d2e      	ldr	r5, [pc, #184]	; (c0 <_ZN15BNO085Interface5beginEv+0xc0>)
+   6:	4682      	mov	sl, r0
+   8:	4c2e      	ldr	r4, [pc, #184]	; (c4 <_ZN15BNO085Interface5beginEv+0xc4>)
+   a:	f240 28ee 	movw	r8, #750	; 0x2ee
+   e:	4f2e      	ldr	r7, [pc, #184]	; (c8 <_ZN15BNO085Interface5beginEv+0xc8>)
+  10:	682e      	ldr	r6, [r5, #0]
+  12:	f8df 90cc 	ldr.w	r9, [pc, #204]	; e0 <_ZN15BNO085Interface5beginEv+0xe0>
+  16:	f7ff fffe 	bl	0 <yield>
+  1a:	7823      	ldrb	r3, [r4, #0]
+  1c:	2b00      	cmp	r3, #0
+  1e:	d035      	beq.n	8c <_ZN15BNO085Interface5beginEv+0x8c>
+  20:	783b      	ldrb	r3, [r7, #0]
+  22:	07da      	lsls	r2, r3, #31
+  24:	d532      	bpl.n	8c <_ZN15BNO085Interface5beginEv+0x8c>
+  26:	682b      	ldr	r3, [r5, #0]
+  28:	f8d9 2000 	ldr.w	r2, [r9]
+  2c:	1a9b      	subs	r3, r3, r2
+  2e:	2b0e      	cmp	r3, #14
+  30:	d92c      	bls.n	8c <_ZN15BNO085Interface5beginEv+0x8c>
+  32:	f7ff fffe 	bl	0 <yield>
+  36:	7823      	ldrb	r3, [r4, #0]
+  38:	200a      	movs	r0, #10
+  3a:	b38b      	cbz	r3, a0 <_ZN15BNO085Interface5beginEv+0xa0>
+  3c:	783b      	ldrb	r3, [r7, #0]
+  3e:	07db      	lsls	r3, r3, #31
+  40:	d52e      	bpl.n	a0 <_ZN15BNO085Interface5beginEv+0xa0>
+  42:	682b      	ldr	r3, [r5, #0]
+  44:	f8d9 2000 	ldr.w	r2, [r9]
+  48:	1a9b      	subs	r3, r3, r2
+  4a:	2b0e      	cmp	r3, #14
+  4c:	d928      	bls.n	a0 <_ZN15BNO085Interface5beginEv+0xa0>
+  4e:	2116      	movs	r1, #22
+  50:	481e      	ldr	r0, [pc, #120]	; (cc <_ZN15BNO085Interface5beginEv+0xcc>)
+  52:	f7ff fffe 	bl	0 <usb_serial_write>
+  56:	481e      	ldr	r0, [pc, #120]	; (d0 <_ZN15BNO085Interface5beginEv+0xd0>)
+  58:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  5c:	2300      	movs	r3, #0
+  5e:	4a1d      	ldr	r2, [pc, #116]	; (d4 <_ZN15BNO085Interface5beginEv+0xd4>)
+  60:	214a      	movs	r1, #74	; 0x4a
+  62:	4650      	mov	r0, sl
+  64:	f7ff fffe 	bl	0 <_ZN15Adafruit_BNO08x9begin_I2CEhP7TwoWirel>
+  68:	4604      	mov	r4, r0
+  6a:	b1f8      	cbz	r0, ac <_ZN15BNO085Interface5beginEv+0xac>
+  6c:	2113      	movs	r1, #19
+  6e:	481a      	ldr	r0, [pc, #104]	; (d8 <_ZN15BNO085Interface5beginEv+0xd8>)
+  70:	f7ff fffe 	bl	0 <usb_serial_write>
+  74:	4816      	ldr	r0, [pc, #88]	; (d0 <_ZN15BNO085Interface5beginEv+0xd0>)
+  76:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  7a:	4650      	mov	r0, sl
+  7c:	f7ff fffe 	bl	0 <_ZN15BNO085Interface5beginEv>
+  80:	4650      	mov	r0, sl
+  82:	f7ff fffe 	bl	0 <_ZN15BNO085Interface5beginEv>
+  86:	4620      	mov	r0, r4
+  88:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  8c:	682b      	ldr	r3, [r5, #0]
+  8e:	7822      	ldrb	r2, [r4, #0]
+  90:	1b9b      	subs	r3, r3, r6
+  92:	b142      	cbz	r2, a6 <_ZN15BNO085Interface5beginEv+0xa6>
+  94:	f5b3 6ffa 	cmp.w	r3, #2000	; 0x7d0
+  98:	d8cb      	bhi.n	32 <_ZN15BNO085Interface5beginEv+0x32>
+  9a:	f7ff fffe 	bl	0 <yield>
+  9e:	e7ba      	b.n	16 <_ZN15BNO085Interface5beginEv+0x16>
+  a0:	f7ff fffe 	bl	0 <delay>
+  a4:	e7c5      	b.n	32 <_ZN15BNO085Interface5beginEv+0x32>
+  a6:	4543      	cmp	r3, r8
+  a8:	d9f7      	bls.n	9a <_ZN15BNO085Interface5beginEv+0x9a>
+  aa:	e7c2      	b.n	32 <_ZN15BNO085Interface5beginEv+0x32>
+  ac:	211b      	movs	r1, #27
+  ae:	480b      	ldr	r0, [pc, #44]	; (dc <_ZN15BNO085Interface5beginEv+0xdc>)
+  b0:	f7ff fffe 	bl	0 <usb_serial_write>
+  b4:	4806      	ldr	r0, [pc, #24]	; (d0 <_ZN15BNO085Interface5beginEv+0xd0>)
+  b6:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  ba:	4620      	mov	r0, r4
+  bc:	e8bd 87f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, pc}
+  c0:	00000000 	.word	0x00000000
+  c4:	00000000 	.word	0x00000000
+  c8:	00000000 	.word	0x00000000
+  cc:	00000000 	.word	0x00000000
+  d0:	00000000 	.word	0x00000000
+  d4:	00000000 	.word	0x00000000
+  d8:	00000034 	.word	0x00000034
+  dc:	00000018 	.word	0x00000018
+  e0:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN15BNO085Interface18processSensorEventEv:
+
+00000000 <_ZN15BNO085Interface18processSensorEventEv>:
+   0:	f890 3070 	ldrb.w	r3, [r0, #112]	; 0x70
+   4:	2b08      	cmp	r3, #8
+   6:	d000      	beq.n	a <_ZN15BNO085Interface18processSensorEventEv+0xa>
+   8:	4770      	bx	lr
+   a:	f7ff bffe 	b.w	0 <_ZN15BNO085Interface18processSensorEventEv>
+   e:	bf00      	nop

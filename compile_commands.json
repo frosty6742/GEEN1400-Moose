@@ -8,9 +8,9 @@
       "./tools/git_scraper",
       "./tools/git_scraper.cpp"
     ],
-    "directory": "/home/artemis/Desktop/firmware",
-    "file": "/home/artemis/Desktop/firmware/tools/git_scraper.cpp",
-    "output": "/home/artemis/Desktop/firmware/tools/git_scraper"
+    "directory": "/home/artemis/Desktop/GEEN1400-Moose",
+    "file": "/home/artemis/Desktop/GEEN1400-Moose/tools/git_scraper.cpp",
+    "output": "/home/artemis/Desktop/GEEN1400-Moose/tools/git_scraper"
   },
   {
     "arguments": [
@@ -24,13 +24,11 @@
       "-I./libraries/FlexCAN_T4",
       "-I./libraries/Adafruit_Sensor",
       "-I./libraries/VL53L4CD",
-      "-I./libraries/FlexIO_t4",
       "-I./libraries/SD",
       "-I./libraries/TeensyDebug",
       "-I./libraries/TeensyDebug/src",
       "-I./libraries/QNEthernet",
       "-I./libraries/QNEthernet/src",
-      "-I./libraries/Teensy_Camera",
       "-I./libraries/Adafruit_LSM6DS",
       "-I./libraries/FastLED",
       "-I./libraries/FastLED/src",
@@ -41,9 +39,8 @@
       "-I./libraries/Adafruit_LIS3MDL",
       "-I./libraries/FreqMeasureMulti",
       "-I./libraries/FreqMeasureMulti/docs",
-      "-I./libraries/PWMServo-master",
+      "-I./libraries/Adafruit_BNO08x",
       "-I./libraries/Adafruit_ICM20X",
-      "-I./libraries/PID_v1",
       "-I./libraries/unity",
       "-I./libraries/Wire",
       "-I./libraries/Wire/utility",
@@ -51,9 +48,11 @@
       "-I./src/filters",
       "-I./src/comms",
       "-I./src/controls",
+      "-I./src/can",
       "-I./src/utils",
+      "-I./src/tug-controls",
       "-I./src/sensors",
-      "-I./src/dart",
+      "-I./src/sensors/can",
       "-DF_CPU=600000000",
       "-DUSB_CUSTOM",
       "-DLAYOUT_US_ENGLISH",
@@ -64,6 +63,7 @@
       "-ffunction-sections",
       "-fdata-sections",
       "-O2",
+      "--specs=nano.specs",
       "-mcpu=cortex-m7",
       "-mfloat-abi=hard",
       "-mfpu=fpv5-d16",
@@ -77,14 +77,13 @@
       "-Wno-trigraphs",
       "-Wno-comment",
       "-Wall",
-      "-Werror",
       "-c",
       "-o",
-      "build/./src/dart/ServoController.cpp.o",
-      "src/dart/ServoController.cpp"
+      "build/./src/main.cpp.o",
+      "src/main.cpp"
     ],
-    "directory": "/home/artemis/Desktop/firmware",
-    "file": "/home/artemis/Desktop/firmware/src/dart/ServoController.cpp",
-    "output": "/home/artemis/Desktop/firmware/build/src/dart/ServoController.cpp.o"
+    "directory": "/home/artemis/Desktop/GEEN1400-Moose",
+    "file": "/home/artemis/Desktop/GEEN1400-Moose/src/main.cpp",
+    "output": "/home/artemis/Desktop/GEEN1400-Moose/build/src/main.cpp.o"
   }
 ]
