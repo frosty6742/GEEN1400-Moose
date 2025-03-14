@@ -12,10 +12,10 @@ SYMBOL TABLE:
 00000000 l    d  .text._Z10print_logov	00000000 .text._Z10print_logov
 00000000 l    d  .rodata.main.str1.4	00000000 .rodata.main.str1.4
 00000000 l    d  .text.startup.main	00000000 .text.startup.main
-00000000 l    d  .text.startup._GLOBAL__sub_I_motor	00000000 .text.startup._GLOBAL__sub_I_motor
-00000000 l     F .text.startup._GLOBAL__sub_I_motor	0000000c _GLOBAL__sub_I_motor
+00000000 l    d  .text.startup._GLOBAL__sub_I_smotor	00000000 .text.startup._GLOBAL__sub_I_smotor
+00000000 l     F .text.startup._GLOBAL__sub_I_smotor	0000000c _GLOBAL__sub_I_smotor
 00000000 l    d  .init_array	00000000 .init_array
-00000000 l    d  .bss.motor	00000000 .bss.motor
+00000000 l    d  .bss.smotor	00000000 .bss.smotor
 00000000 l    d  .comment	00000000 .comment
 00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
 00000000         *UND*	00000000 strlen
@@ -29,17 +29,15 @@ SYMBOL TABLE:
 00000000         *UND*	00000000 systick_millis_count
 00000000         *UND*	00000000 usb_cdc_line_rtsdtr_millis
 00000000         *UND*	00000000 Serial
-00000000 g     F .text.startup.main	000000d8 main
+00000000 g     F .text.startup.main	000000bc main
 00000000         *UND*	00000000 _ZN5Debug5beginEP6Stream
-00000000         *UND*	00000000 _ZN11SparkMaxESC5beginEv
 00000000         *UND*	00000000 delay
-00000000         *UND*	00000000 _ZN11SparkMaxESC19getMotorTemperatureEv
-00000000         *UND*	00000000 _ZN5Print10printFloatEdh
-00000000         *UND*	00000000 _ZN11SparkMaxESC8setPowerEf
+00000000         *UND*	00000000 _ZN11SparkMaxPWM5beginEv
+00000000         *UND*	00000000 _ZN11SparkMaxPWM8setSpeedEf
 00000000         *UND*	00000000 SerialUSB1
 00000000         *UND*	00000000 debug
-00000000         *UND*	00000000 _ZN11SparkMaxESCC1Eh
-00000000 g     O .bss.motor	00000008 motor
+00000000         *UND*	00000000 _ZN11SparkMaxPWMC1Ei
+00000000 g     O .bss.smotor	0000000c smotor
 
 
 Contents of section .text._ZN5Print7printlnEPKc.isra.0:
@@ -49,21 +47,19 @@ Contents of section .text._ZN5Print7printlnEPKc.isra.0:
 Contents of section .rodata._Z10print_logov.str1.4:
  0000 1b5b306d 00000000 0a1b5b31 3b39326d  .[0m......[1;92m
  0010 46572056 65722e20 322e312e 30000000  FW Ver. 2.1.0...
- 0020 32323a34 343a3531 00000000 4d617220  22:44:51....Mar 
- 0030 31312032 30323500 0a4c6173 74204275  11 2025..Last Bu
+ 0020 31323a32 353a3537 00000000 4d617220  12:25:57....Mar 
+ 0030 31332032 30323500 0a4c6173 74204275  13 2025..Last Bu
  0040 696c743a 20257320 61742025 73000000  ilt: %s at %s...
- 0050 32363063 65313365 35353536 38326630  260ce13e555682f0
- 0060 34663466 33643830 36383661 39306663  4f4f3d80686a90fc
- 0070 30363466 63353162 00000000 0a476974  064fc51b.....Git
+ 0050 63343039 31656561 66303731 66623366  c4091eeaf071fb3f
+ 0060 61396339 64356532 37353163 62373135  a9c9d5e2751cb715
+ 0070 64366666 34313562 00000000 0a476974  d6ff415b.....Git
  0080 20486173 683a2025 73000000 6d61696e   Hash: %s...main
  0090 00000000 0a476974 20427261 6e63683a  .....Git Branch:
- 00a0 20257300 73776170 70656420 746f2061   %s.swapped to a
- 00b0 2063616e 20636f6e 74726f6c 6c657220   can controller 
- 00c0 7468656e 20736570 65726174 65206573  then seperate es
- 00d0 6320636f 6e74726f 6c657273 20000000  c controlers ...
- 00e0 0a436f6d 6d697420 4d657373 6167653a  .Commit Message:
- 00f0 20257300 0a52616e 646f6d20 4e756d3a   %s..Random Num:
- 0100 20257800 1b5b306d 0a00                %x..[0m..      
+ 00a0 20257300 626e6f30 3835206c 69626172   %s.bno085 libar
+ 00b0 69657320 00000000 0a436f6d 6d697420  ies .....Commit 
+ 00c0 4d657373 6167653a 20257300 0a52616e  Message: %s..Ran
+ 00d0 646f6d20 4e756d3a 20257800 1b5b306d  dom Num: %x..[0m
+ 00e0 0a00                                 ..              
 Contents of section .text._Z10print_logov:
  0000 08b5fff7 feff1f4b 1b78002b 39d01e4b  .......K.x.+9..K
  0010 1b78db07 35d51d4b 1d4a1b68 12689b1a  .x..5..K.J.h.h..
@@ -77,7 +73,7 @@ Contents of section .text._Z10print_logov:
  0090 00000000 00000000 08000000 00000000  ................
  00a0 20000000 2c000000 38000000 50000000   ...,...8...P...
  00b0 7c000000 8c000000 94000000 a4000000  |...............
- 00c0 e0000000 001000e0 f4000000 04010000  ................
+ 00c0 b8000000 001000e0 cc000000 dc000000  ................
 Contents of section .rodata.main.str1.4:
  0000 53657269 616c2053 74617274 65640000  Serial Started..
  0010 496e6974 69616c69 7a696e67 204d6f74  Initializing Mot
@@ -85,22 +81,20 @@ Contents of section .rodata.main.str1.4:
  0030 00000000 456e7465 72696e67 206d6169  ....Entering mai
  0040 6e206c6f 6f702e2e 2e0a00             n loop.....     
 Contents of section .text.startup.main:
- 0000 294d40f2 ee28294c dff8c890 2e6880b5  )M@..()L.....h..
- 0010 274ffff7 feff2378 002b37d0 3b78db07  'O....#x.+7.;x..
- 0020 34d52b68 d9f80020 9b1a0e2b 2ed92149  4.+h... ...+..!I
- 0030 2148fff7 feff214d 21492248 fff7feff  !H....!M!I"H....
- 0040 1d4cfff7 feff2049 1b48fff7 feff2846  .L.... I.H....(F
- 0050 fff7feff 20461d49 fff7feff 4ff47a70  .... F.I....O.zp
- 0060 9fed1b8a fff7feff 2846fff7 feff0221  ........(F.....!
- 0070 b7eec00a 2046fff7 feff2046 fff7feff  .... F.... F....
- 0080 b0ee480a 2846fff7 feffede7 2b682278  ..H.(F......+h"x
- 0090 9b1b2ab1 b3f5fa6f c9d8fff7 feffb8e7  ..*....o........
- 00a0 4345fad9 c3e700bf 00000000 00000000  CE..............
- 00b0 00000000 00000000 00000000 00000000  ................
- 00c0 00000000 00000000 10000000 34000000  ............4...
- 00d0 cdcc4c3e 00000000                    ..L>....        
-Contents of section .text.startup._GLOBAL__sub_I_motor:
- 0000 01210148 fff7febf 00000000           .!.H........    
+ 0000 224d40f2 ee28224c dff8ac90 2e6880b5  "M@..("L.....h..
+ 0010 204ffff7 feff2378 53b33b78 db0727d5   O....#xS.;x..'.
+ 0020 2b68d9f8 00209b1a 0e2b21d9 1a491b48  +h... ...+!..I.H
+ 0030 fff7feff 1a491b48 fff7feff 1a4cfff7  .....I.H.....L..
+ 0040 feff1a49 1548fff7 feff1949 1348fff7  ...I.H.....I.H..
+ 0050 feff4ff4 7a70fff7 feff2046 9fed158a  ..O.zp.... F....
+ 0060 fff7feff b0ee480a 2046fff7 fefff9e7  ......H. F......
+ 0070 2b682278 9b1b2ab1 b3f5fa6f d6d8fff7  +h"x..*....o....
+ 0080 feffc6e7 4345fad9 d0e700bf 00000000  ....CE..........
+ 0090 00000000 00000000 00000000 00000000  ................
+ 00a0 00000000 00000000 00000000 10000000  ................
+ 00b0 34000000 9a99193f 00000000           4......?....    
+Contents of section .text.startup._GLOBAL__sub_I_smotor:
+ 0000 09210148 fff7febf 00000000           .!.H........    
 Contents of section .init_array:
  0000 00000000                             ....            
 Contents of section .comment:
@@ -205,94 +199,84 @@ Disassembly of section .text._Z10print_logov:
   b4:	0000008c 	.word	0x0000008c
   b8:	00000094 	.word	0x00000094
   bc:	000000a4 	.word	0x000000a4
-  c0:	000000e0 	.word	0x000000e0
+  c0:	000000b8 	.word	0x000000b8
   c4:	e0001000 	.word	0xe0001000
-  c8:	000000f4 	.word	0x000000f4
-  cc:	00000104 	.word	0x00000104
+  c8:	000000cc 	.word	0x000000cc
+  cc:	000000dc 	.word	0x000000dc
 
 Disassembly of section .text.startup.main:
 
 00000000 <main>:
-   0:	4d29      	ldr	r5, [pc, #164]	; (a8 <main+0xa8>)
+   0:	4d22      	ldr	r5, [pc, #136]	; (8c <main+0x8c>)
    2:	f240 28ee 	movw	r8, #750	; 0x2ee
-   6:	4c29      	ldr	r4, [pc, #164]	; (ac <main+0xac>)
-   8:	f8df 90c8 	ldr.w	r9, [pc, #200]	; d4 <main+0xd4>
+   6:	4c22      	ldr	r4, [pc, #136]	; (90 <main+0x90>)
+   8:	f8df 90ac 	ldr.w	r9, [pc, #172]	; b8 <main+0xb8>
    c:	682e      	ldr	r6, [r5, #0]
    e:	b580      	push	{r7, lr}
-  10:	4f27      	ldr	r7, [pc, #156]	; (b0 <main+0xb0>)
+  10:	4f20      	ldr	r7, [pc, #128]	; (94 <main+0x94>)
   12:	f7ff fffe 	bl	0 <yield>
   16:	7823      	ldrb	r3, [r4, #0]
-  18:	2b00      	cmp	r3, #0
-  1a:	d037      	beq.n	8c <main+0x8c>
-  1c:	783b      	ldrb	r3, [r7, #0]
-  1e:	07db      	lsls	r3, r3, #31
-  20:	d534      	bpl.n	8c <main+0x8c>
-  22:	682b      	ldr	r3, [r5, #0]
-  24:	f8d9 2000 	ldr.w	r2, [r9]
-  28:	1a9b      	subs	r3, r3, r2
-  2a:	2b0e      	cmp	r3, #14
-  2c:	d92e      	bls.n	8c <main+0x8c>
-  2e:	4921      	ldr	r1, [pc, #132]	; (b4 <main+0xb4>)
-  30:	4821      	ldr	r0, [pc, #132]	; (b8 <main+0xb8>)
-  32:	f7ff fffe 	bl	0 <main>
-  36:	4d21      	ldr	r5, [pc, #132]	; (bc <main+0xbc>)
-  38:	4921      	ldr	r1, [pc, #132]	; (c0 <main+0xc0>)
-  3a:	4822      	ldr	r0, [pc, #136]	; (c4 <main+0xc4>)
-  3c:	f7ff fffe 	bl	0 <_ZN5Debug5beginEP6Stream>
-  40:	4c1d      	ldr	r4, [pc, #116]	; (b8 <main+0xb8>)
-  42:	f7ff fffe 	bl	0 <main>
-  46:	4920      	ldr	r1, [pc, #128]	; (c8 <main+0xc8>)
-  48:	481b      	ldr	r0, [pc, #108]	; (b8 <main+0xb8>)
-  4a:	f7ff fffe 	bl	0 <main>
-  4e:	4628      	mov	r0, r5
-  50:	f7ff fffe 	bl	0 <_ZN11SparkMaxESC5beginEv>
-  54:	4620      	mov	r0, r4
-  56:	491d      	ldr	r1, [pc, #116]	; (cc <main+0xcc>)
-  58:	f7ff fffe 	bl	0 <main>
-  5c:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
-  60:	ed9f 8a1b 	vldr	s16, [pc, #108]	; d0 <main+0xd0>
-  64:	f7ff fffe 	bl	0 <delay>
-  68:	4628      	mov	r0, r5
-  6a:	f7ff fffe 	bl	0 <_ZN11SparkMaxESC19getMotorTemperatureEv>
-  6e:	2102      	movs	r1, #2
-  70:	eeb7 0ac0 	vcvt.f64.f32	d0, s0
-  74:	4620      	mov	r0, r4
-  76:	f7ff fffe 	bl	0 <_ZN5Print10printFloatEdh>
-  7a:	4620      	mov	r0, r4
-  7c:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
-  80:	eeb0 0a48 	vmov.f32	s0, s16
-  84:	4628      	mov	r0, r5
-  86:	f7ff fffe 	bl	0 <_ZN11SparkMaxESC8setPowerEf>
-  8a:	e7ed      	b.n	68 <main+0x68>
-  8c:	682b      	ldr	r3, [r5, #0]
-  8e:	7822      	ldrb	r2, [r4, #0]
-  90:	1b9b      	subs	r3, r3, r6
-  92:	b12a      	cbz	r2, a0 <main+0xa0>
-  94:	f5b3 6ffa 	cmp.w	r3, #2000	; 0x7d0
-  98:	d8c9      	bhi.n	2e <main+0x2e>
-  9a:	f7ff fffe 	bl	0 <yield>
-  9e:	e7b8      	b.n	12 <main+0x12>
-  a0:	4543      	cmp	r3, r8
-  a2:	d9fa      	bls.n	9a <main+0x9a>
-  a4:	e7c3      	b.n	2e <main+0x2e>
-  a6:	bf00      	nop
+  18:	b353      	cbz	r3, 70 <main+0x70>
+  1a:	783b      	ldrb	r3, [r7, #0]
+  1c:	07db      	lsls	r3, r3, #31
+  1e:	d527      	bpl.n	70 <main+0x70>
+  20:	682b      	ldr	r3, [r5, #0]
+  22:	f8d9 2000 	ldr.w	r2, [r9]
+  26:	1a9b      	subs	r3, r3, r2
+  28:	2b0e      	cmp	r3, #14
+  2a:	d921      	bls.n	70 <main+0x70>
+  2c:	491a      	ldr	r1, [pc, #104]	; (98 <main+0x98>)
+  2e:	481b      	ldr	r0, [pc, #108]	; (9c <main+0x9c>)
+  30:	f7ff fffe 	bl	0 <main>
+  34:	491a      	ldr	r1, [pc, #104]	; (a0 <main+0xa0>)
+  36:	481b      	ldr	r0, [pc, #108]	; (a4 <main+0xa4>)
+  38:	f7ff fffe 	bl	0 <_ZN5Debug5beginEP6Stream>
+  3c:	4c1a      	ldr	r4, [pc, #104]	; (a8 <main+0xa8>)
+  3e:	f7ff fffe 	bl	0 <main>
+  42:	491a      	ldr	r1, [pc, #104]	; (ac <main+0xac>)
+  44:	4815      	ldr	r0, [pc, #84]	; (9c <main+0x9c>)
+  46:	f7ff fffe 	bl	0 <main>
+  4a:	4919      	ldr	r1, [pc, #100]	; (b0 <main+0xb0>)
+  4c:	4813      	ldr	r0, [pc, #76]	; (9c <main+0x9c>)
+  4e:	f7ff fffe 	bl	0 <main>
+  52:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
+  56:	f7ff fffe 	bl	0 <delay>
+  5a:	4620      	mov	r0, r4
+  5c:	ed9f 8a15 	vldr	s16, [pc, #84]	; b4 <main+0xb4>
+  60:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM5beginEv>
+  64:	eeb0 0a48 	vmov.f32	s0, s16
+  68:	4620      	mov	r0, r4
+  6a:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  6e:	e7f9      	b.n	64 <main+0x64>
+  70:	682b      	ldr	r3, [r5, #0]
+  72:	7822      	ldrb	r2, [r4, #0]
+  74:	1b9b      	subs	r3, r3, r6
+  76:	b12a      	cbz	r2, 84 <main+0x84>
+  78:	f5b3 6ffa 	cmp.w	r3, #2000	; 0x7d0
+  7c:	d8d6      	bhi.n	2c <main+0x2c>
+  7e:	f7ff fffe 	bl	0 <yield>
+  82:	e7c6      	b.n	12 <main+0x12>
+  84:	4543      	cmp	r3, r8
+  86:	d9fa      	bls.n	7e <main+0x7e>
+  88:	e7d0      	b.n	2c <main+0x2c>
+  8a:	bf00      	nop
+  8c:	00000000 	.word	0x00000000
+  90:	00000000 	.word	0x00000000
+  94:	00000000 	.word	0x00000000
+  98:	00000000 	.word	0x00000000
+  9c:	00000000 	.word	0x00000000
+  a0:	00000000 	.word	0x00000000
+  a4:	00000000 	.word	0x00000000
   a8:	00000000 	.word	0x00000000
-  ac:	00000000 	.word	0x00000000
-  b0:	00000000 	.word	0x00000000
-  b4:	00000000 	.word	0x00000000
+  ac:	00000010 	.word	0x00000010
+  b0:	00000034 	.word	0x00000034
+  b4:	3f19999a 	.word	0x3f19999a
   b8:	00000000 	.word	0x00000000
-  bc:	00000000 	.word	0x00000000
-  c0:	00000000 	.word	0x00000000
-  c4:	00000000 	.word	0x00000000
-  c8:	00000010 	.word	0x00000010
-  cc:	00000034 	.word	0x00000034
-  d0:	3e4ccccd 	.word	0x3e4ccccd
-  d4:	00000000 	.word	0x00000000
 
-Disassembly of section .text.startup._GLOBAL__sub_I_motor:
+Disassembly of section .text.startup._GLOBAL__sub_I_smotor:
 
-00000000 <_GLOBAL__sub_I_motor>:
-   0:	2101      	movs	r1, #1
-   2:	4801      	ldr	r0, [pc, #4]	; (8 <_GLOBAL__sub_I_motor+0x8>)
-   4:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESCC1Eh>
+00000000 <_GLOBAL__sub_I_smotor>:
+   0:	2109      	movs	r1, #9
+   2:	4801      	ldr	r0, [pc, #4]	; (8 <_GLOBAL__sub_I_smotor+0x8>)
+   4:	f7ff bffe 	b.w	0 <_ZN11SparkMaxPWMC1Ei>
    8:	00000000 	.word	0x00000000

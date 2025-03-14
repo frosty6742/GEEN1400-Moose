@@ -1,0 +1,113 @@
+
+build/./src/pwm/SparkMaxPWM.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 SparkMaxPWM.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN11SparkMaxPWMC2Ei	00000000 .text._ZN11SparkMaxPWMC2Ei
+00000000 l    d  .text._ZN11SparkMaxPWM5beginEv	00000000 .text._ZN11SparkMaxPWM5beginEv
+00000000 l    d  .text._ZN11SparkMaxPWM8setSpeedEf	00000000 .text._ZN11SparkMaxPWM8setSpeedEf
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN11SparkMaxPWMC2Ei	00000016 _ZN11SparkMaxPWMC2Ei
+00000000 g     F .text._ZN11SparkMaxPWMC2Ei	00000016 _ZN11SparkMaxPWMC1Ei
+00000000 g     F .text._ZN11SparkMaxPWM5beginEv	00000020 _ZN11SparkMaxPWM5beginEv
+00000000         *UND*	00000000 pinMode
+00000000         *UND*	00000000 analogWriteFrequency
+00000000 g     F .text._ZN11SparkMaxPWM8setSpeedEf	00000078 _ZN11SparkMaxPWM8setSpeedEf
+00000000         *UND*	00000000 analogWrite
+
+
+Contents of section .text._ZN11SparkMaxPWMC2Ei:
+ 0000 10b44ff4 7a744ff4 fa620160 c0e90142  ..O.ztO..b.`...B
+ 0010 5df8044b 704700bf                    ]..KpG..        
+Contents of section .text._ZN11SparkMaxPWM5beginEv:
+ 0000 10b50446 01210078 fff7feff 20789fed  ...F.!.x.... x..
+ 0010 030abde8 1040fff7 febf00bf 00004842  .....@........HB
+Contents of section .text._ZN11SparkMaxPWM8setSpeedEf:
+ 0000 ffee007a b4eee70a f1ee10fa 27d4f7ee  ...z........'...
+ 0010 007ab4ee e70af1ee 10fa03dd 19210078  .z...........!.x
+ 0020 fff7febf dfed107a dfed106a e0ee277a  .......z...j..'z
+ 0030 9fed0f6a 0f4b0078 27eea67a c7ee067a  ...j.K.x'..z...z
+ 0040 77eea67a fdeee77a 17ee901a c1eb0121  w..z...z.......!
+ 0050 83fb0123 c917c1eb 6331fff7 febf0c21  ...#....c1.....!
+ 0060 0078fff7 febf00bf 0000c842 00007a44  .x.........B..zD
+ 0070 00004843 ad8bdb68                    ..HC...h        
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN11SparkMaxPWMC2Ei:
+
+00000000 <_ZN11SparkMaxPWMC1Ei>:
+   0:	b410      	push	{r4}
+   2:	f44f 747a 	mov.w	r4, #1000	; 0x3e8
+   6:	f44f 62fa 	mov.w	r2, #2000	; 0x7d0
+   a:	6001      	str	r1, [r0, #0]
+   c:	e9c0 4201 	strd	r4, r2, [r0, #4]
+  10:	f85d 4b04 	ldr.w	r4, [sp], #4
+  14:	4770      	bx	lr
+  16:	bf00      	nop
+
+Disassembly of section .text._ZN11SparkMaxPWM5beginEv:
+
+00000000 <_ZN11SparkMaxPWM5beginEv>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	2101      	movs	r1, #1
+   6:	7800      	ldrb	r0, [r0, #0]
+   8:	f7ff fffe 	bl	0 <pinMode>
+   c:	7820      	ldrb	r0, [r4, #0]
+   e:	ed9f 0a03 	vldr	s0, [pc, #12]	; 1c <_ZN11SparkMaxPWM5beginEv+0x1c>
+  12:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  16:	f7ff bffe 	b.w	0 <analogWriteFrequency>
+  1a:	bf00      	nop
+  1c:	42480000 	.word	0x42480000
+
+Disassembly of section .text._ZN11SparkMaxPWM8setSpeedEf:
+
+00000000 <_ZN11SparkMaxPWM8setSpeedEf>:
+   0:	eeff 7a00 	vmov.f32	s15, #240	; 0xbf800000 -1.0
+   4:	eeb4 0ae7 	vcmpe.f32	s0, s15
+   8:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+   c:	d427      	bmi.n	5e <_ZN11SparkMaxPWM8setSpeedEf+0x5e>
+   e:	eef7 7a00 	vmov.f32	s15, #112	; 0x3f800000  1.0
+  12:	eeb4 0ae7 	vcmpe.f32	s0, s15
+  16:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  1a:	dd03      	ble.n	24 <_ZN11SparkMaxPWM8setSpeedEf+0x24>
+  1c:	2119      	movs	r1, #25
+  1e:	7800      	ldrb	r0, [r0, #0]
+  20:	f7ff bffe 	b.w	0 <analogWrite>
+  24:	eddf 7a10 	vldr	s15, [pc, #64]	; 68 <_ZN11SparkMaxPWM8setSpeedEf+0x68>
+  28:	eddf 6a10 	vldr	s13, [pc, #64]	; 6c <_ZN11SparkMaxPWM8setSpeedEf+0x6c>
+  2c:	eee0 7a27 	vfma.f32	s15, s0, s15
+  30:	ed9f 6a0f 	vldr	s12, [pc, #60]	; 70 <_ZN11SparkMaxPWM8setSpeedEf+0x70>
+  34:	4b0f      	ldr	r3, [pc, #60]	; (74 <_ZN11SparkMaxPWM8setSpeedEf+0x74>)
+  36:	7800      	ldrb	r0, [r0, #0]
+  38:	ee27 7aa6 	vmul.f32	s14, s15, s13
+  3c:	eec7 7a06 	vdiv.f32	s15, s14, s12
+  40:	ee77 7aa6 	vadd.f32	s15, s15, s13
+  44:	eefd 7ae7 	vcvt.s32.f32	s15, s15
+  48:	ee17 1a90 	vmov	r1, s15
+  4c:	ebc1 2101 	rsb	r1, r1, r1, lsl #8
+  50:	fb83 2301 	smull	r2, r3, r3, r1
+  54:	17c9      	asrs	r1, r1, #31
+  56:	ebc1 3163 	rsb	r1, r1, r3, asr #13
+  5a:	f7ff bffe 	b.w	0 <analogWrite>
+  5e:	210c      	movs	r1, #12
+  60:	7800      	ldrb	r0, [r0, #0]
+  62:	f7ff bffe 	b.w	0 <analogWrite>
+  66:	bf00      	nop
+  68:	42c80000 	.word	0x42c80000
+  6c:	447a0000 	.word	0x447a0000
+  70:	43480000 	.word	0x43480000
+  74:	68db8bad 	.word	0x68db8bad

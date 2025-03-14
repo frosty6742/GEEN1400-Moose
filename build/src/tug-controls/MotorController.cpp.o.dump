@@ -32,6 +32,7 @@ SYMBOL TABLE:
 00000000 l    d  .text._ZN15MotorController14getRightFaultsEv	00000000 .text._ZN15MotorController14getRightFaultsEv
 00000000 l    d  .rodata._ZN15MotorController16printAllReadingsEv.str1.4	00000000 .rodata._ZN15MotorController16printAllReadingsEv.str1.4
 00000000 l    d  .text._ZN15MotorController16printAllReadingsEv	00000000 .text._ZN15MotorController16printAllReadingsEv
+00000000 l    d  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK	00000000 .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK
 00000000 l    d  .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv	00000000 .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv
 00000000 l    d  .rodata._ZN15MotorController5beginEv.str1.4	00000000 .rodata._ZN15MotorController5beginEv.str1.4
 00000000 l    d  .text._ZN15MotorController5beginEv	00000000 .text._ZN15MotorController5beginEv
@@ -58,6 +59,7 @@ SYMBOL TABLE:
 00000000 l     O .bss._ZL5_CAN2	00000004 _ZL5_CAN2
 00000000 l    d  .comment	00000000 .comment
 00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
 00000000 l    d  .group	00000000 .group
 00000000 l    d  .group	00000000 .group
 00000000 l    d  .group	00000000 .group
@@ -117,9 +119,10 @@ SYMBOL TABLE:
 00000000 g     F .text._ZN15MotorController16printAllReadingsEv	00000194 _ZN15MotorController16printAllReadingsEv
 00000000         *UND*	00000000 _ZN5Print10printFloatEdh
 00000000         *UND*	00000000 _ZN5Print5printEl
-00000000  w    F .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv	0000029c _ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv
+00000000  w    F .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK	000000e8 _ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK
+00000000  w    F .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv	00000270 _ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv
 00000000         *UND*	00000000 _VectorsRam
-00000000 g     F .text._ZN15MotorController5beginEv	000000e4 _ZN15MotorController5beginEv
+00000000 g     F .text._ZN15MotorController5beginEv	000000ec _ZN15MotorController5beginEv
 00000000         *UND*	00000000 _ZN11SparkMaxESC5beginEv
 00000000         *UND*	00000000 __cxa_guard_acquire
 00000000         *UND*	00000000 __cxa_guard_release
@@ -148,54 +151,56 @@ SYMBOL TABLE:
 
 
 Contents of section .group:
- 0000 01000000 1c000000                    ........        
+ 0000 01000000 1d000000                    ........        
 Contents of section .group:
- 0000 01000000 1d000000 1e000000 45000000  ............E...
- 0010 46000000                             F...            
+ 0000 01000000 1e000000 1f000000 48000000  ............H...
+ 0010 49000000                             I...            
 Contents of section .group:
- 0000 01000000 1f000000 20000000           ........ ...    
-Contents of section .group:
- 0000 01000000 21000000                    ....!...        
+ 0000 01000000 20000000 21000000           .... ...!...    
 Contents of section .group:
  0000 01000000 22000000                    ...."...        
 Contents of section .group:
  0000 01000000 23000000                    ....#...        
 Contents of section .group:
- 0000 01000000 4a000000                    ....J...        
+ 0000 01000000 24000000                    ....$...        
 Contents of section .group:
- 0000 01000000 4b000000                    ....K...        
-Contents of section .group:
- 0000 01000000 4c000000                    ....L...        
+ 0000 01000000 46000000 47000000           ....F...G...    
 Contents of section .group:
  0000 01000000 4d000000                    ....M...        
 Contents of section .group:
- 0000 01000000 4e000000 4f000000           ....N...O...    
+ 0000 01000000 4e000000                    ....N...        
 Contents of section .group:
- 0000 01000000 50000000 51000000           ....P...Q...    
+ 0000 01000000 4f000000                    ....O...        
 Contents of section .group:
- 0000 01000000 52000000 53000000           ....R...S...    
+ 0000 01000000 50000000                    ....P...        
 Contents of section .group:
- 0000 01000000 54000000 55000000           ....T...U...    
+ 0000 01000000 51000000 52000000           ....Q...R...    
 Contents of section .group:
- 0000 01000000 56000000                    ....V...        
+ 0000 01000000 53000000 54000000           ....S...T...    
+Contents of section .group:
+ 0000 01000000 55000000 56000000           ....U...V...    
 Contents of section .group:
  0000 01000000 57000000 58000000           ....W...X...    
 Contents of section .group:
- 0000 01000000 59000000 5a000000           ....Y...Z...    
+ 0000 01000000 59000000                    ....Y...        
 Contents of section .group:
- 0000 01000000 5b000000 5c000000           ....[...\...    
+ 0000 01000000 5a000000 5b000000           ....Z...[...    
 Contents of section .group:
- 0000 01000000 5d000000 5e000000           ....]...^...    
+ 0000 01000000 5c000000 5d000000           ....\...]...    
 Contents of section .group:
- 0000 01000000 5f000000                    ...._...        
+ 0000 01000000 5e000000 5f000000           ....^..._...    
 Contents of section .group:
  0000 01000000 60000000 61000000           ....`...a...    
 Contents of section .group:
  0000 01000000 62000000                    ....b...        
 Contents of section .group:
- 0000 01000000 63000000                    ....c...        
+ 0000 01000000 63000000 64000000           ....c...d...    
 Contents of section .group:
- 0000 01000000 64000000                    ....d...        
+ 0000 01000000 65000000                    ....e...        
+Contents of section .group:
+ 0000 01000000 66000000                    ....f...        
+Contents of section .group:
+ 0000 01000000 67000000                    ....g...        
 Contents of section .text._ZN11CANListener12frameHandlerER13CAN_message_tih:
  0000 00207047                             . pG            
 Contents of section .text._ZL16flexcan_isr_can2v:
@@ -321,70 +326,84 @@ Contents of section .text._ZN15MotorController16printAllReadingsEv:
  0170 febf00bf 00000000 00000000 34000000  ............4...
  0180 44000000 50000000 0c000000 1c000000  D...P...........
  0190 28000000                             (...            
+Contents of section .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK:
+ 0000 c9b9364a 136a23f4 7f7343f4 40731362  ..6J.j#..sC.@s.b
+ 0010 334b1b68 e3b1334a 00f50051 18465268  3K.h..3J...Q.FRh
+ 0020 d1f81019 c2f3c002 10b41c68 52006368  ...........hR.ch
+ 0030 5df8044b 18470829 0bd1284a 136a23f4  ]..K.G.)..(J.j#.
+ 0040 7f7343f4 09731362 254b1b68 002be2d1  .sC..s.b%K.h.+..
+ 0050 70471029 07d1214a 136a23f4 7f7343f4  pG.)..!J.j#..sC.
+ 0060 04731362 d4e71829 07d11c4a 136a23f4  .s.b...)...J.j#.
+ 0070 7f7343f4 80731362 cae71429 07d1174a  .sC..s.b...)...J
+ 0080 136a23f4 7f7343f4 03731362 c0e71e29  .j#..sC..s.b...)
+ 0090 07d1124a 136a23f4 7f7343f0 04031362  ...J.j#..sC....b
+ 00a0 b6e72829 07d10d4a 136a23f4 7f7343f4  ..()...J.j#..sC.
+ 00b0 01731362 ace73c29 05d1084a 136a23f4  .s.b..<)...J.j#.
+ 00c0 7f731362 a4e75029 a2d1044a 136a23f4  .s.b..P)...J.j#.
+ 00d0 7f7343f4 00731362 9ae700bf 00c00f40  .sC..s.b.......@
+ 00e0 00000000 00401d40                    .....@.@        
 Contents of section .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv:
- 0000 2de9f043 9a4b83b0 9a490022 01930b6a  -..C.K...I."...j
- 0010 c3f30123 08336b44 13f8043c c0e90122  ...#.3kD...<..."
- 0020 c0e90322 002b00f0 098100f5 00569149  ...".+.......V.I
- 0030 2520914b 0224914a 0125c6f8 0c091020  % .K.$.J.%..... 
- 0040 c3f8d420 8a6e8e4b 42f47012 8a6641f2  ... .n.KB.p..fA.
- 0050 b00186f8 15498b4a 8b4cc3f8 c400c3f8  .....I.J.L......
- 0060 b4122565 c3f8c800 c3f8b812 136823f0  ..%e.........h#.
- 0070 00431360 136843f0 a0431360 1368db01  .C.`.hC..C.`.h..
- 0080 fcd55368 7f4943f0 08035360 136843f0  ..Sh.IC...S`.hC.
- 0090 80431360 0b68df02 fcd40a68 794b42f0  .C.`.h.....hyKB.
- 00a0 00720a60 1a6812f0 0072fbd1 754b1968  .r.`.h...r..uK.h
- 00b0 cd01fcd5 196841f4 00311960 196841f4  .....hA..1.`.hA.
- 00c0 80311960 196841f4 80511960 196841f4  .1.`.hA..Q.`.hA.
- 00d0 00511960 196841f4 80011960 196841f4  .Q.`.hA....`.hA.
- 00e0 00211960 196821f4 08411960 596b41f4  .!.`.h!..A.`YkA.
- 00f0 e0215963 196841f4 00111960 196841f0  .!Yc.hA....`.hA.
- 0100 80611960 1d681968 05f08075 41f0a041  .a.`.h.h...uA..A
- 0110 19605c49 0b68dc01 fcd50b68 dff874e1  .`\I.h.....h..t.
- 0120 23f00053 dff870c1 564f0b60 00234b62  #..S..p.VO.`.#Kb
- 0130 18468b62 096803eb 0e0103eb 0c040133  .F.b.h.........3
- 0140 0901a400 c860dbb2 88604860 08602060  .....`...`H`.` `
- 0150 396801f0 7f010131 8b42ecd3 b8640024  9h.....1.B...d.$
- 0160 3861f96a 3b6bf962 3b633b68 dff82491  8a.j;k.b;c;h..$.
- 0170 444fdff8 248119e0 3b6803f0 7f030133  DO..$...;h.....3
- 0180 b2eb930f 34bf4ff0 80634ff0 8c630b60  ....4.O..cO..c.`
- 0190 7b6bc3f3 00439b07 03603b68 013403f0  {k...C...`;h.4..
- 01a0 7f03e4b2 01332246 9c421fd2 3b6804eb  .....3"F.B..;h..
- 01b0 090104eb 080003f0 7f030901 80000133  ...............3
- 01c0 b2eb530f d8d34ff0 00630b60 3b689800  ..S...O..c.`;h..
- 01d0 03d5fff7 feffa042 dfd80123 1f2c03fa  .......B...#.,..
- 01e0 04f323d8 ba6a1343 bb62d6e7 3db93b68  ..#..j.C.b..=.;h
- 01f0 244a23f0 80533b60 1368d901 fcd4214a  $J#..S;`.h....!J
- 0200 136823f0 80531360 1368db01 fcd4d6f8  .h#..S.`.h......
- 0210 0c290121 1d4b03eb 521302f0 1f029b00  .).!.K..R.......
- 0220 01fa02f2 1a6003b0 bde8f083 a4f12001  .....`........ .
- 0230 01237a6a 8b401343 7b62aee7 0b6a144a  .#zj.@.C{b...j.J
- 0240 23f47f73 43f48073 0b621368 002b3ff4  #..sC..s.b.h.+?.
- 0250 ecae0c4a 00f50056 1c681846 5268d6f8  ...J...V.h.FRh..
- 0260 1019c2f3 c0026368 52009847 dfe600bf  ......chR..G....
- 0270 3c185000 00c00f40 00000000 00000000  <.P....@........
- 0280 00801f40 00401d40 00841f40 40380038  ...@.@.@...@@8.8
- 0290 00000000 08d40104 20520710           ........ R..    
+ 0000 2de9f043 904983b0 904b0022 01910646  -..C.I...K."...F
+ 0010 1b6ac3f3 01230833 6b4413f8 043cc0e9  .j...#.3kD...<..
+ 0020 0122c0e9 0322002b 00f00981 874906f5  ."...".+.....I..
+ 0030 00562520 864b874a 0224c6f8 0c090125  .V% .K.J.$.....%
+ 0040 c3f8d420 10208a6e 834b42f4 70128a66  ... . .n.KB.p..f
+ 0050 41f2b001 86f81549 804a814c c3f8c400  A......I.J.L....
+ 0060 c3f8b412 2565c3f8 c800c3f8 b8121368  ....%e.........h
+ 0070 23f00043 13601368 43f0a043 13601368  #..C.`.hC..C.`.h
+ 0080 db01fcd5 53687549 43f00803 53601368  ....ShuIC...S`.h
+ 0090 43f08043 13600b68 df02fcd4 0a686f4b  C..C.`.h.....hoK
+ 00a0 42f00072 0a601a68 12f00072 fbd16b4b  B..r.`.h...r..kK
+ 00b0 1968cd01 fcd51968 41f40031 19601968  .h.....hA..1.`.h
+ 00c0 41f48031 19601968 41f48051 19601968  A..1.`.hA..Q.`.h
+ 00d0 41f40051 19601968 41f48001 19601968  A..Q.`.hA....`.h
+ 00e0 41f40021 19601968 21f40841 1960596b  A..!.`.h!..A.`Yk
+ 00f0 41f4e021 59631968 41f40011 19601968  A..!Yc.hA....`.h
+ 0100 41f08061 19601d68 196805f0 807541f0  A..a.`.h.h...uA.
+ 0110 a0411960 51490b68 dc01fcd5 0b68dff8  .A.`QI.h.....h..
+ 0120 48e123f0 0053dff8 44c14c4f 0b600023  H.#..S..D.LO.`.#
+ 0130 4b621846 8b620968 03eb0e01 03eb0c04  Kb.F.b.h........
+ 0140 01330901 a400c860 dbb28860 48600860  .3.....`...`H`.`
+ 0150 20603968 01f07f01 01318b42 ecd3b864   `9h.....1.B...d
+ 0160 00243861 f96a3b6b f9623b63 3b68dff8  .$8a.j;k.b;c;h..
+ 0170 f8903a4f dff8f480 19e03b68 03f07f03  ..:O......;h....
+ 0180 0133b2eb 930f34bf 4ff08063 4ff08c63  .3....4.O..cO..c
+ 0190 0b607b6b c3f30043 9b070360 3b680134  .`{k...C...`;h.4
+ 01a0 03f07f03 e4b20133 22469c42 1fd23b68  .......3"F.B..;h
+ 01b0 04eb0901 04eb0800 03f07f03 09018000  ................
+ 01c0 0133b2eb 530fd8d3 4ff00063 0b603b68  .3..S...O..c.`;h
+ 01d0 980003d5 fff7feff 8442dfd3 01231f2c  .........B...#.,
+ 01e0 03fa04f3 23d8ba6a 1343bb62 d6e73db9  ....#..j.C.b..=.
+ 01f0 3b681a4a 23f08053 3b601368 d901fcd4  ;h.J#..S;`.h....
+ 0200 164a1368 23f08053 13601368 db01fcd4  .J.h#..S.`.h....
+ 0210 d6f80c29 0121134b 03eb5213 02f01f02  ...).!.K..R.....
+ 0220 9b0001fa 02f21a60 03b0bde8 f083a4f1  .......`........
+ 0230 20010123 7a6a8b40 13437b62 aee71821   ..#zj.@.C{b...!
+ 0240 fff7feff f2e600bf 3c185000 00c00f40  ........<.P....@
+ 0250 00000000 00000000 00801f40 00401d40  ...........@.@.@
+ 0260 00841f40 40380038 08d40104 20520710  ...@@8.8.... R..
 Contents of section .rodata._ZN15MotorController5beginEv.str1.4:
  0000 496e6974 69616c69 7a696e67 204d6f74  Initializing Mot
  0010 6f72436f 6e74726f 6c6c6572 2e2e2e00  orController....
  0020 43414e20 42757320 496e6974 69616c69  CAN Bus Initiali
- 0030 7a65642e 00                          zed..           
+ 0030 7a656420 77697468 2036304d 487a2063  zed with 60MHz c
+ 0040 6c6f636b 2e00                        lock..          
 Contents of section .text._ZN15MotorController5beginEv:
- 0000 f8b51f21 04462e4d 2e48fff7 feff2e48  ...!.F.M.H.....H
+ 0000 f8b51f21 0446304d 3048fff7 feff3048  ...!.F0M0H....0H
  0010 fff7feff 2b7843b1 2046fff7 feff04f1  ....+xC. F......
- 0020 0800bde8 f840fff7 febf284f 3e68bff3  .....@....(O>h..
- 0030 5b8f16f0 010611d0 2548fff7 feff0022  [.......%H....."
- 0040 24492348 fff7feff 14212348 fff7feff  $I#H.....!#H....
- 0050 1d48fff7 feff0123 2b70dde7 3846fff7  .H.....#+p..8F..
- 0060 feff0028 e8d01a4a 384602f5 80539682  ...(...J8F...S..
- 0070 d6821683 a3f81a6b a3f81c6b a3f81e6b  .......k...k...k
- 0080 a3f8d06c a3f8d26c a3f8d46c a3f8986d  ...l...l...l...m
- 0090 a3f89a6d a3f89c6d 02f50053 83f80067  ...m...m...S...g
- 00a0 c3f80c69 83f80167 c3f81069 83f81469  ...i...g...i...i
- 00b0 0a4b1a60 0a4b1360 fff7feff bce700bf  .K.`.K.`........
- 00c0 00000000 00000000 00000000 00000000  ................
- 00d0 00000000 40420f00 20000000 00000000  ....@B.. .......
- 00e0 08000000                             ....            
+ 0020 0800bde8 f840fff7 febf2a4f 3e68bff3  .....@....*O>h..
+ 0030 5b8f16f0 010615d0 3c212748 fff7feff  [.......<!'H....
+ 0040 2548fff7 feff0022 24492348 fff7feff  %H....."$I#H....
+ 0050 25212348 fff7feff 1d48fff7 feff0123  %!#H.....H.....#
+ 0060 2b70d9e7 3846fff7 feff0028 e4d01a4a  +p..8F.....(...J
+ 0070 384602f5 80539682 d6821683 a3f81a6b  8F...S.........k
+ 0080 a3f81c6b a3f81e6b a3f8d06c a3f8d26c  ...k...k...l...l
+ 0090 a3f8d46c a3f8986d a3f89a6d a3f89c6d  ...l...m...m...m
+ 00a0 02f50053 83f80067 c3f80c69 83f80167  ...S...g...i...g
+ 00b0 c3f81069 83f81469 0a4b1a60 0a4b1360  ...i...i.K.`.K.`
+ 00c0 fff7feff b8e700bf 00000000 00000000  ................
+ 00d0 00000000 00000000 00000000 40420f00  ............@B..
+ 00e0 20000000 00000000 08000000            ...........    
 Contents of section .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE17fifo_filter_matchEm:
  0000 00f58053 d3f8003e db0069d5 374b2de9  ...S...>..i.7K-.
  0010 f04f5e6b 4ff0000e 41f61469 41f60467  .O^kO...A..iA..g
@@ -1232,263 +1251,343 @@ Disassembly of section .text._ZN15MotorController16printAllReadingsEv:
  18c:	0000001c 	.word	0x0000001c
  190:	00000028 	.word	0x00000028
 
+Disassembly of section .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK:
+
+00000000 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK>:
+   0:	b9c9      	cbnz	r1, 36 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x36>
+   2:	4a36      	ldr	r2, [pc, #216]	; (dc <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xdc>)
+   4:	6a13      	ldr	r3, [r2, #32]
+   6:	f423 737f 	bic.w	r3, r3, #1020	; 0x3fc
+   a:	f443 7340 	orr.w	r3, r3, #768	; 0x300
+   e:	6213      	str	r3, [r2, #32]
+  10:	4b33      	ldr	r3, [pc, #204]	; (e0 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xe0>)
+  12:	681b      	ldr	r3, [r3, #0]
+  14:	b1e3      	cbz	r3, 50 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x50>
+  16:	4a33      	ldr	r2, [pc, #204]	; (e4 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xe4>)
+  18:	f500 5100 	add.w	r1, r0, #8192	; 0x2000
+  1c:	4618      	mov	r0, r3
+  1e:	6852      	ldr	r2, [r2, #4]
+  20:	f8d1 1910 	ldr.w	r1, [r1, #2320]	; 0x910
+  24:	f3c2 02c0 	ubfx	r2, r2, #3, #1
+  28:	b410      	push	{r4}
+  2a:	681c      	ldr	r4, [r3, #0]
+  2c:	0052      	lsls	r2, r2, #1
+  2e:	6863      	ldr	r3, [r4, #4]
+  30:	f85d 4b04 	ldr.w	r4, [sp], #4
+  34:	4718      	bx	r3
+  36:	2908      	cmp	r1, #8
+  38:	d10b      	bne.n	52 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x52>
+  3a:	4a28      	ldr	r2, [pc, #160]	; (dc <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xdc>)
+  3c:	6a13      	ldr	r3, [r2, #32]
+  3e:	f423 737f 	bic.w	r3, r3, #1020	; 0x3fc
+  42:	f443 7309 	orr.w	r3, r3, #548	; 0x224
+  46:	6213      	str	r3, [r2, #32]
+  48:	4b25      	ldr	r3, [pc, #148]	; (e0 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xe0>)
+  4a:	681b      	ldr	r3, [r3, #0]
+  4c:	2b00      	cmp	r3, #0
+  4e:	d1e2      	bne.n	16 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x16>
+  50:	4770      	bx	lr
+  52:	2910      	cmp	r1, #16
+  54:	d107      	bne.n	66 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x66>
+  56:	4a21      	ldr	r2, [pc, #132]	; (dc <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xdc>)
+  58:	6a13      	ldr	r3, [r2, #32]
+  5a:	f423 737f 	bic.w	r3, r3, #1020	; 0x3fc
+  5e:	f443 7304 	orr.w	r3, r3, #528	; 0x210
+  62:	6213      	str	r3, [r2, #32]
+  64:	e7d4      	b.n	10 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x10>
+  66:	2918      	cmp	r1, #24
+  68:	d107      	bne.n	7a <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x7a>
+  6a:	4a1c      	ldr	r2, [pc, #112]	; (dc <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xdc>)
+  6c:	6a13      	ldr	r3, [r2, #32]
+  6e:	f423 737f 	bic.w	r3, r3, #1020	; 0x3fc
+  72:	f443 7380 	orr.w	r3, r3, #256	; 0x100
+  76:	6213      	str	r3, [r2, #32]
+  78:	e7ca      	b.n	10 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x10>
+  7a:	2914      	cmp	r1, #20
+  7c:	d107      	bne.n	8e <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x8e>
+  7e:	4a17      	ldr	r2, [pc, #92]	; (dc <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xdc>)
+  80:	6a13      	ldr	r3, [r2, #32]
+  82:	f423 737f 	bic.w	r3, r3, #1020	; 0x3fc
+  86:	f443 7303 	orr.w	r3, r3, #524	; 0x20c
+  8a:	6213      	str	r3, [r2, #32]
+  8c:	e7c0      	b.n	10 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x10>
+  8e:	291e      	cmp	r1, #30
+  90:	d107      	bne.n	a2 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xa2>
+  92:	4a12      	ldr	r2, [pc, #72]	; (dc <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xdc>)
+  94:	6a13      	ldr	r3, [r2, #32]
+  96:	f423 737f 	bic.w	r3, r3, #1020	; 0x3fc
+  9a:	f043 0304 	orr.w	r3, r3, #4
+  9e:	6213      	str	r3, [r2, #32]
+  a0:	e7b6      	b.n	10 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x10>
+  a2:	2928      	cmp	r1, #40	; 0x28
+  a4:	d107      	bne.n	b6 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xb6>
+  a6:	4a0d      	ldr	r2, [pc, #52]	; (dc <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xdc>)
+  a8:	6a13      	ldr	r3, [r2, #32]
+  aa:	f423 737f 	bic.w	r3, r3, #1020	; 0x3fc
+  ae:	f443 7301 	orr.w	r3, r3, #516	; 0x204
+  b2:	6213      	str	r3, [r2, #32]
+  b4:	e7ac      	b.n	10 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x10>
+  b6:	293c      	cmp	r1, #60	; 0x3c
+  b8:	d105      	bne.n	c6 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xc6>
+  ba:	4a08      	ldr	r2, [pc, #32]	; (dc <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xdc>)
+  bc:	6a13      	ldr	r3, [r2, #32]
+  be:	f423 737f 	bic.w	r3, r3, #1020	; 0x3fc
+  c2:	6213      	str	r3, [r2, #32]
+  c4:	e7a4      	b.n	10 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x10>
+  c6:	2950      	cmp	r1, #80	; 0x50
+  c8:	d1a2      	bne.n	10 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x10>
+  ca:	4a04      	ldr	r2, [pc, #16]	; (dc <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0xdc>)
+  cc:	6a13      	ldr	r3, [r2, #32]
+  ce:	f423 737f 	bic.w	r3, r3, #1020	; 0x3fc
+  d2:	f443 7300 	orr.w	r3, r3, #512	; 0x200
+  d6:	6213      	str	r3, [r2, #32]
+  d8:	e79a      	b.n	10 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE8setClockE13FLEXCAN_CLOCK+0x10>
+  da:	bf00      	nop
+  dc:	400fc000 	.word	0x400fc000
+  e0:	00000000 	.word	0x00000000
+  e4:	401d4000 	.word	0x401d4000
+
 Disassembly of section .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv:
 
 00000000 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv>:
    0:	e92d 43f0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, lr}
-   4:	4b9a      	ldr	r3, [pc, #616]	; (270 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x270>)
+   4:	4990      	ldr	r1, [pc, #576]	; (248 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x248>)
    6:	b083      	sub	sp, #12
-   8:	499a      	ldr	r1, [pc, #616]	; (274 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x274>)
+   8:	4b90      	ldr	r3, [pc, #576]	; (24c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x24c>)
    a:	2200      	movs	r2, #0
-   c:	9301      	str	r3, [sp, #4]
-   e:	6a0b      	ldr	r3, [r1, #32]
-  10:	f3c3 2301 	ubfx	r3, r3, #8, #2
-  14:	3308      	adds	r3, #8
-  16:	446b      	add	r3, sp
-  18:	f813 3c04 	ldrb.w	r3, [r3, #-4]
-  1c:	e9c0 2201 	strd	r2, r2, [r0, #4]
-  20:	e9c0 2203 	strd	r2, r2, [r0, #12]
-  24:	2b00      	cmp	r3, #0
-  26:	f000 8109 	beq.w	23c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x23c>
-  2a:	f500 5600 	add.w	r6, r0, #8192	; 0x2000
-  2e:	4991      	ldr	r1, [pc, #580]	; (274 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x274>)
-  30:	2025      	movs	r0, #37	; 0x25
-  32:	4b91      	ldr	r3, [pc, #580]	; (278 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x278>)
-  34:	2402      	movs	r4, #2
-  36:	4a91      	ldr	r2, [pc, #580]	; (27c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x27c>)
-  38:	2501      	movs	r5, #1
+   c:	9101      	str	r1, [sp, #4]
+   e:	4606      	mov	r6, r0
+  10:	6a1b      	ldr	r3, [r3, #32]
+  12:	f3c3 2301 	ubfx	r3, r3, #8, #2
+  16:	3308      	adds	r3, #8
+  18:	446b      	add	r3, sp
+  1a:	f813 3c04 	ldrb.w	r3, [r3, #-4]
+  1e:	e9c0 2201 	strd	r2, r2, [r0, #4]
+  22:	e9c0 2203 	strd	r2, r2, [r0, #12]
+  26:	2b00      	cmp	r3, #0
+  28:	f000 8109 	beq.w	23e <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x23e>
+  2c:	4987      	ldr	r1, [pc, #540]	; (24c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x24c>)
+  2e:	f506 5600 	add.w	r6, r6, #8192	; 0x2000
+  32:	2025      	movs	r0, #37	; 0x25
+  34:	4b86      	ldr	r3, [pc, #536]	; (250 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x250>)
+  36:	4a87      	ldr	r2, [pc, #540]	; (254 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x254>)
+  38:	2402      	movs	r4, #2
   3a:	f8c6 090c 	str.w	r0, [r6, #2316]	; 0x90c
-  3e:	2010      	movs	r0, #16
+  3e:	2501      	movs	r5, #1
   40:	f8c3 20d4 	str.w	r2, [r3, #212]	; 0xd4
-  44:	6e8a      	ldr	r2, [r1, #104]	; 0x68
-  46:	4b8e      	ldr	r3, [pc, #568]	; (280 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x280>)
-  48:	f442 1270 	orr.w	r2, r2, #3932160	; 0x3c0000
-  4c:	668a      	str	r2, [r1, #104]	; 0x68
-  4e:	f241 01b0 	movw	r1, #4272	; 0x10b0
-  52:	f886 4915 	strb.w	r4, [r6, #2325]	; 0x915
-  56:	4a8b      	ldr	r2, [pc, #556]	; (284 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x284>)
-  58:	4c8b      	ldr	r4, [pc, #556]	; (288 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x288>)
-  5a:	f8c3 00c4 	str.w	r0, [r3, #196]	; 0xc4
-  5e:	f8c3 12b4 	str.w	r1, [r3, #692]	; 0x2b4
-  62:	6525      	str	r5, [r4, #80]	; 0x50
-  64:	f8c3 00c8 	str.w	r0, [r3, #200]	; 0xc8
-  68:	f8c3 12b8 	str.w	r1, [r3, #696]	; 0x2b8
-  6c:	6813      	ldr	r3, [r2, #0]
-  6e:	f023 4300 	bic.w	r3, r3, #2147483648	; 0x80000000
-  72:	6013      	str	r3, [r2, #0]
-  74:	6813      	ldr	r3, [r2, #0]
-  76:	f043 43a0 	orr.w	r3, r3, #1342177280	; 0x50000000
-  7a:	6013      	str	r3, [r2, #0]
-  7c:	6813      	ldr	r3, [r2, #0]
-  7e:	01db      	lsls	r3, r3, #7
-  80:	d5fc      	bpl.n	7c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x7c>
-  82:	6853      	ldr	r3, [r2, #4]
-  84:	497f      	ldr	r1, [pc, #508]	; (284 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x284>)
-  86:	f043 0308 	orr.w	r3, r3, #8
-  8a:	6053      	str	r3, [r2, #4]
-  8c:	6813      	ldr	r3, [r2, #0]
-  8e:	f043 4380 	orr.w	r3, r3, #1073741824	; 0x40000000
-  92:	6013      	str	r3, [r2, #0]
-  94:	680b      	ldr	r3, [r1, #0]
-  96:	02df      	lsls	r7, r3, #11
-  98:	d4fc      	bmi.n	94 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x94>
-  9a:	680a      	ldr	r2, [r1, #0]
-  9c:	4b79      	ldr	r3, [pc, #484]	; (284 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x284>)
-  9e:	f042 7200 	orr.w	r2, r2, #33554432	; 0x2000000
-  a2:	600a      	str	r2, [r1, #0]
-  a4:	681a      	ldr	r2, [r3, #0]
-  a6:	f012 7200 	ands.w	r2, r2, #33554432	; 0x2000000
-  aa:	d1fb      	bne.n	a4 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0xa4>
-  ac:	4b75      	ldr	r3, [pc, #468]	; (284 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x284>)
-  ae:	6819      	ldr	r1, [r3, #0]
-  b0:	01cd      	lsls	r5, r1, #7
-  b2:	d5fc      	bpl.n	ae <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0xae>
-  b4:	6819      	ldr	r1, [r3, #0]
-  b6:	f441 3100 	orr.w	r1, r1, #131072	; 0x20000
-  ba:	6019      	str	r1, [r3, #0]
-  bc:	6819      	ldr	r1, [r3, #0]
-  be:	f441 3180 	orr.w	r1, r1, #65536	; 0x10000
-  c2:	6019      	str	r1, [r3, #0]
-  c4:	6819      	ldr	r1, [r3, #0]
-  c6:	f441 5180 	orr.w	r1, r1, #4096	; 0x1000
-  ca:	6019      	str	r1, [r3, #0]
-  cc:	6819      	ldr	r1, [r3, #0]
-  ce:	f441 5100 	orr.w	r1, r1, #8192	; 0x2000
-  d2:	6019      	str	r1, [r3, #0]
-  d4:	6819      	ldr	r1, [r3, #0]
-  d6:	f441 0180 	orr.w	r1, r1, #4194304	; 0x400000
-  da:	6019      	str	r1, [r3, #0]
-  dc:	6819      	ldr	r1, [r3, #0]
-  de:	f441 2100 	orr.w	r1, r1, #524288	; 0x80000
-  e2:	6019      	str	r1, [r3, #0]
-  e4:	6819      	ldr	r1, [r3, #0]
-  e6:	f421 4108 	bic.w	r1, r1, #34816	; 0x8800
-  ea:	6019      	str	r1, [r3, #0]
-  ec:	6b59      	ldr	r1, [r3, #52]	; 0x34
-  ee:	f441 21e0 	orr.w	r1, r1, #458752	; 0x70000
-  f2:	6359      	str	r1, [r3, #52]	; 0x34
-  f4:	6819      	ldr	r1, [r3, #0]
-  f6:	f441 1100 	orr.w	r1, r1, #2097152	; 0x200000
-  fa:	6019      	str	r1, [r3, #0]
-  fc:	6819      	ldr	r1, [r3, #0]
-  fe:	f041 6180 	orr.w	r1, r1, #67108864	; 0x4000000
- 102:	6019      	str	r1, [r3, #0]
- 104:	681d      	ldr	r5, [r3, #0]
- 106:	6819      	ldr	r1, [r3, #0]
- 108:	f005 7580 	and.w	r5, r5, #16777216	; 0x1000000
- 10c:	f041 41a0 	orr.w	r1, r1, #1342177280	; 0x50000000
- 110:	6019      	str	r1, [r3, #0]
- 112:	495c      	ldr	r1, [pc, #368]	; (284 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x284>)
- 114:	680b      	ldr	r3, [r1, #0]
- 116:	01dc      	lsls	r4, r3, #7
- 118:	d5fc      	bpl.n	114 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x114>
- 11a:	680b      	ldr	r3, [r1, #0]
- 11c:	f8df e174 	ldr.w	lr, [pc, #372]	; 294 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x294>
- 120:	f023 5300 	bic.w	r3, r3, #536870912	; 0x20000000
- 124:	f8df c170 	ldr.w	ip, [pc, #368]	; 298 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x298>
- 128:	4f56      	ldr	r7, [pc, #344]	; (284 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x284>)
- 12a:	600b      	str	r3, [r1, #0]
- 12c:	2300      	movs	r3, #0
- 12e:	624b      	str	r3, [r1, #36]	; 0x24
- 130:	4618      	mov	r0, r3
- 132:	628b      	str	r3, [r1, #40]	; 0x28
- 134:	6809      	ldr	r1, [r1, #0]
- 136:	eb03 010e 	add.w	r1, r3, lr
- 13a:	eb03 040c 	add.w	r4, r3, ip
- 13e:	3301      	adds	r3, #1
- 140:	0109      	lsls	r1, r1, #4
- 142:	00a4      	lsls	r4, r4, #2
- 144:	60c8      	str	r0, [r1, #12]
- 146:	b2db      	uxtb	r3, r3
- 148:	6088      	str	r0, [r1, #8]
- 14a:	6048      	str	r0, [r1, #4]
- 14c:	6008      	str	r0, [r1, #0]
- 14e:	6020      	str	r0, [r4, #0]
- 150:	6839      	ldr	r1, [r7, #0]
- 152:	f001 017f 	and.w	r1, r1, #127	; 0x7f
- 156:	3101      	adds	r1, #1
- 158:	428b      	cmp	r3, r1
- 15a:	d3ec      	bcc.n	136 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x136>
- 15c:	64b8      	str	r0, [r7, #72]	; 0x48
- 15e:	2400      	movs	r4, #0
- 160:	6138      	str	r0, [r7, #16]
- 162:	6af9      	ldr	r1, [r7, #44]	; 0x2c
- 164:	6b3b      	ldr	r3, [r7, #48]	; 0x30
- 166:	62f9      	str	r1, [r7, #44]	; 0x2c
- 168:	633b      	str	r3, [r7, #48]	; 0x30
- 16a:	683b      	ldr	r3, [r7, #0]
- 16c:	f8df 9124 	ldr.w	r9, [pc, #292]	; 294 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x294>
- 170:	4f44      	ldr	r7, [pc, #272]	; (284 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x284>)
- 172:	f8df 8124 	ldr.w	r8, [pc, #292]	; 298 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x298>
- 176:	e019      	b.n	1ac <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x1ac>
- 178:	683b      	ldr	r3, [r7, #0]
- 17a:	f003 037f 	and.w	r3, r3, #127	; 0x7f
- 17e:	3301      	adds	r3, #1
- 180:	ebb2 0f93 	cmp.w	r2, r3, lsr #2
- 184:	bf34      	ite	cc
- 186:	f04f 6380 	movcc.w	r3, #67108864	; 0x4000000
- 18a:	f04f 638c 	movcs.w	r3, #73400320	; 0x4600000
- 18e:	600b      	str	r3, [r1, #0]
- 190:	6b7b      	ldr	r3, [r7, #52]	; 0x34
- 192:	f3c3 4300 	ubfx	r3, r3, #16, #1
- 196:	079b      	lsls	r3, r3, #30
- 198:	6003      	str	r3, [r0, #0]
- 19a:	683b      	ldr	r3, [r7, #0]
- 19c:	3401      	adds	r4, #1
- 19e:	f003 037f 	and.w	r3, r3, #127	; 0x7f
- 1a2:	b2e4      	uxtb	r4, r4
- 1a4:	3301      	adds	r3, #1
- 1a6:	4622      	mov	r2, r4
- 1a8:	429c      	cmp	r4, r3
- 1aa:	d21f      	bcs.n	1ec <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x1ec>
- 1ac:	683b      	ldr	r3, [r7, #0]
- 1ae:	eb04 0109 	add.w	r1, r4, r9
- 1b2:	eb04 0008 	add.w	r0, r4, r8
- 1b6:	f003 037f 	and.w	r3, r3, #127	; 0x7f
- 1ba:	0109      	lsls	r1, r1, #4
- 1bc:	0080      	lsls	r0, r0, #2
- 1be:	3301      	adds	r3, #1
- 1c0:	ebb2 0f53 	cmp.w	r2, r3, lsr #1
- 1c4:	d3d8      	bcc.n	178 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x178>
- 1c6:	f04f 6300 	mov.w	r3, #134217728	; 0x8000000
- 1ca:	600b      	str	r3, [r1, #0]
- 1cc:	683b      	ldr	r3, [r7, #0]
- 1ce:	0098      	lsls	r0, r3, #2
- 1d0:	d503      	bpl.n	1da <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x1da>
- 1d2:	f7ff fffe 	bl	0 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv>
- 1d6:	42a0      	cmp	r0, r4
- 1d8:	d8df      	bhi.n	19a <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x19a>
- 1da:	2301      	movs	r3, #1
- 1dc:	2c1f      	cmp	r4, #31
- 1de:	fa03 f304 	lsl.w	r3, r3, r4
- 1e2:	d823      	bhi.n	22c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x22c>
- 1e4:	6aba      	ldr	r2, [r7, #40]	; 0x28
- 1e6:	4313      	orrs	r3, r2
- 1e8:	62bb      	str	r3, [r7, #40]	; 0x28
- 1ea:	e7d6      	b.n	19a <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x19a>
- 1ec:	b93d      	cbnz	r5, 1fe <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x1fe>
- 1ee:	683b      	ldr	r3, [r7, #0]
- 1f0:	4a24      	ldr	r2, [pc, #144]	; (284 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x284>)
- 1f2:	f023 5380 	bic.w	r3, r3, #268435456	; 0x10000000
- 1f6:	603b      	str	r3, [r7, #0]
- 1f8:	6813      	ldr	r3, [r2, #0]
- 1fa:	01d9      	lsls	r1, r3, #7
- 1fc:	d4fc      	bmi.n	1f8 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x1f8>
- 1fe:	4a21      	ldr	r2, [pc, #132]	; (284 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x284>)
- 200:	6813      	ldr	r3, [r2, #0]
- 202:	f023 5380 	bic.w	r3, r3, #268435456	; 0x10000000
- 206:	6013      	str	r3, [r2, #0]
- 208:	6813      	ldr	r3, [r2, #0]
- 20a:	01db      	lsls	r3, r3, #7
- 20c:	d4fc      	bmi.n	208 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x208>
- 20e:	f8d6 290c 	ldr.w	r2, [r6, #2316]	; 0x90c
- 212:	2101      	movs	r1, #1
- 214:	4b1d      	ldr	r3, [pc, #116]	; (28c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x28c>)
- 216:	eb03 1352 	add.w	r3, r3, r2, lsr #5
- 21a:	f002 021f 	and.w	r2, r2, #31
- 21e:	009b      	lsls	r3, r3, #2
- 220:	fa01 f202 	lsl.w	r2, r1, r2
- 224:	601a      	str	r2, [r3, #0]
- 226:	b003      	add	sp, #12
- 228:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
- 22c:	f1a4 0120 	sub.w	r1, r4, #32
- 230:	2301      	movs	r3, #1
- 232:	6a7a      	ldr	r2, [r7, #36]	; 0x24
- 234:	408b      	lsls	r3, r1
- 236:	4313      	orrs	r3, r2
- 238:	627b      	str	r3, [r7, #36]	; 0x24
- 23a:	e7ae      	b.n	19a <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x19a>
- 23c:	6a0b      	ldr	r3, [r1, #32]
- 23e:	4a14      	ldr	r2, [pc, #80]	; (290 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x290>)
- 240:	f423 737f 	bic.w	r3, r3, #1020	; 0x3fc
- 244:	f443 7380 	orr.w	r3, r3, #256	; 0x100
- 248:	620b      	str	r3, [r1, #32]
- 24a:	6813      	ldr	r3, [r2, #0]
- 24c:	2b00      	cmp	r3, #0
- 24e:	f43f aeec 	beq.w	2a <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x2a>
- 252:	4a0c      	ldr	r2, [pc, #48]	; (284 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x284>)
- 254:	f500 5600 	add.w	r6, r0, #8192	; 0x2000
- 258:	681c      	ldr	r4, [r3, #0]
- 25a:	4618      	mov	r0, r3
- 25c:	6852      	ldr	r2, [r2, #4]
- 25e:	f8d6 1910 	ldr.w	r1, [r6, #2320]	; 0x910
- 262:	f3c2 02c0 	ubfx	r2, r2, #3, #1
- 266:	6863      	ldr	r3, [r4, #4]
- 268:	0052      	lsls	r2, r2, #1
- 26a:	4798      	blx	r3
- 26c:	e6df      	b.n	2e <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x2e>
- 26e:	bf00      	nop
- 270:	0050183c 	.word	0x0050183c
- 274:	400fc000 	.word	0x400fc000
- 278:	00000000 	.word	0x00000000
- 27c:	00000000 	.word	0x00000000
- 280:	401f8000 	.word	0x401f8000
- 284:	401d4000 	.word	0x401d4000
- 288:	401f8400 	.word	0x401f8400
- 28c:	38003840 	.word	0x38003840
- 290:	00000000 	.word	0x00000000
- 294:	0401d408 	.word	0x0401d408
- 298:	10075220 	.word	0x10075220
+  44:	2010      	movs	r0, #16
+  46:	6e8a      	ldr	r2, [r1, #104]	; 0x68
+  48:	4b83      	ldr	r3, [pc, #524]	; (258 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x258>)
+  4a:	f442 1270 	orr.w	r2, r2, #3932160	; 0x3c0000
+  4e:	668a      	str	r2, [r1, #104]	; 0x68
+  50:	f241 01b0 	movw	r1, #4272	; 0x10b0
+  54:	f886 4915 	strb.w	r4, [r6, #2325]	; 0x915
+  58:	4a80      	ldr	r2, [pc, #512]	; (25c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x25c>)
+  5a:	4c81      	ldr	r4, [pc, #516]	; (260 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x260>)
+  5c:	f8c3 00c4 	str.w	r0, [r3, #196]	; 0xc4
+  60:	f8c3 12b4 	str.w	r1, [r3, #692]	; 0x2b4
+  64:	6525      	str	r5, [r4, #80]	; 0x50
+  66:	f8c3 00c8 	str.w	r0, [r3, #200]	; 0xc8
+  6a:	f8c3 12b8 	str.w	r1, [r3, #696]	; 0x2b8
+  6e:	6813      	ldr	r3, [r2, #0]
+  70:	f023 4300 	bic.w	r3, r3, #2147483648	; 0x80000000
+  74:	6013      	str	r3, [r2, #0]
+  76:	6813      	ldr	r3, [r2, #0]
+  78:	f043 43a0 	orr.w	r3, r3, #1342177280	; 0x50000000
+  7c:	6013      	str	r3, [r2, #0]
+  7e:	6813      	ldr	r3, [r2, #0]
+  80:	01db      	lsls	r3, r3, #7
+  82:	d5fc      	bpl.n	7e <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x7e>
+  84:	6853      	ldr	r3, [r2, #4]
+  86:	4975      	ldr	r1, [pc, #468]	; (25c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x25c>)
+  88:	f043 0308 	orr.w	r3, r3, #8
+  8c:	6053      	str	r3, [r2, #4]
+  8e:	6813      	ldr	r3, [r2, #0]
+  90:	f043 4380 	orr.w	r3, r3, #1073741824	; 0x40000000
+  94:	6013      	str	r3, [r2, #0]
+  96:	680b      	ldr	r3, [r1, #0]
+  98:	02df      	lsls	r7, r3, #11
+  9a:	d4fc      	bmi.n	96 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x96>
+  9c:	680a      	ldr	r2, [r1, #0]
+  9e:	4b6f      	ldr	r3, [pc, #444]	; (25c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x25c>)
+  a0:	f042 7200 	orr.w	r2, r2, #33554432	; 0x2000000
+  a4:	600a      	str	r2, [r1, #0]
+  a6:	681a      	ldr	r2, [r3, #0]
+  a8:	f012 7200 	ands.w	r2, r2, #33554432	; 0x2000000
+  ac:	d1fb      	bne.n	a6 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0xa6>
+  ae:	4b6b      	ldr	r3, [pc, #428]	; (25c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x25c>)
+  b0:	6819      	ldr	r1, [r3, #0]
+  b2:	01cd      	lsls	r5, r1, #7
+  b4:	d5fc      	bpl.n	b0 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0xb0>
+  b6:	6819      	ldr	r1, [r3, #0]
+  b8:	f441 3100 	orr.w	r1, r1, #131072	; 0x20000
+  bc:	6019      	str	r1, [r3, #0]
+  be:	6819      	ldr	r1, [r3, #0]
+  c0:	f441 3180 	orr.w	r1, r1, #65536	; 0x10000
+  c4:	6019      	str	r1, [r3, #0]
+  c6:	6819      	ldr	r1, [r3, #0]
+  c8:	f441 5180 	orr.w	r1, r1, #4096	; 0x1000
+  cc:	6019      	str	r1, [r3, #0]
+  ce:	6819      	ldr	r1, [r3, #0]
+  d0:	f441 5100 	orr.w	r1, r1, #8192	; 0x2000
+  d4:	6019      	str	r1, [r3, #0]
+  d6:	6819      	ldr	r1, [r3, #0]
+  d8:	f441 0180 	orr.w	r1, r1, #4194304	; 0x400000
+  dc:	6019      	str	r1, [r3, #0]
+  de:	6819      	ldr	r1, [r3, #0]
+  e0:	f441 2100 	orr.w	r1, r1, #524288	; 0x80000
+  e4:	6019      	str	r1, [r3, #0]
+  e6:	6819      	ldr	r1, [r3, #0]
+  e8:	f421 4108 	bic.w	r1, r1, #34816	; 0x8800
+  ec:	6019      	str	r1, [r3, #0]
+  ee:	6b59      	ldr	r1, [r3, #52]	; 0x34
+  f0:	f441 21e0 	orr.w	r1, r1, #458752	; 0x70000
+  f4:	6359      	str	r1, [r3, #52]	; 0x34
+  f6:	6819      	ldr	r1, [r3, #0]
+  f8:	f441 1100 	orr.w	r1, r1, #2097152	; 0x200000
+  fc:	6019      	str	r1, [r3, #0]
+  fe:	6819      	ldr	r1, [r3, #0]
+ 100:	f041 6180 	orr.w	r1, r1, #67108864	; 0x4000000
+ 104:	6019      	str	r1, [r3, #0]
+ 106:	681d      	ldr	r5, [r3, #0]
+ 108:	6819      	ldr	r1, [r3, #0]
+ 10a:	f005 7580 	and.w	r5, r5, #16777216	; 0x1000000
+ 10e:	f041 41a0 	orr.w	r1, r1, #1342177280	; 0x50000000
+ 112:	6019      	str	r1, [r3, #0]
+ 114:	4951      	ldr	r1, [pc, #324]	; (25c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x25c>)
+ 116:	680b      	ldr	r3, [r1, #0]
+ 118:	01dc      	lsls	r4, r3, #7
+ 11a:	d5fc      	bpl.n	116 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x116>
+ 11c:	680b      	ldr	r3, [r1, #0]
+ 11e:	f8df e148 	ldr.w	lr, [pc, #328]	; 268 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x268>
+ 122:	f023 5300 	bic.w	r3, r3, #536870912	; 0x20000000
+ 126:	f8df c144 	ldr.w	ip, [pc, #324]	; 26c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x26c>
+ 12a:	4f4c      	ldr	r7, [pc, #304]	; (25c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x25c>)
+ 12c:	600b      	str	r3, [r1, #0]
+ 12e:	2300      	movs	r3, #0
+ 130:	624b      	str	r3, [r1, #36]	; 0x24
+ 132:	4618      	mov	r0, r3
+ 134:	628b      	str	r3, [r1, #40]	; 0x28
+ 136:	6809      	ldr	r1, [r1, #0]
+ 138:	eb03 010e 	add.w	r1, r3, lr
+ 13c:	eb03 040c 	add.w	r4, r3, ip
+ 140:	3301      	adds	r3, #1
+ 142:	0109      	lsls	r1, r1, #4
+ 144:	00a4      	lsls	r4, r4, #2
+ 146:	60c8      	str	r0, [r1, #12]
+ 148:	b2db      	uxtb	r3, r3
+ 14a:	6088      	str	r0, [r1, #8]
+ 14c:	6048      	str	r0, [r1, #4]
+ 14e:	6008      	str	r0, [r1, #0]
+ 150:	6020      	str	r0, [r4, #0]
+ 152:	6839      	ldr	r1, [r7, #0]
+ 154:	f001 017f 	and.w	r1, r1, #127	; 0x7f
+ 158:	3101      	adds	r1, #1
+ 15a:	428b      	cmp	r3, r1
+ 15c:	d3ec      	bcc.n	138 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x138>
+ 15e:	64b8      	str	r0, [r7, #72]	; 0x48
+ 160:	2400      	movs	r4, #0
+ 162:	6138      	str	r0, [r7, #16]
+ 164:	6af9      	ldr	r1, [r7, #44]	; 0x2c
+ 166:	6b3b      	ldr	r3, [r7, #48]	; 0x30
+ 168:	62f9      	str	r1, [r7, #44]	; 0x2c
+ 16a:	633b      	str	r3, [r7, #48]	; 0x30
+ 16c:	683b      	ldr	r3, [r7, #0]
+ 16e:	f8df 90f8 	ldr.w	r9, [pc, #248]	; 268 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x268>
+ 172:	4f3a      	ldr	r7, [pc, #232]	; (25c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x25c>)
+ 174:	f8df 80f4 	ldr.w	r8, [pc, #244]	; 26c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x26c>
+ 178:	e019      	b.n	1ae <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x1ae>
+ 17a:	683b      	ldr	r3, [r7, #0]
+ 17c:	f003 037f 	and.w	r3, r3, #127	; 0x7f
+ 180:	3301      	adds	r3, #1
+ 182:	ebb2 0f93 	cmp.w	r2, r3, lsr #2
+ 186:	bf34      	ite	cc
+ 188:	f04f 6380 	movcc.w	r3, #67108864	; 0x4000000
+ 18c:	f04f 638c 	movcs.w	r3, #73400320	; 0x4600000
+ 190:	600b      	str	r3, [r1, #0]
+ 192:	6b7b      	ldr	r3, [r7, #52]	; 0x34
+ 194:	f3c3 4300 	ubfx	r3, r3, #16, #1
+ 198:	079b      	lsls	r3, r3, #30
+ 19a:	6003      	str	r3, [r0, #0]
+ 19c:	683b      	ldr	r3, [r7, #0]
+ 19e:	3401      	adds	r4, #1
+ 1a0:	f003 037f 	and.w	r3, r3, #127	; 0x7f
+ 1a4:	b2e4      	uxtb	r4, r4
+ 1a6:	3301      	adds	r3, #1
+ 1a8:	4622      	mov	r2, r4
+ 1aa:	429c      	cmp	r4, r3
+ 1ac:	d21f      	bcs.n	1ee <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x1ee>
+ 1ae:	683b      	ldr	r3, [r7, #0]
+ 1b0:	eb04 0109 	add.w	r1, r4, r9
+ 1b4:	eb04 0008 	add.w	r0, r4, r8
+ 1b8:	f003 037f 	and.w	r3, r3, #127	; 0x7f
+ 1bc:	0109      	lsls	r1, r1, #4
+ 1be:	0080      	lsls	r0, r0, #2
+ 1c0:	3301      	adds	r3, #1
+ 1c2:	ebb2 0f53 	cmp.w	r2, r3, lsr #1
+ 1c6:	d3d8      	bcc.n	17a <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x17a>
+ 1c8:	f04f 6300 	mov.w	r3, #134217728	; 0x8000000
+ 1cc:	600b      	str	r3, [r1, #0]
+ 1ce:	683b      	ldr	r3, [r7, #0]
+ 1d0:	0098      	lsls	r0, r3, #2
+ 1d2:	d503      	bpl.n	1dc <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x1dc>
+ 1d4:	f7ff fffe 	bl	0 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv>
+ 1d8:	4284      	cmp	r4, r0
+ 1da:	d3df      	bcc.n	19c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x19c>
+ 1dc:	2301      	movs	r3, #1
+ 1de:	2c1f      	cmp	r4, #31
+ 1e0:	fa03 f304 	lsl.w	r3, r3, r4
+ 1e4:	d823      	bhi.n	22e <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x22e>
+ 1e6:	6aba      	ldr	r2, [r7, #40]	; 0x28
+ 1e8:	4313      	orrs	r3, r2
+ 1ea:	62bb      	str	r3, [r7, #40]	; 0x28
+ 1ec:	e7d6      	b.n	19c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x19c>
+ 1ee:	b93d      	cbnz	r5, 200 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x200>
+ 1f0:	683b      	ldr	r3, [r7, #0]
+ 1f2:	4a1a      	ldr	r2, [pc, #104]	; (25c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x25c>)
+ 1f4:	f023 5380 	bic.w	r3, r3, #268435456	; 0x10000000
+ 1f8:	603b      	str	r3, [r7, #0]
+ 1fa:	6813      	ldr	r3, [r2, #0]
+ 1fc:	01d9      	lsls	r1, r3, #7
+ 1fe:	d4fc      	bmi.n	1fa <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x1fa>
+ 200:	4a16      	ldr	r2, [pc, #88]	; (25c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x25c>)
+ 202:	6813      	ldr	r3, [r2, #0]
+ 204:	f023 5380 	bic.w	r3, r3, #268435456	; 0x10000000
+ 208:	6013      	str	r3, [r2, #0]
+ 20a:	6813      	ldr	r3, [r2, #0]
+ 20c:	01db      	lsls	r3, r3, #7
+ 20e:	d4fc      	bmi.n	20a <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x20a>
+ 210:	f8d6 290c 	ldr.w	r2, [r6, #2316]	; 0x90c
+ 214:	2101      	movs	r1, #1
+ 216:	4b13      	ldr	r3, [pc, #76]	; (264 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x264>)
+ 218:	eb03 1352 	add.w	r3, r3, r2, lsr #5
+ 21c:	f002 021f 	and.w	r2, r2, #31
+ 220:	009b      	lsls	r3, r3, #2
+ 222:	fa01 f202 	lsl.w	r2, r1, r2
+ 226:	601a      	str	r2, [r3, #0]
+ 228:	b003      	add	sp, #12
+ 22a:	e8bd 83f0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, pc}
+ 22e:	f1a4 0120 	sub.w	r1, r4, #32
+ 232:	2301      	movs	r3, #1
+ 234:	6a7a      	ldr	r2, [r7, #36]	; 0x24
+ 236:	408b      	lsls	r3, r1
+ 238:	4313      	orrs	r3, r2
+ 23a:	627b      	str	r3, [r7, #36]	; 0x24
+ 23c:	e7ae      	b.n	19c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x19c>
+ 23e:	2118      	movs	r1, #24
+ 240:	f7ff fffe 	bl	0 <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv>
+ 244:	e6f2      	b.n	2c <_ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE5beginEv+0x2c>
+ 246:	bf00      	nop
+ 248:	0050183c 	.word	0x0050183c
+ 24c:	400fc000 	.word	0x400fc000
+ 250:	00000000 	.word	0x00000000
+ 254:	00000000 	.word	0x00000000
+ 258:	401f8000 	.word	0x401f8000
+ 25c:	401d4000 	.word	0x401d4000
+ 260:	401f8400 	.word	0x401f8400
+ 264:	38003840 	.word	0x38003840
+ 268:	0401d408 	.word	0x0401d408
+ 26c:	10075220 	.word	0x10075220
 
 Disassembly of section .text._ZN15MotorController5beginEv:
 
@@ -1496,10 +1595,10 @@ Disassembly of section .text._ZN15MotorController5beginEv:
    0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
    2:	211f      	movs	r1, #31
    4:	4604      	mov	r4, r0
-   6:	4d2e      	ldr	r5, [pc, #184]	; (c0 <_ZN15MotorController5beginEv+0xc0>)
-   8:	482e      	ldr	r0, [pc, #184]	; (c4 <_ZN15MotorController5beginEv+0xc4>)
+   6:	4d30      	ldr	r5, [pc, #192]	; (c8 <_ZN15MotorController5beginEv+0xc8>)
+   8:	4830      	ldr	r0, [pc, #192]	; (cc <_ZN15MotorController5beginEv+0xcc>)
    a:	f7ff fffe 	bl	0 <usb_serial_write>
-   e:	482e      	ldr	r0, [pc, #184]	; (c8 <_ZN15MotorController5beginEv+0xc8>)
+   e:	4830      	ldr	r0, [pc, #192]	; (d0 <_ZN15MotorController5beginEv+0xd0>)
   10:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
   14:	782b      	ldrb	r3, [r5, #0]
   16:	b143      	cbz	r3, 2a <_ZN15MotorController5beginEv+0x2a>
@@ -1508,66 +1607,69 @@ Disassembly of section .text._ZN15MotorController5beginEv:
   1e:	f104 0008 	add.w	r0, r4, #8
   22:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
   26:	f7ff bffe 	b.w	0 <_ZN11SparkMaxESC5beginEv>
-  2a:	4f28      	ldr	r7, [pc, #160]	; (cc <_ZN15MotorController5beginEv+0xcc>)
+  2a:	4f2a      	ldr	r7, [pc, #168]	; (d4 <_ZN15MotorController5beginEv+0xd4>)
   2c:	683e      	ldr	r6, [r7, #0]
   2e:	f3bf 8f5b 	dmb	ish
   32:	f016 0601 	ands.w	r6, r6, #1
-  36:	d011      	beq.n	5c <_ZN15MotorController5beginEv+0x5c>
-  38:	4825      	ldr	r0, [pc, #148]	; (d0 <_ZN15MotorController5beginEv+0xd0>)
-  3a:	f7ff fffe 	bl	0 <_ZN15MotorController5beginEv>
-  3e:	2200      	movs	r2, #0
-  40:	4924      	ldr	r1, [pc, #144]	; (d4 <_ZN15MotorController5beginEv+0xd4>)
-  42:	4823      	ldr	r0, [pc, #140]	; (d0 <_ZN15MotorController5beginEv+0xd0>)
-  44:	f7ff fffe 	bl	0 <_ZN15MotorController5beginEv>
-  48:	2114      	movs	r1, #20
+  36:	d015      	beq.n	64 <_ZN15MotorController5beginEv+0x64>
+  38:	213c      	movs	r1, #60	; 0x3c
+  3a:	4827      	ldr	r0, [pc, #156]	; (d8 <_ZN15MotorController5beginEv+0xd8>)
+  3c:	f7ff fffe 	bl	0 <_ZN15MotorController5beginEv>
+  40:	4825      	ldr	r0, [pc, #148]	; (d8 <_ZN15MotorController5beginEv+0xd8>)
+  42:	f7ff fffe 	bl	0 <_ZN15MotorController5beginEv>
+  46:	2200      	movs	r2, #0
+  48:	4924      	ldr	r1, [pc, #144]	; (dc <_ZN15MotorController5beginEv+0xdc>)
   4a:	4823      	ldr	r0, [pc, #140]	; (d8 <_ZN15MotorController5beginEv+0xd8>)
-  4c:	f7ff fffe 	bl	0 <usb_serial_write>
-  50:	481d      	ldr	r0, [pc, #116]	; (c8 <_ZN15MotorController5beginEv+0xc8>)
-  52:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
-  56:	2301      	movs	r3, #1
-  58:	702b      	strb	r3, [r5, #0]
-  5a:	e7dd      	b.n	18 <_ZN15MotorController5beginEv+0x18>
-  5c:	4638      	mov	r0, r7
-  5e:	f7ff fffe 	bl	0 <__cxa_guard_acquire>
-  62:	2800      	cmp	r0, #0
-  64:	d0e8      	beq.n	38 <_ZN15MotorController5beginEv+0x38>
-  66:	4a1a      	ldr	r2, [pc, #104]	; (d0 <_ZN15MotorController5beginEv+0xd0>)
-  68:	4638      	mov	r0, r7
-  6a:	f502 5380 	add.w	r3, r2, #4096	; 0x1000
-  6e:	8296      	strh	r6, [r2, #20]
-  70:	82d6      	strh	r6, [r2, #22]
-  72:	8316      	strh	r6, [r2, #24]
-  74:	f8a3 6b1a 	strh.w	r6, [r3, #2842]	; 0xb1a
-  78:	f8a3 6b1c 	strh.w	r6, [r3, #2844]	; 0xb1c
-  7c:	f8a3 6b1e 	strh.w	r6, [r3, #2846]	; 0xb1e
-  80:	f8a3 6cd0 	strh.w	r6, [r3, #3280]	; 0xcd0
-  84:	f8a3 6cd2 	strh.w	r6, [r3, #3282]	; 0xcd2
-  88:	f8a3 6cd4 	strh.w	r6, [r3, #3284]	; 0xcd4
-  8c:	f8a3 6d98 	strh.w	r6, [r3, #3480]	; 0xd98
-  90:	f8a3 6d9a 	strh.w	r6, [r3, #3482]	; 0xd9a
-  94:	f8a3 6d9c 	strh.w	r6, [r3, #3484]	; 0xd9c
-  98:	f502 5300 	add.w	r3, r2, #8192	; 0x2000
-  9c:	f883 6700 	strb.w	r6, [r3, #1792]	; 0x700
-  a0:	f8c3 690c 	str.w	r6, [r3, #2316]	; 0x90c
-  a4:	f883 6701 	strb.w	r6, [r3, #1793]	; 0x701
-  a8:	f8c3 6910 	str.w	r6, [r3, #2320]	; 0x910
-  ac:	f883 6914 	strb.w	r6, [r3, #2324]	; 0x914
-  b0:	4b0a      	ldr	r3, [pc, #40]	; (dc <_ZN15MotorController5beginEv+0xdc>)
-  b2:	601a      	str	r2, [r3, #0]
-  b4:	4b0a      	ldr	r3, [pc, #40]	; (e0 <_ZN15MotorController5beginEv+0xe0>)
-  b6:	6013      	str	r3, [r2, #0]
-  b8:	f7ff fffe 	bl	0 <__cxa_guard_release>
-  bc:	e7bc      	b.n	38 <_ZN15MotorController5beginEv+0x38>
-  be:	bf00      	nop
-  c0:	00000000 	.word	0x00000000
-  c4:	00000000 	.word	0x00000000
+  4c:	f7ff fffe 	bl	0 <_ZN15MotorController5beginEv>
+  50:	2125      	movs	r1, #37	; 0x25
+  52:	4823      	ldr	r0, [pc, #140]	; (e0 <_ZN15MotorController5beginEv+0xe0>)
+  54:	f7ff fffe 	bl	0 <usb_serial_write>
+  58:	481d      	ldr	r0, [pc, #116]	; (d0 <_ZN15MotorController5beginEv+0xd0>)
+  5a:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  5e:	2301      	movs	r3, #1
+  60:	702b      	strb	r3, [r5, #0]
+  62:	e7d9      	b.n	18 <_ZN15MotorController5beginEv+0x18>
+  64:	4638      	mov	r0, r7
+  66:	f7ff fffe 	bl	0 <__cxa_guard_acquire>
+  6a:	2800      	cmp	r0, #0
+  6c:	d0e4      	beq.n	38 <_ZN15MotorController5beginEv+0x38>
+  6e:	4a1a      	ldr	r2, [pc, #104]	; (d8 <_ZN15MotorController5beginEv+0xd8>)
+  70:	4638      	mov	r0, r7
+  72:	f502 5380 	add.w	r3, r2, #4096	; 0x1000
+  76:	8296      	strh	r6, [r2, #20]
+  78:	82d6      	strh	r6, [r2, #22]
+  7a:	8316      	strh	r6, [r2, #24]
+  7c:	f8a3 6b1a 	strh.w	r6, [r3, #2842]	; 0xb1a
+  80:	f8a3 6b1c 	strh.w	r6, [r3, #2844]	; 0xb1c
+  84:	f8a3 6b1e 	strh.w	r6, [r3, #2846]	; 0xb1e
+  88:	f8a3 6cd0 	strh.w	r6, [r3, #3280]	; 0xcd0
+  8c:	f8a3 6cd2 	strh.w	r6, [r3, #3282]	; 0xcd2
+  90:	f8a3 6cd4 	strh.w	r6, [r3, #3284]	; 0xcd4
+  94:	f8a3 6d98 	strh.w	r6, [r3, #3480]	; 0xd98
+  98:	f8a3 6d9a 	strh.w	r6, [r3, #3482]	; 0xd9a
+  9c:	f8a3 6d9c 	strh.w	r6, [r3, #3484]	; 0xd9c
+  a0:	f502 5300 	add.w	r3, r2, #8192	; 0x2000
+  a4:	f883 6700 	strb.w	r6, [r3, #1792]	; 0x700
+  a8:	f8c3 690c 	str.w	r6, [r3, #2316]	; 0x90c
+  ac:	f883 6701 	strb.w	r6, [r3, #1793]	; 0x701
+  b0:	f8c3 6910 	str.w	r6, [r3, #2320]	; 0x910
+  b4:	f883 6914 	strb.w	r6, [r3, #2324]	; 0x914
+  b8:	4b0a      	ldr	r3, [pc, #40]	; (e4 <_ZN15MotorController5beginEv+0xe4>)
+  ba:	601a      	str	r2, [r3, #0]
+  bc:	4b0a      	ldr	r3, [pc, #40]	; (e8 <_ZN15MotorController5beginEv+0xe8>)
+  be:	6013      	str	r3, [r2, #0]
+  c0:	f7ff fffe 	bl	0 <__cxa_guard_release>
+  c4:	e7b8      	b.n	38 <_ZN15MotorController5beginEv+0x38>
+  c6:	bf00      	nop
   c8:	00000000 	.word	0x00000000
   cc:	00000000 	.word	0x00000000
   d0:	00000000 	.word	0x00000000
-  d4:	000f4240 	.word	0x000f4240
-  d8:	00000020 	.word	0x00000020
-  dc:	00000000 	.word	0x00000000
-  e0:	00000008 	.word	0x00000008
+  d4:	00000000 	.word	0x00000000
+  d8:	00000000 	.word	0x00000000
+  dc:	000f4240 	.word	0x000f4240
+  e0:	00000020 	.word	0x00000020
+  e4:	00000000 	.word	0x00000000
+  e8:	00000008 	.word	0x00000008
 
 Disassembly of section .text._ZN10FlexCAN_T4IL13CAN_DEV_TABLE1075658752EL21FLEXCAN_RXQUEUE_TABLE256EL21FLEXCAN_TXQUEUE_TABLE16EE17fifo_filter_matchEm:
 

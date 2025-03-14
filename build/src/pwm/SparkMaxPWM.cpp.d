@@ -1,4 +1,5 @@
-build/./src/main.cpp.o: src/main.cpp teensy4/Arduino.h teensy4/WProgram.h \
+build/./src/pwm/SparkMaxPWM.cpp.o: src/pwm/SparkMaxPWM.cpp \
+ src/pwm/SparkMaxPWM.h teensy4/Arduino.h teensy4/WProgram.h \
  teensy4/avr/pgmspace.h teensy4/avr/interrupt.h teensy4/avr_functions.h \
  teensy4/wiring.h teensy4/binary.h teensy4/core_id.h teensy4/core_pins.h \
  teensy4/imxrt.h teensy4/pins_arduino.h teensy4/HardwareSerial.h \
@@ -10,14 +11,8 @@ build/./src/main.cpp.o: src/main.cpp teensy4/Arduino.h teensy4/WProgram.h \
  teensy4/usb_midi.h teensy4/usb_rawhid.h teensy4/usb_flightsim.h \
  teensy4/usb_audio.h teensy4/usb_touch.h teensy4/WCharacter.h \
  teensy4/elapsedMillis.h teensy4/Arduino.h teensy4/IntervalTimer.h \
- teensy4/CrashReport.h teensy4/Printable.h teensy4/WString.h \
- libraries/PWMServo-master/PWMServo.hpp src/can/SparkMaxESC.hpp \
- src/can/CANManager.hpp libraries/FlexCAN_T4/FlexCAN_T4.h \
- libraries/FlexCAN_T4/circular_buffer.h \
- libraries/FlexCAN_T4/imxrt_flexcan.h libraries/FlexCAN_T4/FlexCAN_T4.tpp \
- libraries/FlexCAN_T4/FlexCAN_T4FD.tpp \
- libraries/FlexCAN_T4/FlexCAN_T4FDTimings.tpp src/git_info.h \
- src/pwm/SparkMaxPWM.h libraries/TeensyDebug/src/TeensyDebug.h
+ teensy4/CrashReport.h teensy4/Printable.h teensy4/WString.h
+src/pwm/SparkMaxPWM.h:
 teensy4/Arduino.h:
 teensy4/WProgram.h:
 teensy4/avr/pgmspace.h:
@@ -57,15 +52,3 @@ teensy4/IntervalTimer.h:
 teensy4/CrashReport.h:
 teensy4/Printable.h:
 teensy4/WString.h:
-libraries/PWMServo-master/PWMServo.hpp:
-src/can/SparkMaxESC.hpp:
-src/can/CANManager.hpp:
-libraries/FlexCAN_T4/FlexCAN_T4.h:
-libraries/FlexCAN_T4/circular_buffer.h:
-libraries/FlexCAN_T4/imxrt_flexcan.h:
-libraries/FlexCAN_T4/FlexCAN_T4.tpp:
-libraries/FlexCAN_T4/FlexCAN_T4FD.tpp:
-libraries/FlexCAN_T4/FlexCAN_T4FDTimings.tpp:
-src/git_info.h:
-src/pwm/SparkMaxPWM.h:
-libraries/TeensyDebug/src/TeensyDebug.h:

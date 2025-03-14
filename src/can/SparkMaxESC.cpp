@@ -1,9 +1,9 @@
+
 #include "SparkMaxESC.hpp"
 
 SparkMaxESC::SparkMaxESC(uint8_t canID) : sparkMaxID(canID) {
   sparkMaxCANID =
-      (0x02040000 |
-       (sparkMaxID & 0x3F)); // Ensure correct Spark MAX ID (6-bit device ID)
+      0x02040000 | (sparkMaxID & 0x3F); // Correctly formatted Extended CAN ID
 }
 
 void SparkMaxESC::begin() {
@@ -14,7 +14,7 @@ void SparkMaxESC::begin() {
 void SparkMaxESC::setPower(float power) {
   Serial.print("Setting power: ");
   Serial.println(power);
-  sendCommand(DUTY_CYCLE, power);
+  sendCommand(0x02040000, sparkMaxID, 0x00, power); // 0x00 = Duty Cycle Mode
 }
 
 void SparkMaxESC::setControl(ControlType mode, float value) {
@@ -22,36 +22,49 @@ void SparkMaxESC::setControl(ControlType mode, float value) {
   Serial.print(static_cast<uint8_t>(mode));
   Serial.print(", Value: ");
   Serial.println(value);
-  sendCommand(mode, value);
+  sendCommand(0x02040000, sparkMaxID, static_cast<uint8_t>(mode), value);
 }
 
 void SparkMaxESC::stop() {
   Serial.println("Stopping motor.");
-  sendCommand(DUTY_CYCLE, 0.0f);
+  sendCommand(0x02040000, sparkMaxID, 0x00, 0.0f);
 }
 
-void SparkMaxESC::sendCommand(ControlType mode, float value) {
+void SparkMaxESC::sendCommand(uint32_t baseID, uint8_t deviceID,
+                              uint8_t controlMode, float value) {
   FlexCAN_T4<CAN2, RX_SIZE_256, TX_SIZE_16> &canBus = CANManager::getInstance();
 
   CAN_message_t msg;
-  msg.id = sparkMaxCANID;
+  msg.id = baseID | (deviceID & 0x3F); // Correctly formatted Extended CAN ID
   msg.len = 8;
-  msg.flags.extended = 1; // 29-bit extended CAN ID
+  msg.flags.extended = 1; // 29-bit Extended CAN ID
 
-  msg.buf[0] = static_cast<uint8_t>(mode);
-  msg.buf[1] = 0x00; // Unused, must be zero
+  // Encode data
+  msg.buf[0] = controlMode; // Control Mode (e.g., 0x00 = Duty Cycle)
+  msg.buf[1] = 0x00;        // Unused, must be 0
 
-  int16_t output = static_cast<int16_t>(value * 32767.0f);
+  int16_t output = static_cast<int16_t>(
+      value * 32767.0f); // Convert float (-1 to 1) to Q15 format
   msg.buf[2] = output & 0xFF;
   msg.buf[3] = (output >> 8) & 0xFF;
 
+  // Zero out unused bytes
   for (int i = 4; i < 8; i++) {
     msg.buf[i] = 0;
   }
 
+  // Debugging output
   Serial.print("Sending CAN message with ID: ");
   Serial.println(msg.id, HEX);
 
+  Serial.print("Data: ");
+  for (int i = 0; i < msg.len; i++) {
+    Serial.print(msg.buf[i], HEX);
+    Serial.print(" ");
+  }
+  Serial.println();
+
+  // Send message
   if (canBus.write(msg)) {
     Serial.println("CAN message sent successfully.");
   } else {
@@ -61,53 +74,38 @@ void SparkMaxESC::sendCommand(ControlType mode, float value) {
 
 // Read encoder position
 float SparkMaxESC::getEncoderPosition() {
-  return readResponse(0x08000000 | (sparkMaxID & 0x3F));
+  return readResponse(0x08000000, sparkMaxID);
 }
 
 // Read encoder velocity
 float SparkMaxESC::getEncoderVelocity() {
-  return readResponse(0x09000000 | (sparkMaxID & 0x3F));
+  return readResponse(0x09000000, sparkMaxID);
 }
 
 // Read motor current
 float SparkMaxESC::getMotorCurrent() {
-  return readResponse(0x0C000000 | (sparkMaxID & 0x3F));
+  return readResponse(0x0C000000, sparkMaxID);
 }
 
 // Read motor temperature
 float SparkMaxESC::getMotorTemperature() {
-  return readResponse(0x0D000000 | (sparkMaxID & 0x3F));
+  return readResponse(0x0D000000, sparkMaxID);
 }
 
 // Read faults
 uint16_t SparkMaxESC::getFaults() {
-  return static_cast<uint16_t>(readResponse(0x0E000000 | (sparkMaxID & 0x3F)));
+  return static_cast<uint16_t>(readResponse(0x0E000000, sparkMaxID));
 }
 
 // Read sticky faults
 uint16_t SparkMaxESC::getStickyFaults() {
-  return static_cast<uint16_t>(readResponse(0x0F000000 | (sparkMaxID & 0x3F)));
+  return static_cast<uint16_t>(readResponse(0x0F000000, sparkMaxID));
 }
 
 // Reset faults
 void SparkMaxESC::resetFaults() {
   Serial.println("Resetting faults...");
-  FlexCAN_T4<CAN2, RX_SIZE_256, TX_SIZE_16> &canBus = CANManager::getInstance();
-
-  CAN_message_t msg;
-  msg.id = 0x0E000000 | (sparkMaxID & 0x3F);
-  msg.len = 8;
-  msg.flags.extended = 1; // Extended ID
-
-  for (int i = 0; i < 8; i++) {
-    msg.buf[i] = 0;
-  }
-
-  if (canBus.write(msg)) {
-    Serial.println("Fault reset command sent successfully.");
-  } else {
-    Serial.println("Fault reset command failed!");
-  }
+  sendCommand(0x0E000000, sparkMaxID, 0x00, 0.0f);
 }
 
 // Set current limit
@@ -115,37 +113,19 @@ void SparkMaxESC::setCurrentLimit(float currentLimit) {
   Serial.print("Setting current limit: ");
   Serial.println(currentLimit);
 
-  FlexCAN_T4<CAN2, RX_SIZE_256, TX_SIZE_16> &canBus = CANManager::getInstance();
-
-  CAN_message_t msg;
-  msg.id = 0x10000000 | (sparkMaxID & 0x3F);
-  msg.len = 8;
-  msg.flags.extended = 1; // Extended ID
-
   int16_t limit = static_cast<int16_t>(currentLimit * 1000); // Convert to mA
-  msg.buf[0] = limit & 0xFF;
-  msg.buf[1] = (limit >> 8) & 0xFF;
-
-  for (int i = 2; i < 8; i++) {
-    msg.buf[i] = 0;
-  }
-
-  if (canBus.write(msg)) {
-    Serial.println("Current limit set successfully.");
-  } else {
-    Serial.println("Failed to set current limit!");
-  }
+  sendCommand(0x10000000, sparkMaxID, 0x00, limit);
 }
 
-// Read response from Spark MAX
-float SparkMaxESC::readResponse(uint32_t paramID) {
+// Read response from SPARK MAX
+float SparkMaxESC::readResponse(uint32_t paramID, uint8_t deviceID) {
   Serial.print("Requesting data with ID: ");
   Serial.println(paramID, HEX);
 
   FlexCAN_T4<CAN2, RX_SIZE_256, TX_SIZE_16> &canBus = CANManager::getInstance();
 
   CAN_message_t msg;
-  msg.id = paramID;
+  msg.id = paramID | (deviceID & 0x3F); // Ensure correct 29-bit ID
   msg.len = 8;
   msg.flags.extended = 1; // Extended ID
 
@@ -153,21 +133,59 @@ float SparkMaxESC::readResponse(uint32_t paramID) {
     msg.buf[i] = 0;
   }
 
+  Serial.print("Sending Read Request ID: ");
+  Serial.println(msg.id, HEX);
+
   if (!canBus.write(msg)) {
     Serial.println("Failed to send read request!");
     return -1;
   }
 
+  // Wait for response
   CAN_message_t response;
   uint32_t start_time = millis();
   while (millis() - start_time < 50) {
     if (canBus.read(response)) {
-      int16_t rawValue = (response.buf[2] | (response.buf[3] << 8));
-      return rawValue / 32767.0f;
+      Serial.print("Received Response ID: ");
+      Serial.println(response.id, HEX);
+
+      Serial.print("Response Data: ");
+      for (int i = 0; i < response.len; i++) {
+        Serial.print(response.buf[i], HEX);
+        Serial.print(" ");
+      }
+      Serial.println();
+
+      // Assume it's a 32-bit IEEE-754 float (for position, velocity, etc.)
+      float result;
+      memcpy(&result, &response.buf[0], sizeof(result));
+      return result;
     }
     delay(1);
   }
 
   Serial.println("No response received.");
   return -1;
+}
+
+// Listen for any CAN messages (for debugging)
+void SparkMaxESC::listenForCanMessages() {
+  FlexCAN_T4<CAN2, RX_SIZE_256, TX_SIZE_16> &canBus = CANManager::getInstance();
+  CAN_message_t msg;
+
+  Serial.println("Listening for incoming CAN messages...");
+  while (true) {
+    if (canBus.read(msg)) {
+      Serial.print("Received CAN ID: ");
+      Serial.println(msg.id, HEX);
+
+      Serial.print("Data: ");
+      for (int i = 0; i < msg.len; i++) {
+        Serial.print(msg.buf[i], HEX);
+        Serial.print(" ");
+      }
+      Serial.println();
+    }
+    delay(10);
+  }
 }
