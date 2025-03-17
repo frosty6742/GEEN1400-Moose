@@ -1,7 +1,6 @@
 #include <Arduino.h>
 
-#include "PWMServo.hpp"
-#include "SparkMaxESC.hpp"
+#include "FlightController.hpp"
 #include "core_pins.h"
 #include "git_info.h"
 #include "pwm/SparkMaxPWM.h"
@@ -13,11 +12,10 @@
 #define HEARTBEAT_FREQ 2
 
 // Declare global objects
-// SparkMaxESC motor(1);
-// MotorController mControl(1, 2); // Left ESC ID = 1, Right ESC ID = 2
-//
-// PWMServo smotor;
-SparkMaxPWM smotor(9);
+SparkMaxPWM motorL(1);
+SparkMaxPWM motorR(2);
+
+FlightController flightController(motorL, motorR);
 
 // DONT put anything else in this function. It is not a setup function
 void print_logo() {
@@ -41,29 +39,16 @@ int main() {
   debug.begin(SerialUSB1);
   print_logo();
 
-  Serial.println("Initializing Motor Controller...");
-  // motor.begin();
+  Serial.println("Initializing Flight Controller...");
+  flightController.init();
 
   Serial.println("Entering main loop...\n");
-
   delay(1000);
 
-  smotor.begin();
-  // Main loop
+  flightController.set_control_mode(LINE_FOLLOW);
+  //  Main loop
   while (true) {
-    // motor.listenForCanMessages();
-    // delay(1000);
-
-    // Serial.println(motor.getMotorTemperature());
-    // Serial.println();
-    // delay(2000);
-    //
-    smotor.setSpeed(0.60);
-    // delay(1000);
-
-    // motor.setPower(0.2);
-    // Serial.println();
-    // delay(2000);
+    flightController.update();
   }
 
   return 0;

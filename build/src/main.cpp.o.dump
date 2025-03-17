@@ -12,15 +12,15 @@ SYMBOL TABLE:
 00000000 l    d  .text._Z10print_logov	00000000 .text._Z10print_logov
 00000000 l    d  .rodata.main.str1.4	00000000 .rodata.main.str1.4
 00000000 l    d  .text.startup.main	00000000 .text.startup.main
-00000000 l    d  .text.startup._GLOBAL__sub_I_smotor	00000000 .text.startup._GLOBAL__sub_I_smotor
-00000000 l     F .text.startup._GLOBAL__sub_I_smotor	0000000c _GLOBAL__sub_I_smotor
+00000000 l    d  .text.startup._GLOBAL__sub_I_motor	00000000 .text.startup._GLOBAL__sub_I_motor
+00000000 l     F .text.startup._GLOBAL__sub_I_motor	0000000c _GLOBAL__sub_I_motor
 00000000 l    d  .init_array	00000000 .init_array
-00000000 l    d  .bss.smotor	00000000 .bss.smotor
+00000000 l    d  .bss.motor	00000000 .bss.motor
 00000000 l    d  .comment	00000000 .comment
 00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
 00000000         *UND*	00000000 strlen
 00000000         *UND*	00000000 _ZN5Print7printlnEv
-00000000 g     F .text._Z10print_logov	000000d0 _Z10print_logov
+00000000 g     F .text._Z10print_logov	000000cc _Z10print_logov
 00000000         *UND*	00000000 yield
 00000000         *UND*	00000000 usb_serial_write
 00000000         *UND*	00000000 _ZN5Print6printfEPKcz
@@ -29,15 +29,14 @@ SYMBOL TABLE:
 00000000         *UND*	00000000 systick_millis_count
 00000000         *UND*	00000000 usb_cdc_line_rtsdtr_millis
 00000000         *UND*	00000000 Serial
-00000000 g     F .text.startup.main	000000bc main
+00000000 g     F .text.startup.main	000000a8 main
 00000000         *UND*	00000000 _ZN5Debug5beginEP6Stream
-00000000         *UND*	00000000 delay
 00000000         *UND*	00000000 _ZN11SparkMaxPWM5beginEv
-00000000         *UND*	00000000 _ZN11SparkMaxPWM8setSpeedEf
+00000000         *UND*	00000000 delay
 00000000         *UND*	00000000 SerialUSB1
 00000000         *UND*	00000000 debug
 00000000         *UND*	00000000 _ZN11SparkMaxPWMC1Ei
-00000000 g     O .bss.smotor	0000000c smotor
+00000000 g     O .bss.motor	0000000c motor
 
 
 Contents of section .text._ZN5Print7printlnEPKc.isra.0:
@@ -47,33 +46,32 @@ Contents of section .text._ZN5Print7printlnEPKc.isra.0:
 Contents of section .rodata._Z10print_logov.str1.4:
  0000 1b5b306d 00000000 0a1b5b31 3b39326d  .[0m......[1;92m
  0010 46572056 65722e20 322e312e 30000000  FW Ver. 2.1.0...
- 0020 31323a32 353a3537 00000000 4d617220  12:25:57....Mar 
- 0030 31332032 30323500 0a4c6173 74204275  13 2025..Last Bu
+ 0020 31313a33 373a3536 00000000 4d617220  11:37:56....Mar 
+ 0030 31372032 30323500 0a4c6173 74204275  17 2025..Last Bu
  0040 696c743a 20257320 61742025 73000000  ilt: %s at %s...
- 0050 63343039 31656561 66303731 66623366  c4091eeaf071fb3f
- 0060 61396339 64356532 37353163 62373135  a9c9d5e2751cb715
- 0070 64366666 34313562 00000000 0a476974  d6ff415b.....Git
- 0080 20486173 683a2025 73000000 6d61696e   Hash: %s...main
- 0090 00000000 0a476974 20427261 6e63683a  .....Git Branch:
- 00a0 20257300 626e6f30 3835206c 69626172   %s.bno085 libar
- 00b0 69657320 00000000 0a436f6d 6d697420  ies .....Commit 
- 00c0 4d657373 6167653a 20257300 0a52616e  Message: %s..Ran
- 00d0 646f6d20 4e756d3a 20257800 1b5b306d  dom Num: %x..[0m
- 00e0 0a00                                 ..              
+ 0050 00000000 0a476974 20486173 683a2025  .....Git Hash: %
+ 0060 73000000 35316230 32363035 65376332  s...51b02605e7c2
+ 0070 64613938 39626331 61363430 39646436  da989bc1a6409dd6
+ 0080 35323231 65636134 35366166 20737061  5221eca456af spa
+ 0090 726b206d 6178206f 76657220 50574d00  rk max over PWM.
+ 00a0 0a476974 20427261 6e63683a 20257300  .Git Branch: %s.
+ 00b0 0a436f6d 6d697420 4d657373 6167653a  .Commit Message:
+ 00c0 20257300 0a52616e 646f6d20 4e756d3a   %s..Random Num:
+ 00d0 20257800 1b5b306d 0a00                %x..[0m..      
 Contents of section .text._Z10print_logov:
  0000 08b5fff7 feff1f4b 1b78002b 39d01e4b  .......K.x.+9..K
  0010 1b78db07 35d51d4b 1d4a1b68 12689b1a  .x..5..K.J.h.h..
  0020 0e2b2ed9 04211b48 fff7feff 15211a48  .+...!.H.....!.H
  0030 fff7feff 1948fff7 feff194b 194a1a49  .....H.....K.J.I
  0040 1648fff7 feff194a 19491448 fff7feff  .H.....J.I.H....
- 0050 184a1949 1148fff7 feff184a 18490f48  .J.I.H.....J.I.H
- 0060 fff7feff 174b1849 5a680c48 fff7feff  .....K.IZh.H....
- 0070 05211648 fff7feff 0848bde8 0840fff7  .!.H.....H...@..
+ 0050 184a1949 1148fff7 feff144a 17490f48  .J.I.H.....J.I.H
+ 0060 fff7feff 164b1749 5a680c48 fff7feff  .....K.IZh.H....
+ 0070 05211548 fff7feff 0848bde8 0840fff7  .!.H.....H...@..
  0080 febf08bd 00000000 00000000 00000000  ................
  0090 00000000 00000000 08000000 00000000  ................
  00a0 20000000 2c000000 38000000 50000000   ...,...8...P...
- 00b0 7c000000 8c000000 94000000 a4000000  |...............
- 00c0 b8000000 001000e0 cc000000 dc000000  ................
+ 00b0 54000000 64000000 a0000000 b0000000  T...d...........
+ 00c0 001000e0 c4000000 d4000000           ............    
 Contents of section .rodata.main.str1.4:
  0000 53657269 616c2053 74617274 65640000  Serial Started..
  0010 496e6974 69616c69 7a696e67 204d6f74  Initializing Mot
@@ -81,20 +79,19 @@ Contents of section .rodata.main.str1.4:
  0030 00000000 456e7465 72696e67 206d6169  ....Entering mai
  0040 6e206c6f 6f702e2e 2e0a00             n loop.....     
 Contents of section .text.startup.main:
- 0000 224d40f2 ee28224c dff8ac90 2e6880b5  "M@..("L.....h..
- 0010 204ffff7 feff2378 53b33b78 db0727d5   O....#xS.;x..'.
- 0020 2b68d9f8 00209b1a 0e2b21d9 1a491b48  +h... ...+!..I.H
- 0030 fff7feff 1a491b48 fff7feff 1a4cfff7  .....I.H.....L..
- 0040 feff1a49 1548fff7 feff1949 1348fff7  ...I.H.....I.H..
- 0050 feff4ff4 7a70fff7 feff2046 9fed158a  ..O.zp.... F....
- 0060 fff7feff b0ee480a 2046fff7 fefff9e7  ......H. F......
- 0070 2b682278 9b1b2ab1 b3f5fa6f d6d8fff7  +h"x..*....o....
- 0080 feffc6e7 4345fad9 d0e700bf 00000000  ....CE..........
- 0090 00000000 00000000 00000000 00000000  ................
- 00a0 00000000 00000000 00000000 10000000  ................
- 00b0 34000000 9a99193f 00000000           4......?....    
-Contents of section .text.startup._GLOBAL__sub_I_smotor:
- 0000 09210148 fff7febf 00000000           .!.H........    
+ 0000 1e4d40f2 ee281e4c dff89890 2e6880b5  .M@..(.L.....h..
+ 0010 1c4ffff7 feff2378 13b33b78 db071fd5  .O....#x..;x....
+ 0020 2b68d9f8 00209b1a 0e2b19d9 16491748  +h... ...+...I.H
+ 0030 fff7feff 16491748 fff7feff fff7feff  .....I.H........
+ 0040 15491248 fff7feff 1448fff7 feff0f48  .I.H.....H.....H
+ 0050 1349fff7 feff4ff4 7a70fff7 fefffee7  .I....O.zp......
+ 0060 2b682278 9b1b2ab1 b3f5fa6f ded8fff7  +h"x..*....o....
+ 0070 feffcee7 4345fad9 d8e700bf 00000000  ....CE..........
+ 0080 00000000 00000000 00000000 00000000  ................
+ 0090 00000000 00000000 10000000 00000000  ................
+ 00a0 34000000 00000000                    4.......        
+Contents of section .text.startup._GLOBAL__sub_I_motor:
+ 0000 01210148 fff7febf 00000000           .!.H........    
 Contents of section .init_array:
  0000 00000000                             ....            
 Contents of section .comment:
@@ -168,17 +165,17 @@ Disassembly of section .text._Z10print_logov:
   52:	4919      	ldr	r1, [pc, #100]	; (b8 <_Z10print_logov+0xb8>)
   54:	4811      	ldr	r0, [pc, #68]	; (9c <_Z10print_logov+0x9c>)
   56:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
-  5a:	4a18      	ldr	r2, [pc, #96]	; (bc <_Z10print_logov+0xbc>)
-  5c:	4918      	ldr	r1, [pc, #96]	; (c0 <_Z10print_logov+0xc0>)
+  5a:	4a14      	ldr	r2, [pc, #80]	; (ac <_Z10print_logov+0xac>)
+  5c:	4917      	ldr	r1, [pc, #92]	; (bc <_Z10print_logov+0xbc>)
   5e:	480f      	ldr	r0, [pc, #60]	; (9c <_Z10print_logov+0x9c>)
   60:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
-  64:	4b17      	ldr	r3, [pc, #92]	; (c4 <_Z10print_logov+0xc4>)
-  66:	4918      	ldr	r1, [pc, #96]	; (c8 <_Z10print_logov+0xc8>)
+  64:	4b16      	ldr	r3, [pc, #88]	; (c0 <_Z10print_logov+0xc0>)
+  66:	4917      	ldr	r1, [pc, #92]	; (c4 <_Z10print_logov+0xc4>)
   68:	685a      	ldr	r2, [r3, #4]
   6a:	480c      	ldr	r0, [pc, #48]	; (9c <_Z10print_logov+0x9c>)
   6c:	f7ff fffe 	bl	0 <_ZN5Print6printfEPKcz>
   70:	2105      	movs	r1, #5
-  72:	4816      	ldr	r0, [pc, #88]	; (cc <_Z10print_logov+0xcc>)
+  72:	4815      	ldr	r0, [pc, #84]	; (c8 <_Z10print_logov+0xc8>)
   74:	f7ff fffe 	bl	0 <usb_serial_write>
   78:	4808      	ldr	r0, [pc, #32]	; (9c <_Z10print_logov+0x9c>)
   7a:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
@@ -195,88 +192,81 @@ Disassembly of section .text._Z10print_logov:
   a4:	0000002c 	.word	0x0000002c
   a8:	00000038 	.word	0x00000038
   ac:	00000050 	.word	0x00000050
-  b0:	0000007c 	.word	0x0000007c
-  b4:	0000008c 	.word	0x0000008c
-  b8:	00000094 	.word	0x00000094
-  bc:	000000a4 	.word	0x000000a4
-  c0:	000000b8 	.word	0x000000b8
-  c4:	e0001000 	.word	0xe0001000
-  c8:	000000cc 	.word	0x000000cc
-  cc:	000000dc 	.word	0x000000dc
+  b0:	00000054 	.word	0x00000054
+  b4:	00000064 	.word	0x00000064
+  b8:	000000a0 	.word	0x000000a0
+  bc:	000000b0 	.word	0x000000b0
+  c0:	e0001000 	.word	0xe0001000
+  c4:	000000c4 	.word	0x000000c4
+  c8:	000000d4 	.word	0x000000d4
 
 Disassembly of section .text.startup.main:
 
 00000000 <main>:
-   0:	4d22      	ldr	r5, [pc, #136]	; (8c <main+0x8c>)
+   0:	4d1e      	ldr	r5, [pc, #120]	; (7c <main+0x7c>)
    2:	f240 28ee 	movw	r8, #750	; 0x2ee
-   6:	4c22      	ldr	r4, [pc, #136]	; (90 <main+0x90>)
-   8:	f8df 90ac 	ldr.w	r9, [pc, #172]	; b8 <main+0xb8>
+   6:	4c1e      	ldr	r4, [pc, #120]	; (80 <main+0x80>)
+   8:	f8df 9098 	ldr.w	r9, [pc, #152]	; a4 <main+0xa4>
    c:	682e      	ldr	r6, [r5, #0]
    e:	b580      	push	{r7, lr}
-  10:	4f20      	ldr	r7, [pc, #128]	; (94 <main+0x94>)
+  10:	4f1c      	ldr	r7, [pc, #112]	; (84 <main+0x84>)
   12:	f7ff fffe 	bl	0 <yield>
   16:	7823      	ldrb	r3, [r4, #0]
-  18:	b353      	cbz	r3, 70 <main+0x70>
+  18:	b313      	cbz	r3, 60 <main+0x60>
   1a:	783b      	ldrb	r3, [r7, #0]
   1c:	07db      	lsls	r3, r3, #31
-  1e:	d527      	bpl.n	70 <main+0x70>
+  1e:	d51f      	bpl.n	60 <main+0x60>
   20:	682b      	ldr	r3, [r5, #0]
   22:	f8d9 2000 	ldr.w	r2, [r9]
   26:	1a9b      	subs	r3, r3, r2
   28:	2b0e      	cmp	r3, #14
-  2a:	d921      	bls.n	70 <main+0x70>
-  2c:	491a      	ldr	r1, [pc, #104]	; (98 <main+0x98>)
-  2e:	481b      	ldr	r0, [pc, #108]	; (9c <main+0x9c>)
+  2a:	d919      	bls.n	60 <main+0x60>
+  2c:	4916      	ldr	r1, [pc, #88]	; (88 <main+0x88>)
+  2e:	4817      	ldr	r0, [pc, #92]	; (8c <main+0x8c>)
   30:	f7ff fffe 	bl	0 <main>
-  34:	491a      	ldr	r1, [pc, #104]	; (a0 <main+0xa0>)
-  36:	481b      	ldr	r0, [pc, #108]	; (a4 <main+0xa4>)
+  34:	4916      	ldr	r1, [pc, #88]	; (90 <main+0x90>)
+  36:	4817      	ldr	r0, [pc, #92]	; (94 <main+0x94>)
   38:	f7ff fffe 	bl	0 <_ZN5Debug5beginEP6Stream>
-  3c:	4c1a      	ldr	r4, [pc, #104]	; (a8 <main+0xa8>)
-  3e:	f7ff fffe 	bl	0 <main>
-  42:	491a      	ldr	r1, [pc, #104]	; (ac <main+0xac>)
-  44:	4815      	ldr	r0, [pc, #84]	; (9c <main+0x9c>)
-  46:	f7ff fffe 	bl	0 <main>
-  4a:	4919      	ldr	r1, [pc, #100]	; (b0 <main+0xb0>)
-  4c:	4813      	ldr	r0, [pc, #76]	; (9c <main+0x9c>)
-  4e:	f7ff fffe 	bl	0 <main>
-  52:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
-  56:	f7ff fffe 	bl	0 <delay>
-  5a:	4620      	mov	r0, r4
-  5c:	ed9f 8a15 	vldr	s16, [pc, #84]	; b4 <main+0xb4>
-  60:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM5beginEv>
-  64:	eeb0 0a48 	vmov.f32	s0, s16
-  68:	4620      	mov	r0, r4
-  6a:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
-  6e:	e7f9      	b.n	64 <main+0x64>
-  70:	682b      	ldr	r3, [r5, #0]
-  72:	7822      	ldrb	r2, [r4, #0]
-  74:	1b9b      	subs	r3, r3, r6
-  76:	b12a      	cbz	r2, 84 <main+0x84>
-  78:	f5b3 6ffa 	cmp.w	r3, #2000	; 0x7d0
-  7c:	d8d6      	bhi.n	2c <main+0x2c>
-  7e:	f7ff fffe 	bl	0 <yield>
-  82:	e7c6      	b.n	12 <main+0x12>
-  84:	4543      	cmp	r3, r8
-  86:	d9fa      	bls.n	7e <main+0x7e>
-  88:	e7d0      	b.n	2c <main+0x2c>
-  8a:	bf00      	nop
+  3c:	f7ff fffe 	bl	0 <main>
+  40:	4915      	ldr	r1, [pc, #84]	; (98 <main+0x98>)
+  42:	4812      	ldr	r0, [pc, #72]	; (8c <main+0x8c>)
+  44:	f7ff fffe 	bl	0 <main>
+  48:	4814      	ldr	r0, [pc, #80]	; (9c <main+0x9c>)
+  4a:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM5beginEv>
+  4e:	480f      	ldr	r0, [pc, #60]	; (8c <main+0x8c>)
+  50:	4913      	ldr	r1, [pc, #76]	; (a0 <main+0xa0>)
+  52:	f7ff fffe 	bl	0 <main>
+  56:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
+  5a:	f7ff fffe 	bl	0 <delay>
+  5e:	e7fe      	b.n	5e <main+0x5e>
+  60:	682b      	ldr	r3, [r5, #0]
+  62:	7822      	ldrb	r2, [r4, #0]
+  64:	1b9b      	subs	r3, r3, r6
+  66:	b12a      	cbz	r2, 74 <main+0x74>
+  68:	f5b3 6ffa 	cmp.w	r3, #2000	; 0x7d0
+  6c:	d8de      	bhi.n	2c <main+0x2c>
+  6e:	f7ff fffe 	bl	0 <yield>
+  72:	e7ce      	b.n	12 <main+0x12>
+  74:	4543      	cmp	r3, r8
+  76:	d9fa      	bls.n	6e <main+0x6e>
+  78:	e7d8      	b.n	2c <main+0x2c>
+  7a:	bf00      	nop
+  7c:	00000000 	.word	0x00000000
+  80:	00000000 	.word	0x00000000
+  84:	00000000 	.word	0x00000000
+  88:	00000000 	.word	0x00000000
   8c:	00000000 	.word	0x00000000
   90:	00000000 	.word	0x00000000
   94:	00000000 	.word	0x00000000
-  98:	00000000 	.word	0x00000000
+  98:	00000010 	.word	0x00000010
   9c:	00000000 	.word	0x00000000
-  a0:	00000000 	.word	0x00000000
+  a0:	00000034 	.word	0x00000034
   a4:	00000000 	.word	0x00000000
-  a8:	00000000 	.word	0x00000000
-  ac:	00000010 	.word	0x00000010
-  b0:	00000034 	.word	0x00000034
-  b4:	3f19999a 	.word	0x3f19999a
-  b8:	00000000 	.word	0x00000000
 
-Disassembly of section .text.startup._GLOBAL__sub_I_smotor:
+Disassembly of section .text.startup._GLOBAL__sub_I_motor:
 
-00000000 <_GLOBAL__sub_I_smotor>:
-   0:	2109      	movs	r1, #9
-   2:	4801      	ldr	r0, [pc, #4]	; (8 <_GLOBAL__sub_I_smotor+0x8>)
+00000000 <_GLOBAL__sub_I_motor>:
+   0:	2101      	movs	r1, #1
+   2:	4801      	ldr	r0, [pc, #4]	; (8 <_GLOBAL__sub_I_motor+0x8>)
    4:	f7ff bffe 	b.w	0 <_ZN11SparkMaxPWMC1Ei>
    8:	00000000 	.word	0x00000000
