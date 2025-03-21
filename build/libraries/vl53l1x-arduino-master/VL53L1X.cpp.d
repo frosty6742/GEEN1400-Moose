@@ -1,9 +1,9 @@
-build/./src/tug-controls/FlightController.cpp.o: \
- src/tug-controls/FlightController.cpp \
- src/tug-controls/FlightController.hpp src/sensors/VL53L.hpp \
- teensy4/Arduino.h teensy4/WProgram.h teensy4/avr/pgmspace.h \
- teensy4/avr/interrupt.h teensy4/avr_functions.h teensy4/wiring.h \
- teensy4/binary.h teensy4/core_id.h teensy4/core_pins.h teensy4/imxrt.h \
+build/./libraries/vl53l1x-arduino-master/VL53L1X.cpp.o: \
+ libraries/vl53l1x-arduino-master/VL53L1X.cpp \
+ libraries/vl53l1x-arduino-master/VL53L1X.h teensy4/Arduino.h \
+ teensy4/WProgram.h teensy4/avr/pgmspace.h teensy4/avr/interrupt.h \
+ teensy4/avr_functions.h teensy4/wiring.h teensy4/binary.h \
+ teensy4/core_id.h teensy4/core_pins.h teensy4/imxrt.h \
  teensy4/pins_arduino.h teensy4/HardwareSerial.h teensy4/Stream.h \
  teensy4/Print.h teensy4/WString.h teensy4/avr/pgmspace.h \
  teensy4/Printable.h teensy4/printf.h teensy4/inplace_function.h \
@@ -13,11 +13,9 @@ build/./src/tug-controls/FlightController.cpp.o: \
  teensy4/usb_rawhid.h teensy4/usb_flightsim.h teensy4/usb_audio.h \
  teensy4/usb_touch.h teensy4/WCharacter.h teensy4/elapsedMillis.h \
  teensy4/Arduino.h teensy4/IntervalTimer.h teensy4/CrashReport.h \
- teensy4/Printable.h teensy4/WString.h \
- libraries/vl53l1x-arduino-master/VL53L1X.h libraries/Wire/Wire.h \
- libraries/Wire/WireIMXRT.h src/pwm/SparkMaxPWM.h
-src/tug-controls/FlightController.hpp:
-src/sensors/VL53L.hpp:
+ teensy4/Printable.h teensy4/WString.h libraries/Wire/Wire.h \
+ libraries/Wire/WireIMXRT.h
+libraries/vl53l1x-arduino-master/VL53L1X.h:
 teensy4/Arduino.h:
 teensy4/WProgram.h:
 teensy4/avr/pgmspace.h:
@@ -57,7 +55,5 @@ teensy4/IntervalTimer.h:
 teensy4/CrashReport.h:
 teensy4/Printable.h:
 teensy4/WString.h:
-libraries/vl53l1x-arduino-master/VL53L1X.h:
 libraries/Wire/Wire.h:
 libraries/Wire/WireIMXRT.h:
-src/pwm/SparkMaxPWM.h:

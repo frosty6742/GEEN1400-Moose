@@ -7,9 +7,6 @@
 BNO085Interface::BNO085Interface(int8_t resetPin) : bno08x(resetPin) {}
 
 bool BNO085Interface::begin() {
-  Serial.begin(115200);
-  while (!Serial)
-    delay(10);
   Serial.println("Initializing BNO085...");
 
   if (!bno08x.begin_I2C()) {

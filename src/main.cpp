@@ -1,6 +1,8 @@
 #include <Arduino.h>
 
+#include "BNO085.hpp"
 #include "FlightController.hpp"
+#include "VL53L.hpp"
 #include "core_pins.h"
 #include "git_info.h"
 #include "pwm/SparkMaxPWM.h"
@@ -12,10 +14,16 @@
 #define HEARTBEAT_FREQ 2
 
 // Declare global objects
-SparkMaxPWM motorL(1);
-SparkMaxPWM motorR(2);
+// Motors
+SparkMaxPWM motorL(8);
+SparkMaxPWM motorR(11);
 
-FlightController flightController(motorL, motorR);
+VL53L tof;
+
+// Sensors
+// BNO0085 bno;
+
+FlightController flightController(motorL, motorR, tof);
 
 // DONT put anything else in this function. It is not a setup function
 void print_logo() {
@@ -42,10 +50,11 @@ int main() {
   Serial.println("Initializing Flight Controller...");
   flightController.init();
 
+  flightController.set_control_mode(LINE_FOLLOW);
+
   Serial.println("Entering main loop...\n");
   delay(1000);
 
-  flightController.set_control_mode(LINE_FOLLOW);
   //  Main loop
   while (true) {
     flightController.update();
