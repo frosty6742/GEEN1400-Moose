@@ -21,7 +21,8 @@ build/./src/sensors/BNO085.cpp.o: src/sensors/BNO085.cpp \
  libraries/Wire/WireIMXRT.h libraries/Adafruit_BusIO/Adafruit_SPIDevice.h \
  libraries/SPI/SPI.h teensy4/DMAChannel.h teensy4/EventResponder.h \
  libraries/Adafruit_Sensor/Adafruit_Sensor.h teensy4/Print.h \
- libraries/Adafruit_BNO08x/sh2_SensorValue.h
+ libraries/Adafruit_BNO08x/sh2_SensorValue.h \
+ libraries/Adafruit_BNO08x/sh2.h
 src/sensors/BNO085.hpp:
 libraries/Adafruit_BNO08x/Adafruit_BNO08x.h:
 teensy4/Arduino.h:
@@ -78,3 +79,4 @@ teensy4/EventResponder.h:
 libraries/Adafruit_Sensor/Adafruit_Sensor.h:
 teensy4/Print.h:
 libraries/Adafruit_BNO08x/sh2_SensorValue.h:
+libraries/Adafruit_BNO08x/sh2.h:

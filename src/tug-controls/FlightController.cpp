@@ -1,13 +1,19 @@
 #include "FlightController.hpp"
+#include "AS7341_ColorSens.hpp"
+#include "BNO085.hpp"
 #include "VL53L.hpp"
 #include "core_pins.h"
 #include "pwm/SparkMaxPWM.h"
+#include "usb_serial.h"
 
 FlightController::FlightController(SparkMaxPWM &motorL, SparkMaxPWM &motorR,
-                                   VL53L &tofD)
-    : motorL(motorL), motorR(motorR), tofD(tofD), currentMode(LINE_FOLLOW) {}
+                                   VL53L &tofD, BNO085 &bnoL, AS7341 &clrSensLD, AS7341 &clrSensRD)
+    : motorL(motorL), motorR(motorR), tofD(tofD), bnoL(bnoL), clrSensLD(clrSensLD), clrSensRD(clrSensRD),
+      currentMode(LINE_FOLLOW) {}
 
 void FlightController::set_control_mode(ControlMode mode) {
+  Serial.print("Control Mode set to: ");
+  Serial.println(mode);
   currentMode = mode;
 }
 
@@ -20,7 +26,10 @@ void FlightController::update() {
     manual();
     break;
   case STOP:
-    // stop();
+    stop();
+    break;
+  case TEST:
+    test();
     break;
   }
 }
@@ -29,6 +38,11 @@ void FlightController::init() {
   motorL.begin();
   motorR.begin();
   tofD.init();
+  bnoL.begin();
+  clrSensRD.begin();
+  clrSensLD.begin();
+
+  Serial.println("Flight Controller Started.");
 
   delay(1000);
 }
@@ -53,3 +67,18 @@ void FlightController::lineFollow() {
 
 // Mode 2: manual drive
 void FlightController::manual() {}
+
+void FlightController::stop() {}
+
+void FlightController::test() {
+  Serial.println("Testing Sensors");
+
+  float dist = tofD.getDistance();
+  Serial.println(dist);
+
+  // bnoDataL = bnoL.getIMUData();
+  bnoL.printIMUData();
+
+  clrSensRD.printData();
+  //clrSensLD.begin();
+}

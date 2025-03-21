@@ -11,14 +11,16 @@ build/./src/main.cpp.o: src/main.cpp teensy4/Arduino.h teensy4/WProgram.h \
  teensy4/usb_audio.h teensy4/usb_touch.h teensy4/WCharacter.h \
  teensy4/elapsedMillis.h teensy4/Arduino.h teensy4/IntervalTimer.h \
  teensy4/CrashReport.h teensy4/Printable.h teensy4/WString.h \
- src/sensors/BNO085.hpp libraries/Adafruit_BNO08x/Adafruit_BNO08x.h \
- libraries/Adafruit_BNO08x/sh2.h libraries/Adafruit_BNO08x/sh2_hal.h \
- libraries/Adafruit_BNO08x/sh2_SensorValue.h \
- libraries/Adafruit_BNO08x/sh2_err.h \
+ src/sensors/AS7341_ColorSens.hpp \
+ libraries/Adafruit_AS7341/Adafruit_AS7341.h \
  libraries/Adafruit_BusIO/Adafruit_BusIO_Register.h \
  libraries/Adafruit_BusIO/Adafruit_I2CDevice.h libraries/Wire/Wire.h \
  libraries/Wire/WireIMXRT.h libraries/Adafruit_BusIO/Adafruit_SPIDevice.h \
  libraries/SPI/SPI.h teensy4/DMAChannel.h teensy4/EventResponder.h \
+ src/sensors/BNO085.hpp libraries/Adafruit_BNO08x/Adafruit_BNO08x.h \
+ libraries/Adafruit_BNO08x/sh2.h libraries/Adafruit_BNO08x/sh2_hal.h \
+ libraries/Adafruit_BNO08x/sh2_SensorValue.h \
+ libraries/Adafruit_BNO08x/sh2_err.h \
  libraries/Adafruit_Sensor/Adafruit_Sensor.h teensy4/Print.h \
  libraries/Adafruit_BNO08x/sh2_SensorValue.h \
  src/tug-controls/FlightController.hpp src/sensors/VL53L.hpp \
@@ -64,12 +66,8 @@ teensy4/IntervalTimer.h:
 teensy4/CrashReport.h:
 teensy4/Printable.h:
 teensy4/WString.h:
-src/sensors/BNO085.hpp:
-libraries/Adafruit_BNO08x/Adafruit_BNO08x.h:
-libraries/Adafruit_BNO08x/sh2.h:
-libraries/Adafruit_BNO08x/sh2_hal.h:
-libraries/Adafruit_BNO08x/sh2_SensorValue.h:
-libraries/Adafruit_BNO08x/sh2_err.h:
+src/sensors/AS7341_ColorSens.hpp:
+libraries/Adafruit_AS7341/Adafruit_AS7341.h:
 libraries/Adafruit_BusIO/Adafruit_BusIO_Register.h:
 libraries/Adafruit_BusIO/Adafruit_I2CDevice.h:
 libraries/Wire/Wire.h:
@@ -78,6 +76,12 @@ libraries/Adafruit_BusIO/Adafruit_SPIDevice.h:
 libraries/SPI/SPI.h:
 teensy4/DMAChannel.h:
 teensy4/EventResponder.h:
+src/sensors/BNO085.hpp:
+libraries/Adafruit_BNO08x/Adafruit_BNO08x.h:
+libraries/Adafruit_BNO08x/sh2.h:
+libraries/Adafruit_BNO08x/sh2_hal.h:
+libraries/Adafruit_BNO08x/sh2_SensorValue.h:
+libraries/Adafruit_BNO08x/sh2_err.h:
 libraries/Adafruit_Sensor/Adafruit_Sensor.h:
 teensy4/Print.h:
 libraries/Adafruit_BNO08x/sh2_SensorValue.h:

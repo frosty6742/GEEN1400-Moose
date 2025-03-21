@@ -1,5 +1,6 @@
 #include <Arduino.h>
 
+#include "AS7341_ColorSens.hpp"
 #include "BNO085.hpp"
 #include "FlightController.hpp"
 #include "VL53L.hpp"
@@ -18,12 +19,13 @@
 SparkMaxPWM motorL(8);
 SparkMaxPWM motorR(11);
 
-VL53L tof;
-
 // Sensors
-// BNO0085 bno;
+VL53L tof;
+BNO085 bno;
+AS7341 clrSensL;
+AS7341 clrSensR;
 
-FlightController flightController(motorL, motorR, tof);
+FlightController flightController(motorL, motorR, tof, bno, clrSensL, clrSensR);
 
 // DONT put anything else in this function. It is not a setup function
 void print_logo() {
@@ -47,10 +49,10 @@ int main() {
   debug.begin(SerialUSB1);
   print_logo();
 
-  Serial.println("Initializing Flight Controller...");
+  Serial.println("Starting Flight Controller...");
   flightController.init();
 
-  flightController.set_control_mode(LINE_FOLLOW);
+  flightController.set_control_mode(TEST);
 
   Serial.println("Entering main loop...\n");
   delay(1000);

@@ -6,6 +6,9 @@ SYMBOL TABLE:
 00000000 l    d  .text	00000000 .text
 00000000 l    d  .data	00000000 .data
 00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN6AS7341D2Ev	00000000 .text._ZN6AS7341D2Ev
+00000000 l    d  .text._ZN6BNO085D2Ev	00000000 .text._ZN6BNO085D2Ev
+00000000 l    d  .text._ZN16FlightControllerD2Ev	00000000 .text._ZN16FlightControllerD2Ev
 00000000 l    d  .text._ZN5Print7printlnEPKc.isra.0	00000000 .text._ZN5Print7printlnEPKc.isra.0
 00000000 l     F .text._ZN5Print7printlnEPKc.isra.0	00000024 _ZN5Print7printlnEPKc.isra.0
 00000000 l    d  .rodata._Z10print_logov.str1.4	00000000 .rodata._Z10print_logov.str1.4
@@ -13,14 +16,31 @@ SYMBOL TABLE:
 00000000 l    d  .rodata.main.str1.4	00000000 .rodata.main.str1.4
 00000000 l    d  .text.startup.main	00000000 .text.startup.main
 00000000 l    d  .text.startup._GLOBAL__sub_I_motorL	00000000 .text.startup._GLOBAL__sub_I_motorL
-00000000 l     F .text.startup._GLOBAL__sub_I_motorL	00000040 _GLOBAL__sub_I_motorL
+00000000 l     F .text.startup._GLOBAL__sub_I_motorL	000000bc _GLOBAL__sub_I_motorL
 00000000 l    d  .init_array	00000000 .init_array
+00000000 l    d  .bss.bno	00000000 .bss.bno
+00000000 l    d  .bss.clrSensL	00000000 .bss.clrSensL
+00000000 l    d  .bss.clrSensR	00000000 .bss.clrSensR
 00000000 l    d  .bss.flightController	00000000 .bss.flightController
 00000000 l    d  .bss.motorL	00000000 .bss.motorL
 00000000 l    d  .bss.motorR	00000000 .bss.motorR
 00000000 l    d  .bss.tof	00000000 .bss.tof
+00000000 l       .group	00000000 _ZN6AS7341D5Ev
+00000000 l       .group	00000000 _ZN6BNO085D5Ev
+00000000 l       .group	00000000 _ZN16FlightControllerD5Ev
 00000000 l    d  .comment	00000000 .comment
 00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000 l    d  .group	00000000 .group
+00000000  w    F .text._ZN6AS7341D2Ev	0000000c _ZN6AS7341D2Ev
+00000000         *UND*	00000000 _ZN15Adafruit_AS7341D1Ev
+00000000  w    F .text._ZN6AS7341D2Ev	0000000c _ZN6AS7341D1Ev
+00000000  w    F .text._ZN6BNO085D2Ev	0000000c _ZN6BNO085D2Ev
+00000000         *UND*	00000000 _ZN15Adafruit_BNO08xD1Ev
+00000000  w    F .text._ZN6BNO085D2Ev	0000000c _ZN6BNO085D1Ev
+00000000  w    F .text._ZN16FlightControllerD2Ev	0000001e _ZN16FlightControllerD2Ev
+00000000  w    F .text._ZN16FlightControllerD2Ev	0000001e _ZN16FlightControllerD1Ev
 00000000         *UND*	00000000 strlen
 00000000         *UND*	00000000 _ZN5Print7printlnEv
 00000000 g     F .text._Z10print_logov	000000d0 _Z10print_logov
@@ -42,13 +62,33 @@ SYMBOL TABLE:
 00000000         *UND*	00000000 debug
 00000000         *UND*	00000000 _ZN11SparkMaxPWMC1Ei
 00000000         *UND*	00000000 _ZN5VL53LC1Ev
-00000000         *UND*	00000000 _ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53L
-00000000 g     O .bss.flightController	0000000c flightController
+00000000         *UND*	00000000 _ZN6BNO085C1Ea
+00000000         *UND*	00000000 __aeabi_atexit
+00000000         *UND*	00000000 _ZN6AS7341C1Ev
+00000000         *UND*	00000000 _ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_
+00000000         *UND*	00000000 .hidden __dso_handle
+00000000 g     O .bss.flightController	00000130 flightController
+00000000 g     O .bss.clrSensR	00000028 clrSensR
+00000000 g     O .bss.clrSensL	00000028 clrSensL
+00000000 g     O .bss.bno	000000a0 bno
 00000000 g     O .bss.tof	00000001 tof
 00000000 g     O .bss.motorR	0000000c motorR
 00000000 g     O .bss.motorL	0000000c motorL
 
 
+Contents of section .group:
+ 0000 01000000 07000000 08000000           ............    
+Contents of section .group:
+ 0000 01000000 09000000 0a000000           ............    
+Contents of section .group:
+ 0000 01000000 0b000000 0c000000           ............    
+Contents of section .text._ZN6AS7341D2Ev:
+ 0000 10b50446 fff7feff 204610bd           ...F.... F..    
+Contents of section .text._ZN6BNO085D2Ev:
+ 0000 10b50446 fff7feff 204610bd           ...F.... F..    
+Contents of section .text._ZN16FlightControllerD2Ev:
+ 0000 10b50446 d830fff7 feff04f1 b000fff7  ...F.0..........
+ 0010 feff04f1 1000fff7 feff2046 10bd00bf  .......... F....
 Contents of section .text._ZN5Print7printlnEPKc.isra.0:
  0000 38b50446 49b10846 0d46fff7 feff2368  8..FI..F.F....#h
  0010 02462946 5b682046 98472046 bde83840  .F)F[h F.G F..8@
@@ -56,19 +96,18 @@ Contents of section .text._ZN5Print7printlnEPKc.isra.0:
 Contents of section .rodata._Z10print_logov.str1.4:
  0000 1b5b306d 00000000 0a1b5b31 3b39326d  .[0m......[1;92m
  0010 46572056 65722e20 322e312e 30000000  FW Ver. 2.1.0...
- 0020 31323a31 333a3431 00000000 4d617220  12:13:41....Mar 
+ 0020 31343a30 303a3539 00000000 4d617220  14:00:59....Mar 
  0030 32312032 30323500 0a4c6173 74204275  21 2025..Last Bu
  0040 696c743a 20257320 61742025 73000000  ilt: %s at %s...
- 0050 36643465 38643137 64363536 30306138  6d4e8d17d65600a8
- 0060 31393632 61343566 34376337 63303730  1962a45f47c7c070
- 0070 38313732 62313865 00000000 0a476974  8172b18e.....Git
+ 0050 64643138 62653665 38643430 64643037  dd18be6e8d40dd07
+ 0060 65383333 62313339 62393734 33633633  e833b139b9743c63
+ 0070 31343862 33383566 00000000 0a476974  148b385f.....Git
  0080 20486173 683a2025 73000000 6d61696e   Hash: %s...main
  0090 00000000 0a476974 20427261 6e63683a  .....Git Branch:
- 00a0 20257300 666c6967 68742063 6f6e7472   %s.flight contr
- 00b0 6f6c6c20 73746172 74656420 00000000  oll started ....
- 00c0 0a436f6d 6d697420 4d657373 6167653a  .Commit Message:
- 00d0 20257300 0a52616e 646f6d20 4e756d3a   %s..Random Num:
- 00e0 20257800 1b5b306d 0a00                %x..[0m..      
+ 00a0 20257300 746f6620 00000000 0a436f6d   %s.tof .....Com
+ 00b0 6d697420 4d657373 6167653a 20257300  mit Message: %s.
+ 00c0 0a52616e 646f6d20 4e756d3a 20257800  .Random Num: %x.
+ 00d0 1b5b306d 0a00                        .[0m..          
 Contents of section .text._Z10print_logov:
  0000 08b5fff7 feff1f4b 1b78002b 39d01e4b  .......K.x.+9..K
  0010 1b78db07 35d51d4b 1d4a1b68 12689b1a  .x..5..K.J.h.h..
@@ -82,31 +121,39 @@ Contents of section .text._Z10print_logov:
  0090 00000000 00000000 08000000 00000000  ................
  00a0 20000000 2c000000 38000000 50000000   ...,...8...P...
  00b0 7c000000 8c000000 94000000 a4000000  |...............
- 00c0 c0000000 001000e0 d4000000 e4000000  ................
+ 00c0 ac000000 001000e0 c0000000 d0000000  ................
 Contents of section .rodata.main.str1.4:
  0000 53657269 616c2053 74617274 65640000  Serial Started..
- 0010 496e6974 69616c69 7a696e67 20466c69  Initializing Fli
- 0020 67687420 436f6e74 726f6c6c 65722e2e  ght Controller..
- 0030 2e000000 456e7465 72696e67 206d6169  ....Entering mai
- 0040 6e206c6f 6f702e2e 2e0a00             n loop.....     
+ 0010 53746172 74696e67 20466c69 67687420  Starting Flight 
+ 0020 436f6e74 726f6c6c 65722e2e 2e000000  Controller......
+ 0030 456e7465 72696e67 206d6169 6e206c6f  Entering main lo
+ 0040 6f702e2e 2e0a00                      op.....         
 Contents of section .text.startup.main:
  0000 224d40f2 ee28224c dff8a890 2e6880b5  "M@..("L.....h..
  0010 204ffff7 feff2378 53b33b78 db0727d5   O....#xS.;x..'.
  0020 2b68d9f8 00209b1a 0e2b21d9 1a491b48  +h... ...+!..I.H
  0030 fff7feff 1a4c1b49 1b48fff7 fefffff7  .....L.I.H......
  0040 feff1a49 1548fff7 feff2046 fff7feff  ...I.H.... F....
- 0050 00212046 fff7feff 10481549 fff7feff  .! F.....H.I....
+ 0050 03212046 fff7feff 10481549 fff7feff  .! F.....H.I....
  0060 4ff47a70 fff7feff 2046fff7 fefffbe7  O.zp.... F......
  0070 2b682278 9b1b2ab1 b3f5fa6f d6d8fff7  +h"x..*....o....
  0080 feffc6e7 4345fad9 d0e700bf 00000000  ....CE..........
  0090 00000000 00000000 00000000 00000000  ................
  00a0 00000000 00000000 00000000 10000000  ................
- 00b0 34000000 00000000                    4.......        
+ 00b0 30000000 00000000                    0.......        
 Contents of section .text.startup._GLOBAL__sub_I_motorL:
- 0000 70b50b4c 08210b4d 0b4e2046 fff7feff  p..L.!.M.N F....
- 0010 0b212846 fff7feff 3046fff7 feff3346  .!(F....0F....3F
- 0020 2a462146 0548bde8 7040fff7 febf00bf  *F!F.H..p@......
- 0030 00000000 00000000 00000000 00000000  ................
+ 0000 2de9f04f dff8a4b0 85b0dff8 a4900821  -..O...........!
+ 0010 dff8a0a0 5846fff7 feff1d4d 0b214846  ....XF.....M.!HF
+ 0020 fff7feff 1b4c5046 1b4efff7 feff4ff0  .....LPF.N....O.
+ 0030 ff312846 194ffff7 feff2246 18492846  .1(F.O...."F.I(F
+ 0040 fff7feff 3046fff7 feff164b 22463046  ....0F.....K"F0F
+ 0050 1946dff8 6480fff7 feff3846 fff7feff  .F..d.....8F....
+ 0060 104b2246 38461946 fff7feff 59464a46  .K"F8F.F....YFJF
+ 0070 53464046 0095cde9 0167fff7 feff2246  SF@F.....g...."F
+ 0080 09494046 05b0bde8 f04ffff7 febf00bf  .I@F.....O......
+ 0090 00000000 00000000 00000000 00000000  ................
+ 00a0 00000000 00000000 00000000 00000000  ................
+ 00b0 00000000 00000000 00000000           ............    
 Contents of section .init_array:
  0000 00000000                             ....            
 Contents of section .comment:
@@ -119,6 +166,39 @@ Contents of section .ARM.attributes:
  0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
  0020 14011501 17031801 19011a01 1c011e02  ................
  0030 2201                                 ".              
+
+Disassembly of section .text._ZN6AS7341D2Ev:
+
+00000000 <_ZN6AS7341D1Ev>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <_ZN15Adafruit_AS7341D1Ev>
+   8:	4620      	mov	r0, r4
+   a:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN6BNO085D2Ev:
+
+00000000 <_ZN6BNO085D1Ev>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	f7ff fffe 	bl	0 <_ZN15Adafruit_BNO08xD1Ev>
+   8:	4620      	mov	r0, r4
+   a:	bd10      	pop	{r4, pc}
+
+Disassembly of section .text._ZN16FlightControllerD2Ev:
+
+00000000 <_ZN16FlightControllerD1Ev>:
+   0:	b510      	push	{r4, lr}
+   2:	4604      	mov	r4, r0
+   4:	30d8      	adds	r0, #216	; 0xd8
+   6:	f7ff fffe 	bl	0 <_ZN15Adafruit_AS7341D1Ev>
+   a:	f104 00b0 	add.w	r0, r4, #176	; 0xb0
+   e:	f7ff fffe 	bl	0 <_ZN15Adafruit_AS7341D1Ev>
+  12:	f104 0010 	add.w	r0, r4, #16
+  16:	f7ff fffe 	bl	0 <_ZN15Adafruit_BNO08xD1Ev>
+  1a:	4620      	mov	r0, r4
+  1c:	bd10      	pop	{r4, pc}
+  1e:	bf00      	nop
 
 Disassembly of section .text._ZN5Print7printlnEPKc.isra.0:
 
@@ -211,10 +291,10 @@ Disassembly of section .text._Z10print_logov:
   b4:	0000008c 	.word	0x0000008c
   b8:	00000094 	.word	0x00000094
   bc:	000000a4 	.word	0x000000a4
-  c0:	000000c0 	.word	0x000000c0
+  c0:	000000ac 	.word	0x000000ac
   c4:	e0001000 	.word	0xe0001000
-  c8:	000000d4 	.word	0x000000d4
-  cc:	000000e4 	.word	0x000000e4
+  c8:	000000c0 	.word	0x000000c0
+  cc:	000000d0 	.word	0x000000d0
 
 Disassembly of section .text.startup.main:
 
@@ -250,7 +330,7 @@ Disassembly of section .text.startup.main:
   46:	f7ff fffe 	bl	0 <main>
   4a:	4620      	mov	r0, r4
   4c:	f7ff fffe 	bl	0 <_ZN16FlightController4initEv>
-  50:	2100      	movs	r1, #0
+  50:	2103      	movs	r1, #3
   52:	4620      	mov	r0, r4
   54:	f7ff fffe 	bl	0 <_ZN16FlightController16set_control_modeE11ControlMode>
   58:	4810      	ldr	r0, [pc, #64]	; (9c <main+0x9c>)
@@ -282,32 +362,73 @@ Disassembly of section .text.startup.main:
   a4:	00000000 	.word	0x00000000
   a8:	00000000 	.word	0x00000000
   ac:	00000010 	.word	0x00000010
-  b0:	00000034 	.word	0x00000034
+  b0:	00000030 	.word	0x00000030
   b4:	00000000 	.word	0x00000000
 
 Disassembly of section .text.startup._GLOBAL__sub_I_motorL:
 
 00000000 <_GLOBAL__sub_I_motorL>:
-   0:	b570      	push	{r4, r5, r6, lr}
-   2:	4c0b      	ldr	r4, [pc, #44]	; (30 <_GLOBAL__sub_I_motorL+0x30>)
-   4:	2108      	movs	r1, #8
-   6:	4d0b      	ldr	r5, [pc, #44]	; (34 <_GLOBAL__sub_I_motorL+0x34>)
-   8:	4e0b      	ldr	r6, [pc, #44]	; (38 <_GLOBAL__sub_I_motorL+0x38>)
-   a:	4620      	mov	r0, r4
-   c:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWMC1Ei>
-  10:	210b      	movs	r1, #11
-  12:	4628      	mov	r0, r5
-  14:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWMC1Ei>
-  18:	4630      	mov	r0, r6
-  1a:	f7ff fffe 	bl	0 <_ZN5VL53LC1Ev>
-  1e:	4633      	mov	r3, r6
-  20:	462a      	mov	r2, r5
-  22:	4621      	mov	r1, r4
-  24:	4805      	ldr	r0, [pc, #20]	; (3c <_GLOBAL__sub_I_motorL+0x3c>)
-  26:	e8bd 4070 	ldmia.w	sp!, {r4, r5, r6, lr}
-  2a:	f7ff bffe 	b.w	0 <_ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53L>
-  2e:	bf00      	nop
-  30:	00000000 	.word	0x00000000
-  34:	00000000 	.word	0x00000000
-  38:	00000000 	.word	0x00000000
-  3c:	00000000 	.word	0x00000000
+   0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+   4:	f8df b0a4 	ldr.w	fp, [pc, #164]	; ac <_GLOBAL__sub_I_motorL+0xac>
+   8:	b085      	sub	sp, #20
+   a:	f8df 90a4 	ldr.w	r9, [pc, #164]	; b0 <_GLOBAL__sub_I_motorL+0xb0>
+   e:	2108      	movs	r1, #8
+  10:	f8df a0a0 	ldr.w	sl, [pc, #160]	; b4 <_GLOBAL__sub_I_motorL+0xb4>
+  14:	4658      	mov	r0, fp
+  16:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWMC1Ei>
+  1a:	4d1d      	ldr	r5, [pc, #116]	; (90 <_GLOBAL__sub_I_motorL+0x90>)
+  1c:	210b      	movs	r1, #11
+  1e:	4648      	mov	r0, r9
+  20:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWMC1Ei>
+  24:	4c1b      	ldr	r4, [pc, #108]	; (94 <_GLOBAL__sub_I_motorL+0x94>)
+  26:	4650      	mov	r0, sl
+  28:	4e1b      	ldr	r6, [pc, #108]	; (98 <_GLOBAL__sub_I_motorL+0x98>)
+  2a:	f7ff fffe 	bl	0 <_ZN5VL53LC1Ev>
+  2e:	f04f 31ff 	mov.w	r1, #4294967295	; 0xffffffff
+  32:	4628      	mov	r0, r5
+  34:	4f19      	ldr	r7, [pc, #100]	; (9c <_GLOBAL__sub_I_motorL+0x9c>)
+  36:	f7ff fffe 	bl	0 <_ZN6BNO085C1Ea>
+  3a:	4622      	mov	r2, r4
+  3c:	4918      	ldr	r1, [pc, #96]	; (a0 <_GLOBAL__sub_I_motorL+0xa0>)
+  3e:	4628      	mov	r0, r5
+  40:	f7ff fffe 	bl	0 <__aeabi_atexit>
+  44:	4630      	mov	r0, r6
+  46:	f7ff fffe 	bl	0 <_ZN6AS7341C1Ev>
+  4a:	4b16      	ldr	r3, [pc, #88]	; (a4 <_GLOBAL__sub_I_motorL+0xa4>)
+  4c:	4622      	mov	r2, r4
+  4e:	4630      	mov	r0, r6
+  50:	4619      	mov	r1, r3
+  52:	f8df 8064 	ldr.w	r8, [pc, #100]	; b8 <_GLOBAL__sub_I_motorL+0xb8>
+  56:	f7ff fffe 	bl	0 <__aeabi_atexit>
+  5a:	4638      	mov	r0, r7
+  5c:	f7ff fffe 	bl	0 <_ZN6AS7341C1Ev>
+  60:	4b10      	ldr	r3, [pc, #64]	; (a4 <_GLOBAL__sub_I_motorL+0xa4>)
+  62:	4622      	mov	r2, r4
+  64:	4638      	mov	r0, r7
+  66:	4619      	mov	r1, r3
+  68:	f7ff fffe 	bl	0 <__aeabi_atexit>
+  6c:	4659      	mov	r1, fp
+  6e:	464a      	mov	r2, r9
+  70:	4653      	mov	r3, sl
+  72:	4640      	mov	r0, r8
+  74:	9500      	str	r5, [sp, #0]
+  76:	e9cd 6701 	strd	r6, r7, [sp, #4]
+  7a:	f7ff fffe 	bl	0 <_ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_>
+  7e:	4622      	mov	r2, r4
+  80:	4909      	ldr	r1, [pc, #36]	; (a8 <_GLOBAL__sub_I_motorL+0xa8>)
+  82:	4640      	mov	r0, r8
+  84:	b005      	add	sp, #20
+  86:	e8bd 4ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
+  8a:	f7ff bffe 	b.w	0 <__aeabi_atexit>
+  8e:	bf00      	nop
+  90:	00000000 	.word	0x00000000
+  94:	00000000 	.word	0x00000000
+  98:	00000000 	.word	0x00000000
+  9c:	00000000 	.word	0x00000000
+  a0:	00000000 	.word	0x00000000
+  a4:	00000000 	.word	0x00000000
+  a8:	00000000 	.word	0x00000000
+  ac:	00000000 	.word	0x00000000
+  b0:	00000000 	.word	0x00000000
+  b4:	00000000 	.word	0x00000000
+  b8:	00000000 	.word	0x00000000
