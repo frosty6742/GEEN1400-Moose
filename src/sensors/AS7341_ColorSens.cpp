@@ -1,4 +1,5 @@
 #include "AS7341_ColorSens.hpp"
+#include "usb_serial.h"
 #include <Arduino.h>
 
 AS7341::AS7341() : as7341D() {}
@@ -6,9 +7,8 @@ AS7341::AS7341() : as7341D() {}
 void AS7341::begin() {
   if (!as7341D.begin()) {
     Serial.println("Could not find AS7341");
-    while (1) {
-      delay(10);
-    }
+  } else {
+    Serial.println("AS7341 ClrSens initilized.");
   }
 
   as7341D.setATIME(100);

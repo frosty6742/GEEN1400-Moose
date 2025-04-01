@@ -1,10 +1,12 @@
 #include "SparkMaxPWM.h"
+#include "usb_serial.h"
 
 SparkMaxPWM::SparkMaxPWM(int pwmPin) { _pwmPin = pwmPin; }
 
 void SparkMaxPWM::begin() {
   pinMode(_pwmPin, OUTPUT);
   analogWriteFrequency(_pwmPin, 50); // 50Hz PWM for motor control
+  Serial.println("SparkMaxPWM initilized.");
 }
 
 void SparkMaxPWM::setSpeed(float speed) {

@@ -7,9 +7,10 @@
 #include "usb_serial.h"
 
 FlightController::FlightController(SparkMaxPWM &motorL, SparkMaxPWM &motorR,
-                                   VL53L &tofD, BNO085 &bnoL, AS7341 &clrSensLD, AS7341 &clrSensRD)
-    : motorL(motorL), motorR(motorR), tofD(tofD), bnoL(bnoL), clrSensLD(clrSensLD), clrSensRD(clrSensRD),
-      currentMode(LINE_FOLLOW) {}
+                                   VL53L &tofD, BNO085 &bnoL, AS7341 &clrSensLD,
+                                   AS7341 &clrSensRD)
+    : motorL(motorL), motorR(motorR), tofD(tofD), bnoL(bnoL),
+      clrSensLD(clrSensLD), clrSensRD(clrSensRD), currentMode(LINE_FOLLOW) {}
 
 void FlightController::set_control_mode(ControlMode mode) {
   Serial.print("Control Mode set to: ");
@@ -80,5 +81,4 @@ void FlightController::test() {
   bnoL.printIMUData();
 
   clrSensRD.printData();
-  //clrSensLD.begin();
 }
