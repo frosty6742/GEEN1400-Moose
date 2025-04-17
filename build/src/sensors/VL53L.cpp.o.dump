@@ -18,12 +18,12 @@ SYMBOL TABLE:
 00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
 00000000 g     F .text._ZN5VL53LC2Ev	00000002 _ZN5VL53LC2Ev
 00000000 g     F .text._ZN5VL53LC2Ev	00000002 _ZN5VL53LC1Ev
-00000000 g     F .text._ZN5VL53L4initEv	00000040 _ZN5VL53L4initEv
+00000000 g     F .text._ZN5VL53L4initEv	00000054 _ZN5VL53L4initEv
 00000000         *UND*	00000000 delay
 00000000         *UND*	00000000 _ZN7VL53L1X4initEb
-00000000         *UND*	00000000 _ZN7VL53L1X15startContinuousEm
 00000000         *UND*	00000000 usb_serial_write
 00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000         *UND*	00000000 _ZN7VL53L1X15startContinuousEm
 00000000         *UND*	00000000 Serial
 00000000 g     F .text._ZN5VL53L11getDistanceEv	00000018 _ZN5VL53L11getDistanceEv
 00000000         *UND*	00000000 _ZN7VL53L1X4readEb
@@ -36,12 +36,16 @@ Contents of section .text._ZN5VL53LC2Ev:
 Contents of section .rodata._ZN5VL53L4initEv.str1.4:
  0000 4661696c 65642074 6f206465 74656374  Failed to detect
  0010 20564c35 334c3158 2073656e 736f7221   VL53L1X sensor!
- 0020 00                                   .               
+ 0020 00000000 564c3533 4c315820 544f4620  ....VL53L1X TOF 
+ 0030 73656e73 6f722069 6e697461 6c697a65  sensor initalize
+ 0040 642e00                               d..             
 Contents of section .text._ZN5VL53L4initEv:
- 0000 c82008b5 fff7feff 01210a48 fff7feff  . .......!.H....
- 0010 40b14ff4 fa730748 3221c383 bde80840  @.O..s.H2!.....@
- 0020 fff7febf 20210448 fff7feff 0348fff7  .... !.H.....H..
- 0030 feffeee7 00000000 00000000 00000000  ................
+ 0000 c82008b5 fff7feff 01210e48 fff7feff  . .......!.H....
+ 0010 78b92021 0c48fff7 feff0c48 fff7feff  x. !.H.....H....
+ 0020 4ff4fa73 07483221 c383bde8 0840fff7  O..s.H2!.....@..
+ 0030 febf1e21 0648fff7 feff0448 fff7feff  ...!.H.....H....
+ 0040 eee700bf 00000000 00000000 00000000  ................
+ 0050 24000000                             $...            
 Contents of section .text._ZN5VL53L11getDistanceEv:
  0000 01210448 08b5fff7 feff07ee 900ab8ee  .!.H............
  0010 670a08bd 00000000                    g.......        
@@ -73,24 +77,31 @@ Disassembly of section .text._ZN5VL53L4initEv:
    2:	b508      	push	{r3, lr}
    4:	f7ff fffe 	bl	0 <delay>
    8:	2101      	movs	r1, #1
-   a:	480a      	ldr	r0, [pc, #40]	; (34 <_ZN5VL53L4initEv+0x34>)
+   a:	480e      	ldr	r0, [pc, #56]	; (44 <_ZN5VL53L4initEv+0x44>)
    c:	f7ff fffe 	bl	0 <_ZN7VL53L1X4initEb>
-  10:	b140      	cbz	r0, 24 <_ZN5VL53L4initEv+0x24>
-  12:	f44f 73fa 	mov.w	r3, #500	; 0x1f4
-  16:	4807      	ldr	r0, [pc, #28]	; (34 <_ZN5VL53L4initEv+0x34>)
-  18:	2132      	movs	r1, #50	; 0x32
-  1a:	83c3      	strh	r3, [r0, #30]
-  1c:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
-  20:	f7ff bffe 	b.w	0 <_ZN7VL53L1X15startContinuousEm>
-  24:	2120      	movs	r1, #32
-  26:	4804      	ldr	r0, [pc, #16]	; (38 <_ZN5VL53L4initEv+0x38>)
-  28:	f7ff fffe 	bl	0 <usb_serial_write>
-  2c:	4803      	ldr	r0, [pc, #12]	; (3c <_ZN5VL53L4initEv+0x3c>)
-  2e:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
-  32:	e7ee      	b.n	12 <_ZN5VL53L4initEv+0x12>
-  34:	00000000 	.word	0x00000000
-  38:	00000000 	.word	0x00000000
-  3c:	00000000 	.word	0x00000000
+  10:	b978      	cbnz	r0, 32 <_ZN5VL53L4initEv+0x32>
+  12:	2120      	movs	r1, #32
+  14:	480c      	ldr	r0, [pc, #48]	; (48 <_ZN5VL53L4initEv+0x48>)
+  16:	f7ff fffe 	bl	0 <usb_serial_write>
+  1a:	480c      	ldr	r0, [pc, #48]	; (4c <_ZN5VL53L4initEv+0x4c>)
+  1c:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  20:	f44f 73fa 	mov.w	r3, #500	; 0x1f4
+  24:	4807      	ldr	r0, [pc, #28]	; (44 <_ZN5VL53L4initEv+0x44>)
+  26:	2132      	movs	r1, #50	; 0x32
+  28:	83c3      	strh	r3, [r0, #30]
+  2a:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  2e:	f7ff bffe 	b.w	0 <_ZN7VL53L1X15startContinuousEm>
+  32:	211e      	movs	r1, #30
+  34:	4806      	ldr	r0, [pc, #24]	; (50 <_ZN5VL53L4initEv+0x50>)
+  36:	f7ff fffe 	bl	0 <usb_serial_write>
+  3a:	4804      	ldr	r0, [pc, #16]	; (4c <_ZN5VL53L4initEv+0x4c>)
+  3c:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  40:	e7ee      	b.n	20 <_ZN5VL53L4initEv+0x20>
+  42:	bf00      	nop
+  44:	00000000 	.word	0x00000000
+  48:	00000000 	.word	0x00000000
+  4c:	00000000 	.word	0x00000000
+  50:	00000024 	.word	0x00000024
 
 Disassembly of section .text._ZN5VL53L11getDistanceEv:
 

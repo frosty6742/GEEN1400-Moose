@@ -35,7 +35,7 @@ SYMBOL TABLE:
 00000000         *UND*	00000000 _ZN6BNO0855beginEv
 00000000         *UND*	00000000 _ZN6AS73415beginEv
 00000000         *UND*	00000000 delay
-00000000 g     F .text._ZN16FlightController10lineFollowEv	00000094 _ZN16FlightController10lineFollowEv
+00000000 g     F .text._ZN16FlightController10lineFollowEv	00000090 _ZN16FlightController10lineFollowEv
 00000000         *UND*	00000000 _ZN5VL53L11getDistanceEv
 00000000         *UND*	00000000 _ZN11SparkMaxPWM8setSpeedEf
 00000000 g     F .text._ZN16FlightController6manualEv	00000002 _ZN16FlightController6manualEv
@@ -87,9 +87,8 @@ Contents of section .text._ZN16FlightController10lineFollowEv:
  0040 9fed100a bde81040 fff7febf 20689fed  .......@.... h..
  0050 0e0afff7 feff6068 9fed0b0a bde81040  ......`h.......@
  0060 fff7febf 20689fed 090afff7 feff2068  .... h........ h
- 0070 9fed070a fff7feff 4ff4fa60 bde81040  ........O..`...@
- 0080 fff7febf 00000000 cdcc4c3e cdccccbd  ..........L>....
- 0090 cdcccc3d                             ...=            
+ 0070 9fed060a fff7feff 4ff4fa60 bde81040  ........O..`...@
+ 0080 fff7febf 00000000 cdcc4c3e cdcccc3d  ..........L>...=
 Contents of section .text._ZN16FlightController6manualEv:
  0000 704700bf                             pG..            
 Contents of section .text._ZN16FlightController4stopEv:
@@ -272,15 +271,14 @@ Disassembly of section .text._ZN16FlightController10lineFollowEv:
   66:	ed9f 0a09 	vldr	s0, [pc, #36]	; 8c <_ZN16FlightController10lineFollowEv+0x8c>
   6a:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
   6e:	6820      	ldr	r0, [r4, #0]
-  70:	ed9f 0a07 	vldr	s0, [pc, #28]	; 90 <_ZN16FlightController10lineFollowEv+0x90>
+  70:	ed9f 0a06 	vldr	s0, [pc, #24]	; 8c <_ZN16FlightController10lineFollowEv+0x8c>
   74:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
   78:	f44f 60fa 	mov.w	r0, #2000	; 0x7d0
   7c:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
   80:	f7ff bffe 	b.w	0 <delay>
   84:	00000000 	.word	0x00000000
   88:	3e4ccccd 	.word	0x3e4ccccd
-  8c:	bdcccccd 	.word	0xbdcccccd
-  90:	3dcccccd 	.word	0x3dcccccd
+  8c:	3dcccccd 	.word	0x3dcccccd
 
 Disassembly of section .text._ZN16FlightController6manualEv:
 

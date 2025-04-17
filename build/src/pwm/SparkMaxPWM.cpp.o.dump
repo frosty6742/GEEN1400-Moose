@@ -7,15 +7,19 @@ SYMBOL TABLE:
 00000000 l    d  .data	00000000 .data
 00000000 l    d  .bss	00000000 .bss
 00000000 l    d  .text._ZN11SparkMaxPWMC2Ei	00000000 .text._ZN11SparkMaxPWMC2Ei
+00000000 l    d  .rodata._ZN11SparkMaxPWM5beginEv.str1.4	00000000 .rodata._ZN11SparkMaxPWM5beginEv.str1.4
 00000000 l    d  .text._ZN11SparkMaxPWM5beginEv	00000000 .text._ZN11SparkMaxPWM5beginEv
 00000000 l    d  .text._ZN11SparkMaxPWM8setSpeedEf	00000000 .text._ZN11SparkMaxPWM8setSpeedEf
 00000000 l    d  .comment	00000000 .comment
 00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
 00000000 g     F .text._ZN11SparkMaxPWMC2Ei	00000016 _ZN11SparkMaxPWMC2Ei
 00000000 g     F .text._ZN11SparkMaxPWMC2Ei	00000016 _ZN11SparkMaxPWMC1Ei
-00000000 g     F .text._ZN11SparkMaxPWM5beginEv	00000020 _ZN11SparkMaxPWM5beginEv
+00000000 g     F .text._ZN11SparkMaxPWM5beginEv	00000034 _ZN11SparkMaxPWM5beginEv
 00000000         *UND*	00000000 pinMode
 00000000         *UND*	00000000 analogWriteFrequency
+00000000         *UND*	00000000 usb_serial_write
+00000000         *UND*	00000000 _ZN5Print7printlnEv
+00000000         *UND*	00000000 Serial
 00000000 g     F .text._ZN11SparkMaxPWM8setSpeedEf	00000078 _ZN11SparkMaxPWM8setSpeedEf
 00000000         *UND*	00000000 analogWrite
 
@@ -23,9 +27,14 @@ SYMBOL TABLE:
 Contents of section .text._ZN11SparkMaxPWMC2Ei:
  0000 10b44ff4 7a744ff4 fa620160 c0e90142  ..O.ztO..b.`...B
  0010 5df8044b 704700bf                    ]..KpG..        
+Contents of section .rodata._ZN11SparkMaxPWM5beginEv.str1.4:
+ 0000 53706172 6b4d6178 50574d20 696e6974  SparkMaxPWM init
+ 0010 696c697a 65642e00                    ilized..        
 Contents of section .text._ZN11SparkMaxPWM5beginEv:
  0000 10b50446 01210078 fff7feff 20789fed  ...F.!.x.... x..
- 0010 030abde8 1040fff7 febf00bf 00004842  .....@........HB
+ 0010 060afff7 feff1721 0448fff7 feff0448  .......!.H.....H
+ 0020 bde81040 fff7febf 00004842 00000000  ...@......HB....
+ 0030 00000000                             ....            
 Contents of section .text._ZN11SparkMaxPWM8setSpeedEf:
  0000 ffee007a b4eee70a f1ee10fa 27d4f7ee  ...z........'...
  0010 007ab4ee e70af1ee 10fa03dd 19210078  .z...........!.x
@@ -67,11 +76,17 @@ Disassembly of section .text._ZN11SparkMaxPWM5beginEv:
    6:	7800      	ldrb	r0, [r0, #0]
    8:	f7ff fffe 	bl	0 <pinMode>
    c:	7820      	ldrb	r0, [r4, #0]
-   e:	ed9f 0a03 	vldr	s0, [pc, #12]	; 1c <_ZN11SparkMaxPWM5beginEv+0x1c>
-  12:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
-  16:	f7ff bffe 	b.w	0 <analogWriteFrequency>
-  1a:	bf00      	nop
-  1c:	42480000 	.word	0x42480000
+   e:	ed9f 0a06 	vldr	s0, [pc, #24]	; 28 <_ZN11SparkMaxPWM5beginEv+0x28>
+  12:	f7ff fffe 	bl	0 <analogWriteFrequency>
+  16:	2117      	movs	r1, #23
+  18:	4804      	ldr	r0, [pc, #16]	; (2c <_ZN11SparkMaxPWM5beginEv+0x2c>)
+  1a:	f7ff fffe 	bl	0 <usb_serial_write>
+  1e:	4804      	ldr	r0, [pc, #16]	; (30 <_ZN11SparkMaxPWM5beginEv+0x30>)
+  20:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  24:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  28:	42480000 	.word	0x42480000
+  2c:	00000000 	.word	0x00000000
+  30:	00000000 	.word	0x00000000
 
 Disassembly of section .text._ZN11SparkMaxPWM8setSpeedEf:
 

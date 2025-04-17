@@ -53,14 +53,17 @@ void FlightController::lineFollow() {
 
   float dist = tofD.getDistance();
 
+
+
   if (dist < 20 && dist > 5) { // Turn
-    motorL.setSpeed(-0.1);
+    motorL.setSpeed(0.1);
     motorL.setSpeed(0.1);
     delay(2000);
   } else if (dist < 5) {
     motorL.setSpeed(0.0);
     motorR.setSpeed(0.0);
   } else {
+    //call line follow method here
     motorL.setSpeed(0.2);
     motorR.setSpeed(0.2);
   }

@@ -17,11 +17,10 @@ SYMBOL TABLE:
 00000000 g     F .text._ZN6AS7341C2Ev	0000000c _ZN6AS7341C2Ev
 00000000         *UND*	00000000 _ZN15Adafruit_AS7341C1Ev
 00000000 g     F .text._ZN6AS7341C2Ev	0000000c _ZN6AS7341C1Ev
-00000000 g     F .text._ZN6AS73415beginEv	00000050 _ZN6AS73415beginEv
+00000000 g     F .text._ZN6AS73415beginEv	0000005c _ZN6AS73415beginEv
 00000000         *UND*	00000000 _ZN15Adafruit_AS73415beginEhP7TwoWirel
 00000000         *UND*	00000000 usb_serial_write
 00000000         *UND*	00000000 _ZN5Print7printlnEv
-00000000         *UND*	00000000 delay
 00000000         *UND*	00000000 _ZN15Adafruit_AS73418setATIMEEh
 00000000         *UND*	00000000 _ZN15Adafruit_AS73418setASTEPEt
 00000000         *UND*	00000000 _ZN15Adafruit_AS73417setGainE13as7341_gain_t
@@ -38,13 +37,16 @@ Contents of section .text._ZN6AS7341C2Ev:
  0000 10b50446 fff7feff 204610bd           ...F.... F..    
 Contents of section .rodata._ZN6AS73415beginEv.str1.4:
  0000 436f756c 64206e6f 74206669 6e642041  Could not find A
- 0010 53373334 3100                        S7341.          
+ 0010 53373334 31000000 41533733 34312043  S7341...AS7341 C
+ 0020 6c725365 6e732069 6e697469 6c697a65  lrSens initilize
+ 0030 642e00                               d..             
 Contents of section .text._ZN6AS73415beginEv:
- 0000 10b50023 0f4a3921 0446fff7 feff50b9  ...#.J9!.F....P.
- 0010 15210d48 fff7feff 0c48fff7 feff0a20  .!.H.....H..... 
- 0020 fff7feff fbe76421 2046fff7 feff40f2  ......d! F....@.
- 0030 e7312046 fff7feff 20460921 bde81040  .1 F.... F.!...@
- 0040 fff7febf 00000000 00000000 00000000  ................
+ 0000 10b50023 114a3921 0446fff7 feffa8b9  ...#.J9!.F......
+ 0010 15210f48 fff7feff 0e48fff7 feff6421  .!.H.....H....d!
+ 0020 2046fff7 feff40f2 e7312046 fff7feff   F....@..1 F....
+ 0030 20460921 bde81040 fff7febf 1a210648   F.!...@.....!.H
+ 0040 fff7feff 0348fff7 feffe8e7 00000000  .....H..........
+ 0050 00000000 00000000 18000000           ............    
 Contents of section .rodata._ZN6AS73419printDataEv.str1.4:
  0000 4572726f 72207265 6164696e 6720616c  Error reading al
  0010 6c206368 616e6e65 6c732100 46312034  l channels!.F1 4
@@ -108,32 +110,36 @@ Disassembly of section .text._ZN6AS73415beginEv:
 00000000 <_ZN6AS73415beginEv>:
    0:	b510      	push	{r4, lr}
    2:	2300      	movs	r3, #0
-   4:	4a0f      	ldr	r2, [pc, #60]	; (44 <_ZN6AS73415beginEv+0x44>)
+   4:	4a11      	ldr	r2, [pc, #68]	; (4c <_ZN6AS73415beginEv+0x4c>)
    6:	2139      	movs	r1, #57	; 0x39
    8:	4604      	mov	r4, r0
    a:	f7ff fffe 	bl	0 <_ZN15Adafruit_AS73415beginEhP7TwoWirel>
-   e:	b950      	cbnz	r0, 26 <_ZN6AS73415beginEv+0x26>
+   e:	b9a8      	cbnz	r0, 3c <_ZN6AS73415beginEv+0x3c>
   10:	2115      	movs	r1, #21
-  12:	480d      	ldr	r0, [pc, #52]	; (48 <_ZN6AS73415beginEv+0x48>)
+  12:	480f      	ldr	r0, [pc, #60]	; (50 <_ZN6AS73415beginEv+0x50>)
   14:	f7ff fffe 	bl	0 <usb_serial_write>
-  18:	480c      	ldr	r0, [pc, #48]	; (4c <_ZN6AS73415beginEv+0x4c>)
+  18:	480e      	ldr	r0, [pc, #56]	; (54 <_ZN6AS73415beginEv+0x54>)
   1a:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
-  1e:	200a      	movs	r0, #10
-  20:	f7ff fffe 	bl	0 <delay>
-  24:	e7fb      	b.n	1e <_ZN6AS73415beginEv+0x1e>
-  26:	2164      	movs	r1, #100	; 0x64
-  28:	4620      	mov	r0, r4
-  2a:	f7ff fffe 	bl	0 <_ZN15Adafruit_AS73418setATIMEEh>
-  2e:	f240 31e7 	movw	r1, #999	; 0x3e7
-  32:	4620      	mov	r0, r4
-  34:	f7ff fffe 	bl	0 <_ZN15Adafruit_AS73418setASTEPEt>
-  38:	4620      	mov	r0, r4
-  3a:	2109      	movs	r1, #9
-  3c:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
-  40:	f7ff bffe 	b.w	0 <_ZN15Adafruit_AS73417setGainE13as7341_gain_t>
-  44:	00000000 	.word	0x00000000
-  48:	00000000 	.word	0x00000000
+  1e:	2164      	movs	r1, #100	; 0x64
+  20:	4620      	mov	r0, r4
+  22:	f7ff fffe 	bl	0 <_ZN15Adafruit_AS73418setATIMEEh>
+  26:	f240 31e7 	movw	r1, #999	; 0x3e7
+  2a:	4620      	mov	r0, r4
+  2c:	f7ff fffe 	bl	0 <_ZN15Adafruit_AS73418setASTEPEt>
+  30:	4620      	mov	r0, r4
+  32:	2109      	movs	r1, #9
+  34:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  38:	f7ff bffe 	b.w	0 <_ZN15Adafruit_AS73417setGainE13as7341_gain_t>
+  3c:	211a      	movs	r1, #26
+  3e:	4806      	ldr	r0, [pc, #24]	; (58 <_ZN6AS73415beginEv+0x58>)
+  40:	f7ff fffe 	bl	0 <usb_serial_write>
+  44:	4803      	ldr	r0, [pc, #12]	; (54 <_ZN6AS73415beginEv+0x54>)
+  46:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  4a:	e7e8      	b.n	1e <_ZN6AS73415beginEv+0x1e>
   4c:	00000000 	.word	0x00000000
+  50:	00000000 	.word	0x00000000
+  54:	00000000 	.word	0x00000000
+  58:	00000018 	.word	0x00000018
 
 Disassembly of section .text._ZN6AS73419printDataEv:
 
