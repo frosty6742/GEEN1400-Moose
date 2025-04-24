@@ -4,14 +4,15 @@
 #include "VL53L.hpp"
 #include "WireIMXRT.h"
 #include "core_pins.h"
+#include "pwm/PWMReader.h"
 #include "pwm/SparkMaxPWM.h"
 #include "usb_serial.h"
 
 FlightController::FlightController(SparkMaxPWM &motorL, SparkMaxPWM &motorR,
                                    VL53L &tofD, BNO085 &bnoL, AS7341 &clrSensLD,
-                                   AS7341 &clrSensRD)
+                                   AS7341 &clrSensRD, PWMReader pwmReader)
     : motorL(motorL), motorR(motorR), tofD(tofD), bnoL(bnoL),
-      clrSensLD(clrSensLD), clrSensRD(clrSensRD), currentMode(LINE_FOLLOW) {}
+      clrSensLD(clrSensLD), clrSensRD(clrSensRD), pwmReader(pwmReader), currentMode(LINE_FOLLOW) {}
 
 void FlightController::set_control_mode(ControlMode mode) {
   Serial.print("Control Mode set to: ");
@@ -33,12 +34,13 @@ void FlightController::update() {
   case TEST:
     test();
     break;
+  case RC:
+    rc();
+    break;
   }
 }
 
 void FlightController::init() {
-  Wire.begin();
-  Wire1.begin();
   motorL.begin();
   motorR.begin();
   tofD.init();
@@ -161,3 +163,12 @@ void FlightController::test() {
   motorR.setSpeed(rightSpeed);
 }
 */
+
+void FlightController::rc(){
+    unsigned long pulseA = pwmReader.readPulseA();
+    unsigned long pulseB = pwmReader.readPulseB();
+
+    motorL.setSpeed(pulseA);
+    motorR.setSpeed(-pulseB);
+
+}

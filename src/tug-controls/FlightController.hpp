@@ -4,18 +4,20 @@
 #include "AS7341_ColorSens.hpp"
 #include "BNO085.hpp"
 #include "VL53L.hpp"
+#include "pwm/PWMReader.h"
 #include "pwm/SparkMaxPWM.h"
 
 enum ControlMode {
   LINE_FOLLOW,
   MANUAL,
   STOP,
-  TEST
+  TEST, 
+  RC
 };
 
 class FlightController {
 public:
-  FlightController(SparkMaxPWM &motorL, SparkMaxPWM &motorR, VL53L &tofD, BNO085 &bnoL, AS7341 &clrSensLD, AS7341 &clrSensRD );
+  FlightController(SparkMaxPWM &motorL, SparkMaxPWM &motorR, VL53L &tofD, BNO085 &bnoL, AS7341 &clrSensLD, AS7341 &clrSensRD, PWMReader pwmReader);
   void update();
   void set_control_mode(ControlMode mode);
   void init();
@@ -27,6 +29,8 @@ private:
   BNO085 bnoL;
   AS7341 clrSensLD, clrSensRD;
 
+  PWMReader pwmReader;
+
   // Created here
   IMUData IMUDataL;
   ControlMode currentMode;
@@ -35,6 +39,7 @@ private:
   void manual();
   void stop();
   void test();
+  void rc();
 
 };
 

@@ -24,8 +24,9 @@ build/./src/main.cpp.o: src/main.cpp teensy4/Arduino.h teensy4/WProgram.h \
  libraries/Adafruit_Sensor/Adafruit_Sensor.h teensy4/Print.h \
  libraries/Adafruit_BNO08x/sh2_SensorValue.h \
  src/tug-controls/FlightController.hpp src/sensors/VL53L.hpp \
- libraries/vl53l1x-arduino-master/VL53L1X.h src/pwm/SparkMaxPWM.h \
- src/git_info.h src/pwm/SparkMaxPWM.h \
+ libraries/vl53l1x-arduino-master/VL53L1X.h src/pwm/PWMReader.h \
+ src/pwm/SparkMaxPWM.h libraries/Wire/WireIMXRT.h src/git_info.h \
+ src/pwm/PWMReader.h src/pwm/SparkMaxPWM.h \
  libraries/TeensyDebug/src/TeensyDebug.h
 teensy4/Arduino.h:
 teensy4/WProgram.h:
@@ -88,7 +89,10 @@ libraries/Adafruit_BNO08x/sh2_SensorValue.h:
 src/tug-controls/FlightController.hpp:
 src/sensors/VL53L.hpp:
 libraries/vl53l1x-arduino-master/VL53L1X.h:
+src/pwm/PWMReader.h:
 src/pwm/SparkMaxPWM.h:
+libraries/Wire/WireIMXRT.h:
 src/git_info.h:
+src/pwm/PWMReader.h:
 src/pwm/SparkMaxPWM.h:
 libraries/TeensyDebug/src/TeensyDebug.h:

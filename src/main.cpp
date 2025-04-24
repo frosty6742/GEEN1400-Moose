@@ -4,8 +4,10 @@
 #include "BNO085.hpp"
 #include "FlightController.hpp"
 #include "VL53L.hpp"
+#include "WireIMXRT.h"
 #include "core_pins.h"
 #include "git_info.h"
+#include "pwm/PWMReader.h"
 #include "pwm/SparkMaxPWM.h"
 #include "usb_serial.h"
 #include <TeensyDebug.h>
@@ -25,7 +27,9 @@ BNO085 bno;
 AS7341 clrSensL;
 AS7341 clrSensR;
 
-FlightController flightController(motorL, motorR, tof, bno, clrSensL, clrSensR);
+PWMReader pwmReader(6, 9);
+
+FlightController flightController(motorL, motorR, tof, bno, clrSensL, clrSensR, pwmReader);
 
 // DONT put anything else in this function. It is not a setup function
 void print_logo() {
@@ -43,45 +47,23 @@ void print_logo() {
 
 
 
-void i2cScan() {
-    Wire.begin(); // Join I2C bus as master
-  Serial.begin(115200);
-  while (!Serial); // Wait for Serial to initialize (for Teensy)
-  
-  Serial.println("I2C Scanner for Teensy 4.1");
-  
-  byte error, address;
-  int nDevices = 0;
+void read() {
+  while(true){
+    unsigned long pulseA = pwmReader.readPulseA();
+    unsigned long pulseB = pwmReader.readPulseB();
 
-  Serial.println("Scanning...");
+    Serial.print("Pulse A: ");
+    Serial.print(pulseA);
+    Serial.print(" µs\t");
 
-  for (address = 1; address < 127; address++) {
-    Wire.beginTransmission(address);
-    error = Wire.endTransmission();
+    Serial.print("Pulse B: ");
+    Serial.print(pulseB);
+    Serial.println(" µs");
 
-    if (error == 0) {
-      Serial.print("I2C device found at address 0x");
-      if (address < 16)
-        Serial.print("0");
-      Serial.print(address, HEX);
-      Serial.println("  !");
-
-      nDevices++;
-    } else if (error == 4) {
-      Serial.print("Unknown error at address 0x");
-      if (address < 16)
-        Serial.print("0");
-      Serial.println(address, HEX);
-    }
+    delay(100); // Adjust delay as needed
   }
-
-  if (nDevices == 0)
-    Serial.println("No I2C devices found\n");
-  else
-    Serial.println("Scan complete\n");
-
-  delay(5000); // Wait 5 seconds before next scan
 }
+
 
 // Master loop
 int main() {
@@ -91,7 +73,22 @@ int main() {
   debug.begin(SerialUSB1);
   print_logo();
 
-  i2cScan();
+
+      // check to see if there is a crash report, and if so, print it repeatedly over Serial
+    // in the future, we'll send this directly over comms
+    if (CrashReport) {
+        while (1) {
+            Serial.println(CrashReport);
+            Serial.println("\nReflash to clear CrashReport (and also please fix why it crashed)");
+            delay(1000);
+        }
+    }
+
+  pwmReader.begin();
+  read();
+
+  Wire.begin();
+  Wire1.begin();
 
   Serial.println("Starting Flight Controller...");
   flightController.init();
