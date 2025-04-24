@@ -7,6 +7,8 @@
 #include "pwm/PWMReader.h"
 #include "pwm/SparkMaxPWM.h"
 #include "usb_serial.h"
+#include "wiring.h"
+#include <Arduino.h>
 
 FlightController::FlightController(SparkMaxPWM &motorL, SparkMaxPWM &motorR,
                                    VL53L &tofD, BNO085 &bnoL, AS7341 &clrSensLD,
@@ -164,11 +166,39 @@ void FlightController::test() {
 }
 */
 
-void FlightController::rc(){
+    const float minPulse = 988.0f;
+    const float maxPulse = 2010.0f;
+    const float midPulse = (minPulse + maxPulse) / 2.0f;
+    const float maxDelta = 0.2f; // Max allowed difference between shaped inputs
+
+void FlightController::rc() {
     unsigned long pulseA = pwmReader.readPulseA();
     unsigned long pulseB = pwmReader.readPulseB();
 
-    motorL.setSpeed(pulseA);
-    motorR.setSpeed(-pulseB);
+    float controlA = (pulseA - midPulse) / (maxPulse - midPulse);
+    float controlB = (pulseB - midPulse) / (maxPulse - midPulse);
 
+    // Clamp controlA to [-1, 1]
+    if (controlA > 1.0f) controlA = 1.0f;
+    else if (controlA < -1.0f) controlA = -1.0f;
+
+    // Clamp controlB to [-1, 1]
+    if (controlB > 1.0f) controlB = 1.0f;
+    else if (controlB < -1.0f) controlB = -1.0f;
+
+    // Apply x^2 while keeping the original sign
+    float shapedA = controlA >= 0 ? controlA * controlA : -1 * controlA * controlA;
+    float shapedB = controlB >= 0 ? controlB * controlB : -1 * controlB * controlB;
+
+    // Limit the delta to reduce turning sharpness
+    float delta = shapedA - shapedB;
+    if (delta > maxDelta) {
+        shapedA = shapedB + maxDelta;
+    } else if (delta < -maxDelta) {
+        shapedB = shapedA + maxDelta;
+    }
+
+    // Set motor speeds
+    motorL.setSpeed(-0.75 * shapedB);
+    motorR.setSpeed( 0.75 * shapedA);
 }

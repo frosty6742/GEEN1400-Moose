@@ -27,7 +27,7 @@ BNO085 bno;
 AS7341 clrSensL;
 AS7341 clrSensR;
 
-PWMReader pwmReader(6, 9);
+PWMReader pwmReader(14, 13);
 
 FlightController flightController(motorL, motorR, tof, bno, clrSensL, clrSensR, pwmReader);
 
@@ -46,23 +46,6 @@ void print_logo() {
 }
 
 
-
-void read() {
-  while(true){
-    unsigned long pulseA = pwmReader.readPulseA();
-    unsigned long pulseB = pwmReader.readPulseB();
-
-    Serial.print("Pulse A: ");
-    Serial.print(pulseA);
-    Serial.print(" µs\t");
-
-    Serial.print("Pulse B: ");
-    Serial.print(pulseB);
-    Serial.println(" µs");
-
-    delay(100); // Adjust delay as needed
-  }
-}
 
 
 // Master loop
@@ -84,8 +67,6 @@ int main() {
         }
     }
 
-  pwmReader.begin();
-  read();
 
   Wire.begin();
   Wire1.begin();
@@ -93,7 +74,7 @@ int main() {
   Serial.println("Starting Flight Controller...");
   flightController.init();
 
-  flightController.set_control_mode(LINE_FOLLOW);
+  flightController.set_control_mode(RC);
 
   Serial.println("Entering main loop...\n");
   delay(1000);
