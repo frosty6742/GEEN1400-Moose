@@ -1,5 +1,5 @@
 #include "Arduino.h"
-#include "PWMServo.hpp"
+#include "PWMServo.h"
 
 /*
   PWMServo.cpp - Hardware Servo Timer Library
@@ -199,16 +199,8 @@ void PWMServo::write(int angleArg)
 	//uint32_t duty = (int)(usec / 20000.0f * 4096.0f);
 	//Serial.printf("angle=%d, usec=%.2f, us=%.2f, duty=%d, min=%d, max=%d\n",
 		//angle, usec, (float)us / 256.0f, duty, min16<<4, max16<<4);
-#if TEENSYDUINO >= 137
-	noInterrupts();
-	uint32_t oldres = analogWriteResolution(12);
-	analogWrite(pin, duty);
-	analogWriteResolution(oldres);
-	interrupts();
-#else
 	analogWriteResolution(12);
 	analogWrite(pin, duty);
-#endif
 }
 
 uint8_t PWMServo::attached()
@@ -217,64 +209,6 @@ uint8_t PWMServo::attached()
 	return (attachedpins[pin >> 5] & (1 << (pin & 31))) ? 1 : 0;
 }
 
-//======================================================================
-// Arduino UNO R4
-//======================================================================
-#elif defined(ARDUINO_UNOR4_WIFI) || defined(ARDUINO_UNOR4_MINIMA)
-#include <pwm.h>
-uint32_t PWMServo::attachedpins[(NUM_DIGITAL_PINS+31)/32]; // 1 bit per digital pin
-
-PWMServo::PWMServo() : pin(255), angle(NO_ANGLE) {}
-
-uint8_t PWMServo::attach(int pinArg, int min, int max)
-{
-  // Note: UNOR4 does not support Serial.printf
-	//Serial.print("attach, pin=");  Serial.println(pinArg, DEC);
-	if (pinArg < 0 || pinArg >= (int)NUM_DIGITAL_PINS) return 0;
-
-  // Hack attempt use PwmOut object to switch to 50 hz and to see if
-  // the pin is valid.
-	pinMode(pin, OUTPUT);
-	digitalWrite(pin, LOW);
-  //Serial.print("PWMServo::attach pin:"); Serial.println(pinArg);
-  pwmOut = new PwmOut(pinArg);
-  if (!pwmOut->begin(20000, 0)) {
-    delete pwmOut;
-    //Serial.println("pwm.being failed");
-    return 0;
-  }
-  //Serial.println("pwm.begin called");
-  pwmOut->pulse_perc(1.5/50.0);
-  delay(10);
-	pin = pinArg;
-	min16 = min >> 4;
-	max16 = max >> 4;
-	angle = NO_ANGLE;
-	attachedpins[pin >> 5] |= (1 << (pin & 31));
-	return 1;
-}
-
-void PWMServo::write(int angleArg)
-{
-	//Serial.printf("write, pin=%d, angle=%d\n", pin, angleArg);
-	if (pin >= NUM_DIGITAL_PINS) return;
-  if (pwmOut == nullptr) return;
-
-	if (angleArg < 0) angleArg = 0;
-	if (angleArg > 180) angleArg = 180;
-	angle = angleArg;
-	float usec = (float)((max16 - min16)<<4) * ((float)angle / 180.0f) + (float)(min16<<4);
-	//uint32_t duty = (int)(usec / 20000.0f * 4096.0f);
-	//Serial.print("angle="); Serial.print(angle, DEC); Serial.print(", usec="); Serial.print(usec, 3);
-  //Serial.print(", duty="); Serial.println(duty, DEC);
-  pwmOut->pulseWidth_us((int)usec);
-}
-
-uint8_t PWMServo::attached()
-{
-	if (pin >= NUM_DIGITAL_PINS) return 0;
-	return (attachedpins[pin >> 5] & (1 << (pin & 31))) ? 1 : 0;
-}
 #endif
 
 

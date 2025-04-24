@@ -4,11 +4,11 @@
 
 AS7341::AS7341() : as7341D() {}
 
-void AS7341::begin() {
-  if (!as7341D.begin()) {
+void AS7341::begin(TwoWire &wirePort) {
+  if (!as7341D.begin(0x39, &wirePort)) {
     Serial.println("Could not find AS7341");
   } else {
-    Serial.println("AS7341 ClrSens initilized.");
+    Serial.println("AS7341 ClrSens initialized.");
   }
 
   as7341D.setATIME(100);
@@ -49,7 +49,16 @@ void AS7341::printData() {
 }
 
 bool AS7341::detectLine() {
-  // TODO figure out witch of these triggers on black lines, return true of on
-  // black, false if on other color;
-  return false;
+
+  if (!as7341D.readAllChannels()) {
+    Serial.println("Error reading all channels!");
+  }
+  int reading = as7341D.getChannel(AS7341_CHANNEL_590nm_F6);
+  Serial.println(reading);
+
+  const int blackThreshold = 1000; //values below this mean "black"
+
+  return reading < blackThreshold;
 }
+
+

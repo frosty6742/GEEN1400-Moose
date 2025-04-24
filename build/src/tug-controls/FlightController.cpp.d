@@ -25,7 +25,8 @@ build/./src/tug-controls/FlightController.cpp.o: \
  libraries/Adafruit_BNO08x/sh2_err.h \
  libraries/Adafruit_Sensor/Adafruit_Sensor.h teensy4/Print.h \
  libraries/Adafruit_BNO08x/sh2_SensorValue.h src/sensors/VL53L.hpp \
- libraries/vl53l1x-arduino-master/VL53L1X.h src/pwm/SparkMaxPWM.h
+ libraries/vl53l1x-arduino-master/VL53L1X.h src/pwm/SparkMaxPWM.h \
+ libraries/Wire/WireIMXRT.h
 src/tug-controls/FlightController.hpp:
 src/sensors/AS7341_ColorSens.hpp:
 libraries/Adafruit_AS7341/Adafruit_AS7341.h:
@@ -88,3 +89,4 @@ libraries/Adafruit_BNO08x/sh2_SensorValue.h:
 src/sensors/VL53L.hpp:
 libraries/vl53l1x-arduino-master/VL53L1X.h:
 src/pwm/SparkMaxPWM.h:
+libraries/Wire/WireIMXRT.h:

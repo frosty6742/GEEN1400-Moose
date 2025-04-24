@@ -4,7 +4,7 @@
 #define GIT_INFO_H
 
 #define GIT_BRANCH "main"
-#define GIT_COMMIT_HASH "984cb198b7fdc56735e1d0b1355e1e714eabdd4c"
-#define GIT_COMMIT_MSG "cleanup "
+#define GIT_COMMIT_HASH "0ec1c7f12de5f23abcee70035c98dafa247afec5"
+#define GIT_COMMIT_MSG "flight controll cleanup "
 
 #endif // GIT_INFO_H
