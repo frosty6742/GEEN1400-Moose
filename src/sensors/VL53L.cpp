@@ -9,8 +9,8 @@ VL53L1X tofD;
 VL53L::VL53L() {}
 
 void VL53L::init() {
-  //tofD.init();
-  //tofD.setBus(TwoWire * Wire);
+  //tofD.init()
+  //tofD.setBus(&Wire);
   delay(200);
   if (!tofD.init()) {
     Serial.println("Failed to detect VL53L1X sensor!");

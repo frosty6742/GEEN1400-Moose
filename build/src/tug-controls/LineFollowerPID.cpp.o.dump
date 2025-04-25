@@ -1,0 +1,119 @@
+
+build/./src/tug-controls/LineFollowerPID.cpp.o:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    df *ABS*	00000000 LineFollowerPID.cpp
+00000000 l    d  .text	00000000 .text
+00000000 l    d  .data	00000000 .data
+00000000 l    d  .bss	00000000 .bss
+00000000 l    d  .text._ZN15LineFollowerPIDC2Efff	00000000 .text._ZN15LineFollowerPIDC2Efff
+00000000 l    d  .text._ZN15LineFollowerPID6updateEbbf	00000000 .text._ZN15LineFollowerPID6updateEbbf
+00000000 l    d  .text._ZN15LineFollowerPID14calculateErrorEbb	00000000 .text._ZN15LineFollowerPID14calculateErrorEbb
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 g     F .text._ZN15LineFollowerPIDC2Efff	00000014 _ZN15LineFollowerPIDC2Efff
+00000000 g     F .text._ZN15LineFollowerPIDC2Efff	00000014 _ZN15LineFollowerPIDC1Efff
+00000000 g     F .text._ZN15LineFollowerPID6updateEbbf	00000074 _ZN15LineFollowerPID6updateEbbf
+00000000 g     F .text._ZN15LineFollowerPID14calculateErrorEbb	00000034 _ZN15LineFollowerPID14calculateErrorEbb
+
+
+Contents of section .text._ZN15LineFollowerPIDC2Efff:
+ 0000 002280ed 000ac0ed 010a80ed 021ac260  .".............`
+ 0010 02617047                             .apG            
+Contents of section .text._ZN15LineFollowerPID6updateEbbf:
+ 0000 012a05d0 21b190ed 036a9fed 177a06e0  .*..!....j...z..
+ 0010 01291dd0 e2b190ed 036a9fed 147a37ee  .).......j...z7.
+ 0020 466ad0ed 046ad0ed 017ae0ee 076ad0ed  Fj...j...z...j..
+ 0030 004ac6ee 005a90ed 025a80ed 037a26ee  .J...Z...Z...z&.
+ 0040 a70ac0ed 046aa4ee 870aa5ee 250a7047  .....j......%.pG
+ 0050 29b122b1 90ed036a 9fed057a dfe790ed  )."....j...z....
+ 0060 037ab0ee 476adae7 cdcc4cbd cdcc4c3d  .z..Gj....L...L=
+ 0070 00000000                             ....            
+Contents of section .text._ZN15LineFollowerPID14calculateErrorEbb:
+ 0000 012a03d0 11b19fed 080a7047 012903d0  .*........pG.)..
+ 0010 3ab19fed 060a7047 1ab111b1 9fed040a  :.....pG........
+ 0020 704790ed 030a7047 cdcc4cbd cdcc4c3d  pG....pG..L...L=
+ 0030 00000000                             ....            
+Contents of section .comment:
+ 0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
+ 0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
+ 0020 6c312920 31312e33 2e312032 30323230  l1) 11.3.1 20220
+ 0030 37313200                             712.            
+Contents of section .ARM.attributes:
+ 0000 41310000 00616561 62690001 27000000  A1...aeabi..'...
+ 0010 0537452d 4d00060d 074d0902 0a081204  .7E-M....M......
+ 0020 14011501 17031801 19011a01 1c011e02  ................
+ 0030 2201                                 ".              
+
+Disassembly of section .text._ZN15LineFollowerPIDC2Efff:
+
+00000000 <_ZN15LineFollowerPIDC1Efff>:
+   0:	2200      	movs	r2, #0
+   2:	ed80 0a00 	vstr	s0, [r0]
+   6:	edc0 0a01 	vstr	s1, [r0, #4]
+   a:	ed80 1a02 	vstr	s2, [r0, #8]
+   e:	60c2      	str	r2, [r0, #12]
+  10:	6102      	str	r2, [r0, #16]
+  12:	4770      	bx	lr
+
+Disassembly of section .text._ZN15LineFollowerPID6updateEbbf:
+
+00000000 <_ZN15LineFollowerPID6updateEbbf>:
+   0:	2a01      	cmp	r2, #1
+   2:	d005      	beq.n	10 <_ZN15LineFollowerPID6updateEbbf+0x10>
+   4:	b121      	cbz	r1, 10 <_ZN15LineFollowerPID6updateEbbf+0x10>
+   6:	ed90 6a03 	vldr	s12, [r0, #12]
+   a:	ed9f 7a17 	vldr	s14, [pc, #92]	; 68 <_ZN15LineFollowerPID6updateEbbf+0x68>
+   e:	e006      	b.n	1e <_ZN15LineFollowerPID6updateEbbf+0x1e>
+  10:	2901      	cmp	r1, #1
+  12:	d01d      	beq.n	50 <_ZN15LineFollowerPID6updateEbbf+0x50>
+  14:	b1e2      	cbz	r2, 50 <_ZN15LineFollowerPID6updateEbbf+0x50>
+  16:	ed90 6a03 	vldr	s12, [r0, #12]
+  1a:	ed9f 7a14 	vldr	s14, [pc, #80]	; 6c <_ZN15LineFollowerPID6updateEbbf+0x6c>
+  1e:	ee37 6a46 	vsub.f32	s12, s14, s12
+  22:	edd0 6a04 	vldr	s13, [r0, #16]
+  26:	edd0 7a01 	vldr	s15, [r0, #4]
+  2a:	eee0 6a07 	vfma.f32	s13, s0, s14
+  2e:	edd0 4a00 	vldr	s9, [r0]
+  32:	eec6 5a00 	vdiv.f32	s11, s12, s0
+  36:	ed90 5a02 	vldr	s10, [r0, #8]
+  3a:	ed80 7a03 	vstr	s14, [r0, #12]
+  3e:	ee26 0aa7 	vmul.f32	s0, s13, s15
+  42:	edc0 6a04 	vstr	s13, [r0, #16]
+  46:	eea4 0a87 	vfma.f32	s0, s9, s14
+  4a:	eea5 0a25 	vfma.f32	s0, s10, s11
+  4e:	4770      	bx	lr
+  50:	b129      	cbz	r1, 5e <_ZN15LineFollowerPID6updateEbbf+0x5e>
+  52:	b122      	cbz	r2, 5e <_ZN15LineFollowerPID6updateEbbf+0x5e>
+  54:	ed90 6a03 	vldr	s12, [r0, #12]
+  58:	ed9f 7a05 	vldr	s14, [pc, #20]	; 70 <_ZN15LineFollowerPID6updateEbbf+0x70>
+  5c:	e7df      	b.n	1e <_ZN15LineFollowerPID6updateEbbf+0x1e>
+  5e:	ed90 7a03 	vldr	s14, [r0, #12]
+  62:	eeb0 6a47 	vmov.f32	s12, s14
+  66:	e7da      	b.n	1e <_ZN15LineFollowerPID6updateEbbf+0x1e>
+  68:	bd4ccccd 	.word	0xbd4ccccd
+  6c:	3d4ccccd 	.word	0x3d4ccccd
+  70:	00000000 	.word	0x00000000
+
+Disassembly of section .text._ZN15LineFollowerPID14calculateErrorEbb:
+
+00000000 <_ZN15LineFollowerPID14calculateErrorEbb>:
+   0:	2a01      	cmp	r2, #1
+   2:	d003      	beq.n	c <_ZN15LineFollowerPID14calculateErrorEbb+0xc>
+   4:	b111      	cbz	r1, c <_ZN15LineFollowerPID14calculateErrorEbb+0xc>
+   6:	ed9f 0a08 	vldr	s0, [pc, #32]	; 28 <_ZN15LineFollowerPID14calculateErrorEbb+0x28>
+   a:	4770      	bx	lr
+   c:	2901      	cmp	r1, #1
+   e:	d003      	beq.n	18 <_ZN15LineFollowerPID14calculateErrorEbb+0x18>
+  10:	b13a      	cbz	r2, 22 <_ZN15LineFollowerPID14calculateErrorEbb+0x22>
+  12:	ed9f 0a06 	vldr	s0, [pc, #24]	; 2c <_ZN15LineFollowerPID14calculateErrorEbb+0x2c>
+  16:	4770      	bx	lr
+  18:	b11a      	cbz	r2, 22 <_ZN15LineFollowerPID14calculateErrorEbb+0x22>
+  1a:	b111      	cbz	r1, 22 <_ZN15LineFollowerPID14calculateErrorEbb+0x22>
+  1c:	ed9f 0a04 	vldr	s0, [pc, #16]	; 30 <_ZN15LineFollowerPID14calculateErrorEbb+0x30>
+  20:	4770      	bx	lr
+  22:	ed90 0a03 	vldr	s0, [r0, #12]
+  26:	4770      	bx	lr
+  28:	bd4ccccd 	.word	0xbd4ccccd
+  2c:	3d4ccccd 	.word	0x3d4ccccd
+  30:	00000000 	.word	0x00000000

@@ -11,9 +11,12 @@ void AS7341::begin(TwoWire &wirePort) {
     Serial.println("AS7341 ClrSens initialized.");
   }
 
-  as7341D.setATIME(100);
-  as7341D.setASTEP(999);
+  as7341D.setATIME(10);
+  as7341D.setASTEP(99);
   as7341D.setGain(AS7341_GAIN_256X);
+
+  as7341D.enableLED(true);
+
 }
 
 void AS7341::printData() {
@@ -24,7 +27,7 @@ void AS7341::printData() {
   }
 
   // Print out the stored values for each channel
-  Serial.print("F1 415nm : ");
+  /*Serial.print("F1 415nm : ");
   Serial.println(as7341D.getChannel(AS7341_CHANNEL_415nm_F1));
   Serial.print("F2 445nm : ");
   Serial.println(as7341D.getChannel(AS7341_CHANNEL_445nm_F2));
@@ -33,9 +36,9 @@ void AS7341::printData() {
   Serial.print("F4 515nm : ");
   Serial.println(as7341D.getChannel(AS7341_CHANNEL_515nm_F4));
   Serial.print("F5 555nm : ");
-  Serial.println(as7341D.getChannel(AS7341_CHANNEL_555nm_F5));
+  Serial.println(as7341D.getChannel(AS7341_CHANNEL_555nm_F5));*/
   Serial.print("F6 590nm : ");
-  Serial.println(as7341D.getChannel(AS7341_CHANNEL_590nm_F6));
+  Serial.println(as7341D.getChannel(AS7341_CHANNEL_590nm_F6));/*
   Serial.print("F7 630nm : ");
   Serial.println(as7341D.getChannel(AS7341_CHANNEL_630nm_F7));
   Serial.print("F8 680nm : ");
@@ -45,7 +48,7 @@ void AS7341::printData() {
   Serial.println(as7341D.getChannel(AS7341_CHANNEL_CLEAR));
 
   Serial.print("Near IR  : ");
-  Serial.println(as7341D.getChannel(AS7341_CHANNEL_NIR));
+  Serial.println(as7341D.getChannel(AS7341_CHANNEL_NIR));*/
 }
 
 bool AS7341::detectLine() {
@@ -56,7 +59,7 @@ bool AS7341::detectLine() {
   int reading = as7341D.getChannel(AS7341_CHANNEL_590nm_F6);
   Serial.println(reading);
 
-  const int blackThreshold = 1000; //values below this mean "black"
+  const int blackThreshold = 30; //values below this mean "black"
 
   return reading < blackThreshold;
 }

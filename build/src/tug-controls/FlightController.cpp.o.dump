@@ -11,6 +11,7 @@ SYMBOL TABLE:
 00000000 l    d  .text._ZN16FlightController16set_control_modeE11ControlMode	00000000 .text._ZN16FlightController16set_control_modeE11ControlMode
 00000000 l    d  .rodata._ZN16FlightController4initEv.str1.4	00000000 .rodata._ZN16FlightController4initEv.str1.4
 00000000 l    d  .text._ZN16FlightController4initEv	00000000 .text._ZN16FlightController4initEv
+00000000 l    d  .rodata._ZN16FlightController10lineFollowEv.str1.4	00000000 .rodata._ZN16FlightController10lineFollowEv.str1.4
 00000000 l    d  .text._ZN16FlightController10lineFollowEv	00000000 .text._ZN16FlightController10lineFollowEv
 00000000 l    d  .text._ZN16FlightController6manualEv	00000000 .text._ZN16FlightController6manualEv
 00000000 l    d  .text._ZN16FlightController4stopEv	00000000 .text._ZN16FlightController4stopEv
@@ -20,11 +21,11 @@ SYMBOL TABLE:
 00000000 l    d  .text._ZN16FlightController6updateEv	00000000 .text._ZN16FlightController6updateEv
 00000000 l    d  .comment	00000000 .comment
 00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
-00000000 g     F .text._ZN16FlightControllerC2ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader	000000f4 _ZN16FlightControllerC2ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader
+00000000 g     F .text._ZN16FlightControllerC2ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader	00000108 _ZN16FlightControllerC2ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader
 00000000         *UND*	00000000 memcpy
-00000000         *UND*	00000000 _ZTV15Adafruit_BNO08x
 00000000         *UND*	00000000 _ZTV15Adafruit_AS7341
-00000000 g     F .text._ZN16FlightControllerC2ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader	000000f4 _ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader
+00000000         *UND*	00000000 _ZTV15Adafruit_BNO08x
+00000000 g     F .text._ZN16FlightControllerC2ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader	00000108 _ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader
 00000000 g     F .text._ZN16FlightController16set_control_modeE11ControlMode	0000002c _ZN16FlightController16set_control_modeE11ControlMode
 00000000         *UND*	00000000 usb_serial_write
 00000000         *UND*	00000000 _ZN5Print5printEl
@@ -36,107 +37,114 @@ SYMBOL TABLE:
 00000000         *UND*	00000000 _ZN6BNO0855beginEv
 00000000         *UND*	00000000 _ZN6AS73415beginER7TwoWire
 00000000         *UND*	00000000 delay
-00000000         *UND*	00000000 Wire
 00000000         *UND*	00000000 Wire1
-00000000 g     F .text._ZN16FlightController10lineFollowEv	000000a8 _ZN16FlightController10lineFollowEv
+00000000         *UND*	00000000 Wire
+00000000 g     F .text._ZN16FlightController10lineFollowEv	00000114 _ZN16FlightController10lineFollowEv
 00000000         *UND*	00000000 _ZN6AS734110detectLineEv
+00000000         *UND*	00000000 _ZN6AS73419printDataEv
 00000000         *UND*	00000000 _ZN11SparkMaxPWM8setSpeedEf
 00000000 g     F .text._ZN16FlightController6manualEv	00000002 _ZN16FlightController6manualEv
-00000000 g     F .text._ZN16FlightController4stopEv	00000002 _ZN16FlightController4stopEv
+00000000 g     F .text._ZN16FlightController4stopEv	00000028 _ZN16FlightController4stopEv
 00000000 g     F .text._ZN16FlightController4testEv	00000070 _ZN16FlightController4testEv
-00000000 g     F .text._ZN16FlightController2rcEv	0000015c _ZN16FlightController2rcEv
+00000000 g     F .text._ZN16FlightController2rcEv	000000b8 _ZN16FlightController2rcEv
 00000000         *UND*	00000000 _ZN9PWMReader10readPulseAEv
 00000000         *UND*	00000000 _ZN9PWMReader10readPulseBEv
-00000000 g     F .text._ZN16FlightController6updateEv	0000001c _ZN16FlightController6updateEv
+00000000 g     F .text._ZN16FlightController6updateEv	0000004c _ZN16FlightController6updateEv
 
 
 Contents of section .text._ZN16FlightControllerC2ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader:
- 0000 2de9f04f 83b01646 384b0446 0c9d5422  -..O...F8K.F..T"
- 0010 01601430 291d40f8 106c40f8 043c05f1  .`.0).@..l@..<..
- 0020 580bddf8 3490fff7 feff0e9b 04f1680a  X...4.........h.
- 0030 05f1700c 04f1800e 03f10c06 04f58073  ..p............s
- 0040 09f10c08 04f1bc07 019304f1 e405bbe8  ................
- 0050 0f00aae8 0f00dbf8 0030caf8 0030bce8  .........0...0..
- 0060 0f00aee8 0f00bce8 0f00aee8 0f009ce8  ................
- 0070 0f008ee8 0f001e4b 0e9ac4f8 b03099f8  .......K.....0..
- 0080 043099f8 24e084f8 b430d9f8 0830c4f8  .0..$....0...0..
- 0090 b830d2f8 08c0b8e8 0f000fc7 98e80300  .0..............
- 00a0 0e9a134b 87e80300 84f8d4e0 c4f8d830  ...K...........0
- 00b0 1379c4f8 e0c084f8 dc300fce 0fc50e9a  .y.......0......
- 00c0 96e80300 92f82430 0faa85e8 030092e8  ......$0........
- 00d0 030084f8 fc30019b 83e80300 4ff00003  .....0......O...
- 00e0 204684f8 303103b0 bde8f08f 08000000   F..01..........
- 00f0 08000000                             ....            
+ 0000 2de9f04f 1d460446 016000f1 08064260  -..O.F.F.`....B`
+ 0010 83b0dff8 f0c004f1 900a0fcd 0fc60fcd  ................
+ 0020 dde90c79 0fc695e8 070086e8 0700391d  ...y..........9.
+ 0030 c4f838c0 542204f1 3c00fff7 feff0e9b  ..8.T"..<.......
+ 0040 07f1580b 07f1700c 03f10c06 04f59473  ..X...p........s
+ 0050 04f1a80e 09f10c08 019304f1 e40704f5  ................
+ 0060 8675bbe8 0f00aae8 0f00dbf8 0030caf8  .u...........0..
+ 0070 0030bce8 0f00aee8 0f00bce8 0f00aee8  .0..............
+ 0080 0f009ce8 0f008ee8 0f001d4b 0e9ac4f8  ...........K....
+ 0090 d83099f8 043099f8 24e084f8 dc30d9f8  .0...0..$....0..
+ 00a0 0830c4f8 e030d2f8 08c0b8e8 0f000fc7  .0...0..........
+ 00b0 98e80300 0e9a124b 87e80300 84f8fce0  .......K........
+ 00c0 c4f80031 1379c4f8 08c184f8 04310fce  ...1.y.......1..
+ 00d0 0fc50e9a 96e80300 92f82430 0faa85e8  ..........$0....
+ 00e0 030092e8 030084f8 2431019b 83e80300  ........$1......
+ 00f0 4ff00003 204684f8 583103b0 bde8f08f  O... F..X1......
+ 0100 08000000 08000000                    ........        
 Contents of section .rodata._ZN16FlightController16set_control_modeE11ControlMode.str1.4:
  0000 436f6e74 726f6c20 4d6f6465 20736574  Control Mode set
  0010 20746f3a 2000                         to: .          
 Contents of section .text._ZN16FlightController16set_control_modeE11ControlMode:
  0000 70b50c46 074e0546 15210748 fff7feff  p..F.N.F.!.H....
  0010 21463046 fff7feff 3046fff7 feff85f8  !F0F....0F......
- 0020 304170bd 00000000 00000000           0Ap.........    
+ 0020 584170bd 00000000 00000000           XAp.........    
 Contents of section .rodata._ZN16FlightController4initEv.str1.4:
  0000 466c6967 68742043 6f6e7472 6f6c6c65  Flight Controlle
  0010 72205374 61727465 642e00             r Started..     
 Contents of section .text._ZN16FlightController4initEv:
  0000 10b50446 0068fff7 feff6068 fff7feff  ...F.h....`h....
- 0010 04f10800 fff7feff 04f11000 fff7feff  ................
- 0020 04f1d800 0a49fff7 feff04f1 b0000949  .....I.........I
+ 0010 04f10800 fff7feff 04f13800 fff7feff  ..........8.....
+ 0020 04f58070 0a49fff7 feff04f1 d8000949  ...p.I.........I
  0030 fff7feff 1a210848 fff7feff 0748fff7  .....!.H.....H..
  0040 feff4ff4 7a70bde8 1040fff7 febf00bf  ..O.zp...@......
  0050 00000000 00000000 00000000 00000000  ................
+Contents of section .rodata._ZN16FlightController10lineFollowEv.str1.4:
+ 0000 4f6e6c69 6e650000 594c2c20 4e520000  Online..YL, NR..
+ 0010 4e4c2c20 59520000 4e4f4c00           NL, YR..NOL.    
 Contents of section .text._ZN16FlightController10lineFollowEv:
- 0000 38b50446 b030fff7 feff0546 04f1d800  8..F.0.....F....
- 0010 fff7feff 80f00103 dbb203b1 85b985f0  ................
- 0020 0103dbb2 c3b1b8b1 20689fed 180afff7  ........ h......
- 0030 feff6068 9fed160a bde83840 fff7febf  ..`h......8@....
- 0040 20689fed 140afff7 feff6068 9fed120a   h........`h....
- 0050 bde83840 fff7febf 65b158b1 20689fed  ..8@....e.X. h..
- 0060 0f0afff7 feff6068 9fed0d0a bde83840  ......`h......8@
- 0070 fff7febf 20689fed 0b0afff7 feff6068  .... h........`h
- 0080 9fed080a bde83840 fff7febf cdcc4cbe  ......8@......L.
- 0090 ec51383e ec5138be cdcc4c3e cdccccbd  .Q8>.Q8...L>....
- 00a0 cdcccc3d 00000000                    ...=....        
+ 0000 f8b500f5 80770446 d830fff7 feff0546  .....w.F.0.....F
+ 0010 3846fff7 feff0646 3846fff7 feff2946  8F.....F8F....)F
+ 0020 3248fff7 feff3148 fff7feff 31462f48  2H....1H....1F/H
+ 0030 fff7feff 2d48fff7 feff05b1 a6b986f0  ....-H..........
+ 0040 0103dbb2 1bb315b3 20689fed 290afff7  ........ h..)...
+ 0050 feff6068 9fed270a fff7feff 06212648  ..`h..'......!&H
+ 0060 bde8f840 fff7febf 20689fed 240afff7  ...@.... h..$...
+ 0070 feff6068 9fed1f0a fff7feff 06212048  ..`h.........! H
+ 0080 fff7feff 1948bde8 f840fff7 febf85f0  .....H...@......
+ 0090 0103dbb2 03b1a6b9 35bb2ebb 20689fed  ........5... h..
+ 00a0 190afff7 feff6068 9fed160a fff7feff  ......`h........
+ 00b0 03211548 fff7feff 0c48bde8 f840fff7  .!.H.....H...@..
+ 00c0 febf2068 9fed0d0a fff7feff 60689fed  .. h........`h..
+ 00d0 0f0afff7 feff0621 0d48fff7 feff0348  .......!.H.....H
+ 00e0 bde8f840 fff7febf f8bd00bf 00000000  ...@............
+ 00f0 8fc2f53d cdccccbd 08000000 295c0f3e  ...=........)\.>
+ 0100 00000000 00000000 18000000 0ad7a3bd  ................
+ 0110 10000000                             ....            
 Contents of section .text._ZN16FlightController6manualEv:
  0000 704700bf                             pG..            
 Contents of section .text._ZN16FlightController4stopEv:
- 0000 704700bf                             pG..            
+ 0000 10b59fed 080a82b0 04464068 8ded010a  .........F@h....
+ 0010 fff7feff 9ded010a 206802b0 bde81040  ........ h.....@
+ 0020 fff7febf 00000000                    ........        
 Contents of section .rodata._ZN16FlightController4testEv.str1.4:
  0000 54657374 696e6720 53656e73 6f727300  Testing Sensors.
  0010 4c440000 524400                      LD..RD.         
 Contents of section .text._ZN16FlightController4testEv:
  0000 38b5174c 05460f21 1648fff7 feff2046  8..L.F.!.H.... F
  0010 fff7feff 02211448 fff7feff 2046fff7  .....!.H.... F..
- 0020 feff05f1 b000fff7 feff0146 2046fff7  ...........F F..
+ 0020 feff05f1 d800fff7 feff0146 2046fff7  ...........F F..
  0030 feff2046 fff7feff 02210c48 fff7feff  .. F.....!.H....
- 0040 2046fff7 feff05f1 d800fff7 feff0146   F.............F
+ 0040 2046fff7 feff05f5 8070fff7 feff0146   F.......p.....F
  0050 2046fff7 feff2046 bde83840 fff7febf   F.... F..8@....
  0060 00000000 00000000 10000000 14000000  ................
 Contents of section .text._ZN16FlightController2rcEv:
- 0000 38b500f5 80750446 2ded028b 2846fff7  8....u.F-...(F..
- 0010 feff0346 284608ee 103afff7 feffdfed  ...F(F...:......
- 0020 4b6a07ee 900ab8ee 488a9fed 496ab8ee  Kj......H...Ij..
- 0030 677af7ee 007a38ee 668a37ee 667ac8ee  gz...z8.f.7.fz..
- 0040 066a87ee 060af4ee e76af1ee 10fa3bdd  .j.......j....;.
- 0050 b4eee70a f1ee10fa 22ddb0ee 670ab0ee  ........"...g...
- 0060 678a20ee 000a38ee 407adfed 3a7ab4ee  g. ...8.@z..:z..
- 0070 e77af1ee 10fa1ddd 30ee278a feee087a  .z......0.'....z
- 0080 206820ee 270afff7 feffb6ee 080a6068   h .'.........`h
- 0090 28ee000a bdec028b bde83840 fff7febf  (.........8@....
- 00a0 bfee007a b4eec70a f1ee10fa 29d4b0ee  ...z........)...
- 00b0 678a1ee0 dfed286a b4eee67a f1ee10fa  g.....(j...z....
- 00c0 48bf38ee 270ad9e7 bfee007a f4eec76a  H.8.'......z...j
- 00d0 f1ee10fa b4eee70a 22d4f1ee 10fa17dd  ........".......
- 00e0 b0ee670a f5eec06a f1ee10fa 0dda26ee  ..g....j......&.
- 00f0 e68ab5ee c00af1ee 10fab2da 20ee400a  ............ .@.
- 0100 b1e7f0ee 676ab0ee 470a26ee a68af0e7  ....gj..G.&.....
- 0110 b4ee470a f1ee10fa 48bfb0ee 470ae1e7  ..G.....H...G...
- 0120 f1ee10fa 04ddb0ee 670ab0ee 478a98e7  ........g...G...
- 0130 b4eec70a f1ee10fa 02d4f0ee 476ad6e7  ............Gj..
- 0140 b0ee470a b0ee478a d8e700bf 0060bb44  ..G...G......`.D
- 0150 0080ff43 cdcc4c3e cdcc4cbe           ...C..L>..L.    
+ 0000 38b500f5 94750446 2ded028b 2846fff7  8....u.F-...(F..
+ 0010 feff0346 284608ee 103afff7 feff07ee  ...F(F...:......
+ 0020 900a9fed 237ab8ee 488a9fed 226af8ee  ....#z..H..."j..
+ 0030 677a2068 38ee478a 77eec77a c8ee066a  gz h8.G.w..z...j
+ 0040 87ee867a 9fed185b f5eec06a f1ee10fa  ...z...[...j....
+ 0050 b7eec77a acbf66ee a66a66ee e66a27ee  ...z..f..jf..j'.
+ 0060 057bb7ee c77bf6ee 087ab5ee c07af1ee  .{...{...z...z..
+ 0070 10faacbf 27ee077a 27ee477a 36ee870a  ....'..z'.Gz6...
+ 0080 36eec78a 20ee270a fff7feff beee080a  6... .'.........
+ 0090 606828ee 000abdec 028bbde8 3840fff7  `h(.........8@..
+ 00a0 febf00bf aff30080 33333333 3333e33f  ........333333.?
+ 00b0 0060bb44 0080ff43                    .`.D...C        
 Contents of section .text._ZN16FlightController6updateEv:
- 0000 90f83031 032b03d0 042b05d0 13b17047  ..01.+...+....pG
- 0010 fff7febf fff7febf fff7febf           ............    
+ 0000 90f85831 10b50446 042b1cd8 dfe803f0  ..X1...F.+......
+ 0010 171b0b07 0300bde8 1040fff7 febfbde8  .........@......
+ 0020 1040fff7 febf9fed 080a4068 fff7feff  .@........@h....
+ 0030 20689fed 050abde8 1040fff7 febfbde8   h.......@......
+ 0040 1040fff7 febf10bd 00000000           .@..........    
 Contents of section .comment:
  0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
  0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
@@ -152,78 +160,84 @@ Disassembly of section .text._ZN16FlightControllerC2ER11SparkMaxPWMS1_R5VL53LR6B
 
 00000000 <_ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader>:
    0:	e92d 4ff0 	stmdb	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, lr}
-   4:	b083      	sub	sp, #12
-   6:	4616      	mov	r6, r2
-   8:	4b38      	ldr	r3, [pc, #224]	; (ec <_ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader+0xec>)
-   a:	4604      	mov	r4, r0
-   c:	9d0c      	ldr	r5, [sp, #48]	; 0x30
-   e:	2254      	movs	r2, #84	; 0x54
-  10:	6001      	str	r1, [r0, #0]
-  12:	3014      	adds	r0, #20
-  14:	1d29      	adds	r1, r5, #4
-  16:	f840 6c10 	str.w	r6, [r0, #-16]
-  1a:	f840 3c04 	str.w	r3, [r0, #-4]
-  1e:	f105 0b58 	add.w	fp, r5, #88	; 0x58
-  22:	f8dd 9034 	ldr.w	r9, [sp, #52]	; 0x34
-  26:	f7ff fffe 	bl	0 <memcpy>
-  2a:	9b0e      	ldr	r3, [sp, #56]	; 0x38
-  2c:	f104 0a68 	add.w	sl, r4, #104	; 0x68
-  30:	f105 0c70 	add.w	ip, r5, #112	; 0x70
-  34:	f104 0e80 	add.w	lr, r4, #128	; 0x80
-  38:	f103 060c 	add.w	r6, r3, #12
-  3c:	f504 7380 	add.w	r3, r4, #256	; 0x100
-  40:	f109 080c 	add.w	r8, r9, #12
-  44:	f104 07bc 	add.w	r7, r4, #188	; 0xbc
-  48:	9301      	str	r3, [sp, #4]
-  4a:	f104 05e4 	add.w	r5, r4, #228	; 0xe4
-  4e:	e8bb 000f 	ldmia.w	fp!, {r0, r1, r2, r3}
-  52:	e8aa 000f 	stmia.w	sl!, {r0, r1, r2, r3}
-  56:	f8db 3000 	ldr.w	r3, [fp]
-  5a:	f8ca 3000 	str.w	r3, [sl]
-  5e:	e8bc 000f 	ldmia.w	ip!, {r0, r1, r2, r3}
-  62:	e8ae 000f 	stmia.w	lr!, {r0, r1, r2, r3}
-  66:	e8bc 000f 	ldmia.w	ip!, {r0, r1, r2, r3}
-  6a:	e8ae 000f 	stmia.w	lr!, {r0, r1, r2, r3}
-  6e:	e89c 000f 	ldmia.w	ip, {r0, r1, r2, r3}
-  72:	e88e 000f 	stmia.w	lr, {r0, r1, r2, r3}
-  76:	4b1e      	ldr	r3, [pc, #120]	; (f0 <_ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader+0xf0>)
-  78:	9a0e      	ldr	r2, [sp, #56]	; 0x38
-  7a:	f8c4 30b0 	str.w	r3, [r4, #176]	; 0xb0
-  7e:	f899 3004 	ldrb.w	r3, [r9, #4]
-  82:	f899 e024 	ldrb.w	lr, [r9, #36]	; 0x24
-  86:	f884 30b4 	strb.w	r3, [r4, #180]	; 0xb4
-  8a:	f8d9 3008 	ldr.w	r3, [r9, #8]
-  8e:	f8c4 30b8 	str.w	r3, [r4, #184]	; 0xb8
-  92:	f8d2 c008 	ldr.w	ip, [r2, #8]
-  96:	e8b8 000f 	ldmia.w	r8!, {r0, r1, r2, r3}
-  9a:	c70f      	stmia	r7!, {r0, r1, r2, r3}
-  9c:	e898 0003 	ldmia.w	r8, {r0, r1}
-  a0:	9a0e      	ldr	r2, [sp, #56]	; 0x38
-  a2:	4b13      	ldr	r3, [pc, #76]	; (f0 <_ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader+0xf0>)
-  a4:	e887 0003 	stmia.w	r7, {r0, r1}
-  a8:	f884 e0d4 	strb.w	lr, [r4, #212]	; 0xd4
-  ac:	f8c4 30d8 	str.w	r3, [r4, #216]	; 0xd8
-  b0:	7913      	ldrb	r3, [r2, #4]
-  b2:	f8c4 c0e0 	str.w	ip, [r4, #224]	; 0xe0
-  b6:	f884 30dc 	strb.w	r3, [r4, #220]	; 0xdc
-  ba:	ce0f      	ldmia	r6!, {r0, r1, r2, r3}
-  bc:	c50f      	stmia	r5!, {r0, r1, r2, r3}
-  be:	9a0e      	ldr	r2, [sp, #56]	; 0x38
-  c0:	e896 0003 	ldmia.w	r6, {r0, r1}
-  c4:	f892 3024 	ldrb.w	r3, [r2, #36]	; 0x24
-  c8:	aa0f      	add	r2, sp, #60	; 0x3c
-  ca:	e885 0003 	stmia.w	r5, {r0, r1}
-  ce:	e892 0003 	ldmia.w	r2, {r0, r1}
-  d2:	f884 30fc 	strb.w	r3, [r4, #252]	; 0xfc
-  d6:	9b01      	ldr	r3, [sp, #4]
-  d8:	e883 0003 	stmia.w	r3, {r0, r1}
-  dc:	f04f 0300 	mov.w	r3, #0
-  e0:	4620      	mov	r0, r4
-  e2:	f884 3130 	strb.w	r3, [r4, #304]	; 0x130
-  e6:	b003      	add	sp, #12
-  e8:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
-  ec:	00000008 	.word	0x00000008
-  f0:	00000008 	.word	0x00000008
+   4:	461d      	mov	r5, r3
+   6:	4604      	mov	r4, r0
+   8:	6001      	str	r1, [r0, #0]
+   a:	f100 0608 	add.w	r6, r0, #8
+   e:	6042      	str	r2, [r0, #4]
+  10:	b083      	sub	sp, #12
+  12:	f8df c0f0 	ldr.w	ip, [pc, #240]	; 104 <_ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader+0x104>
+  16:	f104 0a90 	add.w	sl, r4, #144	; 0x90
+  1a:	cd0f      	ldmia	r5!, {r0, r1, r2, r3}
+  1c:	c60f      	stmia	r6!, {r0, r1, r2, r3}
+  1e:	cd0f      	ldmia	r5!, {r0, r1, r2, r3}
+  20:	e9dd 790c 	ldrd	r7, r9, [sp, #48]	; 0x30
+  24:	c60f      	stmia	r6!, {r0, r1, r2, r3}
+  26:	e895 0007 	ldmia.w	r5, {r0, r1, r2}
+  2a:	e886 0007 	stmia.w	r6, {r0, r1, r2}
+  2e:	1d39      	adds	r1, r7, #4
+  30:	f8c4 c038 	str.w	ip, [r4, #56]	; 0x38
+  34:	2254      	movs	r2, #84	; 0x54
+  36:	f104 003c 	add.w	r0, r4, #60	; 0x3c
+  3a:	f7ff fffe 	bl	0 <memcpy>
+  3e:	9b0e      	ldr	r3, [sp, #56]	; 0x38
+  40:	f107 0b58 	add.w	fp, r7, #88	; 0x58
+  44:	f107 0c70 	add.w	ip, r7, #112	; 0x70
+  48:	f103 060c 	add.w	r6, r3, #12
+  4c:	f504 7394 	add.w	r3, r4, #296	; 0x128
+  50:	f104 0ea8 	add.w	lr, r4, #168	; 0xa8
+  54:	f109 080c 	add.w	r8, r9, #12
+  58:	9301      	str	r3, [sp, #4]
+  5a:	f104 07e4 	add.w	r7, r4, #228	; 0xe4
+  5e:	f504 7586 	add.w	r5, r4, #268	; 0x10c
+  62:	e8bb 000f 	ldmia.w	fp!, {r0, r1, r2, r3}
+  66:	e8aa 000f 	stmia.w	sl!, {r0, r1, r2, r3}
+  6a:	f8db 3000 	ldr.w	r3, [fp]
+  6e:	f8ca 3000 	str.w	r3, [sl]
+  72:	e8bc 000f 	ldmia.w	ip!, {r0, r1, r2, r3}
+  76:	e8ae 000f 	stmia.w	lr!, {r0, r1, r2, r3}
+  7a:	e8bc 000f 	ldmia.w	ip!, {r0, r1, r2, r3}
+  7e:	e8ae 000f 	stmia.w	lr!, {r0, r1, r2, r3}
+  82:	e89c 000f 	ldmia.w	ip, {r0, r1, r2, r3}
+  86:	e88e 000f 	stmia.w	lr, {r0, r1, r2, r3}
+  8a:	4b1d      	ldr	r3, [pc, #116]	; (100 <_ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader+0x100>)
+  8c:	9a0e      	ldr	r2, [sp, #56]	; 0x38
+  8e:	f8c4 30d8 	str.w	r3, [r4, #216]	; 0xd8
+  92:	f899 3004 	ldrb.w	r3, [r9, #4]
+  96:	f899 e024 	ldrb.w	lr, [r9, #36]	; 0x24
+  9a:	f884 30dc 	strb.w	r3, [r4, #220]	; 0xdc
+  9e:	f8d9 3008 	ldr.w	r3, [r9, #8]
+  a2:	f8c4 30e0 	str.w	r3, [r4, #224]	; 0xe0
+  a6:	f8d2 c008 	ldr.w	ip, [r2, #8]
+  aa:	e8b8 000f 	ldmia.w	r8!, {r0, r1, r2, r3}
+  ae:	c70f      	stmia	r7!, {r0, r1, r2, r3}
+  b0:	e898 0003 	ldmia.w	r8, {r0, r1}
+  b4:	9a0e      	ldr	r2, [sp, #56]	; 0x38
+  b6:	4b12      	ldr	r3, [pc, #72]	; (100 <_ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader+0x100>)
+  b8:	e887 0003 	stmia.w	r7, {r0, r1}
+  bc:	f884 e0fc 	strb.w	lr, [r4, #252]	; 0xfc
+  c0:	f8c4 3100 	str.w	r3, [r4, #256]	; 0x100
+  c4:	7913      	ldrb	r3, [r2, #4]
+  c6:	f8c4 c108 	str.w	ip, [r4, #264]	; 0x108
+  ca:	f884 3104 	strb.w	r3, [r4, #260]	; 0x104
+  ce:	ce0f      	ldmia	r6!, {r0, r1, r2, r3}
+  d0:	c50f      	stmia	r5!, {r0, r1, r2, r3}
+  d2:	9a0e      	ldr	r2, [sp, #56]	; 0x38
+  d4:	e896 0003 	ldmia.w	r6, {r0, r1}
+  d8:	f892 3024 	ldrb.w	r3, [r2, #36]	; 0x24
+  dc:	aa0f      	add	r2, sp, #60	; 0x3c
+  de:	e885 0003 	stmia.w	r5, {r0, r1}
+  e2:	e892 0003 	ldmia.w	r2, {r0, r1}
+  e6:	f884 3124 	strb.w	r3, [r4, #292]	; 0x124
+  ea:	9b01      	ldr	r3, [sp, #4]
+  ec:	e883 0003 	stmia.w	r3, {r0, r1}
+  f0:	f04f 0300 	mov.w	r3, #0
+  f4:	4620      	mov	r0, r4
+  f6:	f884 3158 	strb.w	r3, [r4, #344]	; 0x158
+  fa:	b003      	add	sp, #12
+  fc:	e8bd 8ff0 	ldmia.w	sp!, {r4, r5, r6, r7, r8, r9, sl, fp, pc}
+ 100:	00000008 	.word	0x00000008
+ 104:	00000008 	.word	0x00000008
 
 Disassembly of section .text._ZN16FlightController16set_control_modeE11ControlMode:
 
@@ -240,7 +254,7 @@ Disassembly of section .text._ZN16FlightController16set_control_modeE11ControlMo
   14:	f7ff fffe 	bl	0 <_ZN5Print5printEl>
   18:	4630      	mov	r0, r6
   1a:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
-  1e:	f885 4130 	strb.w	r4, [r5, #304]	; 0x130
+  1e:	f885 4158 	strb.w	r4, [r5, #344]	; 0x158
   22:	bd70      	pop	{r4, r5, r6, pc}
   24:	00000000 	.word	0x00000000
   28:	00000000 	.word	0x00000000
@@ -256,12 +270,12 @@ Disassembly of section .text._ZN16FlightController4initEv:
    c:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM5beginEv>
   10:	f104 0008 	add.w	r0, r4, #8
   14:	f7ff fffe 	bl	0 <_ZN5VL53L4initEv>
-  18:	f104 0010 	add.w	r0, r4, #16
+  18:	f104 0038 	add.w	r0, r4, #56	; 0x38
   1c:	f7ff fffe 	bl	0 <_ZN6BNO0855beginEv>
-  20:	f104 00d8 	add.w	r0, r4, #216	; 0xd8
+  20:	f504 7080 	add.w	r0, r4, #256	; 0x100
   24:	490a      	ldr	r1, [pc, #40]	; (50 <_ZN16FlightController4initEv+0x50>)
   26:	f7ff fffe 	bl	0 <_ZN6AS73415beginER7TwoWire>
-  2a:	f104 00b0 	add.w	r0, r4, #176	; 0xb0
+  2a:	f104 00d8 	add.w	r0, r4, #216	; 0xd8
   2e:	4909      	ldr	r1, [pc, #36]	; (54 <_ZN16FlightController4initEv+0x54>)
   30:	f7ff fffe 	bl	0 <_ZN6AS73415beginER7TwoWire>
   34:	211a      	movs	r1, #26
@@ -281,58 +295,97 @@ Disassembly of section .text._ZN16FlightController4initEv:
 Disassembly of section .text._ZN16FlightController10lineFollowEv:
 
 00000000 <_ZN16FlightController10lineFollowEv>:
-   0:	b538      	push	{r3, r4, r5, lr}
-   2:	4604      	mov	r4, r0
-   4:	30b0      	adds	r0, #176	; 0xb0
-   6:	f7ff fffe 	bl	0 <_ZN6AS734110detectLineEv>
-   a:	4605      	mov	r5, r0
-   c:	f104 00d8 	add.w	r0, r4, #216	; 0xd8
-  10:	f7ff fffe 	bl	0 <_ZN6AS734110detectLineEv>
-  14:	f080 0301 	eor.w	r3, r0, #1
-  18:	b2db      	uxtb	r3, r3
-  1a:	b103      	cbz	r3, 1e <_ZN16FlightController10lineFollowEv+0x1e>
-  1c:	b985      	cbnz	r5, 40 <_ZN16FlightController10lineFollowEv+0x40>
-  1e:	f085 0301 	eor.w	r3, r5, #1
-  22:	b2db      	uxtb	r3, r3
-  24:	b1c3      	cbz	r3, 58 <_ZN16FlightController10lineFollowEv+0x58>
-  26:	b1b8      	cbz	r0, 58 <_ZN16FlightController10lineFollowEv+0x58>
-  28:	6820      	ldr	r0, [r4, #0]
-  2a:	ed9f 0a18 	vldr	s0, [pc, #96]	; 8c <_ZN16FlightController10lineFollowEv+0x8c>
-  2e:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
-  32:	6860      	ldr	r0, [r4, #4]
-  34:	ed9f 0a16 	vldr	s0, [pc, #88]	; 90 <_ZN16FlightController10lineFollowEv+0x90>
-  38:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
-  3c:	f7ff bffe 	b.w	0 <_ZN11SparkMaxPWM8setSpeedEf>
-  40:	6820      	ldr	r0, [r4, #0]
-  42:	ed9f 0a14 	vldr	s0, [pc, #80]	; 94 <_ZN16FlightController10lineFollowEv+0x94>
-  46:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
-  4a:	6860      	ldr	r0, [r4, #4]
-  4c:	ed9f 0a12 	vldr	s0, [pc, #72]	; 98 <_ZN16FlightController10lineFollowEv+0x98>
-  50:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
-  54:	f7ff bffe 	b.w	0 <_ZN11SparkMaxPWM8setSpeedEf>
-  58:	b165      	cbz	r5, 74 <_ZN16FlightController10lineFollowEv+0x74>
-  5a:	b158      	cbz	r0, 74 <_ZN16FlightController10lineFollowEv+0x74>
-  5c:	6820      	ldr	r0, [r4, #0]
-  5e:	ed9f 0a0f 	vldr	s0, [pc, #60]	; 9c <_ZN16FlightController10lineFollowEv+0x9c>
-  62:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
-  66:	6860      	ldr	r0, [r4, #4]
-  68:	ed9f 0a0d 	vldr	s0, [pc, #52]	; a0 <_ZN16FlightController10lineFollowEv+0xa0>
-  6c:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
-  70:	f7ff bffe 	b.w	0 <_ZN11SparkMaxPWM8setSpeedEf>
-  74:	6820      	ldr	r0, [r4, #0]
-  76:	ed9f 0a0b 	vldr	s0, [pc, #44]	; a4 <_ZN16FlightController10lineFollowEv+0xa4>
-  7a:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
-  7e:	6860      	ldr	r0, [r4, #4]
-  80:	ed9f 0a08 	vldr	s0, [pc, #32]	; a4 <_ZN16FlightController10lineFollowEv+0xa4>
-  84:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
-  88:	f7ff bffe 	b.w	0 <_ZN11SparkMaxPWM8setSpeedEf>
-  8c:	be4ccccd 	.word	0xbe4ccccd
-  90:	3e3851ec 	.word	0x3e3851ec
-  94:	be3851ec 	.word	0xbe3851ec
-  98:	3e4ccccd 	.word	0x3e4ccccd
-  9c:	bdcccccd 	.word	0xbdcccccd
-  a0:	3dcccccd 	.word	0x3dcccccd
-  a4:	00000000 	.word	0x00000000
+   0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+   2:	f500 7780 	add.w	r7, r0, #256	; 0x100
+   6:	4604      	mov	r4, r0
+   8:	30d8      	adds	r0, #216	; 0xd8
+   a:	f7ff fffe 	bl	0 <_ZN6AS734110detectLineEv>
+   e:	4605      	mov	r5, r0
+  10:	4638      	mov	r0, r7
+  12:	f7ff fffe 	bl	0 <_ZN6AS734110detectLineEv>
+  16:	4606      	mov	r6, r0
+  18:	4638      	mov	r0, r7
+  1a:	f7ff fffe 	bl	0 <_ZN6AS73419printDataEv>
+  1e:	4629      	mov	r1, r5
+  20:	4832      	ldr	r0, [pc, #200]	; (ec <_ZN16FlightController10lineFollowEv+0xec>)
+  22:	f7ff fffe 	bl	0 <_ZN5Print5printEl>
+  26:	4831      	ldr	r0, [pc, #196]	; (ec <_ZN16FlightController10lineFollowEv+0xec>)
+  28:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  2c:	4631      	mov	r1, r6
+  2e:	482f      	ldr	r0, [pc, #188]	; (ec <_ZN16FlightController10lineFollowEv+0xec>)
+  30:	f7ff fffe 	bl	0 <_ZN5Print5printEl>
+  34:	482d      	ldr	r0, [pc, #180]	; (ec <_ZN16FlightController10lineFollowEv+0xec>)
+  36:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  3a:	b105      	cbz	r5, 3e <_ZN16FlightController10lineFollowEv+0x3e>
+  3c:	b9a6      	cbnz	r6, 68 <_ZN16FlightController10lineFollowEv+0x68>
+  3e:	f086 0301 	eor.w	r3, r6, #1
+  42:	b2db      	uxtb	r3, r3
+  44:	b31b      	cbz	r3, 8e <_ZN16FlightController10lineFollowEv+0x8e>
+  46:	b315      	cbz	r5, 8e <_ZN16FlightController10lineFollowEv+0x8e>
+  48:	6820      	ldr	r0, [r4, #0]
+  4a:	ed9f 0a29 	vldr	s0, [pc, #164]	; f0 <_ZN16FlightController10lineFollowEv+0xf0>
+  4e:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  52:	6860      	ldr	r0, [r4, #4]
+  54:	ed9f 0a27 	vldr	s0, [pc, #156]	; f4 <_ZN16FlightController10lineFollowEv+0xf4>
+  58:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  5c:	2106      	movs	r1, #6
+  5e:	4826      	ldr	r0, [pc, #152]	; (f8 <_ZN16FlightController10lineFollowEv+0xf8>)
+  60:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  64:	f7ff bffe 	b.w	0 <usb_serial_write>
+  68:	6820      	ldr	r0, [r4, #0]
+  6a:	ed9f 0a24 	vldr	s0, [pc, #144]	; fc <_ZN16FlightController10lineFollowEv+0xfc>
+  6e:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  72:	6860      	ldr	r0, [r4, #4]
+  74:	ed9f 0a1f 	vldr	s0, [pc, #124]	; f4 <_ZN16FlightController10lineFollowEv+0xf4>
+  78:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  7c:	2106      	movs	r1, #6
+  7e:	4820      	ldr	r0, [pc, #128]	; (100 <_ZN16FlightController10lineFollowEv+0x100>)
+  80:	f7ff fffe 	bl	0 <usb_serial_write>
+  84:	4819      	ldr	r0, [pc, #100]	; (ec <_ZN16FlightController10lineFollowEv+0xec>)
+  86:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  8a:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  8e:	f085 0301 	eor.w	r3, r5, #1
+  92:	b2db      	uxtb	r3, r3
+  94:	b103      	cbz	r3, 98 <_ZN16FlightController10lineFollowEv+0x98>
+  96:	b9a6      	cbnz	r6, c2 <_ZN16FlightController10lineFollowEv+0xc2>
+  98:	bb35      	cbnz	r5, e8 <_ZN16FlightController10lineFollowEv+0xe8>
+  9a:	bb2e      	cbnz	r6, e8 <_ZN16FlightController10lineFollowEv+0xe8>
+  9c:	6820      	ldr	r0, [r4, #0]
+  9e:	ed9f 0a19 	vldr	s0, [pc, #100]	; 104 <_ZN16FlightController10lineFollowEv+0x104>
+  a2:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  a6:	6860      	ldr	r0, [r4, #4]
+  a8:	ed9f 0a16 	vldr	s0, [pc, #88]	; 104 <_ZN16FlightController10lineFollowEv+0x104>
+  ac:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  b0:	2103      	movs	r1, #3
+  b2:	4815      	ldr	r0, [pc, #84]	; (108 <_ZN16FlightController10lineFollowEv+0x108>)
+  b4:	f7ff fffe 	bl	0 <usb_serial_write>
+  b8:	480c      	ldr	r0, [pc, #48]	; (ec <_ZN16FlightController10lineFollowEv+0xec>)
+  ba:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  be:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  c2:	6820      	ldr	r0, [r4, #0]
+  c4:	ed9f 0a0d 	vldr	s0, [pc, #52]	; fc <_ZN16FlightController10lineFollowEv+0xfc>
+  c8:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  cc:	6860      	ldr	r0, [r4, #4]
+  ce:	ed9f 0a0f 	vldr	s0, [pc, #60]	; 10c <_ZN16FlightController10lineFollowEv+0x10c>
+  d2:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  d6:	2106      	movs	r1, #6
+  d8:	480d      	ldr	r0, [pc, #52]	; (110 <_ZN16FlightController10lineFollowEv+0x110>)
+  da:	f7ff fffe 	bl	0 <usb_serial_write>
+  de:	4803      	ldr	r0, [pc, #12]	; (ec <_ZN16FlightController10lineFollowEv+0xec>)
+  e0:	e8bd 40f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, lr}
+  e4:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
+  e8:	bdf8      	pop	{r3, r4, r5, r6, r7, pc}
+  ea:	bf00      	nop
+  ec:	00000000 	.word	0x00000000
+  f0:	3df5c28f 	.word	0x3df5c28f
+  f4:	bdcccccd 	.word	0xbdcccccd
+  f8:	00000008 	.word	0x00000008
+  fc:	3e0f5c29 	.word	0x3e0f5c29
+ 100:	00000000 	.word	0x00000000
+ 104:	00000000 	.word	0x00000000
+ 108:	00000018 	.word	0x00000018
+ 10c:	bda3d70a 	.word	0xbda3d70a
+ 110:	00000010 	.word	0x00000010
 
 Disassembly of section .text._ZN16FlightController6manualEv:
 
@@ -343,8 +396,19 @@ Disassembly of section .text._ZN16FlightController6manualEv:
 Disassembly of section .text._ZN16FlightController4stopEv:
 
 00000000 <_ZN16FlightController4stopEv>:
-   0:	4770      	bx	lr
-   2:	bf00      	nop
+   0:	b510      	push	{r4, lr}
+   2:	ed9f 0a08 	vldr	s0, [pc, #32]	; 24 <_ZN16FlightController4stopEv+0x24>
+   6:	b082      	sub	sp, #8
+   8:	4604      	mov	r4, r0
+   a:	6840      	ldr	r0, [r0, #4]
+   c:	ed8d 0a01 	vstr	s0, [sp, #4]
+  10:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  14:	ed9d 0a01 	vldr	s0, [sp, #4]
+  18:	6820      	ldr	r0, [r4, #0]
+  1a:	b002      	add	sp, #8
+  1c:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  20:	f7ff bffe 	b.w	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  24:	00000000 	.word	0x00000000
 
 Disassembly of section .text._ZN16FlightController4testEv:
 
@@ -362,7 +426,7 @@ Disassembly of section .text._ZN16FlightController4testEv:
   18:	f7ff fffe 	bl	0 <usb_serial_write>
   1c:	4620      	mov	r0, r4
   1e:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
-  22:	f105 00b0 	add.w	r0, r5, #176	; 0xb0
+  22:	f105 00d8 	add.w	r0, r5, #216	; 0xd8
   26:	f7ff fffe 	bl	0 <_ZN6AS734110detectLineEv>
   2a:	4601      	mov	r1, r0
   2c:	4620      	mov	r0, r4
@@ -374,7 +438,7 @@ Disassembly of section .text._ZN16FlightController4testEv:
   3c:	f7ff fffe 	bl	0 <usb_serial_write>
   40:	4620      	mov	r0, r4
   42:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
-  46:	f105 00d8 	add.w	r0, r5, #216	; 0xd8
+  46:	f505 7080 	add.w	r0, r5, #256	; 0x100
   4a:	f7ff fffe 	bl	0 <_ZN6AS734110detectLineEv>
   4e:	4601      	mov	r1, r0
   50:	4620      	mov	r0, r4
@@ -391,7 +455,7 @@ Disassembly of section .text._ZN16FlightController2rcEv:
 
 00000000 <_ZN16FlightController2rcEv>:
    0:	b538      	push	{r3, r4, r5, lr}
-   2:	f500 7580 	add.w	r5, r0, #256	; 0x100
+   2:	f500 7594 	add.w	r5, r0, #296	; 0x128
    6:	4604      	mov	r4, r0
    8:	ed2d 8b02 	vpush	{d8}
    c:	4628      	mov	r0, r5
@@ -400,108 +464,72 @@ Disassembly of section .text._ZN16FlightController2rcEv:
   14:	4628      	mov	r0, r5
   16:	ee08 3a10 	vmov	s16, r3
   1a:	f7ff fffe 	bl	0 <_ZN9PWMReader10readPulseBEv>
-  1e:	eddf 6a4b 	vldr	s13, [pc, #300]	; 14c <_ZN16FlightController2rcEv+0x14c>
-  22:	ee07 0a90 	vmov	s15, r0
+  1e:	ee07 0a90 	vmov	s15, r0
+  22:	ed9f 7a23 	vldr	s14, [pc, #140]	; b0 <_ZN16FlightController2rcEv+0xb0>
   26:	eeb8 8a48 	vcvt.f32.u32	s16, s16
-  2a:	ed9f 6a49 	vldr	s12, [pc, #292]	; 150 <_ZN16FlightController2rcEv+0x150>
-  2e:	eeb8 7a67 	vcvt.f32.u32	s14, s15
-  32:	eef7 7a00 	vmov.f32	s15, #112	; 0x3f800000  1.0
-  36:	ee38 8a66 	vsub.f32	s16, s16, s13
-  3a:	ee37 7a66 	vsub.f32	s14, s14, s13
-  3e:	eec8 6a06 	vdiv.f32	s13, s16, s12
-  42:	ee87 0a06 	vdiv.f32	s0, s14, s12
-  46:	eef4 6ae7 	vcmpe.f32	s13, s15
-  4a:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
-  4e:	dd3b      	ble.n	c8 <_ZN16FlightController2rcEv+0xc8>
-  50:	eeb4 0ae7 	vcmpe.f32	s0, s15
-  54:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
-  58:	dd22      	ble.n	a0 <_ZN16FlightController2rcEv+0xa0>
-  5a:	eeb0 0a67 	vmov.f32	s0, s15
-  5e:	eeb0 8a67 	vmov.f32	s16, s15
-  62:	ee20 0a00 	vmul.f32	s0, s0, s0
-  66:	ee38 7a40 	vsub.f32	s14, s16, s0
-  6a:	eddf 7a3a 	vldr	s15, [pc, #232]	; 154 <_ZN16FlightController2rcEv+0x154>
-  6e:	eeb4 7ae7 	vcmpe.f32	s14, s15
-  72:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
-  76:	dd1d      	ble.n	b4 <_ZN16FlightController2rcEv+0xb4>
-  78:	ee30 8a27 	vadd.f32	s16, s0, s15
-  7c:	eefe 7a08 	vmov.f32	s15, #232	; 0xbf400000 -0.750
-  80:	6820      	ldr	r0, [r4, #0]
-  82:	ee20 0a27 	vmul.f32	s0, s0, s15
-  86:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
-  8a:	eeb6 0a08 	vmov.f32	s0, #104	; 0x3f400000  0.750
-  8e:	6860      	ldr	r0, [r4, #4]
-  90:	ee28 0a00 	vmul.f32	s0, s16, s0
-  94:	ecbd 8b02 	vpop	{d8}
-  98:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
-  9c:	f7ff bffe 	b.w	0 <_ZN11SparkMaxPWM8setSpeedEf>
-  a0:	eebf 7a00 	vmov.f32	s14, #240	; 0xbf800000 -1.0
-  a4:	eeb4 0ac7 	vcmpe.f32	s0, s14
-  a8:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
-  ac:	d429      	bmi.n	102 <_ZN16FlightController2rcEv+0x102>
-  ae:	eeb0 8a67 	vmov.f32	s16, s15
-  b2:	e01e      	b.n	f2 <_ZN16FlightController2rcEv+0xf2>
-  b4:	eddf 6a28 	vldr	s13, [pc, #160]	; 158 <_ZN16FlightController2rcEv+0x158>
-  b8:	eeb4 7ae6 	vcmpe.f32	s14, s13
-  bc:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
-  c0:	bf48      	it	mi
-  c2:	ee38 0a27 	vaddmi.f32	s0, s16, s15
-  c6:	e7d9      	b.n	7c <_ZN16FlightController2rcEv+0x7c>
-  c8:	eebf 7a00 	vmov.f32	s14, #240	; 0xbf800000 -1.0
-  cc:	eef4 6ac7 	vcmpe.f32	s13, s14
-  d0:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
-  d4:	eeb4 0ae7 	vcmpe.f32	s0, s15
-  d8:	d422      	bmi.n	120 <_ZN16FlightController2rcEv+0x120>
-  da:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
-  de:	dd17      	ble.n	110 <_ZN16FlightController2rcEv+0x110>
-  e0:	eeb0 0a67 	vmov.f32	s0, s15
-  e4:	eef5 6ac0 	vcmpe.f32	s13, #0.0
-  e8:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
-  ec:	da0d      	bge.n	10a <_ZN16FlightController2rcEv+0x10a>
-  ee:	ee26 8ae6 	vnmul.f32	s16, s13, s13
-  f2:	eeb5 0ac0 	vcmpe.f32	s0, #0.0
-  f6:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
-  fa:	dab2      	bge.n	62 <_ZN16FlightController2rcEv+0x62>
-  fc:	ee20 0a40 	vnmul.f32	s0, s0, s0
- 100:	e7b1      	b.n	66 <_ZN16FlightController2rcEv+0x66>
- 102:	eef0 6a67 	vmov.f32	s13, s15
- 106:	eeb0 0a47 	vmov.f32	s0, s14
- 10a:	ee26 8aa6 	vmul.f32	s16, s13, s13
- 10e:	e7f0      	b.n	f2 <_ZN16FlightController2rcEv+0xf2>
- 110:	eeb4 0a47 	vcmp.f32	s0, s14
- 114:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
- 118:	bf48      	it	mi
- 11a:	eeb0 0a47 	vmovmi.f32	s0, s14
- 11e:	e7e1      	b.n	e4 <_ZN16FlightController2rcEv+0xe4>
- 120:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
- 124:	dd04      	ble.n	130 <_ZN16FlightController2rcEv+0x130>
- 126:	eeb0 0a67 	vmov.f32	s0, s15
- 12a:	eeb0 8a47 	vmov.f32	s16, s14
- 12e:	e798      	b.n	62 <_ZN16FlightController2rcEv+0x62>
- 130:	eeb4 0ac7 	vcmpe.f32	s0, s14
- 134:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
- 138:	d402      	bmi.n	140 <_ZN16FlightController2rcEv+0x140>
- 13a:	eef0 6a47 	vmov.f32	s13, s14
- 13e:	e7d6      	b.n	ee <_ZN16FlightController2rcEv+0xee>
- 140:	eeb0 0a47 	vmov.f32	s0, s14
- 144:	eeb0 8a47 	vmov.f32	s16, s14
- 148:	e7d8      	b.n	fc <_ZN16FlightController2rcEv+0xfc>
- 14a:	bf00      	nop
- 14c:	44bb6000 	.word	0x44bb6000
- 150:	43ff8000 	.word	0x43ff8000
- 154:	3e4ccccd 	.word	0x3e4ccccd
- 158:	be4ccccd 	.word	0xbe4ccccd
+  2a:	ed9f 6a22 	vldr	s12, [pc, #136]	; b4 <_ZN16FlightController2rcEv+0xb4>
+  2e:	eef8 7a67 	vcvt.f32.u32	s15, s15
+  32:	6820      	ldr	r0, [r4, #0]
+  34:	ee38 8a47 	vsub.f32	s16, s16, s14
+  38:	ee77 7ac7 	vsub.f32	s15, s15, s14
+  3c:	eec8 6a06 	vdiv.f32	s13, s16, s12
+  40:	ee87 7a86 	vdiv.f32	s14, s15, s12
+  44:	ed9f 5b18 	vldr	d5, [pc, #96]	; a8 <_ZN16FlightController2rcEv+0xa8>
+  48:	eef5 6ac0 	vcmpe.f32	s13, #0.0
+  4c:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  50:	eeb7 7ac7 	vcvt.f64.f32	d7, s14
+  54:	bfac      	ite	ge
+  56:	ee66 6aa6 	vmulge.f32	s13, s13, s13
+  5a:	ee66 6ae6 	vnmullt.f32	s13, s13, s13
+  5e:	ee27 7b05 	vmul.f64	d7, d7, d5
+  62:	eeb7 7bc7 	vcvt.f32.f64	s14, d7
+  66:	eef6 7a08 	vmov.f32	s15, #104	; 0x3f400000  0.750
+  6a:	eeb5 7ac0 	vcmpe.f32	s14, #0.0
+  6e:	eef1 fa10 	vmrs	APSR_nzcv, fpscr
+  72:	bfac      	ite	ge
+  74:	ee27 7a07 	vmulge.f32	s14, s14, s14
+  78:	ee27 7a47 	vnmullt.f32	s14, s14, s14
+  7c:	ee36 0a87 	vadd.f32	s0, s13, s14
+  80:	ee36 8ac7 	vsub.f32	s16, s13, s14
+  84:	ee20 0a27 	vmul.f32	s0, s0, s15
+  88:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  8c:	eebe 0a08 	vmov.f32	s0, #232	; 0xbf400000 -0.750
+  90:	6860      	ldr	r0, [r4, #4]
+  92:	ee28 0a00 	vmul.f32	s0, s16, s0
+  96:	ecbd 8b02 	vpop	{d8}
+  9a:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
+  9e:	f7ff bffe 	b.w	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  a2:	bf00      	nop
+  a4:	f3af 8000 	nop.w
+  a8:	33333333 	.word	0x33333333
+  ac:	3fe33333 	.word	0x3fe33333
+  b0:	44bb6000 	.word	0x44bb6000
+  b4:	43ff8000 	.word	0x43ff8000
 
 Disassembly of section .text._ZN16FlightController6updateEv:
 
 00000000 <_ZN16FlightController6updateEv>:
-   0:	f890 3130 	ldrb.w	r3, [r0, #304]	; 0x130
-   4:	2b03      	cmp	r3, #3
-   6:	d003      	beq.n	10 <_ZN16FlightController6updateEv+0x10>
+   0:	f890 3158 	ldrb.w	r3, [r0, #344]	; 0x158
+   4:	b510      	push	{r4, lr}
+   6:	4604      	mov	r4, r0
    8:	2b04      	cmp	r3, #4
-   a:	d005      	beq.n	18 <_ZN16FlightController6updateEv+0x18>
-   c:	b113      	cbz	r3, 14 <_ZN16FlightController6updateEv+0x14>
-   e:	4770      	bx	lr
-  10:	f7ff bffe 	b.w	0 <_ZN16FlightController6updateEv>
-  14:	f7ff bffe 	b.w	0 <_ZN16FlightController6updateEv>
-  18:	f7ff bffe 	b.w	0 <_ZN16FlightController6updateEv>
+   a:	d81c      	bhi.n	46 <_ZN16FlightController6updateEv+0x46>
+   c:	e8df f003 	tbb	[pc, r3]
+  10:	070b1b17 	.word	0x070b1b17
+  14:	03          	.byte	0x03
+  15:	00          	.byte	0x00
+  16:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  1a:	f7ff bffe 	b.w	0 <_ZN16FlightController6updateEv>
+  1e:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  22:	f7ff bffe 	b.w	0 <_ZN16FlightController6updateEv>
+  26:	ed9f 0a08 	vldr	s0, [pc, #32]	; 48 <_ZN16FlightController6updateEv+0x48>
+  2a:	6840      	ldr	r0, [r0, #4]
+  2c:	f7ff fffe 	bl	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  30:	6820      	ldr	r0, [r4, #0]
+  32:	ed9f 0a05 	vldr	s0, [pc, #20]	; 48 <_ZN16FlightController6updateEv+0x48>
+  36:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  3a:	f7ff bffe 	b.w	0 <_ZN11SparkMaxPWM8setSpeedEf>
+  3e:	e8bd 4010 	ldmia.w	sp!, {r4, lr}
+  42:	f7ff bffe 	b.w	0 <_ZN16FlightController6updateEv>
+  46:	bd10      	pop	{r4, pc}
+  48:	00000000 	.word	0x00000000

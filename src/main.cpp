@@ -18,16 +18,20 @@
 
 // Declare global objects
 // Motors
-SparkMaxPWM motorL(8);
-SparkMaxPWM motorR(10);
+SparkMaxPWM motorL(10);
+SparkMaxPWM motorR(8);
 
 // Sensors
 VL53L tof;
 BNO085 bno;
-AS7341 clrSensL;
 AS7341 clrSensR;
+AS7341 clrSensL;
 
-PWMReader pwmReader(14, 13);
+PWMReader pwmReader(14, 15);
+PWMReader modeChanger(13, 6);
+
+double switchVal;
+double oldSwVal = 0;
 
 FlightController flightController(motorL, motorR, tof, bno, clrSensL, clrSensR, pwmReader);
 
@@ -74,14 +78,30 @@ int main() {
   Serial.println("Starting Flight Controller...");
   flightController.init();
 
-  flightController.set_control_mode(RC);
+  modeChanger.begin();
+
+  flightController.set_control_mode(STOP);
 
   Serial.println("Entering main loop...\n");
   delay(1000);
 
   //  Main loop
   while (true) {
+    switchVal = modeChanger.readPulseA();
+
+    //if ((oldSwVal - switchVal) > 100) {
+      if (switchVal < 1000) {
+        flightController.set_control_mode(STOP);
+      } else if (switchVal > 1200 && switchVal < 1700) {
+        flightController.set_control_mode(LINE_FOLLOW);
+      } else if (switchVal > 1700) {
+        flightController.set_control_mode(RC);
+      }
+    //}
+
+    oldSwVal = switchVal;
     flightController.update();
+
   }
 
   return 0;

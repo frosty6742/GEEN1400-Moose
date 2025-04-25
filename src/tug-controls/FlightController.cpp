@@ -1,6 +1,7 @@
 #include "FlightController.hpp"
 #include "AS7341_ColorSens.hpp"
 #include "BNO085.hpp"
+#include "HardwareSerial.h"
 #include "VL53L.hpp"
 #include "WireIMXRT.h"
 #include "core_pins.h"
@@ -9,6 +10,8 @@
 #include "usb_serial.h"
 #include "wiring.h"
 #include <Arduino.h>
+#include <chrono>
+#include <ios>
 
 FlightController::FlightController(SparkMaxPWM &motorL, SparkMaxPWM &motorR,
                                    VL53L &tofD, BNO085 &bnoL, AS7341 &clrSensLD,
@@ -26,17 +29,20 @@ void FlightController::update() {
   switch (currentMode) {
   case LINE_FOLLOW:
     lineFollow();
+    //Serial.println("LINE_FOLLOW");
     break;
   case MANUAL:
     manual();
     break;
   case STOP:
     stop();
+    //Serial.println("STOP");
     break;
   case TEST:
     test();
     break;
   case RC:
+    //Serial.println("RC");
     rc();
     break;
   }
@@ -47,20 +53,19 @@ void FlightController::init() {
   motorR.begin();
   tofD.init();
   bnoL.begin();
-  clrSensRD.begin(Wire);
-  clrSensLD.begin(Wire1);
+  clrSensRD.begin(Wire1);
+  clrSensLD.begin(Wire);
 
   Serial.println("Flight Controller Started.");
 
   delay(1000);
 }
-
+/*
 // Mode 1: lineFollow
 void FlightController::lineFollow() {
 
   //float dist = tofD.getDistance();
   float dist = 50;
-  const int threshold = 200; // Tune this based on your lighting & surface
 
   bool leftOnLine = clrSensLD.detectLine();
   bool rightOnLine = clrSensRD.detectLine();
@@ -74,33 +79,201 @@ void FlightController::lineFollow() {
     motorL.setSpeed(-0.0);
     motorR.setSpeed(0.0);
   } else {
-    //call line follow method here
     if (leftOnLine && !rightOnLine) {
-      // Veering right, so turn left
-      motorL.setSpeed(-0.18);
-      motorR.setSpeed(0.2);
+
+      Serial.println("Veering right, so turn left");
+      motorL.setSpeed(-0.08);
+      motorR.setSpeed(0.1);
     } else if (!leftOnLine && rightOnLine) {
-      // Veering left, so turn right
-      motorL.setSpeed(-0.2);
-      motorR.setSpeed(0.18);
-    } else if (leftOnLine && rightOnLine) {
-      // On line
+      Serial.println("Veering left, so turn right");
+      motorL.setSpeed(-0.1);
+      motorR.setSpeed(0.08);
+    } else if (leftOnLine || rightOnLine) {
+      Serial.println("On line (detected by either sensor)");
       motorL.setSpeed(-0.1);
       motorR.setSpeed(0.1);
     } else {
-      // Lost line, stop or search
-     motorL.setSpeed(0.0);
-     motorR.setSpeed(0.0);
+      Serial.println("Lost line, stop or search");
+      motorL.setSpeed(0.0);
+      motorR.setSpeed(0.0);
     }
 
   }
 }
+ 
+
+#include "LineTracker.hpp"
+
+void FlightController::lineFollow() {
+    //float dist = tofD.getDistance(); // Optional: enable if needed
+    float dist = 50;  // Simulated/test value
+
+    //clrSensLD.printData();
+    //clrSensRD.printData();
+
+    bool leftOnLine = clrSensLD.detectLine();
+    bool rightOnLine = clrSensRD.detectLine();
+
+    Serial.println(leftOnLine);
+    Serial.println(rightOnLine);
+  
+
+    static LineTracker tracker;
+    LinePosition position = tracker.detectPosition(leftOnLine, rightOnLine);
+
+  
+    if (dist < 20 && dist > 5) {
+        // Turn around or slow turn
+        motorL.setSpeed(0.05);
+        motorR.setSpeed(0.05);
+        delay(2000);
+    } else if (dist <= 5) {
+        // Obstacle very close, stop
+        motorL.setSpeed(0.0);
+        motorR.setSpeed(0.0);
+    } else {
+        // Line following behavior
+        switch (position) {
+            case LinePosition::UNDER_LEFT:
+                // Veering right, turn left
+                motorL.setSpeed(0.09);
+                motorR.setSpeed(-0.1);
+                break;
+
+            case LinePosition::UNDER_RIGHT:
+                // Veering left, turn right
+                motorL.setSpeed(0.14);
+                motorR.setSpeed(-0.08);
+                break;
+
+            case LinePosition::CENTERED:
+                // Move straight forward
+                motorL.setSpeed(0.11);
+                motorR.setSpeed(-0.1);
+                break;
+
+            case LinePosition::OUTSIDE_LEFT:
+                // Try to recover from overshooting left
+                motorL.setSpeed(-0.0);
+                motorR.setSpeed(0.00);
+                break;
+
+            case LinePosition::OUTSIDE_RIGHT:
+                // Try to recover from overshooting right
+                motorL.setSpeed(0.00);
+                motorR.setSpeed(-0.0);
+                break;
+
+            case LinePosition::LOST:
+            default:
+                // Lost line, stop or implement search routine
+                motorL.setSpeed(0.0);
+                motorR.setSpeed(0.0);
+                break;
+        }
+    }
+}
+
+
+#include "FlightController.hpp"
+#include "LineFollowerPID.hpp"
+
+void FlightController::lineFollow() {
+    float dist = 50; // Simulated/test value
+
+    bool leftOnLine = clrSensLD.detectLine();
+    bool rightOnLine = clrSensRD.detectLine();
+
+    Serial.println(leftOnLine);
+    Serial.println(rightOnLine);
+
+    static LineFollowerPID tracker(0.5, 0.0, 0.1); // Example PID values
+
+    float dt = 0.02f; // Assume a 20ms loop time, adjust as necessary
+    float control = tracker.update(leftOnLine, rightOnLine, dt);
+
+    if (dist < 20 && dist > 5) {
+        motorL.setSpeed(0.05);
+        motorR.setSpeed(0.05);
+        delay(2000);
+    } else if (dist <= 5) {
+        motorL.setSpeed(0.0);
+        motorR.setSpeed(0.0);
+    } else {
+        // Control motors based on PID output
+        float baseSpeed = 0.1f;
+        float leftSpeed = baseSpeed - control;
+        float rightSpeed = -baseSpeed - control;
+
+        // Clamp speeds to valid range if necessary
+        leftSpeed = constrain(leftSpeed, -1.0f, 1.0f);
+        rightSpeed = constrain(rightSpeed, -1.0f, 1.0f);
+
+        motorL.setSpeed(leftSpeed);
+        motorR.setSpeed(rightSpeed);
+    }
+}
+
+*/ 
+
+
+void FlightController::lineFollow(){
+    bool leftOnLine = clrSensLD.detectLine();
+    bool rightOnLine = clrSensRD.detectLine();
+  
+  clrSensRD.printData();
+
+  bool fellL;
+  bool fellR;
+
+  Serial.println(leftOnLine);
+  Serial.println(rightOnLine);
+
+  if(leftOnLine&&rightOnLine){
+      fellL=false;
+      fellR=false;
+      motorL.setSpeed(0.14);
+      motorR.setSpeed(-0.1);
+      Serial.println("Online");
+  } else if (leftOnLine&& !rightOnLine) {
+      fellR=true;
+      fellL=false;
+      motorL.setSpeed(0.12);
+      motorR.setSpeed(-0.1);
+      Serial.print("YL, NR");
+  } else if (!leftOnLine&& rightOnLine) {
+    fellR=false;
+    fellL=true;
+    motorL.setSpeed(0.14);
+    motorR.setSpeed(-0.08);
+    Serial.println("NL, YR");
+  } else if (!leftOnLine&& !rightOnLine) {
+    if(fellR){
+      motorL.setSpeed(0.12);
+      motorR.setSpeed(-0.1);
+    } else if (fellL) {
+      motorL.setSpeed(0.14);
+      motorR.setSpeed(-0.08);
+    }
+    motorL.setSpeed(0);
+    motorR.setSpeed(0);
+    Serial.println("NOL");
+  }
+    
+
+  
+} 
+
+
 
 
 // Mode 2: manual drive
 void FlightController::manual() {}
 
-void FlightController::stop() {}
+void FlightController::stop() {
+  motorR.setSpeed(0);
+  motorL.setSpeed(0);
+}
 
 
 
@@ -165,11 +338,11 @@ void FlightController::test() {
   motorR.setSpeed(rightSpeed);
 }
 */
-
+/*
     const float minPulse = 988.0f;
     const float maxPulse = 2010.0f;
     const float midPulse = (minPulse + maxPulse) / 2.0f;
-    const float maxDelta = 0.2f; // Max allowed difference between shaped inputs
+    const float maxDelta = 0.5f; // Max allowed difference between shaped inputs
 
 void FlightController::rc() {
     unsigned long pulseA = pwmReader.readPulseA();
@@ -198,7 +371,44 @@ void FlightController::rc() {
         shapedB = shapedA + maxDelta;
     }
 
+  //Serial.println(pulseA);
+  //Serial.println(pulseB);
+
     // Set motor speeds
-    motorL.setSpeed(-0.75 * shapedB);
-    motorR.setSpeed( 0.75 * shapedA);
+    motorR.setSpeed(-0.75 * shapedB);
+    motorL.setSpeed(0.75 * shapedA);
+
+    //motorL.setSpeed(0.25);
+    //motorR.setSpeed(-0.25);
+  
 }
+
+*/
+void FlightController::rc() {
+    const float minPulse = 988.0f;
+    const float maxPulse = 2010.0f;
+    const float midPulse = (minPulse + maxPulse) / 2.0f;
+
+    unsigned long pulseThrottle = pwmReader.readPulseA();  // Throttle input
+    unsigned long pulseSteering = pwmReader.readPulseB();  // Steering input
+
+    // Normalize throttle and steering to range [-1, 1]
+    float throttle = (pulseThrottle - midPulse) / (maxPulse - midPulse);
+    float steering = (pulseSteering - midPulse) / (maxPulse - midPulse);
+    
+    steering = steering * 0.6;
+
+
+    // Apply shaping (square input while keeping sign)
+    float shapedThrottle = (throttle >= 0 ? throttle * throttle : -throttle * throttle);
+    float shapedSteering = (steering >= 0 ? steering * steering : -steering * steering);
+
+    // Mix throttle and steering for differential drive
+    float leftSpeed = shapedThrottle + shapedSteering;
+    float rightSpeed = shapedThrottle - shapedSteering;
+
+    // Scale motor speeds (adjust multiplier to your system)
+    motorL.setSpeed(0.75f * leftSpeed);
+    motorR.setSpeed(-0.75f * rightSpeed);
+}
+
