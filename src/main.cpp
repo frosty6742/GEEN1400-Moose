@@ -33,7 +33,8 @@ PWMReader modeChanger(13, 6);
 double switchVal;
 double oldSwVal = 0;
 
-FlightController flightController(motorL, motorR, tof, bno, clrSensL, clrSensR, pwmReader);
+FlightController flightController(motorL, motorR, tof, bno, clrSensL, clrSensR,
+                                  pwmReader);
 
 // DONT put anything else in this function. It is not a setup function
 void print_logo() {
@@ -49,9 +50,6 @@ void print_logo() {
   }
 }
 
-
-
-
 // Master loop
 int main() {
   Serial.begin(115200); // the serial monitor is actually always active (for
@@ -60,17 +58,17 @@ int main() {
   debug.begin(SerialUSB1);
   print_logo();
 
-
-      // check to see if there is a crash report, and if so, print it repeatedly over Serial
-    // in the future, we'll send this directly over comms
-    if (CrashReport) {
-        while (1) {
-            Serial.println(CrashReport);
-            Serial.println("\nReflash to clear CrashReport (and also please fix why it crashed)");
-            delay(1000);
-        }
+  // check to see if there is a crash report, and if so, print it repeatedly
+  // over Serial
+  // in the future, we'll send this directly over comms
+  if (CrashReport) {
+    while (1) {
+      Serial.println(CrashReport);
+      Serial.println("\nReflash to clear CrashReport (and also please fix why "
+                     "it crashed)");
+      delay(1000);
     }
-
+  }
 
   Wire.begin();
   Wire1.begin();
@@ -89,19 +87,18 @@ int main() {
   while (true) {
     switchVal = modeChanger.readPulseA();
 
-    //if ((oldSwVal - switchVal) > 100) {
-      if (switchVal < 1000) {
-        flightController.set_control_mode(STOP);
-      } else if (switchVal > 1200 && switchVal < 1700) {
-        flightController.set_control_mode(LINE_FOLLOW);
-      } else if (switchVal > 1700) {
-        flightController.set_control_mode(RC);
-      }
+    // if ((oldSwVal - switchVal) > 100) {
+    if (switchVal < 1000) {
+      flightController.set_control_mode(STOP);
+    } else if (switchVal > 1200 && switchVal < 1700) {
+      flightController.set_control_mode(LINE_FOLLOW);
+    } else if (switchVal > 1700) {
+      flightController.set_control_mode(RC);
+    }
     //}
 
     oldSwVal = switchVal;
     flightController.update();
-
   }
 
   return 0;
