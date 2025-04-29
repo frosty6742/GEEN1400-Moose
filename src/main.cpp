@@ -76,6 +76,7 @@ int main() {
   Serial.println("Starting Flight Controller...");
   flightController.init();
 
+  Serial.println("Starting Switch Reader...");
   modeChanger.begin();
 
   flightController.set_control_mode(STOP);
@@ -87,7 +88,6 @@ int main() {
   while (true) {
     switchVal = modeChanger.readPulseA();
 
-    // if ((oldSwVal - switchVal) > 100) {
     if (switchVal < 1000) {
       flightController.set_control_mode(STOP);
     } else if (switchVal > 1200 && switchVal < 1700) {
@@ -95,7 +95,6 @@ int main() {
     } else if (switchVal > 1700) {
       flightController.set_control_mode(RC);
     }
-    //}
 
     oldSwVal = switchVal;
     flightController.update();

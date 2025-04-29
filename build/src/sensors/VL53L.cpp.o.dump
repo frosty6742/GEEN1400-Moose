@@ -10,42 +10,49 @@ SYMBOL TABLE:
 00000000 l    d  .rodata._ZN5VL53L4initEv.str1.4	00000000 .rodata._ZN5VL53L4initEv.str1.4
 00000000 l    d  .text._ZN5VL53L4initEv	00000000 .text._ZN5VL53L4initEv
 00000000 l    d  .text._ZN5VL53L11getDistanceEv	00000000 .text._ZN5VL53L11getDistanceEv
+00000000 l    d  .text.startup._GLOBAL__sub_I_tofD	00000000 .text.startup._GLOBAL__sub_I_tofD
+00000000 l     F .text.startup._GLOBAL__sub_I_tofD	0000000c _GLOBAL__sub_I_tofD
+00000000 l    d  .init_array	00000000 .init_array
+00000000 l    d  .bss.tofD	00000000 .bss.tofD
 00000000 l    d  .comment	00000000 .comment
 00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
-00000000 g     F .text._ZN5VL53LC2Ev	0000000c _ZN5VL53LC2Ev
-00000000         *UND*	00000000 _ZN7VL53L1XC1Ev
-00000000 g     F .text._ZN5VL53LC2Ev	0000000c _ZN5VL53LC1Ev
-00000000 g     F .text._ZN5VL53L4initEv	00000060 _ZN5VL53L4initEv
-00000000         *UND*	00000000 _ZN7TwoWire5beginEv
+00000000 g     F .text._ZN5VL53LC2Ev	00000002 _ZN5VL53LC2Ev
+00000000 g     F .text._ZN5VL53LC2Ev	00000002 _ZN5VL53LC1Ev
+00000000 g     F .text._ZN5VL53L4initEv	00000054 _ZN5VL53L4initEv
 00000000         *UND*	00000000 delay
 00000000         *UND*	00000000 _ZN7VL53L1X4initEb
 00000000         *UND*	00000000 usb_serial_write
 00000000         *UND*	00000000 _ZN5Print7printlnEv
 00000000         *UND*	00000000 _ZN7VL53L1X15startContinuousEm
-00000000         *UND*	00000000 Wire
 00000000         *UND*	00000000 Serial
-00000000 g     F .text._ZN5VL53L11getDistanceEv	00000012 _ZN5VL53L11getDistanceEv
+00000000 g     F .text._ZN5VL53L11getDistanceEv	00000018 _ZN5VL53L11getDistanceEv
 00000000         *UND*	00000000 _ZN7VL53L1X4readEb
+00000000         *UND*	00000000 _ZN7VL53L1XC1Ev
+00000000 g     O .bss.tofD	0000002c tofD
 
 
 Contents of section .text._ZN5VL53LC2Ev:
- 0000 10b50446 fff7feff 204610bd           ...F.... F..    
+ 0000 704700bf                             pG..            
 Contents of section .rodata._ZN5VL53L4initEv.str1.4:
  0000 4661696c 65642074 6f206465 74656374  Failed to detect
  0010 20564c35 334c3158 2073656e 736f7221   VL53L1X sensor!
  0020 00000000 564c3533 4c315820 544f4620  ....VL53L1X TOF 
- 0030 73656e73 6f722069 6e697469 616c697a  sensor initializ
- 0040 65642e00                             ed..            
+ 0030 73656e73 6f722069 6e697461 6c697a65  sensor initalize
+ 0040 642e00                               d..             
 Contents of section .text._ZN5VL53L4initEv:
- 0000 38b5134d 04462846 fff7feff 6420a561  8..M.F(F....d .a
- 0010 fff7feff 01212046 fff7feff 78b11f21  .....! F....x..!
- 0020 0c48fff7 feff0c48 fff7feff 4ff4fa73  .H.....H....O..s
- 0030 20463221 e383bde8 3840fff7 febf2021   F2!....8@.... !
- 0040 0648fff7 feff0448 bde83840 fff7febf  .H.....H..8@....
- 0050 00000000 24000000 00000000 00000000  ....$...........
+ 0000 c82008b5 fff7feff 01210e48 fff7feff  . .......!.H....
+ 0010 78b92021 0c48fff7 feff0c48 fff7feff  x. !.H.....H....
+ 0020 4ff4fa73 07483221 c383bde8 0840fff7  O..s.H2!.....@..
+ 0030 febf1e21 0648fff7 feff0448 fff7feff  ...!.H.....H....
+ 0040 eee700bf 00000000 00000000 00000000  ................
+ 0050 24000000                             $...            
 Contents of section .text._ZN5VL53L11getDistanceEv:
- 0000 012108b5 fff7feff 07ee900a b8ee670a  .!............g.
- 0010 08bd00bf                             ....            
+ 0000 01210448 08b5fff7 feff07ee 900ab8ee  .!.H............
+ 0010 670a08bd 00000000                    g.......        
+Contents of section .text.startup._GLOBAL__sub_I_tofD:
+ 0000 0148fff7 febf00bf 00000000           .H..........    
+Contents of section .init_array:
+ 0000 00000000                             ....            
 Contents of section .comment:
  0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
  0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
@@ -60,56 +67,58 @@ Contents of section .ARM.attributes:
 Disassembly of section .text._ZN5VL53LC2Ev:
 
 00000000 <_ZN5VL53LC1Ev>:
-   0:	b510      	push	{r4, lr}
-   2:	4604      	mov	r4, r0
-   4:	f7ff fffe 	bl	0 <_ZN7VL53L1XC1Ev>
-   8:	4620      	mov	r0, r4
-   a:	bd10      	pop	{r4, pc}
+   0:	4770      	bx	lr
+   2:	bf00      	nop
 
 Disassembly of section .text._ZN5VL53L4initEv:
 
 00000000 <_ZN5VL53L4initEv>:
-   0:	b538      	push	{r3, r4, r5, lr}
-   2:	4d13      	ldr	r5, [pc, #76]	; (50 <_ZN5VL53L4initEv+0x50>)
-   4:	4604      	mov	r4, r0
-   6:	4628      	mov	r0, r5
-   8:	f7ff fffe 	bl	0 <_ZN7TwoWire5beginEv>
-   c:	2064      	movs	r0, #100	; 0x64
-   e:	61a5      	str	r5, [r4, #24]
-  10:	f7ff fffe 	bl	0 <delay>
-  14:	2101      	movs	r1, #1
-  16:	4620      	mov	r0, r4
-  18:	f7ff fffe 	bl	0 <_ZN7VL53L1X4initEb>
-  1c:	b178      	cbz	r0, 3e <_ZN5VL53L4initEv+0x3e>
-  1e:	211f      	movs	r1, #31
-  20:	480c      	ldr	r0, [pc, #48]	; (54 <_ZN5VL53L4initEv+0x54>)
-  22:	f7ff fffe 	bl	0 <usb_serial_write>
-  26:	480c      	ldr	r0, [pc, #48]	; (58 <_ZN5VL53L4initEv+0x58>)
-  28:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
-  2c:	f44f 73fa 	mov.w	r3, #500	; 0x1f4
-  30:	4620      	mov	r0, r4
-  32:	2132      	movs	r1, #50	; 0x32
-  34:	83e3      	strh	r3, [r4, #30]
-  36:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
-  3a:	f7ff bffe 	b.w	0 <_ZN7VL53L1X15startContinuousEm>
-  3e:	2120      	movs	r1, #32
-  40:	4806      	ldr	r0, [pc, #24]	; (5c <_ZN5VL53L4initEv+0x5c>)
-  42:	f7ff fffe 	bl	0 <usb_serial_write>
-  46:	4804      	ldr	r0, [pc, #16]	; (58 <_ZN5VL53L4initEv+0x58>)
-  48:	e8bd 4038 	ldmia.w	sp!, {r3, r4, r5, lr}
-  4c:	f7ff bffe 	b.w	0 <_ZN5Print7printlnEv>
-  50:	00000000 	.word	0x00000000
-  54:	00000024 	.word	0x00000024
-  58:	00000000 	.word	0x00000000
-  5c:	00000000 	.word	0x00000000
+   0:	20c8      	movs	r0, #200	; 0xc8
+   2:	b508      	push	{r3, lr}
+   4:	f7ff fffe 	bl	0 <delay>
+   8:	2101      	movs	r1, #1
+   a:	480e      	ldr	r0, [pc, #56]	; (44 <_ZN5VL53L4initEv+0x44>)
+   c:	f7ff fffe 	bl	0 <_ZN7VL53L1X4initEb>
+  10:	b978      	cbnz	r0, 32 <_ZN5VL53L4initEv+0x32>
+  12:	2120      	movs	r1, #32
+  14:	480c      	ldr	r0, [pc, #48]	; (48 <_ZN5VL53L4initEv+0x48>)
+  16:	f7ff fffe 	bl	0 <usb_serial_write>
+  1a:	480c      	ldr	r0, [pc, #48]	; (4c <_ZN5VL53L4initEv+0x4c>)
+  1c:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  20:	f44f 73fa 	mov.w	r3, #500	; 0x1f4
+  24:	4807      	ldr	r0, [pc, #28]	; (44 <_ZN5VL53L4initEv+0x44>)
+  26:	2132      	movs	r1, #50	; 0x32
+  28:	83c3      	strh	r3, [r0, #30]
+  2a:	e8bd 4008 	ldmia.w	sp!, {r3, lr}
+  2e:	f7ff bffe 	b.w	0 <_ZN7VL53L1X15startContinuousEm>
+  32:	211e      	movs	r1, #30
+  34:	4806      	ldr	r0, [pc, #24]	; (50 <_ZN5VL53L4initEv+0x50>)
+  36:	f7ff fffe 	bl	0 <usb_serial_write>
+  3a:	4804      	ldr	r0, [pc, #16]	; (4c <_ZN5VL53L4initEv+0x4c>)
+  3c:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  40:	e7ee      	b.n	20 <_ZN5VL53L4initEv+0x20>
+  42:	bf00      	nop
+  44:	00000000 	.word	0x00000000
+  48:	00000000 	.word	0x00000000
+  4c:	00000000 	.word	0x00000000
+  50:	00000024 	.word	0x00000024
 
 Disassembly of section .text._ZN5VL53L11getDistanceEv:
 
 00000000 <_ZN5VL53L11getDistanceEv>:
    0:	2101      	movs	r1, #1
-   2:	b508      	push	{r3, lr}
-   4:	f7ff fffe 	bl	0 <_ZN7VL53L1X4readEb>
-   8:	ee07 0a90 	vmov	s15, r0
-   c:	eeb8 0a67 	vcvt.f32.u32	s0, s15
-  10:	bd08      	pop	{r3, pc}
-  12:	bf00      	nop
+   2:	4804      	ldr	r0, [pc, #16]	; (14 <_ZN5VL53L11getDistanceEv+0x14>)
+   4:	b508      	push	{r3, lr}
+   6:	f7ff fffe 	bl	0 <_ZN7VL53L1X4readEb>
+   a:	ee07 0a90 	vmov	s15, r0
+   e:	eeb8 0a67 	vcvt.f32.u32	s0, s15
+  12:	bd08      	pop	{r3, pc}
+  14:	00000000 	.word	0x00000000
+
+Disassembly of section .text.startup._GLOBAL__sub_I_tofD:
+
+00000000 <_GLOBAL__sub_I_tofD>:
+   0:	4801      	ldr	r0, [pc, #4]	; (8 <_GLOBAL__sub_I_tofD+0x8>)
+   2:	f7ff bffe 	b.w	0 <_ZN7VL53L1XC1Ev>
+   6:	bf00      	nop
+   8:	00000000 	.word	0x00000000

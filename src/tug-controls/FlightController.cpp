@@ -1,14 +1,12 @@
 #include "FlightController.hpp"
 #include "AS7341_ColorSens.hpp"
 #include "BNO085.hpp"
-#include "HardwareSerial.h"
 #include "VL53L.hpp"
 #include "WireIMXRT.h"
 #include "core_pins.h"
 #include "pwm/PWMReader.h"
 #include "pwm/SparkMaxPWM.h"
 #include "usb_serial.h"
-#include "wiring.h"
 #include <Arduino.h>
 #include <chrono>
 #include <ios>
@@ -17,7 +15,8 @@ FlightController::FlightController(SparkMaxPWM &motorL, SparkMaxPWM &motorR,
                                    VL53L &tofD, BNO085 &bnoL, AS7341 &clrSensLD,
                                    AS7341 &clrSensRD, PWMReader pwmReader)
     : motorL(motorL), motorR(motorR), tofD(tofD), bnoL(bnoL),
-      clrSensLD(clrSensLD), clrSensRD(clrSensRD), pwmReader(pwmReader), currentMode(LINE_FOLLOW) {}
+      clrSensLD(clrSensLD), clrSensRD(clrSensRD), pwmReader(pwmReader),
+      currentMode(LINE_FOLLOW) {}
 
 void FlightController::set_control_mode(ControlMode mode) {
   Serial.print("Control Mode set to: ");
@@ -27,23 +26,23 @@ void FlightController::set_control_mode(ControlMode mode) {
 
 void FlightController::update() {
   switch (currentMode) {
-  case LINE_FOLLOW:
-    lineFollow();
-    //Serial.println("LINE_FOLLOW");
-    break;
-  case MANUAL:
-    manual();
-    break;
   case STOP:
     stop();
-    //Serial.println("STOP");
+    break;
+  case LINE_FOLLOW:
+    lineFollow();
+    break;
+  case RC:
+    rc();
     break;
   case TEST:
     test();
     break;
-  case RC:
-    //Serial.println("RC");
-    rc();
+  case MANUAL:
+    manual();
+    break;
+  case CALIBRATE:
+    calibrate();
     break;
   }
 }
@@ -57,9 +56,144 @@ void FlightController::init() {
   clrSensLD.begin(Wire);
 
   Serial.println("Flight Controller Started.");
-
   delay(1000);
 }
+
+void FlightController::lineFollow() {
+  bool leftOnLine = clrSensLD.detectLine();
+  bool rightOnLine = clrSensRD.detectLine();
+
+  clrSensRD.printData();
+
+  bool fellL;
+  bool fellR;
+
+  Serial.println(leftOnLine);
+  Serial.println(rightOnLine);
+
+  if (leftOnLine && rightOnLine) {
+    fellL = false;
+    fellR = false;
+    motorL.setSpeed(0.14);
+    motorR.setSpeed(-0.1);
+    Serial.println("Online");
+  } else if (leftOnLine && !rightOnLine) {
+    fellR = true;
+    fellL = false;
+    motorL.setSpeed(0.12);
+    motorR.setSpeed(-0.1);
+    Serial.print("YL, NR");
+  } else if (!leftOnLine && rightOnLine) {
+    fellR = false;
+    fellL = true;
+    motorL.setSpeed(0.14);
+    motorR.setSpeed(-0.08);
+    Serial.println("NL, YR");
+  } else if (!leftOnLine && !rightOnLine) {
+    if (fellR) {
+      motorL.setSpeed(0.12);
+      motorR.setSpeed(-0.1);
+    } else if (fellL) {
+      motorL.setSpeed(0.14);
+      motorR.setSpeed(-0.08);
+    }
+    motorL.setSpeed(0);
+    motorR.setSpeed(0);
+    Serial.println("NOL");
+  }
+}
+
+// Mode 2: manual drive
+void FlightController::manual() {}
+
+void FlightController::stop() {
+  motorR.setSpeed(0);
+  motorL.setSpeed(0);
+}
+
+void FlightController::test() {
+  Serial.println("Testing Sensors");
+
+  // float dist = tofD.getDistance();
+  // Serial.println(dist);
+
+  // bnoDataL = bnoL.getIMUData();
+  // bnoL.printIMUData();
+
+  // clrSensRD.printData();
+  Serial.println("LD");
+  bool detected = clrSensLD.detectLine();
+  Serial.println(detected);
+
+  Serial.println("RD");
+  bool detectedR = clrSensRD.detectLine();
+  Serial.println(detectedR);
+  // motorL.setSpeed(-0.07);
+  // motorR.setSpeed(0.1);
+}
+
+void FlightController::rc() {
+  const float minPulse = 988.0f;
+  const float maxPulse = 2010.0f;
+  const float midPulse = (minPulse + maxPulse) / 2.0f;
+
+  unsigned long pulseThrottle = pwmReader.readPulseA(); // Throttle input
+  unsigned long pulseSteering = pwmReader.readPulseB(); // Steering input
+
+  // Normalize throttle and steering to range [-1, 1]
+  float throttle = (pulseThrottle - midPulse) / (maxPulse - midPulse);
+  float steering = (pulseSteering - midPulse) / (maxPulse - midPulse);
+
+  steering = steering * 0.6;
+
+  // Apply shaping
+  float shapedThrottle =
+      (throttle >= 0 ? throttle * throttle : -throttle * throttle);
+  float shapedSteering =
+      (steering >= 0 ? steering * steering : -steering * steering);
+
+  // Mix throttle and steering for differential drive
+  float leftSpeed = shapedThrottle + shapedSteering;
+  float rightSpeed = shapedThrottle - shapedSteering;
+
+  // set motor speeds
+  motorL.setSpeed(0.75f * leftSpeed);
+  motorR.setSpeed(-0.75f * rightSpeed);
+}
+
+void FlightController::calibrate() {
+  Serial.println("Show left sensor WHITE, then type 'Y' and press enter.");
+  while (true) {
+    if (Serial.available() > 0) {
+      char input = Serial.read();
+      if (input == 'Y') {
+        break;
+      }
+    }
+  }
+
+  int white = clrSensLD.return590Nm();
+
+  Serial.println("Show left sensor BLACK, then type 'Y' and press enter.");
+  while (true) {
+    if (Serial.available() > 0) {
+      char input = Serial.read();
+      if (input == 'Y') {
+        break;
+      }
+    }
+  }
+
+  int black = clrSensLD.return590Nm();
+
+  int mid = (white - black) / 2 + black;
+
+  Serial.println("White is: " + String(white) + " Black is: " + String(black) +
+                 " set the threshold to: " + String(mid) +
+                 " in the sensors/AS7341_ColorSens.cpp");
+}
+
+// Depericated Methods
 /*
 // Mode 1: lineFollow
 void FlightController::lineFollow() {
@@ -100,7 +234,7 @@ void FlightController::lineFollow() {
 
   }
 }
- 
+
 
 #include "LineTracker.hpp"
 
@@ -116,12 +250,12 @@ void FlightController::lineFollow() {
 
     Serial.println(leftOnLine);
     Serial.println(rightOnLine);
-  
+
 
     static LineTracker tracker;
     LinePosition position = tracker.detectPosition(leftOnLine, rightOnLine);
 
-  
+
     if (dist < 20 && dist > 5) {
         // Turn around or slow turn
         motorL.setSpeed(0.05);
@@ -214,90 +348,7 @@ void FlightController::lineFollow() {
     }
 }
 
-*/ 
-
-
-void FlightController::lineFollow(){
-    bool leftOnLine = clrSensLD.detectLine();
-    bool rightOnLine = clrSensRD.detectLine();
-  
-  clrSensRD.printData();
-
-  bool fellL;
-  bool fellR;
-
-  Serial.println(leftOnLine);
-  Serial.println(rightOnLine);
-
-  if(leftOnLine&&rightOnLine){
-      fellL=false;
-      fellR=false;
-      motorL.setSpeed(0.14);
-      motorR.setSpeed(-0.1);
-      Serial.println("Online");
-  } else if (leftOnLine&& !rightOnLine) {
-      fellR=true;
-      fellL=false;
-      motorL.setSpeed(0.12);
-      motorR.setSpeed(-0.1);
-      Serial.print("YL, NR");
-  } else if (!leftOnLine&& rightOnLine) {
-    fellR=false;
-    fellL=true;
-    motorL.setSpeed(0.14);
-    motorR.setSpeed(-0.08);
-    Serial.println("NL, YR");
-  } else if (!leftOnLine&& !rightOnLine) {
-    if(fellR){
-      motorL.setSpeed(0.12);
-      motorR.setSpeed(-0.1);
-    } else if (fellL) {
-      motorL.setSpeed(0.14);
-      motorR.setSpeed(-0.08);
-    }
-    motorL.setSpeed(0);
-    motorR.setSpeed(0);
-    Serial.println("NOL");
-  }
-    
-
-  
-} 
-
-
-
-
-// Mode 2: manual drive
-void FlightController::manual() {}
-
-void FlightController::stop() {
-  motorR.setSpeed(0);
-  motorL.setSpeed(0);
-}
-
-
-
-void FlightController::test() {
-  Serial.println("Testing Sensors");
-
-  //float dist = tofD.getDistance();
-  //Serial.println(dist);
-
-  // bnoDataL = bnoL.getIMUData();
-  //bnoL.printIMUData();
-
-  //clrSensRD.printData();
-  Serial.println("LD");
-  bool detected = clrSensLD.detectLine();
-  Serial.println(detected);
-
-  Serial.println("RD");
-  bool detectedR = clrSensRD.detectLine();
-  Serial.println(detectedR);
-  //motorL.setSpeed(-0.07);
-  //motorR.setSpeed(0.1);
-}
-
+*/
 
 /*
 void FlightController::test() {
@@ -312,7 +363,7 @@ void FlightController::test() {
   // Initialize target yaw once
   if (!initialized) {
     bnoL.update();  // Make sure to call update if needed before reading
-    
+
     targetYaw = bnoDataL.yE; // Assume getYaw() returns yaw in degrees
     initialized = true;
   }
@@ -360,8 +411,9 @@ void FlightController::rc() {
     else if (controlB < -1.0f) controlB = -1.0f;
 
     // Apply x^2 while keeping the original sign
-    float shapedA = controlA >= 0 ? controlA * controlA : -1 * controlA * controlA;
-    float shapedB = controlB >= 0 ? controlB * controlB : -1 * controlB * controlB;
+    float shapedA = controlA >= 0 ? controlA * controlA : -1 * controlA *
+controlA; float shapedB = controlB >= 0 ? controlB * controlB : -1 * controlB *
+controlB;
 
     // Limit the delta to reduce turning sharpness
     float delta = shapedA - shapedB;
@@ -380,35 +432,7 @@ void FlightController::rc() {
 
     //motorL.setSpeed(0.25);
     //motorR.setSpeed(-0.25);
-  
+
 }
 
 */
-void FlightController::rc() {
-    const float minPulse = 988.0f;
-    const float maxPulse = 2010.0f;
-    const float midPulse = (minPulse + maxPulse) / 2.0f;
-
-    unsigned long pulseThrottle = pwmReader.readPulseA();  // Throttle input
-    unsigned long pulseSteering = pwmReader.readPulseB();  // Steering input
-
-    // Normalize throttle and steering to range [-1, 1]
-    float throttle = (pulseThrottle - midPulse) / (maxPulse - midPulse);
-    float steering = (pulseSteering - midPulse) / (maxPulse - midPulse);
-    
-    steering = steering * 0.6;
-
-
-    // Apply shaping (square input while keeping sign)
-    float shapedThrottle = (throttle >= 0 ? throttle * throttle : -throttle * throttle);
-    float shapedSteering = (steering >= 0 ? steering * steering : -steering * steering);
-
-    // Mix throttle and steering for differential drive
-    float leftSpeed = shapedThrottle + shapedSteering;
-    float rightSpeed = shapedThrottle - shapedSteering;
-
-    // Scale motor speeds (adjust multiplier to your system)
-    motorL.setSpeed(0.75f * leftSpeed);
-    motorR.setSpeed(-0.75f * rightSpeed);
-}
-

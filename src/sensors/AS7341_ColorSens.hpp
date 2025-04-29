@@ -6,8 +6,9 @@
 class AS7341 {
 public:
   AS7341();
-  void begin(TwoWire &wirePort); 
+  void begin(TwoWire &wirePort);
   void printData();
+  int return590Nm();
   bool detectLine();
 
 private:

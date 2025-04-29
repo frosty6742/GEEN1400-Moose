@@ -4,7 +4,7 @@
 #define GIT_INFO_H
 
 #define GIT_BRANCH "main"
-#define GIT_COMMIT_HASH "bac3a97904c7f2fe7f0a639db54f8ec2eed781e1"
-#define GIT_COMMIT_MSG "rc working "
+#define GIT_COMMIT_HASH "df51e636883073600f7a9e3e8156e375e5e7f4c6"
+#define GIT_COMMIT_MSG "cleanup "
 
 #endif // GIT_INFO_H

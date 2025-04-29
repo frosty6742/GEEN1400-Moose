@@ -43,8 +43,8 @@ SYMBOL TABLE:
 00000000  w    F .text._ZN6BNO085D2Ev	0000000c _ZN6BNO085D2Ev
 00000000         *UND*	00000000 _ZN15Adafruit_BNO08xD1Ev
 00000000  w    F .text._ZN6BNO085D2Ev	0000000c _ZN6BNO085D1Ev
-00000000  w    F .text._ZN16FlightControllerD2Ev	00000020 _ZN16FlightControllerD2Ev
-00000000  w    F .text._ZN16FlightControllerD2Ev	00000020 _ZN16FlightControllerD1Ev
+00000000  w    F .text._ZN16FlightControllerD2Ev	0000001e _ZN16FlightControllerD2Ev
+00000000  w    F .text._ZN16FlightControllerD2Ev	0000001e _ZN16FlightControllerD1Ev
 00000000         *UND*	00000000 strlen
 00000000         *UND*	00000000 _ZN5Print7printlnEv
 00000000 g     F .text._Z10print_logov	000000d0 _Z10print_logov
@@ -64,7 +64,7 @@ SYMBOL TABLE:
 00000000         *UND*	00000000 _ZN9PWMReaderC1Eii
 00000000         *UND*	00000000 _ZN16FlightControllerC1ER11SparkMaxPWMS1_R5VL53LR6BNO085R6AS7341S7_9PWMReader
 00000000         *UND*	00000000 .hidden __dso_handle
-00000000 g     F .text.startup.main	00000178 main
+00000000 g     F .text.startup.main	00000184 main
 00000000         *UND*	00000000 _ZN5Debug5beginEP6Stream
 00000000         *UND*	00000000 _ZN16CrashReportClasscvbEv
 00000000         *UND*	00000000 _ZNK16CrashReportClass7printToER5Print
@@ -80,7 +80,7 @@ SYMBOL TABLE:
 00000000         *UND*	00000000 CrashReport
 00000000         *UND*	00000000 Wire
 00000000         *UND*	00000000 Wire1
-00000000 g     O .bss.flightController	00000160 flightController
+00000000 g     O .bss.flightController	00000138 flightController
 00000000 g     O .bss.oldSwVal	00000008 oldSwVal
 00000000 g     O .bss.switchVal	00000008 switchVal
 00000000 g     O .bss.modeChanger	00000008 modeChanger
@@ -88,7 +88,7 @@ SYMBOL TABLE:
 00000000 g     O .bss.clrSensL	00000028 clrSensL
 00000000 g     O .bss.clrSensR	00000028 clrSensR
 00000000 g     O .bss.bno	000000a0 bno
-00000000 g     O .bss.tof	0000002c tof
+00000000 g     O .bss.tof	00000001 tof
 00000000 g     O .bss.motorR	0000000c motorR
 00000000 g     O .bss.motorL	0000000c motorL
 
@@ -104,8 +104,8 @@ Contents of section .text._ZN6AS7341D2Ev:
 Contents of section .text._ZN6BNO085D2Ev:
  0000 10b50446 fff7feff 204610bd           ...F.... F..    
 Contents of section .text._ZN16FlightControllerD2Ev:
- 0000 10b50446 00f58070 fff7feff 04f1d800  ...F...p........
- 0010 fff7feff 04f13800 fff7feff 204610bd  ......8..... F..
+ 0000 10b50446 d830fff7 feff04f1 b000fff7  ...F.0..........
+ 0010 feff04f1 1000fff7 feff2046 10bd00bf  .......... F....
 Contents of section .text._ZN5Print7printlnEPKc.isra.0:
  0000 38b50446 49b10846 0d46fff7 feff2368  8..FI..F.F....#h
  0010 02462946 5b682046 98472046 bde83840  .F)F[h F.G F..8@
@@ -113,15 +113,15 @@ Contents of section .text._ZN5Print7printlnEPKc.isra.0:
 Contents of section .rodata._Z10print_logov.str1.4:
  0000 1b5b306d 00000000 0a1b5b31 3b39326d  .[0m......[1;92m
  0010 46572056 65722e20 322e312e 30000000  FW Ver. 2.1.0...
- 0020 31343a34 303a3536 00000000 41707220  14:40:56....Apr 
- 0030 32352032 30323500 0a4c6173 74204275  25 2025..Last Bu
+ 0020 31303a33 373a3336 00000000 41707220  10:37:36....Apr 
+ 0030 32392032 30323500 0a4c6173 74204275  29 2025..Last Bu
  0040 696c743a 20257320 61742025 73000000  ilt: %s at %s...
- 0050 62616333 61393739 30346337 66326665  bac3a97904c7f2fe
- 0060 37663061 36333964 62353466 38656332  7f0a639db54f8ec2
- 0070 65656437 38316531 00000000 0a476974  eed781e1.....Git
+ 0050 64663531 65363336 38383330 37333630  df51e63688307360
+ 0060 30663761 39653365 38313536 65333735  0f7a9e3e8156e375
+ 0070 65356537 66346336 00000000 0a476974  e5e7f4c6.....Git
  0080 20486173 683a2025 73000000 6d61696e   Hash: %s...main
  0090 00000000 0a476974 20427261 6e63683a  .....Git Branch:
- 00a0 20257300 72632077 6f726b69 6e672000   %s.rc working .
+ 00a0 20257300 636c6561 6e757020 00000000   %s.cleanup ....
  00b0 0a436f6d 6d697420 4d657373 6167653a  .Commit Message:
  00c0 20257300 0a52616e 646f6d20 4e756d3a   %s..Random Num:
  00d0 20257800 1b5b306d 0a00                %x..[0m..      
@@ -165,33 +165,36 @@ Contents of section .rodata.main.str1.4:
  0040 69782077 68792069 74206372 61736865  ix why it crashe
  0050 64290000 53746172 74696e67 20466c69  d)..Starting Fli
  0060 67687420 436f6e74 726f6c6c 65722e2e  ght Controller..
- 0070 2e000000 456e7465 72696e67 206d6169  ....Entering mai
- 0080 6e206c6f 6f702e2e 2e0a00             n loop.....     
+ 0070 2e000000 53746172 74696e67 20537769  ....Starting Swi
+ 0080 74636820 52656164 65722e2e 2e000000  tch Reader......
+ 0090 456e7465 72696e67 206d6169 6e206c6f  Entering main lo
+ 00a0 6f702e2e 2e0a00                      op.....         
 Contents of section .text.startup.main:
- 0000 4b4d40f2 ee284b4c dff86891 2e6880b5  KM@..(KL..h..h..
- 0010 494ffff7 feff2378 63b33b78 d90729d5  IO....#xc.;x..).
- 0020 2b68d9f8 00209b1a 0e2b23d9 43494448  +h... ...+#.CIDH
- 0030 fff7feff 43494448 fff7feff fff7feff  ....CIDH........
- 0040 4248fff7 feff10b3 3d4c404e 404d2146  BH......=L@N@M!F
- 0050 3046fff7 feff2046 fff7feff 42212846  0F.... F....B!(F
- 0060 fff7feff 2046fff7 feff4ff4 7a70fff7  .... F....O.zp..
- 0070 feffece7 2b682278 9b1b2ab1 b3f5fa6f  ....+h"x..*....o
- 0080 d4d8fff7 feffc4e7 4345fad9 cee73148  ........CE....1H
- 0090 40f2a468 fff7feff 2f48fff7 feff2f49  @..h..../H..../I
- 00a0 2748fff7 feff2e48 fff7feff 2d48fff7  'H.....H....-H..
- 00b0 feff0221 2a48fff7 feff2b49 2048fff7  ...!*H....+I H..
- 00c0 feff4ff4 7a70294d 294f264e 244cfff7  ..O.zp)M)O&N$L..
- 00d0 feff09e0 b2f5f97f 23d94345 1bd82046  ........#.CE.. F
- 00e0 87ed007b fff7feff 3046fff7 feff0346  ...{....0F.....F
- 00f0 6ff49662 022107ee 903ab3f5 7a7f2046  o..b.!...:..z. F
- 0100 1a44b8ee 677b85ed 007be3d2 fff7feff  .D..g{...{......
- 0110 95ed007b e3e70421 fff7feff 95ed007b  ...{...!.......{
- 0120 dde70021 fff7feff 95ed007b d7e700bf  ...!.......{....
- 0130 00000000 00000000 00000000 00000000  ................
+ 0000 4d4d40f2 ee284d4c dff87491 2e6880b5  MM@..(ML..t..h..
+ 0010 4b4ffff7 feff2378 6bb33b78 d9072ad5  KO....#xk.;x..*.
+ 0020 2b68d9f8 00209b1a 0e2b24d9 45494648  +h... ...+$.EIFH
+ 0030 fff7feff 45494648 fff7feff fff7feff  ....EIFH........
+ 0040 4448fff7 feff0446 10b33f4c 414e424d  DH.....F..?LANBM
+ 0050 21463046 fff7feff 2046fff7 feff4221  !F0F.... F....B!
+ 0060 2846fff7 feff2046 fff7feff 4ff47a70  (F.... F....O.zp
+ 0070 fff7feff ece72b68 22789b1b 2ab1b3f5  ......+h"x..*...
+ 0080 fa6fd3d8 fff7feff c3e74345 fad9cde7  .o........CE....
+ 0090 324840f2 a468fff7 feff3148 fff7feff  2H@..h....1H....
+ 00a0 30492948 fff7feff 2f48fff7 feff2f49  0I)H..../H..../I
+ 00b0 2548fff7 feff2e48 fff7feff 21462a48  %H.....H....!F*H
+ 00c0 fff7feff 2b492048 fff7feff 4ff47a70  ....+I H....O.zp
+ 00d0 294d2a4f 264e244c fff7feff 09e0b2f5  )M*O&N$L........
+ 00e0 f97f23d9 43451bd8 204687ed 007bfff7  ..#.CE.. F...{..
+ 00f0 feff3046 fff7feff 03466ff4 96620021  ..0F.....Fo..b.!
+ 0100 07ee903a b3f57a7f 20461a44 b8ee677b  ...:..z. F.D..g{
+ 0110 85ed007b e3d2fff7 feff95ed 007be3e7  ...{.........{..
+ 0120 0221fff7 feff95ed 007bdde7 0121fff7  .!.......{...!..
+ 0130 feff95ed 007bd7e7 00000000 00000000  .....{..........
  0140 00000000 00000000 00000000 00000000  ................
- 0150 10000000 00000000 00000000 54000000  ............T...
- 0160 00000000 00000000 74000000 00000000  ........t.......
- 0170 00000000 00000000                    ........        
+ 0150 00000000 00000000 10000000 00000000  ................
+ 0160 00000000 54000000 00000000 74000000  ....T.......t...
+ 0170 00000000 90000000 00000000 00000000  ................
+ 0180 00000000                             ....            
 Contents of section .comment:
  0000 00474343 3a202841 726d2047 4e552054  .GCC: (Arm GNU T
  0010 6f6f6c63 6861696e 2031312e 332e5265  oolchain 11.3.Re
@@ -226,14 +229,15 @@ Disassembly of section .text._ZN16FlightControllerD2Ev:
 00000000 <_ZN16FlightControllerD1Ev>:
    0:	b510      	push	{r4, lr}
    2:	4604      	mov	r4, r0
-   4:	f500 7080 	add.w	r0, r0, #256	; 0x100
-   8:	f7ff fffe 	bl	0 <_ZN15Adafruit_AS7341D1Ev>
-   c:	f104 00d8 	add.w	r0, r4, #216	; 0xd8
-  10:	f7ff fffe 	bl	0 <_ZN15Adafruit_AS7341D1Ev>
-  14:	f104 0038 	add.w	r0, r4, #56	; 0x38
-  18:	f7ff fffe 	bl	0 <_ZN15Adafruit_BNO08xD1Ev>
-  1c:	4620      	mov	r0, r4
-  1e:	bd10      	pop	{r4, pc}
+   4:	30d8      	adds	r0, #216	; 0xd8
+   6:	f7ff fffe 	bl	0 <_ZN15Adafruit_AS7341D1Ev>
+   a:	f104 00b0 	add.w	r0, r4, #176	; 0xb0
+   e:	f7ff fffe 	bl	0 <_ZN15Adafruit_AS7341D1Ev>
+  12:	f104 0010 	add.w	r0, r4, #16
+  16:	f7ff fffe 	bl	0 <_ZN15Adafruit_BNO08xD1Ev>
+  1a:	4620      	mov	r0, r4
+  1c:	bd10      	pop	{r4, pc}
+  1e:	bf00      	nop
 
 Disassembly of section .text._ZN5Print7printlnEPKc.isra.0:
 
@@ -416,132 +420,136 @@ Disassembly of section .text.startup._GLOBAL__sub_I_motorL:
 Disassembly of section .text.startup.main:
 
 00000000 <main>:
-   0:	4d4b      	ldr	r5, [pc, #300]	; (130 <main+0x130>)
+   0:	4d4d      	ldr	r5, [pc, #308]	; (138 <main+0x138>)
    2:	f240 28ee 	movw	r8, #750	; 0x2ee
-   6:	4c4b      	ldr	r4, [pc, #300]	; (134 <main+0x134>)
-   8:	f8df 9168 	ldr.w	r9, [pc, #360]	; 174 <main+0x174>
+   6:	4c4d      	ldr	r4, [pc, #308]	; (13c <main+0x13c>)
+   8:	f8df 9174 	ldr.w	r9, [pc, #372]	; 180 <main+0x180>
    c:	682e      	ldr	r6, [r5, #0]
    e:	b580      	push	{r7, lr}
-  10:	4f49      	ldr	r7, [pc, #292]	; (138 <main+0x138>)
+  10:	4f4b      	ldr	r7, [pc, #300]	; (140 <main+0x140>)
   12:	f7ff fffe 	bl	0 <yield>
   16:	7823      	ldrb	r3, [r4, #0]
-  18:	b363      	cbz	r3, 74 <main+0x74>
+  18:	b36b      	cbz	r3, 76 <main+0x76>
   1a:	783b      	ldrb	r3, [r7, #0]
   1c:	07d9      	lsls	r1, r3, #31
-  1e:	d529      	bpl.n	74 <main+0x74>
+  1e:	d52a      	bpl.n	76 <main+0x76>
   20:	682b      	ldr	r3, [r5, #0]
   22:	f8d9 2000 	ldr.w	r2, [r9]
   26:	1a9b      	subs	r3, r3, r2
   28:	2b0e      	cmp	r3, #14
-  2a:	d923      	bls.n	74 <main+0x74>
-  2c:	4943      	ldr	r1, [pc, #268]	; (13c <main+0x13c>)
-  2e:	4844      	ldr	r0, [pc, #272]	; (140 <main+0x140>)
+  2a:	d924      	bls.n	76 <main+0x76>
+  2c:	4945      	ldr	r1, [pc, #276]	; (144 <main+0x144>)
+  2e:	4846      	ldr	r0, [pc, #280]	; (148 <main+0x148>)
   30:	f7ff fffe 	bl	0 <main>
-  34:	4943      	ldr	r1, [pc, #268]	; (144 <main+0x144>)
-  36:	4844      	ldr	r0, [pc, #272]	; (148 <main+0x148>)
+  34:	4945      	ldr	r1, [pc, #276]	; (14c <main+0x14c>)
+  36:	4846      	ldr	r0, [pc, #280]	; (150 <main+0x150>)
   38:	f7ff fffe 	bl	0 <_ZN5Debug5beginEP6Stream>
   3c:	f7ff fffe 	bl	0 <main>
-  40:	4842      	ldr	r0, [pc, #264]	; (14c <main+0x14c>)
+  40:	4844      	ldr	r0, [pc, #272]	; (154 <main+0x154>)
   42:	f7ff fffe 	bl	0 <_ZN16CrashReportClasscvbEv>
-  46:	b310      	cbz	r0, 8e <main+0x8e>
-  48:	4c3d      	ldr	r4, [pc, #244]	; (140 <main+0x140>)
-  4a:	4e40      	ldr	r6, [pc, #256]	; (14c <main+0x14c>)
-  4c:	4d40      	ldr	r5, [pc, #256]	; (150 <main+0x150>)
-  4e:	4621      	mov	r1, r4
-  50:	4630      	mov	r0, r6
-  52:	f7ff fffe 	bl	0 <_ZNK16CrashReportClass7printToER5Print>
-  56:	4620      	mov	r0, r4
-  58:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
-  5c:	2142      	movs	r1, #66	; 0x42
-  5e:	4628      	mov	r0, r5
-  60:	f7ff fffe 	bl	0 <usb_serial_write>
-  64:	4620      	mov	r0, r4
-  66:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
-  6a:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
-  6e:	f7ff fffe 	bl	0 <delay>
-  72:	e7ec      	b.n	4e <main+0x4e>
-  74:	682b      	ldr	r3, [r5, #0]
-  76:	7822      	ldrb	r2, [r4, #0]
-  78:	1b9b      	subs	r3, r3, r6
-  7a:	b12a      	cbz	r2, 88 <main+0x88>
-  7c:	f5b3 6ffa 	cmp.w	r3, #2000	; 0x7d0
-  80:	d8d4      	bhi.n	2c <main+0x2c>
-  82:	f7ff fffe 	bl	0 <yield>
-  86:	e7c4      	b.n	12 <main+0x12>
-  88:	4543      	cmp	r3, r8
-  8a:	d9fa      	bls.n	82 <main+0x82>
-  8c:	e7ce      	b.n	2c <main+0x2c>
-  8e:	4831      	ldr	r0, [pc, #196]	; (154 <main+0x154>)
-  90:	f240 68a4 	movw	r8, #1700	; 0x6a4
-  94:	f7ff fffe 	bl	0 <_ZN7TwoWire5beginEv>
-  98:	482f      	ldr	r0, [pc, #188]	; (158 <main+0x158>)
-  9a:	f7ff fffe 	bl	0 <_ZN7TwoWire5beginEv>
-  9e:	492f      	ldr	r1, [pc, #188]	; (15c <main+0x15c>)
-  a0:	4827      	ldr	r0, [pc, #156]	; (140 <main+0x140>)
-  a2:	f7ff fffe 	bl	0 <main>
-  a6:	482e      	ldr	r0, [pc, #184]	; (160 <main+0x160>)
-  a8:	f7ff fffe 	bl	0 <_ZN16FlightController4initEv>
-  ac:	482d      	ldr	r0, [pc, #180]	; (164 <main+0x164>)
-  ae:	f7ff fffe 	bl	0 <_ZN9PWMReader5beginEv>
-  b2:	2102      	movs	r1, #2
-  b4:	482a      	ldr	r0, [pc, #168]	; (160 <main+0x160>)
-  b6:	f7ff fffe 	bl	0 <_ZN16FlightController16set_control_modeE11ControlMode>
-  ba:	492b      	ldr	r1, [pc, #172]	; (168 <main+0x168>)
-  bc:	4820      	ldr	r0, [pc, #128]	; (140 <main+0x140>)
-  be:	f7ff fffe 	bl	0 <main>
-  c2:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
-  c6:	4d29      	ldr	r5, [pc, #164]	; (16c <main+0x16c>)
-  c8:	4f29      	ldr	r7, [pc, #164]	; (170 <main+0x170>)
-  ca:	4e26      	ldr	r6, [pc, #152]	; (164 <main+0x164>)
-  cc:	4c24      	ldr	r4, [pc, #144]	; (160 <main+0x160>)
-  ce:	f7ff fffe 	bl	0 <delay>
-  d2:	e009      	b.n	e8 <main+0xe8>
-  d4:	f5b2 7ff9 	cmp.w	r2, #498	; 0x1f2
-  d8:	d923      	bls.n	122 <main+0x122>
-  da:	4543      	cmp	r3, r8
-  dc:	d81b      	bhi.n	116 <main+0x116>
-  de:	4620      	mov	r0, r4
-  e0:	ed87 7b00 	vstr	d7, [r7]
-  e4:	f7ff fffe 	bl	0 <_ZN16FlightController6updateEv>
-  e8:	4630      	mov	r0, r6
-  ea:	f7ff fffe 	bl	0 <_ZN9PWMReader10readPulseAEv>
-  ee:	4603      	mov	r3, r0
-  f0:	f46f 6296 	mvn.w	r2, #1200	; 0x4b0
-  f4:	2102      	movs	r1, #2
-  f6:	ee07 3a90 	vmov	s15, r3
-  fa:	f5b3 7f7a 	cmp.w	r3, #1000	; 0x3e8
-  fe:	4620      	mov	r0, r4
- 100:	441a      	add	r2, r3
- 102:	eeb8 7b67 	vcvt.f64.u32	d7, s15
- 106:	ed85 7b00 	vstr	d7, [r5]
- 10a:	d2e3      	bcs.n	d4 <main+0xd4>
- 10c:	f7ff fffe 	bl	0 <_ZN16FlightController16set_control_modeE11ControlMode>
- 110:	ed95 7b00 	vldr	d7, [r5]
- 114:	e7e3      	b.n	de <main+0xde>
- 116:	2104      	movs	r1, #4
- 118:	f7ff fffe 	bl	0 <_ZN16FlightController16set_control_modeE11ControlMode>
- 11c:	ed95 7b00 	vldr	d7, [r5]
- 120:	e7dd      	b.n	de <main+0xde>
- 122:	2100      	movs	r1, #0
- 124:	f7ff fffe 	bl	0 <_ZN16FlightController16set_control_modeE11ControlMode>
- 128:	ed95 7b00 	vldr	d7, [r5]
- 12c:	e7d7      	b.n	de <main+0xde>
- 12e:	bf00      	nop
- 130:	00000000 	.word	0x00000000
- 134:	00000000 	.word	0x00000000
+  46:	4604      	mov	r4, r0
+  48:	b310      	cbz	r0, 90 <main+0x90>
+  4a:	4c3f      	ldr	r4, [pc, #252]	; (148 <main+0x148>)
+  4c:	4e41      	ldr	r6, [pc, #260]	; (154 <main+0x154>)
+  4e:	4d42      	ldr	r5, [pc, #264]	; (158 <main+0x158>)
+  50:	4621      	mov	r1, r4
+  52:	4630      	mov	r0, r6
+  54:	f7ff fffe 	bl	0 <_ZNK16CrashReportClass7printToER5Print>
+  58:	4620      	mov	r0, r4
+  5a:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  5e:	2142      	movs	r1, #66	; 0x42
+  60:	4628      	mov	r0, r5
+  62:	f7ff fffe 	bl	0 <usb_serial_write>
+  66:	4620      	mov	r0, r4
+  68:	f7ff fffe 	bl	0 <_ZN5Print7printlnEv>
+  6c:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
+  70:	f7ff fffe 	bl	0 <delay>
+  74:	e7ec      	b.n	50 <main+0x50>
+  76:	682b      	ldr	r3, [r5, #0]
+  78:	7822      	ldrb	r2, [r4, #0]
+  7a:	1b9b      	subs	r3, r3, r6
+  7c:	b12a      	cbz	r2, 8a <main+0x8a>
+  7e:	f5b3 6ffa 	cmp.w	r3, #2000	; 0x7d0
+  82:	d8d3      	bhi.n	2c <main+0x2c>
+  84:	f7ff fffe 	bl	0 <yield>
+  88:	e7c3      	b.n	12 <main+0x12>
+  8a:	4543      	cmp	r3, r8
+  8c:	d9fa      	bls.n	84 <main+0x84>
+  8e:	e7cd      	b.n	2c <main+0x2c>
+  90:	4832      	ldr	r0, [pc, #200]	; (15c <main+0x15c>)
+  92:	f240 68a4 	movw	r8, #1700	; 0x6a4
+  96:	f7ff fffe 	bl	0 <_ZN7TwoWire5beginEv>
+  9a:	4831      	ldr	r0, [pc, #196]	; (160 <main+0x160>)
+  9c:	f7ff fffe 	bl	0 <_ZN7TwoWire5beginEv>
+  a0:	4930      	ldr	r1, [pc, #192]	; (164 <main+0x164>)
+  a2:	4829      	ldr	r0, [pc, #164]	; (148 <main+0x148>)
+  a4:	f7ff fffe 	bl	0 <main>
+  a8:	482f      	ldr	r0, [pc, #188]	; (168 <main+0x168>)
+  aa:	f7ff fffe 	bl	0 <_ZN16FlightController4initEv>
+  ae:	492f      	ldr	r1, [pc, #188]	; (16c <main+0x16c>)
+  b0:	4825      	ldr	r0, [pc, #148]	; (148 <main+0x148>)
+  b2:	f7ff fffe 	bl	0 <main>
+  b6:	482e      	ldr	r0, [pc, #184]	; (170 <main+0x170>)
+  b8:	f7ff fffe 	bl	0 <_ZN9PWMReader5beginEv>
+  bc:	4621      	mov	r1, r4
+  be:	482a      	ldr	r0, [pc, #168]	; (168 <main+0x168>)
+  c0:	f7ff fffe 	bl	0 <_ZN16FlightController16set_control_modeE11ControlMode>
+  c4:	492b      	ldr	r1, [pc, #172]	; (174 <main+0x174>)
+  c6:	4820      	ldr	r0, [pc, #128]	; (148 <main+0x148>)
+  c8:	f7ff fffe 	bl	0 <main>
+  cc:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
+  d0:	4d29      	ldr	r5, [pc, #164]	; (178 <main+0x178>)
+  d2:	4f2a      	ldr	r7, [pc, #168]	; (17c <main+0x17c>)
+  d4:	4e26      	ldr	r6, [pc, #152]	; (170 <main+0x170>)
+  d6:	4c24      	ldr	r4, [pc, #144]	; (168 <main+0x168>)
+  d8:	f7ff fffe 	bl	0 <delay>
+  dc:	e009      	b.n	f2 <main+0xf2>
+  de:	f5b2 7ff9 	cmp.w	r2, #498	; 0x1f2
+  e2:	d923      	bls.n	12c <main+0x12c>
+  e4:	4543      	cmp	r3, r8
+  e6:	d81b      	bhi.n	120 <main+0x120>
+  e8:	4620      	mov	r0, r4
+  ea:	ed87 7b00 	vstr	d7, [r7]
+  ee:	f7ff fffe 	bl	0 <_ZN16FlightController6updateEv>
+  f2:	4630      	mov	r0, r6
+  f4:	f7ff fffe 	bl	0 <_ZN9PWMReader10readPulseAEv>
+  f8:	4603      	mov	r3, r0
+  fa:	f46f 6296 	mvn.w	r2, #1200	; 0x4b0
+  fe:	2100      	movs	r1, #0
+ 100:	ee07 3a90 	vmov	s15, r3
+ 104:	f5b3 7f7a 	cmp.w	r3, #1000	; 0x3e8
+ 108:	4620      	mov	r0, r4
+ 10a:	441a      	add	r2, r3
+ 10c:	eeb8 7b67 	vcvt.f64.u32	d7, s15
+ 110:	ed85 7b00 	vstr	d7, [r5]
+ 114:	d2e3      	bcs.n	de <main+0xde>
+ 116:	f7ff fffe 	bl	0 <_ZN16FlightController16set_control_modeE11ControlMode>
+ 11a:	ed95 7b00 	vldr	d7, [r5]
+ 11e:	e7e3      	b.n	e8 <main+0xe8>
+ 120:	2102      	movs	r1, #2
+ 122:	f7ff fffe 	bl	0 <_ZN16FlightController16set_control_modeE11ControlMode>
+ 126:	ed95 7b00 	vldr	d7, [r5]
+ 12a:	e7dd      	b.n	e8 <main+0xe8>
+ 12c:	2101      	movs	r1, #1
+ 12e:	f7ff fffe 	bl	0 <_ZN16FlightController16set_control_modeE11ControlMode>
+ 132:	ed95 7b00 	vldr	d7, [r5]
+ 136:	e7d7      	b.n	e8 <main+0xe8>
  138:	00000000 	.word	0x00000000
  13c:	00000000 	.word	0x00000000
  140:	00000000 	.word	0x00000000
  144:	00000000 	.word	0x00000000
  148:	00000000 	.word	0x00000000
  14c:	00000000 	.word	0x00000000
- 150:	00000010 	.word	0x00000010
+ 150:	00000000 	.word	0x00000000
  154:	00000000 	.word	0x00000000
- 158:	00000000 	.word	0x00000000
- 15c:	00000054 	.word	0x00000054
+ 158:	00000010 	.word	0x00000010
+ 15c:	00000000 	.word	0x00000000
  160:	00000000 	.word	0x00000000
- 164:	00000000 	.word	0x00000000
- 168:	00000074 	.word	0x00000074
- 16c:	00000000 	.word	0x00000000
+ 164:	00000054 	.word	0x00000054
+ 168:	00000000 	.word	0x00000000
+ 16c:	00000074 	.word	0x00000074
  170:	00000000 	.word	0x00000000
- 174:	00000000 	.word	0x00000000
+ 174:	00000090 	.word	0x00000090
+ 178:	00000000 	.word	0x00000000
+ 17c:	00000000 	.word	0x00000000
+ 180:	00000000 	.word	0x00000000

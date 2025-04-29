@@ -12,8 +12,8 @@ build/./src/sensors/VL53L.cpp.o: src/sensors/VL53L.cpp \
  teensy4/usb_audio.h teensy4/usb_touch.h teensy4/WCharacter.h \
  teensy4/elapsedMillis.h teensy4/Arduino.h teensy4/IntervalTimer.h \
  teensy4/CrashReport.h teensy4/Printable.h teensy4/WString.h \
- libraries/Wire/Wire.h libraries/Wire/WireIMXRT.h \
- libraries/vl53l1x-arduino-master/VL53L1X.h
+ libraries/vl53l1x-arduino-master/VL53L1X.h libraries/Wire/Wire.h \
+ libraries/Wire/WireIMXRT.h libraries/Wire/WireIMXRT.h
 src/sensors/VL53L.hpp:
 teensy4/Arduino.h:
 teensy4/WProgram.h:
@@ -54,6 +54,7 @@ teensy4/IntervalTimer.h:
 teensy4/CrashReport.h:
 teensy4/Printable.h:
 teensy4/WString.h:
+libraries/vl53l1x-arduino-master/VL53L1X.h:
 libraries/Wire/Wire.h:
 libraries/Wire/WireIMXRT.h:
-libraries/vl53l1x-arduino-master/VL53L1X.h:
+libraries/Wire/WireIMXRT.h:

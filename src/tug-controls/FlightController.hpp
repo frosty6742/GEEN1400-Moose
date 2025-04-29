@@ -7,23 +7,19 @@
 #include "pwm/PWMReader.h"
 #include "pwm/SparkMaxPWM.h"
 
-enum ControlMode {
-  LINE_FOLLOW,
-  MANUAL,
-  STOP,
-  TEST, 
-  RC
-};
+enum ControlMode { STOP, LINE_FOLLOW, RC, TEST, MANUAL, CALIBRATE };
 
 class FlightController {
 public:
-  FlightController(SparkMaxPWM &motorL, SparkMaxPWM &motorR, VL53L &tofD, BNO085 &bnoL, AS7341 &clrSensLD, AS7341 &clrSensRD, PWMReader pwmReader);
+  FlightController(SparkMaxPWM &motorL, SparkMaxPWM &motorR, VL53L &tofD,
+                   BNO085 &bnoL, AS7341 &clrSensLD, AS7341 &clrSensRD,
+                   PWMReader pwmReader);
   void update();
   void set_control_mode(ControlMode mode);
   void init();
 
 private:
-  //Passed in 
+  // Passed in
   SparkMaxPWM &motorL, &motorR;
   VL53L tofD;
   BNO085 bnoL;
@@ -40,7 +36,7 @@ private:
   void stop();
   void test();
   void rc();
-
+  void calibrate();
 };
 
 #endif
